@@ -7,7 +7,6 @@ build/
 .scrapy/
 .streamlit/secrets.toml
 .venv/
-data/crawled/
 # classified data IS committed so the dashboard works on deploy
 .ruff_cache/
 .pytest_cache/

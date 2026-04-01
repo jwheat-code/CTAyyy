@@ -1,0 +1,116 @@
+{
+  "url": "https://www.salesforce.com/blog/b2c-commerce-february-26-release/?bc=DB",
+  "slug": "b2c-commerce-february-26-release",
+  "title": "B2C Commerce February release: Innovate at the speed of the consumer",
+  "author": "Read More",
+  "published_date": "2026-02-25T21:37:51+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "The February ‘26 release fromAgentforce Commerceintroducesnew innovationsdesigned to remove hurdles and tedious, manual tasks for merchandisers and developers alike. From streamlined Page Designer workflows to a brand-new PWA Kit 3.16, these features are built to help your team spend less time on configuration and more time on high-impact strategy. Here’s a closer look at the new, generally available upgrades that will help you move faster and focus on what matters most: the customer experience.",
+      "word_count": 74,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agentforce Commerce",
+          "href": "https://www.salesforce.com/commerce/"
+        },
+        {
+          "text": "new innovations",
+          "href": "https://www.salesforce.com/commerce/innovations/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What’s new for merchandisers",
+      "text": "Measure the impact of your Shopper Agent:Reliable attribution and performance measurement is critical as organizations look to prove the value and ROI of AI tools. Within Commerce Intelligence reports and dashboards, merchants can now easily see orders and revenue directly attributed to the B2C Shopping Agent on any storefront. Page Designer granular replication:Publish content to production faster by running smaller, targeted replications of Page Designer pages. Now, you canselect which specific pages you’d like to replicateinstead of replicating an entire library. Saved Filters for Product Lists:Speed up your daily merchandising tasks by saving frequently used filters in Business Manager. Now, you can navigate through large catalogs faster. For example, a merchandiser can create an “Available for In Store Pickup” saved filter to instantly identify and promote In Store items to drive cross channel engagement. Enable frictionless checkout with OTP:Checkout is a make-or-break workflow and any friction can result in cart abandonment. Now, you can streamline the path to purchase for returning customers and ensure they can breeze through the process. Prefilling known information removes a manual step for shoppers and helps you significantly reduce abandonment rates.",
+      "word_count": 186,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "select which specific pages you’d like to replicate",
+          "href": "https://help.salesforce.com/s/articleView?id=commerce.b2c_rn_26_2_page_designer.htm&type=5"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "What’s new for developers",
+      "text": "B2C Commerce API Updates: We’re bringing our developers more endpoints, higher visibility into performance, and a library of agent skills to make it easier than ever to drive more revenue with Agentforce on your ecommerce site. New APIs and endpoints:Developers now get even more comprehensive management capabilities or product inventory records and for creating and updating Page Designer pages with the newInventory Lists APIandExperiences API.Enhanced SCAPI verbose logging:Gain morevisibility into site performance in Log Center, including request latency for Custom APIs along with existing details and added service runtimes with request latency for granular performance tracking. Powerful CLI Tools:Use this coding agent-ready, SCAPI-native CLI to perform all sorts of platform functions from CI/CD, eCDN Management, Managed Runtime maintenance, jobs, logs, content and more.Agent Skills Library:The new CLI comes with a library ofAgent “Skills”for B2C development. Supercharge Copilot, Cursor, Codex, and Claude code in common B2C development tasks like Custom APIs, Jobs, Controllers and headless development. PWA Kit Updates: Our Progressive Web App (PWA) Kit is our storefront technology for headless commerce, providing front-end developers with a flexible, agile approach to build and maintain modern shopping experiences. PWA Kit 3.16 is now generally available with new features that focus on localization updates and improvements related to SEO, performance, and the shopper experience. Launch Agentforce Shopper Agent from two places:In your PWA Kit Storefront, you can now give customers more ways to chat with your Shopper Agent for B2C Commerce. Shoppers can access the agent at the bottom of each pageandin the site header, bringing more visibility to helpful AI tools for product discovery and customer service.Vendor library updates:PWA Kit 3.16 now supports React 18, Node 20 Chakra 2, and more, offering better performance and access to the latest web development ecosystems.Manage Certificates for Composable Storefronts:Request, validate and renew TLS certificates for custom hostnames directly from the Managed Runtime UI and API, reducing the time needed to go live with new Storefronts.Commerce SDK React Hooks Integration:The @salesforce/commerce-sdk-react “hooks” integration decouples API calls from a project’s implementation, allows API calls to be upgraded as an npm library dependency, and brings along many of the great features (including state management, and others) via TanStack Query.",
+      "word_count": 361,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Inventory Lists API",
+          "href": "https://developer.salesforce.com/docs/commerce/commerce-api/references/inventory-lists"
+        },
+        {
+          "text": "Experiences API",
+          "href": "https://developer.salesforce.com/docs/commerce/commerce-api/references/experiences?meta=Summary"
+        },
+        {
+          "text": "Agent “Skills”",
+          "href": "https://salesforcecommercecloud.github.io/b2c-developer-tooling/guide/agent-skills.html"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "What’s new for admins",
+      "text": "We are continuing to harden the platform to ensure global scale and ironclad security. Automated Client Secret Rotation:WithinAccount Manager 3.5, you can now automate the rotation of SCAPI client secrets. This reduces the manual overhead of security maintenance and lowers the risk of credential compromise.eCDN WAFv2 & TLS 1.3:We’ve upgraded our security posture with WAFv2 enhancements and mandatoryTLS 1.3support, ensuring your storefront is protected against modern bot threats and that customer data is encrypted using the highest industry standards.Instance-Level Sandbox Control:Gain better visibility and control over your On-Demand Sandboxes with new usage reporting and availability controls in the Control Center.",
+      "word_count": 100,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "What do these new features mean for your business?",
+      "text": "When tech enables your teams to move faster, you can respond and adapt to market trends as they happen. You can monitor and double down on success, and change course quickly when issues arise. You won’t miss out on viral sales moments because you can’t make fast changes to your storefront or replicate page components in a timely manner. Agentforce Commerce is committed to the success of our merchants, and that means enabling you to innovate at the speed of the consumer.",
+      "word_count": 82,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "heading": "Explore release notes for the full feature list and documentation",
+      "text": "B2C Commerce 26.2 Release NotesAccount Manager 3.5 Release NotesPWA Kit 3.0.0 Release NotesComposable Storefront Release NotesSalesforce Commerce API (SCAPI) Documentation",
+      "word_count": 20,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "B2C Commerce 26.2 Release Notes",
+          "href": "https://help.salesforce.com/s/articleView?id=commerce.b2c_rn_26_2_release.htm&type=5"
+        },
+        {
+          "text": "Account Manager 3.5 Release Notes",
+          "href": "https://help.salesforce.com/s/articleView?id=commerce.account_manager_3_5_release.htm&type=5"
+        },
+        {
+          "text": "PWA Kit 3.0.0 Release Notes",
+          "href": "https://help.salesforce.com/s/articleView?id=commerce.pwa_kit_3_0_0_release.htm&type=5"
+        },
+        {
+          "text": "Composable Storefront Release Notes",
+          "href": "https://help.salesforce.com/s/articleView?id=commerce.composable_storefront_release_notes.htm&type=5"
+        },
+        {
+          "text": "Salesforce Commerce API (SCAPI) Documentation",
+          "href": "https://developer.salesforce.com/docs/commerce/commerce-api/references/about-commerce-api/about.html"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "See what’s next for B2C Commerce",
+      "body": "Learn more about our latest innovations and explore our upcoming roadmap.",
+      "button_text": "Watch the webinar",
+      "button_url": "https://www.salesforce.com/events/webinars/b2c-commerce-roadmap-innovation-growth-efficiency/",
+      "position_after_section": 5
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>The February ‘26 release from <a href=\"https://www.salesforce.com/commerce/\">Agentforce Commerce</a> introduces <a href=\"https://www.salesforce.com/commerce/innovations/\">new innovations</a> designed to remove hurdles and tedious, manual tasks for merchandisers and developers alike. From streamlined Page Designer workflows to a brand-new PWA Kit 3.16, these features are built to help your team spend less time on configuration and more time on high-impact strategy. Here’s a closer look at the new, generally available upgrades that will help you move faster and focus on what matters most: the customer experience.</p>\n<h2 class=\"wp-block-heading\" id=\"h-what-s-new-for-merchandisers\"><strong>What’s new for merchandisers</strong></h2>\n<p><strong>Measure the impact of your Shopper Agent: </strong>Reliable attribution and performance measurement is critical as organizations look to prove the value and ROI of AI tools.  Within Commerce Intelligence reports and dashboards, merchants can now easily see orders and revenue directly attributed to the B2C Shopping Agent on any storefront.</p>\n<script async=\"\" src=\"https://play.vidyard.com/embed/v4.js\" type=\"text/javascript\"></script>\n<img class=\"vidyard-player-embed\" data-type=\"inline\" data-uuid=\"2LoawsQnQimWqBUGGCw64X\" data-v=\"4\" src=\"https://salesforce.vidyard.com/watch/2LoawsQnQimWqBUGGCw64X\" style=\"width: 100%; margin: auto; display: block;\"/>\n<p><br/><strong>Page Designer granular replication:</strong> Publish content to production faster by running smaller, targeted replications of Page Designer pages. Now, you can <a href=\"https://help.salesforce.com/s/articleView?id=commerce.b2c_rn_26_2_page_designer.htm&amp;type=5\">select which specific pages you’d like to replicate</a> instead of replicating an entire library.</p>\n<p><strong>Saved Filters for Product Lists:</strong> Speed up your daily merchandising tasks by saving frequently used filters in Business Manager. Now, you can navigate through large catalogs faster. For example, a merchandiser can create an “Available for In Store Pickup” saved filter to instantly identify and promote In Store items to drive cross channel engagement.</p>\n<p><strong>Enable frictionless checkout with OTP:</strong> Checkout is a make-or-break workflow and any friction can result in cart abandonment. Now, you can streamline the path to purchase for returning customers and ensure they can breeze through the process. Prefilling known information removes a manual step for shoppers and helps you significantly reduce abandonment rates.</p>\n<script async=\"\" src=\"https://play.vidyard.com/embed/v4.js\" type=\"text/javascript\"></script>\n<img class=\"vidyard-player-embed\" data-type=\"inline\" data-uuid=\"S4bsAPhJoar2tpMeodWvVV\" data-v=\"4\" src=\"https://salesforce.vidyard.com/watch/S4bsAPhJoar2tpMeodWvVV\" style=\"width: 100%; margin: auto; display: block;\"/>\n<h2 class=\"wp-block-heading\" id=\"h-what-s-new-for-developers\">What’s new for developers</h2>\n<p><strong>B2C Commerce API Updates</strong>: We’re bringing our developers more endpoints, higher visibility into performance, and a library of agent skills to make it easier than ever to drive more revenue with Agentforce on your ecommerce site. </p>\n<ul class=\"wp-block-list\">\n<li><strong>New APIs and endpoints: </strong>Developers now get even more comprehensive management capabilities or product inventory records and for creating and updating Page Designer pages with the new <a href=\"https://developer.salesforce.com/docs/commerce/commerce-api/references/inventory-lists\"><strong>Inventory Lists API</strong></a> and <a href=\"https://developer.salesforce.com/docs/commerce/commerce-api/references/experiences?meta=Summary\"><strong>Experiences API</strong></a><strong>. </strong><br/><strong><br/></strong></li>\n<li><strong>Enhanced SCAPI verbose logging: </strong>Gain more<strong> </strong>visibility into site performance in Log Center, including request latency for Custom APIs along with existing details and added service runtimes with request latency for granular performance tracking.</li>\n</ul>\n<ul class=\"wp-block-list\">\n<li><strong>Powerful CLI Tools:</strong> Use this coding agent-ready, SCAPI-native CLI to perform all sorts of platform functions from CI/CD, eCDN Management, Managed Runtime maintenance, jobs, logs, content and more.<br/><br/></li>\n<li><strong>Agent Skills Library: </strong>The new CLI comes with a library of <a href=\"https://salesforcecommercecloud.github.io/b2c-developer-tooling/guide/agent-skills.html\"><strong>Agent “Skills”</strong></a> for B2C development. Supercharge Copilot, Cursor, Codex, and Claude code in common B2C development tasks like Custom APIs, Jobs, Controllers and headless development.</li>\n</ul>\n<script async=\"\" src=\"https://play.vidyard.com/embed/v4.js\" type=\"text/javascript\"></script>\n<img class=\"vidyard-player-embed\" data-type=\"inline\" data-uuid=\"uPjhPLZoioif2tH8RQitTF\" data-v=\"4\" src=\"https://salesforce.vidyard.com/watch/uPjhPLZoioif2tH8RQitTF\" style=\"width: 100%; margin: auto; display: block;\"/>\n<p><br/><strong>PWA Kit Updates</strong>: Our Progressive Web App (PWA) Kit is our storefront technology for headless commerce, providing front-end developers with a flexible, agile approach to build and maintain modern shopping experiences. PWA Kit 3.16 is now generally available with new features that focus on localization updates and improvements related to SEO, performance, and the shopper experience. </p>\n<ul class=\"wp-block-list\">\n<li><strong>Launch Agentforce Shopper Agent from two places:</strong> In your PWA Kit Storefront, you can now give customers more ways to chat with your Shopper Agent for B2C Commerce. Shoppers can access the agent at the bottom of each page <em>and</em> in the site header, bringing more visibility to helpful AI tools for product discovery and customer service. <br/></li>\n<li><strong>Vendor library updates: </strong>PWA Kit 3.16 now supports React 18, Node 20 Chakra 2, and more, offering better performance and access to the latest web development ecosystems.<br/></li>\n<li><strong>Manage Certificates for Composable Storefronts: </strong>Request, validate and renew TLS certificates for custom hostnames directly from the Managed Runtime UI and API, reducing the time needed to go live with new Storefronts.<br/></li>\n<li><strong>Commerce SDK React Hooks Integration:</strong> The @salesforce/commerce-sdk-react “hooks” integration decouples API calls from a project’s implementation, allows API calls to be upgraded as an npm library dependency, and brings along many of the great features (including state management, and others) via TanStack Query. </li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-what-s-new-for-admins\">What’s new for admins</h2>\n<p>We are continuing to harden the platform to ensure global scale and ironclad security.</p>\n<ul class=\"wp-block-list\">\n<li><strong>Automated Client Secret Rotation:</strong> Within <strong>Account Manager 3.5</strong>, you can now automate the rotation of SCAPI client secrets. This reduces the manual overhead of security maintenance and lowers the risk of credential compromise.</li>\n<li><strong>eCDN WAFv2 &amp; TLS 1.3:</strong> We’ve upgraded our security posture with WAFv2 enhancements and mandatory <strong>TLS 1.3</strong> support, ensuring your storefront is protected against modern bot threats and that customer data is encrypted using the highest industry standards.</li>\n<li><strong>Instance-Level Sandbox Control:</strong> Gain better visibility and control over your On-Demand Sandboxes with new usage reporting and availability controls in the Control Center.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-what-do-these-new-features-mean-for-your-business\"><strong>What do these new features mean for your business?</strong></h2>\n<p>When tech enables your teams to move faster, you can respond and adapt to market trends as they happen. You can monitor and double down on success, and change course quickly when issues arise. You won’t miss out on viral sales moments because you can’t make fast changes to your storefront or replicate page components in a timely manner. </p>\n<p>Agentforce Commerce is committed to the success of our merchants, and that means enabling you to innovate at the speed of the consumer.</p>\n<h2 class=\"wp-block-heading\" id=\"h-explore-release-notes-for-the-full-feature-list-and-documentation\">Explore release notes for the full feature list and documentation</h2>\n<ul class=\"wp-block-list\">\n<li><a href=\"https://help.salesforce.com/s/articleView?id=commerce.b2c_rn_26_2_release.htm&amp;type=5\">B2C Commerce 26.2 Release Notes</a></li>\n<li><a href=\"https://help.salesforce.com/s/articleView?id=commerce.account_manager_3_5_release.htm&amp;type=5\">Account Manager 3.5 Release Notes</a></li>\n<li><a href=\"https://help.salesforce.com/s/articleView?id=commerce.pwa_kit_3_0_0_release.htm&amp;type=5\">PWA Kit 3.0.0 Release Notes</a></li>\n<li><a href=\"https://help.salesforce.com/s/articleView?id=commerce.composable_storefront_release_notes.htm&amp;type=5\">Composable Storefront Release Notes</a></li>\n<li><a href=\"https://developer.salesforce.com/docs/commerce/commerce-api/references/about-commerce-api/about.html\">Salesforce Commerce API (SCAPI) Documentation</a></li>\n</ul>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>See what’s next for B2C Commerce</strong></h2>\n<p class=\"wp-block-offer__description\">Learn more about our latest innovations and explore our upcoming roadmap.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/events/webinars/b2c-commerce-roadmap-innovation-growth-efficiency/\" target=\"_self\">Watch the webinar</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<p></p>\n</div>"
+}

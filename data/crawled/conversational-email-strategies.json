@@ -1,0 +1,101 @@
+{
+  "url": "https://www.salesforce.com/blog/conversational-email-strategies/?bc=DB",
+  "slug": "conversational-email-strategies",
+  "title": "3 Conversational Email Strategies to End ‘Do Not Reply’ Messages",
+  "author": "More by Kimberly",
+  "published_date": "2026-03-16T20:28:41+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "For decades, the email inbox has been a logjam of one-way communication. We’ve all been guilty of using the dreaded “do-not-reply@company.com” address. Marketers send millions of emails, but they don’t have the time to read, let alone answer, millions of responses. As a result, we’ve forced customers to search for answers, effectively ending the most natural form of human connection: conversation. However, we are now embarking on a massive industry shift. The rise of autonomous AI agents has rendered the “do not reply” era obsolete, as this tool can use data and understand nuance to have two-way conversations. In this blog we look at how Conversational Email strategies help brands turn the inbox from a static channel into an intelligent, two-way interface.",
+      "word_count": 122,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "heading": "What is conversational marketing?",
+      "text": "Let’s first make sure we’re on the same page with a definition.Conversational marketingis an engagement approach that allows brands to turn their traditional, broadcast marketing channels into real-time conversations with their customers. AI agents across email, SMS and WhatsApp can detect a recipient reply, engage within the thread, and take action based on each customer’s response. Agentforce Marketing’s Conversational Email feature is GA in theSpring ‘26 release. This isn’t the same as the legacy instances where brands instruct users to respond with a specific keyword, forcing them into pre-defined buckets. Instead, Conversational marketing allows for free-form, natural language. For example, Salesforce’s Agentforce understands the full context of a customer’s past purchases, browsing behavior and specific questions, allowing for a truly personalized experience. Think of it like your customer’s own personal concierge service.",
+      "word_count": 132,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Conversational marketing",
+          "href": "https://www.salesforce.com/marketing/conversational-marketing/"
+        },
+        {
+          "text": "Spring ‘26 release",
+          "href": "https://www.salesforce.com/events/webinars/marketing-cloud-spring-26-release/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "How to get started with Conversational Email strategiesin Agentforce Marketing",
+      "text": "According to ourTenth Edition State of Marketing report, 83% of marketers see a demand for two-way dialogue. However, many still struggle to respond promptly. One pitfall is attempting to make everything conversational simultaneously right from the start. To implement the Conversational Email feature in Agentforce Marketing, prioritize a single use case to pilot. This makes it easier to prove ROI quickly, while also minimizing operational friction. The first step is to evaluate your customer journeys in these buckets: Customer intent:Is the customer likely to have follow-up questions?Conversion friction:Is a static landing page or app enough to resolve their problem?Dropoff:Is there a high dropoff from email open to click? If an email has high intent, high friction and high dropoff, it’s a great starting use case. This is the framework Salesforce followed ahead of last year’sDreamforce. We identified our pre-event emails as the ideal candidate for our first Conversational Email use case. Instead of searching through FAQs, attendees simply replied to our Dreamforce logistics emails with questions. They received instant answers, whether it was looking for the badge pickup location or asking for session recommendations. This proved that even at the scale of our largest global event, replacing a click with a conversation significantly improved the experience.",
+      "word_count": 206,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Tenth Edition State of Marketing report",
+          "href": "https://www.salesforce.com/marketing/resources/state-of-marketing-report/conf/"
+        },
+        {
+          "text": "Dreamforce",
+          "href": "https://youtu.be/CKr8vpCoN3Y?t=421&si=nNeBNURFftgBW1ia"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Conversational Email use cases to start with",
+      "text": "By focusing on specific, high intent moments, you can transform an email from a generic message to a digital assistant. From order management to appointment scheduling to technical troubleshooting, here are someuse casessorted by industry. Retail:Instead of a typical “You forgot this!” abandoned cart email, try asking the recipient if they have questions about size availability, color options or fit.Financial Services:If a client doesn’t complete an important loan application, encourage a reply and explain what documents are needed.Healthcare:Appointment adherence is critical, so provide proactive patient support by offering to answer questions or rescheduling directly in the thread.Travel & Hospitality:After a trip is booked, a hotel can coordinate dinner recommendations onsite to optimize the guest experience.",
+      "word_count": 115,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "use cases",
+          "href": "https://www.salesforce.com/agentforce/use-cases/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Conversational Email requires a mindset shift",
+      "text": "Email users have been trained not to reply to your marketing emails. Breaking that habit requires a shift in design and the user experience. You are no longer just sending an email – this needs to invite a conversation. Consider these tips: Lead with the call to action:Traditionally, the CTA is a button, but with Conversational Email, the CTA is the reply box. Add text that explicitly encourages a reply. The goal is to make replying feel natural.Start small:Don’t overhaul your entire newsletter. Start by adding a conversational callout to an existing high-performing trigger. This allows the user to discover the power of the reply organically. As they realize they get a smart, relevant response in seconds, their trust in the medium will grow.Don’t overdo it with visuals:Image-heavy templates scream “advertisement”. To signal an email is conversational, use a hybrid design. Keep the body text clean, but add a visual cue that indicates AI assistants are available to respond instantly.Measure engagement:Withrecent iOS and Android changes, open rates and click-through rates are less reliable. The AI-powered inbox is only going to continue this trend. Consider a shift toward tracking conversions, replies and downstream actions as more accurate metrics of success.",
+      "word_count": 199,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "recent iOS and Android changes",
+          "href": "https://www.salesforce.com/blog/ios-android-marketing-updates/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "How Agentforce Marketing helpsyour Conversational Email strategies",
+      "text": "When moving to autonomous engagement, the focus shifts to maintaining the high standards your brand has spent years building. Reliable, helpful information turns a casual subscriber into a lifelong advocate. This isn’t a chatbot in an email. It’s an intelligent extension of your team that knows your customer’s history as well as you do. This ensures that every decision and action operates within clear boundaries of governance and transparency. Unified data foundation:The agent isn’t guessing or improvising – every response is tailored to the individual because it is grounded in yourData 360instance. That means the agent understands your product catalogs, knowledge base articles, and real-time customer records. This gives Agentforce the context and data it needs to act with accuracy and confidence.Human in the loop:You define the tone, style and boundaries of the conversation, ensuring the agent is an extension of your team. And when a conversation requires empathy, nuance or a high-stakes decision, Agentforce provides a seamless hand-off to a service representative with full context of the interaction.Visibility and control:Trust is built through visibility. WithAgentforce Observability, marketers gain a holistic view of every conversation. You can monitor specific topics, resolution rates, and overall effectiveness in real-time. While the built-in safety guardrails ensure the agent stays focused on your business goals. The future of marketing isn’t just about email – it’s about meeting the customer wherever they are. Whether a customer replies to an email, sends a text or reaches out on WhatsApp, they should experience one continuous, intelligent conversation with your brand.Agentforce Marketingcan bridge these channels, turning fragmented touchpoints into a cohesive customer journey. The do-not-reply era is over. The “let’s talk” era has begun. Are you ready to reply?",
+      "word_count": 281,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Data 360",
+          "href": "https://www.salesforce.com/data/"
+        },
+        {
+          "text": "Agentforce Observability",
+          "href": "https://www.salesforce.com/agentforce/observability/"
+        },
+        {
+          "text": "Agentforce Marketing",
+          "href": "https://www.salesforce.com/marketing/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>For decades, the email inbox has been a logjam of one-way communication. We’ve all been guilty of using the dreaded “do-not-reply@company.com” address. Marketers send millions of emails, but they don’t have the time to read, let alone answer, millions of responses. As a result, we’ve forced customers to search for answers, effectively ending the most natural form of human connection: conversation.</p>\n<p>However, we are now embarking on a massive industry shift. The rise of autonomous AI agents has rendered the “do not reply” era obsolete, as this tool can use data and understand nuance to have two-way conversations. </p>\n<p>In this blog we look at how Conversational Email strategies help brands turn the inbox from a static channel into an intelligent, two-way interface.</p>\n<h2 class=\"wp-block-heading\" id=\"h-what-is-conversational-marketing\"><strong>What is conversational marketing?</strong></h2>\n<p>Let’s first make sure we’re on the same page with a definition. <a href=\"https://www.salesforce.com/marketing/conversational-marketing/\">Conversational marketing</a> is an engagement approach that allows brands to turn their traditional, broadcast marketing channels into real-time conversations with their customers. AI agents across email, SMS and WhatsApp can detect a recipient reply, engage within the thread, and take action based on each customer’s response. Agentforce Marketing’s Conversational Email feature is GA in the <a href=\"https://www.salesforce.com/events/webinars/marketing-cloud-spring-26-release/\" rel=\"noopener\" target=\"_blank\">Spring ‘26 release</a>.</p>\n<p>This isn’t the same as the legacy instances where brands instruct users to respond with a specific keyword, forcing them into pre-defined buckets. Instead, Conversational marketing allows for free-form, natural language. For example, Salesforce’s Agentforce understands the full context of a customer’s past purchases, browsing behavior and specific questions, allowing for a truly personalized experience. Think of it like your customer’s own personal concierge service. </p>\n<h2 class=\"wp-block-heading\" id=\"h-how-to-get-started-with-conversational-email-strategies-in-agentforce-marketing\"><strong>How to get started with Conversational Email strategies</strong> in Agentforce Marketing</h2>\n<p>According to our <a href=\"https://www.salesforce.com/marketing/resources/state-of-marketing-report/conf/\">Tenth Edition State of Marketing report</a>, 83% of marketers see a demand for two-way dialogue. However, many still struggle to respond promptly. One pitfall is attempting to make everything conversational simultaneously right from the start. To implement the Conversational Email feature in Agentforce Marketing, prioritize a single use case to pilot. This makes it easier to prove ROI quickly, while also minimizing operational friction.</p>\n<p>The first step is to evaluate your customer journeys in these buckets:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Customer intent: </strong>Is the customer likely to have follow-up questions?</li>\n<li><strong>Conversion friction: </strong>Is a static landing page or app enough to resolve their problem?</li>\n<li><strong>Dropoff: </strong>Is there a high dropoff from email open to click?</li>\n</ul>\n<p>If an email has high intent, high friction and high dropoff, it’s a great starting use case. </p>\n<p>This is the framework Salesforce followed ahead of last year’s <a href=\"https://youtu.be/CKr8vpCoN3Y?t=421&amp;si=nNeBNURFftgBW1ia\">Dreamforce</a>. We identified our pre-event emails as the ideal candidate for our first Conversational Email use case. Instead of searching through FAQs, attendees simply replied to our Dreamforce logistics emails with questions. They received instant answers, whether it was looking for the badge pickup location or asking for session recommendations. This proved that even at the scale of our largest global event, replacing a click with a conversation significantly improved the experience.</p>\n<h2 class=\"wp-block-heading\" id=\"h-conversational-email-use-cases-to-start-with\"><strong>Conversational Email use cases to start with</strong></h2>\n<p>By focusing on specific, high intent moments, you can transform an email from a generic message to a digital assistant. From order management to appointment scheduling to technical troubleshooting, here are some <a href=\"https://www.salesforce.com/agentforce/use-cases/\">use cases</a> sorted by industry.</p>\n<ul class=\"wp-block-list\">\n<li><strong>Retail: </strong>Instead of a typical “You forgot this!” abandoned cart email, try asking the recipient if they have questions about size availability, color options or fit.</li>\n<li><strong>Financial Services: </strong>If a client doesn’t complete an important loan application, encourage a reply and explain what documents are needed.</li>\n<li><strong>Healthcare: </strong>Appointment adherence is critical, so provide proactive patient support by offering to answer questions or rescheduling directly in the thread.</li>\n<li><strong>Travel &amp; Hospitality:</strong> After a trip is booked, a hotel can coordinate dinner recommendations onsite to optimize the guest experience.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-conversational-email-requires-a-mindset-shift\"><strong>Conversational Email requires a mindset shift</strong></h2>\n<p>Email users have been trained not to reply to your marketing emails. Breaking that habit requires a shift in design and the user experience. You are no longer just sending an email – this needs to invite a conversation. Consider these tips:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Lead with the call to action:</strong> Traditionally, the CTA is a button, but with Conversational Email, the CTA is the reply box. Add text that explicitly encourages a reply. The goal is to make replying feel natural.<br/></li>\n<li><strong>Start small: </strong>Don’t overhaul your entire newsletter. Start by adding a conversational callout to an existing high-performing trigger. This allows the user to discover the power of the reply organically. As they realize they get a smart, relevant response in seconds, their trust in the medium will grow.<br/></li>\n<li><strong>Don’t overdo it with visuals:</strong> Image-heavy templates scream “advertisement”. To signal an email is conversational, use a hybrid design. Keep the body text clean, but add a visual cue that indicates AI assistants are available to respond instantly.<br/></li>\n<li><strong>Measure engagement:</strong> With <a href=\"https://www.salesforce.com/blog/ios-android-marketing-updates/\">recent iOS and Android changes</a>, open rates and click-through rates are less reliable. The AI-powered inbox is only going to continue this trend. Consider a shift toward tracking conversions, replies and downstream actions as more accurate metrics of success.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-how-agentforce-marketing-helps-your-conversational-email-strategies\"><strong>How Agentforce Marketing helps</strong> your Conversational Email strategies</h2>\n<p>When moving to autonomous engagement, the focus shifts to maintaining the high standards your brand has spent years building. Reliable, helpful information turns a casual subscriber into a lifelong advocate. This isn’t a chatbot in an email. It’s an intelligent extension of your team that knows your customer’s history as well as you do. This ensures that every decision and action operates within clear boundaries of governance and transparency.</p>\n<ul class=\"wp-block-list\">\n<li><strong>Unified data foundation:</strong> The agent isn’t guessing or improvising – every response is tailored to the individual because it is grounded in your <a href=\"https://www.salesforce.com/data/\">Data 360</a> instance. That means the agent understands your product catalogs, knowledge base articles, and real-time customer records. This gives Agentforce the context and data it needs to act with accuracy and confidence.<br/></li>\n<li><strong>Human in the loop:</strong> You define the tone, style and boundaries of the conversation, ensuring the agent is an extension of your team. And when a conversation requires empathy, nuance or a high-stakes decision, Agentforce provides a seamless hand-off to a service representative with full context of the interaction.<br/></li>\n<li><strong>Visibility and control:</strong> Trust is built through visibility. With <a href=\"https://www.salesforce.com/agentforce/observability/\">Agentforce Observability</a>, marketers gain a holistic view of every conversation. You can monitor specific topics, resolution rates, and overall effectiveness in real-time. While the built-in safety guardrails ensure the agent stays focused on your business goals.</li>\n</ul>\n<p><br/>The future of marketing isn’t just about email – it’s about meeting the customer wherever they are. Whether a customer replies to an email, sends a text or reaches out on WhatsApp, they should experience one continuous, intelligent conversation with your brand. <a href=\"https://www.salesforce.com/marketing/\">Agentforce Marketing</a> can bridge these channels, turning fragmented touchpoints into a cohesive customer journey. The do-not-reply era is over. The “let’s talk” era has begun. Are you ready to reply?</p>\n</div>"
+}
