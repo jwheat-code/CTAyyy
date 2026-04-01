@@ -29,12 +29,18 @@ class SalesforceBlogSpider(scrapy.Spider):
         "CLOSESPIDER_ITEMCOUNT": 100,
     }
 
-    def __init__(self, max_articles=100, *args, **kwargs):
+    def __init__(self, max_articles=100, min_year="2026", *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.max_articles = int(max_articles)
+        self.min_year = str(min_year)
         self.seen_urls = set()
         self.article_count = 0
         self.custom_settings["CLOSESPIDER_ITEMCOUNT"] = self.max_articles
+
+        # Pre-load already-crawled slugs so we can skip them
+        from pathlib import Path
+        crawled_dir = Path(__file__).resolve().parent.parent.parent.parent.parent / "data" / "crawled"
+        self.crawled_slugs = {p.stem for p in crawled_dir.glob("*.json")} if crawled_dir.exists() else set()
 
     def parse(self, response):
         """Parse category listing pages to discover article URLs."""
@@ -72,6 +78,8 @@ class SalesforceBlogSpider(scrapy.Spider):
             canonical = f"https://www.salesforce.com/blog/{slug}/"
             if canonical in self.seen_urls:
                 continue
+            if slug in self.crawled_slugs:
+                continue
             self.seen_urls.add(canonical)
 
             if self.article_count >= self.max_articles:
@@ -98,9 +106,9 @@ class SalesforceBlogSpider(scrapy.Spider):
         date_meta = soup.select_one('meta[property="article:published_time"]')
         published_date = date_meta["content"] if date_meta else ""
 
-        # Skip articles older than 2025
-        if published_date and published_date[:4] < "2025":
-            self.logger.info(f"Skipping pre-2025 article: {slug} ({published_date[:10]})")
+        # Skip articles older than min_year
+        if published_date and published_date[:4] < self.min_year:
+            self.logger.info(f"Skipping pre-{self.min_year} article: {slug} ({published_date[:10]})")
             return
 
         # Category

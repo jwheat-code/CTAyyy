@@ -1,4 +1,6 @@
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -155,6 +157,33 @@ if analyses:
     health_df = build_health_df(analyses, articles)
     csv = health_df.to_csv(index=False)
     st.sidebar.download_button("Export Summary CSV", csv, "cta_health_summary.csv", "text/csv")
+
+# Crawl & Analyze button (local only)
+st.sidebar.markdown("---")
+st.sidebar.markdown("**Refresh Content**")
+unanalyzed = [s for s in articles if s not in analyses]
+if unanalyzed:
+    st.sidebar.caption(f"{len(unanalyzed)} crawled article(s) not yet analyzed")
+if st.sidebar.button("Crawl & Analyze New (2026)", type="primary"):
+    scripts_dir = PROJECT_ROOT / "scripts"
+    crawl_cmd = [sys.executable, str(scripts_dir / "crawl.py"), "--max-articles", "50", "--min-year", "2026"]
+    analyze_cmd = [sys.executable, str(scripts_dir / "analyze.py"), "--all", "--limit", "200"]
+    log = st.sidebar.empty()
+    try:
+        log.info("Crawling new 2026 articles...")
+        result = subprocess.run(crawl_cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+        if result.returncode != 0:
+            st.sidebar.error(f"Crawl failed: {result.stderr[-500:]}")
+        else:
+            log.info("Analyzing new articles...")
+            result = subprocess.run(analyze_cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+            if result.returncode != 0:
+                st.sidebar.error(f"Analysis failed: {result.stderr[-500:]}")
+            else:
+                log.success("Done! Reloading...")
+                st.rerun()
+    except Exception as e:
+        st.sidebar.error(f"Error: {e}")
 
 # --- Main Content ---
 tab1, tab2, tab3 = st.tabs(["Article Overview", "Section Analysis", "Batch Summary"])

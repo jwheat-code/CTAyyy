@@ -17,6 +17,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="Crawl Salesforce blog for CTA audit")
     parser.add_argument("--max-articles", type=int, default=20, help="Max articles to crawl")
+    parser.add_argument("--min-year", type=str, default="2026", help="Skip articles older than this year")
     args = parser.parse_args()
 
     settings = {
@@ -42,7 +43,7 @@ def main():
     }
 
     process = CrawlerProcess(settings)
-    process.crawl(SalesforceBlogSpider, max_articles=args.max_articles)
+    process.crawl(SalesforceBlogSpider, max_articles=args.max_articles, min_year=args.min_year)
     process.start()
 
 
