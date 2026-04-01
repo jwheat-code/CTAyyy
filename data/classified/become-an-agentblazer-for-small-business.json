@@ -1,0 +1,410 @@
+{
+  "url": "https://www.salesforce.com/blog/become-an-agentblazer-for-small-business/?bc=DB",
+  "slug": "become-an-agentblazer-for-small-business",
+  "title": "Become An Agentblazer For Small Business",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "starter"
+        ],
+        "topic_tags": [
+          "agentblazer",
+          "small_business",
+          "ai_adoption",
+          "agentforce_360",
+          "smb"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a clear introduction section focused on educating small business owners about the \"Agentblazer\" concept and AI readiness. The content is definitional and conceptual (\"What's all the buzz around\", \"what it means to be\"), indicating learning intent at the awareness stage. The target audience is explicitly small business owners, making business_leader the primary persona. The section introduces Agentforce 360 and positions it for SMBs, aligning with both agentforce and starter products."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "ai-report",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - this awareness-stage CTA about AI matches the section's focus on AI adoption for small businesses. The business_leader persona and agentforce product focus align exactly with the section's classification."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.75,
+          "match_rationale": "Strong match for the business_leader persona and agentforce product. While it's consideration-stage (one step ahead of awareness), it's appropriate for readers who just learned about Agentblazers and want to build their AI strategy."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Good alignment with the small business focus and starter product mentioned in the classification. The decision-stage CTA might be slightly ahead, but the business_leader persona match and SMB focus make it relevant."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is an Agentblazer for small business?",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "general"
+        ],
+        "topic_tags": [
+          "agentblazer",
+          "small_business",
+          "ai_transformation",
+          "competitive_advantage",
+          "crm"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a definitional, inspirational section that introduces the concept of being an \"Agentblazer\" without diving into specific product features or implementation details. It's designed to inspire small business owners to see themselves as AI pioneers, positioning them at the awareness stage where they're learning about a new concept and mindset rather than evaluating specific solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.8,
+          "match_rationale": "Strong match - after learning what an Agentblazer is, business leaders would logically want to see Agentforce in action. This moves them from awareness to consideration, which is appropriate funnel progression."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.75,
+          "match_rationale": "Good fit - business leaders inspired by the Agentblazer concept would want actionable guidance on building their agentic AI strategy. Matches persona and product focus while advancing to consideration stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "What is Agentforce 360?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "digital_labor",
+          "small_business",
+          "automation",
+          "agentforce_360"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a definitional section explaining \"What is Agentforce 360\" which is classic awareness-stage, learning intent content. The small business focus and basic product explanation targets business leaders who are just discovering AI agent solutions. High confidence due to clear educational framing."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "ai-report",
+          "score": 0.9,
+          "match_rationale": "Perfect alignment - business leader persona learning about AI agents in awareness stage. After reading about Agentforce 360, they'd naturally want broader AI insights. Product (agentforce) and funnel stage (awareness) match exactly."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.85,
+          "match_rationale": "Strong match for business leaders who just learned what Agentforce 360 is and are ready to think strategically about implementation. Moves them naturally from awareness to consideration funnel stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Why small businesses need the Agentblazer mindset",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "general"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_agents",
+          "agentblazer",
+          "digital_transformation",
+          "automation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section introduces the conceptual \"Agentblazer mindset\" to small business owners, focusing on inspiring them about AI's transformative potential rather than specific product features. The tone is aspirational and educational, characteristic of awareness-stage content that builds interest in AI adoption before introducing specific solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders inspired by the Agentblazer mindset section. After learning why they need this mindset, they'll want strategic guidance on building their agentic AI strategy. Aligns with Agentforce product focus and moves them from awareness to consideration."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.7,
+          "match_rationale": "Good fit for business leaders who are inspired by the Agentblazer concept and want to see Agentforce capabilities in action. Moves them one step ahead to consideration stage to see how the platform can deliver on the promised transformation."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "How to become an Agentblazer for small business",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "platform"
+        ],
+        "topic_tags": [
+          "agentblazer",
+          "small_business",
+          "ai_implementation",
+          "automation",
+          "trailhead_training"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly implementing intent with concrete step-by-step instructions for small business leaders ready to adopt Agentforce 360. The decision-stage classification is supported by the assumption that readers have already decided to become \"Agentblazers\" and need implementation guidance. Primary persona is business_leader as it addresses operational assessment and strategy, with secondary admin persona for the technical implementation aspects."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section is specifically about small business implementation and mentions 'start small', matching the Starter Suite's positioning. The business_leader persona and decision funnel stage align perfectly with someone ready to take action after learning implementation steps."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.85,
+          "match_rationale": "Strong product alignment with Agentforce and agentblazer content. While it's consideration stage vs. decision, it's still valuable for business leaders who want to see the product in action before committing. The section discusses Agentforce 360 integration extensively."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.75,
+          "match_rationale": "Good match for decision-stage business leaders who are ready to implement but may need expert guidance. The section's focus on strategy development and implementation planning suggests readers might benefit from talking to a Salesforce expert about their specific needs."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "How Agentforce 360 empowers every team in your small business",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "marketing_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "sales_automation",
+          "marketing_automation",
+          "crm"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section targets small business owners/leaders evaluating how Agentforce 360 could benefit their teams. The detailed feature explanations and specific use cases indicate consideration stage content for readers comparing solutions. The focus on SMB benefits and team empowerment suggests business leaders as the primary audience, with sales leaders as secondary given the heavy sales focus."
+      },
+      "existing_cta": {
+        "heading": "Boost team productivity with Slack",
+        "body": "Bring together your team, your customers, and your tools to help take your business to the next level with Slack — it’s where business gets done.",
+        "button_text": "Try for free",
+        "button_url": "https://www.salesforce.com/small-business/collaboration/?d=bcta",
+        "position_after_section": 5
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.2,
+        "funnel_alignment": "mismatch",
+        "persona_match": "partial",
+        "product_alignment": "mismatch",
+        "issues": [
+          "Product mismatch: CTA promotes Slack while section discusses Agentforce 360 and sales automation",
+          "Content disconnect: Section focuses on AI-powered sales automation but CTA offers team collaboration tools",
+          "Missed conversion opportunity: Reader evaluating Agentforce solutions gets unrelated Slack trial offer"
+        ],
+        "rationale": "This Slack collaboration CTA completely misaligns with a section focused on Agentforce AI capabilities for small business automation and sales optimization."
+      },
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect match for business leaders evaluating Agentforce after reading about how it empowers teams. Section focuses heavily on Agentforce 360 capabilities, and this CTA allows them to see the product in action at the consideration stage."
+        },
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Strong alignment since the section extensively covers sales automation, lead management, and CRM capabilities. Business leaders evaluating these features would benefit from seeing Sales Cloud's specific capabilities in action."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Why Salesforce is the right choice for Agentblazers",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "general"
+        ],
+        "topic_tags": [
+          "agentblazer",
+          "small_business",
+          "ai_automation",
+          "customer_data",
+          "revenue_growth"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section directly positions Salesforce as the solution for small businesses wanting to become \"Agentblazers.\" The language is persuasive rather than educational, with specific value propositions. Targets business leaders at SMBs who are evaluating Salesforce's capabilities for growth and efficiency."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.85,
+          "match_rationale": "Strong match for SMB focus with starter product alignment. Business leader persona matches, and decision-stage CTA appropriately advances consideration-stage readers who are evaluating Salesforce."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.8,
+          "match_rationale": "Good product and persona alignment with Agentforce focus for business leaders. Consideration-stage guide helps readers develop their agentic AI strategy after learning why Salesforce is the right choice."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "Boost your growth with Agentforce 360 today",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_agents",
+          "business_growth",
+          "efficiency",
+          "agentblazer"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly a decision-stage section with multiple calls-to-action (free trial, Pro Suite, Activate Foundations). The reader intent is implementing as it's encouraging action to \"start your journey\" and provides specific next steps. Primary persona is business_leader as it focuses on growth, efficiency, and competitive advantage for small businesses. High confidence due to explicit trial offers and action-oriented language."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "contact-sales",
+          "score": 0.8,
+          "match_rationale": "Strong match for business leaders ready to implement. After reading about growth opportunities with Agentforce 360, a business leader would want to speak with an expert to discuss their specific implementation needs. Matches the decision funnel stage and business_leader persona perfectly."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.7,
+          "match_rationale": "Good match for the Agentforce product focus and business_leader persona. However, this is a consideration-stage CTA while the reader is in decision stage and ready to implement. Still relevant as they may want to see the product in action before committing."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "platform"
+        ],
+        "topic_tags": [
+          "agentblazer",
+          "ai_agents",
+          "small_business",
+          "automation",
+          "implementation_guide"
+        ],
+        "confidence": 0.9,
+        "rationale": "This FAQ section provides concrete implementation steps and actionable guidance for small business owners to become \"Agentblazers\" using Agentforce. The content includes specific next steps like trying Starter Suite for free, exploring Pro Suite, and training on Trailhead, indicating readers are ready to take action. The focus on small business owners/entrepreneurs as the primary audience and the practical how-to nature suggests decision-stage intent with implementing reader behavior."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Visit Trail",
+        "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-essentials-small-business/?d=bcta",
+        "position_after_section": 8
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "partial",
+        "product_alignment": "mismatch",
+        "issues": [
+          "Wrong funnel stage - offering basic education when readers need implementation help",
+          "Product mismatch - links to general 'essentials' instead of Agentforce/AI content",
+          "Missed conversion opportunity - decision-stage readers should get trial/demo CTAs"
+        ],
+        "rationale": "This awareness-stage educational CTA mismatches the decision-stage FAQ section where business leaders need implementation guidance, not basic learning modules."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match - this FAQ section specifically mentions trying Salesforce's Starter Suite for free as a concrete next step for becoming an Agentblazer. The section is decision-stage content for business leaders interested in starter/small business solutions, making this CTA highly relevant to what readers are thinking about after learning implementation steps."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.85,
+          "match_rationale": "Strong alignment - the section focuses heavily on Agentforce and becoming an 'Agentblazer.' After reading implementation guidance, business leaders would naturally want to see Agentforce in action. However, this is consideration-stage which is one step behind the decision-stage content, making it slightly less optimal than the trial CTA."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.06666666666666668,
+  "misaligned_count": 9
+}

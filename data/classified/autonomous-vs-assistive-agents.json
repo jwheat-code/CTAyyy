@@ -1,0 +1,314 @@
+{
+  "url": "https://www.salesforce.com/blog/autonomous-vs-assistive-agents/?bc=DB",
+  "slug": "autonomous-vs-assistive-agents",
+  "title": "Autonomous vs Assistive Agents: Which is Right for Your Small Business?",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "automation",
+          "customer_service",
+          "crm"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an educational introduction section that defines concepts (autonomous vs assistive agents) for small business owners who are learning about AI agents. The content is awareness-stage as it's teaching fundamentals rather than comparing specific solutions. The primary persona is business_leader since it specifically targets SMB owners, with potential secondary appeal to general audience interested in AI concepts. Product alignment includes agentforce (core AI agents topic), starter (SMB focus), and sales_cloud (CRM context mentioned)."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "ai-report",
+          "score": 0.9,
+          "match_rationale": "Perfect match - reader is in awareness stage learning about AI agents, this is an awareness-level resource about AI that aligns with the Agentforce product focus and targets business leaders"
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.85,
+          "match_rationale": "Excellent match - after learning about autonomous and assistive agents, business leaders would naturally want to build their AI strategy with Agentforce, moving from awareness to consideration"
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Good match for small business leaders learning about AI automation - the Starter Suite aligns with the small business focus and provides a natural next step for implementation"
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What are autonomous agents?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "general"
+        ],
+        "topic_tags": [
+          "autonomous_agents",
+          "ai_automation",
+          "small_business",
+          "customer_service",
+          "ai_fundamentals"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an educational section defining autonomous agents and their applications. The \"What are...\" heading indicates learning intent at the awareness stage. The content targets small business owners (business leaders) explaining AI concepts without promoting specific Salesforce products, though it aligns with Agentforce capabilities."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - reader just learned about autonomous agents and is now ready to understand how to build an agentic AI strategy. Matches business_leader persona, agentforce product focus, and consideration funnel stage (one step ahead of awareness)."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.7,
+          "match_rationale": "Good progression from learning about autonomous agents to seeing Agentforce in action. Matches business_leader persona and agentforce product focus, though consideration stage is slightly ahead of current awareness stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "​​What are assistive agents?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "assistive_agents",
+          "ai_agents",
+          "small_business",
+          "automation",
+          "customer_service"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an educational section defining assistive agents with examples and pros/cons. The content targets business leaders learning about AI agent concepts, with specific mention of small business context. While it includes a Salesforce Agentforce example, the focus is on explaining the concept rather than selling the solution."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - after learning what assistive agents are, business leaders would naturally want to see a real implementation. Agentforce directly matches the AI agents topic and targets the right persona and funnel stage."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.75,
+          "match_rationale": "Strong topical match for readers interested in AI agents. The State of AI Report provides broader context that complements the assistive agents education, matching awareness stage and business leader persona."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Key differences between autonomous and assistive agents",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "autonomous_agents",
+          "assistive_agents",
+          "small_business",
+          "automation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides a detailed comparison of two types of AI agents, helping readers evaluate which solution fits their needs. The educational yet comparative tone and focus on business decision factors places it in the consideration stage. The target of small businesses and decision-oriented content indicates business leaders as the primary audience, with IT leaders as secondary since they'd be involved in implementation. High confidence due to clear evaluative language and structured comparison format."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.85,
+          "match_rationale": "Strong strategic match - after understanding agent differences, a business leader would benefit from strategic guidance on implementing agentic AI. Matches persona and consideration stage, though slightly less immediately actionable than the demo."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.65,
+          "match_rationale": "Good product alignment with starter suite mentioned in section classification, and matches business_leader persona. However, this is decision-stage CTA which may be one step ahead, and doesn't directly relate to the AI agents content the reader just consumed."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Choosing the right agent for your small business in 3 steps",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "automation",
+          "customer_service",
+          "decision_framework"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides a structured decision-making framework for small businesses choosing between AI agent types, indicating readers are actively evaluating solutions. The practical 3-step approach, budget considerations, and CTA for Starter Suite trial clearly position this in the consideration stage. Business leaders are the primary audience given the focus on business strategy, budget, and operational decisions, with IT leaders as secondary given technical integration considerations."
+      },
+      "existing_cta": {
+        "heading": "Kickstart your SMB with Starter Suite",
+        "body": "See results from day one with a CRM designed for SMBs — the all-in-one suite for productivity. It all starts with Starter Suite.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Free trial CTA jumps ahead of the reader's evaluation process",
+          "Focuses on Starter Suite CRM instead of the agent selection guidance the reader is seeking",
+          "No connection to the 3-step agent selection framework discussed in the section"
+        ],
+        "rationale": "The CTA offers a free trial (decision-stage) when readers are still evaluating agent options (consideration-stage), creating a significant funnel mismatch."
+      },
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section is about choosing AI agents for small business, reader is evaluating options, and this CTA lets them see Agentforce in action. Matches consideration funnel stage, business_leader persona, and agentforce product focus."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.75,
+          "match_rationale": "Good fit for small business context - since the section focuses on small business needs and mentions starter-level solutions, this trial offer for Starter Suite could appeal to business leaders ready to take next steps."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Best practices for implementing these agents",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "implementation",
+          "best_practices",
+          "small_business",
+          "autonomous_agents"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides tactical implementation guidance with specific best practices for deploying AI agents in small businesses. The how-to nature and detailed operational advice indicates readers are past evaluation and ready to implement. The SMB focus and practical recommendations around training, integration, and expectations management suggest business leaders who have decided to move forward and need execution guidance."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.75,
+          "match_rationale": "Strong match for SMB audience in decision stage. After reading implementation best practices, business leaders would want to try the starter suite that includes AI agent capabilities. Aligns with starter product focus and decision funnel stage."
+        },
+        {
+          "cta_id": "service-cloud-trial",
+          "score": 0.65,
+          "match_rationale": "Good fit since the section discusses customer service agents (chatbots handling inquiries). Business leaders ready to implement after learning best practices would benefit from trying Service Cloud's agent capabilities. Matches decision stage and service_cloud product alignment."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Autonomous and assistive agents are here for your small business",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "einstein_ai",
+          "sales_cloud",
+          "marketing_cloud",
+          "commerce_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "autonomous_agents",
+          "assistive_agents",
+          "customer_data"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is clearly targeting small business owners/leaders who are evaluating AI agent solutions. The content presents the value proposition of agents beyond basic automation, mentions specific Salesforce products (Agentforce, Starter Suite, Pro Suite), and provides multiple pathways for different customer stages. The reader is in consideration mode, weighing the benefits of AI agents for their business operations across multiple functions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section specifically mentions Agentforce and targets business leaders evaluating AI agents. The reader is at consideration stage and would logically want to see Agentforce in action after learning about autonomous and assistive agents."
+        },
+        {
+          "cta_id": "data-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Good fit - the section emphasizes getting customer data ready for AI, and this CTA demonstrates how to unify customer data. Matches the business leader persona and consideration funnel stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.05714285714285715,
+  "misaligned_count": 7
+}

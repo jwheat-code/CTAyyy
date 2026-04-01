@@ -1,0 +1,280 @@
+{
+  "url": "https://www.salesforce.com/blog/automate-your-small-business/?bc=DB",
+  "slug": "automate-your-small-business",
+  "title": "Automate Your Startup or SMB With These AI Tips and Tools",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "general"
+        ],
+        "topic_tags": [
+          "automation",
+          "small_business",
+          "ai_tools",
+          "efficiency",
+          "cost_savings"
+        ],
+        "confidence": 0.9,
+        "rationale": "This introduction section is clearly educational, teaching SMB leaders about automation concepts and benefits. It's awareness-stage content that introduces problems and solutions without pushing specific products yet. The mention of Agentforce 360 in the outline suggests product alignment, but the primary focus is on general automation education for small businesses."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "ai-report",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with section's AI focus and awareness stage. Business leaders reading about AI automation tools would naturally want to learn more about the state of AI, making this highly relevant for their journey."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.75,
+          "match_rationale": "Strong product alignment with Agentforce and matches business leader persona. Moves readers from awareness to consideration by offering strategic guidance on implementing AI automation, which builds on the section's automation themes."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Excellent persona and product fit for small business leaders interested in automation. While jumping to decision stage, the Starter Suite is specifically designed for SMBs exploring automation solutions, making it relevant despite the funnel stage gap."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is automation, really?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "automation",
+          "ai_strategy",
+          "smb",
+          "crm",
+          "productivity"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational, defining automation and AI concepts with industry statistics. It targets SMB business leaders who are learning about AI applications rather than evaluating specific solutions. The awareness stage classification is supported by the conceptual \"what is\" framing and broad educational approach without product-specific details."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "trailhead-ai-skills",
+          "score": 0.75,
+          "match_rationale": "Excellent follow-up for readers interested in learning more about AI after reading about AI automation trends. Matches awareness funnel stage and provides practical next step for business leaders wanting to build AI knowledge."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.7,
+          "match_rationale": "Strong consideration-stage CTA that naturally follows awareness content about AI strategy. Business leaders reading about AI trends would logically want to build their own agentic AI strategy, though this moves them one funnel stage ahead."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Why SMBs need automation",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "starter",
+          "sales_cloud",
+          "marketing_cloud",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "automation",
+          "smb",
+          "ai_crm",
+          "marketing_automation",
+          "cost_reduction"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining the value and benefits of automation for SMBs. The reader is learning about automation concepts rather than evaluating specific solutions. It targets business leaders (especially SMB owners) who may not yet realize they need CRM/automation solutions. While it mentions Starter Suite briefly, the focus is on educating about automation benefits generally, placing it in the awareness stage."
+      },
+      "existing_cta": {
+        "heading": "Boost team productivity with Slack",
+        "body": "Bring together your team, your customers, and your tools to help take your business to the next level with Slack — it’s where business gets done.",
+        "button_text": "Try for free",
+        "button_url": "https://www.salesforce.com/small-business/collaboration/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "mismatch",
+        "issues": [
+          "Funnel stage mismatch: 'Try for free' is decision-stage but section is awareness-stage focused on learning about automation benefits",
+          "Product misalignment: CTA promotes Slack collaboration while section discusses CRM automation (Sales Cloud, Marketing Cloud, Einstein AI)",
+          "Missed opportunity: Section primes readers for CRM automation content, but CTA diverts to unrelated collaboration tool"
+        ],
+        "rationale": "The CTA promotes Slack (collaboration tool) with a trial offer to awareness-stage readers learning about CRM automation benefits, creating both product and funnel stage mismatches."
+      },
+      "recommendations": [
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with section content about AI CRM and automation benefits. Business leaders reading about CRM automation would naturally want to see how Sales Cloud delivers these capabilities. Funnel stage progression from awareness to consideration is ideal."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.8,
+          "match_rationale": "Excellent match for SMB-focused section about automation needs. Starter Suite is specifically designed for small businesses and addresses the cost reduction and efficiency themes. Decision-stage CTA appropriate for business leaders ready to take action."
+        },
+        {
+          "cta_id": "marketing-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Strong relevance to marketing automation themes mentioned in the section. Business leaders learning about automation benefits would be interested in seeing marketing automation in action. Good funnel progression from awareness to consideration."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Top tools for small business automation and AI",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "service_cloud",
+          "marketing_cloud",
+          "starter",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "small_business_automation",
+          "ai_tools",
+          "crm_solutions",
+          "startup_technology",
+          "business_efficiency"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly evaluating different automation tools for small businesses, with Salesforce CRM prominently featured as the primary recommendation. The content targets business leaders seeking solutions to automate their operations, placing it in the consideration stage as readers are comparing tool options. The strong emphasis on Salesforce CRM's comprehensive capabilities suggests alignment with sales_cloud, service_cloud, and starter products for SMBs."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section discusses small business automation tools and the reader (business leader) is evaluating options. Salesforce Starter Suite is specifically designed for small businesses and matches the consideration-to-decision funnel progression. The section mentions CRM as the foundational tool, making this highly relevant."
+        },
+        {
+          "cta_id": "service-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Good relevance - the section discusses customer service automation including chatbots and service agents. Business leaders evaluating automation tools would find value in seeing Service Cloud's capabilities, especially given the mention of customer service improvements in the text."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "How Agentforce 360 helps small businesses automate and scale",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_automation",
+          "small_business",
+          "customer_service",
+          "scaling",
+          "smb_solutions"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is specifically targeting small business leaders who are evaluating AI automation solutions for customer service. It presents Agentforce 360 as a solution with concrete benefits and real customer proof (VEV case study), indicating consideration stage content. The reader intent is evaluating because they're being shown specific capabilities and outcomes rather than just learning concepts."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section is specifically about Agentforce 360 for small businesses, the reader (business leader) is evaluating this solution after reading about its benefits and real customer example (VEV). A demo is the natural next step in the consideration funnel stage."
+        },
+        {
+          "cta_id": "service-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Strong secondary option - the section focuses heavily on customer service automation and scaling, which aligns with Service Cloud. The business leader persona matches, and demo format fits the consideration stage where they're evaluating solutions."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Step into the future with small business automation and AI",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "agentforce",
+          "general"
+        ],
+        "topic_tags": [
+          "small_business",
+          "automation",
+          "ai_tools",
+          "productivity",
+          "growth"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly decision-stage content with multiple direct CTAs (free trial, explore Pro Suite, activate Foundations). The reader intent is problem_solving as it addresses the specific pain point of manual work slowing down small businesses. The primary persona is business_leader as it focuses on SMB/startup leaders dealing with operational efficiency and growth. The content promotes Starter Suite, mentions Agentforce, and discusses general automation principles."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - section explicitly mentions 'Start your automation journey with a free trial of Starter Suite' and targets business leaders at decision stage for small business automation. The CTA directly matches the section's call to action."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.75,
+          "match_rationale": "Good decision-stage CTA for business leaders who have read about automation benefits and are ready to discuss implementation. General product focus allows discussion of multiple solutions mentioned (Starter, Agentforce)."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.06666666666666667,
+  "misaligned_count": 6
+}

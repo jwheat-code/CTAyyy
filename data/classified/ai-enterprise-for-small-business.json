@@ -1,0 +1,343 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-enterprise-for-small-business/?bc=DB",
+  "slug": "ai-enterprise-for-small-business",
+  "title": "How Startups and SMBs Are Competing with Enterprise-Level AI",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "agentforce",
+          "general"
+        ],
+        "topic_tags": [
+          "ai_adoption",
+          "smb_competitiveness",
+          "digital_transformation",
+          "productivity",
+          "customer_experience"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an inspirational overview section that motivates SMB leaders about AI's potential to level the playing field with enterprises. It's awareness-stage content that builds excitement around AI adoption rather than promoting specific solutions. The statistics and competitive framing appeal primarily to business leaders making strategic decisions about AI investment."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "ai-report",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - this section is about AI adoption for SMBs at the awareness stage, targeting business leaders. After reading about AI statistics and benefits, readers would naturally want deeper insights from the State of AI Report."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.75,
+          "match_rationale": "Strong match - the section discusses AI strategy and implementation for businesses. Business leaders reading about AI adoption would benefit from a strategic guide to building their agentic AI approach."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Good fit for SMB audience - after learning about AI benefits and competitiveness, small business leaders may be ready to explore Salesforce solutions designed specifically for their size business."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Maximize productivity wins with AI automation",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "slack",
+          "general"
+        ],
+        "topic_tags": [
+          "ai_automation",
+          "smb_productivity",
+          "crm",
+          "team_efficiency",
+          "enterprise_capabilities"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section targets SMB leaders evaluating productivity solutions. The content compares enterprise vs SMB approaches to productivity, positioning AI-powered tools like CRM and Slack as equalizers. The explicit mention of CRM automation and Slack capabilities indicates consideration-stage content for business leaders weighing tool investments."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.9,
+          "match_rationale": "Perfect alignment with section content that heavily emphasizes CRM productivity benefits for SMBs. The section specifically mentions 'customer relationship management (CRM)' as a key solution for automating sales, marketing, and service efforts. Reader is evaluating productivity solutions and this demo directly addresses their CRM evaluation needs."
+        },
+        {
+          "cta_id": "slack-demo",
+          "score": 0.8,
+          "match_rationale": "Excellent match as the section explicitly mentions 'Slack, one of the top productivity tools for most businesses' and positions it as a key team collaboration solution. Since the reader just learned about Slack's productivity benefits, they're primed to see it in action."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Strong fit for the SMB audience explicitly targeted throughout this section. The content focuses on how small teams can achieve enterprise-scale efficiency, and Starter Suite is designed specifically for small businesses looking for comprehensive productivity solutions at their scale."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Strategically invest in AI that scales",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter",
+          "sales_cloud",
+          "data_cloud",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "ai_investment",
+          "smb_strategy",
+          "crm_foundation",
+          "scalable_solutions",
+          "automation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting SMB business leaders who are evaluating AI investment strategies. The content compares enterprise vs SMB approaches to AI, provides specific product recommendations (Starter Suite), and includes a clear CTA to \"Try it for free.\" The focus on strategic investment decisions and ROI considerations indicates consideration stage, while the comparison framework shows evaluating intent."
+      },
+      "existing_cta": {
+        "heading": "Wherever you are — just get started.",
+        "body": "No matter where you are on your journey as a business owner, you can get started with Starter Suite for free — the CRM made for growth.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "partial",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment with consideration stage and starter product discussion, but the casual tone doesn't fully match business leader expectations."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.9,
+          "match_rationale": "Perfect match for SMB leaders evaluating AI investments. The section discusses how SMBs need affordable, scalable solutions that start simple and grow over time. Starter Suite aligns with the 'start with solutions costing less than streaming services' message and provides the CRM foundation mentioned in the product alignment."
+        },
+        {
+          "cta_id": "data-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Good alignment for business leaders evaluating scalable AI solutions. Data Cloud provides the unified data foundation needed for the AI investment strategy discussed, and the demo format matches the consideration stage where readers want to see capabilities before deciding."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Deliver enterprise customer experiences with AI",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "service_cloud",
+          "sales_cloud",
+          "marketing_cloud",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "customer_experience",
+          "ai_automation",
+          "smb_solutions",
+          "customer_service",
+          "competitive_advantage"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting SMB business leaders who are evaluating how to compete with enterprise-level customer service using AI. The content compares enterprise vs SMB approaches and positions unified CRM platforms as the solution. The \"Try it for free\" CTA indicates consideration stage, and the focus on customer service automation aligns strongly with Service Cloud and related AI capabilities."
+      },
+      "existing_cta": {
+        "heading": "Build a loyal customer base with smarter, faster service solutions.",
+        "body": "",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/small-business/service/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment with consideration-stage business leaders evaluating Service Cloud solutions, though the CTA could be more specific about AI capabilities mentioned in the section."
+      },
+      "recommendations": [
+        {
+          "cta_id": "service-cloud-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section focuses heavily on customer service AI automation and how SMBs can deliver enterprise-level service experiences. The reader is evaluating solutions after learning about service automation, AI chatbots, and smart routing capabilities. This demo directly shows how to 'Transform Your Customer Service' which matches their consideration stage mindset."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.85,
+          "match_rationale": "Strong fit - the section emphasizes AI-powered customer service (71% of SMBs report high value from AI customer service) and mentions AI chatbots prominently. Business leaders reading about AI automation benefits would naturally want to see Agentforce capabilities in action, especially for the customer service use cases highlighted."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Prepare for AI-powered jobs",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "service_cloud",
+          "marketing_cloud",
+          "einstein_ai",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_adoption",
+          "workforce_transformation",
+          "smb_growth",
+          "job_creation",
+          "automation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is primarily educational, teaching SMB leaders about AI's impact on workforce and job creation. It presents statistics and insights about AI adoption trends without directly pushing Salesforce products. The business leader persona fits best as they're concerned with workforce strategy and business growth. While it mentions CRM platforms and specific AI capabilities, it's more about understanding the broader AI transformation landscape rather than evaluating specific solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders learning about AI adoption and workforce transformation. After reading about how AI creates new jobs and transforms roles, they would naturally want strategic guidance on implementing AI in their organization."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.8,
+          "match_rationale": "Highly relevant for business leaders who just learned about AI's impact on job creation and workforce transformation. The State of AI Report would provide broader industry context and data to support their understanding."
+        },
+        {
+          "cta_id": "trailhead-ai-skills",
+          "score": 0.7,
+          "match_rationale": "Good educational follow-up for business leaders who now understand AI's workforce benefits and want to start building AI capabilities within their teams. Matches the learning intent and awareness stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "How are SMBs outpacing enterprise? You guessed it: AI",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter",
+          "agentforce",
+          "general"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_adoption",
+          "competitive_advantage",
+          "revenue_growth",
+          "enterprise_scale"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section targets SMB business leaders who are evaluating AI solutions to compete with enterprises. The content presents research-backed benefits (91% revenue growth) and positions Salesforce's AI offerings as the solution. Multiple product CTAs (Starter Suite, Pro Suite, Agentforce) indicate consideration-stage content designed to move readers toward trial/purchase decisions. The tone is urgent but educational, perfect for the consideration funnel stage."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect match - the section focuses on AI transformation and competitive advantage, targeting business leaders in consideration stage. After reading about SMBs using AI to compete at enterprise scale, business leaders would naturally want to see Agentforce in action to understand how they can achieve similar results."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.88,
+          "match_rationale": "Excellent alignment - the section specifically mentions SMBs and references 'Start your journey with Starter Suite' in the text. The CTA targets the exact audience (business leaders) and matches the decision-oriented mindset after reading about competitive urgency and the need to act quickly."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "agentforce",
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_tools",
+          "starter_suite",
+          "pricing",
+          "competitive_advantage"
+        ],
+        "confidence": 0.9,
+        "rationale": "This FAQ section directly addresses pricing concerns, specific product recommendations (Starter Suite at $25/user/month), and implementation ease - all decision-stage signals. The content targets business leaders evaluating AI solutions for small businesses with specific product details and ROI claims (70% of SMBs report higher productivity). The mention of pricing, guided onboarding, and \"start using right away\" indicates readers ready to move forward."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match for decision-stage business leaders evaluating Starter Suite after reading FAQs. The section heavily features Starter Suite pricing ($25/month) and this CTA directly offers that product with trial access."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.85,
+          "match_rationale": "Excellent fit for business leaders in decision stage who want expert guidance after reading pricing and feature details in the FAQ. Allows for personalized consultation on their specific needs."
+        },
+        {
+          "cta_id": "pricing-overview",
+          "score": 0.75,
+          "match_rationale": "Strong match since the FAQ section discusses pricing extensively (Starter Suite at $25/month, Pro Suite options). Business leaders evaluating costs would want detailed pricing information."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.24285714285714285,
+  "misaligned_count": 5
+}

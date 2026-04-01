@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+dist/
+build/
+.scrapy/
+.streamlit/secrets.toml
+.venv/
+data/crawled/
+# classified data IS committed so the dashboard works on deploy
+.ruff_cache/
+.pytest_cache/

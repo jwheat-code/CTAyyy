@@ -1,0 +1,469 @@
+{
+  "url": "https://www.salesforce.com/blog/automation-vs-custom-code/?bc=DB",
+  "slug": "automation-vs-custom-code",
+  "title": "Automation vs. Custom Code: When Startups Should Build vs. Buy",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "platform",
+          "starter"
+        ],
+        "topic_tags": [
+          "automation",
+          "custom_development",
+          "startup_technology",
+          "crm",
+          "build_vs_buy"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an introductory section that sets up an educational comparison between automation and custom code for startups/SMBs. The reader is learning about technology choices and their implications, with mentions of AI and CRM solutions positioning Salesforce as a solution provider. The content targets business decision-makers who need to understand their options before evaluating specific solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "state-of-sales-report",
+          "score": 0.8,
+          "match_rationale": "Perfect alignment for business leaders in awareness stage learning about CRM and automation. After reading about automation vs custom development choices, they'd want industry insights on how others are approaching sales technology decisions."
+        },
+        {
+          "cta_id": "trailhead-get-started",
+          "score": 0.75,
+          "match_rationale": "Strong match for business leaders exploring platform capabilities mentioned in the section. After learning about automation options, they'd benefit from hands-on learning about Salesforce platform automation features without commitment."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Good alignment with startup/SMB focus and product alignment (starter). However, this is decision-stage CTA which is one step ahead of awareness stage content, making it appropriately progressive for readers ready to move forward."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What automation and custom coding really mean",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform",
+          "sales_cloud",
+          "marketing_cloud",
+          "service_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "automation",
+          "custom_development",
+          "build_vs_buy",
+          "startup_strategy",
+          "workflow_optimization"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly educational content defining basic concepts of automation vs custom code for startup audiences. The reader intent is learning (defining terms), targeting business leaders making strategic decisions with secondary appeal to developers. It's awareness-stage content as readers are learning foundational concepts before considering specific solutions. Multiple Salesforce products are relevant as the section mentions sales, marketing, commerce, and service operations that could be automated."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "trailhead-get-started",
+          "score": 0.85,
+          "match_rationale": "Perfect fit for business leaders learning about automation and custom development. After reading about build vs buy decisions, they would benefit from hands-on learning about the Salesforce platform's automation capabilities. Matches awareness stage and business_leader persona exactly."
+        },
+        {
+          "cta_id": "customer-stories",
+          "score": 0.75,
+          "match_rationale": "After learning about automation concepts, business leaders naturally want to see real-world examples of how other companies have solved similar build vs buy challenges. This social proof aligns with their consideration journey while staying appropriate for the awareness stage."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.65,
+          "match_rationale": "Given the startup context and discussion of automation solutions, the Starter Suite offers a practical next step for business leaders who want to explore automation without custom development. Slightly ahead of awareness stage but appropriate for startups ready to act."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Why waiting to automate could cost you",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "agentforce",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "automation",
+          "smb_growth",
+          "ai_agents",
+          "crm",
+          "operational_efficiency"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section addresses specific pain points (manual processes, human errors, growth bottlenecks) that SMB leaders are experiencing and positions automation/AI as solutions. The content includes compelling statistics and concrete use cases, indicating readers are evaluating automation solutions. The mention of AI agents, CRM workflows, and lead nurturing aligns with Sales Cloud and Agentforce capabilities, while the SMB focus suggests Starter suite relevance."
+      },
+      "existing_cta": {
+        "heading": "The Guide to AI for Small Business",
+        "body": "AI can transform your small business for the better. Get the guide below to learn how.",
+        "button_text": "Download the guide",
+        "button_url": "https://www.salesforce.com/form/conf/small-business/ai-guide-for-smbs/?leadcreated=true&redirect=true&sfuuid=efe86c4e-cf50-494a-ba81-c17a3dac6855&tid=577f38ae-67b9-4913-b7c3-681f9917a241&chapter=&d=70130000000sUVq&player=&nc=7013y000002RVYjAAO&videoId=&playlistId=",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "The AI guide aligns well with the section's automation theme and consideration-stage reader evaluating AI solutions for their SMB."
+      },
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.85,
+          "match_rationale": "Perfect match - section discusses AI agents handling customer inquiries and automation, reader is at consideration stage for agentforce, and targets business_leader persona"
+        },
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Strong alignment - section discusses SMB growth challenges and operational efficiency which Sales Cloud addresses, matches business_leader persona and consideration funnel stage"
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Good fit for SMB context - section is clearly targeted at small businesses discussing automation and efficiency, Starter Suite is designed for SMBs, though jumps to decision funnel stage"
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Understanding automation and custom code for your growing business",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "platform",
+          "starter"
+        ],
+        "topic_tags": [
+          "automation",
+          "custom_development",
+          "no_code",
+          "crm",
+          "scalability"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is clearly helping readers evaluate the build vs. buy decision for growing businesses. The content compares custom development costs/complexity against no-code CRM solutions, targeting business leaders who need to make strategic technology decisions. The mention of \"Smart CRMs\" and workflow automation aligns with Sales Cloud capabilities, while the platform discussion relates to Force.com's no-code features. The CTA \"Try it for free\" indicates consideration stage."
+      },
+      "existing_cta": {
+        "heading": "Wherever you are — just get started.",
+        "body": "No matter where you are on your journey as a business owner, you can get started with Starter Suite for free — the CRM made for growth.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "The CTA perfectly aligns with the consideration-stage business leader evaluating Salesforce Starter as a no-code alternative, offering a free trial to help them assess the solution."
+      },
+      "recommendations": [
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Perfect match - the section discusses CRM automation and no-code solutions for growing businesses. After reading about smart CRMs handling workflows and lead scoring, a business leader would naturally want to see Sales Cloud's automation capabilities in action. The persona (business_leader) and funnel stage (consideration) align perfectly."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the 'growing business' theme and product focus on 'starter'. After learning about no-code alternatives to custom development, readers would be interested in trying a starter solution. The decision-stage CTA is appropriate as the section positions readers to evaluate concrete solutions."
+        },
+        {
+          "cta_id": "customer-stories",
+          "score": 0.65,
+          "match_rationale": "Good supporting match - after reading about the challenges of custom development vs automation, business leaders would want to see how other companies successfully implemented these solutions. Provides social proof for the automation approach discussed in the section."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "A simple roadmap to automating smarter",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "sales_cloud",
+          "marketing_cloud",
+          "service_cloud",
+          "commerce_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "automation",
+          "small_business",
+          "crm_implementation",
+          "workflow_optimization",
+          "startup_scaling"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides a concrete roadmap for implementing automation, complete with specific examples, product recommendations (Starter Suite, Pro Suite), and actionable steps like \"Launch with one pilot task.\" The CTA encourages immediate trial of Salesforce Foundations. The content targets business leaders at startups/small businesses who are ready to implement solutions, with secondary relevance to admins who would execute the automation setup."
+      },
+      "existing_cta": {
+        "heading": "Get your data ready for AI with Salesforce Foundations",
+        "body": "Easily activate Foundations in your existing CRM to add key features in Agentforce 360, Sales, Service, Marketing, Commerce, and Data — all for free.",
+        "button_text": "Try out Foundations",
+        "button_url": "https://www.salesforce.com/crm/foundations/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.75,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product mismatch: Section focuses on specific automation use cases for small business while CTA promotes broader Salesforce Foundations platform",
+          "Messaging disconnect: Section discusses practical automation steps but CTA emphasizes data readiness for AI"
+        ],
+        "rationale": "The CTA aligns well with the decision-stage intent and business leader persona but offers a broader foundation platform rather than the specific automation solutions discussed in the section."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match for business leaders implementing automation solutions. The section specifically mentions 'Starter Suite' as ideal for small businesses and the reader is ready to take action after learning the implementation roadmap."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.85,
+          "match_rationale": "Excellent fit for business leaders in decision stage who want expert guidance on implementing the automation roadmap described. Matches the persona and funnel stage perfectly."
+        },
+        {
+          "cta_id": "sales-cloud-trial",
+          "score": 0.75,
+          "match_rationale": "Strong match since the section heavily discusses CRM automation and lead generation examples. Business leaders can immediately try the core sales automation features mentioned in the roadmap."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "The custom code route",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform",
+          "general"
+        ],
+        "topic_tags": [
+          "build_vs_buy",
+          "custom_development",
+          "startup_technology",
+          "software_decisions",
+          "platform_strategy"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is clearly helping readers evaluate the \"build\" side of a build vs. buy decision, specifically targeting IT and business leaders at startups who are weighing custom development options. The content discusses tradeoffs, costs, and considerations - classic consideration stage content. Primary persona is IT leader due to technical focus, with business leaders as secondary since they make strategic technology investments. Platform alignment because this relates to custom development decisions that could involve Salesforce's platform capabilities."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "customer-stories",
+          "score": 0.85,
+          "match_rationale": "After reading about custom code considerations, IT leaders evaluating build vs buy decisions would benefit from seeing how other companies succeeded with platform solutions. This provides social proof for the 'buy' side of their evaluation at the right funnel stage."
+        },
+        {
+          "cta_id": "mulesoft-demo",
+          "score": 0.75,
+          "match_rationale": "IT leaders considering custom development often need integration solutions. MuleSoft addresses the integration challenges mentioned in the section and lets them see how a platform approach could work instead of custom coding everything."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.7,
+          "match_rationale": "After evaluating the complexities and costs of custom development, IT leaders may want to discuss their specific requirements with experts who can help them determine if platform solutions could meet their needs without custom code."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "How small businesses are using automation with Salesforce",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "service_cloud",
+          "platform",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "automation",
+          "smb",
+          "build_vs_buy",
+          "scalability",
+          "roi"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting business leaders at SMBs who are evaluating whether to build custom solutions or buy Salesforce automation. The content presents specific ROI metrics, customer success stories, and cost considerations that help readers compare options. The focus on Pro Suite, templates, and drag-and-drop functionality aligns with consideration-stage content that showcases product capabilities and value proposition."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match for SMBs evaluating automation solutions. The section focuses on how small businesses succeed with Salesforce automation, and this CTA directly addresses their decision-stage need for a starter solution. Matches business_leader persona and decision funnel stage."
+        },
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Strong alignment with the automation and sales process focus mentioned in the section. Business leaders reading about SMB automation success would naturally want to see Sales Cloud in action. Matches persona and consideration funnel stage."
+        },
+        {
+          "cta_id": "service-cloud-demo",
+          "score": 0.8,
+          "match_rationale": "Good fit given the Fisher & Paykel customer service transformation example prominently featured in the section. Business leaders would be interested in seeing similar service automation capabilities. Matches persona and consideration stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "Automation vs custom code: scale faster with Salesforce",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "automation",
+          "custom_development",
+          "build_vs_buy",
+          "startup_scaling",
+          "ai_automation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides a clear summary and conclusion to help readers decide between automation and custom code, followed by multiple product recommendations with specific CTAs (Starter Suite, Pro Suite, Foundations, Agentforce 360). The decision-oriented language and direct product pitches indicate readers are ready to take action, placing this in the decision stage. The business leader persona fits as they're making strategic build vs buy decisions for their startup."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.8,
+          "match_rationale": "Strong alignment with the AI automation theme and business leader persona. The section discusses AI-powered solutions and mentions Agentforce, making this demo CTA highly relevant for readers evaluating automation options, though it's one step back in the funnel."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.75,
+          "match_rationale": "Good fit for business leaders at the decision stage who need expert guidance on choosing between automation and custom development approaches. The general nature makes it suitable for the multi-product context (starter, agentforce, platform) discussed in the section."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "automation",
+          "custom_development",
+          "flow_builder",
+          "apex",
+          "technical_debt"
+        ],
+        "confidence": 0.9,
+        "rationale": "This FAQ section directly compares two technical approaches (automation vs custom code) and provides specific guidance on when to use each. The mention of Flow Builder and Apex, plus the technical focus on scalability and maintenance, indicates this targets developers who are evaluating implementation approaches. The consideration stage is clear as readers are weighing build vs buy decisions."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Visit Trail",
+        "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-essentials-small-business/?d=bcta",
+        "position_after_section": 8
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "partial",
+        "product_alignment": "mismatch",
+        "issues": [
+          "Funnel stage mismatch: awareness-stage educational content when reader is in consideration stage",
+          "Product mismatch: small business essentials doesn't align with platform/agentforce discussion",
+          "Persona mismatch: targets small business users rather than developers",
+          "Missed opportunity: should offer developer-focused resources on Flow Builder or Apex"
+        ],
+        "rationale": "The CTA directs to small business essentials while the section targets developers evaluating platform automation vs custom code solutions."
+      },
+      "recommendations": [
+        {
+          "cta_id": "mulesoft-demo",
+          "score": 0.75,
+          "match_rationale": "Strong fit for developers considering automation solutions. MuleSoft's integration and automation capabilities directly relate to the section's discussion of connecting apps and automating tasks. Matches developer persona and consideration stage perfectly."
+        },
+        {
+          "cta_id": "tableau-demo",
+          "score": 0.65,
+          "match_rationale": "Good match for developers in consideration stage. While not directly about automation vs custom code, Tableau offers platform capabilities that developers evaluate when building data solutions. Matches persona and funnel stage, though less directly related to the automation topic."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.31666666666666665,
+  "misaligned_count": 6
+}

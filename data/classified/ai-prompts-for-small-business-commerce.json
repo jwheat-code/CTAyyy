@@ -1,0 +1,276 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-prompts-for-small-business-commerce/?bc=DB",
+  "slug": "ai-prompts-for-small-business-commerce",
+  "title": "8 AI Prompts For Small Business Commerce",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_prompts",
+          "small_business",
+          "ecommerce",
+          "artificial_intelligence",
+          "smb_commerce"
+        ],
+        "confidence": 0.9,
+        "rationale": "This introduction section is educational and concept-oriented, teaching SMB leaders about AI prompts for commerce. It cites research to establish credibility and sets up learning content. The audience is clearly small business owners/leaders who are in the awareness stage of understanding AI's potential. The content aligns with Commerce Cloud capabilities and Einstein AI, with Starter Suite being relevant for the SMB target market."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "commerce-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders interested in AI for ecommerce. The section introduces AI prompts for small business commerce, and this CTA offers a demo of Commerce Cloud which directly relates to building connected commerce experiences with AI capabilities."
+        },
+        {
+          "cta_id": "trailhead-ai-skills",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the learning intent and awareness stage. Since the section introduces AI prompts and the reader is learning about AI for small business, this educational CTA allows them to build foundational AI skills on Trailhead."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.7,
+          "match_rationale": "Good fit for the awareness stage and business leader persona. After learning about AI prompts for small business, readers would be interested in broader AI trends and insights that complement their understanding of AI in commerce."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is an AI prompt?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "ai_prompts",
+          "small_business",
+          "ecommerce",
+          "artificial_intelligence",
+          "llm"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly educational content explaining AI prompts basics to small business owners. The article title targets small business commerce, and this section provides foundational AI education. The service prompt example suggests commerce/customer service applications. Reader is learning fundamentals before exploring specific AI tools or solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "trailhead-ai-skills",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders learning about AI prompts. This CTA naturally follows the educational content by offering hands-on AI learning. The awareness-level funnel stage aligns well, and it addresses the reader's immediate next step: building practical AI skills after understanding what prompts are."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the AI topic and business leader persona. After learning about AI prompts, readers would naturally want broader insights about AI implementation. The awareness-stage funnel matches perfectly, and the report provides valuable industry context for decision-makers."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.65,
+          "match_rationale": "Good match for business leaders interested in AI implementation strategy. While this pushes slightly toward consideration stage, it's a logical next step for leaders who've learned about AI prompts and want to understand how to build an AI strategy. The business leader persona alignment is strong."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Benefits of AI prompts for small business commerce",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "commerce_cloud",
+          "starter",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "ai_prompts",
+          "small_business",
+          "ecommerce",
+          "automation",
+          "productivity"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section presents concrete benefits and statistics about AI for small business commerce, helping readers evaluate AI solutions. The content targets business leaders considering AI adoption, with specific mention of Agentforce and a CTA for Starter Suite. The statistics and competitive advantages position this as consideration-stage content for SMB decision makers."
+      },
+      "existing_cta": {
+        "heading": "Start selling online with Starter Suite",
+        "body": "Set up your digital storefront, engage customers, and sell more using a commerce-ready platform with integrated tools for every sale.",
+        "button_text": "Check it out",
+        "button_url": "https://www.salesforce.com/small-business/commerce/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "The CTA aligns well with the consideration-stage business leader who just read about AI benefits for small business commerce, offering a specific commerce solution (Starter Suite) to explore."
+      },
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect match - section focuses heavily on Agentforce capabilities for small business commerce, reader is evaluating AI solutions, and this demo allows them to see the product in action. Matches consideration funnel stage and business_leader persona exactly."
+        },
+        {
+          "cta_id": "commerce-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Strong match - section discusses AI benefits for small business commerce, Commerce Cloud is specifically mentioned in product alignment, and the demo format suits the consideration stage. Perfect persona match with business_leader."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.75,
+          "match_rationale": "Good match - targets small businesses specifically which aligns with the section's focus on SMBs. However, this is a decision-stage CTA (trial) which is one step ahead of the consideration stage, making it slightly less optimal but still relevant for readers ready to move forward."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Eight AI prompts for small business commerce",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "commerce_cloud",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_prompts",
+          "small_business",
+          "ecommerce",
+          "seo_optimization",
+          "product_descriptions"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides specific, actionable AI prompts with detailed examples for small business commerce optimization. The \"how-to\" nature with concrete prompts indicates implementing intent. The focus on small business commerce and practical application suggests business leaders ready to act. The CTA \"Get it now\" reinforces decision stage readiness."
+      },
+      "existing_cta": {
+        "heading": "Grow Your Small Business With AI Agents",
+        "body": "Learn how autonomous AI can scale your small business for efficient growth in our free e-book.",
+        "button_text": "Get it now",
+        "button_url": "https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.45,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel stage mismatch: offering an e-book to readers ready to implement AI solutions",
+          "Missed conversion opportunity: should offer trial, demo, or direct product access instead of educational content",
+          "CTA promotes AI agents while section focuses on AI prompts for Commerce Cloud"
+        ],
+        "rationale": "The CTA offers educational content to a decision-ready audience that needs implementation tools, not more information."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match for decision-stage business leaders reading about AI prompts for small business commerce. The section focuses on implementing AI solutions for small business ecommerce, and the Starter Suite is specifically designed for small businesses looking to implement Salesforce solutions."
+        },
+        {
+          "cta_id": "commerce-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the commerce_cloud product focus and business_leader persona. After learning about AI prompts for commerce optimization, readers would be interested in seeing how Commerce Cloud can help build connected commerce experiences."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.65,
+          "match_rationale": "Good fit for decision-stage business leaders who are ready to implement AI solutions for their small business commerce needs. After reading specific implementation guidance, they may want to speak with an expert about their specific requirements."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "AI prompts for small business commerce FTW",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "commerce_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "small_business_commerce",
+          "ai_prompts",
+          "ecommerce",
+          "digital_storefront",
+          "starter_suite"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting small business owners who are evaluating commerce solutions. The content moves from identifying pain points to directly pitching Salesforce's small business commerce solution with specific product CTAs (Starter Suite, Pro Suite, Foundations). The multiple product links and \"start your journey\" language indicates decision-stage content designed to convert readers into customers."
+      },
+      "existing_cta": {
+        "heading": "Curious to know how AI is affecting the small business market?",
+        "body": "Find out from 3000+ small business owners how to use AI tools that work for you.",
+        "button_text": "Get the free report",
+        "button_url": "https://www.salesforce.com/resources/research-reports/smb-trends/#getreport",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.35,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Major funnel stage mismatch - decision-stage section needs trial/demo CTA, not research report",
+          "Missed conversion opportunity for readers ready to evaluate Salesforce products",
+          "CTA doesn't leverage the section's strong product positioning (Starter Suite, Pro Suite, Foundations)"
+        ],
+        "rationale": "The section is decision-stage with readers evaluating Salesforce solutions, but the CTA offers an awareness-stage research report instead of a trial or demo."
+      },
+      "recommendations": [
+        {
+          "cta_id": "commerce-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Strong alignment - section focuses on small business commerce and digital storefronts. This CTA offers to 'Build Connected Commerce Experiences' which matches the commerce_cloud product alignment and consideration/decision funnel progression for business leaders."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.75,
+          "match_rationale": "Good fit - section mentions AI prompts and references Agentforce activation for existing customers. The reader is evaluating AI-powered commerce solutions, so seeing Agentforce in action aligns with the decision stage and business_leader persona, though it's slightly broader than the core commerce focus."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.32999999999999996,
+  "misaligned_count": 4
+}

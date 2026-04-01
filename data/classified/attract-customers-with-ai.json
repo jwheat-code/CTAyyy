@@ -1,0 +1,482 @@
+{
+  "url": "https://www.salesforce.com/blog/attract-customers-with-ai/?bc=DB",
+  "slug": "attract-customers-with-ai",
+  "title": "Attract More Customers to Your Small Business with AI",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "customer_acquisition",
+          "ai_marketing",
+          "lead_generation",
+          "smb_growth"
+        ],
+        "confidence": 0.9,
+        "rationale": "This introduction section is clearly educational, introducing SMB owners to AI concepts for customer attraction. The content addresses fundamental challenges (high acquisition costs, limited budgets) and promises to teach \"what AI is and its role,\" indicating learning intent. The target is clearly small business owners (business leaders) who may also handle marketing. It's early-stage awareness content that introduces AI as a solution concept before diving into specific applications. The mention of \"Salesforce AI\" at the end suggests alignment with Einstein AI capabilities and potentially Starter suite for SMBs."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "marketing-cloud-demo",
+          "score": 0.9,
+          "match_rationale": "Perfect alignment with the section's focus on AI marketing, customer acquisition, and lead generation. As a business leader reading about AI for marketing, this CTA naturally progresses them to see how Salesforce can personalize customer journeys - exactly what the section discusses."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.85,
+          "match_rationale": "Excellent match for SMB business leaders seeking growth solutions. The section specifically addresses small business challenges like limited budgets and customer acquisition costs, making Starter Suite highly relevant. Moves from awareness to decision appropriately."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.75,
+          "match_rationale": "Strong topical alignment with AI and business leadership. After learning about AI's role in customer acquisition, business leaders would be interested in broader AI trends and insights. Stays within the awareness funnel stage appropriately."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is AI and its role in attracting new customers?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "marketing_cloud",
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_adoption",
+          "customer_acquisition",
+          "personalized_marketing",
+          "smb_technology"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly educational, explaining \"what is AI\" and its benefits for small businesses. The reader is in the learning phase, discovering how AI can help attract customers. The content targets small business owners/leaders who may not be familiar with AI concepts. While specific Salesforce products like Agentforce are mentioned, the focus is on educating about AI capabilities rather than driving immediate purchase decisions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.85,
+          "match_rationale": "Perfect match - section specifically mentions Agentforce as an AI tool for customer engagement, reader is business leader in awareness stage learning about AI benefits, and demo CTA naturally follows their interest in seeing AI in action"
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.7,
+          "match_rationale": "Good fit for awareness stage - provides deeper insights on AI adoption that business leaders would want after learning basic AI concepts, aligns with their learning intent about AI's business impact"
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "How do you use AI for predictive analytics?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "starter",
+          "einstein_ai",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "predictive_analytics",
+          "ai_insights",
+          "customer_lifetime_value",
+          "lead_scoring",
+          "small_business"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining \"how to use AI for predictive analytics\" - clearly learning intent. It targets small business owners (business leaders) who are being introduced to AI concepts like CLV, churn prediction, and lead scoring. The awareness stage is indicated by the explanatory tone and broad concept introduction. Starter Suite is specifically mentioned with a customer example, making it the primary product alignment, while the AI capabilities described relate to Einstein AI and Sales Cloud functionality."
+      },
+      "existing_cta": {
+        "heading": "Wherever you are — just get started.",
+        "body": "No matter where you are on your journey as a business owner, you can get started with Starter Suite for free — the CRM made for growth.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "partial",
+        "product_alignment": "match",
+        "issues": [
+          "Funnel stage mismatch: Free trial CTA on awareness-stage content about learning AI concepts",
+          "Missed opportunity to provide educational resources that match the learning intent",
+          "CTA assumes reader is ready to try a product when they're still in information-gathering mode"
+        ],
+        "rationale": "The CTA offers a free trial for decision-ready readers, but this awareness-stage section is focused on learning about AI capabilities rather than evaluating solutions."
+      },
+      "recommendations": [
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - section focuses on AI predictive analytics for lead scoring, sales projections, and pipeline management. Business leaders reading about these sales-focused AI capabilities would naturally want to see Sales Cloud in action."
+        },
+        {
+          "cta_id": "tableau-demo",
+          "score": 0.75,
+          "match_rationale": "Strong match for the analytics focus. Section discusses using AI for data analysis, dashboards, and reporting. Business leaders interested in predictive analytics would benefit from seeing Tableau's visualization capabilities."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Good alignment with small business focus and Starter Suite mention. Section specifically calls out Starter Suite for dashboards and includes Sandy Alexander case study, making this highly relevant for small business leaders."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "How can AI help with competitive intelligence?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "einstein_ai",
+          "starter",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "competitive_intelligence",
+          "market_research",
+          "small_business",
+          "ai_insights",
+          "customer_retention"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section addresses small business owners who have the specific problem of needing competitive intelligence but lack time/resources. The content moves beyond awareness by explaining how AI solves this pain point and mentions Salesforce's specific capabilities, indicating consideration stage. The focus on SMBs competing with enterprises and the mention of Salesforce's centralized hub suggests alignment with Starter Suite, Einstein AI for insights, and Sales Cloud for tracking competitor data."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.75,
+          "match_rationale": "Strong match for the AI focus of the section. While the section discusses AI capabilities for competitive intelligence, Agentforce represents Salesforce's AI platform that could power these insights. Business leader persona aligns perfectly, and consideration stage is appropriate for someone exploring AI solutions."
+        },
+        {
+          "cta_id": "tableau-demo",
+          "score": 0.65,
+          "match_rationale": "Good alignment for the market research and data analysis aspects mentioned in the section. Business leaders reading about tracking competitor activities and market trends would benefit from seeing Tableau's visualization capabilities. The consideration funnel stage matches well for exploring analytics tools."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "How can you personalize marketing with AI?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "einstein_ai",
+          "data_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_marketing",
+          "small_business",
+          "personalization",
+          "customer_segmentation",
+          "marketing_automation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining how AI can enhance marketing personalization for small businesses. The reader intent is learning (explaining concepts and benefits), targeting marketing leaders at small businesses who are in the awareness stage - understanding what AI marketing can do but not yet evaluating specific solutions. The content aligns with Marketing Cloud's personalization capabilities, Einstein AI for insights, Data Cloud for segmentation, and Starter for small business focus."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "marketing-cloud-demo",
+          "score": 0.9,
+          "match_rationale": "Perfect match for marketing leaders reading about AI personalization. After learning how AI can personalize marketing, they would naturally want to see Marketing Cloud's personalization capabilities in action. Matches persona, product alignment, and appropriate funnel progression from awareness to consideration."
+        },
+        {
+          "cta_id": "data-cloud-guide",
+          "score": 0.8,
+          "match_rationale": "Strong match as the section emphasizes AI analyzing customer data for segmentation and personalization. Marketing leaders reading about AI's data analysis capabilities would benefit from learning more about customer data platforms. Same funnel stage (awareness) and matching persona."
+        },
+        {
+          "cta_id": "state-of-marketing-report",
+          "score": 0.7,
+          "match_rationale": "Good supporting resource for marketing leaders interested in AI marketing trends. The section discusses AI adoption statistics (51% of marketers use AI), so readers would be interested in broader marketing insights and benchmarks. Matches persona and funnel stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "How can you deliver omnichannel experiences using AI?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "data_cloud",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "omnichannel_marketing",
+          "ai_personalization",
+          "customer_journey",
+          "small_business",
+          "brand_consistency"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining omnichannel AI concepts to small business owners. The reader is learning about what omnichannel experiences are and how AI enables them. The article title targets small businesses specifically, and the content focuses on business benefits like increased store visits and conversion rates. While it mentions Salesforce and includes a customer example, the primary intent is educational rather than promotional."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "data-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Strong alignment - the section emphasizes creating a 'comprehensive view' of customer journeys across touchpoints, which requires unified customer data. Data Cloud's positioning 'Unify Your Customer Data' directly addresses this need. Targets business_leaders and is consideration-stage appropriate for readers moving beyond awareness."
+        },
+        {
+          "cta_id": "state-of-marketing-report",
+          "score": 0.7,
+          "match_rationale": "Good thematic fit - after reading about omnichannel marketing trends and AI personalization, business leaders would be interested in broader marketing insights and benchmarks. The awareness-stage funnel matches perfectly, and it targets the right persona (business_leader). However, it's less directly actionable than the demo CTAs."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "How can you use AI in social media and advertising?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_marketing",
+          "social_media",
+          "content_creation",
+          "audience_segmentation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining AI applications in social media and advertising for small businesses. The reader is learning about concepts like NLP, audience segmentation, and content automation. The tone is informational rather than solution-oriented, and the CTA leads to a general guide rather than Salesforce-specific resources. This places it in awareness stage for business leaders seeking to understand AI marketing capabilities."
+      },
+      "existing_cta": {
+        "heading": "Content Marketing for Small Business Guide",
+        "body": "Learn practical content marketing strategies to boost your small business’s online presence and engage your audience.",
+        "button_text": "Read Now",
+        "button_url": "https://www.salesforce.com/small-business/marketing/content-marketing/",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "partial",
+        "product_alignment": "partial",
+        "issues": [],
+        "rationale": "The CTA aligns well with the awareness-stage content about AI-powered content creation, but targets small businesses while the section is written for business leaders more broadly."
+      },
+      "recommendations": [
+        {
+          "cta_id": "marketing-cloud-demo",
+          "score": 0.9,
+          "match_rationale": "Perfect alignment: reader is learning about AI in social media and advertising for small businesses. Marketing Cloud demo directly addresses personalized customer journeys and AI-powered marketing automation. Matches business leader persona and moves them from awareness to consideration funnel stage appropriately."
+        },
+        {
+          "cta_id": "state-of-marketing-report",
+          "score": 0.8,
+          "match_rationale": "Strong match for awareness stage: after learning about AI marketing possibilities, business leaders would be interested in broader marketing trends and benchmarks. The report stays within the awareness funnel stage while providing valuable context about marketing technology adoption."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.7,
+          "match_rationale": "Good fit for small business context: section specifically discusses SMB challenges with ad spend and efficiency. Starter Suite is designed for smaller businesses and could provide AI-powered marketing tools mentioned in the section. Moves appropriately to decision stage for engaged readers."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "How do you optimize your website or store using AI?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "commerce_cloud",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "ecommerce",
+          "ai_optimization",
+          "small_business",
+          "conversion_optimization",
+          "website_design"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section addresses small business owners who have the specific problem of needing to optimize their online presence for customer acquisition. The content focuses on practical AI solutions for ecommerce optimization, positioning the reader in the consideration stage as they evaluate how AI can solve their conversion and customer attraction challenges. The explicit mention of \"Commerce for Small Business\" and the CTA for \"Starter Suite\" clearly aligns with Salesforce's small business ecommerce solutions."
+      },
+      "existing_cta": {
+        "heading": "Start selling online with Starter Suite",
+        "body": "Set up your digital storefront, engage customers, and sell more using a commerce-ready platform with integrated tools for every sale.",
+        "button_text": "Check it out",
+        "button_url": "https://www.salesforce.com/small-business/commerce/?d=bcta",
+        "position_after_section": 7
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment across all dimensions with the CTA promoting Starter Suite for commerce setup, matching the section's focus on AI-powered website optimization for business leaders in the consideration stage."
+      },
+      "recommendations": [
+        {
+          "cta_id": "commerce-cloud-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - section discusses AI optimization for ecommerce websites/stores, targeting business leaders in consideration stage. Commerce Cloud demo directly matches the product focus and allows readers to see how to 'build connected commerce experiences' after learning about AI optimization strategies."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.85,
+          "match_rationale": "Strong match - section specifically mentions 'Commerce for Small Business' and targets small business optimization. The Starter Suite CTA moves consideration-stage readers toward a decision, offering the exact small business solution referenced in the content."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.7,
+          "match_rationale": "Good general option - business leaders reading about AI optimization for their stores may want to discuss specific implementation with an expert. Moves from consideration to decision stage appropriately for this persona."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "How can you improve SMB customer service with AI?",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "ai_agents",
+          "smb",
+          "automation",
+          "chatbots"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting small business owners evaluating AI solutions for customer service. It presents specific benefits, features, and a real customer example (ezCater), indicating readers are comparing AI options. The focus on Agentforce with concrete use cases suggests consideration stage, not just awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.95,
+          "match_rationale": "Perfect match - the section heavily features Agentforce for customer service automation and the reader (business leader) is evaluating AI solutions. A demo is the logical next step after learning about Agentforce capabilities."
+        },
+        {
+          "cta_id": "service-cloud-demo",
+          "score": 0.85,
+          "match_rationale": "Strong alignment with the customer service focus and business leader persona. After reading about AI-powered customer service improvements, seeing Service Cloud in action would be a natural next step."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.75,
+          "match_rationale": "Good fit for business leaders who want to dive deeper into building an AI strategy after learning about Agentforce's customer service capabilities. Provides strategic guidance for implementation."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 9,
+      "section_heading": "Attract more customers effortlessly with Salesforce AI",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_marketing",
+          "customer_acquisition",
+          "smb_solutions",
+          "starter_suite"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section directly pitches Salesforce Starter Suite as a solution for small businesses looking to attract customers using AI. The reader is evaluating AI-powered solutions for their business needs. Multiple product options (Starter, Pro Suite, Foundations) suggest consideration stage where they're weighing different tiers."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match - section directly mentions Starter Suite and targets business leaders evaluating solutions for small businesses. The CTA offers exactly what's discussed in the content."
+        },
+        {
+          "cta_id": "marketing-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with AI marketing focus and customer acquisition goals. Targets business leaders in consideration stage, matching the section's emphasis on optimizing marketing campaigns."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.21000000000000002,
+  "misaligned_count": 8
+}

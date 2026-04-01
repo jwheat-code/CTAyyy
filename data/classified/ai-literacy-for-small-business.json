@@ -1,0 +1,379 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-literacy-for-small-business/?bc=DB",
+  "slug": "ai-literacy-for-small-business",
+  "title": "AI Literacy For Startups and Small Businesses: Applications + Tips",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_literacy",
+          "small_business",
+          "ai_education",
+          "crm_integration",
+          "business_automation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly an educational \"Key Takeaways\" section targeting small business owners who are learning about AI fundamentals. The content focuses on building AI literacy and understanding practical applications rather than evaluating specific solutions. The emphasis on \"understanding what AI is, how it works\" and references to free Trailhead training indicate awareness-stage content for business leaders seeking foundational knowledge."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "trailhead-ai-skills",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment with the section's call to 'build your team's foundational AI knowledge and skills for free using interactive modules on Trailhead'. The section explicitly mentions AI literacy education and this CTA directly fulfills that learning intent for business leaders in the awareness stage."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.85,
+          "match_rationale": "Strong match for business leaders seeking AI literacy and education. The State of AI Report provides authoritative awareness-stage content about AI trends and applications, directly supporting the reader's learning intent about AI in business contexts."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.75,
+          "match_rationale": "Good fit as it bridges awareness to consideration for business leaders interested in AI strategy. While slightly more advanced than the current awareness stage, it provides strategic guidance for implementing agentic AI, which aligns with the section's focus on practical AI application."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is AI literacy and why does your SMB need it?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_literacy",
+          "small_business",
+          "smb",
+          "artificial_intelligence",
+          "automation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is definitionally educational, explaining \"what is AI literacy\" in foundational terms. The reader intent is clearly learning - they're being introduced to basic concepts and terminology. The primary audience is business leaders at SMBs who need to understand AI basics before evaluating solutions. This is awareness-stage content that builds knowledge before consideration. Product alignment includes Einstein AI (core AI discussion), Sales Cloud (CRM references), and Starter Suite (explicit CTA mention)."
+      },
+      "existing_cta": {
+        "heading": "Kickstart your SMB with Starter Suite",
+        "body": "See results from day one with a CRM designed for SMBs — the all-in-one suite for productivity. It all starts with Starter Suite.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel stage mismatch: offering free trial to readers still learning AI basics",
+          "Pushes product trial before establishing AI literacy foundation",
+          "CTA jumps from educational content directly to product signup without bridging the gap"
+        ],
+        "rationale": "Decision-stage free trial CTA misaligned with awareness-stage content about AI literacy fundamentals."
+      },
+      "recommendations": [
+        {
+          "cta_id": "ai-report",
+          "score": 0.85,
+          "match_rationale": "Highly relevant for business leaders who just learned about AI literacy and want deeper insights into AI adoption trends and strategies. The report provides the broader context that complements the foundational knowledge they just gained."
+        },
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.7,
+          "match_rationale": "Good fit since the section mentions Sales Cloud as a product alignment and discusses AI application in sales operations. After learning about AI literacy, seeing Sales Cloud's AI capabilities in action is a natural next step for business leaders ready to move from awareness to consideration."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Practical steps to grow your team’s AI knowledge",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "general",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_literacy",
+          "small_business",
+          "team_training",
+          "crm",
+          "trailhead"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section provides concrete, actionable steps for small business leaders to develop AI literacy within their teams. The implementing intent is clear from the practical, how-to guidance. The primary persona is business_leader (small business owner/manager) with admin as secondary since they'd be implementing the training. It's consideration stage as they're exploring how to build AI capabilities. Product alignment includes sales_cloud (CRM context), platform (Trailhead), and general (cross-product AI focus)."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "trailhead-ai-skills",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section specifically mentions Trailhead as a platform for learning AI skills and recommends dedicating time to AI modules. After reading about practical AI training steps, readers would naturally want to take action on the specific platform mentioned."
+        },
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.75,
+          "match_rationale": "Strong relevance - the section discusses using AI features within CRM tools (specifically mentioning AI lead scoring in sales), targets business leaders, and aligns with the consideration funnel stage. Readers implementing AI training would benefit from seeing these capabilities in action."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.65,
+          "match_rationale": "Good fit - while the section focuses on AI literacy and training rather than autonomous agents, it does discuss AI implementation and targets business leaders in the consideration stage. Agentforce represents advanced AI capabilities that could be relevant for teams building AI knowledge."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Master the art of the AI prompt",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "ai_prompting",
+          "generative_ai",
+          "small_business",
+          "ai_literacy",
+          "prompt_engineering"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section provides tactical, how-to guidance on AI prompting techniques with specific examples and actionable tips. The reader intent is 'implementing' as it gives practical steps to improve AI interactions. Primary persona is 'business_leader' given the SMB focus and business outcome emphasis. It's 'consideration' stage as readers are learning to effectively use AI tools they're evaluating. Product alignment includes agentforce (AI agents), starter (specifically mentioned), and einstein_ai (generative AI capabilities)."
+      },
+      "existing_cta": {
+        "heading": "Grow Your Small Business With AI Agents",
+        "body": "Learn how autonomous AI can scale your small business for efficient growth in our free e-book.",
+        "button_text": "Get it now",
+        "button_url": "https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment across all dimensions - the CTA offers educational content (e-book) about AI agents to business leaders evaluating AI solutions, perfectly matching the section's consideration-stage, business leader persona discussing Agentforce implementation."
+      },
+      "recommendations": [
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - reader is implementing AI prompting skills for business leaders, and this section specifically mentions Agentforce use cases. The demo allows them to see how Agentforce handles prompting in practice, matching the consideration funnel stage."
+        },
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.75,
+          "match_rationale": "Strong match - the section mentions '77% of SMBs plan to use generative AI' and specifically references 'Salesforce's Starter Suite'. The reader is a business leader ready to implement AI solutions, making this decision-stage CTA appropriate."
+        },
+        {
+          "cta_id": "agentforce-playbook",
+          "score": 0.7,
+          "match_rationale": "Good strategic fit - after learning about AI prompting techniques, business leaders would benefit from a comprehensive guide on building their agentic AI strategy. Matches the consideration stage and provides next-level implementation guidance."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Safety first: Using AI for secure business growth",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "data_cloud",
+          "general"
+        ],
+        "topic_tags": [
+          "ai_literacy",
+          "data_security",
+          "ai_ethics",
+          "small_business",
+          "crm_security"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content focused on AI literacy and security best practices for small businesses. The reader is learning about responsible AI usage rather than evaluating specific solutions. While it mentions CRM tools generically and has a Data 360 CTA, the primary focus is on building foundational knowledge about AI security principles. The content targets business leaders who need to understand AI implications, with IT leaders as secondary audience for security considerations."
+      },
+      "existing_cta": {
+        "heading": "Data 360 is here",
+        "body": "Level up your business by transforming scattered data into actionable insights.",
+        "button_text": "Talk to an expert",
+        "button_url": "https://www.salesforce.com/data/",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel stage mismatch: 'Talk to an expert' is decision-stage but section is awareness-stage",
+          "CTA focuses on data transformation rather than AI security which is the section's main topic",
+          "Too sales-focused for readers who are still learning about AI security basics"
+        ],
+        "rationale": "The CTA targets the right persona but uses a decision-stage action (\"Talk to an expert\") on an awareness-stage section about AI security fundamentals."
+      },
+      "recommendations": [
+        {
+          "cta_id": "data-cloud-guide",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with section's focus on data security and AI literacy. The section extensively discusses protecting customer data and secure AI usage within CRMs. This awareness-level guide matches the funnel stage and targets the business_leader persona. After reading about data security concerns, readers would naturally want to learn more about comprehensive customer data management."
+        },
+        {
+          "cta_id": "trailhead-ai-skills",
+          "score": 0.8,
+          "match_rationale": "Excellent match for the section's emphasis on AI literacy and responsible AI usage. The section stresses that 'AI literacy goes beyond knowing how to use a tool' and includes ethical implications. This awareness-level learning resource helps business leaders build the AI skills mentioned as critical in the section."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.75,
+          "match_rationale": "Strong relevance to the AI ethics and security themes. After reading about responsible AI usage and security considerations for small businesses, a comprehensive AI report would provide deeper industry insights. Matches the awareness funnel stage and business_leader persona focus."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "It’s your AI literacy journey — make it count",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "agentforce",
+          "general"
+        ],
+        "topic_tags": [
+          "ai_literacy",
+          "small_business",
+          "startup",
+          "ai_implementation",
+          "competitive_advantage"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a clear decision-stage section that concludes an AI literacy article for small businesses. The reader has moved beyond learning about AI concepts to being ready to take action. Multiple specific product CTAs (Free, Starter Suite, Pro Suite, Agentforce 360) indicate decision intent. The language about \"making it count\" and \"when you're ready\" signals implementation readiness. Primary persona is business_leader as this targets startup/small business decision makers, with secondary general appeal since AI literacy spans roles."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment with the section context - targets business leaders at the decision stage for a startup/small business focused on AI implementation. The section explicitly mentions 'start your journey with the Free or Starter Suite today,' making this CTA directly relevant to what readers are ready to do next."
+        },
+        {
+          "cta_id": "agentforce-demo",
+          "score": 0.85,
+          "match_rationale": "Strong match for business leaders interested in AI implementation. The section discusses AI literacy and competitive advantage, and readers implementing AI would benefit from seeing Agentforce capabilities. The consideration stage is appropriate as it's one step back from the decision-ready content."
+        },
+        {
+          "cta_id": "contact-sales",
+          "score": 0.75,
+          "match_rationale": "Good fit for business leaders at the decision stage who need more guidance on AI implementation. After reading about AI literacy and being ready to implement, talking to an expert is a logical next step for startup/small business leaders who want personalized advice."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "starter",
+          "sales_cloud",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "ai_literacy",
+          "small_business",
+          "prompt_engineering",
+          "ai_tools",
+          "startup"
+        ],
+        "confidence": 0.9,
+        "rationale": "This FAQ section is educational, addressing basic questions about AI literacy for small businesses. It targets business leaders who are learning fundamental AI concepts rather than evaluating specific solutions. The content is awareness-stage, focusing on education rather than product comparison or purchase decisions. Mentions Salesforce Starter Suite as an example but isn't primarily promotional."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Visit Trail",
+        "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-essentials-small-business/?d=bcta",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.82,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "CTA has no heading or body text to explain the value proposition",
+          "Generic 'Visit Trail' button text could be more descriptive about the learning content"
+        ],
+        "rationale": "The Trailhead CTA perfectly aligns with awareness-stage readers seeking educational resources on Salesforce for small business, though the minimal presentation (no heading/body) reduces impact."
+      },
+      "recommendations": [
+        {
+          "cta_id": "trailhead-ai-skills",
+          "score": 0.85,
+          "match_rationale": "Perfect match for readers who just learned about AI literacy and prompt engineering in an FAQ format. This CTA offers the logical next step - building AI skills through free learning, which aligns with their awareness-stage learning intent and business leader persona."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.75,
+          "match_rationale": "Strong alignment for business leaders seeking to understand AI trends and applications. After reading about AI literacy basics, a comprehensive AI report provides deeper industry insights at the appropriate awareness funnel stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.3528571428571428,
+  "misaligned_count": 5
+}

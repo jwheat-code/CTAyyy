@@ -1,0 +1,30 @@
+[project]
+name = "cta-engine"
+version = "0.1.0"
+description = "CTA audit and recommendation engine for the Salesforce blog"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.86.0",
+    "scrapy>=2.11",
+    "fastapi>=0.115",
+    "uvicorn[standard]",
+    "streamlit>=1.40",
+    "pydantic>=2.9",
+    "pydantic-settings>=2.0",
+    "httpx",
+    "beautifulsoup4",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "pytest-asyncio", "ruff"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

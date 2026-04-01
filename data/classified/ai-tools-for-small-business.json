@@ -1,0 +1,54 @@
+{
+  "url": "https://www.salesforce.com/artificial-intelligence/ai-for-small-business/best-ai-tools/?bc=DB",
+  "slug": "ai-tools-for-small-business",
+  "title": "Guide to the Best AI Tools for Small Businesses in 2026",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "starter",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_tools",
+          "small_business",
+          "productivity",
+          "marketing_automation",
+          "crm"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an introductory section of a guide about AI tools for small businesses. The content is educational and awareness-stage, targeting business leaders who are learning about AI solutions. The mention of marketing, sales, and CRM aligns with core Salesforce products, particularly Einstein AI capabilities and Starter suite for small businesses."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-starter",
+          "score": 0.85,
+          "match_rationale": "Perfect match - after learning about AI tools for small businesses, business leaders are ready to consider a starter solution. Product alignment with 'starter' and decision funnel stage is one step ahead of awareness, targeting small business leaders specifically."
+        },
+        {
+          "cta_id": "ai-report",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with AI focus and awareness stage. Business leaders learning about AI tools would benefit from deeper insights via the State of AI Report to continue their educational journey."
+        },
+        {
+          "cta_id": "sales-cloud-demo",
+          "score": 0.65,
+          "match_rationale": "Good product alignment with sales_cloud and persona match for business_leader. Moving from awareness to consideration with a demo makes sense after learning about CRM and sales tools."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 1
+}
