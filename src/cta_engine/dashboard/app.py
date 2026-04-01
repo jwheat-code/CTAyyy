@@ -4,8 +4,17 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-# Resolve paths relative to this file
-PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent.parent
+# Resolve paths — walk up from this file until we find the data/ directory
+def _find_project_root() -> Path:
+    candidate = Path(__file__).resolve()
+    for _ in range(6):
+        candidate = candidate.parent
+        if (candidate / "data" / "cta_library.json").exists():
+            return candidate
+    # Last resort: repo root is wherever this file lives up to 4 levels
+    return Path(__file__).resolve().parent.parent.parent.parent
+
+PROJECT_ROOT = _find_project_root()
 DATA_DIR = PROJECT_ROOT / "data"
 CRAWLED_DIR = DATA_DIR / "crawled"
 CLASSIFIED_DIR = DATA_DIR / "classified"
