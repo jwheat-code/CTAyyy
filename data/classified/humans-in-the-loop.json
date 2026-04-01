@@ -1,0 +1,507 @@
+{
+  "url": "https://www.salesforce.com/blog/humans-in-the-loop/?bc=DB",
+  "slug": "humans-in-the-loop",
+  "title": "How AI Support Keeps Humans In the Loop (HitL) for Small Business Success",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "humans_in_the_loop",
+          "ai_augmentation",
+          "smb_ai_adoption",
+          "ai_governance",
+          "workforce_automation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly educational, explaining the concept of \"Humans in the Loop\" to address SMB concerns about AI replacing workers. The content targets business leaders who are learning about AI concepts and how to adopt them safely. It's awareness-stage content that introduces the framework before diving into solutions. The mention of Salesforce enabling SMB adoption of HitL aligns with Agentforce, Einstein AI, and Starter products for small businesses."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.95,
+          "match_rationale": "Perfect match for business leaders who just learned about humans-in-the-loop AI and want to deepen their understanding. This awareness-stage guide specifically addresses SMB AI adoption concerns raised in the section, providing the natural next step for learning more about AI implementation for small businesses."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Highly relevant for business leaders interested in AI augmentation and workforce automation. This awareness-stage guide on how businesses are using AI agents directly connects to the section's discussion of AI as a co-pilot and addresses the 'will AI replace me?' concern with real business examples."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.8,
+          "match_rationale": "Strong alignment with the section's focus on SMB AI adoption and humans-in-the-loop framework. This awareness-stage guide provides practical steps for implementing AI agents, directly addressing the section's promise to help readers 'get on board with training with the right tools.'"
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "AI support over replacement: HitL defined",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "human_in_the_loop",
+          "ai_support",
+          "small_business",
+          "machine_learning",
+          "automation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is definitional and educational, explaining the HitL concept to small business leaders who are learning about AI frameworks. The content is awareness-stage as it introduces a concept without pushing specific solutions. The focus on small business and startup contexts, combined with the emphasis on preserving human elements, suggests business leaders as the primary audience. Product alignment includes agentforce (AI agents), einstein_ai (AI capabilities), and starter (small business focus)."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.75,
+          "match_rationale": "Strong match for awareness stage readers wanting to understand how businesses are implementing AI agents. Aligns with Agentforce product focus and provides research-backed insights about AI adoption that would interest business leaders."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.7,
+          "match_rationale": "Good fit as it bridges from awareness (learning about HitL) to practical implementation guidance for AI agents in small business context. Matches Agentforce product focus and small business persona."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "The essential role of humans in the loop (HitL)",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "service_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "human_in_the_loop",
+          "ai_quality_control",
+          "small_business",
+          "customer_service",
+          "ai_limitations"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining the concept of Human-in-the-Loop AI for small businesses. The reader intent is learning about AI best practices rather than evaluating specific solutions. The primary persona is business leaders at small companies who need to understand AI implementation strategies. The content is awareness-stage as it focuses on conceptual understanding rather than product evaluation. Product alignment includes Einstein AI (general AI capabilities), Service Cloud (customer service context), and Starter (small business focus)."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders learning about AI implementation. This guide directly addresses the section's focus on AI quality control and human oversight for small businesses. The awareness-stage funnel aligns with the reader's learning intent, and the small business focus matches the product alignment."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.75,
+          "match_rationale": "Highly relevant for business leaders who just learned about human-in-the-loop AI concepts. This guide on implementing AI agents for small business provides the next logical step for readers interested in balancing AI automation with human oversight. Awareness-stage funnel matches perfectly."
+        },
+        {
+          "cta_id": "service-cloud",
+          "score": 0.65,
+          "match_rationale": "Good alignment with the section's focus on customer service AI and quality control. After learning about human oversight in AI customer service, business leaders would naturally consider service solutions. The consideration funnel stage is appropriate as a next step from awareness content."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "AI for sales with humans (in the loop)",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "sales_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "einstein_ai",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_sales",
+          "lead_scoring",
+          "small_business",
+          "crm_automation",
+          "human_in_the_loop"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section targets sales leaders at small businesses who are evaluating AI solutions. The content explains specific AI capabilities (lead scoring, communication drafting) and benefits for sales teams, positioning them in the consideration stage. The CTA \"Try for free\" confirms they're being guided toward trial evaluation. Strong alignment with Sales Cloud AI features and Salesforce Starter for small business."
+      },
+      "existing_cta": {
+        "heading": "Boost sales with a CRM made for growing businesses",
+        "body": "Try Starter Suite for free to close more deals and win more customers, today.",
+        "button_text": "Try for free",
+        "button_url": "https://www.salesforce.com/small-business/sales/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "CTA messaging doesn't directly reference AI capabilities discussed in the section",
+          "Generic 'boost sales' language misses opportunity to emphasize AI-powered lead scoring and automation benefits"
+        ],
+        "rationale": "Strong alignment across all dimensions with perfect product match to Starter Suite and consideration-stage readers, though messaging could be more AI-focused to directly connect to section content."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.85,
+          "match_rationale": "Perfect match for sales leaders evaluating CRM automation and AI sales tools. The section discusses lead scoring and CRM platforms extensively, and this CTA offers a free trial specifically for small businesses to get started with Salesforce CRM - exactly what a sales leader would want to explore next."
+        },
+        {
+          "cta_id": "small-business-sales",
+          "score": 0.8,
+          "match_rationale": "Excellent alignment with the section's focus on AI for small sales teams and CRM automation. After reading about lead scoring and AI benefits, a sales leader would be ready to try a CRM solution designed for growing businesses, making this decision-stage CTA highly relevant."
+        },
+        {
+          "cta_id": "crm-free-crm",
+          "score": 0.75,
+          "match_rationale": "Strong fit as it positions Salesforce Suites as the starting point for an AI journey, which directly connects to the section's discussion of AI-powered lead scoring and sales automation. Appeals to sales leaders ready to begin implementing AI-driven CRM solutions."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Enhancing marketing personalization with human oversight",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud",
+          "einstein_ai",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "marketing_personalization",
+          "ai_marketing",
+          "small_business",
+          "customer_segmentation",
+          "content_generation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides specific, actionable guidance on implementing AI-powered marketing personalization for small businesses. The content goes beyond conceptual learning by offering concrete tactics (content generation/testing, predictive segmentation) with clear human oversight roles. The CTA encourages trial engagement, indicating consideration stage readers evaluating solutions. The focus on marketing personalization, AI capabilities, and data-driven segmentation strongly aligns with Marketing Cloud, Einstein AI, and Data Cloud capabilities."
+      },
+      "existing_cta": {
+        "heading": "What can you do with a CRM built to reach more prospects?",
+        "body": "Automate your marketing campaigns with a CRM built to grow. It all starts with Starter Suite.",
+        "button_text": "Find out for free",
+        "button_url": "https://www.salesforce.com/small-business/marketing/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.3,
+        "funnel_alignment": "mismatch",
+        "persona_match": "mismatch",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel stage mismatch - section is consideration-stage discussing AI implementation, CTA is awareness-stage promoting basic CRM features",
+          "Persona mismatch - section targets marketing leaders, CTA targets small business owners",
+          "Product mismatch - section discusses Marketing Cloud/Einstein AI, CTA promotes Starter Suite",
+          "Tone mismatch - section is sophisticated discussing AI capabilities, CTA is basic/introductory"
+        ],
+        "rationale": "The CTA promotes basic CRM automation to small businesses while the section addresses advanced AI personalization for marketing leaders in consideration stage."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.9,
+          "match_rationale": "Perfect match - targets small businesses with AI agents (Agentforce), aligns with the section's focus on AI-powered marketing personalization for small businesses, and is at the consideration funnel stage matching the reader's implementing intent."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.8,
+          "match_rationale": "Strong alignment - specifically addresses AI for small businesses, providing educational content that supports the section's discussion of AI marketing implementation, though it's more awareness-focused than the reader's current consideration stage."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.7,
+          "match_rationale": "Good fit - targets small businesses at the consideration stage and offers general Salesforce solutions that could support the marketing personalization goals discussed in the section, though less specific to AI marketing."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Boosting human-led customer service with AI",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "service_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "human_in_the_loop",
+          "ai_agents",
+          "customer_service",
+          "case_summarization",
+          "small_business"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educating readers about the human-in-the-loop concept for AI in customer service. It explains how AI can augment human agents rather than replace them, using concrete examples like case summarization and response drafting. The content is informational and concept-focused rather than product-specific, indicating awareness stage. Primary audience is service leaders learning about AI integration, with business leaders as secondary audience given the small business context."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "service-cloud",
+          "score": 0.9,
+          "match_rationale": "Perfect alignment - the section is about AI agents in customer service, targeting service leaders, with Service Cloud and Agentforce focus. This CTA directly promotes Agentforce Service which matches the human-in-the-loop AI model discussed in the section."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Excellent match for awareness stage readers learning about AI agents in customer service. After reading about how AI can help with case summarization and response drafting, readers would naturally want to see how other businesses are implementing similar solutions."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.75,
+          "match_rationale": "Good fit as the section mentions small business topics and discusses implementing AI agents for customer service. This guide would be valuable for service leaders at small businesses wanting to understand how to implement these solutions."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Scaling commerce operations with AI support",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud",
+          "einstein_ai",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "human_in_the_loop",
+          "ecommerce",
+          "ai_automation",
+          "small_business",
+          "customer_experience"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining how AI and human collaboration works in ecommerce operations. The focus on small business needs, conceptual explanations of AI applications (dynamic pricing, personalized bundles), and lack of specific product mentions or CTAs indicates awareness-stage content for business leaders seeking to understand AI's role in commerce operations."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-commerce",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with the section content about small businesses scaling commerce operations. The reader just learned about AI-powered commerce optimization and would naturally be interested in how to start implementing these solutions."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.8,
+          "match_rationale": "Highly relevant as the section focuses on AI collaboration for small businesses. After learning about human-AI collaboration in commerce, readers would want a comprehensive guide on AI implementation for their business."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.75,
+          "match_rationale": "Strong match as the section discusses AI automation and the reader would be interested in real-world examples of how businesses are implementing AI agents, especially given the emphasis on human-AI collaboration."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "Unleashing team productivity with AI and HitL",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "slack",
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_productivity",
+          "human_in_the_loop",
+          "team_collaboration",
+          "workflow_automation",
+          "small_business"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section educates readers about AI productivity benefits and Human-in-the-Loop concepts without pushing specific products. The concrete examples (Slack integration, CRM connectivity, knowledge base) help business leaders understand practical applications. The awareness-stage content focuses on value propositions rather than product comparisons or purchase decisions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-collaboration",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with the section's focus on team productivity through Slack and AI collaboration. The CTA directly addresses 'Boost team productivity with Slack' which matches the section's demonstration of AI-powered Slack workflows for business leaders in small businesses."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.75,
+          "match_rationale": "Highly relevant for business leaders who just learned about AI productivity benefits. This awareness-stage guide matches the section's educational content about AI implementation and targets the small business persona specifically mentioned in the section topics."
+        },
+        {
+          "cta_id": "blog-playbook-agentic-ai",
+          "score": 0.7,
+          "match_rationale": "Good fit for business leaders in awareness stage who are learning about AI productivity strategies. The strategic focus of 'agentic AI strategy' aligns with the section's emphasis on AI as a productivity co-pilot and human-in-the-loop workflows."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "How to get started with an AI-powered CRM suite",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "sales_cloud",
+          "marketing_cloud",
+          "commerce_cloud",
+          "service_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_crm",
+          "small_business",
+          "getting_started",
+          "crm_adoption",
+          "agentforce"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly decision-stage content with implementing intent. It provides specific, actionable steps for getting started with Salesforce CRM and includes direct product recommendations (Free, Starter Suite, Pro Suite) with clear calls to action. The language is directive (\"Ready to get going? Start your journey\") and assumes the reader has already decided they need an AI-powered CRM solution. The primary persona is business_leader as it addresses small business owners/decision makers who would be choosing and implementing CRM systems."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match for business leaders ready to implement. The section specifically mentions 'Start your journey with the Free or Starter Suite today' and this CTA directly supports that action with 'Wherever you are — just get started.' Matches decision funnel stage and sales_cloud product alignment."
+        },
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.85,
+          "match_rationale": "Strong match for the customization path mentioned in the section. The text says 'Looking for more customization? Explore Pro Suite' and this CTA offers 'Ready to go Pro?' which directly addresses that reader journey. Decision-stage funnel alignment is perfect."
+        },
+        {
+          "cta_id": "small-business-sales",
+          "score": 0.8,
+          "match_rationale": "Good fit for business leaders implementing CRM for small businesses. The CTA 'Boost sales with a CRM made for growing businesses' aligns well with the section's focus on small businesses adopting AI-powered CRM. Decision funnel stage and sales_cloud product match perfectly."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 9,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter",
+          "agentforce",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "human_in_loop",
+          "ai_automation",
+          "small_business",
+          "crm_implementation",
+          "ai_augmentation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This FAQ section addresses common concerns about AI implementation for small businesses, specifically mentioning Salesforce Starter Suite. The content helps readers evaluate whether Human-in-the-Loop AI is right for them by addressing fears about job replacement, scalability concerns, and implementation risks. The business leader persona is primary as they're making strategic decisions about AI adoption, with IT leaders as secondary since they'd be involved in implementation."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Visit Trail",
+        "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-essentials-small-business/?d=bcta",
+        "position_after_section": 9
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "mismatch",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel stage mismatch: offering learning content when readers need evaluation/comparison materials",
+          "Persona mismatch: directing business leaders to hands-on training rather than strategic resources",
+          "Missed opportunity: readers ready to evaluate should get trials, demos, or sales contact"
+        ],
+        "rationale": "Educational content about Salesforce Essentials doesn't match business leaders in consideration stage who are evaluating solutions and need comparison materials or demos."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.95,
+          "match_rationale": "Perfect match for a business leader in the consideration stage evaluating AI automation. This FAQ section addresses human-in-loop concerns and this CTA directly speaks to growing small businesses with AI agents, aligning with the section's focus on agentforce and small business needs."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.8,
+          "match_rationale": "Strong fit for business leaders evaluating CRM implementation. The FAQ section discusses Salesforce Starter Suite accessibility for small teams, and this CTA offers a free entry point that matches the consideration funnel stage and small business focus."
+        },
+        {
+          "cta_id": "service-cloud",
+          "score": 0.75,
+          "match_rationale": "Good alignment with the section's service_cloud product focus and consideration stage. Since the FAQ discusses service case summarization as a starting point for AI automation, this Agentforce Service CTA is relevant for business leaders evaluating service solutions."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.155,
+  "misaligned_count": 9
+}

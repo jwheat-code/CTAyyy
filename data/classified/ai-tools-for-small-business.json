@@ -9,40 +9,39 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "general",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "starter",
-          "sales_cloud"
+          "general",
+          "starter"
         ],
         "topic_tags": [
           "ai_tools",
           "small_business",
           "productivity",
-          "marketing_automation",
-          "crm"
+          "growth",
+          "business_automation"
         ],
         "confidence": 0.85,
-        "rationale": "This is an introductory section of a guide about AI tools for small businesses. The content is educational and awareness-stage, targeting business leaders who are learning about AI solutions. The mention of marketing, sales, and CRM aligns with core Salesforce products, particularly Einstein AI capabilities and Starter suite for small businesses."
+        "rationale": "This is a high-level introduction to AI tools for small businesses, indicating awareness stage content where readers are learning about available solutions. The focus on small businesses suggests business leaders as the primary audience, and the general nature of AI tools discussion without specific Salesforce product mentions indicates general product alignment, though Starter Suite may be relevant for small business context."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-starter",
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.95,
+          "match_rationale": "Perfect match for business leaders in awareness stage reading about AI tools for small businesses. This guide directly addresses their learning intent about AI for small business - exactly what they're thinking about after reading the intro section."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.85,
-          "match_rationale": "Perfect match - after learning about AI tools for small businesses, business leaders are ready to consider a starter solution. Product alignment with 'starter' and decision funnel stage is one step ahead of awareness, targeting small business leaders specifically."
+          "match_rationale": "Highly relevant as it provides actionable guidance on implementing AI agents for small business. Matches the business leader persona and awareness funnel stage while building on their interest in AI tools and business automation."
         },
         {
-          "cta_id": "ai-report",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.75,
-          "match_rationale": "Strong alignment with AI focus and awareness stage. Business leaders learning about AI tools would benefit from deeper insights via the State of AI Report to continue their educational journey."
-        },
-        {
-          "cta_id": "sales-cloud-demo",
-          "score": 0.65,
-          "match_rationale": "Good product alignment with sales_cloud and persona match for business_leader. Moving from awareness to consideration with a demo makes sense after learning about CRM and sales tools."
+          "match_rationale": "Good awareness-stage fit offering research on how businesses are using AI agents. Aligns with their learning intent about AI tools, though slightly less focused on small business specifically compared to the top options."
         }
       ],
       "recommend_no_cta": false,

@@ -1,0 +1,724 @@
+{
+  "url": "https://www.salesforce.com/blog/scheduling-software-for-small-business/?bc=DB",
+  "slug": "scheduling-software-for-small-business",
+  "title": "The Best Scheduling Tools for Small Businesses and Startups",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "crm_integration",
+          "appointment_booking",
+          "automation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is a key takeaways section that summarizes benefits of scheduling tools for small businesses. The reader is evaluating solutions (mentions comparing tools), targeting business leaders at small/medium businesses who are in the consideration stage looking for scheduling solutions that integrate with CRM. Strong alignment with Sales Cloud for CRM integration and Starter suite for small business focus."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders evaluating CRM solutions for appointment booking and scheduling integration. The section emphasizes CRM integration benefits, and this CTA offers free Salesforce for small businesses, matching the consideration funnel stage and small business focus."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.8,
+          "match_rationale": "Highly relevant for business leaders considering Salesforce solutions for their small business. The section discusses scheduling tools for SMBs, and this general CTA reinforces that Salesforce works for small businesses at the right funnel stage."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.7,
+          "match_rationale": "Good fit for business leaders thinking about CRM capabilities beyond scheduling. After reading about CRM integration benefits, they would be interested in exploring broader CRM prospect-reaching capabilities for their growing business."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is scheduling software and why does your SMB need it?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "scheduling_software",
+          "small_business",
+          "crm_integration",
+          "automation",
+          "productivity"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is clearly educational content explaining \"what is scheduling software\" - classic awareness stage learning intent. The focus on SMBs and startups indicates business leaders as primary audience, with sales leaders as secondary given the CRM integration focus. Strong alignment with Sales Cloud features and Starter suite for small businesses."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders in awareness stage learning about scheduling software. This educational trail aligns with their learning intent and provides next-step education about Salesforce essentials for small businesses, which directly relates to the CRM integration and automation topics discussed."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.75,
+          "match_rationale": "Strong alignment as business leaders learning about scheduling automation would naturally be interested in broader AI and automation guides for small businesses. The guide format matches their learning intent and awareness stage, while staying relevant to productivity and automation themes."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.65,
+          "match_rationale": "Good fit as it progresses business leaders from awareness to consideration stage by showing practical CRM applications. After learning about scheduling software benefits, they'd be interested in understanding broader CRM capabilities for reaching prospects, which aligns with their small business focus."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Benefits of scheduling tools for SMBs",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "slack",
+          "starter",
+          "general"
+        ],
+        "topic_tags": [
+          "scheduling",
+          "small_business",
+          "productivity",
+          "appointment_management",
+          "workflow_automation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining the general benefits of scheduling tools for SMBs. The reader intent is learning about scheduling solutions rather than evaluating specific products. While Salesforce and Slack are mentioned as integration examples, this is awareness-stage content focused on the broader concept. The CTA for Slack trial suggests some product consideration, but the primary content is educational."
+      },
+      "existing_cta": {
+        "heading": "Boost team productivity with Slack",
+        "body": "Bring together your team, your customers, and your tools to help take your business to the next level with Slack — it’s where business gets done.",
+        "button_text": "Try for free",
+        "button_url": "https://www.salesforce.com/small-business/collaboration/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel stage mismatch - offering free trial to awareness-stage readers who are still learning about scheduling benefits",
+          "CTA focuses on general team productivity rather than the specific scheduling benefits discussed in the section"
+        ],
+        "rationale": "While Slack is mentioned in the section and targets the right persona, the \"Try for free\" CTA is decision-stage whereas readers are still in awareness mode learning about scheduling tools generally."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders at awareness stage learning about small business productivity. The AI guide for SMBs directly addresses the automation and scheduling benefits discussed in the section, making it a natural next step for readers interested in productivity tools."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the small business focus and business leader persona. This consideration-stage CTA is appropriately one step ahead of the awareness content, offering general information about how Salesforce works for small businesses like those seeking scheduling solutions."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.7,
+          "match_rationale": "Good fit for small business leaders who just learned about scheduling benefits and may be ready to explore CRM solutions. The free offering reduces barrier to entry for SMBs, and the consideration-stage funnel appropriately follows awareness content about productivity tools."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Key scheduling features to consider",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "service_cloud",
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "customer_service",
+          "automation",
+          "self_service"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is clearly evaluating scheduling tool features for small businesses. The content helps readers compare and assess different capabilities (calendar integration, automated reminders, self-service booking, team scheduling). The mention of CRM integration, customer service stats, and the CTA for service solutions aligns with Salesforce's service and sales products, particularly for small business segments."
+      },
+      "existing_cta": {
+        "heading": "Build a loyal customer base with smarter, faster service solutions.",
+        "body": "",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/small-business/service/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.75,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "The CTA aligns well with consideration-stage readers evaluating service solutions, though the generic \"loyal customer base\" messaging could be more specific to scheduling features."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-service",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - the section discusses scheduling tools for customer service and mentions self-service features, which directly connects to 'Build a loyal customer base with smarter, faster service solutions.' The business leader persona and consideration funnel stage match exactly, and the CTA focuses on service solutions for small businesses."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.75,
+          "match_rationale": "Strong match - after evaluating scheduling features that integrate with CRMs, a business leader would naturally consider getting a free CRM. The section mentions switching between calendar and CRM, making this CTA highly relevant. Matches the consideration funnel stage and small business focus."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.7,
+          "match_rationale": "Good alignment - the section is specifically about small business needs (mentions solopreneurs, team calendars, small business context), and this general CTA 'Salesforce works for small businesses' matches the consideration stage and business leader persona well."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Top 9 scheduling tools and apps for SMB",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter",
+          "platform"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "productivity",
+          "software_comparison",
+          "smb_solutions"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is clearly helping SMB leaders evaluate and compare scheduling tool options. The \"Top 9\" format and mention of \"benefits and costs\" indicates readers are in the consideration phase, comparing solutions. Primary persona is business_leader as they're making software decisions for their company, with admin as secondary since they might implement the chosen solution."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders evaluating scheduling tools for SMBs. The CTA 'Salesforce works for small businesses' directly addresses their context and is at the right consideration funnel stage."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.8,
+          "match_rationale": "Highly relevant for SMB leaders comparing scheduling tools. After reading about various options, they're likely interested in a free CRM solution that could integrate with their scheduling needs."
+        },
+        {
+          "cta_id": "small-business-commerce",
+          "score": 0.7,
+          "match_rationale": "Good fit as it targets small businesses with Starter Suite, which aligns with their evaluation stage and could complement their scheduling tool needs for business operations."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "1. Salesforce Suites",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter",
+          "sales_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "crm",
+          "appointment_booking",
+          "calendar_management"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly in the consideration stage as it presents Salesforce Suites as one option among scheduling tools for small businesses. The reader intent is evaluating since they're comparing different scheduling solutions. The primary persona is business_leader (small business owners/decision makers) with sales_leader as secondary since scheduling is often a sales function. The CTA \"Get Free CRM\" and specific pricing information indicate they're ready to consider Salesforce as a solution."
+      },
+      "existing_cta": {
+        "heading": "Get Salesforce. FREE for small businesses.",
+        "body": "Connect sales, service, and analytics on one platform. Save time, stay organized, and fuel growth with the CRM that scales for small teams.",
+        "button_text": "Get Free CRM",
+        "button_url": "https://www.salesforce.com/form/signup/free-crm/?d=bcta",
+        "position_after_section": 5
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [],
+        "rationale": "Strong alignment with business leaders evaluating Salesforce, though CTA focuses on basic CRM while section discusses Suites specifically."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match - this section specifically discusses Starter Suite pricing and features, and readers evaluating these options would naturally want to try the free 30-day trial mentioned in the content. This CTA directly aligns with the product focus and reader's consideration stage intent."
+        },
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.85,
+          "match_rationale": "Strong match - the section covers both Starter and Pro Suite options, and business leaders evaluating advanced features like AI-driven scheduling and automation would be interested in trying the Pro Suite. Matches the consideration-to-decision funnel progression."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "2. Slack",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "slack",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "team_collaboration",
+          "productivity",
+          "ai_agents"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is comparing scheduling tools for small businesses, specifically evaluating Slack's capabilities. The reader is in consideration mode, weighing different options. Primary persona is business leader (small business owner/startup leader) making tool decisions, with admin as secondary persona who might implement. High confidence due to clear evaluative language (\"What it can do\", \"How it benefits\", pricing details) and the article's comparative structure."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders evaluating AI agents for small business. The section discusses Slack scheduling AI agents, and this CTA directly addresses growing small businesses with AI agents. Matches consideration funnel stage and agentforce product alignment."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with small business persona and consideration stage. After reading about Slack's benefits for small teams, business leaders would be interested in broader Salesforce solutions for small businesses."
+        },
+        {
+          "cta_id": "launchpad",
+          "score": 0.7,
+          "match_rationale": "Good fit for startup-focused content in the section. The text specifically mentions 'startups' multiple times, and this CTA targets startup acceleration, matching the consideration funnel stage for business leaders."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "3. Calendly",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "productivity",
+          "calendly",
+          "business_software"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is clearly evaluating a specific scheduling tool (Calendly) with detailed feature analysis, pricing, and use cases. The reader is comparing scheduling solutions for small business needs, indicating consideration stage behavior. While this mentions a competitor product rather than Salesforce offerings, it targets small business leaders evaluating productivity tools."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - the section discusses Calendly as a scheduling tool for SMBs, and this CTA directly addresses small businesses evaluating Salesforce as a comprehensive solution. The consideration funnel stage matches the reader's intent of evaluating business software options."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.8,
+          "match_rationale": "Strong match for small business leaders evaluating tools like Calendly. After reading about a $10/month scheduling solution, they'd be interested in a free CRM that could potentially consolidate multiple business functions. The consideration stage and small business focus align well."
+        },
+        {
+          "cta_id": "crm-free-crm",
+          "score": 0.75,
+          "match_rationale": "Good fit as readers evaluating Calendly are likely considering how scheduling fits into their broader business processes. This CTA positions Salesforce Suites as a comprehensive solution that could include scheduling capabilities alongside other business functions."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "4. Acuity Scheduling",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "service_management",
+          "appointment_booking",
+          "business_automation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is part of a comparison article reviewing scheduling tools, indicating readers are actively evaluating solutions. The focus on service-based SMBs (salons, coaches, consultants) and features like booking management, payments, and staff calendars aligns with Service Cloud capabilities and Salesforce Starter for small businesses. The detailed feature breakdown and pricing suggests consideration-stage buyers comparing options."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-service",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - the section discusses service-based SMBs evaluating appointment booking tools, and this CTA promotes 'smarter, faster service solutions' for building loyal customer base. Matches business_leader persona, consideration funnel stage, and service/small business focus."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.75,
+          "match_rationale": "Strong match for service-focused businesses. After reading about Acuity Scheduling for service businesses, joining a service community would be a natural next step for business leaders looking to improve their service operations. Matches consideration stage and service_cloud product alignment."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 9,
+      "section_heading": "5. Setmore",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "productivity",
+          "team_management",
+          "software_comparison"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is part of a comparison article reviewing scheduling tools for small businesses. The reader is clearly in an evaluation mindset, comparing different solutions (Setmore is option #5). The content focuses on features, benefits, and pricing - classic consideration-stage information. Primary persona is business_leader as they're making software purchasing decisions for their small business or startup."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - targets business leaders evaluating solutions for small businesses. The section discusses scheduling tools for growing small teams, and this CTA positions Salesforce as a comprehensive solution for small businesses in the consideration stage."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.8,
+          "match_rationale": "Excellent fit for business leaders comparing scheduling tools with other business solutions. After reading about Setmore's pricing ($5/user/month), they'd be interested in Salesforce's free CRM option, representing a logical next step in their evaluation process."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 10,
+      "section_heading": "6. Square Appointments",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "payment_processing",
+          "pos_systems",
+          "appointment_booking"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is part of a comparative guide evaluating scheduling tools for small businesses. The reader is clearly in evaluation mode, comparing different solutions including Square Appointments. The content targets small business owners/leaders who need scheduling and payment solutions. While this mentions a competitor (Square) rather than Salesforce products, it's part of broader SMB solution consideration content."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.7,
+          "match_rationale": "Strong match for business leaders in consideration stage - after evaluating Square's paid solution ($49/month), offering a free Salesforce CRM alternative is compelling and relevant to small business decision-makers"
+        },
+        {
+          "cta_id": "small-business-service",
+          "score": 0.65,
+          "match_rationale": "Good fit for business leaders considering appointment/booking solutions - focuses on building customer relationships and service solutions, which aligns with the appointment booking and customer management themes discussed in the Square section"
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 11,
+      "section_heading": "7. SimplyBook.me",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "appointment_booking",
+          "business_software",
+          "smb_solutions"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is part of a comparative review of scheduling tools, indicating readers are actively evaluating options. The focus on SMBs and startups suggests business leaders seeking solutions. This is consideration-stage content comparing third-party tools rather than promoting Salesforce products directly, hence 'general' product alignment."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - the section focuses on SMB booking tools and this CTA directly addresses 'Salesforce works for small businesses' with consideration-level messaging that matches the reader's evaluation stage for business software solutions."
+        },
+        {
+          "cta_id": "small-business-service",
+          "score": 0.65,
+          "match_rationale": "Good relevance - the section discusses appointment booking which is fundamentally about customer service. This CTA about building loyal customer base with service solutions aligns well with businesses thinking about customer experience after reading about booking tools."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 12,
+      "section_heading": "8. Appointy",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "appointment_booking",
+          "business_software",
+          "productivity"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides detailed comparisons of third-party scheduling tools (Appointy and Book Like a Boss) with specific features, pricing, and use cases. The reader is clearly in evaluation mode, comparing different scheduling solutions. The primary persona is business leaders at small businesses/startups who need scheduling solutions. This is consideration stage content as readers are actively comparing tools to make a decision. Not aligned with any specific Salesforce product as it focuses on competitor scheduling tools."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - reader just learned about appointment booking tools and is evaluating options for their small business. This CTA naturally progresses them to consider how a CRM can help reach more prospects and manage the customer relationships that result from those appointments. Matches consideration funnel stage and business leader persona."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.8,
+          "match_rationale": "Excellent fit for business leaders who just read about appointment booking solutions. After learning about scheduling tools, they're likely thinking about broader business management needs. A free CRM trial is a logical next step to manage the leads and customers that come through their booking system. Matches consideration stage perfectly."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 13,
+      "section_heading": "How to connect your calendar",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter",
+          "slack",
+          "platform"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "calendar_integration",
+          "small_business",
+          "productivity",
+          "workflow_automation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is a tactical how-to section targeting small business owners who are ready to implement scheduling solutions. The content provides specific setup instructions and mentions Salesforce Suites alongside other tools, indicating consideration stage evaluation. The primary persona is business_leader (SMB owners) with secondary persona as admin (those actually implementing the setup)."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.85,
+          "match_rationale": "Perfect match for business leaders implementing calendar integration. After learning how to connect calendars, they would naturally want to try Salesforce's free CRM that includes scheduling capabilities. The consideration funnel stage aligns with their implementing intent."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.75,
+          "match_rationale": "Highly relevant for business leaders reading about small business calendar solutions. After understanding implementation steps, they would be interested in learning how Salesforce specifically works for small businesses. Matches consideration stage and small business focus."
+        },
+        {
+          "cta_id": "crm-free-crm",
+          "score": 0.7,
+          "match_rationale": "Good fit as it positions Salesforce Suites (mentioned in the section) as an AI-powered solution for calendar integration needs. Appeals to business leaders wanting to start their journey with integrated scheduling and CRM capabilities."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 14,
+      "section_heading": "Scheduling you sales and your team just got easier",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "sales_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "sales_workflow",
+          "productivity",
+          "customer_experience"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section directly addresses small business leaders seeking scheduling solutions with multiple specific product recommendations (Starter Suite, Pro Suite, Agentforce 360). The language is solution-oriented (\"you need the best tool\") with clear calls to action to start trials, indicating decision-stage intent. The focus on reducing dependency on manual processes and speeding up sales workflows shows problem-solving intent."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.9,
+          "match_rationale": "Perfect match for decision-stage business leaders interested in Starter Suite. The section specifically mentions starting with 'Free or Starter Suite today' and this CTA directly offers getting started with Salesforce Starter, exactly what the reader is primed for."
+        },
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.85,
+          "match_rationale": "Strong alignment with the section's mention of 'Looking for more customization? Explore Pro Suite.' This CTA targets readers ready to move beyond basic solutions, matching the decision funnel stage and business leader persona."
+        },
+        {
+          "cta_id": "small-business-sales",
+          "score": 0.8,
+          "match_rationale": "Excellent fit for business leaders seeking sales workflow improvements. The CTA focuses on boosting sales with CRM for growing businesses, directly addressing the scheduling and sales productivity themes discussed in the section."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 15,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "starter"
+        ],
+        "topic_tags": [
+          "scheduling_tools",
+          "small_business",
+          "crm",
+          "automation",
+          "calendar_integration"
+        ],
+        "confidence": 0.85,
+        "rationale": "This FAQ section addresses common questions about scheduling tools for small businesses, indicating readers are actively evaluating solutions. The content specifically mentions Salesforce Starter Suite as an option, targeting business leaders who need simple CRM and scheduling capabilities. The consideration stage is evident as it compares basic calendars vs. scheduling tools and addresses implementation concerns."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - this FAQ section explicitly mentions Starter Suite and CRM features for small businesses. After reading about scheduling tools and CRM benefits, business leaders would naturally want to try the free CRM option. The 'consideration' funnel stage matches perfectly."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.75,
+          "match_rationale": "Strong match for business leaders evaluating Salesforce for small business needs. The section focuses on small business scheduling and CRM, and this CTA reinforces that Salesforce works for small businesses at the consideration stage."
+        },
+        {
+          "cta_id": "small-business-commerce",
+          "score": 0.65,
+          "match_rationale": "Good fit since the section mentions Starter Suite specifically and this CTA promotes starting to sell online with Starter Suite. Appeals to business leaders considering expanding their business capabilities with scheduling and sales tools."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.125,
+  "misaligned_count": 14
+}

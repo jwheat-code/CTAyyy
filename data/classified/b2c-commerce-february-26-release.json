@@ -1,0 +1,258 @@
+{
+  "url": "https://www.salesforce.com/blog/b2c-commerce-february-26-release/?bc=DB",
+  "slug": "b2c-commerce-february-26-release",
+  "title": "B2C Commerce February release: Innovate at the speed of the consumer",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "product_updates",
+          "b2c_commerce",
+          "merchandising",
+          "pwa_kit",
+          "customer_experience"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an introductory section announcing new product features in Agentforce Commerce. The content is educational about new capabilities, targeting both merchandisers (marketing leaders) and developers. It's awareness-stage content introducing what's new rather than pushing for a decision. The focus on removing manual tasks and improving workflows indicates commerce_cloud and agentforce alignment."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "commerce-innovations",
+          "score": 0.85,
+          "match_rationale": "This CTA directly aligns with the section's focus on Commerce Cloud product updates and innovations. After learning about the February '26 release features, marketing leaders would naturally want to explore more commerce innovations and releases. The consideration funnel stage is appropriate for awareness content."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the Agentforce product mentioned in the section and the marketing leader persona. The guide about AI agents usage matches the awareness stage and provides relevant insights for leaders evaluating AI commerce solutions."
+        },
+        {
+          "cta_id": "events-webinars-b2c-commerce-roadmap-innovation-gr",
+          "score": 0.7,
+          "match_rationale": "Perfect topical alignment with B2C Commerce roadmap and innovation, directly relevant to the product updates discussed. The event format provides deeper learning opportunity for marketing leaders interested in future commerce developments."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What’s new for merchandisers",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "commerce_cloud",
+          "agentforce",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "product_updates",
+          "merchandising",
+          "ecommerce",
+          "ai_agents",
+          "checkout_optimization"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a product release announcement detailing specific new features for Commerce Cloud merchandisers. The technical detail level and feature-specific content indicates existing customers in the decision/implementation stage. The focus on merchandising workflows and performance measurement targets business leaders who manage ecommerce operations, with secondary appeal to marketing leaders involved in digital commerce strategy."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "events-webinars-b2c-commerce-roadmap-innovation-gr",
+          "score": 0.75,
+          "match_rationale": "Perfect alignment for business leaders implementing commerce solutions. After reading about Commerce Cloud product updates, they'd want to see the roadmap for future innovations. Matches decision stage with forward-looking awareness content."
+        },
+        {
+          "cta_id": "commerce-resources-forrester-tei-b2c-commerce-oms",
+          "score": 0.65,
+          "match_rationale": "Strong match for business leaders in decision stage who need ROI validation for B2C Commerce implementations. After reading about new features, they'd want third-party research to support their business case."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "What’s new for developers",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "commerce_cloud",
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "b2c_commerce",
+          "api_updates",
+          "developer_tools",
+          "pwa_kit",
+          "ecommerce"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is highly technical content focused on new developer features and capabilities in B2C Commerce. The section details specific API updates, CLI tools, and PWA Kit improvements with technical specifications. The implementing intent reflects that developers reading this are likely ready to use these new tools and features in their projects. Commerce Cloud is primary with Agentforce integration and platform development capabilities."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-platform",
+          "score": 0.75,
+          "match_rationale": "Strong alignment for developers ready to implement. The platform trial matches the section's focus on development tools and APIs. The decision funnel stage is one step ahead of consideration, which is appropriate for developers who are ready to start hands-on implementation after learning about the new features."
+        },
+        {
+          "cta_id": "commerce-resources-forrester-tei-b2c-commerce-oms",
+          "score": 0.65,
+          "match_rationale": "Good fit for developers in implementation phase who need to demonstrate ROI and value to stakeholders. While not developer-specific, the B2C Commerce focus aligns well with the section content, and consideration funnel stage matches the reader's current stage of evaluating implementation details."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "What’s new for admins",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "admin",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "platform_security",
+          "admin_tools",
+          "sandbox_management",
+          "automation",
+          "tls_encryption"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeted at admins who are already using Commerce Cloud and need to implement new security and management features. The technical nature of the content (SCAPI client secrets, WAFv2, TLS 1.3, sandbox controls) indicates readers are in the decision/implementation phase, looking for specific functionality to enhance their existing platform setup."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
+          "score": 0.85,
+          "match_rationale": "Perfect match for admins implementing security features. The section discusses platform security hardening, TLS encryption, and client secret rotation - exactly what this Shield implementation guide addresses. Admin persona and decision stage alignment is ideal."
+        },
+        {
+          "cta_id": "form-platform-data-masking-and-seeding-guide",
+          "score": 0.75,
+          "match_rationale": "Strong relevance for admins focused on security and data protection. After reading about platform security improvements, admins would be interested in comprehensive data security practices including masking and seeding for sandbox environments."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "What do these new features mean for your business?",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "commerce_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "commerce",
+          "agility",
+          "market_responsiveness",
+          "digital_transformation",
+          "business_value"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section focuses on the business value and strategic benefits of commerce technology rather than technical details. The language about \"innovating at the speed of the consumer\" and responding to market trends is inspirational and forward-looking, targeting business leaders who need to understand why agility matters in commerce. It's consideration stage because it's explaining the value proposition of Commerce Cloud/Agentforce Commerce to readers evaluating solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "commerce-innovations",
+          "score": 0.8,
+          "match_rationale": "Perfect alignment with the section's commerce focus and consideration stage. After reading about new commerce features and their business value, readers would naturally want to discover more commerce innovations and latest releases."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.75,
+          "match_rationale": "Strong match for business leaders interested in Agentforce Commerce capabilities. The CTA aligns with the section's Agentforce product focus and consideration funnel stage, offering practical guidance for business growth."
+        },
+        {
+          "cta_id": "plus-experience-dreamforce_2025-series-marketers_a",
+          "score": 0.7,
+          "match_rationale": "Good fit for business leaders considering agentic AI adoption. After learning about commerce agility and market responsiveness, this CTA naturally extends to exploring how agentic AI can help their broader business needs."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Explore release notes for the full feature list and documentation",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "developer",
+        "secondary_persona": "admin",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "b2c_commerce",
+          "release_notes",
+          "documentation",
+          "pwa_kit",
+          "composable_storefront"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides direct links to technical documentation and release notes, indicating readers are existing Commerce Cloud users or developers ready to implement new features. The technical nature (PWA Kit, SCAPI, release notes) clearly targets developers who need implementation details."
+      },
+      "existing_cta": {
+        "heading": "See what’s next for B2C Commerce",
+        "body": "Learn more about our latest innovations and explore our upcoming roadmap.",
+        "button_text": "Watch the webinar",
+        "button_url": "https://www.salesforce.com/events/webinars/b2c-commerce-roadmap-innovation-growth-efficiency/",
+        "position_after_section": 5
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.3,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "Funnel stage mismatch: offering educational/awareness content to readers at decision stage who need implementation guidance",
+          "Wrong action for intent: developers implementing features need documentation, tutorials, or support, not roadmap/innovation content"
+        ],
+        "rationale": "This CTA offers educational content (webinar) to developers already implementing Commerce Cloud features, when they need implementation resources or direct support."
+      },
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "This section is focused on directing developers to release notes and documentation for B2C Commerce products (PWA Kit, Composable Storefront, SCAPI). After reading this section, developers would naturally click through to access the specific technical documentation they need. The available CTA library primarily contains Sales Cloud and Agentforce CTAs that don't align with Commerce Cloud or the developer persona. Additionally, the section serves as a navigation hub rather than content that would lead to conversion actions, making it inappropriate for promotional CTAs that could disrupt the user's documentation access workflow."
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 6
+}

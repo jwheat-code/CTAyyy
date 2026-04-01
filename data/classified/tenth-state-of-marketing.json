@@ -1,0 +1,67 @@
+{
+  "url": "https://www.salesforce.com/blog/tenth-state-of-marketing/?bc=DB",
+  "slug": "tenth-state-of-marketing",
+  "title": "The Campaign Is Dead: 5 Hard Truths From the Tenth Edition State of Marketing",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "agentforce",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "marketing_transformation",
+          "ai_agents",
+          "personalization",
+          "marketing_automation",
+          "customer_engagement"
+        ],
+        "confidence": 0.9,
+        "rationale": "This introduction section educates readers about the shift from traditional campaign marketing to AI-driven personalization. The content is awareness-stage, helping marketing leaders understand industry trends and challenges. While it mentions AI agents and personalization capabilities that align with Marketing Cloud, Agentforce, and Data Cloud, it's primarily educational rather than solution-focused."
+      },
+      "existing_cta": {
+        "heading": "The Tenth Edition State of Marketing is Here",
+        "body": "How is the the future of our industry evolving? See what 4,450 marketers from around the world said about how they are adjusting to the new age of AI.",
+        "button_text": "Read the report",
+        "button_url": "https://www.salesforce.com/marketing/resources/state-of-marketing-report/",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.95,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "This CTA perfectly aligns with an awareness-stage introduction section by offering the exact report referenced in the content to marketing leaders seeking industry insights."
+      },
+      "recommendations": [
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.9,
+          "match_rationale": "Perfect match - the section specifically mentions the 'Tenth Edition State of Marketing report' and this CTA offers exactly that report. The reader is already primed to want this content since it was referenced as supporting evidence for the article's main points."
+        },
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.8,
+          "match_rationale": "Strong alignment - after reading about AI agents enabling personalized marketing at scale, marketing leaders would naturally want a practical guide on implementing Agentforce Marketing. Matches the awareness funnel stage and marketing leader persona perfectly."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.75,
+          "match_rationale": "Good fit - the section heavily discusses AI agents and how businesses are starting to use them for marketing transformation. Marketing leaders would be interested in seeing how other enterprises are implementing AI agents, especially after learning about the potential."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.95,
+  "misaligned_count": 0
+}

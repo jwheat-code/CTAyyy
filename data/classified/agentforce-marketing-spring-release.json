@@ -1,0 +1,197 @@
+{
+  "url": "https://www.salesforce.com/blog/agentforce-marketing-spring-release/?bc=DB",
+  "slug": "agentforce-marketing-spring-release",
+  "title": "What You Need to Know about the Agentforce Marketing Spring ‘26 Release",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "product_release",
+          "spring_26",
+          "marketing_features",
+          "agentforce_marketing",
+          "product_updates"
+        ],
+        "confidence": 0.9,
+        "rationale": "This introduction section is setting up an educational overview of new Marketing features in the Spring '26 release. The reader intent is learning about what's new rather than solving a specific problem. The primary persona is marketing leaders who would be interested in new marketing capabilities. It's consideration stage as readers are exploring new product features to understand if they're valuable for their organization. High confidence given the clear marketing focus and educational tone of the introduction."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "events-webinars-marketing-cloud-spring-26-release",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - this CTA directly addresses the Spring '26 Marketing Release mentioned in the section. The reader just learned about the release and would naturally want to 'get the deets' on what's new. Matches the consideration funnel stage perfectly as they're evaluating new features."
+        },
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.85,
+          "match_rationale": "Excellent match for marketing leaders interested in Agentforce Marketing features mentioned in the section. The 'Quick Guide' format is ideal for consideration stage readers who want to understand how to implement these new capabilities. Aligns with both Marketing Cloud and Agentforce product focus."
+        },
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.7,
+          "match_rationale": "Good complementary resource for marketing leaders who are learning about product updates. While not directly about Spring '26, it provides broader marketing insights that would interest someone evaluating new marketing features. Slightly lower score as it's awareness-stage rather than consideration."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is a Salesforce Release?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "admin",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "marketing_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "salesforce_releases",
+          "platform_updates",
+          "admin_education",
+          "agentforce_marketing",
+          "system_maintenance"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is foundational educational content explaining basic Salesforce concepts (releases) to readers who may be unfamiliar. The learning intent is clear from the educational tone and \"let's make sure we're all familiar\" language. Primary persona is admin since they manage orgs and maintenance schedules, though this could help business users too. Awareness stage because it's teaching basic platform concepts rather than promoting specific solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Perfect match for admins in awareness stage learning about Salesforce releases. The 'Visit Trail' CTA directly continues the educational journey mentioned in the section text about taking Trailhead modules to get release details."
+        },
+        {
+          "cta_id": "content-learn-modules-manage_the_sfdc_way_engage_r",
+          "score": 0.75,
+          "match_rationale": "Strong alignment for admin persona seeking to learn proper Salesforce management practices. After learning about releases, admins would naturally want to understand best practices for managing Salesforce effectively."
+        },
+        {
+          "cta_id": "company-be-a-trailblazer",
+          "score": 0.7,
+          "match_rationale": "Good fit for awareness-stage admins learning about Salesforce fundamentals. After understanding releases, joining the broader Salesforce ecosystem community is a logical next step for continued learning and connection."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "What new features are in the Spring ‘26 release?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "product_release",
+          "conversational_email",
+          "attribution",
+          "partner_linking",
+          "ai_agents"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is explaining new Agentforce Marketing features to help marketing leaders understand capabilities and evaluate the platform. The detailed feature explanations with business benefits indicate consideration-stage content for marketing professionals who are learning about these new capabilities."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "events-webinars-marketing-cloud-spring-26-release",
+          "score": 0.95,
+          "match_rationale": "Perfect match - the section is specifically about the Spring '26 release and this CTA offers to 'Get the deets on the Spring '26 Marketing Release'. The reader who just learned about these new features would naturally want more detailed information about the release. Matches the marketing_leader persona and consideration funnel stage."
+        },
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.85,
+          "match_rationale": "Strong alignment - after reading about Agentforce Marketing features like Conversational Email and Multi-touch Attribution, a marketing leader would likely want a quick guide to get started with these capabilities. The CTA matches the agentforce product focus and consideration stage perfectly."
+        },
+        {
+          "cta_id": "service-cloud",
+          "score": 0.75,
+          "match_rationale": "Good relevance - the section discusses Conversational Email with AI agents that can handle customer service questions and loop in humans when needed. This positions Agentforce Service as a natural next step for marketing leaders interested in comprehensive customer interaction management across marketing and service."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Resources to guide you with the Spring Release",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "marketing_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "product_release",
+          "spring_26",
+          "implementation_resources",
+          "feature_adoption",
+          "training"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides implementation resources for existing customers ready to adopt new Spring '26 features. The content assumes familiarity with Salesforce and focuses on practical next steps (release notes, demos, training). The CTA about \"two-way conversations\" and focus on Agentforce Marketing features clearly targets marketing leaders in decision/implementation mode."
+      },
+      "existing_cta": {
+        "heading": "Power two-way conversations across every channel",
+        "body": "AgentforceMarketing brings autonomous AI agents, actionable data, and full-funnel workflows together. See how it works.",
+        "button_text": "Learn more",
+        "button_url": "https://www.salesforce.com/marketing/",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel stage mismatch: section is decision-stage (implementation guidance) but CTA is awareness-level (learn more)",
+          "Missed opportunity: readers ready to implement should get trial/demo CTAs, not general learning content"
+        ],
+        "rationale": "The CTA has a significant funnel stage mismatch - it's an awareness-level \"Learn more\" CTA in a decision-stage section focused on implementation resources."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.85,
+          "match_rationale": "Highly relevant for marketing leaders ready to implement Agentforce Marketing features mentioned in the section. Provides practical implementation guidance which aligns with the reader's implementing intent."
+        },
+        {
+          "cta_id": "form-platform-the-salesforce-devsecops-guide",
+          "score": 0.6,
+          "match_rationale": "While not specifically marketing-focused, this implementation guide could be valuable for marketing leaders who need to understand technical implementation aspects of the Spring '26 release features they're planning to deploy."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.1,
+  "misaligned_count": 4
+}

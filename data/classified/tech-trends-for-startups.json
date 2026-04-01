@@ -1,0 +1,210 @@
+{
+  "url": "https://www.salesforce.com/blog/tech-trends-for-startups/?bc=DB",
+  "slug": "tech-trends-for-startups",
+  "title": "The Future of Business Is Fast: Watch For These 3 Tech Trends",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "data_cloud",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "ai_trends",
+          "small_business",
+          "technology_report",
+          "ai_agents",
+          "crm_consolidation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is a summary section introducing key takeaways from a technology trends report. The content is educational and conceptual, focusing on helping SMB leaders understand emerging technology trends like AI agents and unified CRM. The language (\"cutting-edge trends often feel reserved for larger organizations\") suggests readers are in early learning stages about these technologies, making this awareness-stage content with learning intent."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.95,
+          "match_rationale": "Perfect match for a business leader in the awareness stage who just read about AI trends and AI agents. This CTA offers a report on how businesses are using AI agents, directly aligning with the section's focus on AI agents for small businesses and providing educational content at the right funnel stage."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.9,
+          "match_rationale": "Excellent alignment for business leaders seeking to understand AI implementation. After reading about AI trends for small businesses, this guide provides the next logical step in their learning journey, maintaining the awareness stage while offering practical AI guidance."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.85,
+          "match_rationale": "Strong relevance as it builds on the section's discussion of AI agents for small businesses. While slightly more implementation-focused, it's still in the awareness stage and provides valuable educational content about implementing AI agents, which directly connects to the section's key themes."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Small business trends to watch out for in 2026",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "data_cloud",
+          "sales_cloud",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "agentic_ai",
+          "small_business_trends",
+          "data_management",
+          "ai_agents",
+          "crm"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content about AI and data trends for SMBs in 2026. The reader intent is learning about future trends rather than evaluating specific solutions. The primary persona is business leaders seeking to understand upcoming technology shifts, with IT leaders as secondary audience. It's awareness-stage content that introduces concepts like agentic AI and data unification without pushing specific Salesforce products, though it aligns with Agentforce, Data Cloud, and Einstein AI capabilities."
+      },
+      "existing_cta": {
+        "heading": "What the experts are saying",
+        "body": "Here’s what over 450 tech industry leaders are thinking and feeling about the current state of the industry.",
+        "button_text": "Get the report now",
+        "button_url": "https://www.salesforce.com/resources/research-reports/high-tech-trends/?_ga=2.172349027.1718421098.1765067267-1848340780.1761911798&_gl=1*11tz7ju*_gcl_aw*R0NMLjE3NjUwNzI0ODYuQ2p3S0NBaUF4Y19KQmhBMkVpd0FGVnM3WFBlNklXd3ZuWVpodEhYOVA3OWVyNnlhVUEwb0ZPX2VoeHgtcG9pejM3RkVoRWthYkp0Sl94b0NtcTBRQXZEX0J3RQ..*_gcl_dc*R0NMLjE3NjQ5NjYzODAuQ2owS0NRaUFvc3JKQmhEMEFSSXNBSGViQ05wSnVma21TWmtjRkZMcjJJQkxuVldnVnZtQ2NlRktUalpuNXh6WTVlZ3lZNlZuU0tvMDlFd2FBcFdJRUFMd193Y0I.*_gcl_au*MTk2ODU3OTU3LjE3NjM1ODM4NDQ.*_ga*MTg0ODM0MDc4MC4xNzYxOTExNzk4*_ga_3VHBZ2DJWP*czE3NjUyMzI5Njckbzg0JGcxJHQxNzY1MjM0MDczJGozOSRsMCRoMA..",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "CTA heading is generic and doesn't specifically mention AI or small business trends",
+          "Could better emphasize the AI/tech trend focus to match section content more precisely"
+        ],
+        "rationale": "This research report CTA perfectly aligns with awareness-stage readers seeking industry insights, though the generic \"what experts are saying\" heading could be more specific to AI trends."
+      },
+      "recommendations": [
+        {
+          "cta_id": "blog-playbook-agentic-ai",
+          "score": 0.9,
+          "match_rationale": "Perfect match for a business leader who just read about agentic AI trends. This awareness-stage guide directly addresses the section's focus on agentic AI strategy, which is exactly what the reader would be thinking about after learning about AI trends. The product alignment with sales_cloud matches the section's CRM mentions."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.85,
+          "match_rationale": "Excellent fit for business leaders reading about small business AI trends. This awareness-stage guide specifically targets small businesses and AI implementation, directly following the section's focus on SMB AI adoption. Provides actionable next steps for the learning-oriented reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.8,
+          "match_rationale": "Strong match as it builds on the section's discussion of agentic AI for small businesses. This awareness-stage guide about implementing AI agents is a natural next step for business leaders who just learned about the importance of AI agents for SMB success. Product alignment with agentforce matches the section's focus."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "The future is moving fast — and you’re ready",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "data_cloud",
+          "starter",
+          "general"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "crm",
+          "data_foundation",
+          "digital_transformation",
+          "salesforce_suites"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a clear decision-stage section with multiple specific CTAs (Free/Starter Suite, Pro Suite, Agentforce 360). The language is directive (\"Start your journey\", \"Explore\", \"Activate\") targeting business leaders ready to take action. While evaluating intent is present in the solution comparison, the dominant intent is moving readers toward specific product decisions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match for this decision-stage section that explicitly mentions 'Start your journey with the Free or Starter Suite today.' The reader is ready to take action and this CTA directly aligns with the starter product recommendation in the text."
+        },
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.85,
+          "match_rationale": "Strong secondary option as the section also mentions 'Looking for more customization? Explore Pro Suite.' This CTA targets readers who need more advanced capabilities and matches the decision funnel stage perfectly."
+        },
+        {
+          "cta_id": "crm-foundations",
+          "score": 0.75,
+          "match_rationale": "Good alignment with the section's emphasis on foundational data structure and CRM as the source of truth. The text mentions 'Activate Foundations' for existing customers, making this CTA relevant for business leaders evaluating data foundation solutions."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "data_cloud",
+          "sales_cloud",
+          "einstein_ai",
+          "general"
+        ],
+        "topic_tags": [
+          "agentic_ai",
+          "data_unification",
+          "crm_integration",
+          "business_efficiency",
+          "digital_transformation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This FAQ section is educational, explaining key concepts like agentic AI and integrated systems without pushing specific products. The language focuses on general business benefits and trend explanations, indicating awareness-stage content for business leaders learning about emerging technologies. Multiple product areas are relevant but presented conceptually rather than as specific solutions to evaluate."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.95,
+          "match_rationale": "Perfect match for business leaders in awareness stage learning about agentic AI. The section discusses agentic AI extensively and this CTA directly addresses 'how businesses are using AI agents' which aligns with the reader's learning intent after reading about agentic AI concepts."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.85,
+          "match_rationale": "Strong alignment for business leaders seeking to understand AI implementation. After reading about AI, data, and integrated systems as growth enablers, this comprehensive AI guide provides the next logical step for leaders wanting to develop their AI strategy."
+        },
+        {
+          "cta_id": "blog-playbook-agentic-ai",
+          "score": 0.8,
+          "match_rationale": "Good fit for awareness stage readers who just learned about agentic AI concepts. The strategic focus of 'What's your agentic AI strategy?' matches what business leaders would be thinking after understanding the importance of agentic AI for business efficiency."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2125,
+  "misaligned_count": 3
+}

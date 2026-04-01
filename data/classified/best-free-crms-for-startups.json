@@ -1,0 +1,53 @@
+{
+  "url": "https://www.salesforce.com/crm/free-crm/best-free-crms/?bc=DB",
+  "slug": "best-free-crms-for-startups",
+  "title": "Best Free CRMs for Startups and SMBs in 2026",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "free_crm",
+          "startups",
+          "smb",
+          "crm_selection",
+          "small_business"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an introductory section for an article about free CRM tools for startups/SMBs. The reader intent is 'evaluating' as they're comparing CRM options. Primary persona is business_leader as they make software decisions for smaller companies. Funnel stage is 'consideration' since they're actively researching CRM solutions. Product alignment includes sales_cloud (core CRM) and starter (Salesforce's SMB offering)."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.95,
+          "match_rationale": "Perfect match for a business leader reading about free CRM tools for smaller teams. This CTA directly offers free Salesforce CRM for small businesses, aligning with both the content focus and the reader's evaluation stage."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.85,
+          "match_rationale": "Strong alignment with the section's focus on small business CRM solutions. Appeals to business leaders evaluating CRM options by emphasizing that Salesforce works specifically for small businesses."
+        },
+        {
+          "cta_id": "crm-free-crm",
+          "score": 0.8,
+          "match_rationale": "Good fit for readers exploring free CRM options. Positions Salesforce as a starting point for AI journey, which could appeal to business leaders considering future growth and technology advancement."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 1
+}

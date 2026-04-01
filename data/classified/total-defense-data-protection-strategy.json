@@ -1,0 +1,238 @@
+{
+  "url": "https://www.salesforce.com/blog/total-defense-data-protection-strategy/?bc=DB",
+  "slug": "total-defense-data-protection-strategy",
+  "title": "Total Defense: Why Perimeter Security Isn’t Enough to Protect Your Data",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform",
+          "general"
+        ],
+        "topic_tags": [
+          "data_security",
+          "business_continuity",
+          "data_resilience",
+          "breach_recovery",
+          "ai_risk"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section addresses the pain point of data security beyond perimeter defense, specifically targeting IT leaders dealing with business continuity challenges. The mention of CISOs/CIOs, technical products like Shield and Backup & Recover, and focus on operational resilience indicates consideration stage content for technical decision-makers seeking comprehensive security solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-platform-backup-recover-datasheet",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with the section's focus on data resilience and backup/recovery. The section specifically mentions 'Combining Shield and Backup & Recover' and this CTA directly addresses the data safety solution the reader is considering after learning about data breach risks."
+        },
+        {
+          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
+          "score": 0.75,
+          "match_rationale": "Strong match for IT leaders in the consideration phase. The section emphasizes Shield as part of the data protection strategy, and this guide would help decision-makers understand implementation benefits after reading about security challenges."
+        },
+        {
+          "cta_id": "content-learn-modules-backup-recover-basics",
+          "score": 0.65,
+          "match_rationale": "Good educational follow-up for IT leaders who want to deepen their understanding of backup and recovery concepts mentioned in the key takeaways. Matches the learning mindset of someone digesting strategic insights about data resilience."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "The paradox of modern security",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "data_security",
+          "data_protection",
+          "insider_threats",
+          "data_governance",
+          "shield"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section educates readers about a security concept (the gap in traditional perimeter security) without directly selling a solution. The content targets IT leaders who need to understand security vulnerabilities beyond external threats. The CTA reference to \"Shield\" suggests Salesforce Shield platform capabilities, making this awareness-stage content that introduces a problem before presenting the solution."
+      },
+      "existing_cta": {
+        "heading": "10 Key Reasons to Implement Shield on Day 1",
+        "body": "",
+        "button_text": "Get the guide",
+        "button_url": "https://www.salesforce.com/form/platform/10-key-reasons-to-implement-salesforce-shield-on-day-1/",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "The CTA offers educational content about Shield implementation which aligns well with the security-focused awareness stage content and IT leader persona, though the specific product focus is more narrow than the broad platform discussion."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with section content about data protection gaps and insider threats. As an IT leader reading about security paradoxes and the 94% data loss statistic, they would naturally want to learn about implementing Shield on Day 1 for comprehensive data protection. Matches awareness funnel stage and platform product focus."
+        },
+        {
+          "cta_id": "form-platform-data-masking-and-seeding-guide",
+          "score": 0.75,
+          "match_rationale": "Highly relevant to data protection concerns raised in the section. After learning about trusted users causing data disasters, an IT leader would be interested in data masking strategies to protect sensitive information. Awareness-stage educational content that builds on the security themes."
+        },
+        {
+          "cta_id": "content-learn-modules-backup-recover-basics",
+          "score": 0.7,
+          "match_rationale": "Directly addresses the data recovery angle mentioned in the section's ending about companies not fully recovering from data loss. Learning about backup and recovery basics is a logical next step for IT leaders concerned about data protection strategies. Matches awareness funnel stage and learning intent."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "The total defense strategy: Past, present, and future",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "data_security",
+          "salesforce_shield",
+          "backup_recovery",
+          "compliance",
+          "data_protection"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section presents Salesforce's comprehensive data security solution with specific product features (Shield Platform Encryption, Shield Event Monitoring, Backup & Recover). The technical detail and focus on security architecture indicates IT leaders as the primary audience, though business leaders concerned with compliance would also be interested. The reader is evaluating security solutions and comparing capabilities, placing this in the consideration stage. While Shield spans multiple clouds, the security focus and platform-level encryption suggests platform and service_cloud alignment."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-platform-backup-recover-datasheet",
+          "score": 0.85,
+          "match_rationale": "Perfect match for IT leaders evaluating Backup & Recover after reading about the three-part defense strategy. The section heavily features Backup & Recover as part of the solution, and this CTA offers a datasheet directly related to that product at the consideration funnel stage."
+        },
+        {
+          "cta_id": "content-learn-modules-backup-recover-basics",
+          "score": 0.65,
+          "match_rationale": "Good educational follow-up for IT leaders who want to learn more about Backup & Recover fundamentals after reading about its role in the defense strategy. While it's awareness stage content, it provides deeper technical knowledge that consideration-stage IT leaders would find valuable."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Closing the loop: Signal, investigation, and remediation",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "it_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "data_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "data_security",
+          "incident_response",
+          "backup_recovery",
+          "compliance",
+          "audit_trail"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section addresses IT leaders dealing with data security incidents and compliance requirements. The content focuses on specific Salesforce features (Event Monitoring, Backup & Recover, Field Audit Trail) for incident detection, investigation, and remediation. The technical detail and NIST framework reference indicate consideration stage for readers evaluating security solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-backup-recover-basics",
+          "score": 0.8,
+          "match_rationale": "Excellent match for IT leaders who want to learn more about backup and recovery fundamentals after reading about incident response. The learning format suits someone seeking deeper understanding of data protection strategies."
+        },
+        {
+          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
+          "score": 0.7,
+          "match_rationale": "Strong relevance for IT leaders focused on data security and compliance. The Shield implementation guide addresses key security concerns that align with the incident response and audit trail topics discussed in the section."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Build a total defense strategy for your Salesforce data",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "it_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "data_security",
+          "shield",
+          "backup_recovery",
+          "data_protection",
+          "cybersecurity"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting IT leaders who are evaluating comprehensive data security solutions. The content moves beyond general awareness (perimeter security concepts) to specific Salesforce security products (Shield and Backup & Recovery), with a clear CTA for an on-demand demo. The technical focus on defense strategies and the mention of specific Salesforce security tools places this firmly in the consideration stage where readers are exploring solutions."
+      },
+      "existing_cta": {
+        "heading": "Give your data a safety net",
+        "body": "Explore the capabilities of Backup & Recover that ensure your data remains secure and recoverable.",
+        "button_text": "Watch on-demand",
+        "button_url": "https://www.salesforce.com/form/events/webinars/form-rss/4933898",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "The CTA perfectly aligns with the section's focus on data protection, targets IT leaders evaluating solutions, and offers a webinar that fits the consideration stage, with only minor messaging that could be more compelling."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-platform-backup-recover-datasheet",
+          "score": 0.9,
+          "match_rationale": "Perfect match for an IT leader evaluating data protection solutions. The section discusses backup & recovery as part of a total defense strategy, and this CTA offers exactly what they need - detailed information about Salesforce's backup and recovery capabilities. The consideration stage funnel alignment is ideal."
+        },
+        {
+          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
+          "score": 0.85,
+          "match_rationale": "Highly relevant for IT leaders considering Shield implementation. The section specifically mentions Shield as part of data protection strategy, and this guide provides compelling reasons to implement Shield on Day 1. Matches the data security focus and IT leader persona perfectly."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.33999999999999997,
+  "misaligned_count": 3
+}

@@ -1,0 +1,280 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-agents-in-healthcare/?bc=DB",
+  "slug": "ai-agents-in-healthcare",
+  "title": "Healthcare Is Short on People, But AI Is Closing the Gap",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "healthcare_shortage",
+          "ai_agents",
+          "clinical_burnout",
+          "telehealth",
+          "administrative_automation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a \"Key Takeaways\" section that educates readers about healthcare workforce challenges and introduces AI as a solution. The content is problem-focused rather than product-focused, establishing awareness of issues that AI can address. Business leaders in healthcare would be the primary audience given the strategic nature of workforce challenges, with IT leaders as secondary audience for AI implementation considerations."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with section content about AI agents solving healthcare challenges. This CTA offers insights into how businesses are using AI agents, directly relevant to business leaders who just learned about AI agents addressing healthcare shortages and administrative burdens."
+        },
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.75,
+          "match_rationale": "Strong product alignment with Agentforce and appropriate funnel stage for awareness-level readers. The 'Quick Guide' format matches the educational intent of business leaders seeking to understand AI agent implementations after reading about healthcare AI solutions."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.7,
+          "match_rationale": "Good Agentforce product alignment and awareness-stage funnel match. Provides actionable guidance for implementing AI agents, which is the logical next step for business leaders who just learned about AI agents solving operational challenges like those described in healthcare."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "UChicago Medicine turns friction into proactive care",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "service_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "data_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "healthcare",
+          "patient_experience",
+          "ai_agents",
+          "customer_service",
+          "data_segmentation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a detailed case study showing how UChicago Medicine solved customer service challenges using Salesforce products. The content demonstrates specific outcomes and future plans with Agentforce, making it valuable for service leaders evaluating similar AI solutions. The technical implementation details also appeal to IT leaders considering the platform."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "service-cloud",
+          "score": 0.95,
+          "match_rationale": "Perfect match for service leaders evaluating solutions. The section shows how UChicago Medicine transformed patient experience with Agentforce Service and data segmentation. Service Cloud is the core platform for healthcare customer service transformation that the reader would naturally consider next."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Highly relevant for service leaders in consideration phase. After reading about UChicago's service transformation, joining the Serviceblazer community provides peer insights and best practices for similar healthcare service implementations."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Transcend automates busywork to save patients from treatment disruptions",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "healthcare",
+          "ai_agents",
+          "automation",
+          "patient_care",
+          "administrative_efficiency"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section presents a detailed customer use case showing how Transcend is using Agentforce to solve specific healthcare operational challenges. The content demonstrates concrete business outcomes (30% faster response times, 40% reduction in admin work) and includes a CTA for an AI agents report. This is classic consideration-stage content for business leaders evaluating AI automation solutions, with secondary appeal to IT leaders who would implement such systems."
+      },
+      "existing_cta": {
+        "heading": "Get a first look at how businesses are using AI agents",
+        "body": "Explore how agents are already helping companies across sales, service, internal operations and more.",
+        "button_text": "Read the free report",
+        "button_url": "http://salesforce.com/agentforce/agentic-enterprise-index",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment with consideration-stage reader evaluating Agentforce for business operations, though CTA could be more healthcare-specific."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the Agentforce product focus and consideration stage. While the 'small business' framing may not perfectly match healthcare enterprises, the core message about growing with AI agents directly relates to what Transcend is planning to implement for handling administrative burden."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.65,
+          "match_rationale": "Good match for business leaders who want to understand how other businesses are implementing AI agents. After reading about Transcend's specific use case, readers would be interested in broader industry insights about AI agent adoption, though this is more awareness-focused than the ideal consideration-stage CTA."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Precinaflips the script on a chronic disease in rural America",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "healthcare",
+          "ai_agents",
+          "rural_communities",
+          "chronic_disease",
+          "digital_transformation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is a customer success story showcasing AI's transformative potential in healthcare. The inspiring narrative focuses on outcomes (9.6% to 6.4% A1C reduction) and vision (\"help a billion people\") rather than product features, making it awareness-stage content for business leaders exploring AI possibilities. Agentforce is prominently featured as the enabling technology."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - after reading about Precina's success using Agentforce for healthcare transformation, business leaders would naturally want to understand how other businesses are implementing AI agents. This awareness-stage guide matches the funnel stage and product focus exactly."
+        },
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.75,
+          "match_rationale": "Strong match - the 'Agentforce Marketing Quick Guide' is relevant to business leaders inspired by the healthcare case study who want to learn how to get started with AI agents in their own organizations. Awareness-stage content that builds on the Agentforce interest."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.65,
+          "match_rationale": "Good fit - while focused on small business, the '5 Steps To Implementing AI Agents' guide would appeal to business leaders inspired by the transformation story who want practical guidance on implementation, even if they're not specifically small business focused."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Simplyhealth combines scalable support with a human touch",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "service_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "data_cloud",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "healthcare",
+          "automation",
+          "case_study"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a detailed customer success case study showing how Simplyhealth uses Agentforce for customer service automation while maintaining human empathy. Service leaders evaluating AI solutions would be interested in the specific metrics (serving 2x more members, saving 100 hours/week) and implementation details like seamless escalation to human agents. The content demonstrates concrete business outcomes and addresses key concerns about maintaining compassionate customer interactions with AI."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "service-cloud",
+          "score": 0.9,
+          "match_rationale": "Perfect match - the section showcases Agentforce Service in a healthcare context with service automation and escalation features. The reader (service leader) is evaluating solutions and this CTA directly leads to the product demonstrated in the case study."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.75,
+          "match_rationale": "Strong fit for service leaders who want to connect with peers after seeing this implementation. The Serviceblazer Community provides ongoing learning and best practices for customer service transformation, matching the consideration stage."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.7,
+          "match_rationale": "Good match for the Agentforce product focus and consideration stage. While Simplyhealth isn't a small business, the CTA addresses growing with AI agents which aligns with the automation benefits shown in the case study."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "AI agents in healthcare make continuous care possible",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "healthcare",
+          "ai_agents",
+          "workforce_optimization",
+          "continuous_care",
+          "digital_transformation"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section presents a visionary perspective on AI's transformative potential in healthcare without mentioning specific products or solutions. The language is aspirational and conceptual (\"intelligence runs quietly in the background\"), targeting healthcare executives who need to understand the broader value proposition of AI before considering specific implementations. The focus on systemic outcomes (reduced burnout, expanded access) indicates awareness-stage content for business leaders."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with healthcare AI agents content. Business leaders reading about AI agents in healthcare would naturally want to see how other businesses are implementing AI agents. The awareness-level guide matches the section's funnel stage and the agentforce product aligns with the AI agents focus."
+        },
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.75,
+          "match_rationale": "Strong product alignment with Agentforce and appropriate awareness-level content. While focused on marketing, the quick guide format provides actionable next steps for business leaders interested in implementing AI agents after reading about healthcare applications."
+        },
+        {
+          "cta_id": "content-learn-modules-agentforce-agent-testing",
+          "score": 0.7,
+          "match_rationale": "Good product alignment with Agentforce and matches awareness funnel stage. The learning module allows business leaders to explore AI agent capabilities further, though the technical focus on testing may be slightly less relevant for inspiring content about healthcare transformation."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.14166666666666666,
+  "misaligned_count": 5
+}

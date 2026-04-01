@@ -1,0 +1,500 @@
+{
+  "url": "https://www.salesforce.com/blog/types-of-marketing/?bc=DB",
+  "slug": "types-of-marketing",
+  "title": "16+ Marketing Types Explained: From Billboard to Blog",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "marketing_types",
+          "digital_marketing",
+          "traditional_marketing",
+          "crm",
+          "small_business"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an educational overview section introducing different marketing types. The reader intent is learning (educational content about marketing concepts). Primary persona is marketing_leader as they're exploring marketing strategies. It's awareness stage since readers are learning about marketing fundamentals rather than evaluating specific solutions. The CRM mention and focus on marketing aligns with Marketing Cloud and Sales Cloud products."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment for marketing leaders at awareness stage. The section covers marketing types and CRM benefits for small businesses, making this CTA highly relevant for readers wanting to explore what they can do with a CRM to reach prospects."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.75,
+          "match_rationale": "Excellent match for the small business focus and marketing leader persona. Since the section mentions CRM benefits and modern marketing approaches, this AI guide provides a natural next step for awareness-stage readers."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.7,
+          "match_rationale": "Good general match for small business focus. The section establishes that Salesforce CRM helps with marketing tactics coordination, making this broad 'Salesforce works for small businesses' CTA relevant for consideration-stage readers."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Marketing basics for smaller teams",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "sales_cloud",
+          "general"
+        ],
+        "topic_tags": [
+          "marketing_fundamentals",
+          "crm",
+          "small_business",
+          "marketing_types",
+          "customer_journey"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section provides foundational education about marketing basics, specifically targeting smaller teams. The content is definitional and educational (\"what is marketing\"), indicating learning intent at the awareness stage. The mention of CRM platforms and marketing tools suggests alignment with Salesforce's marketing and sales solutions, though it's introductory rather than solution-specific."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.85,
+          "match_rationale": "Perfect match for marketing leaders learning about marketing basics for smaller teams. This awareness-stage guide about AI for small business aligns directly with the section's focus on marketing fundamentals for small teams and the primary persona of marketing leaders."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the small business focus of the section and consideration funnel stage (one step ahead of awareness). The CTA speaks to how Salesforce works for small businesses, which is relevant after reading about marketing basics for smaller teams."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.7,
+          "match_rationale": "Good match as the section mentions CRM platforms as essential marketing tools. This consideration-stage CTA offering free Salesforce for small businesses is a natural next step after learning about marketing basics and CRM importance for smaller teams."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "TThe two big marketing families",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "marketing_fundamentals",
+          "traditional_marketing",
+          "digital_marketing",
+          "marketing_channels",
+          "marketing_strategy"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is foundational educational content explaining basic marketing concepts (traditional vs digital). The reader is learning fundamental marketing terminology and categories, not evaluating specific solutions. No specific Salesforce products are mentioned or implied. The content targets marketing professionals seeking to understand marketing channel categories."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.85,
+          "match_rationale": "Perfect match for marketing leaders at awareness stage learning about marketing fundamentals. The State of Marketing report provides valuable industry insights that naturally extend the educational content about marketing families and channels."
+        },
+        {
+          "cta_id": "marketing",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with marketing leaders learning about marketing channels. The CTA about 'two-way conversations across every channel' directly relates to the section's discussion of traditional vs digital marketing channels and helps readers understand how to operationalize these concepts."
+        },
+        {
+          "cta_id": "marketing-resources-revenue-marketing-platforms-fo",
+          "score": 0.7,
+          "match_rationale": "Good fit for marketing leaders who just learned about marketing fundamentals and are ready to explore strategic platforms. The Forrester Wave report provides authoritative third-party validation and deeper strategic insights into revenue marketing platforms."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Two types of marketing approaches",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "sales_cloud",
+          "general"
+        ],
+        "topic_tags": [
+          "b2b_marketing",
+          "marketing_fundamentals",
+          "lead_generation",
+          "marketing_strategy",
+          "crm"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is clearly educational content explaining basic marketing concepts (B2B vs B2C). The reader is learning fundamental marketing approaches rather than evaluating specific solutions. The content targets business leaders who need to understand marketing basics, with secondary appeal to marketing leaders. It's awareness-stage content that builds foundational knowledge before readers would consider specific tools."
+      },
+      "existing_cta": {
+        "heading": "Boost sales with a CRM made for growing businesses",
+        "body": "Try Starter Suite for free to close more deals and win more customers, today.",
+        "button_text": "Try for free",
+        "button_url": "https://www.salesforce.com/small-business/sales/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "partial",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel stage mismatch: offering a free trial when readers are in learning mode, not evaluation mode",
+          "CTA is too sales-focused for educational content about marketing fundamentals"
+        ],
+        "rationale": "This decision-stage CTA (\"Try for free\") appears after an awareness-stage section where readers are just learning about B2B vs B2C marketing concepts."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.9,
+          "match_rationale": "Perfect match for business leaders who just learned about B2B marketing fundamentals. The section discusses B2B marketing strategies and CRM tools, making this AI guide for small businesses highly relevant. It's awareness-stage content that builds on their newfound understanding of marketing approaches."
+        },
+        {
+          "cta_id": "marketing-resources-revenue-marketing-platforms-fo",
+          "score": 0.8,
+          "match_rationale": "Excellent follow-up for business leaders learning about B2B marketing. After reading about marketing strategies and CRM tools, they would naturally want to understand revenue marketing platforms. This Forrester report provides authoritative, data-backed insights that align with the B2B focus."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "B2C marketing: Speaking the customer’s language",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "b2c_marketing",
+          "marketing_strategy",
+          "crm",
+          "customer_engagement",
+          "marketing_tactics"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is educational content explaining B2C marketing concepts and tactics. The reader intent is learning about marketing fundamentals rather than evaluating specific solutions. While it mentions CRM benefits, it's primarily conceptual education placing it in awareness stage. The marketing leader persona fits as this content helps understand different marketing approaches."
+      },
+      "existing_cta": {
+        "heading": "What can you do with a CRM built to reach more prospects?",
+        "body": "Automate your marketing campaigns with a CRM built to grow. It all starts with Starter Suite.",
+        "button_text": "Find out for free",
+        "button_url": "https://www.salesforce.com/small-business/marketing/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment with awareness-stage learning about CRM marketing capabilities, targeting marketing leaders with relevant product offering."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - this CTA directly addresses B2C marketing (what the reader just learned about) and asks about CRM capabilities for reaching prospects, which is exactly what marketing leaders would be thinking after reading about B2C marketing tactics and CRM personalization."
+        },
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.75,
+          "match_rationale": "Strong match for marketing leaders who just read about B2C marketing strategies and would naturally want to learn about broader marketing trends and insights to inform their strategy."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.7,
+          "match_rationale": "Good fit as the section emphasized how marketing CRM tools help personalize B2C campaigns and track effectiveness. Marketing leaders would logically consider trying a CRM solution after learning these benefits."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Digital marketing strategies and tactics for growing teams",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud",
+          "starter",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "digital_marketing",
+          "small_business",
+          "social_media",
+          "email_marketing",
+          "seo"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section targets small business owners and marketing leaders who are evaluating which digital marketing tactics to prioritize. The content moves beyond basic awareness by providing specific tactical guidance and introduces Salesforce solutions (Einstein Conversation Insights, Email Builder Lite, Marketing App in Free Suite) as concrete options to consider. The focus on SMB needs and the \"Pro Tip\" section with specific product mentions indicates consideration stage content."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.75,
+          "match_rationale": "Strong match for small business marketing leaders evaluating CRM solutions. After reading about various digital marketing tactics, they'd be interested in 'Get Salesforce. FREE for small businesses' as a next step to implement these strategies."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.7,
+          "match_rationale": "Good general match for the target persona and business size. 'Salesforce works for small businesses' reinforces the solution fit after readers learn about digital marketing strategies for growing teams."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Key traditional marketing tactics to know",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "slack",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "traditional_marketing",
+          "small_business_marketing",
+          "marketing_tactics",
+          "customer_acquisition",
+          "digital_marketing"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is educational content explaining various marketing tactics without promoting specific solutions. The reader intent is clearly learning-focused (\"marketing types explained\"), targeting marketing leaders and small business owners who want to understand different marketing approaches. It's awareness-stage content that builds foundational knowledge. The mention of AI agents and Slack CTA suggest alignment with Salesforce's marketing and collaboration tools."
+      },
+      "existing_cta": {
+        "heading": "Boost team productivity with Slack",
+        "body": "Bring together your team, your customers, and your tools to help take your business to the next level with Slack — it’s where business gets done.",
+        "button_text": "Try for free",
+        "button_url": "https://www.salesforce.com/small-business/collaboration/?d=bcta",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.2,
+        "funnel_alignment": "mismatch",
+        "persona_match": "partial",
+        "product_alignment": "mismatch",
+        "issues": [
+          "Funnel stage mismatch: 'Try for free' is decision-stage but section is awareness-stage",
+          "Product mismatch: Slack collaboration doesn't relate to traditional marketing tactics like word-of-mouth and partnerships",
+          "Context disconnect: CTA interrupts educational content about marketing with unrelated product pitch"
+        ],
+        "rationale": "The CTA promotes a specific product trial while the reader is learning about traditional marketing tactics, creating a significant funnel and product mismatch."
+      },
+      "recommendations": [
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.75,
+          "match_rationale": "Perfect match for marketing leaders in awareness stage. After reading about traditional marketing tactics, they'd naturally want industry insights and research about current marketing trends. This educational content aligns with their learning intent."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.7,
+          "match_rationale": "Highly relevant for marketing leaders interested in traditional tactics. The CRM angle for reaching prospects naturally follows learning about customer acquisition methods. Moves reader from awareness to consideration appropriately."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.65,
+          "match_rationale": "The section mentions AI personalization as a pro tip, making this AI guide relevant. Marketing leaders reading about traditional tactics would be interested in how AI can modernize their approach while staying in the awareness stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "AI and modern marketing innovations",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai",
+          "marketing_cloud",
+          "agentforce",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "ai_marketing",
+          "personalization",
+          "predictive_analytics",
+          "marketing_automation",
+          "conversational_ai"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is educational content explaining AI marketing concepts and trends. The reader is learning about modern marketing innovations without being prompted to evaluate specific solutions. Strong alignment with Salesforce's AI products (Einstein AI, Marketing Cloud AI features, Agentforce) and mentions AI CRM specifically."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.9,
+          "match_rationale": "Perfect match for marketing leaders learning about AI marketing innovations. This CTA offers an Agentforce Marketing Quick Guide, directly aligning with the section's focus on conversational AI, marketing automation, and AI agents. The awareness funnel stage matches exactly, and it targets the specific product (agentforce) mentioned in the section."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Highly relevant for marketing leaders who just learned about agentic marketing and AI agents shopping on behalf of consumers. This research report on how businesses are using AI agents is a natural next step for awareness-stage readers wanting to understand real-world applications of the concepts they just read about."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "Bringing all types of marketing together with Salesforce",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "marketing_cloud",
+          "starter",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "marketing_campaigns",
+          "multichannel_marketing",
+          "crm",
+          "marketing_automation",
+          "campaign_management"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section explicitly pitches Salesforce marketing solutions with specific product recommendations (Free, Starter Suite, Pro Suite, Agentforce 360) and clear CTAs. The reader has learned about marketing types and is now being guided toward Salesforce products to execute campaigns. Strong decision-stage indicators with direct product mentions and trial offers."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Perfect match for decision-stage marketing leaders who have just read about Salesforce's unified marketing ecosystem. The section explicitly mentions 'Start your journey with the Free or Starter Suite today' making this CTA a natural continuation of the content flow."
+        },
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.75,
+          "match_rationale": "Strong alignment as the section mentions 'Looking for more customization? Explore Pro Suite.' This CTA directly addresses readers ready to move beyond starter options, matching the decision funnel stage for marketing leaders evaluating advanced capabilities."
+        },
+        {
+          "cta_id": "crm-foundations",
+          "score": 0.65,
+          "match_rationale": "Good fit for marketing leaders in decision stage since the section mentions 'Already a Salesforce customer? Activate Foundations to try out Agentforce 360 today.' This CTA connects to getting data ready for AI, which aligns with the Agentforce product focus mentioned in the section."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 9,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "starter",
+          "marketing_cloud",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "b2b_marketing",
+          "b2c_marketing",
+          "email_marketing",
+          "inbound_marketing",
+          "crm"
+        ],
+        "confidence": 0.85,
+        "rationale": "This FAQ section provides educational definitions and explanations of fundamental marketing concepts (B2B vs B2C, inbound vs outbound, digital vs traditional). The content is primarily educational rather than solution-focused, indicating awareness stage content for marketers learning about different marketing approaches. The mention of Starter Suite at the end suggests targeting smaller businesses or marketing leaders exploring CRM solutions."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Visit Trail",
+        "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-essentials-small-business/?d=bcta",
+        "position_after_section": 9
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "partial",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "The Trailhead educational CTA fits the awareness stage and learning intent well, but targets a broader audience than the specific marketing leader persona."
+      },
+      "recommendations": [
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.85,
+          "match_rationale": "Perfect match for a marketing leader in the awareness stage. This FAQ section covers broad marketing concepts (B2B vs B2C, email marketing, inbound vs outbound) and naturally leads to wanting deeper insights. The State of Marketing report provides educational value that builds on what they just learned about marketing fundamentals."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.75,
+          "match_rationale": "Good fit as the section mentions CRM and Salesforce Starter Suite for managing marketing channels. A marketing leader learning about these concepts would benefit from understanding how AI can enhance their marketing efforts. The awareness-stage guide aligns with their current funnel position."
+        },
+        {
+          "cta_id": "marketing-resources-revenue-marketing-platforms-for-b2b",
+          "score": 0.65,
+          "match_rationale": "Relevant for marketing leaders who just learned about B2B marketing concepts and CRM integration. The Forrester Wave report provides authoritative third-party validation and deeper insights into revenue marketing platforms, which connects to the CRM discussion in the FAQ section."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.22999999999999998,
+  "misaligned_count": 8
+}

@@ -1,0 +1,199 @@
+{
+  "url": "https://www.salesforce.com/blog/vibe-coding-guide-tdx-2026/?bc=DB",
+  "slug": "vibe-coding-guide-tdx-2026",
+  "title": "Your Guide to TDX 2026: Vibe Coding Edition",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform",
+          "agentforce",
+          "general"
+        ],
+        "topic_tags": [
+          "tdx_conference",
+          "vibe_coding",
+          "ai_first_strategy",
+          "legacy_modernization",
+          "developer_event"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is promotional content for TDX 2026 targeting developers interested in \"vibe coding\" and AI-first development. The section positions TDX as valuable for organizations transitioning from legacy systems, suggesting readers are evaluating whether to attend. The focus on technical knowledge, architects, and development trends indicates a developer audience in the consideration stage."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-platform",
+          "score": 0.85,
+          "match_rationale": "Perfect match for developers in consideration stage evaluating platform solutions. The CTA offers 'End-to-end AI development on one platform' which directly aligns with the AI-first strategy and platform modernization themes discussed in the TDX section. As a trial CTA at decision stage, it's appropriately one step ahead of the consideration stage content."
+        },
+        {
+          "cta_id": "content-learn-modules-agentforce-agent-testing",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the Agentforce product focus and developer persona. The learning CTA about agent testing matches the consideration stage well, allowing developers to explore hands-on technical knowledge about AI agents, which connects to the 'vibe coding' and AI-first strategy themes mentioned in the section."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.7,
+          "match_rationale": "Good fit for developers evaluating AI-first strategies. This guide provides insights into how businesses are using AI agents, which supports the enterprise modernization journey mentioned in the TDX content. The awareness-level CTA appropriately matches the consideration stage section content about transitioning to AI-first development approaches."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Back to the basics",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "admin",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "vibe_coding",
+          "tdx_conference",
+          "developer_tools",
+          "agentforce",
+          "natural_language_development"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly educational content defining key concepts (vibe coding, TDX) for readers who may be unfamiliar. The \"Back to the basics\" heading and explanatory tone indicate learning intent at awareness stage. Primary audience is developers with secondary focus on admins, discussing platform development tools and Agentforce capabilities."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-agentforce-agent-testing",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment with section content - developer persona reading about Agentforce and vibe coding would naturally want to start learning about agent development. Matches awareness funnel stage and product focus."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.75,
+          "match_rationale": "Strong relevance for developers learning about Agentforce implementation. The guide format suits the educational nature of the section and awareness stage, though it's positioned for small business which may not perfectly match all developers."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.7,
+          "match_rationale": "Good fit for developers who just learned about vibe coding and Agentforce - they'd naturally want to see real-world examples of how businesses are using AI agents. Matches awareness stage and Agentforce product focus."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Bring the best vibes to TDX",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "admin",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "platform",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "trailblazer_dx",
+          "vibe_coding",
+          "ai_development",
+          "conference_guide",
+          "developer_tools"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is a conference session guide for TDX 2026 focused on \"vibe coding\" with Agentforce. The content targets developers and admins who want to learn about AI-assisted development tools and techniques. It's consideration stage because readers are exploring what sessions to attend and learning about new capabilities, with a learning intent as they're seeking educational content about emerging development approaches."
+      },
+      "existing_cta": {
+        "heading": "End-to-end AI development on one platform",
+        "body": "Get to know the platform that enables rapid innovation with airtight security. Unlock the Agentforce 360 Platform in a free 30-day trial.",
+        "button_text": "Sign up",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-platform/",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.6,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "Funnel stage mismatch: offering free trial to readers who are still in learning/consideration phase",
+          "CTA is too aggressive for readers exploring TDX session content"
+        ],
+        "rationale": "The CTA offers a free trial (decision-stage) when readers are still evaluating options and learning about TDX sessions (consideration-stage), creating a significant funnel mismatch despite good persona and product alignment."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
+          "score": 0.7,
+          "match_rationale": "Good fit for developers considering platform implementation. While focused on Shield rather than Agentforce specifically, it addresses the enterprise-ready concerns mentioned in the section about grounding vibe coding for enterprise use."
+        },
+        {
+          "cta_id": "form-signup-freetrial-platform",
+          "score": 0.8,
+          "match_rationale": "Strong match as it offers trial access to the platform for AI development, which aligns with the section's focus on building with Agentforce and developer tools. The decision-stage CTA is appropriate for developers ready to move from learning to hands-on experimentation."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Your official invite",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "platform",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "tdx_conference",
+          "developer_event",
+          "platform_updates",
+          "agentforce",
+          "hands_on_learning"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a direct invitation to register for TDX 2026, targeting developers with hands-on activities like \"Mini Hacks\" and \"build together.\" The content is decision-stage with clear CTAs to register, and the implementing intent is evident from the focus on learning skills and exploring platform updates at the event."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Hit the trails",
+        "button_url": "https://trailhead.salesforce.com/content/learn/modules/einstein-for-developers",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.2,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "mismatch",
+        "issues": [
+          "Funnel stage mismatch: section is decision-stage (promoting event registration) but CTA leads to awareness-stage learning content",
+          "Product misalignment: section promotes TDX 2026 event and mentions Agentforce/platform, but CTA focuses on Einstein learning modules",
+          "Missed conversion opportunity: readers ready to register for TDX are redirected to general learning content instead"
+        ],
+        "rationale": "The CTA directs to Einstein for Developers learning content when the section is promoting TDX 2026 event registration, creating a significant funnel and product mismatch despite targeting the right developer persona."
+      },
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "This section is specifically about TDX conference registration/attendance, which is a direct call-to-action within the content itself (\"Register to attend in-person in San Francisco, or stream for free on Salesforce+\"). Adding another CTA would compete with and dilute the primary conversion goal of getting readers to register for TDX. The available CTAs in the library are focused on product trials, learning resources, and general engagement, none of which align with the reader's immediate intent after reading about TDX registration. The section already serves as its own CTA for conference attendance."
+    }
+  ],
+  "overall_health_score": 0.15,
+  "misaligned_count": 3
+}

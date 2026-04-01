@@ -1,0 +1,423 @@
+{
+  "url": "https://www.salesforce.com/blog/the-four-ps-of-marketing/?bc=DB",
+  "slug": "the-four-ps-of-marketing",
+  "title": "The 4 P’s of the Marketing Mix Framework",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "data_cloud",
+          "general"
+        ],
+        "topic_tags": [
+          "marketing_mix",
+          "marketing_strategy",
+          "four_ps",
+          "promotional_campaigns",
+          "customer_data"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an educational overview of the marketing mix framework (4 P's), targeting marketing leaders who want to learn foundational concepts. It's awareness-stage content that introduces how Salesforce can help with marketing strategy, mentioning data centralization and promotional campaigns which align with Marketing Cloud and Data Cloud capabilities."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.85,
+          "match_rationale": "Perfect match for marketing leaders in awareness stage who just learned about marketing mix fundamentals. The State of Marketing report provides deeper strategic insights that naturally follow understanding the four P's framework."
+        },
+        {
+          "cta_id": "marketing-resources-revenue-marketing-platforms-fo",
+          "score": 0.75,
+          "match_rationale": "Highly relevant for marketing leaders seeking to understand how modern platforms support marketing mix execution. The Forrester Wave report offers authoritative guidance on revenue marketing platforms that align with the strategic framework discussed."
+        },
+        {
+          "cta_id": "marketing",
+          "score": 0.7,
+          "match_rationale": "Good fit for marketing leaders wanting to learn more about implementing two-way customer conversations as part of their promotional strategy (the 4th P). Matches awareness stage and provides practical marketing execution insights."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "The 4 P’s of the ‘Marketing Mix’",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "general"
+        ],
+        "topic_tags": [
+          "marketing_mix",
+          "marketing_strategy",
+          "promotional_campaigns",
+          "marketing_framework",
+          "four_ps"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly educational content explaining a foundational marketing concept (the 4 P's framework). The reader is learning about marketing fundamentals, making this awareness-stage content. The primary audience is marketing leaders who need to understand this framework. While it mentions Salesforce can help with each element, the focus is on education rather than solution evaluation."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.7,
+          "match_rationale": "Good fit for marketing leaders interested in modern marketing approaches. After learning traditional marketing mix concepts, this awareness-stage guide about AI applications would be a logical next step in their education."
+        },
+        {
+          "cta_id": "marketing-resources-revenue-marketing-platforms-fo",
+          "score": 0.65,
+          "match_rationale": "Relevant for marketing leaders seeking to understand marketing technology platforms. This awareness-stage Forrester research aligns with their interest in marketing strategy and frameworks."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "1. Product: The core of your offering",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "starter",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "marketing_mix",
+          "product_marketing",
+          "customer_feedback",
+          "promotional_messaging",
+          "crm_basics"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining the \"Product\" component of the marketing mix framework. The reader intent is learning as it defines concepts and provides guidance. The primary persona is marketing_leader since this directly addresses marketing strategy fundamentals. It's awareness stage as readers are learning about marketing frameworks, not evaluating specific solutions. Product alignment includes starter (explicitly mentioned Starter Suite) and sales_cloud (mentions Account, Contact, Lead, Opportunity Management features). The CTA \"Try it for free\" suggests some consideration elements, but the content is primarily educational."
+      },
+      "existing_cta": {
+        "heading": "Wherever you are — just get started.",
+        "body": "No matter where you are on your journey as a business owner, you can get started with Starter Suite for free — the CRM made for growth.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "mismatch",
+        "product_alignment": "match",
+        "issues": [
+          "Funnel stage mismatch: offering free trial to readers learning basic marketing concepts",
+          "Persona mismatch: CTA targets 'business owners' but section is for marketing leaders",
+          "Premature conversion attempt: readers need more education before trial consideration"
+        ],
+        "rationale": "The CTA offers a free trial (decision-stage) to readers in an awareness-stage section who are learning about marketing fundamentals, creating a significant funnel mismatch."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Perfect match for a marketing leader in awareness stage learning about product fundamentals. This CTA offers educational content about Salesforce essentials which aligns with their need to understand CRM basics and product marketing concepts mentioned in the section."
+        },
+        {
+          "cta_id": "company-be-a-trailblazer",
+          "score": 0.75,
+          "match_rationale": "Strong fit for awareness-stage learning about the broader Salesforce ecosystem. After reading about product fundamentals and CRM capabilities, a marketing leader would benefit from understanding the larger community and learning resources available."
+        },
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.7,
+          "match_rationale": "Good match for marketing leaders seeking industry insights. After learning about product fundamentals and promotional messaging, they would be interested in broader marketing trends and research to inform their strategy."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "2. Price: Establishing value",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "starter",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "marketing_mix",
+          "pricing_strategy",
+          "promotions",
+          "marketing_fundamentals",
+          "price_books"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining the \"Price\" component of the marketing mix framework. The reader intent is learning about pricing concepts and strategies. While it mentions specific Salesforce products (Starter and Pro Suite with Products and Price Books), this appears to be awareness-stage content teaching marketing fundamentals rather than actively promoting solutions. The primary persona is marketing_leader given the focus on marketing mix and pricing strategy."
+      },
+      "existing_cta": {
+        "heading": "Ready to go Pro?",
+        "body": "Level up your CRM with the top-rated Pro Suite — the customer platform that scales with you.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-prosuite/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "partial",
+        "product_alignment": "partial",
+        "issues": [
+          "Decision-stage CTA (free trial) on awareness-stage content about pricing concepts",
+          "CTA interrupts learning flow by pushing for immediate action",
+          "Missing educational bridge between pricing concepts and product trial"
+        ],
+        "rationale": "The \"Try it for free\" CTA pushes for immediate trial signup while the section is educational content about pricing fundamentals, creating a significant funnel stage mismatch."
+      },
+      "recommendations": [
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - marketing leader reading about marketing mix/pricing fundamentals would benefit from industry insights and benchmarks in the State of Marketing report. Educational content at awareness stage that complements their learning about pricing strategy."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.75,
+          "match_rationale": "Good fit for marketing leader learning about pricing/marketing fundamentals. AI guide provides broader strategic context that builds on their interest in marketing mix optimization. Awareness-stage educational content that extends their learning."
+        },
+        {
+          "cta_id": "marketing-resources-revenue-marketing-platforms-for-b2b",
+          "score": 0.7,
+          "match_rationale": "Strong alignment for marketing leader focused on pricing strategy and marketing fundamentals. Forrester report on revenue marketing platforms provides authoritative insights that support their strategic learning about marketing mix components including pricing."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "3. Place: Where and how you sell",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "marketing_mix",
+          "distribution_channels",
+          "ecommerce",
+          "small_business",
+          "marketing_framework"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section is educational content explaining the \"Place\" component of the marketing mix framework, indicating learning intent. The focus on distribution channels and commerce strategy targets marketing leaders, though business leaders would also find this valuable. While it mentions Salesforce products, it's primarily conceptual education (awareness stage) rather than solution evaluation. The CTA suggests consideration movement but the content itself is foundational learning."
+      },
+      "existing_cta": {
+        "heading": "Start selling online with Starter Suite",
+        "body": "Set up your digital storefront, engage customers, and sell more using a commerce-ready platform with integrated tools for every sale.",
+        "button_text": "Check it out",
+        "button_url": "https://www.salesforce.com/small-business/commerce/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment across all dimensions - awareness-stage CTA for marketing leaders learning about commerce channels, with perfect product match to Starter Suite mentioned in section."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-commerce",
+          "score": 0.85,
+          "match_rationale": "Perfect match - the section discusses ecommerce distribution channels and mentions Commerce Cloud for small business. This CTA offers 'Start selling online with Starter Suite' which directly aligns with the 'Place' discussion about online stores and the section's Commerce Cloud/Starter product focus."
+        },
+        {
+          "cta_id": "commerce-innovations",
+          "score": 0.7,
+          "match_rationale": "Good relevance - after reading about commerce distribution channels and 'Place' in the marketing mix, marketing leaders would be interested in discovering more commerce innovations. The consideration funnel stage is appropriate for someone who has learned about commerce concepts."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.6,
+          "match_rationale": "Moderate fit - while the section mentions small business features, this CTA offers a free CRM which could support the distribution and commerce channel management discussed. However, it's less directly connected to the commerce/ecommerce focus of the section content."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "4. Promotion: Communicating your value",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud",
+          "starter",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "marketing_mix",
+          "promotion",
+          "small_business_marketing",
+          "email_campaigns",
+          "crm"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting marketing leaders at small businesses who are evaluating marketing solutions. The content explains promotion concepts but heavily features specific Salesforce products (Starter/Pro Suite, Einstein Conversation Insights, Email Builder Lite) with detailed feature descriptions. The CTA \"Find out for free\" indicates consideration stage, encouraging trial/evaluation rather than just learning about concepts."
+      },
+      "existing_cta": {
+        "heading": "What can you do with a CRM built to reach more prospects?",
+        "body": "Automate your marketing campaigns with a CRM built to grow. It all starts with Starter Suite.",
+        "button_text": "Find out for free",
+        "button_url": "https://www.salesforce.com/small-business/marketing/?d=bcta",
+        "position_after_section": 5
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "Button text 'Find out for free' is somewhat vague - could be clearer about what specific value or information the user will receive"
+        ],
+        "rationale": "Strong alignment with consideration-stage marketing leader evaluating Starter Suite, though \"Find out for free\" button text could be more specific about what they're getting."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - the section discusses promotional strategies for small businesses and this CTA directly addresses 'what you can do with a CRM built to reach more prospects', matching the consideration funnel stage and marketing leader persona. The section mentions Salesforce marketing CRM capabilities, making this highly relevant."
+        },
+        {
+          "cta_id": "form-signup-free-crm",
+          "score": 0.75,
+          "match_rationale": "Strong match for small business marketing leaders evaluating CRM solutions. The section positions Salesforce's marketing CRM as ideal for small businesses, and this CTA offers a free trial entry point at the consideration stage. Directly relates to the promotional tools discussed."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.7,
+          "match_rationale": "Good general match for marketing leaders in small businesses who are considering Salesforce solutions. The section focuses on small business promotional strategies and this CTA reinforces that 'Salesforce works for small businesses', supporting the consideration stage evaluation process."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Ready to start running smarter promotions for your SMB?",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "marketing_cloud",
+          "agentforce",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "marketing_mix",
+          "4ps_framework",
+          "smb",
+          "data_driven_marketing",
+          "promotional_strategy"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is a clear decision-stage section targeting SMB marketing leaders ready to implement solutions. The heading asks \"Ready to start\" and provides specific product recommendations (Free, Starter Suite, Pro Suite) with direct calls to action. The content focuses on practical implementation of the 4 P's framework through Salesforce's unified platform, indicating the reader is past learning and evaluation phases and ready to take action."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section explicitly mentions starting with Free or Starter Suite, this is a decision-stage CTA for getting started with Salesforce, and targets SMBs which matches the section's focus on small businesses implementing promotional strategies."
+        },
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.85,
+          "match_rationale": "Strong match - the section specifically mentions 'Looking for more customization? Explore Pro Suite' so this CTA directly follows that recommendation. It's decision-stage appropriate for marketing leaders ready to implement more advanced solutions."
+        },
+        {
+          "cta_id": "crm-foundations",
+          "score": 0.8,
+          "match_rationale": "Good alignment - the section mentions 'Already a Salesforce customer? Activate Foundations to try out Agentforce 360 today' and emphasizes centralizing customer data. This CTA targets getting data ready for AI, which matches the section's focus on data-driven marketing alignment."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "Frequently Asked Questions",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "marketing_mix",
+          "4ps_framework",
+          "crm",
+          "small_business",
+          "marketing_strategy"
+        ],
+        "confidence": 0.85,
+        "rationale": "This FAQ section is educational content explaining the marketing mix framework and how CRM connects to it. The reader intent is learning about fundamental marketing concepts. The primary audience is marketing leaders seeking to understand strategic frameworks, with business leaders as secondary audience. It's awareness stage as it teaches concepts rather than promoting specific solutions. Mentions CRM capabilities and AppExchange indicate alignment with Sales Cloud, Marketing Cloud, and Platform products."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.85,
+          "match_rationale": "Perfect match for marketing leaders at small businesses who just learned about the 4 P's framework. This awareness-stage guide about AI for small business aligns with their learning intent and provides next-step educational content that builds on the CRM concepts discussed in the FAQ section."
+        },
+        {
+          "cta_id": "marketing-resources-state-of-marketing-report",
+          "score": 0.75,
+          "match_rationale": "Highly relevant for marketing leaders who are thinking about marketing strategy after reading about the marketing mix. This awareness-stage resource provides industry insights that complement their understanding of the 4 P's framework and helps them benchmark their approach."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.7,
+          "match_rationale": "Good fit as it bridges from the educational content about CRM and marketing mix to consideration of how Salesforce CRM could help with prospecting. While it's consideration-stage, it's only one step ahead of the awareness content and directly relates to the CRM concepts mentioned in the FAQ."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.3125,
+  "misaligned_count": 6
+}

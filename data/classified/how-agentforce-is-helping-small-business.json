@@ -1,0 +1,414 @@
+{
+  "url": "https://www.salesforce.com/blog/how-agentforce-is-helping-small-business/?bc=DB",
+  "slug": "how-agentforce-is-helping-small-business",
+  "title": "6 Ways Agentforce 360 is Helping Small Businesses and Startups",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "startups",
+          "ai_agents",
+          "digital_transformation",
+          "scaling"
+        ],
+        "confidence": 0.9,
+        "rationale": "This introduction is clearly targeting small business leaders and startup entrepreneurs who are evaluating AI solutions to help scale their operations. The content positions Agentforce 360 as a solution for growing businesses and promises to show \"six ways\" it transforms startups, indicating the reader is in the consideration stage weighing specific benefits."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.95,
+          "match_rationale": "Perfect match - targets small businesses evaluating Agentforce (the exact product mentioned in the section), matches consideration funnel stage, and directly addresses the core value proposition of AI agents helping startups grow and scale."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.85,
+          "match_rationale": "Strong alignment with Agentforce product focus and small business persona. While it's awareness stage, it provides implementation guidance which is valuable for readers evaluating the solution's practical application."
+        },
+        {
+          "cta_id": "launchpad",
+          "score": 0.7,
+          "match_rationale": "Good fit for startup/small business persona in consideration stage. While not Agentforce-specific, Salesforce Launchpad is designed for startups and complements the section's focus on scaling businesses efficiently."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "AI Synopsis",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "data_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "autonomous_ai",
+          "digital_transformation",
+          "startup_solutions"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is an educational overview section explaining what Agentforce 360 is and how it works. The reader intent is clearly learning-focused as it defines concepts like AI agents, explains how they differ from chatbots/copilots, and sets up the article's premise. The primary persona is business leaders at small businesses/startups who are learning about AI solutions. The funnel stage is awareness since readers are being introduced to the concept. Strong confidence due to clear educational language and definitional content."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.95,
+          "match_rationale": "Perfect match - this section is about Agentforce 360 and AI agents, targeting business leaders at awareness stage. The CTA offers insights into how businesses are using AI agents, which aligns perfectly with what readers would want to learn after reading about Agentforce capabilities."
+        },
+        {
+          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "score": 0.8,
+          "match_rationale": "Strong alignment - after learning about Agentforce capabilities, business leaders would benefit from a quick guide to get started. This CTA targets the Agentforce product and provides actionable next steps at the awareness stage."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.75,
+          "match_rationale": "Good fit for the small business and startup focus mentioned in the section topics. After reading about AI agents for business transformation, small business leaders would want a comprehensive guide to AI implementation."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "AI Synopsis",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "data_cloud",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "startups",
+          "ai_agents",
+          "crm",
+          "data_unification"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting small business/startup leaders who are evaluating CRM solutions. It positions Salesforce's product suite (Starter Suite → Pro Suite → Foundations) as a growth path, showing how Agentforce 360 works with unified data. The content explains benefits and value propositions rather than basic education, indicating consideration stage. The focus on \"how Salesforce helps startups\" with specific benefits suggests readers are actively evaluating solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - targets small businesses considering Agentforce (mentioned prominently in the section), matches business leader persona, and is at the consideration funnel stage. The CTA directly addresses what readers would be thinking about after learning about Agentforce 360's capabilities for startups."
+        },
+        {
+          "cta_id": "crm-foundations",
+          "score": 0.85,
+          "match_rationale": "Excellent match - the section heavily discusses how Data Cloud and unified data foundations enable AI effectiveness. This CTA about getting data ready for AI with Salesforce Foundations directly connects to the section's key message about data unification being essential for AI tools."
+        },
+        {
+          "cta_id": "launchpad",
+          "score": 0.75,
+          "match_rationale": "Good alignment for startup-focused readers. The section specifically mentions Salesforce giving startups a growth path, and this CTA about accelerating startup success with Salesforce Launchpad is a natural next step for business leaders evaluating startup-specific solutions."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "AI Synopsis",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity",
+          "small_business",
+          "automation",
+          "repetitive_tasks"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section directly addresses the pain point of repetitive tasks killing productivity for SMBs/startups, positioning Agentforce 360 as the solution. The content is solution-focused with specific use cases, indicating readers are evaluating AI automation tools. Business leaders at small companies are the primary audience, with sales leaders as secondary given the sales-focused examples."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "service-cloud",
+          "score": 0.75,
+          "match_rationale": "Strong match as it's an Agentforce Service CTA at the consideration stage. While the section focuses on productivity and automation benefits that Agentforce provides, this CTA could appeal to business leaders interested in implementing AI agent solutions after reading about the productivity benefits."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.7,
+          "match_rationale": "Good relevance as it's about implementing AI agents for small business, which aligns with the section's focus on Agentforce solving productivity challenges. However, it's at awareness stage while the section is consideration-focused, making it slightly less optimal than the top choice."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "3. Fully scale without a full budget",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "starter",
+          "sales_cloud",
+          "service_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "scaling",
+          "ai_agents",
+          "cost_optimization",
+          "startup_growth"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section targets small business/startup leaders evaluating how Agentforce can help them scale efficiently. The content focuses on specific business benefits and solutions, positioning the reader in the consideration stage as they explore AI automation options. The detailed use cases and emphasis on cost-effectiveness indicate an evaluating intent from business leaders concerned with growth and budget constraints."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.9,
+          "match_rationale": "Perfect alignment - targets small businesses (primary persona) who are evaluating AI agents for growth and scaling. The CTA is consideration-stage appropriate and directly addresses Agentforce, which is heavily featured in this section. The reader is thinking about growing their business with AI agents after reading about scaling solutions."
+        },
+        {
+          "cta_id": "launchpad",
+          "score": 0.8,
+          "match_rationale": "Excellent match for startups looking to scale. The section discusses startup scaling challenges and 'startup life,' making this CTA highly relevant. It's consideration-stage appropriate and targets the business leader persona thinking about accelerating growth after learning about scaling solutions."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.7,
+          "match_rationale": "Good general fit for small businesses evaluating Salesforce solutions. While not as specific as the Agentforce CTA, it aligns with the small business focus and consideration funnel stage. Relevant for readers thinking about comprehensive Salesforce solutions for their growing business."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "4. Every sales pitch feels (hyper) personal",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "sales_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "sales_personalization",
+          "ai_agents",
+          "crm_automation",
+          "small_business",
+          "sales_outreach"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section demonstrates specific Agentforce 360 capabilities for sales personalization with concrete examples and use cases. The focus on \"how it works\" and specific features (drafting emails, generating POV, spotting important deals) indicates readers are evaluating the solution's fit for their sales processes. Sales leaders and small business owners would be the primary audience seeking to understand how AI can improve their sales outcomes."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.75,
+          "match_rationale": "Strong match - after reading about personalized sales outreach capabilities, sales leaders would be interested in reaching more prospects with CRM tools. The consideration funnel stage and small business focus align well with the section's emphasis on targeted sales strategies."
+        },
+        {
+          "cta_id": "crm-free-crm",
+          "score": 0.7,
+          "match_rationale": "Good fit - the section discusses leveraging CRM data for personalized sales pitches, making this CTA about starting an AI journey with Salesforce Suites relevant. The consideration stage matches and it connects the CRM automation themes discussed in the section."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "5. AI agents keep customers happy with 24/7 support",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "customer_support",
+          "ai_agents",
+          "24_7_service",
+          "small_business",
+          "automation"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting small business leaders who are evaluating customer service solutions. It focuses on specific benefits and use cases of Agentforce 360 for customer support, positioning it as a solution to the pain point of providing 24/7 service without additional staffing costs. The detailed examples and capability descriptions indicate the reader is in the consideration stage, comparing how this AI solution could address their support challenges."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "service-cloud",
+          "score": 0.95,
+          "match_rationale": "Perfect alignment - the section is about Agentforce 360 for 24/7 customer support, and this CTA leads directly to Agentforce Service. The funnel stage matches (consideration), product alignment is exact (agentforce), and it's relevant for business leaders evaluating AI-powered service solutions."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Strong match - specifically targets small businesses with Agentforce, which aligns perfectly with the section's focus on AI agents for customer support and the small business topic. The consideration funnel stage matches, and it's designed for business leaders evaluating Agentforce solutions."
+        },
+        {
+          "cta_id": "small-business-service",
+          "score": 0.75,
+          "match_rationale": "Good alignment for the service aspect - focuses on building customer loyalty through smarter service solutions, which connects to the 24/7 support theme. However, it's Sales Cloud focused rather than Agentforce/Service Cloud specific, making it less precise than the top options."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "6. Data turns into decisions that actually matter",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "business_intelligence",
+          "decision_making",
+          "small_business",
+          "ai_insights"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section targets SMB leaders evaluating AI solutions for data-driven decision making. The customer quote from a CIO and specific business outcomes (tracking campaigns, personalization, revenue identification) indicate consideration stage. Content focuses on Agentforce 360's data analysis capabilities with clear business benefits, appealing primarily to business leaders who need better insights for strategic decisions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.95,
+          "match_rationale": "Perfect match - targets business leaders evaluating Agentforce for small business growth, aligns with section's focus on Agentforce 360 data insights and decision-making, and matches consideration funnel stage"
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.75,
+          "match_rationale": "Good alignment - offers insights on how businesses use AI agents which directly relates to the section's discussion of Agentforce 360 analytics and decision-making capabilities for business leaders"
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.7,
+          "match_rationale": "Strong relevance - provides implementation guidance for AI agents which is the logical next step after reading about Agentforce 360's data analysis and decision-making benefits, though slightly earlier in funnel"
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "Agentforce 360: Your next step to transform your startup",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "admin",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_agents",
+          "startup_growth",
+          "business_automation",
+          "agentforce_360"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly targeting small business leaders ready to make a decision. It emphasizes benefits like scaling fast, saving time and costs, and includes multiple direct CTAs to try Agentforce 360. The content provides specific next steps including guides and hands-on trials, indicating decision-stage intent. The evaluating intent reflects readers comparing solutions for their startup needs."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "AI Synopsis",
+        "button_url": "#",
+        "position_after_section": 8
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.1,
+        "funnel_alignment": "mismatch",
+        "persona_match": "mismatch",
+        "product_alignment": "none",
+        "issues": [
+          "CTA offers vague 'AI Synopsis' instead of actionable next steps for decision-ready readers",
+          "Button text doesn't relate to Agentforce 360 or startup scaling",
+          "Destination URL '#' indicates broken/incomplete implementation",
+          "No clear value proposition or connection to the section content",
+          "Misses opportunity to convert decision-stage readers with trial/demo offers"
+        ],
+        "rationale": "This CTA offers an \"AI Synopsis\" which is unclear and unrelated to the decision-stage section about trying Agentforce 360, with a broken link destination."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.85,
+          "match_rationale": "Strong match - offers practical implementation guidance for Agentforce specifically for small businesses. While it's at awareness stage, it provides actionable next steps that align with the decision-stage content about trying Agentforce 360. The guide format matches the educational resources mentioned in the section."
+        },
+        {
+          "cta_id": "content-learn-modules-agentforce-agent-testing",
+          "score": 0.75,
+          "match_rationale": "Good complementary match - provides hands-on learning about Agentforce agent testing, which aligns with the section's mention of 'Playground environment' and building/testing agents. While at awareness stage, it offers practical skills that decision-stage readers would find valuable for implementation."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.011111111111111112,
+  "misaligned_count": 9
+}

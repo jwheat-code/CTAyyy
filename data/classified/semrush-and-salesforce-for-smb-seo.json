@@ -1,0 +1,264 @@
+{
+  "url": "https://www.salesforce.com/blog/semrush-and-salesforce-for-smb-seo/?bc=DB",
+  "slug": "semrush-and-salesforce-for-smb-seo",
+  "title": "Semrush and Salesforce: SEO Partners Helping Growing Businesses",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud",
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "seo",
+          "partnership",
+          "lead_generation",
+          "marketing_sales_alignment",
+          "crm_integration"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is a \"Key Takeaways\" section that synthesizes benefits of integrating Semrush with Salesforce, targeting marketing leaders who are evaluating solutions to connect SEO efforts with revenue. The content positions the integration as essential for growing businesses and specifically mentions Salesforce Starter/Pro Suite, indicating consideration-stage content for prospects evaluating how to align marketing and sales operations."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "s-articleView",
+          "score": 0.9,
+          "match_rationale": "Perfect match - directly addresses the article's core topic of SEO-CRM integration. As readers finish this section about Semrush-Salesforce partnership benefits, they're primed to learn how to implement this integration themselves. Matches consideration funnel stage and product focus."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.8,
+          "match_rationale": "Highly relevant for marketing leaders evaluating CRM capabilities for lead generation and marketing-sales alignment. The CTA's focus on reaching more prospects aligns with the section's discussion of high-intent leads and personalized marketing journeys. Matches consideration stage and target persona."
+        },
+        {
+          "cta_id": "crm-free-crm",
+          "score": 0.75,
+          "match_rationale": "Good fit for marketing leaders considering Salesforce solutions after learning about SEO-CRM integration benefits. The AI journey angle connects with the section's emphasis on data-driven, automated approaches to marketing and sales alignment. Appropriate for consideration stage."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "From traffic metric to business metric",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "seo",
+          "roi_measurement",
+          "lead_conversion",
+          "marketing_integration",
+          "crm"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section targets marketing leaders evaluating how to better measure SEO ROI by connecting marketing efforts to business outcomes. It's in the consideration stage as it explains the value proposition of integrating Semrush with Salesforce CRM, moving beyond basic traffic metrics to revenue attribution. The CTA 'Get the API' suggests readers are ready to explore implementation."
+      },
+      "existing_cta": {
+        "heading": "Integrate your SEO and your CRM today",
+        "body": "Use the Semrush API with Salesforce and start getting more out of your customer data.",
+        "button_text": "Get the API",
+        "button_url": "https://help.salesforce.com/s/articleView?id=mktg.mcidp_data_streams_api_connect_semrush.htm&type=5",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment with consideration-stage marketing leader evaluating integration solutions, though technical API documentation may be slightly advanced for this audience."
+      },
+      "recommendations": [
+        {
+          "cta_id": "crm-free-crm",
+          "score": 0.75,
+          "match_rationale": "Strong match for marketing leaders in the consideration stage who are evaluating CRM solutions after reading about the benefits of integrating SEO with Salesforce CRM. The 'Start your AI journey' messaging aligns with the modern approach to marketing measurement discussed in the section."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.7,
+          "match_rationale": "Good fit for marketing leaders considering how CRM can help reach more prospects and convert SEO traffic into qualified leads. The consideration stage matches perfectly, and the messaging about 'reaching more prospects' connects well with the section's theme of converting traffic into business outcomes."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "How Semrush connects the customer profile",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "seo_integration",
+          "lead_enrichment",
+          "sales_enablement",
+          "intent_data",
+          "semrush_partnership"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section provides detailed workflows and actionable steps for integrating Semrush data with Salesforce to enrich customer profiles and improve sales effectiveness. The technical implementation details, specific workflows, and \"actionable steps\" indicate readers are ready to implement. The content targets marketing and sales leaders evaluating how to enhance their existing Salesforce setup. Specific mentions of Salesforce Starter Suite and detailed integration processes suggest consideration stage as readers are exploring solution capabilities."
+      },
+      "existing_cta": {
+        "heading": "Boost sales with a CRM made for growing businesses",
+        "body": "Try Starter Suite for free to close more deals and win more customers, today.",
+        "button_text": "Try for free",
+        "button_url": "https://www.salesforce.com/small-business/sales/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "partial",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "The CTA aligns well with the consideration stage and promotes Starter Suite which is discussed in the section, but targets small businesses rather than marketing leaders specifically."
+      },
+      "recommendations": [
+        {
+          "cta_id": "s-articleView",
+          "score": 0.9,
+          "match_rationale": "Perfect alignment - this CTA specifically focuses on SEO-CRM integration, which directly matches the section's content about connecting Semrush search data with Salesforce. The reader just learned how to implement this integration and would be ready to take action."
+        },
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.8,
+          "match_rationale": "Strong match - the section specifically mentions Pro Suite as a use case for implementing Semrush integration. Marketing leaders reading about advanced lead enrichment capabilities would be interested in trying the Pro Suite that enables these features."
+        },
+        {
+          "cta_id": "small-business-lead-management",
+          "score": 0.7,
+          "match_rationale": "Good alignment - the section focuses heavily on lead enrichment and prioritization, which directly relates to lead management. This CTA targets the same outcome (boosting sales through better lead handling) that the Semrush integration aims to achieve."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Operationalize success in sales and marketing",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "service_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "seo",
+          "integration",
+          "dashboard_reporting",
+          "lead_generation",
+          "sales_marketing_alignment"
+        ],
+        "confidence": 0.85,
+        "rationale": "This section provides specific implementation guidance for operationalizing SEO and CRM integration. The content focuses on practical workflows, unified dashboards, and technical processes, indicating readers are ready to implement. Marketing leaders are the primary audience given the SEO focus, with sales leaders as secondary due to pipeline discussions. The consideration stage fits as readers are evaluating how this partnership solution works in practice. Multiple Salesforce products are mentioned including Starter/Pro Suites, Service Cloud for ticketing, and general CRM functionality."
+      },
+      "existing_cta": {
+        "heading": "What can you do with a CRM built to reach more prospects?",
+        "body": "Automate your marketing campaigns with a CRM built to grow. It all starts with Starter Suite.",
+        "button_text": "Find out for free",
+        "button_url": "https://www.salesforce.com/small-business/marketing/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "Strong alignment with consideration-stage marketing leader implementing unified sales/marketing workflows, promoting relevant Starter Suite product with appropriate trial offer."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.8,
+          "match_rationale": "Strong alignment - the section specifically mentions 'Pro Suite supports deeper funnel and performance reporting' which matches the unified dashboard and reporting capabilities the reader is implementing. Decision-stage CTA fits the implementing intent and consideration funnel stage progression."
+        },
+        {
+          "cta_id": "crm-foundations",
+          "score": 0.7,
+          "match_rationale": "Good fit - focuses on getting data ready for AI, which aligns with the section's emphasis on unified workflows and integrated data systems. The consideration-stage CTA matches the reader's current funnel position and implementing intent."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Ready to transform your pipeline with SEO intelligence?",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "starter",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "seo_integration",
+          "crm_connectivity",
+          "pipeline_transformation",
+          "search_intelligence",
+          "customer_journey"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly a decision-stage section with strong calls-to-action directing readers to specific Salesforce products (Free, Starter Suite, Pro Suite, Agentforce 360). The language \"Ready to see how integrating...\" and \"Start your journey\" indicates readers are ready to implement. The focus on SEO+CRM integration targets marketing leaders primarily, with sales leaders as secondary since it mentions pipeline transformation. Multiple product CTAs show this is driving toward purchase/trial decisions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Perfect match for decision-stage marketing leaders implementing SEO-CRM integration. The section specifically mentions 'Start your journey with the Free or Starter Suite today' and this CTA directly supports that call to action with a trial offer for the Starter product mentioned in the section's product alignment."
+        },
+        {
+          "cta_id": "s-articleView",
+          "score": 0.8,
+          "match_rationale": "Highly relevant as it directly addresses the core topic of the section - 'Integrate your SEO and your CRM today.' This matches the section's focus on SEO integration and CRM connectivity, making it ideal for marketing leaders ready to implement these solutions."
+        },
+        {
+          "cta_id": "crm-foundations",
+          "score": 0.75,
+          "match_rationale": "Strong alignment with the section's mention of 'Already a Salesforce customer? Activate Foundations to try out Agentforce 360 today.' This CTA supports getting data ready for AI, which connects to the Agentforce product alignment and appeals to marketing leaders preparing for advanced CRM implementation."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.51,
+  "misaligned_count": 2
+}

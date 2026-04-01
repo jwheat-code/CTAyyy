@@ -1,0 +1,382 @@
+{
+  "url": "https://www.salesforce.com/blog/how-to-patent-a-business-idea/?bc=DB",
+  "slug": "how-to-patent-a-business-idea",
+  "title": "How To Patent a Business Idea",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "general",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "intellectual_property",
+          "patents",
+          "business_protection",
+          "startups",
+          "smb"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly educational content about patenting business ideas, targeting SMB owners and entrepreneurs who are learning about intellectual property protection. The content is foundational/conceptual rather than product-specific, placing it in the awareness stage. The reader intent is learning as they're seeking to understand patent fundamentals rather than evaluating specific solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "launchpad",
+          "score": 0.75,
+          "match_rationale": "This section is about protecting business ideas for startups and SMBs. After reading about patents and IP protection, startup founders would naturally be thinking about next steps for their business. The Launchpad CTA directly targets startups with business acceleration, matching the consideration stage (one step ahead of awareness) and aligning with the startup focus."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.7,
+          "match_rationale": "After learning about protecting their business ideas, SMB owners and business leaders would be interested in other foundational business topics. This AI guide provides valuable educational content for small businesses, staying in the awareness funnel stage while being relevant to the SMB persona and general business protection themes."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.65,
+          "match_rationale": "The section focuses on small businesses and startups protecting their ideas. This CTA directly speaks to small businesses and moves them to the consideration stage, which is appropriate for readers who have just learned about IP protection and might be ready to explore business tools and solutions."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Why do you need to patent your business idea?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "intellectual_property",
+          "business_innovation",
+          "patent_protection",
+          "digital_transformation",
+          "ai"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is educational content explaining why patents matter, targeting business leaders who are learning about protecting innovations. The content is awareness-stage as it's foundational education rather than solution evaluation. While it mentions Salesforce briefly, the primary focus is on general business concepts around intellectual property protection."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.75,
+          "match_rationale": "Perfect match for business leaders in awareness stage learning about innovation protection. The AI guide aligns with the section's focus on digital transformation and AI, while providing educational value for small business leaders thinking about protecting their intellectual property."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.55,
+          "match_rationale": "Good general fit for business leaders who have just learned about protecting their innovations. The consideration-stage CTA about how Salesforce works for small businesses connects to the section's mention of scaling business operations."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "What qualifies as a patentable business idea?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "intellectual_property",
+          "patents",
+          "business_innovation",
+          "legal_compliance",
+          "product_development"
+        ],
+        "confidence": 0.8,
+        "rationale": "This section provides foundational education about patent law and criteria for business leaders. The content is purely informational about legal concepts rather than solution-focused. The mention of \"online storefront\" and AI/software patents suggests relevance to Commerce Cloud and Einstein AI, though the connection is indirect. The reader is learning about patents rather than evaluating Salesforce solutions."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "This section is purely educational content about patent law and intellectual property fundamentals, with no clear connection to Salesforce products or business solutions. The reader is learning about legal concepts like patent eligibility criteria, which is too early in their awareness journey and completely outside Salesforce's domain expertise. While the section mentions Commerce Cloud and Einstein AI in the classification, the actual content focuses entirely on legal/patent concepts without any business technology angle that would make a Salesforce CTA relevant or valuable to the reader at this point."
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Patent vs. copyright vs. trademark: Understanding the differences",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "intellectual_property",
+          "patents",
+          "small_business",
+          "legal_protection",
+          "business_fundamentals"
+        ],
+        "confidence": 0.9,
+        "rationale": "This is clearly educational content explaining fundamental legal concepts to SMB owners. The reader intent is learning as they're seeking to understand differences between IP protection types. Primary persona is business_leader since it's targeted at SMB owners making business decisions. This is awareness stage as it's foundational knowledge rather than solution evaluation. Product alignment is general since this is basic business education not related to any specific Salesforce products."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "company-be-a-trailblazer",
+          "score": 0.75,
+          "match_rationale": "Good awareness-stage match for business leaders interested in learning. After reading about IP protection fundamentals, joining the broader Salesforce ecosystem for business education is a natural next step. Aligns with learning intent and business fundamentals focus."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.65,
+          "match_rationale": "Relevant to small business owners who just learned about IP protection. Moving from awareness to consideration stage is appropriate progression. The CTA addresses how Salesforce works for small businesses, which connects to the business fundamentals theme."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Types of patents: utility and design",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "starter"
+        ],
+        "topic_tags": [
+          "patents",
+          "intellectual_property",
+          "business_methods",
+          "startup_guidance",
+          "smb"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is educational content explaining patent types for SMBs/startups. The reader intent is learning about patent fundamentals, not evaluating Salesforce solutions. The primary persona is business leaders seeking to understand IP protection. It's awareness-stage content that builds trust and expertise. Product alignment is starter based on the explicit mention of \"Starter Suite\" and the SMB focus, plus the CTA for free CRM for small businesses."
+      },
+      "existing_cta": {
+        "heading": "Get Salesforce. FREE for small businesses.",
+        "body": "Connect sales, service, and analytics on one platform. Save time, stay organized, and fuel growth with the CRM that scales for small teams.",
+        "button_text": "Get Free CRM",
+        "button_url": "https://www.salesforce.com/form/signup/free-crm/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.4,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "Funnel stage mismatch: offering free trial/signup to readers who are in learning mode about patent types",
+          "Educational content about patents doesn't naturally lead to immediate CRM trial consideration"
+        ],
+        "rationale": "The CTA is pushing for immediate trial/signup on an awareness-stage section where readers are learning about patent types, creating a significant funnel stage mismatch."
+      },
+      "recommendations": [
+        {
+          "cta_id": "launchpad",
+          "score": 0.75,
+          "match_rationale": "This section discusses patent considerations for SMBs and startups, and the Launchpad CTA directly addresses accelerating startup success. The consideration funnel stage is appropriate for readers who have learned about patent types and may be ready to explore business growth tools. The business_leader persona aligns well with startup founders considering intellectual property strategy."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.65,
+          "match_rationale": "After learning about patent protection for business methods and AI-integrated processes, business leaders would logically be interested in understanding how to implement AI in their small business. This awareness-stage guide matches the funnel stage and addresses the SMB focus mentioned in the section about patents for startups and small businesses."
+        },
+        {
+          "cta_id": "small-business",
+          "score": 0.6,
+          "match_rationale": "The section specifically discusses patent considerations for SMBs and startups, making this small business-focused CTA relevant. While the consideration funnel stage is one step ahead of the awareness stage, it's appropriate for readers who have absorbed educational content and may be ready to explore solutions. The business_leader persona aligns with decision-makers considering patent strategy."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "The patent process in 6 steps",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "patent_process",
+          "intellectual_property",
+          "startup_operations",
+          "crm_collaboration",
+          "business_development"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is a detailed how-to section for patent applications, indicating implementing intent. The content targets SMBs/startups (business leaders) but also mentions technical aspects (secondary developer persona). The specific product mentions of CRM and Slack suggest consideration stage for Salesforce tools while solving the patent tracking problem. High confidence due to clear how-to structure and explicit product recommendations."
+      },
+      "existing_cta": {
+        "heading": "Boost team productivity with Slack",
+        "body": "Bring together your team, your customers, and your tools to help take your business to the next level with Slack — it’s where business gets done.",
+        "button_text": "Try for free",
+        "button_url": "https://www.salesforce.com/small-business/collaboration/?d=bcta",
+        "position_after_section": 5
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.3,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "mismatch",
+        "issues": [
+          "Product mismatch: CTA promotes Slack for team productivity while section discusses patent application process",
+          "Context disconnect: Reader is learning about patent steps, not seeking team collaboration solutions",
+          "Funnel stage mismatch: 'Try for free' is decision-stage but section is consideration-stage content about patent processes"
+        ],
+        "rationale": "The CTA promotes team collaboration tools when the section focuses on individual patent process steps, creating a significant product misalignment despite matching the business leader persona."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Perfect alignment - targets business leaders at consideration stage, focuses on CRM for growing businesses which directly relates to the patent process collaboration needs mentioned in the section. The section specifically recommends using a CRM for compiling patent information and team collaboration."
+        },
+        {
+          "cta_id": "small-business-collaboration",
+          "score": 0.8,
+          "match_rationale": "Strong match - addresses the Slack collaboration aspect mentioned in the section ('collaborative notes with your team in Slack'). Targets the decision stage which is one step ahead of consideration, and focuses on team productivity which aligns with the patent process collaboration needs."
+        },
+        {
+          "cta_id": "crm-foundations",
+          "score": 0.75,
+          "match_rationale": "Good alignment - consideration stage CTA that focuses on getting data ready, which relates to the section's emphasis on maintaining detailed records and documentation throughout the patent process. Appeals to business leaders who need organized systems for complex processes."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Moving from idea to business growth with CRM",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "starter",
+          "sales_cloud",
+          "agentforce"
+        ],
+        "topic_tags": [
+          "business_growth",
+          "crm_implementation",
+          "startup",
+          "intellectual_property",
+          "business_execution"
+        ],
+        "confidence": 0.9,
+        "rationale": "This section is clearly in the decision stage with direct product recommendations and specific CTAs for Free, Starter Suite, Pro Suite, and Agentforce 360. The reader intent is implementing as they're ready to execute their protected business idea with CRM tools. The primary persona is business_leader as this targets entrepreneurs and business owners looking to grow their ventures after securing IP protection."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.95,
+          "match_rationale": "Perfect match for business leaders at decision stage looking to implement CRM. The section specifically mentions 'Start your journey with the Free or Starter Suite today' and this CTA directly aligns with that call to action. Product alignment is exact (starter/sales_cloud) and the trial format matches the implementation intent."
+        },
+        {
+          "cta_id": "small-business-sales",
+          "score": 0.85,
+          "match_rationale": "Strong match for business leaders ready to implement CRM for growth. The CTA 'Boost sales with a CRM made for growing businesses' directly relates to the section's focus on 'Moving from idea to business growth with CRM.' Decision-stage funnel alignment and sales_cloud product focus make this highly relevant."
+        },
+        {
+          "cta_id": "form-signup-freetrial-prosuite",
+          "score": 0.75,
+          "match_rationale": "Good match as the section explicitly mentions 'Looking for more customization? Explore Pro Suite.' This CTA offers exactly that with 'Ready to go Pro?' It's decision-stage appropriate and aligns with the progression path outlined in the section for businesses ready for more advanced features."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "patent_law",
+          "intellectual_property",
+          "business_innovation",
+          "legal_guidance",
+          "startup_advice"
+        ],
+        "confidence": 0.9,
+        "rationale": "This FAQ section provides educational content about patent processes, timelines, and costs. Readers are learning foundational concepts about intellectual property protection. The content targets business leaders who may be considering patenting their innovations but need basic understanding first. The Salesforce CTA seems disconnected from the patent content, suggesting this is general business education content."
+      },
+      "existing_cta": {
+        "heading": "Get your data ready for AI with Salesforce Foundations",
+        "body": "Easily activate Foundations in your existing CRM to add key features in Agentforce 360, Sales, Service, Marketing, Commerce, and Data — all for free.",
+        "button_text": "Try out Foundations",
+        "button_url": "https://www.salesforce.com/crm/foundations/?d=bcta",
+        "position_after_section": 7
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.1,
+        "funnel_alignment": "mismatch",
+        "persona_match": "mismatch",
+        "product_alignment": "none",
+        "issues": [
+          "CTA promotes Salesforce AI/CRM features while section discusses patent application processes",
+          "Decision-stage trial CTA misaligned with awareness-stage learning content",
+          "No topical connection between patent information and Salesforce product features",
+          "CTA targets technical users while section serves business leaders seeking patent education"
+        ],
+        "rationale": "This CTA about Salesforce Foundations and AI features is completely unrelated to a patent FAQ section targeting business leaders learning about patent processes."
+      },
+      "recommendations": [
+        {
+          "cta_id": "launchpad",
+          "score": 0.75,
+          "match_rationale": "This section covers patent law and startup advice, making it highly relevant for business leaders seeking guidance on intellectual property protection for their startups. The Launchpad CTA directly addresses startup acceleration needs and aligns with the consideration funnel stage (one step ahead of awareness), making it a natural next step for readers learning about patent protection."
+        },
+        {
+          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "score": 0.65,
+          "match_rationale": "Business leaders learning about patent law are often concerned with protecting innovative technologies and business methods. This AI guide for small businesses connects to the innovation theme and provides practical guidance that business leaders would find valuable after learning about patent processes. The awareness-level guide matches the section's educational nature."
+        },
+        {
+          "cta_id": "resources-research-reports-high-tech-trends",
+          "score": 0.6,
+          "match_rationale": "After reading about patent law and intellectual property, business leaders would naturally be interested in understanding broader high-tech trends that could impact their innovation strategies. This awareness-level guide provides valuable industry insights that complement the legal knowledge gained from the section."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.225,
+  "misaligned_count": 7
+}

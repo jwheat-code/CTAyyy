@@ -1,0 +1,53 @@
+{
+  "url": "https://www.salesforce.com/agentforce/what-is-a-reasoning-engine/atlas/?bc=DB",
+  "slug": "atlas-reasoning-engine",
+  "title": "How the Atlas Reasoning Engine Powers Agentforce",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "autonomous_ai",
+          "reasoning_engine",
+          "agentforce_architecture",
+          "technical_deep_dive"
+        ],
+        "confidence": 0.85,
+        "rationale": "This is an introductory section that sets up a technical deep-dive into how Agentforce's Atlas Reasoning Engine works. The \"let's look under the hood\" language suggests educational content aimed at technical audiences who want to understand the underlying technology. The reader intent is learning rather than evaluating since this appears to be explanatory content about existing technology rather than comparison-focused."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.9,
+          "match_rationale": "Perfect match for IT leaders learning about AI agents and autonomous AI. This CTA offers a business-focused report on how companies are using AI agents, which directly aligns with the section's focus on Agentforce and autonomous AI. The awareness-stage funnel positioning is ideal for readers just beginning to understand AI agent technology."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "score": 0.8,
+          "match_rationale": "Strong alignment with Agentforce product focus and provides practical implementation guidance that IT leaders would value. While the CTA mentions small business, the core content about implementing AI agents is relevant for IT leaders understanding Agentforce architecture and deployment considerations."
+        },
+        {
+          "cta_id": "content-learn-modules-agentforce-agent-testing",
+          "score": 0.75,
+          "match_rationale": "Good technical match for IT leaders who want hands-on learning about Agentforce agents. The learning format fits the awareness stage funnel, and the technical focus on agent testing complements the deep-dive content about how autonomous AI agents work under the hood."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 1
+}
