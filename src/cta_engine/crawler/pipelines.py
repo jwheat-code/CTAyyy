@@ -9,6 +9,10 @@ class JsonWriterPipeline:
 
     def process_item(self, item, spider):
         slug = item["slug"]
+        # Reject slugs that look like query strings or are too short
+        if not slug or slug.startswith("?") or slug.startswith("#") or len(slug) < 3:
+            spider.logger.warning(f"Skipping bad slug: {slug!r}")
+            return item
         path = self.output_dir / f"{slug}.json"
         with open(path, "w", encoding="utf-8") as f:
             json.dump(dict(item), f, indent=2, ensure_ascii=False)

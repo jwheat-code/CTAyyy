@@ -149,19 +149,22 @@ if unanalyzed:
     st.sidebar.caption(f"{len(unanalyzed)} crawled article(s) not yet analyzed")
 if st.sidebar.button("Crawl & Analyze New (2026)", type="primary"):
     scripts_dir = PROJECT_ROOT / "scripts"
-    crawl_cmd = [sys.executable, str(scripts_dir / "crawl.py"), "--max-articles", "50", "--min-year", "2026"]
-    analyze_cmd = [sys.executable, str(scripts_dir / "analyze.py"), "--all", "--limit", "200"]
+    sitemap_cmd = [sys.executable, str(scripts_dir / "fetch_sitemap_urls.py")]
+    crawl_cmd = [sys.executable, str(scripts_dir / "crawl_from_sitemap.py"), "--limit", "100"]
+    classify_cmd = [sys.executable, str(scripts_dir / "classify_rules.py"), "--all"]
     log = st.sidebar.empty()
     try:
-        log.info("Crawling new 2026 articles...")
+        log.info("Finding new 2026 articles from sitemap...")
+        result = subprocess.run(sitemap_cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+        log.info("Crawling new articles...")
         result = subprocess.run(crawl_cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
         if result.returncode != 0:
             st.sidebar.error(f"Crawl failed: {result.stderr[-500:]}")
         else:
-            log.info("Analyzing new articles...")
-            result = subprocess.run(analyze_cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
+            log.info("Classifying new articles...")
+            result = subprocess.run(classify_cmd, capture_output=True, text=True, cwd=str(PROJECT_ROOT))
             if result.returncode != 0:
-                st.sidebar.error(f"Analysis failed: {result.stderr[-500:]}")
+                st.sidebar.error(f"Classification failed: {result.stderr[-500:]}")
             else:
                 log.success("Done! Reloading...")
                 st.rerun()
@@ -306,10 +309,7 @@ with tab2:
             st.divider()
 
     elif selected_slug:
-        st.info(
-            f"No analysis for **{articles[selected_slug].get('title', selected_slug)}** yet. "
-            "Run analysis via the API: `POST /api/analysis/{slug}`"
-        )
+        st.info(f"No analysis for **{articles[selected_slug].get('title', selected_slug)}** yet.")
 
 # === Tab 3: Batch Summary ===
 with tab3:
@@ -317,13 +317,72 @@ with tab3:
         health_df = build_health_df(analyses, articles)
         analyzed_df = health_df[health_df["Has Analysis"]].copy()
 
-        # Summary metrics
-        m1, m2, m3, m4 = st.columns(4)
-        m1.metric("Articles Analyzed", len(analyzed_df))
-        m2.metric("Total Sections", int(analyzed_df["Sections"].sum()))
-        m3.metric("Misaligned CTAs", int(analyzed_df["Misaligned"].sum()))
+        # Top-line metrics
+        total_sections = int(analyzed_df["Sections"].sum())
+        total_misaligned = int(analyzed_df["Misaligned"].sum())
         avg = analyzed_df["Health Score"].mean() if len(analyzed_df) > 0 else 0
-        m4.metric("Avg Health Score", f"{avg:.0%}")
+        pct_healthy = (analyzed_df["Health Score"] >= 0.7).sum()
+
+        m1, m2, m3, m4, m5 = st.columns(5)
+        m1.metric("Articles", len(analyzed_df))
+        m2.metric("Sections", total_sections)
+        m3.metric("CTA Issues", total_misaligned)
+        m4.metric("Healthy Articles", f"{pct_healthy}/{len(analyzed_df)}")
+        m5.metric("Avg Health Score", f"{avg:.0%}")
+
+        st.markdown("---")
+
+        # Opportunity breakdown
+        opp_col, dist_col = st.columns(2)
+
+        with opp_col:
+            st.markdown("#### CTA Opportunity Breakdown")
+            missing_cta = 0
+            wrong_cta = 0
+            good_cta = 0
+            no_cta_needed = 0
+            for slug, analysis in analyses.items():
+                for sa in analysis.get("section_analyses", []):
+                    has_cta = sa.get("existing_cta") is not None
+                    no_cta_rec = sa.get("recommend_no_cta", False)
+                    score_data = sa.get("existing_cta_score")
+                    recs = sa.get("recommendations", [])
+                    if not has_cta and not no_cta_rec and recs:
+                        missing_cta += 1
+                    elif has_cta and no_cta_rec:
+                        wrong_cta += 1
+                    elif has_cta and score_data:
+                        s = score_data["relevance_score"]
+                        if s < 0.5:
+                            wrong_cta += 1
+                        else:
+                            good_cta += 1
+                    else:
+                        no_cta_needed += 1
+            opp_df = pd.DataFrame([
+                {"Status": "✅ Good CTA", "Sections": good_cta},
+                {"Status": "❌ Missing CTA", "Sections": missing_cta},
+                {"Status": "⚠️ Wrong CTA", "Sections": wrong_cta},
+                {"Status": "— No CTA Needed", "Sections": no_cta_needed},
+            ])
+            st.dataframe(opp_df, use_container_width=True, hide_index=True)
+
+        with dist_col:
+            st.markdown("#### Funnel Stage Distribution")
+            funnel_counts = {"awareness": 0, "consideration": 0, "decision": 0}
+            for slug, analysis in analyses.items():
+                for sa in analysis.get("section_analyses", []):
+                    f = sa.get("classification", {}).get("funnel_stage", "")
+                    if f in funnel_counts:
+                        funnel_counts[f] += 1
+            funnel_df = pd.DataFrame([
+                {"Funnel Stage": k.title(), "Sections": v}
+                for k, v in funnel_counts.items()
+            ])
+            st.dataframe(funnel_df, use_container_width=True, hide_index=True)
+
+        st.markdown("---")
+        st.markdown("#### Article Health Scores")
 
         # Table
         display_df = (

@@ -11,18 +11,22 @@ class SalesforceBlogSpider(scrapy.Spider):
     name = "salesforce_blog"
     allowed_domains = ["www.salesforce.com"]
 
-    # Category listing pages that load all articles at once
+    # Category listing pages — pages 1-5 to get deeper into archive
     start_urls = [
-        "https://www.salesforce.com/blog/",
-        "https://www.salesforce.com/blog/ai/",
-        "https://www.salesforce.com/blog/agentic-ai/",
-        "https://www.salesforce.com/blog/sales/",
-        "https://www.salesforce.com/blog/service/",
-        "https://www.salesforce.com/blog/marketing/",
-        "https://www.salesforce.com/blog/commerce/",
-        "https://www.salesforce.com/blog/analytics/",
-        "https://www.salesforce.com/blog/it/",
-        "https://www.salesforce.com/blog/small-business/",
+        url
+        for base in [
+            "https://www.salesforce.com/blog/",
+            "https://www.salesforce.com/blog/ai/",
+            "https://www.salesforce.com/blog/agentic-ai/",
+            "https://www.salesforce.com/blog/sales/",
+            "https://www.salesforce.com/blog/service/",
+            "https://www.salesforce.com/blog/marketing/",
+            "https://www.salesforce.com/blog/commerce/",
+            "https://www.salesforce.com/blog/analytics/",
+            "https://www.salesforce.com/blog/it/",
+            "https://www.salesforce.com/blog/small-business/",
+        ]
+        for url in [base] + [f"{base}page/{p}/" for p in range(2, 6)]
     ]
 
     custom_settings = {
@@ -89,7 +93,8 @@ class SalesforceBlogSpider(scrapy.Spider):
 
     def parse_article(self, response):
         """Extract article content, sections, and CTAs."""
-        slug = response.meta["slug"]
+        from urllib.parse import urlparse as _urlparse
+        slug = response.meta.get("slug") or _urlparse(response.url).path.rstrip("/").split("/")[-1]
         soup = BeautifulSoup(response.text, "html.parser")
 
         # Title
