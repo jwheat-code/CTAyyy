@@ -159,28 +159,29 @@ def score_existing_cta(
 
 
 async def _analyze_section(
-    async_client: anthropic.AsyncAnthropic,
+    haiku_client: anthropic.AsyncAnthropic,
+    sonnet_client: anthropic.AsyncAnthropic,
     title: str,
     section: dict,
     existing_cta: dict | None,
     cta_library: list[dict],
 ) -> dict:
-    """Analyze a single section: classify + match + (optionally) score existing CTA — all concurrently."""
+    """Analyze a single section: Haiku classifies, Sonnet matches + scores."""
     idx = section["index"]
     existing_cta_text = (
         f"{existing_cta.get('heading', '')} — {existing_cta.get('button_text', '')}"
         if existing_cta else "None"
     )
 
-    # Run classify and match concurrently (they don't depend on each other)
+    # Step 1: Haiku classifies the section (cheap structured extraction)
     classify_msg = CLASSIFICATION_USER_TEMPLATE.format(
         article_title=title,
         section_heading=section["heading"],
         section_text=section["text"][:2000],
         existing_cta=existing_cta_text,
     )
-    classify_coro = async_client.messages.create(
-        model=settings.claude_model,
+    classify_coro = haiku_client.messages.create(
+        model=settings.claude_haiku_model,
         max_tokens=1024,
         system=CLASSIFICATION_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": classify_msg}],
@@ -209,7 +210,8 @@ async def _analyze_section(
         section_text_preview=" ".join(section["text"].split()[:200]),
         cta_library_formatted=format_cta_library(cta_library),
     )
-    match_coro = async_client.messages.create(
+    # Step 2: Sonnet matches + scores (strategic reasoning)
+    match_coro = sonnet_client.messages.create(
         model=settings.claude_model,
         max_tokens=1024,
         system=CTA_MATCH_SYSTEM_PROMPT,
@@ -233,7 +235,7 @@ async def _analyze_section(
             cta_button_text=existing_cta.get("button_text", ""),
             cta_url=existing_cta.get("button_url", ""),
         )
-        score_coro = async_client.messages.create(
+        score_coro = sonnet_client.messages.create(
             model=settings.claude_model,
             max_tokens=512,
             system=CTA_SCORE_SYSTEM_PROMPT,
@@ -279,6 +281,7 @@ def analyze_article(article_data: dict) -> ArticleAnalysis:
 async def _analyze_article_async(article_data: dict) -> ArticleAnalysis:
     """Async implementation — runs all sections concurrently."""
     async_client = anthropic.AsyncAnthropic(api_key=settings.anthropic_api_key)
+    haiku_client = anthropic.AsyncAnthropic(api_key=settings.anthropic_api_key)
     cta_library = load_cta_library()
 
     title = article_data["title"]
@@ -299,7 +302,7 @@ async def _analyze_article_async(article_data: dict) -> ArticleAnalysis:
     async def bounded(section):
         async with semaphore:
             return await _analyze_section(
-                async_client, title, section,
+                haiku_client, async_client, title, section,
                 cta_by_section.get(section["index"]),
                 cta_library,
             )

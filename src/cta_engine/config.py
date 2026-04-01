@@ -5,7 +5,10 @@ from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
 
 _env_path = Path(__file__).resolve().parent.parent.parent / ".env"
-load_dotenv(_env_path, override=False)  # .env takes lower priority than real env vars
+# If the shell exported an empty ANTHROPIC_API_KEY, remove it so .env can fill it in
+if not os.environ.get("ANTHROPIC_API_KEY"):
+    os.environ.pop("ANTHROPIC_API_KEY", None)
+load_dotenv(_env_path, override=False)
 
 # Pull from Streamlit secrets if running on Streamlit Cloud
 try:
@@ -19,6 +22,7 @@ except Exception:
 class Settings(BaseSettings):
     anthropic_api_key: str = ""
     claude_model: str = "claude-sonnet-4-20250514"
+    claude_haiku_model: str = "claude-haiku-4-5-20251001"
     crawl_delay_seconds: float = 2.5
     crawl_max_articles: int = 100
     log_level: str = "INFO"
