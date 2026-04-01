@@ -17,53 +17,65 @@ from cta_engine.config import settings
 PRODUCT_KEYWORDS = {
     "agentforce": [
         "agentforce", "ai agent", "autonomous agent", "agentic", "atlas reasoning",
-        "digital labor", "agent builder", "copilot", "ai worker",
+        "digital labor", "agent builder", "copilot", "ai worker", "large action model",
+        "lam ", "human in the loop", "hitl", "ai-powered agent", "agent testing",
+    ],
+    "einstein_ai": [
+        "einstein", "predictive ai", "generative ai", "gen ai", "llm", "large language model",
+        "ai model", "ai features", "machine learning", "prompt engineering",
+        "foundation model", "gpt", "system-level ai", "rl training",
     ],
     "sales_cloud": [
         "sales cloud", "crm", "pipeline", "forecasting", "sales automation",
         "salesforce sales", "sales rep", "deal", "quota", "revenue", "lead",
-        "opportunity", "account", "contact", "salesblazer",
+        "opportunity", "salesblazer", "sales kickoff", "upsell", "close rate",
+        "account executive", "sales cycle", "lead qualification",
     ],
     "service_cloud": [
         "service cloud", "customer service", "contact center", "case management",
         "serviceblazer", "support agent", "help desk", "itsm", "servicenow",
-        "field service", "csat", "customer satisfaction",
+        "field service", "csat", "customer satisfaction", "ticketing", "service desk",
+        "it service", "voice technology", "ivr", "escalation",
     ],
     "marketing_cloud": [
-        "marketing cloud", "email marketing", "marketing automation", "journey",
+        "marketing cloud", "email marketing", "marketing automation", "customer journey",
         "personalization", "campaign", "segmentation", "account engagement",
-        "pardot", "marketing analytics", "state of marketing",
+        "pardot", "marketing analytics", "state of marketing", "distributed marketing",
+        "seo", "semrush", "revenue marketing", "demand generation", "b2b marketing",
+        "content marketing", "mailchimp", "internet marketing",
     ],
     "commerce_cloud": [
         "commerce cloud", "ecommerce", "b2c commerce", "b2b commerce",
         "storefront", "shopping", "order management", "checkout", "merchandising",
+        "agentforce commerce", "retail", "commerce innovations",
     ],
     "slack": [
-        "slack", "collaboration", "messaging", "channel", "canvas", "huddle",
-        "workflow builder", "context-switching",
+        "slack", "collaboration tool", "slack channel", "slack canvas", "huddle",
+        "workflow builder", "context-switching", "slack for", "smbs.*slack",
     ],
     "data_cloud": [
         "data cloud", "cdp", "customer data platform", "data unification",
-        "real-time profile", "identity resolution",
+        "real-time profile", "identity resolution", "unified profile", "first-party data",
+        "data strategy", "grl", "precision filter",
     ],
     "platform": [
         "salesforce platform", "force.com", "appexchange", "apex", "lwc",
         "sandbox", "devops", "vibe cod", "low-code", "no-code", "pro-code",
         "transaction security", "backup", "backup & recover", "data masking",
+        "developer", "salesforce developer", "integration pattern", "domain-driven",
+        "deployment", "devops center", "app store optimization",
     ],
-    "tableau": ["tableau", "analytics", "visualization", "bi ", "business intelligence"],
-    "mulesoft": ["mulesoft", "integration", "api management", "anypoint"],
+    "tableau": ["tableau", "visualization", "bi dashboard", "business intelligence"],
+    "mulesoft": ["mulesoft", "integration platform", "api management", "anypoint", "composing.*systems"],
     "starter": [
         "starter suite", "starter plan", "small business suite",
         "salesforce starter", "foundations", "free crm", "smb suite",
-    ],
-    "einstein_ai": [
-        "einstein", "predictive ai", "generative ai", "ai features",
-        "einstein copilot",
+        "salesforce suites", "pro suite", "salesforce for small business",
+        "crm for small", "small business crm",
     ],
     "industry_clouds": [
         "health cloud", "financial services cloud", "nonprofit", "manufacturing cloud",
-        "healthcare", "insurance", "banking",
+        "healthcare", "insurance", "banking", "life sciences",
     ],
     "general": [],
 }
@@ -155,9 +167,14 @@ def detect_products(text: str, title: str) -> list[str]:
         if product == "general":
             continue
         for kw in keywords:
-            if kw in combined:
+            if re.search(kw, combined):
                 found.append(product)
                 break
+    # Always include agentforce for articles that discuss AI agents generically
+    if not found and re.search(r"\bai\b.*\b(agent|automat|work)", combined):
+        found.append("agentforce")
+    # Cap at 4 most relevant products
+    found = found[:4]
     return found if found else ["general"]
 
 
