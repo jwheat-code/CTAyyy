@@ -1,0 +1,295 @@
+{
+  "url": "https://www.salesforce.com/blog/grl-the-precision-filter-you-didnt-know-your-cdp-was-missing/?bc=DB",
+  "slug": "grl-the-precision-filter-you-didnt-know-your-cdp-was-missing",
+  "title": "GRL: The ‘Precision Filter’ You Didn’t Know Your CDP Was Missing",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "data_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: marketing_cloud, data_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.informatica.com-departments-data-archi",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is Group, Rank, and Limit (GRL)?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is Group, Rank, and Limit (GRL)?'. Products: marketing_cloud, data_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.informatica.com-departments-data-archi",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Why is GRL a Game Changer?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Why is GRL a Game Changer?'. Products: marketing_cloud, data_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-data-clean-rooms-demo",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "How GRL Works: The Three Simple Steps",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'How GRL Works: The Three Simple Steps'. Products: data_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-data-clean-rooms-demo",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Scenario 1: B2B Contact Prioritization (Group by Account)",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Scenario 1: B2B Contact Prioritization (Group by Account)'. Products: marketing_cloud, data_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.informatica.com-departments-data-archi",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Scenario 2: Early Bird Exclusive Product Launch (Group by Region)",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Scenario 2: Early Bird Exclusive Product Launch (Group by Region)'. Products: data_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-data-clean-rooms-demo",
+          "score": 0.5,
+          "match_rationale": "Matches data_cloud product focus at consideration stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Scenario 3: Highest Propensity Offer (Group by Individual)",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "crm",
+          "data_analytics",
+          "productivity",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Scenario 3: Highest Propensity Offer (Group by Individual)'. Products: marketing_cloud, data_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-data-clean-rooms-demo",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 7
+}

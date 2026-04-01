@@ -1,0 +1,51 @@
+{
+  "url": "https://www.salesforce.com/crm/free-crm/best-free-crms/?bc=DB",
+  "slug": "top-free-crms-for-startups",
+  "title": "Best Free CRMs for Startups and SMBs in 2026",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud, starter. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 1
+}

@@ -1,0 +1,63 @@
+{
+  "url": "https://www.salesforce.com/blog/salesforce-trusted-partners-architects-of-the-agentic-enterprise/?bc=DB",
+  "slug": "salesforce-trusted-partners-architects-of-the-agentic-enterprise",
+  "title": "Salesforce Trusted Partners: Architects of the Agentic Enterprise",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Introduction'. Products: agentforce, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Agentforce Success Starts Here",
+        "body": "Access inspiration from customers working withSalesforce Partners to transform into Agentic Enterprises.",
+        "button_text": "Get the free eBook",
+        "button_url": "https://1.salesforce-partners.com/agentforceinaction",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 1.0,
+  "misaligned_count": 0
+}

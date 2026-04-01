@@ -1,0 +1,242 @@
+{
+  "url": "https://www.salesforce.com/blog/design-better-greetings-agentforce-builder/?bc=DB",
+  "slug": "design-better-greetings-agentforce-builder",
+  "title": "You Had Me at Hello: Design Better Greetings in Agentforce Builder",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Key Takeaways'. Products: agentforce, sales_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Customers want control and flexibility",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Customers want control and flexibility'. Products: agentforce. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "Agentforce Builder",
+        "body": "The new Agentforce Builder is now generally available. Learn more about the updates, including the ability to support context variables for agent welcome messages.",
+        "button_text": "Get started",
+        "button_url": "https://help.salesforce.com/s/articleView?id=release-notes.rn_einstein_agentforce_builder_ga.htm&release=260&type=5",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Technical defaults affect user experience",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Technical defaults affect user experience'. Products: agentforce. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Design clarifies and engineering removes barriers",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Design clarifies and engineering removes barriers'. Products: agentforce, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "How to implement the solution",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'How to implement the solution'. Products: agentforce, platform. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Start now",
+        "button_url": "https://trailhead.salesforce.com/content/learn/modules/new-agentforce-builder-quick-look",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.33,
+  "misaligned_count": 3
+}

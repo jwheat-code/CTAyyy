@@ -1,0 +1,64 @@
+{
+  "url": "https://www.salesforce.com/blog/salesforce-earns-cmmc-level-2-certification/?bc=DB",
+  "slug": "salesforce-earns-cmmc-level-2-certification",
+  "title": "Salesforce Earns CMMC Level 2 Certification",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "security",
+          "collaboration",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Salesforce Security Made Simple with Invisibles, Configurables and Enhanceables",
+        "body": "Want a fun, approachable way to explain security best practices to your admin and dev networks?Listen to the latest episode of Awesome Admins!",
+        "button_text": "Listen Now",
+        "button_url": "https://admin.salesforce.com/blog/2025/salesforce-security-made-simple-with-invisibles-configurables-enhanceables-podcast?_ga=2.188751202.871877053.1769614968-461065394.1762284144&_gac=1.191912280.1769714871.Cj0KCQiAp-zLBhDkARIsABcYc6uUvf9Gmq9e6h890NESok4fTFjSsTYYeN9X9Geuhj8mGpVRHzuQ_-oaAqmHEALw_wcB",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.8,
+  "misaligned_count": 0
+}

@@ -1,0 +1,397 @@
+{
+  "url": "https://www.salesforce.com/blog/spring-26-release-architect-highlights/?bc=DB",
+  "slug": "spring-26-release-architect-highlights",
+  "title": "Spring ’26 Release Architect Highlights: Security, Stability, and Agents",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "data_analytics",
+          "security",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What are the Spring ‘26 Release changes that are relevant for architects?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "security"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What are the Spring ‘26 Release changes that are relevant for architects?'. Products: einstein_ai. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Secure your integrations by adopting External Client Apps",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "sales_automation",
+          "customer_service",
+          "data_analytics",
+          "productivity",
+          "security",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Secure your integrations by adopting External Client Apps'. Products: sales_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Architecting Inbound Governance with External Client Apps",
+        "body": "By moving to External Client Apps you improve integrations and provide more guardrails in blocking data breaches and security attacks.",
+        "button_text": "Read the blog",
+        "button_url": "https://www.salesforce.com/blog/architecting-inbound-governance-external-client-apps/",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Prepare for deprecations of legacy authentication protocols",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "security",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Prepare for deprecations of legacy authentication protocols'. Products: platform. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "What governance strategies must architects implement for Model Context Protocol?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "platform",
+          "mulesoft"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "security",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What governance strategies must architects implement for Model Context Protocol?'. Products: agentforce, platform, mulesoft. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "The Agentic Enterprise: IT Architecture for the AI-Powered Future",
+        "body": "The Security and Governance Layer embeds trust and safety throughout the architecture by protecting the enterprise’s assets from threats, managing risk, and ensuring compliance with regulatory requirements.",
+        "button_text": "Read more",
+        "button_url": "https://architect.salesforce.com/docs/architect/fundamentals/guide/agentic-enterprise-it-architecture#security-and-governance-layer",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Architecting with Lightning Out 2.0 for high-performance in Spring ‘26",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "security"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Architecting with Lightning Out 2.0 for high-performance in Spring ‘26'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Hyperforce, Data Residency, Compliance",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "data_analytics",
+          "security",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Hyperforce, Data Residency, Compliance'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "Why is the Spring ‘26 Release important to architects?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "security",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Why is the Spring ‘26 Release important to architects?'. Products: platform. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "Explore Salesforce Spring ‘26 Release resources:",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "security",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Explore Salesforce Spring ‘26 Release resources:'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
+    }
+  ],
+  "overall_health_score": 0.2944,
+  "misaligned_count": 6
+}

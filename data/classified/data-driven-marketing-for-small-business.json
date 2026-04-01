@@ -1,0 +1,293 @@
+{
+  "url": "https://www.salesforce.com/blog/data-driven-marketing-for-small-business/?bc=DB",
+  "slug": "data-driven-marketing-for-small-business",
+  "title": "Become a Data-Driven (Small But Mighty) Marketing Team",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "data_analytics",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Key Takeaways'. Products: sales_cloud, marketing_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "The foundation of data-driven marketing: Your CRM",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "service_cloud",
+          "marketing_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "marketing_automation",
+          "customer_service",
+          "data_analytics",
+          "ecommerce"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'The foundation of data-driven marketing: Your CRM'. Products: sales_cloud, service_cloud, marketing_cloud, commerce_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Using dynamic audience segmentation for direct contact",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Using dynamic audience segmentation for direct contact'. Products: sales_cloud, marketing_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Personalize the marketing journey with AI",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "ai_tools",
+          "data_analytics",
+          "productivity",
+          "ecommerce",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Personalize the marketing journey with AI'. Products: agentforce, commerce_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Measuring your data: Drive marketing performance",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "crm",
+          "sales_automation",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Measuring your data: Drive marketing performance'. Products: sales_cloud, marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Ready to go Pro?",
+        "body": "Level up your CRM with the top-rated Pro Suite — the customer platform that scales with you.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-prosuite/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.5,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "Funnel mismatch: CTA is decision-stage but section is awareness-stage"
+        ],
+        "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Small businesses can be data-driven too",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "marketing_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Small businesses can be data-driven too'. Products: agentforce, sales_cloud, marketing_cloud, starter. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0833,
+  "misaligned_count": 5
+}

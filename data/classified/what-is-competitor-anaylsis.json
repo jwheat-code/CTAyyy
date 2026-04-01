@@ -1,0 +1,345 @@
+{
+  "url": "https://www.salesforce.com/blog/what-is-competitor-anaylsis/?bc=DB",
+  "slug": "what-is-competitor-anaylsis",
+  "title": "The Complete Guide to Competitor Analysis for Small Businesses",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is competitor analysis?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "customer_service"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is competitor analysis?'. Products: sales_cloud, marketing_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "What are the benefits of doing a competitor analysis?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "small_business"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What are the benefits of doing a competitor analysis?'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "What can you do with a CRM built to reach more prospects?",
+        "body": "Automate your marketing campaigns with a CRM built to grow. It all starts with Starter Suite.",
+        "button_text": "Find out for free",
+        "button_url": "https://www.salesforce.com/small-business/marketing/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "What areas should you cover during competitor research?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "small_business"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What areas should you cover during competitor research?'. Products: sales_cloud, marketing_cloud. Funnel: decision."
+      },
+      "existing_cta": {
+        "heading": "Start selling online with Starter Suite",
+        "body": "Set up your digital storefront, engage customers, and sell more using a commerce-ready platform with integrated tools for every sale.",
+        "button_text": "Check it out",
+        "button_url": "https://www.salesforce.com/small-business/commerce/?d=bcta",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is decision-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "How to conduct a competitor analysis",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "ai_tools",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'How to conduct a competitor analysis'. Products: sales_cloud, marketing_cloud, starter. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Tools to help you gather competitive intelligence",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "platform",
+          "tableau"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Tools to help you gather competitive intelligence'. Products: sales_cloud, marketing_cloud, platform, tableau. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.tableau.com-solutions-customer-america",
+          "score": 0.85,
+          "match_rationale": "Matches tableau product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Master competitor analysis with Salesforce",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "customer_service",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Master competitor analysis with Salesforce'. Products: agentforce, starter. Funnel: decision."
+      },
+      "existing_cta": {
+        "heading": "Kickstart your SMB with Starter Suite",
+        "body": "See results from day one with a CRM designed for SMBs — the all-in-one suite for productivity. It all starts with Starter Suite.",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets decision-stage readers; section is decision-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.3286,
+  "misaligned_count": 4
+}

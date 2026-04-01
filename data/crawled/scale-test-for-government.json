@@ -1,0 +1,119 @@
+{
+  "url": "https://www.salesforce.com/blog/scale-test-for-government/?bc=DB",
+  "slug": "scale-test-for-government",
+  "title": "Modernize with Confidence: How Governments Can Scale Test to Protect Public Trust",
+  "author": "More by Karishma",
+  "published_date": "2026-02-02T19:23:38+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "In the private sector, a website crash can mean lost revenue or unsatisfied customers. For the public sector, the stakes look different. When a government portal slows down or fails, it could mean someone is unable to access their health care benefits, or emergency funds are not distributed during a crisis. For government agencies, performance testing is more than a checkbox — it is the foundation of public trust. The consequences can be profound if government sites and applications are not properly tested and verified before going live. To help our government customers navigate these critical milestones with absolute confidence, Salesforce is proud to announce thatScale TestandScale Centerare officially available (GA) forGovCloud.",
+      "word_count": 112,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Scale Test",
+          "href": "https://www.salesforce.com/platform/application-scaling-performance-testing/"
+        },
+        {
+          "text": "Scale Center",
+          "href": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.scale_center_overview.htm&type=5"
+        },
+        {
+          "text": "GovCloud",
+          "href": "https://www.salesforce.com/government/cloud/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Why scale testing matters",
+      "text": "Back in 2013, HealthCare.gov crashed within hours of launch due to colossal demand. Within 24 hours, the site saw millions of new site visitors — and onlysix people were able to sign upfor health insurance that first day. Today, citizens access many government programs, services, and information online. With sophisticated security threats emerging and the public relying more on digital infrastructure, it is vital that these resources remain secure and accessible. Along with this, AI brings the opportunity for governments to modernize and innovate. Kendall Collins, President and CEO of Salesforce’s GovCloud says, “By combining the speed and scale of AI agents with the experience and empathy of humans, we can build a state that is well-intentioned and highly capable and trusted by its citizens.” FromAI agents automating the police logging processto developing aunified citizen management systemto keep track of resource allocations — so much is possible. At the same time, if these solutions are not thoroughly tested, the risks can be catastrophic. And a key part of mitigating risk isscale testing. This type of testing evaluates a system’s performance under production-like workloads, such as traffic spikes or higher transaction volumes. This approach is proactive, meaning that it makes sure systems can handle anticipated (or unanticipated) demand — all while staying stable and secure.",
+      "word_count": 214,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "six people were able to sign up",
+          "href": "https://www.businessofgovernment.org/sites/default/files/Viewpoints%20Dr%20Gwanhoo%20Lee.pdf"
+        },
+        {
+          "text": "By combining the speed and scale of AI agents with the experience and empathy of humans, we can build a state that is well-intentioned and highly capable and trusted by its citizens.",
+          "href": "https://www.weforum.org/stories/2026/01/the-new-era-of-public-sector-service-is-about-building-trust-through-agentic-ai/"
+        },
+        {
+          "text": "AI agents automating the police logging process",
+          "href": "https://www.salesforce.com/uk/news/press-releases/2025/12/04/uk-police-forces-agentforce/"
+        },
+        {
+          "text": "unified citizen management system",
+          "href": "https://gpscasestudies.salesforce.com/articles/ajuntament-de-barcelona-en"
+        },
+        {
+          "text": "scale testing",
+          "href": "https://www.salesforce.com/blog/scale-test-best-practice/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Introducing Scale Test and Scale Center for GovCloud",
+      "text": "Scale Test’s launch in GovCloud aims to close the gap between testing and production for government agencies. It enables GovCloud Civilian customers to validate their implementations at scale ahead of critical go-lives, migrations, and transformation projects. This isn’t just a standard sandbox environment. A standardFull Copy Sandboxis limited to only 80-120 requests per second (RPS) — which may not accurately reflect a high traffic spike. By relying on only this environment type for pressure testing, it can lead to false confidence and unexpected performance issues post-deployment. That’s where Scale Test comes in. Scale Test simulates real-world environments by testing to your required production-like scale. Customers have reported testing all the way up to 27,000 RPS, but each customer has unique scale parameters. With this combination of a production-like environment (Full Copy Sandbox) with peak load tests (Scale Test), agencies can confidently deploy and address any scalability issues before they become a problem. With Scale Test, agencies can: Simulate peak traffic:Validate that portals can handle Open Enrollment or tax season volume without crashing.Test faster:Move beyond manual, limited testing processes to gain true scale confidence.Tune proactively:Identify performance bottlenecks in a safe environment, rather than “fixing it live” while the public watches. Scale Center, included with Scale Test, will also now be available in GovCloud. Scale Center provides the insights. It is a powerful performance analysis solution that helps customers debug, analyze, and optimize their applications. Instead of waiting for a support ticket to be resolved to understand why a process is slow, Scale Center gives teams self-service visibility. Whether it is visualizing performance metrics, identifying row locks, or pinpointing database contention in real-time — developers can see exactly where the code is struggling and fix it. For the government, the drive to modernize must always be aligned with the mandate for security. This release represents months of dedicated cross-team collaboration to ensure these capabilities meet the strict requirements of government workloads. Both Scale Test and Scale Center areFedRAMPcompliant, ensuring that your performance testing adheres to the highest standards of federal data security. Salesforce has established robust operational readiness to support federal agencies and various state-level organizations as they modernize their infrastructure.",
+      "word_count": 359,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Scale Test",
+          "href": "https://www.salesforce.com/platform/application-scaling-performance-testing/"
+        },
+        {
+          "text": "Full Copy Sandbox",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        },
+        {
+          "text": "Scale Center",
+          "href": "https://help.salesforce.com/s/articleView?language=en_US&id=xcloud.scale_center_overview.htm&type=5"
+        },
+        {
+          "text": "FedRAMP",
+          "href": "https://compliance.salesforce.com/en/documents/a005A00000t4NpRQAU"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Don’t guess it, test it",
+      "text": "The modernization of government IT is moving faster than ever. The demand for digital services that work — every time, for everyone — is non-negotiable.With the launch ofScale Testand Scale Center forGovCloud, agencies now have the tools to efficiently and effectively serve citizens and communities across the country. Because when the mission is critical, testing shouldn’t be optional.",
+      "word_count": 58,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Scale Test",
+          "href": "https://www.salesforce.com/platform/application-scaling-performance-testing/"
+        },
+        {
+          "text": "GovCloud",
+          "href": "https://www.salesforce.com/government/cloud/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "How to Scale Fast with Salesforce Sandboxes",
+      "body": "Learn the characteristics of safe, efficient change management – plus other helpful development, security, and operations practices.",
+      "button_text": "Download for free",
+      "button_url": "http://www.salesforce.com/form/platform/sandboxes/",
+      "position_after_section": 2
+    },
+    {
+      "heading": "Security from the start",
+      "body": "Make sure every agent, app, process, and workflow stays protected by prioritizing security from the very beginning. Learn about DevSecOps.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/platform/the-salesforce-devsecops-guide/",
+      "position_after_section": 2
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>In the private sector, a website crash can mean lost revenue or unsatisfied customers. For the public sector, the stakes look different. When a government portal slows down or fails, it could mean someone is unable to access their health care benefits, or emergency funds are not distributed during a crisis.</p>\n<p>For government agencies, performance testing is more than a checkbox — it is the foundation of public trust. </p>\n<p>The consequences can be profound if government sites and applications are not properly tested and verified before going live. To help our government customers navigate these critical milestones with absolute confidence, Salesforce is proud to announce that <a href=\"https://www.salesforce.com/platform/application-scaling-performance-testing/\" rel=\"noopener\" target=\"_blank\">Scale Test</a> and <a href=\"https://help.salesforce.com/s/articleView?language=en_US&amp;id=xcloud.scale_center_overview.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Scale Center</a> are officially available (GA) for <a href=\"https://www.salesforce.com/government/cloud/\" rel=\"noopener\" target=\"_blank\">GovCloud</a>. </p>\n<h2 class=\"wp-block-heading\" id=\"h-why-scale-testing-matters\">Why scale testing matters</h2>\n<p>Back in 2013, HealthCare.gov crashed within hours of launch due to colossal demand. Within 24 hours, the site saw millions of new site visitors — and only <a href=\"https://www.businessofgovernment.org/sites/default/files/Viewpoints%20Dr%20Gwanhoo%20Lee.pdf\" rel=\"noopener\" target=\"_blank\">six people were able to sign up</a> for health insurance that first day. Today, citizens access many government programs, services, and information online. With sophisticated security threats emerging and the public relying more on digital infrastructure, it is vital that these resources remain secure and accessible.</p>\n<p>Along with this, AI brings the opportunity for governments to modernize and innovate. Kendall Collins, President and CEO of Salesforce’s GovCloud says, “<a href=\"https://www.weforum.org/stories/2026/01/the-new-era-of-public-sector-service-is-about-building-trust-through-agentic-ai/\" rel=\"noopener\" target=\"_blank\">By combining the speed and scale of AI agents with the experience and empathy of humans, we can build a state that is well-intentioned and highly capable and trusted by its citizens.</a>” From <a href=\"https://www.salesforce.com/uk/news/press-releases/2025/12/04/uk-police-forces-agentforce/\" rel=\"noopener\" target=\"_blank\">AI agents automating the police logging process</a> to developing a <a href=\"https://gpscasestudies.salesforce.com/articles/ajuntament-de-barcelona-en\" rel=\"noopener\" target=\"_blank\">unified citizen management system</a> to keep track of resource allocations — so much is possible. At the same time, if these solutions are not thoroughly tested, the risks can be catastrophic. </p>\n<p>And a key part of mitigating risk is <a href=\"https://www.salesforce.com/blog/scale-test-best-practice/\" rel=\"noopener\" target=\"_blank\">scale testing</a>. This type of testing evaluates a system’s performance under production-like workloads, such as traffic spikes or higher transaction volumes. This approach is proactive, meaning that it makes sure systems can handle anticipated (or unanticipated) demand — all while staying stable and secure.</p>\n<h2 class=\"wp-block-heading\" id=\"h-introducing-scale-test-and-scale-center-for-govcloud\">Introducing Scale Test and Scale Center for GovCloud</h2>\n<p><a href=\"https://www.salesforce.com/platform/application-scaling-performance-testing/\" rel=\"noopener\" target=\"_blank\">Scale Test</a>’s launch in GovCloud aims to close the gap between testing and production for government agencies. It enables GovCloud Civilian customers to validate their implementations at scale ahead of critical go-lives, migrations, and transformation projects.</p>\n<p><br/>This isn’t just a standard sandbox environment. A standard <a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">Full Copy Sandbox</a> is limited to only 80-120 requests per second (RPS) — which may not accurately reflect a high traffic spike. By relying on only this environment type for pressure testing, it can lead to false confidence and unexpected performance issues post-deployment.</p>\n<div class=\"layout-four wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">How to Scale Fast with Salesforce Sandboxes</h2>\n<p class=\"wp-block-offer__description\">Learn the characteristics of safe, efficient change management – plus other helpful development, security, and operations practices.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"http://www.salesforce.com/form/platform/sandboxes/\" target=\"_blank\">Download for free</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-four.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-four.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-four.png\"/>\n</div>\n<p>That’s where Scale Test comes in. Scale Test simulates real-world environments by testing to your required production-like scale. Customers have reported testing all the way up to 27,000 RPS, but each customer has unique scale parameters. With this combination of a production-like environment (Full Copy Sandbox) with peak load tests (Scale Test), agencies can confidently deploy and address any scalability issues before they become a problem.</p>\n<p>With Scale Test, agencies can:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Simulate peak traffic: </strong>Validate that portals can handle Open Enrollment or tax season volume without crashing.</li>\n<li><strong>Test faster:</strong> Move beyond manual, limited testing processes to gain true scale confidence.</li>\n<li><strong>Tune proactively:</strong> Identify performance bottlenecks in a safe environment, rather than “fixing it live” while the public watches.</li>\n</ul>\n<p><a href=\"https://help.salesforce.com/s/articleView?language=en_US&amp;id=xcloud.scale_center_overview.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Scale Center</a>, included with Scale Test, will also now be available in GovCloud. Scale Center provides the insights. It is a powerful performance analysis solution that helps customers debug, analyze, and optimize their applications. Instead of waiting for a support ticket to be resolved to understand why a process is slow, Scale Center gives teams self-service visibility. Whether it is visualizing performance metrics, identifying row locks, or pinpointing database contention in real-time — developers can see exactly where the code is struggling and fix it.</p>\n<h3 class=\"wp-block-heading\">Meeting security and compliance standards</h3>\n<p>For the government, the drive to modernize must always be aligned with the mandate for security. This release represents months of dedicated cross-team collaboration to ensure these capabilities meet the strict requirements of government workloads.</p>\n<p>Both Scale Test and Scale Center are <a href=\"https://compliance.salesforce.com/en/documents/a005A00000t4NpRQAU\" rel=\"noopener\" target=\"_blank\">FedRAMP</a> compliant, ensuring that your performance testing adheres to the highest standards of federal data security. Salesforce has established robust operational readiness to support federal agencies and various state-level organizations as they modernize their infrastructure.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Security from the start</h2>\n<p class=\"wp-block-offer__description\">Make sure every agent, app, process, and workflow stays protected by prioritizing security from the very beginning. Learn about DevSecOps.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/the-salesforce-devsecops-guide/\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">Don’t guess it, test it</h2>\n<p>The modernization of government IT is moving faster than ever. The demand for digital services that work — every time, for everyone — is non-negotiable.<br/>With the launch of <a href=\"https://www.salesforce.com/platform/application-scaling-performance-testing/\" rel=\"noopener\" target=\"_blank\">Scale Test</a> and Scale Center for <a href=\"https://www.salesforce.com/government/cloud/\" rel=\"noopener\" target=\"_blank\">GovCloud</a>, agencies now have the tools to efficiently and effectively serve citizens and communities across the country. Because when the mission is critical, testing shouldn’t be optional.</p>\n</div>"
+}

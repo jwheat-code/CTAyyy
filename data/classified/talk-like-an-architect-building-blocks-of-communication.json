@@ -1,0 +1,292 @@
+{
+  "url": "https://www.salesforce.com/blog/talk-like-an-architect-building-blocks-of-communication/?bc=DB",
+  "slug": "talk-like-an-architect-building-blocks-of-communication",
+  "title": "Talk Like an Architect: How to Use the Building Blocks of Communication",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "starter"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Introduction'. Products: starter. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Defining an architect",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "collaboration",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Defining an architect'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Talk Like an Architect: How to Use Visual and Nonverbal Communication",
+        "body": "Part two of the Talk Like an Architect mini-series explores how architects use visuals, presence, and context to support their message and improve shared understanding.",
+        "button_text": "Read the blog",
+        "button_url": "https://www.salesforce.com/blog/talk-like-an-architect-visual-nonverbal-communication/",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Breaking down communication into building blocks",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "slack"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Breaking down communication into building blocks'. Products: slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.65,
+          "match_rationale": "Matches slack product focus at consideration stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Navigating noise and distractions",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "slack"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Navigating noise and distractions'. Products: slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.65,
+          "match_rationale": "Matches slack product focus at consideration stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Engaging your audience through storytelling",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Engaging your audience through storytelling'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Talk Like an Architect: How to Listen and Respond Intentionally",
+        "body": "Part three of this mini-series dives into how architects have meaningful conversations through active listening, asking the right questions and responding with intent.",
+        "button_text": "Read the blog",
+        "button_url": "https://www.salesforce.com/blog/talk-like-an-architect-listen-respond-intentionally/",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Practicing how you talk like an architect",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "collaboration",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Practicing how you talk like an architect'. Products: einstein_ai. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "Subscribe to the Salesforce Architect Digest on LinkedIn",
+        "body": "Get monthly curated content, technical resources, and event updates designed to support your Salesforce Architect journey.",
+        "button_text": "Subscribe on LinkedIn",
+        "button_url": "https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7414374807942692864",
+        "position_after_section": 5
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.325,
+  "misaligned_count": 3
+}

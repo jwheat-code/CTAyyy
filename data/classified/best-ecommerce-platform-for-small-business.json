@@ -1,0 +1,357 @@
+{
+  "url": "https://www.salesforce.com/blog/best-ecommerce-platform-for-small-business/?bc=DB",
+  "slug": "best-ecommerce-platform-for-small-business",
+  "title": "Quick Guide: Choose the Best Ecommerce Platform for Your Small Business",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "ai_tools",
+          "data_analytics",
+          "ecommerce",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Key Takeaways'. Products: sales_cloud, commerce_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "How to find the best ecommerce platform for small business",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "commerce_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "small_business",
+          "customer_service",
+          "ecommerce",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'How to find the best ecommerce platform for small business'. Products: commerce_cloud, platform. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Connect commerce to sales, and service and marketing",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "commerce_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "data_analytics",
+          "productivity",
+          "ecommerce",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Connect commerce to sales, and service and marketing'. Products: sales_cloud, commerce_cloud, starter. Funnel: decision."
+      },
+      "existing_cta": {
+        "heading": "Start selling online with Starter Suite",
+        "body": "Set up your digital storefront, engage customers, and sell more using a commerce-ready platform with integrated tools for every sale.",
+        "button_text": "Check it out",
+        "button_url": "https://www.salesforce.com/small-business/commerce/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is decision-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Popular ecommerce platforms for SMBs and startups",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "commerce_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "data_analytics",
+          "security",
+          "ecommerce"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Popular ecommerce platforms for SMBs and startups'. Products: agentforce, sales_cloud, commerce_cloud, slack. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at consideration stage for consideration-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Future-proof your business with the right ecommerce strategy",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "marketing_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "ai_tools",
+          "data_analytics",
+          "ecommerce",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Future-proof your business with the right ecommerce strategy'. Products: agentforce, sales_cloud, marketing_cloud, commerce_cloud. Funnel: decision."
+      },
+      "existing_cta": {
+        "heading": "Grow Your Small Business With AI Agents",
+        "body": "Learn how autonomous AI can scale your small business for efficient growth in our free e-book.",
+        "button_text": "Get it now",
+        "button_url": "https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is decision-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "More resources on ecommerce for SMBs",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "commerce_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "data_analytics",
+          "ecommerce",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'More resources on ecommerce for SMBs'. Products: sales_cloud, commerce_cloud, starter. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "The ecommerce platform that grows with you",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "customer_service",
+          "ecommerce",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'The ecommerce platform that grows with you'. Products: agentforce, sales_cloud, service_cloud, marketing_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2286,
+  "misaligned_count": 5
+}

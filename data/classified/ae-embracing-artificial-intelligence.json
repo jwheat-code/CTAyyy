@@ -1,0 +1,53 @@
+{
+  "url": "https://www.salesforce.com/blog/ae-embracing-artificial-intelligence/?bc=DB",
+  "slug": "ae-embracing-artificial-intelligence",
+  "title": "The Future Belongs to AEs Who Embrace AI",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "commerce_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, sales_cloud, commerce_cloud, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.65,
+          "match_rationale": "Matches slack product focus at consideration stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 1
+}

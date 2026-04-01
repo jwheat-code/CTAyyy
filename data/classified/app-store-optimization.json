@@ -1,0 +1,301 @@
+{
+  "url": "https://www.salesforce.com/blog/app-store-optimization/?bc=DB",
+  "slug": "app-store-optimization",
+  "title": "Go Mobile Crazy: Learn App Store Optimization (ASO) In 5 Steps",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "small_business",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Key Takeaways'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Understand the basics of app store optimization",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "commerce_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "small_business"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Understand the basics of app store optimization'. Products: sales_cloud, commerce_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Optimize your app in 5 easy steps",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_tools",
+          "customer_service",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Optimize your app in 5 easy steps'. Products: sales_cloud, platform. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "What can you do with a CRM built to reach more prospects?",
+        "body": "Automate your marketing campaigns with a CRM built to grow. It all starts with Starter Suite.",
+        "button_text": "Find out for free",
+        "button_url": "https://www.salesforce.com/small-business/marketing/?d=bcta",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "6 Sales CRMs For Small Businesses: Low-Cost Tools For Big-Ticket Selling",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '6 Sales CRMs For Small Businesses: Low-Cost Tools For Big-Ticket Selling'. Products: sales_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Agentforce for Small Business is Now Built Into Salesforce Suites",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "platform",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Agentforce for Small Business is Now Built Into Salesforce Suites'. Products: agentforce, platform, starter. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
+    },
+    {
+      "section_index": 5,
+      "section_heading": "What is Social Proof? Everything You Need to Know",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "small_business",
+          "customer_service",
+          "data_analytics",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is Social Proof? Everything You Need to Know'. Products: sales_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Grow your app with CRM and AI",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "platform",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "customer_service"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Grow your app with CRM and AI'. Products: agentforce, sales_cloud, platform, starter. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Join millions in the growing Salesforce ecosystem",
+        "body": "Trailblazers are free to reinvent themselves, free to dream bigger.",
+        "button_text": "Be a Trailblazer",
+        "button_url": "https://www.salesforce.com/company/be-a-trailblazer/?icid=SFBLOG:tbc-blog-mid:be-a-trailblazer",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.5714,
+  "misaligned_count": 3
+}

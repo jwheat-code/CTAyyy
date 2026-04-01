@@ -1,0 +1,63 @@
+{
+  "url": "https://www.salesforce.com/blog/trust-led-selling-in-the-philippines/?bc=DB",
+  "slug": "trust-led-selling-in-the-philippines",
+  "title": "Trust-Led Selling in the Philippines: Inside a Salesforce Account Executive’s Day",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "We can’t wait to meet you!",
+        "body": "Join our Talent Community and be the first to know about open roles, career tips, events happening near you, and much more.",
+        "button_text": "Join today",
+        "button_url": "https://careers.mail.salesforce.com/wtl?cid=d1b27bc9-46b7-4023-87ef-933e36221899&utm_sourc%5B%E2%80%A6%5Dersite&utm_campaign=global_tc_globallg&utm_content=link&_ga=2.243912646.2109121547.1749574367-896457258.1747694941",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.8,
+  "misaligned_count": 0
+}

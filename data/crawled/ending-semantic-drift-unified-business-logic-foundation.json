@@ -1,0 +1,98 @@
+{
+  "url": "https://www.salesforce.com/blog/ending-semantic-drift-unified-business-logic-foundation/?bc=DB",
+  "slug": "ending-semantic-drift-unified-business-logic-foundation",
+  "title": "Ending Semantic Drift: The First Unified Business Logic Foundation for AI and BI",
+  "author": "More by Southard",
+  "published_date": "2026-01-27T17:02:03+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "For decades, the data and analytics industry has accepted a painful reality: every tool speaks a different language. While we have successfully standardized how we store and transform data, the actual meaning of that data—the critical metrics and business logic that drive decisions—remains trapped in isolated silos. In September 2025, we challenged this status quo by pioneeringthe Open Semantic Interchange (OSI)alongside Snowflake, dbt Labs, and other industry leaders—building a universal standard for business data that allows AI agents and BI tools to share the exact same trusted enterprise context. Alongside our partners, we are celebrating the release ofthe official v0.1 OSI Specificationand establishinga dedicated OSI community hub. Organizations can finally decouple business logic from specific analytics tools. This enables a metrics-as-code workflow where definitions like “revenue” are version-controlled and governed centrally, rather than buried in dashboard calculations, AI prompts, or custom scripts. Notably, the spec supports AI context natively, allowing engineers to embed synonyms (e.g. “sales” = “purchases”) and instructions (e.g. “use this for sales analysis”) directly into the code, making the data AI-ready out of the box.",
+      "word_count": 178,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "the Open Semantic Interchange (OSI)",
+          "href": "https://www.salesforce.com/blog/agentic-future-demands-open-semantic-layer/"
+        },
+        {
+          "text": "the official v0.1 OSI Specification",
+          "href": "https://github.com/open-semantic-interchange/OSI"
+        },
+        {
+          "text": "a dedicated OSI community hub",
+          "href": "https://open-semantic-interchange.org/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Uniting an industry: A coalition built for customer success",
+      "text": "The market is demanding a “universal translator.” Our customers are tired of re-governing data every time they try to move it downstream. We are collectively building a vendor-neutral standard where business logic is defined once, then inherited and understood everywhere—whether in Tableau, Agentforce, a Snowflake AI agent, or other partner platform. The most exciting aspect of the OSI isn’t just the code; it is the unprecedented coalition behind it. We are witnessing a fundamental shift where traditional competitors are prioritizing customer success over vendor lock-in. What started with Salesforce, Snowflake, dbt Labs, and Google has grown into an industry wave. The OSI working group continues to expand and welcome new members, including Databricks, AtScale, and many semantic layer providers.",
+      "word_count": 119,
+      "has_existing_cta": true,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "Preparing for the agentic future with a trusted foundation",
+      "text": "CIOs and CDAOs tell us their biggest fear isn’t data volume; it’s “metric drift.” When marketing defines “campaign ROI” differently than finance, organizational trust evaporates. The stakes have never been higher. According to ourState of Data & Analyticsreport, 89% of data leaders believe agent interoperability will soon be required to do business, yet 81% fear that disparate data schemas will limit that very interoperability. Leaders are deploying OSI not just to fix dashboards, but to ensure informed decision making in the agentic AI revolution. AI agents are the new primary consumers of enterprise data, and they cannot “guess” your business logic. Without a unified semantic foundation, an agent can hallucinate or provide inconsistent answers. This allows organizations to embrace a “bring your own semantic layer” strategy. You can leverage existing investments in dbt or Snowflake to power downstream experiences instantly, ensuring that regardless of who is asking the question, the answer is identical. Replacing the fragile process of translating metrics between tools with a “declare once, use everywhere” model creates the trust required to embrace the agentic AI revolution. Leaders can more confidently move their organizations toward executing autonomous business actions. To bring this vision to life, we’refocusing our contributionson three core capabilities that turn static definitions into dynamic, trusted data flows: Bi-directional metadata exchangeto synchronize business logic without redundant, manual work;Seamless governance propagationto maintain trust and security across the ecosystem of tools;Native query logicto preserve the integrity of every calculation while generating results in using the source platform’s native runtime.",
+      "word_count": 251,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "State of Data & Analyticsreport",
+          "href": "https://www.salesforce.com/resources/research-reports/state-of-data-analytics/"
+        },
+        {
+          "text": "focusing our contributions",
+          "href": "https://www.salesforce.com/blog/agentic-future-demands-open-semantic-layer/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Shifting from theory to code: A green light for implementation",
+      "text": "The release of the v0.1 specification is a green light for enterprise engineering teams. This is no longer just a concept; it is a usable standardavailable now on GitHub. We remain fully committed to the spirit of open source. To ensure the OSI remains truly community-governed, we’ll donate the project’s outputs to theApache Software Foundation. The future of business intelligence and agentic AI depends on a shared foundation of meaning. We invite you to join us in defining that future: Read moreabout this milestone on theSnowflake blog.Explore the new hubof the initiative atopen-semantic-interchange.org.",
+      "word_count": 93,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "available now on GitHub",
+          "href": "https://github.com/open-semantic-interchange/OSI"
+        },
+        {
+          "text": "Apache Software Foundation",
+          "href": "https://www.apache.org/"
+        },
+        {
+          "text": "Snowflake blog",
+          "href": "https://www.snowflake.com/en/blog/open-semantic-interchanges-specs-finalized/"
+        },
+        {
+          "text": "open-semantic-interchange.org",
+          "href": "http://open-semantic-interchange.org/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Trailhead: Tableau Semantics",
+      "body": "Learn to create semantic models and semantic definitions to input your data into Data 360.",
+      "button_text": "Get the Badge",
+      "button_url": "https://trailhead.salesforce.com/content/learn/modules/tableau-semantics",
+      "position_after_section": 1
+    },
+    {
+      "heading": "Join the working group today.",
+      "body": "See the the Open Semantic Interchange specification on GitHub and begin building your semantic layer with open standards.",
+      "button_text": "Get Started",
+      "button_url": "https://github.com/open-semantic-interchange/OSI",
+      "position_after_section": 3
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>For decades, the data and analytics industry has accepted a painful reality: every tool speaks a different language. While we have successfully standardized how we store and transform data, the actual meaning of that data—the critical metrics and business logic that drive decisions—remains trapped in isolated silos.</p>\n<p>In September 2025, we challenged this status quo by pioneering <a href=\"https://www.salesforce.com/blog/agentic-future-demands-open-semantic-layer/\" rel=\"noopener\" target=\"_blank\">the Open Semantic Interchange (OSI)</a> alongside Snowflake, dbt Labs, and other industry leaders—building a universal standard for business data that allows AI agents and BI tools to share the exact same trusted enterprise context.</p>\n<p>Alongside our partners, we are celebrating the release of <a href=\"https://github.com/open-semantic-interchange/OSI\" rel=\"noopener\" target=\"_blank\">the official v0.1 OSI Specification</a> and  establishing <a href=\"https://open-semantic-interchange.org/\" rel=\"noopener\" target=\"_blank\">a dedicated OSI community hub</a>.</p>\n<p>Organizations can finally decouple business logic from specific analytics tools. This enables a metrics-as-code workflow where definitions like “revenue” are version-controlled and governed centrally, rather than buried in dashboard calculations, AI prompts, or custom scripts. </p>\n<p>Notably, the spec supports AI context natively, allowing engineers to embed synonyms (e.g. “sales” = “purchases”) and instructions (e.g. “use this for sales analysis”) directly into the code, making the data AI-ready out of the box.</p>\n<h2 class=\"wp-block-heading\" id=\"h-uniting-an-industry-a-coalition-built-for-customer-success\">Uniting an industry: A coalition built for customer success</h2>\n<p>The market is demanding a “universal translator.” Our customers are tired of re-governing data every time they try to move it downstream. We are collectively building a vendor-neutral standard where business logic is defined once, then inherited and understood everywhere—whether in Tableau, Agentforce, a Snowflake AI agent, or other partner platform.</p>\n<p>The most exciting aspect of the OSI isn’t just the code; it is the unprecedented coalition behind it. We are witnessing a fundamental shift where traditional competitors are prioritizing customer success over vendor lock-in. What started with Salesforce, Snowflake, dbt Labs, and Google has grown into an industry wave. The OSI working group continues to expand and welcome new members, including Databricks, AtScale, and many semantic layer providers. </p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Trailhead: Tableau Semantics</h2>\n<p class=\"wp-block-offer__description\">Learn to create semantic models and semantic definitions to input your data into Data 360.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://trailhead.salesforce.com/content/learn/modules/tableau-semantics\" target=\"_self\">Get the Badge</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-preparing-for-the-agentic-future-with-a-trusted-foundation\">Preparing for the agentic future with a trusted foundation</h2>\n<p>CIOs and CDAOs tell us their biggest fear isn’t data volume; it’s “metric drift.” When marketing defines “campaign ROI” differently than finance, organizational trust evaporates. The stakes have never been higher. According to our <a href=\"https://www.salesforce.com/resources/research-reports/state-of-data-analytics/\" rel=\"noopener\" target=\"_blank\"><em>State of Data &amp; Analytics</em> report</a>, 89% of data leaders believe agent interoperability will soon be required to do business, yet 81% fear that disparate data schemas will limit that very interoperability.</p>\n<p>Leaders are deploying OSI not just to fix dashboards, but to ensure informed decision making in the agentic AI revolution. AI agents are the new primary consumers of enterprise data, and they cannot “guess” your business logic. Without a unified semantic foundation, an agent can hallucinate or provide inconsistent answers.</p>\n<p>This allows organizations to embrace a “bring your own semantic layer” strategy. You can leverage existing investments in dbt or Snowflake to power downstream experiences instantly, ensuring that regardless of who is asking the question, the answer is identical. </p>\n<p>Replacing the fragile process of translating metrics between tools with a “declare once, use everywhere” model creates the trust required to embrace the agentic AI revolution. Leaders can more confidently move their organizations toward executing autonomous business actions.</p>\n<p>To bring this vision to life, we’re <a href=\"https://www.salesforce.com/blog/agentic-future-demands-open-semantic-layer/\" rel=\"noopener\" target=\"_blank\">focusing our contributions</a> on three core capabilities that turn static definitions into dynamic, trusted data flows:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Bi-directional metadata exchange</strong> to synchronize business logic without redundant, manual work;</li>\n<li><strong>Seamless governance propagation</strong> to maintain trust and security across the ecosystem of tools;</li>\n<li><strong>Native query logic</strong> to preserve the integrity of every calculation while generating results in using the source platform’s native runtime.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-shifting-from-theory-to-code-a-green-light-for-implementation\">Shifting from theory to code: A green light for implementation</h2>\n<p>The release of the v0.1 specification is a green light for enterprise engineering teams. This is no longer just a concept; it is a usable standard <a href=\"https://github.com/open-semantic-interchange/OSI\" rel=\"noopener\" target=\"_blank\">available now on GitHub</a>. </p>\n<p>We remain fully committed to the spirit of open source. To ensure the OSI remains truly community-governed, we’ll donate the project’s outputs to the <a href=\"https://www.apache.org/\" rel=\"noopener\" target=\"_blank\">Apache Software Foundation</a>.</p>\n<p>The future of business intelligence and agentic AI depends on a shared foundation of meaning.</p>\n<p>We invite you to join us in defining that future:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Read more </strong>about this milestone on the <a href=\"https://www.snowflake.com/en/blog/open-semantic-interchanges-specs-finalized/\" rel=\"noopener\" target=\"_blank\">Snowflake blog</a>.</li>\n<li><strong>Explore the new hub</strong> of the initiative at <a href=\"http://open-semantic-interchange.org/\" rel=\"noopener\" target=\"_blank\">open-semantic-interchange.org</a>.</li>\n</ul>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Join the working group today.</h2>\n<p class=\"wp-block-offer__description\">See the the Open Semantic Interchange specification on GitHub and begin building your semantic layer with open standards. </p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://github.com/open-semantic-interchange/OSI\" target=\"_blank\">Get Started</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n</div>"
+}

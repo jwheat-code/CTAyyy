@@ -1,0 +1,53 @@
+{
+  "url": "https://www.salesforce.com/blog/agentforce-reducing-latency/?bc=DB",
+  "slug": "agentforce-reducing-latency",
+  "title": "How We Rearchitected the Agentforce Runtime to Minimize Latency",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, einstein_ai, data_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.informatica.com-departments-data-archi",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 1
+}

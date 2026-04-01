@@ -1,0 +1,342 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-customer-experience/?bc=DB",
+  "slug": "ai-customer-experience",
+  "title": "What is AI Customer Experience? A Small Business Guide to Intelligent Service",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Key Takeaways",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "customer_service",
+          "productivity"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Key Takeaways'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is AI customer experience?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "ai_tools",
+          "customer_service",
+          "data_analytics",
+          "productivity"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is AI customer experience?'. Products: agentforce, einstein_ai, sales_cloud, marketing_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "How AI customer experience personalizes every interaction",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "service_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "customer_service",
+          "data_analytics",
+          "ecommerce",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'How AI customer experience personalizes every interaction'. Products: agentforce, einstein_ai, sales_cloud, service_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage service_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage service_leader reader."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for decision-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Building efficiency with AI customer experience tools",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "ai_tools",
+          "sales_automation",
+          "data_analytics",
+          "security"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Building efficiency with AI customer experience tools'. Products: einstein_ai, sales_cloud, service_cloud, platform. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "The future of small business with AI customer experience",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "small_business",
+          "customer_service",
+          "productivity",
+          "thought_leadership",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'The future of small business with AI customer experience'. Products: sales_cloud, service_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Build a loyal customer base with smarter, faster service solutions.",
+        "body": "",
+        "button_text": "Try it for free",
+        "button_url": "https://www.salesforce.com/small-business/service/?d=bcta",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Start building your AI Customer Experience with Salesforce",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "marketing_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "ai_tools",
+          "customer_service",
+          "productivity",
+          "ecommerce"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Start building your AI Customer Experience with Salesforce'. Products: agentforce, marketing_cloud, starter. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "ai_tools",
+          "customer_service",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Frequently Asked Questions (FAQs)'. Products: agentforce, einstein_ai, sales_cloud, marketing_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.1143,
+  "misaligned_count": 6
+}

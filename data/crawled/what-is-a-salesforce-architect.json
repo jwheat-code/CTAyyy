@@ -1,0 +1,169 @@
+{
+  "url": "https://www.salesforce.com/blog/what-is-a-salesforce-architect/?bc=DB",
+  "slug": "what-is-a-salesforce-architect",
+  "title": "What Is a Salesforce Architect?",
+  "author": "Read More",
+  "published_date": "2026-01-21T17:53:22+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "ASalesforce Architectis the strategic anchor of a Salesforce implementation. They are responsible for designing and delivering high-quality solutions that are trusted, easy, and adaptable. Because the Salesforce Platform is vast and ever-expanding due to acquisitions and rapid product development, there is rarely only one way to solve a problem. Consequently, an architect’s primary role is to navigate ambiguity and lean into the mantra of “it depends.” They translate complex business requirements into technical paths, clearly articulating the trade-offs involved (e.g., “Building this quickly now will increase our maintenance costs later.”). A key goal of an architect is to ensure that the solution remains robust as the user base grows and business needs evolve, minimizing “technical debt” along the way. To achieve this, Salesforce Architects leverage resources like theSalesforce Well-Architected Frameworkand theSalesforce Architecture Centerto validate their designs and build for the long term.",
+      "word_count": 142,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Salesforce Architect",
+          "href": "https://architect.salesforce.com/"
+        },
+        {
+          "text": "Salesforce Well-Architected Framework",
+          "href": "https://architect.salesforce.com/well-architected/overview"
+        },
+        {
+          "text": "Salesforce Architecture Center",
+          "href": "https://architect.salesforce.com/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What is the scope of a Salesforce Architect?",
+      "text": "It is a misconception that a Salesforce Architect only needs to know the Salesforce core platform. Given the deeply unified nature of the platform today, a Salesforce Architect must have a broad awareness of adjacent products, including: Data and analytics:Data 360,TableauIntegration:MuleSoft,InformaticaCollaboration:Slack No. However, you do need a “working knowledge” of their capabilities and use case fit, so you can dive deeper when a project requires it. Any great architect knows the limits of their expertise and knows when to bring in a specialist to ensure an optimal design.",
+      "word_count": 88,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Data 360",
+          "href": "https://www.salesforce.com/data/"
+        },
+        {
+          "text": "Tableau",
+          "href": "https://www.tableau.com/"
+        },
+        {
+          "text": "MuleSoft",
+          "href": "https://www.mulesoft.com/"
+        },
+        {
+          "text": "Informatica",
+          "href": "https://www.informatica.com/"
+        },
+        {
+          "text": "Slack",
+          "href": "https://slack.com/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "What does a Salesforce Architect do?",
+      "text": "A Salesforce Architect acts as a trusted advisor, bridging the gap between business vision and technical reality. Their day-to-day responsibilities generally fall into three buckets: It’s important to understand that “architect” is a broad title that exists on a continuum between functional (business) and technical (code) skills. While this spectrum is the primary way to categorize the role, an architect’s focus is also shaped by their specific domain expertise and scope. Their role spans: Solution Architects(functional):Focus on the business side, ensuring that the right problems are being solved through requirement gathering, process mapping, and “clicks-not-code” featuresTechnical Architects(technical):Focus on “under the hood” engineering, specializing in complex integrations, large data volumes, security, and coding standards Business/industry:Specialize in specific sectors like Financial Services or Health CloudTechnical pillars:Focus on specific domains like integration, data, or AI Enterprise Architects: Focus on the full breadth of an enterprise landscape and how Salesforce fits into the broader IT ecosystemProgram Architects:Oversee the architecture for a specific, large-scale program of work to ensure cohesive delivery Ultimately, these distinctions show that the role is rarely one-dimensional. A successful architect understands where they sit across these dimensions and knows how to balance the different layers to ensure that the solution effectively serves the long-term business vision. Regardless of title, all Salesforce Architects are responsible for the structural integrity of the implementation and the Salesforce org(s) involved. Their role requires them to: Data & security design: Design the data model, defining identity and access management, and ensuring data sharing is set up appropriatelySystem integration:Architect how Salesforce talks to other enterprise systems (e.g., ERPs, Marketing Automation) and determine the best integration patternsBuild vs. buy decisions:Analyze a business requirement to determine if it should be solved with standard configuration (“clicks”), custom programming (“code”), or a third-party AppExchange tool DevOps:Establish the rules for how changes are moved from testing to production to ensure stability Beyond technology, an architect is a leader who must often build organizational buy-in for new solutions. While they may not have the answer to every niche question instantly, they are experts in Salesforce and industry capabilities, and they know how to find answers fast. Theircommunication skillsallow them to translate complex technical concepts into language that stakeholders and C-level executives can understand. This also includes establishing proper governance processes and structures. Architects ensure stakeholder alignment and that the right procedures are in place, followed, and traceable.",
+      "word_count": 394,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Solution Architects",
+          "href": "https://trailhead.salesforce.com/users/ruth-the-architect/trailmixes/salesforce-solution-architect-careers"
+        },
+        {
+          "text": "Technical Architects",
+          "href": "https://trailhead.salesforce.com/users/ruth-the-architect/trailmixes/salesforce-technical-architect-careers"
+        },
+        {
+          "text": "communication skills",
+          "href": "https://www.salesforce.com/blog/talk-like-an-architect-building-blocks-of-communication/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "What skills does a Salesforce Architect need?",
+      "text": "A successful architect must be a “T-shaped” professional: possessing broad general knowledge across the platform and deep expertise in specific areas, including: Governance and DevOps:Leverage experience with release management and establish the rules for how changes are moved from testing to production to ensure stabilityCode literacy:Read code and recognize coding best practices to effectively guide development teams; they do not need to be a developer, but they must understand when to use code versus standard configurationPlatform expertise:Understand Salesforce products, data modeling, platform limits, and consumption considerationsSystem integration:Maintain proficiency in how Salesforce connects with other technologies, including APIs, identity management, and data movement and lifecycle Translation:Explain complex technical concepts to non-technical stakeholders and “speak the language” of the businessBusiness acumen:Understand underlying business processes to ensure that technology solves actual business problems rather than just building what was requestedActive listening:Listen to stakeholders to uncover the root cause of a request, not just the surface-level symptomContinuous learning:Maintain the drive to constantly update their knowledge Salesforce Architects come from many different backgrounds. Many have years of experience as adeveloperor anadministratoron the platform. Others come from different technology stacks or business-facing roles, such as business analysts. Ultimately, it is the blend of technical expertise and business insight that defines the role.",
+      "word_count": 206,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "developer",
+          "href": "https://www.salesforce.com/blog/what-is-a-salesforce-developer/"
+        },
+        {
+          "text": "administrator",
+          "href": "https://www.salesforce.com/blog/what-is-a-salesforce-admin/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "What are the career prospects for Salesforce Architects?",
+      "text": "TheSalesforce Architect career pathremains one of the fastest-growing and most secure tracks in the ecosystem. As implementations become more complex, the need for experienced strategic guidance continues to skyrocket. We expect this demand to persist and accelerate in theAgentic AI Era, where up-front design is the ultimate driver for success. AI thrives when it is powered by connected data and rich context, elements that are right in the wheelhouse of architects. By prioritizing a solid foundation and following industry best practices, architects provide the fastest and most reliable route to the Agentic Enterprise, ensuring that technology and strategy work in perfect harmony. 27% increase in global demand for Technical Architects According to the2025 Salesforce Talent Ecosystem Report, the demand for architects is driving the highest growth among all technical roles: Technical Architect demand has increased by 27% globallySolution Architect demand has increased by 21% globally The bottom line:Whether your expertise lies in deep technical engineering or business-focused solutioning, the market is signaling a clear need for your skills. With demand outpacing supply, there has never been a better time to advance your career as a Salesforce Architect.",
+      "word_count": 187,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Salesforce Architect career path",
+          "href": "https://trailhead.salesforce.com/es/career-path/architect/"
+        },
+        {
+          "text": "Agentic AI Era",
+          "href": "https://www.salesforce.com/blog/the-agentic-ai-era-after-the-dawn-heres-what-to-expect/"
+        },
+        {
+          "text": "2025 Salesforce Talent Ecosystem Report",
+          "href": "https://10kview.com/2025-salesforce-talent-ecosystem-report/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Embrace the architect in you",
+      "text": "An architect is defined by their vision. They build systems that will last, that are maintainable, and that scale as the business grows. An architect acts as an ambassador for new technology, always planning for the future. Whether they are designing a technical integration or a complex data model, they think three to five years out to ensure that today’s solution supports tomorrow’s success. If this sounds like you, start your journey to a career as a Salesforce Architect today: Visit theSalesforce Architecture CenterSubscribe to theSalesforce Architect Digest Monthly Newsletter on LinkedInDiscover theSalesforce Architecture BlogFollow@SalesforceArchson XJoin theArchitect Trailblazers Community GroupLearn aboutSalesforce Architect Certifications",
+      "word_count": 103,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Salesforce Architecture Center",
+          "href": "https://architect.salesforce.com/"
+        },
+        {
+          "text": "Salesforce Architect Digest Monthly Newsletter on LinkedIn",
+          "href": "https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7414374807942692864"
+        },
+        {
+          "text": "Salesforce Architecture Blog",
+          "href": "https://www.salesforce.com/blog/category/architects/"
+        },
+        {
+          "text": "@SalesforceArchs",
+          "href": "https://x.com/SalesforceArchs"
+        },
+        {
+          "text": "Architect Trailblazers Community Group",
+          "href": "https://trailhead.salesforce.com/trailblazer-community/groups/0F930000000blKvCAI?tab=discussion&sort=LAST_MODIFIED_DATE_DESC"
+        },
+        {
+          "text": "Salesforce Architect Certifications",
+          "href": "https://trailhead.salesforce.com/credentials/architectoverview/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "TAKE A QUICK LOOK",
+      "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-role-quick-look?&utm_source=salesforce&utm_medium=blog-360&utm_campaign=trailblazer_blog&utm_content=careers_Aug23_what_is_an_architect&icid=SFBLOG:tbc-blog:7010M0000025ltGQAQ&_ga=2.188932259.948539937.1689635997-189933257.1684346373",
+      "position_after_section": 5
+    },
+    {
+      "heading": "Discover what’s new for architects on the Salesforce Architecture Center",
+      "body": "",
+      "button_text": "Learn more",
+      "button_url": "https://architect.salesforce.com/",
+      "position_after_section": 5
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>A <a href=\"https://architect.salesforce.com/\">Salesforce Architect</a> is the strategic anchor of a Salesforce implementation. They are responsible for designing and delivering high-quality solutions that are trusted, easy, and adaptable.</p>\n<p>Because the Salesforce Platform is vast and ever-expanding due to acquisitions and rapid product development, there is rarely only one way to solve a problem. Consequently, an architect’s primary role is to navigate ambiguity and lean into the mantra of “it depends.” They translate complex business requirements into technical paths, clearly articulating the trade-offs involved (e.g., “Building this quickly now will increase our maintenance costs later.”).</p>\n<p>A key goal of an architect is to ensure that the solution remains robust as the user base grows and business needs evolve, minimizing “technical debt” along the way. To achieve this, Salesforce Architects leverage resources like the <a href=\"https://architect.salesforce.com/well-architected/overview\">Salesforce Well-Architected Framework</a> and the <a href=\"https://architect.salesforce.com/\">Salesforce Architecture Center</a> to validate their designs and build for the long term.</p>\n<h2 class=\"wp-block-heading\" id=\"what-skills\">What is the scope of a Salesforce Architect?</h2>\n<p>It is a misconception that a Salesforce Architect only needs to know the Salesforce core platform. Given the deeply unified nature of the platform today, a Salesforce Architect must have a broad awareness of adjacent products, including:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Data and analytics:</strong> <a href=\"https://www.salesforce.com/data/\">Data 360</a>, <a href=\"https://www.tableau.com/\">Tableau</a></li>\n<li><strong>Integration:</strong> <a href=\"https://www.mulesoft.com/\">MuleSoft</a>, <a href=\"https://www.informatica.com/\">Informatica</a></li>\n<li><strong>Collaboration:</strong> <a href=\"https://slack.com/\">Slack</a></li>\n</ul>\n<h4 class=\"wp-block-heading\"><strong>Does an architect need to be a deep expert in all of these?</strong> </h4>\n<p>No. However, you do need a “working knowledge” of their capabilities and use case fit, so you can dive deeper when a project requires it. Any great architect knows the limits of their expertise and knows when to bring in a specialist to ensure an optimal design.</p>\n<h2 class=\"wp-block-heading\" id=\"what-does\">What does a Salesforce Architect do?</h2>\n<p>A Salesforce Architect acts as a trusted advisor, bridging the gap between business vision and technical reality. </p>\n<p>Their day-to-day responsibilities generally fall into three buckets:</p>\n<h3 class=\"wp-block-heading\" id=\"h-1-business-and-technical-strategy\">1. Business and technical strategy</h3>\n<p>It’s important to understand that “architect” is a broad title that exists on a continuum between functional (business) and technical (code) skills. While this spectrum is the primary way to categorize the role, an architect’s focus is also shaped by their specific domain expertise and scope. Their role spans:</p>\n<h4 class=\"wp-block-heading\">The functional-technical spectrum:</h4>\n<ul class=\"wp-block-list\">\n<li><strong><a href=\"https://trailhead.salesforce.com/users/ruth-the-architect/trailmixes/salesforce-solution-architect-careers\">Solution Architects</a> (functional):</strong> Focus on the business side, ensuring that the right problems are being solved through requirement gathering, process mapping, and “clicks-not-code” features</li>\n<li><strong><a href=\"https://trailhead.salesforce.com/users/ruth-the-architect/trailmixes/salesforce-technical-architect-careers\">Technical Architects</a> (technical): </strong>Focus on “under the hood” engineering, specializing in complex integrations, large data volumes, security, and coding standards</li>\n</ul>\n<h4 class=\"wp-block-heading\">Domain specialization:</h4>\n<ul class=\"wp-block-list\">\n<li><strong>Business/industry:</strong> Specialize in specific sectors like Financial Services or Health Cloud</li>\n<li><strong>Technical pillars:</strong> Focus on specific domains like integration, data, or AI</li>\n</ul>\n<h4 class=\"wp-block-heading\">Architectural scope:</h4>\n<ul class=\"wp-block-list\">\n<li><strong>Enterprise Architects</strong>: Focus on the full breadth of an enterprise landscape and how Salesforce fits into the broader IT ecosystem</li>\n<li><strong>Program Architects:</strong> Oversee the architecture for a specific, large-scale program of work to ensure cohesive delivery</li>\n</ul>\n<p>Ultimately, these distinctions show that the role is rarely one-dimensional. A successful architect understands where they sit across these dimensions and knows how to balance the different layers to ensure that the solution effectively serves the long-term business vision.</p>\n<h3 class=\"wp-block-heading\" id=\"h-2-salesforce-solution-design\">2. Salesforce solution design</h3>\n<p>Regardless of title, all Salesforce Architects are responsible for the structural integrity of the implementation and the Salesforce org(s) involved. Their role requires them to:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Data &amp; security design</strong>: Design the data model, defining identity and access management, and ensuring data sharing is set up appropriately</li>\n<li><strong>System integration: </strong>Architect how Salesforce talks to other enterprise systems (e.g., ERPs, Marketing Automation) and determine the best integration patterns</li>\n<li><strong>Build vs. buy decisions:</strong> Analyze a business requirement to determine if it should be solved with standard configuration (“clicks”), custom programming (“code”), or a third-party AppExchange tool</li>\n</ul>\n<p><strong>DevOps:</strong> Establish the rules for how changes are moved from testing to production to ensure stability</p>\n<h3 class=\"wp-block-heading\" id=\"h-3-managing-stakeholders\">3. Managing stakeholders</h3>\n<p>Beyond technology, an architect is a leader who must often build organizational buy-in for new solutions. While they may not have the answer to every niche question instantly, they are experts in Salesforce and industry capabilities, and they know how to find answers fast. Their <a href=\"https://www.salesforce.com/blog/talk-like-an-architect-building-blocks-of-communication/\">communication skills</a> allow them to translate complex technical concepts into language that stakeholders and C-level executives can understand.</p>\n<p>This also includes establishing proper governance processes and structures. Architects ensure stakeholder alignment and that the right procedures are in place, followed, and traceable.</p>\n<h2 class=\"wp-block-heading\" id=\"h-what-skills-does-a-salesforce-architect-need\">What skills does a Salesforce Architect need?</h2>\n<p>A successful architect must be a “T-shaped” professional: possessing broad general knowledge across the platform and deep expertise in specific areas, including:</p>\n<h3 class=\"wp-block-heading\" id=\"h-technical-acumen\">Technical acumen</h3>\n<ul class=\"wp-block-list\">\n<li><strong>Governance and DevOps:</strong> Leverage experience with release management and establish the rules for how changes are moved from testing to production to ensure stability</li>\n<li><strong>Code literacy:</strong> Read code and recognize coding best practices to effectively guide development teams; they do not need to be a developer, but they must understand when to use code versus standard configuration</li>\n<li><strong>Platform expertise:</strong> Understand Salesforce products, data modeling, platform limits, and consumption considerations</li>\n<li><strong>System integration:</strong> Maintain proficiency in how Salesforce connects with other technologies, including APIs, identity management, and data movement and lifecycle</li>\n</ul>\n<h3 class=\"wp-block-heading\" id=\"h-communication-and-leadership\">Communication and leadership</h3>\n<ul class=\"wp-block-list\">\n<li><strong>Translation:</strong> Explain complex technical concepts to non-technical stakeholders and “speak the language” of the business</li>\n<li><strong>Business acumen:</strong> Understand underlying business processes to ensure that technology solves actual business problems rather than just building what was requested</li>\n<li><strong>Active listening:</strong> Listen to stakeholders to uncover the root cause of a request, not just the surface-level symptom</li>\n<li><strong>Continuous learning: </strong>Maintain the drive to constantly update their knowledge</li>\n</ul>\n<h3 class=\"wp-block-heading\" id=\"h-background-and-experiences\">Background and experiences</h3>\n<p>Salesforce Architects come from many different backgrounds. Many have years of experience as a <a href=\"https://www.salesforce.com/blog/what-is-a-salesforce-developer/\">developer</a> or an <a href=\"https://www.salesforce.com/blog/what-is-a-salesforce-admin/\">administrator</a> on the platform. Others come from different technology stacks or business-facing roles, such as business analysts. Ultimately, it is the blend of technical expertise and business insight that defines the role.</p>\n<div class=\"layout-astro-2 wp-block-salesforce-blog-related-trail\">\n<img alt=\"\" class=\"related-trail__illustration related-trail__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-cloud-layout-astro-2.png\"/>\n<div class=\"related-trail__illustration related-trail__contour\">\n</div>\n<img alt=\"\" class=\"related-trail__illustration related-trail__background\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-background-layout-astro-2.png\"/>\n<div class=\"related-trail__wrapper\">\n<div class=\"related-trail__content\">\n<svg aria-hidden=\"true\" class=\"related-trail__logo\" viewbox=\"0 0 345.8 82.8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M96.6 33h9v22.6h4.8V33h8.8v-4.3H96.6zm49.8 5.3c0-5.7-3.6-9.6-10.8-9.6H127v27h4.8v-7.9h3l2.3-.1 5.7 8h5.6l-7-9.2c3.4-1.6 5-4.5 5-8.2m-11.1 5.3h-3.6V33h3.6c4.4 0 6 2.3 6 5.3s-1.6 5.3-6 5.3m30.8-15.2-12.6 27.2h5l2.3-5.3h11.6l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm25.2-17.7h4.8v27h-4.8zm20.7 0h-4.8v27h17.6v-4.4h-12.8zm38.4 12.1h-13.2V28.7H229v27h4.7V45h13.2v10.6h4.7V28.7h-4.7zm15.9 14.8h17.5v-4.4h-12.7v-6.4H279v-4.2h-11.5v-7.5h12.7v-4.4h-17.5zm36.9-27.2L287 55.6h5l2.3-5.3H306l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm35.4-17.7h-10.2v27h10.2c8.2 0 14.4-5.9 14.4-13.6s-6-13.4-14.4-13.4m0 22.6H326V33h5.4a9.1 9.1 0 1 1 0 18.1z\" fill=\"#1d3767\"></path><path d=\"M43 82.8h.1a74 74 0 0 0 38.5-12.3 3 3 0 0 0 1.3-2.4v-6A66.2 66.2 0 0 0 42.5.2a3 3 0 0 0-2.3 0A66.2 66.2 0 0 0 0 62.2V68a3 3 0 0 0 1.2 2.4 74 74 0 0 0 40.2 12.4z\" fill=\"#1d315f\"></path><path d=\"M13.8 51.8a.3.3 0 0 0 0-.1L33 23.6a3.1 3.1 0 0 1 .8-.8 3 3 0 0 1 4 .8l9.5 13.8 3.5-5a3 3 0 0 1 4.9 0L69 51.6a.3.3 0 0 1 .1.3h7C70.7 17.7 43.7 7.2 41.4 6.2c0 0-11.2 4-21.2 16A59.6 59.6 0 0 0 6.8 51.8zm21.7-21.3\" fill=\"#8ed1f4\"></path><path d=\"m62 51.9-8.7-12.6-4.2 6.1 4.8 6.4z\" fill=\"#aa76b3\"></path><path d=\"m49 45.4-4.4 6.4H54z\" fill=\"#722a87\"></path><path d=\"m37 32.6-1.5-2.1z\" fill=\"#8ed1f4\"></path><path d=\"m28 41.4 7.6 10.4h1.8l6.4-9.2-6.8-10-1.5-2.1z\" fill=\"#aa76b3\"></path><path d=\"m28 41.4-7 10.4h14.6z\" fill=\"#722a87\"></path><path d=\"M43.8 72.5a1.8 1.8 0 0 0-1-2.4L40.1 69a8 8 0 0 1-1-.5 7.8 7.8 0 0 1-2.4-10.7H6a44 44 0 0 0-.2 4.4v4.4A70 70 0 0 0 26 75a70 70 0 0 0 15.2 2l2.4-4.3zm33-14.8H44.3l-2.5 3a1.7 1.7 0 0 0-.2.5 1.8 1.8 0 0 0 1 2.3l2.7 1.2.7.4a7.8 7.8 0 0 1 3 10.6l-.5.9 4.8-.8a71 71 0 0 0 8.4-2.2l1.3-.4a71 71 0 0 0 14-6.7v-8.8z\" fill=\"#069a49\"></path><path d=\"m46 65-.7-.3-2.7-1.2a1.8 1.8 0 0 1-1-2.4 1.7 1.7 0 0 1 .2-.4l2.5-3h-7.6A7.8 7.8 0 0 0 39 68.4a8 8 0 0 0 1 .5l2.7 1.2a1.8 1.8 0 0 1 1 2.4l-.1.2-2.5 4.3a52.5 52.5 0 0 0 7.2-.4l.5-.9A7.8 7.8 0 0 0 46 65.1z\" fill=\"#fff\"></path><path d=\"M56.9 67.3h8.8l-4.4-5zM23 71h9l-4.5-5.1zm-4.1-10.4-4.5 5h8.9z\" fill=\"#157139\"></path></svg>\n<h2 class=\"wp-block-related-trail__title\"><strong>Salesforce Architect: Quick Look</strong></h2>\n<p>Learn what Salesforce architects do and the skills they need to succeed.</p>\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce-architect-role-quick-look?&amp;utm_source=salesforce&amp;utm_medium=blog-360&amp;utm_campaign=trailblazer_blog&amp;utm_content=careers_Aug23_what_is_an_architect&amp;icid=SFBLOG:tbc-blog:7010M0000025ltGQAQ&amp;_ga=2.188932259.948539937.1689635997-189933257.1684346373\" rel=\"noopener\" target=\"_blank\">TAKE A QUICK LOOK</a></div>\n</div>\n<div class=\"related-trail__mock\">\n<div class=\"related-trail__points\">+100 points</div>\n<div class=\"related-trail__eyebrow\">Module</div>\n<p class=\"related-trail__trail-title h3\"><strong>Salesforce Architect: Quick Look</strong></p>\n<p class=\"related-trail__trail-description\"></p>\n<div class=\"related-trail__actions\">\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\"><path clip-rule=\"evenodd\" d=\"m4.93.69.88 2.88c.04.12.16.18.27.18h2.89c.29 0 .4.38.17.56L6.79 6.04c-.1.07-.13.2-.1.32l1.12 2.96c.08.27-.2.5-.44.33L4.85 7.77c-.1-.08-.23-.08-.34 0L1.97 9.65a.29.29 0 0 1-.45-.33L2.6 6.36a.3.3 0 0 0-.1-.32L.17 4.3c-.23-.18-.1-.56.17-.56h2.89c.13 0 .23-.04.27-.18l.9-2.9c.08-.27.46-.25.54.02Z\" fill=\"#747474\" fill-rule=\"evenodd\"></path></svg>\n</div>\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 9 5\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.16 4.5.26 0h7.8z\" fill=\"#747474\"></path></svg>\n</div>\n</div>\n</div>\n</div>\n<img alt=\"\" class=\"related-trail__illustration related-trail__foreground\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-foreground-layout-astro-2.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__parks\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-parks-layout-astro-2.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-what-are-the-career-prospects-for-salesforce-architects\"><strong>What are the career prospects for Salesforce Architects?</strong></h2>\n<p>The<a href=\"https://trailhead.salesforce.com/es/career-path/architect/\"> Salesforce Architect career path</a> remains one of the fastest-growing and most secure tracks in the ecosystem. As implementations become more complex, the need for experienced strategic guidance continues to skyrocket. </p>\n<p>We expect this demand to persist and accelerate in the <a href=\"https://www.salesforce.com/blog/the-agentic-ai-era-after-the-dawn-heres-what-to-expect/\">Agentic AI Era</a>, where up-front design is the ultimate driver for success. AI thrives when it is powered by connected data and rich context, elements that are right in the wheelhouse of architects. By prioritizing a solid foundation and following industry best practices, architects provide the fastest and most reliable route to the Agentic Enterprise, ensuring that technology and strategy work in perfect harmony.</p>\n<div class=\"wp-block-salesforce-blog-stats\">\n<div class=\"wp-block-salesforce-blog-stats__container\">\n<header class=\"wp-block-salesforce-blog-stats__stat\">\n<p class=\"wp-block-salesforce-blog-stats__number\">27%</p>\n</header>\n<div class=\"wp-block-salesforce-blog-stats__content\">\n<p class=\"wp-block-salesforce-blog-stats__headline\">increase</p>\n<p class=\"wp-block-salesforce-blog-stats__description\">in global demand for Technical Architects</p>\n</div>\n</div>\n</div>\n<p>According to the <a href=\"https://10kview.com/2025-salesforce-talent-ecosystem-report/\">2025 Salesforce Talent Ecosystem Report</a>, the demand for architects is driving the highest growth among all technical roles:</p>\n<ul class=\"wp-block-list\">\n<li>Technical Architect demand has increased by 27% globally</li>\n<li>Solution Architect demand has increased by 21% globally</li>\n</ul>\n<p><strong>The bottom line:</strong> Whether your expertise lies in deep technical engineering or business-focused solutioning, the market is signaling a clear need for your skills. With demand outpacing supply, there has never been a better time to advance your career as a Salesforce Architect.</p>\n<h2 class=\"wp-block-heading\" id=\"h-embrace-the-architect-in-you\">Embrace the architect in you</h2>\n<p>An architect is defined by their vision. They build systems that will last, that are maintainable, and that scale as the business grows.</p>\n<p>An architect acts as an ambassador for new technology, always planning for the future. Whether they are designing a technical integration or a complex data model, they think three to five years out to ensure that today’s solution supports tomorrow’s success.</p>\n<p>If this sounds like you, start your journey to a career as a Salesforce Architect today:</p>\n<ul class=\"wp-block-list\">\n<li>Visit the <a href=\"https://architect.salesforce.com/\">Salesforce Architecture Center</a></li>\n<li>Subscribe to the <a href=\"https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7414374807942692864\">Salesforce Architect Digest Monthly Newsletter on LinkedIn</a></li>\n<li>Discover the <a href=\"https://www.salesforce.com/blog/category/architects/\">Salesforce Architecture Blog</a></li>\n<li>Follow <a href=\"https://x.com/SalesforceArchs\">@SalesforceArchs</a> on X</li>\n<li>Join the <a href=\"https://trailhead.salesforce.com/trailblazer-community/groups/0F930000000blKvCAI?tab=discussion&amp;sort=LAST_MODIFIED_DATE_DESC\">Architect Trailblazers Community Group</a></li>\n<li>Learn about <a href=\"https://trailhead.salesforce.com/credentials/architectoverview/\">Salesforce Architect Certifications</a></li>\n</ul>\n<div class=\"layout-two wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Discover what’s new for architects on the Salesforce Architecture Center</h2>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://architect.salesforce.com/\" target=\"_self\">Learn more</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-two.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-two.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-two.png\"/>\n</div>\n</div>"
+}

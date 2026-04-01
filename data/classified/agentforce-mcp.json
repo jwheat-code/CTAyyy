@@ -1,0 +1,51 @@
+{
+  "url": "https://www.salesforce.com/blog/agentforce-mcp/?bc=DB",
+  "slug": "agentforce-mcp",
+  "title": "Agentforce MCP Beta Brings All the Power of Tool Calling, None of the Context Bloat",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.65,
+          "match_rationale": "Matches slack product focus at consideration stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 1
+}

@@ -1,0 +1,343 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-nonprofit-use-cases/?bc=DB",
+  "slug": "ai-nonprofit-use-cases",
+  "title": "Scaling Impact: 4 Proven AI Agent Use Cases for Nonprofits",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, industry_clouds. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "1. Agents for fundraising and donor engagement",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "marketing_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "data_analytics",
+          "productivity",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in '1. Agents for fundraising and donor engagement'. Products: agentforce, sales_cloud, marketing_cloud, slack. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "America On Tech Transforms Grant Reporting with Tableau Next",
+        "body": "Learn how America On Tech helps prepare thousands of students from underestimated communities for careers in technology.",
+        "button_text": "Read the story",
+        "button_url": "https://www.tableau.com/solutions/customer/america-tech-transforms-grant-reporting-tableau-next",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.65,
+          "match_rationale": "Matches slack product focus at consideration stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "2. Agents for coaching assistance",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "data_analytics",
+          "productivity",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in '2. Agents for coaching assistance'. Products: agentforce, industry_clouds. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "3. Agents for operational efficiency and automation",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in '3. Agents for operational efficiency and automation'. Products: agentforce, sales_cloud, industry_clouds. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage it_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Ready to lead the way with AI?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "ai_agents"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Ready to lead the way with AI?'. Products: agentforce, industry_clouds. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Express your interest",
+        "button_url": "https://salesforceagentsforimpact.splashthat.com/",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
+    },
+    {
+      "section_index": 5,
+      "section_heading": "4. Agents for member and community engagement",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "service_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in '4. Agents for member and community engagement'. Products: agentforce, service_cloud, industry_clouds. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Human Ingenuity, Accelerated",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "data_analytics",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Human Ingenuity, Accelerated'. Products: agentforce, sales_cloud, industry_clouds. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Visit Trailhead",
+        "button_url": "https://trailhead.salesforce.com/agentblazer",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2643,
+  "misaligned_count": 5
+}

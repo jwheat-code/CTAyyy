@@ -1,0 +1,89 @@
+{
+  "url": "https://www.salesforce.com/blog/agentic-commerce/?bc=DB",
+  "slug": "agentic-commerce",
+  "title": "Agentic Commerce Needs Shared Context. Today, Agentforce 360 Delivers It.",
+  "author": "",
+  "published_date": "2026-01-10T13:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "AI agents are rapidly becoming part of every commerce experience. Marketing teams use agents to create and optimize campaigns. Commerce teams use agents to power merchandising, shopping and fulfillment. Service teams use agents to answer questions and resolve issues. This can look like great progress. But as more agents come online, a new problem is emerging.",
+      "word_count": 56,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "heading": "The problem: agentic commerce without shared context",
+      "text": "Today, most companies deploy AI agents one function at a time. Each agent is optimized locally — trained on the data, APIs, and workflows of the system it lives in. Marketing agents know campaigns. Commerce agents know catalogs. Service agents know cases. So while contextexistsacross the enterprise, you may end up designing a solution where no single agent can see or reason across it all. The result is an all too familiar breakdown in customer experience. A customer clicks a campaign promising delivery by Friday. The storefront agent recommends a size they’ve already returned. The delivery estimate slips to Monday. A follow-up question from the customer triggers a generic response that ignores everything that just happened. Nothing is broken. Each agent may be doing its job, but it’s doing it in isolation. This is the context problem in agentic commerce, and it’s costing businesses trust, revenue, and loyalty.",
+      "word_count": 148,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "Why DIY context integration doesn’t work",
+      "text": "Many companies recognize this problem and try to solve it themselves. They attempt to stitch together campaign data, behavioral signals, browsing behavior, inventory, order history, and service context through APIs and integrations, building what amounts to a custom “context layer” for their agents. What starts as a reasonable integration project quickly becomes something else entirely. APIs multiply. Data pipelines drift. Latency creeps in. Permissions aren’t respected. Each new agent adds another new integration to manage. Your teams could spend months or even years trying to build a shared context layer for your agents and it ends up being: Fragile under changeExpensive to maintainExtremely difficult to govern This is why most DIY agent architectures fail. They may integrate data, but they never fully unify intelligence.",
+      "word_count": 124,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "The solution: commerce powered by Agentforce 360 and a unified context engine",
+      "text": "Salesforce built Agentforce 360 to solve this problem. Agentforce 360 provides a fully integrated, enterprise-grade context engine that spans sales, commerce, marketing, and service — without requiring customers to build and maintain it themselves. Instead of wiring agents together through brittle integrations, companies deploy agents on a single shared intelligence layer, where context is understood, interpreted, and acted on consistently. That shared intelligence is delivered through new Agentforce capabilities across commerce and marketing, including Agentforce Commerce Guided Shopping, Contextual Search, and Two-Way Messaging across SMS, WhatsApp, and email, all operating on the same unified foundation. New capabilities to help retailers deliver contextual conversations include: Two-Way Email, SMS and WhatsApp:This feature transforms static notifications into a living channel for conversational commerce. By integrating the same “brain” that powers a retailer’s website, the inbox becomes a functional point of sale rather than just a traffic driver. It moves away from the “marketing blast” feel toward the personalized experience of texting a personal shopper.Contextual Search:This engine powers both the search bar and the shopping agent’s logic, moving beyond rigid keyword matching to understand natural language and intent.Agentforce Guided Shopping updates:Instead of waiting for a prompt, retailers’ own ecommerce site agents built with Agentforce Guided Shopping proactively offer navigation and search guidance at key moments in the journey. This new and improved experience picks up context instantly — confirming inventory, calculating shipping, and answering product questions — allowing the customer to complete their entire purchase within a single conversation. With commerce powered by Agentforce 360: Campaign intent flows directly into guided shopping and service interactionsConversations continue seamlessly across storefronts and messaging channelsTrust, permissions, and governance are enforced consistently across every interaction With Agentforce 360, agentic commerce stops feeling like a series of disconnected moments. A customer asks a question in an email. The same agent intelligence responds on the storefront. A service interaction continues the conversation without resets or repetition. Multiple agents operate behind the scenes, but they reason, decide, and act as one. One customer. One conversation. One shared context.",
+      "word_count": 337,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "The outcome: better experiences, real business impact",
+      "text": "For your customersthis means fewer broken promises, less annoying repetition, more relevant guidance, and a shopping experience that feels coherent, trustworthy, and unique to your brand. For your business, the impact is measurable. Retailers’ agents contributed to sales growth this past holiday season – while boosting their teams’ efficiency. Companies that deployed AI agents saw a 59% higher growth rate — averaging a 6.2% YoY sales increase. And, shoppers embraced this technology more than ever, using retailers’ AI and agents for customer service 126% more during the holiday rush than in the two months prior.",
+      "word_count": 95,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "heading": "The future of agentic commerce",
+      "text": "Agentic commerce is inevitable. But agentic commerce built through DIY integration is fragile, slow, and expensive. Agentforce 360 delivers what agentic commerce has been missing: a unified platform where your agents share context by default, reason together, and act consistently, without forcing businesses to build and maintain the connective tissue themselves. Your customers shouldn’t experience your integrations, and now with Agentforce 360, they don’t have to.",
+      "word_count": 66,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "heading": "Availability",
+      "text": "Agentforce Commerce Guided Shopping, Contextual Search (Open Beta), Two-Way SMS, and Two-Way WhatsApp are available now. Two-Way Email and Marketing and Commerce Connected Journeys will be available in February. See the product in action: Agentforce Launch LocationsContextual SearchTwo-Way-SMSTwo-Way-Whats AppTwo-Way Email",
+      "word_count": 40,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agentforce Launch Locations",
+          "href": "https://salesforce.vidyard.com/watch/vQAooVR62jnBCh5wwbqLRQ"
+        },
+        {
+          "text": "Contextual Search",
+          "href": "https://salesforce.vidyard.com/watch/XUjy679Kk4PgawW5wEMzuv"
+        },
+        {
+          "text": "Two-Way-SMS",
+          "href": "https://salesforce.vidyard.com/watch/jpbZf9vhrAVMWcfLXkPc5b?"
+        },
+        {
+          "text": "Two-Way-Whats App",
+          "href": "https://salesforce.vidyard.com/watch/6iFnvb6vZydMPxqhJfoLs5"
+        },
+        {
+          "text": "Two-Way Email",
+          "href": "https://youtu.be/CKr8vpCoN3Y?si=jSBTtppP2FtWkf4_&t=527"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>AI agents are rapidly becoming part of every commerce experience. Marketing teams use agents to create and optimize campaigns. Commerce teams use agents to power merchandising, shopping and fulfillment. Service teams use agents to answer questions and resolve issues.</p>\n<p>This can look like great progress. But as more agents come online, a new problem is emerging.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-problem-agentic-commerce-without-shared-context\">The problem: agentic commerce without shared context</h2>\n<p>Today, most companies deploy AI agents one function at a time.</p>\n<p>Each agent is optimized locally — trained on the data, APIs, and workflows of the system it lives in. Marketing agents know campaigns. Commerce agents know catalogs. Service agents know cases.</p>\n<p>So while context <em>exists</em> across the enterprise, you may end up designing a solution where no single agent can see or reason across it all.</p>\n<p>The result is an all too familiar breakdown in customer experience.</p>\n<p>A customer clicks a campaign promising delivery by Friday. The storefront agent recommends a size they’ve already returned. The delivery estimate slips to Monday. A follow-up question from the customer triggers a generic response that ignores everything that just happened.</p>\n<p>Nothing is broken. Each agent may be doing its job, but it’s doing it in isolation.</p>\n<p>This is the context problem in agentic commerce, and it’s costing businesses trust, revenue, and loyalty.</p>\n<h2 class=\"wp-block-heading\" id=\"h-why-diy-context-integration-doesn-t-work\">Why DIY context integration doesn’t work</h2>\n<p>Many companies recognize this problem and try to solve it themselves.</p>\n<p>They attempt to stitch together campaign data, behavioral signals, browsing behavior, inventory, order history, and service context through APIs and integrations, building what amounts to a custom “context layer” for their agents.</p>\n<p>What starts as a reasonable integration project quickly becomes something else entirely. APIs multiply. Data pipelines drift. Latency creeps in. Permissions aren’t respected. Each new agent adds another new integration to manage.</p>\n<p>Your teams could spend months or even years trying to build a shared context layer for your agents and it ends up being:</p>\n<ul class=\"wp-block-list\">\n<li>Fragile under change</li>\n<li>Expensive to maintain</li>\n<li>Extremely difficult to govern</li>\n</ul>\n<p>This is why most DIY agent architectures fail. They may integrate data, but they never fully unify intelligence.</p>\n<h3 class=\"wp-block-heading\" id=\"h-diy-ai-vs-agentforce-360\">DIY AI vs Agentforce 360</h3>\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>DIY Agent Integration</strong></td><td><strong>Agentforce 360</strong></td></tr><tr><td>Custom APIs and event pipelines between every system</td><td>Native, platform-level context shared by default</td></tr><tr><td>Manual schema alignment across teams and vendors</td><td>Unified data and metadata model</td></tr><tr><td>Context arrives late, incomplete, or inconsistent</td><td>Real-time, continuously updated context</td></tr><tr><td>Each agent interprets data differently</td><td>Shared reasoning and decision logic</td></tr><tr><td>High maintenance cost and operational risk</td><td>Managed, governed, enterprise-ready</td></tr><tr><td>Months or years to scale reliably</td><td>Value delivered immediately</td></tr></tbody></table></figure>\n<h2 class=\"wp-block-heading\" id=\"h-the-solution-commerce-powered-by-agentforce-360-and-a-unified-context-engine\">The solution: commerce powered by Agentforce 360 and a unified context engine</h2>\n<p>Salesforce built Agentforce 360 to solve this problem. Agentforce 360 provides a fully integrated, enterprise-grade context engine that spans sales, commerce, marketing, and service — without requiring customers to build and maintain it themselves.</p>\n<p>Instead of wiring agents together through brittle integrations, companies deploy agents on a single shared intelligence layer, where context is understood, interpreted, and acted on consistently.</p>\n<p>That shared intelligence is delivered through new Agentforce capabilities across commerce and marketing, including Agentforce Commerce Guided Shopping, Contextual Search, and Two-Way Messaging across SMS, WhatsApp, and email, all operating on the same unified foundation.</p>\n<p>New capabilities to help retailers deliver contextual conversations include:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Two-Way Email, SMS and WhatsApp:</strong> This feature transforms static notifications into a living channel for conversational commerce. By integrating the same “brain” that powers a retailer’s website, the inbox becomes a functional point of sale rather than just a traffic driver. It moves away from the “marketing blast” feel toward the personalized experience of texting a personal shopper.<br/></li>\n<li><strong>Contextual Search:</strong> This engine powers both the search bar and the shopping agent’s logic, moving beyond rigid keyword matching to understand natural language and intent.<br/></li>\n<li><strong>Agentforce Guided Shopping updates:</strong> Instead of waiting for a prompt, retailers’ own ecommerce site agents built with Agentforce Guided Shopping proactively offer navigation and search guidance at key moments in the journey. This new and improved experience picks up context instantly — confirming inventory, calculating shipping, and answering product questions — allowing the customer to complete their entire purchase within a single conversation.</li>\n</ul>\n<p>With commerce powered by Agentforce 360:</p>\n<ul class=\"wp-block-list\">\n<li>Campaign intent flows directly into guided shopping and service interactions</li>\n<li>Conversations continue seamlessly across storefronts and messaging channels</li>\n<li>Trust, permissions, and governance are enforced consistently across every interaction</li>\n</ul>\n<p>With Agentforce 360, agentic commerce stops feeling like a series of disconnected moments. A customer asks a question in an email. The same agent intelligence responds on the storefront. A service interaction continues the conversation without resets or repetition.</p>\n<p>Multiple agents operate behind the scenes,  but they reason, decide, and act as one.</p>\n<p>One customer. One conversation. One shared context.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-outcome-better-experiences-real-business-impact\">The outcome: better experiences, real business impact</h2>\n<p><strong>For your customers</strong> this means fewer broken promises, less annoying repetition, more relevant guidance, and a shopping experience that feels coherent, trustworthy, and unique to your brand.</p>\n<p><strong>For your business</strong>, the impact is measurable.</p>\n<p>Retailers’ agents contributed to sales growth this past holiday season – while boosting their teams’ efficiency. Companies that deployed AI agents saw a 59% higher growth rate — averaging a 6.2% YoY sales increase. And, shoppers embraced this technology more than ever, using retailers’ AI and agents for customer service 126% more during the holiday rush than in the two months prior.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-future-of-agentic-commerce\">The future of agentic commerce</h2>\n<p>Agentic commerce is inevitable. But agentic commerce built through DIY integration is fragile, slow, and expensive.</p>\n<p>Agentforce 360 delivers what agentic commerce has been missing: a unified platform where your agents share context by default, reason together, and act consistently, without forcing businesses to build and maintain the connective tissue themselves.</p>\n<p>Your customers shouldn’t experience your integrations, and now with Agentforce 360, they don’t have to.</p>\n<h2 class=\"wp-block-heading\" id=\"h-availability\">Availability</h2>\n<p>Agentforce Commerce Guided Shopping, Contextual Search (Open Beta), Two-Way SMS, and Two-Way WhatsApp are available now. Two-Way Email and Marketing and Commerce Connected Journeys will be available in February.</p>\n<p>See the product in action:</p>\n<ul class=\"wp-block-list\">\n<li><a href=\"https://salesforce.vidyard.com/watch/vQAooVR62jnBCh5wwbqLRQ\">Agentforce Launch Locations</a></li>\n<li><a href=\"https://salesforce.vidyard.com/watch/XUjy679Kk4PgawW5wEMzuv\">Contextual Search</a></li>\n<li><a href=\"https://salesforce.vidyard.com/watch/jpbZf9vhrAVMWcfLXkPc5b?\">Two-Way-SMS </a></li>\n<li><a href=\"https://salesforce.vidyard.com/watch/6iFnvb6vZydMPxqhJfoLs5\">Two-Way-Whats App</a></li>\n<li><a href=\"https://youtu.be/CKr8vpCoN3Y?si=jSBTtppP2FtWkf4_&amp;t=527\">Two-Way Email</a></li>\n</ul>\n<p></p>\n</div>"
+}

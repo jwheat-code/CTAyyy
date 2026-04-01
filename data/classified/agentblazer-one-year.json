@@ -1,0 +1,69 @@
+{
+  "url": "https://www.salesforce.com/blog/agentblazer-one-year/?bc=DB",
+  "slug": "agentblazer-one-year",
+  "title": "Celebrating 1 Year of Agentblazer Innovation and Collaboration",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "collaboration",
+          "thought_leadership",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, sales_cloud, service_cloud, slack. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Join the Agentblazer Community!",
+        "body": "Check back soon for more stories andjointhe community for the latest Agentforce content.",
+        "button_text": "Join the community",
+        "button_url": "https://www.salesforce.com/blog/ai/agents/",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.8,
+  "misaligned_count": 0
+}

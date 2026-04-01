@@ -1,0 +1,111 @@
+{
+  "url": "https://www.salesforce.com/blog/agentexchange-top-5/?bc=DB",
+  "slug": "agentexchange-top-5",
+  "title": "5 AgentExchange Must-Haves Your Team Will Thank You For",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, sales_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "manufacturing",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Frequently Asked Questions (FAQs)",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "ai_tools",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Frequently Asked Questions (FAQs)'. Products: agentforce, platform. Funnel: decision."
+      },
+      "existing_cta": {
+        "heading": "Build and Deploy Agentic AI Faster with Trusted Partners",
+        "body": "Download our guide and discover prebuilt skills on AgentExchange, the trusted agentic marketplace built into Salesforce.",
+        "button_text": "Learn more",
+        "button_url": "https://www.salesforce.com/form/partners/agentexchange-advantage-guide/",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.35,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel mismatch: CTA is awareness-stage but section is decision-stage",
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is decision-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage developer reader."
+        },
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.youtube.com-watch",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.175,
+  "misaligned_count": 2
+}
