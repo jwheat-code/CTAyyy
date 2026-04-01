@@ -91,6 +91,24 @@ cta_library = load_cta_library()
 articles = load_crawled_articles()
 analyses = load_analyses()
 
+# If no crawled data, synthesize article stubs from classified data
+if not articles and analyses:
+    for slug, analysis in analyses.items():
+        articles[slug] = {
+            "slug": slug,
+            "title": analysis.get("title", slug),
+            "url": analysis.get("url", ""),
+            "author": "",
+            "category": "",
+            "published_date": "",
+            "sections": [
+                {"index": sa["section_index"], "heading": sa["section_heading"],
+                 "text": "", "word_count": 0}
+                for sa in analysis.get("section_analyses", [])
+            ],
+            "existing_ctas": [],
+        }
+
 if not articles:
     st.warning("No crawled articles found. Run the crawler first: `python scripts/crawl.py`")
     st.stop()
