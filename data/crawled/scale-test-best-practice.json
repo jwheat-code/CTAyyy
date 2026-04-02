@@ -1,0 +1,120 @@
+{
+  "url": "https://www.salesforce.com/blog/scale-test-best-practice/?bc=DB",
+  "slug": "scale-test-best-practice",
+  "title": "Scale or Fail? The QA Leader’s Checklist for Putting AI to the Test",
+  "author": "Vaishnavi Reddi",
+  "published_date": "2025-10-31T15:33:08+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "For Quality Assurance (QA) leaders, performance testing is more than just validating functionality. Whether you’re preparing for a large-scale product launch, or seasonaltraffic surges— there’s a lot at stake. Downtime could mean performance slowdowns, system outages, lost revenue, and unhappy customers. . That’s why, we’ve put together the ultimate scale testing guide. Here’s how you can ensure your AI agents and apps are built to scale.",
+      "word_count": 66,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "traffic surges",
+          "href": "https://www.salesforce.com/blog/scale-testing/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Step 0: Identify hotspots",
+      "text": "A powerful performance test strategy begins by looking at your production data. Understanding the hotspots — your slowest and most-used components — is critical to ensure your tests prioritize the areas that are most likely to fail under load, maximizing the return on your testing investment and to proactively eliminate critical production risks. Scale Test’s Test Plan Creationfeature gives you this insight by analyzing live production data to pinpoint your slowest and most-used pages, APIs, and Lightning components. To uncover performance bottlenecks, run this report during peak hours. Instead of testing isolated pages or APIs, the insights from Plan Creation enables you to build realistic,end-to-end user journeys. For example, a journey could start on the Home Page, navigate to Account View, and then perform an Opportunity Update. This approach ensures your tests reflect real-world workflows and focus on the most critical parts of your application.",
+      "word_count": 145,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Scale Test’s Test Plan Creation",
+          "href": "https://trailhead.salesforce.com/content/learn/modules/scale-test-quick-look/plan-schedule-and-run-scale-tests"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Step 1: Test securely in a sandbox",
+      "text": "By creating a copy of your production environment, teams can build, test, and refine new features, code, and integrations — all without affecting live data and operations. Afull copy sandboxgives admins and developers a secure environment to experiment and innovate. How you set up your testing environment matters. When you’re setting up your sandbox, you can follow these guidelines for quality testing. Trial Runs for Right-Sizing:Start with low-user baseline runs (20-30 users) to validate scripts and compare against production peaks using Scale Test’s Trial Accuracy Checker.Align NFRs with SLAs:Define measurable targets, like “Page load ≤ 2s” or “Error rate ≤ 0.5%”. This establishes clear pass/fail criteria.Mitigate Integration Risks:Even if third-party integrations are out of scope, simulate them using network mocking.",
+      "word_count": 120,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "full copy sandbox",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Step 3: Realistic scale tests = real results",
+      "text": "The best tests are life-like. “Workload modeling” is the process of creating a realistic simulation of how real users interact with an agent, app, or system. By replicating the actual load and usage patterns, you can be confident that your results are accurate. Here are key strategies for better workload modeling: Ditch static user counts.Instead, drive your load tests using requests per second (RPS) or transactions per second (TPS). This approach creates a more consistent, production-like simulation.Act like a real user.Don’t make your virtual users robots. Give them realistic behaviors by using random distributions for things like think times, pacing, and ramp-up rates.Get precise with your data.Make sure you handle all the dynamic values like session IDs and tokens. This ensures each virtual user session is unique and realistic, just like in the real world.Plan your ramp-up.A controlled ramp-up (and ramp-down) is crucial for uncovering issues without overwhelming your system from the start. Sample ramp plan for5,000 users: To uncover systemic risks, go beyond single-hour loads. You can consider performing “endurance testing”, which entails running sustained, production-like load tests for 4+ hours to identify long-term issues such as memory leaks. Throughout the testing process, document ownership and escalation paths if SLAs are breached.",
+      "word_count": 203,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "Step 4: Gather the data",
+      "text": "Once your testing environment and conditions are set, you’re ready to start collecting data. When you start seeing consistent test results, it means you’ve achieved high-quality test data. Here’s how you can yield helpful, relevant results: Automated Data Creation:Move quickly by seeding realistic (not real) data into your sandbox. Use Salesforce CLI, Apex scripts, or Salesforce’sData Seedto programmatically create thousands of users or records.Automated Cleanup:Pair creation with cleanup scripts to reset the environment to an idle state after each run.Data Security:By usingdata maskingtools, you can protect personally identifiable information (PII) by transforming it into realistic, non-sensitive values that behave like the real thing but keep private details hidden. Explore tools like Salesforce’sData Mask, or anonymization techniques when using production-like datasets.",
+      "word_count": 120,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Data Seed",
+          "href": "https://www.salesforce.com/platform/data-masking/data-masking-tools/"
+        },
+        {
+          "text": "Data Security:",
+          "href": "https://www.salesforce.com/platform/cloud-data-security/"
+        },
+        {
+          "text": "data masking",
+          "href": "https://www.salesforce.com/platform/data-masking/data-masking-tools/"
+        },
+        {
+          "text": "Data Mask",
+          "href": "https://www.salesforce.com/platform/data-masking/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Step 5: Results are in, insights are out",
+      "text": "The real action begins once you have the data. To translate test results into performance improvements, you need the right tools and focus areas for analysis. This is how you access actionable metrics: Front-End Visibility with LEX Insight:TrackExperience Page Time (EPT)and percentile metrics (p75, p90) to uncover UI bottlenecks.Live test monitoring with Scale Test:View runtime metrics such as DMLs, platform events, RPS graphs, and Apex hotspots. Visit ApexGuru for optimization opportunities in your Apex Code around unused classes, expensive methods, test cases and more.Focus on Percentiles:Prioritize P90/P95 response times over averages to better represent real-world user experiences. Your next steps are in the data. Link test outcomes directly to business risks and functional requirements so stakeholders see what has been validated.",
+      "word_count": 121,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "heading": "Time to scale test",
+      "text": "Enterprise-scale QA requires more than just simulating load — it demands a disciplined, production-informed approach.By embedding these practices into your QA process, and using tools likeScale Test, you can be confident that you’re deploying only the most high quality and secure agents and apps for your business.",
+      "word_count": 47,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Scale Test",
+          "href": "https://www.salesforce.com/platform/application-scaling-performance-testing/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Your Salesforce Sandbox Awaits",
+      "body": "Learn how and when to use different Salesforce developer environments on Trailhead, Salesforce’s free online learning platform.",
+      "button_text": "Start learning",
+      "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-sandboxes-quick-look%20",
+      "position_after_section": 2
+    },
+    {
+      "heading": "Build, Secure, Deploy, and Repeat",
+      "body": "Make sure your agents and apps make it out of the sandbox with agent and application lifecycle management (ALM).",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/?leadcreated=true&redirect=true&sfuuid=80038bec-e064-42bd-9843-2d2608d91029&tid=52a04572-3c46-4c99-bc83-c58dca421363&d=70130000000sUVq&nc=701ed00000Vbf2QAAR",
+      "position_after_section": 6
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>For Quality Assurance (QA) leaders, performance testing is more than just validating functionality.  Whether you’re preparing for a large-scale product launch, or seasonal<a href=\"https://www.salesforce.com/blog/scale-testing/\"> traffic surges</a> — there’s a lot at stake. Downtime could mean performance slowdowns, system outages, lost revenue, and unhappy customers. .</p>\n<p>That’s why, we’ve put together the ultimate scale testing guide. Here’s how you can ensure your AI agents and apps are built to scale. </p>\n<h2 class=\"wp-block-heading\" id=\"h-step-0-identify-hotspots-nbsp\"><strong>Step 0: Identify hotspots </strong></h2>\n<p>A powerful performance test strategy begins by looking at your production data. Understanding the hotspots — your slowest and most-used components — is critical to ensure your tests prioritize the areas that are most likely to fail under load, maximizing the return on your testing investment and to proactively eliminate critical production risks. </p>\n<p><a href=\"https://trailhead.salesforce.com/content/learn/modules/scale-test-quick-look/plan-schedule-and-run-scale-tests\" rel=\"noopener\" target=\"_blank\">Scale Test’s Test Plan Creation</a> feature gives you this insight by analyzing live production data to pinpoint your slowest and most-used pages, APIs, and Lightning components. To uncover performance bottlenecks, run this report during peak hours.</p>\n<p>Instead of testing isolated pages or APIs, the insights from Plan Creation enables you to build realistic,<strong> </strong>end-to-end user journeys. For example, a journey could start on the Home Page, navigate to Account View, and then perform an Opportunity Update. This approach ensures your tests reflect real-world workflows and focus on the most critical parts of your application.</p>\n<h2 class=\"wp-block-heading\" id=\"h-step-1-test-securely-in-a-sandbox\"><strong>Step 1: Test securely in a sandbox</strong></h2>\n<p>By creating a copy of your production environment, teams can build, test, and refine new features, code, and integrations — all without affecting live data and operations. A <a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">full copy sandbox</a> gives admins and developers a secure environment to experiment and innovate.</p>\n<p>How you set up your testing environment matters. When you’re setting up your sandbox, you can follow these guidelines for quality testing.</p>\n<ul class=\"wp-block-list\">\n<li><strong>Trial Runs for Right-Sizing:</strong> Start with low-user baseline runs (20-30 users) to validate scripts and compare against production peaks using Scale Test’s Trial Accuracy Checker.</li>\n<li><strong>Align NFRs with SLAs:</strong> Define measurable targets, like “Page load ≤ 2s” or “Error rate ≤ 0.5%”. This establishes clear pass/fail criteria.</li>\n<li><strong>Mitigate Integration Risks:</strong> Even if third-party integrations are out of scope, simulate them using network mocking.</li>\n</ul>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Your Salesforce Sandbox Awaits</h2>\n<p class=\"wp-block-offer__description\">Learn how and when to use different Salesforce developer environments on Trailhead, Salesforce’s free online learning platform.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce-sandboxes-quick-look%20\" target=\"_self\">Start learning</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-step-3-realistic-scale-tests-real-results\"><strong>Step 3: Realistic scale tests = real results </strong></h2>\n<p>The best tests are life-like. “Workload modeling” is the process of creating a realistic simulation of how real users interact with an agent, app, or system.  By replicating the actual load and usage patterns, you can be confident that your results are accurate.</p>\n<p>Here are key strategies for better workload modeling:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Ditch static user counts. </strong>Instead, drive your load tests using requests per second (RPS) or transactions per second (TPS). This approach creates a more consistent, production-like simulation.</li>\n<li><strong>Act like a real user. </strong>Don’t make your virtual users robots. Give them realistic behaviors by using random distributions for things like think times, pacing, and ramp-up rates.</li>\n<li><strong>Get precise with your data.</strong> Make sure you handle all the dynamic values like session IDs and tokens. This ensures each virtual user session is unique and realistic, just like in the real world.</li>\n<li><strong>Plan your ramp-up. </strong>A controlled ramp-up (and ramp-down) is crucial for uncovering issues without overwhelming your system from the start.</li>\n</ul>\n<p>Sample ramp plan for <strong>5,000 users</strong>:</p>\n<figure class=\"wp-block-table is-style-header-highlight\"><table class=\"has-fixed-layout\"><tbody><tr><td class=\"has-text-align-center\" data-align=\"center\">0 – 15 minutes</td><td>Ramp from 0 to 1,000 users → hold for stability</td></tr><tr><td class=\"has-text-align-center\" data-align=\"center\">30 – 45 minutes</td><td>Ramp to 2,500 users → hold again</td></tr><tr><td class=\"has-text-align-center\" data-align=\"center\">60 – 90 minutes</td><td>Ramp to 5,000 users</td></tr><tr><td class=\"has-text-align-center\" data-align=\"center\">90 – 150 minutes</td><td>Hold steady at 5,000 users (collect peak metrics)</td></tr><tr><td class=\"has-text-align-center\" data-align=\"center\">150 – 180 minutes</td><td>Gradually ramp down to zero</td></tr></tbody></table></figure>\n<p></p>\n<p>To uncover systemic risks, go beyond single-hour loads. You can consider performing “endurance testing”, which entails running sustained, production-like load tests for 4+ hours to identify long-term issues such as memory leaks. Throughout the testing process, document ownership and escalation paths if SLAs are breached.</p>\n<h2 class=\"wp-block-heading\" id=\"h-step-4-gather-the-data-nbsp\"><strong>Step 4: Gather the data </strong></h2>\n<p>Once your testing environment and conditions are set, you’re ready to start collecting data. When you start seeing consistent test results, it means you’ve achieved high-quality test data. </p>\n<p>Here’s how you can yield helpful, relevant results:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Automated Data Creation:</strong> Move quickly by seeding realistic (not real) data into your sandbox. Use Salesforce CLI, Apex scripts, or Salesforce’s <a href=\"https://www.salesforce.com/platform/data-masking/data-masking-tools/\" rel=\"noopener\" target=\"_blank\">Data Seed</a><strong> </strong>to programmatically create thousands of users or records.</li>\n<li><strong>Automated Cleanup:</strong> Pair creation with cleanup scripts to reset the environment to an idle state after each run.</li>\n<li><a href=\"https://www.salesforce.com/platform/cloud-data-security/\" rel=\"noopener\" target=\"_blank\"><strong>Data Security:</strong></a><strong> </strong>By using <a href=\"https://www.salesforce.com/platform/data-masking/data-masking-tools/\" rel=\"noopener\" target=\"_blank\">data masking</a> tools, you can protect personally identifiable information (PII) by transforming it into realistic, non-sensitive values that behave like the real thing but keep private details hidden. Explore tools like  Salesforce’s <a href=\"https://www.salesforce.com/platform/data-masking/\" rel=\"noopener\" target=\"_blank\">Data Mask</a>, or anonymization techniques when using production-like datasets.<br/></li>\n</ul>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Innovation or security? Yes.</h2>\n<p class=\"wp-block-offer__description\">Accelerate your release cycles, without sacrificing security with Data Mask &amp; Seed.</p>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-step-5-results-are-in-insights-are-out-nbsp\"><strong>Step 5: Results are in, insights are out </strong></h2>\n<p>The real action begins once you have the data. To translate test results into performance improvements, you need the right tools and focus areas for analysis. This is how you access actionable metrics:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Front-End Visibility with LEX Insight:</strong> Track <strong>Experience Page Time (EPT)</strong> and percentile metrics (p75, p90) to uncover UI bottlenecks.</li>\n<li><strong>Live test monitoring with Scale Test:</strong> View runtime metrics such as DMLs, platform events, RPS graphs, and Apex hotspots. Visit ApexGuru for optimization opportunities in your Apex Code around unused classes, expensive methods, test cases and more.</li>\n<li><strong>Focus on Percentiles:</strong> Prioritize P90/P95 response times over averages to better represent real-world user experiences.</li>\n</ul>\n<p>Your next steps are in the data. Link test outcomes directly to business risks and functional requirements so stakeholders see what has been validated.</p>\n<h2 class=\"wp-block-heading\" id=\"h-time-to-scale-test\"><strong>Time to scale test</strong></h2>\n<p>Enterprise-scale QA requires more than just simulating load — it demands a disciplined, production-informed approach.By embedding these practices into your QA process, and using tools like <a href=\"https://www.salesforce.com/platform/application-scaling-performance-testing/\" rel=\"noopener\" target=\"_blank\">Scale Test</a>, you can be confident that you’re deploying only the most high quality and secure agents and apps for your business.</p>\n<div class=\"layout-six wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Build, Secure, Deploy, and Repeat</h2>\n<p class=\"wp-block-offer__description\">Make sure your agents and apps make it out of the sandbox with agent and application lifecycle management (ALM). </p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/?leadcreated=true&amp;redirect=true&amp;sfuuid=80038bec-e064-42bd-9843-2d2608d91029&amp;tid=52a04572-3c46-4c99-bc83-c58dca421363&amp;d=70130000000sUVq&amp;nc=701ed00000Vbf2QAAR\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n<img alt=\"The 5 stages of agent and application lifecycle management.\" class=\"attachment-full size-full\" decoding=\"async\" fetchpriority=\"high\" height=\"1024\" sizes=\"(max-width: 1024px) 100vw, 1024px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Platform-The-5-Stages-of-Agent-and-Application-Lifecycle-Management-Mini-Guide-confirmation-1200x675-1-1.png\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Platform-The-5-Stages-of-Agent-and-Application-Lifecycle-Management-Mini-Guide-confirmation-1200x675-1-1.png 2000w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Platform-The-5-Stages-of-Agent-and-Application-Lifecycle-Management-Mini-Guide-confirmation-1200x675-1-1.png?w=500&amp;h=500 500w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Platform-The-5-Stages-of-Agent-and-Application-Lifecycle-Management-Mini-Guide-confirmation-1200x675-1-1.png?w=768&amp;h=768 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Platform-The-5-Stages-of-Agent-and-Application-Lifecycle-Management-Mini-Guide-confirmation-1200x675-1-1.png?w=1536&amp;h=1536 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Platform-The-5-Stages-of-Agent-and-Application-Lifecycle-Management-Mini-Guide-confirmation-1200x675-1-1.png?w=150&amp;h=150 150w\" width=\"1024\"> </img></div>\n</div>\n</div>\n<p></p>\n</div>"
+}

@@ -1,0 +1,202 @@
+{
+  "url": "https://www.salesforce.com/blog/3-perfect-platform-days-at-dreamforce/?bc=DB",
+  "slug": "3-perfect-platform-days-at-dreamforce",
+  "title": "3 Perfect Platform Days at Dreamforce",
+  "author": "Mike Melone",
+  "published_date": "2025-09-25T13:19:42+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Day 1, Tuesday, Oct 14: Get Inspired and Go Hands-On",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "security",
+          "thought_leadership",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Day 1, Tuesday, Oct 14: Get Inspired and Go Hands-On'. Products: agentforce, sales_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Plan your Dreamforce experience today",
+        "body": "With more than 1,500 sessions over three days, maximize your time by creating a schedule that suits your needs.",
+        "button_text": "Build your agenda",
+        "button_url": "https://reg.salesforce.com/flow/plus/df25/agendabuilder/page/agendabuilder?_ga=2.205274256.1893455526.1758550633-765828898.1758301166",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.5,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [
+          "Funnel mismatch: CTA is decision-stage but section is awareness-stage"
+        ],
+        "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Day 2, Wednesday Oct, 15 : Become an Agentic Enterprise",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "slack",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "security",
+          "collaboration",
+          "thought_leadership",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Day 2, Wednesday Oct, 15 : Become an Agentic Enterprise'. Products: agentforce, sales_cloud, slack, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Day 3, Thursday, Oct 16: The Final Stretch",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "security",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Day 3, Thursday, Oct 16: The Final Stretch'. Products: agentforce, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.125,
+  "misaligned_count": 3
+}

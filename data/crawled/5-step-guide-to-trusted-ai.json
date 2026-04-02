@@ -1,0 +1,205 @@
+{
+  "url": "https://www.salesforce.com/blog/5-step-guide-to-trusted-ai/?bc=DB",
+  "slug": "5-step-guide-to-trusted-ai",
+  "title": "The IT Leader’s 5-Step Guide to Trusted AI",
+  "author": "Marla Hay",
+  "published_date": "2025-01-29T21:48:49+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "The opportunity ofAIis undeniable for organizations: it can fuel workflows, creativity, and innovation at unprecedented levels. Unsurprisingly, nearly 70% of senior IT leaders considerAI a top business priority. But with great potential comes greatresponsibility. AI presents challenges tied to trust, security, and ethics, all of which extend well beyond the present moment. Here are five key steps IT leaders can take to make the most oftrusted AIwhile staying transparent and secure.",
+      "word_count": 71,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "AI",
+          "href": "https://www.salesforce.com/artificial-intelligence/what-is-generative-ai/"
+        },
+        {
+          "text": "AI a top business priority",
+          "href": "https://www.salesforce.com/resources/research-reports/trusted-gen-ai-report-2024/"
+        },
+        {
+          "text": "responsibility",
+          "href": "https://trailhead.salesforce.com/content/learn/modules/responsible-creation-of-artificial-intelligence?trailmix_creator_id=czhang&trailmix_slug=building-ethical-and-inclusive-products"
+        },
+        {
+          "text": "trusted AI",
+          "href": "https://help.salesforce.com/s/articleView?id=000373015&type=3"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Step 1. Trusted AI starts with quality data",
+      "text": "The effectiveness of any AI model starts and ends with the quality of data it uses. Generative AI relies on training datasets to interpret data accurately, and poor-quality data can result in biased, irrelevant, or even harmful outputs. To ensuredata quality, it’s important to include a variety of data points that represent different perspectives, scenarios, and contexts relevant to your use case. This helps minimize the risks of bias or misleading results. Additionally, cleaning and normalizing data is equally important to reduce noise and ensure that both low- and high-quality data contribute effectively to the model. Tools likePrivacy Centerhelpmanage the surplus of datafrom multiple sources, especially when it comes to handling duplicate records. Remember that your datasets need to adapt over time to stay relevant to evolving trends. Prioritizingdata quality lays the groundworkfor building generative AI systems that provide reliable and trusted outputs, setting a strong standard forethical AI practices.",
+      "word_count": 150,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "data quality",
+          "href": "https://www.salesforce.com/blog/data-quality/"
+        },
+        {
+          "text": "Privacy Center",
+          "href": "https://www.salesforce.com/platform/privacy-center/"
+        },
+        {
+          "text": "manage the surplus of data",
+          "href": "https://www.salesforce.com/form/demo/platform-privacy-center-demo-form/?d=pb"
+        },
+        {
+          "text": "data quality lays the groundwork",
+          "href": "https://trailhead.salesforce.com/content/learn/modules/data_quality"
+        },
+        {
+          "text": "ethical AI practices",
+          "href": "https://www.salesforce.com/company/responsible-ai-and-technology/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Step 2. Define ethical boundaries and data privacy guidelines",
+      "text": "Respecting customer privacy and protecting data throughout AI processes are essential for building and maintaining user trust. As AI systems, including generative AI and agents, increasingly interact with sensitive data, including personally identifiable information (PII), IT leaders must establishstrong data protection policies. Here are some key actions to prioritizedata privacyand ethics: Create guidelines that prioritize data privacy: At every stage – from collection to processing and storage – adopt a secure and compliant approach throughout the data lifecycle (pro tip:Privacy Centersupports retention policies to manage the complete lifecycle of AI-related data used)Implement a data minimization strategy: Collect and process only the data needed to meet specific objectives and retain it only for as long as necessaryEncrypt sensitive data and limit access: This includes authorized personnel and systems to minimize the risk of unauthorized exposure or breachesForm ethical AI teams tooversee AI practices: Ensurecompliance with ethical standardsand protect the organization from legal, brand, or financial risks Transparency in how data is collected, processed, and used strengthens stakeholder trust and helps mitigate the risks of data misuse.",
+      "word_count": 175,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "strong data protection policies",
+          "href": "https://www.salesforce.com/platform/data-security/what-is-data-security/"
+        },
+        {
+          "text": "data privacy",
+          "href": "https://www.salesforce.com/blog/data-privacy-best-practices/"
+        },
+        {
+          "text": "Privacy Center",
+          "href": "https://www.salesforce.com/products/platform/products/privacy-center/"
+        },
+        {
+          "text": "oversee AI practices",
+          "href": "https://www.salesforceairesearch.com/static/ethics/EthicalAIMaturityModel.pdf"
+        },
+        {
+          "text": "compliance with ethical standards",
+          "href": "https://www.salesforce.com/blog/generative-ai-regulations/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Step 3. Establish a practice of regular auditing",
+      "text": "Even with strong ethical policies in place, AI can still produce unintended or harmful results, such as inaccuracies, biases, or misinformation. These risks become even more pronounced whenAI agents are involved incritical decision-making. A robust auditing process is key to addressing these challenges and preventing future issues. The first line of defense in AI audits involves using automated tools to scan AI outputs for compliance withethical standards and organizational policies. However, it’s just as important to gather feedback directly from end users who engage with the AI on a daily basis. Regular surveys and interviews offer a practical, ground-level view into how the AI is performing, what it produces, and how it integrates (or doesn’t) with existing teams and workflows. This approach helps organizations identify and address risks, making sure AI systems operate responsibly and effectively.",
+      "word_count": 136,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "AI agents are involved in",
+          "href": "https://www.salesforce.com/news/stories/future-of-salesforce/"
+        },
+        {
+          "text": "ethical standards and organizational policies",
+          "href": "https://www.salesforce.com/blog/data-privacy-compliance/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Step 4. Monitor and protect your AI processes",
+      "text": "Any valuable AI system will interact with sensitive data, raising security concerns — especially for organizations inhighly regulated industries. This is why bothThe White House and Congresshave called for independent AI audits to protect the public from AI misuse. In Europe,the EU Artificial Intelligence Actserves a similar purpose in regulating AI practices. To fully trust the AI you’re using, rigorous monitoring and protection measures are essential. Start by building clear boundaries around what data the AI can access and what must remain off-limits. Once these guardrails are set, the next step is defining strict access controls, making sure only authorized users can interact with theAI systems. Tools likeSecurity Centermake managing user permissions and org configurations for data used in and by AI processes easier. Ongoing security management is also critical to maintaining a trustworthy AI framework. Have a dedicated security review of your AI systems that manage testing (end-user testing, quality control testing, penetration testing, etc.). You might also want to considerEvent Monitoring, which simplifies this process with advanced features like transaction security. This allows you to set up alerts or block unintended actions within your AI processes, maintaining a trusted environment.",
+      "word_count": 192,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "highly regulated industries",
+          "href": "https://www.salesforce.com/blog/transparency-in-ai/"
+        },
+        {
+          "text": "The White House and Congress",
+          "href": "https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/"
+        },
+        {
+          "text": "the EU Artificial Intelligence Act",
+          "href": "https://artificialintelligenceact.eu/"
+        },
+        {
+          "text": "AI systems",
+          "href": "https://www.salesforce.com/blog/complete-ai-system/"
+        },
+        {
+          "text": "Security Center",
+          "href": "https://www.salesforce.com/products/platform/products/security-center/"
+        },
+        {
+          "text": "Event Monitoring",
+          "href": "https://www.salesforce.com/products/platform/products/shield/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Step 5. Prioritize transparency and be open to feedback to build trusted AI",
+      "text": "A lack of transparency around AI can lead to serious ethical concerns — so much so thatonly 42% of customers trusted businessesto use AI ethically in 2024, a drop of 16% from the previous year. This trend highlights a key lesson: customers and users are paying attention and expect businesses to beopen about how and where AI is used. IT leaders should make sure its use is never a mystery when deploying AI. One of the first steps to achieving clarity is labeling AI-generated content. Organizations should be explicit about when AI-generated content, insights, or media allows end users to evaluate and interpret this information appropriately. In addition, documenting processes and providing transparency about the datasets, models, and algorithms that produce AI outputs is important. Being open about your auditing and security processes further strengthens customer trust. And make sure to actively solicit feedback on the relevance, quality, and ethical implications of AI-generated content. This not only creates opportunities for improvement but also ensures that you align with your organization’s values. Over time, you can create a collaborative environment where AI evolves through continuous feedback and iteration.",
+      "word_count": 187,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "only 42% of customers trusted businesses",
+          "href": "https://www.salesforce.com/blog/transparency-in-ai/#:~:text=Lack%20of%20transparency%20is%20creating,down%20from%2058%25%20in%202023."
+        },
+        {
+          "text": "open about how and where AI is used",
+          "href": "https://www.salesforce.com/blog/data-foundation/"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "Trusted AI is a process, not a given",
+      "text": "Building trusted AI isn’t something that happens automatically – it’s a journey thatrequires ongoing effort. As AI continues to reshape modern enterprises, ensuring trusted AI means taking aproactive approachto data quality, privacy protection, regular audits, and transparency.Agentforceis designed to support you through each step, from policy creation to agent implementation. By putting these measures in place, you help build a trusted framework that upholds the integrity and reliability of AI processes, all while supporting innovation in a secure environment.",
+      "word_count": 79,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "requires ongoing effort",
+          "href": "https://www.salesforce.com/news/stories/video/ibm-cio-ai-agent-use-cases/"
+        },
+        {
+          "text": "proactive approach",
+          "href": "https://www.salesforce.com/blog/the-agentic-ai-era-after-the-dawn-heres-what-to-expect/"
+        },
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/news/press-releases/2024/09/12/agentforce-announcement/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "Start learning",
+      "button_url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-ai-data",
+      "position_after_section": 6
+    },
+    {
+      "heading": "Don’t DIY your AI",
+      "body": "Join Salesforce experts to learn how to build and deploy your own AI agents quickly without the hassle of a DIY implementation.",
+      "button_text": "Access the webinar now",
+      "button_url": "https://www.salesforce.com/form/events/webinars/form-rss/4783270",
+      "position_after_section": 4
+    },
+    {
+      "heading": "Trust + security = AI you can rely on",
+      "body": "In this guide, you’ll learn the essential strategies for building a trusted foundation for generative AI so your business can thrive.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/resources/research-reports/trusted-gen-ai-report-2024/",
+      "position_after_section": 6
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>The opportunity of <a href=\"https://www.salesforce.com/artificial-intelligence/what-is-generative-ai/\" rel=\"noopener\" target=\"_blank\">AI</a> is undeniable for organizations: it can fuel workflows, creativity, and innovation at unprecedented levels. Unsurprisingly, nearly 70% of senior IT leaders consider <a href=\"https://www.salesforce.com/resources/research-reports/trusted-gen-ai-report-2024/\" rel=\"noopener\" target=\"_blank\">AI a top business priority</a>. </p>\n<p>But with great potential comes great <a href=\"https://trailhead.salesforce.com/content/learn/modules/responsible-creation-of-artificial-intelligence?trailmix_creator_id=czhang&amp;trailmix_slug=building-ethical-and-inclusive-products\" rel=\"noopener\" target=\"_blank\">responsibility</a>. AI presents challenges tied to trust, security, and ethics, all of which extend well beyond the present moment. Here are five key steps IT leaders can take to make the most of <a href=\"https://help.salesforce.com/s/articleView?id=000373015&amp;type=3\" rel=\"noopener\" target=\"_blank\">trusted AI</a> while staying transparent and secure.    </p>\n<h2 class=\"wp-block-heading\" id=\"h-step-1-trusted-ai-starts-with-quality-data\">Step 1. Trusted AI starts with quality data</h2>\n<p>The effectiveness of any AI model starts and ends with the quality of data it uses. Generative AI relies on training datasets to interpret data accurately, and poor-quality data can result in biased, irrelevant, or even harmful outputs.</p>\n<p>To ensure <a href=\"https://www.salesforce.com/blog/data-quality/\" rel=\"noopener\" target=\"_blank\">data quality</a>, it’s important to include a variety of data points that represent different perspectives, scenarios, and contexts relevant to your use case. </p>\n<p>This helps minimize the risks of bias or misleading results. Additionally, cleaning and normalizing data is equally important to reduce noise and ensure that both low- and high-quality data contribute effectively to the model. Tools like <a href=\"https://www.salesforce.com/platform/privacy-center/\" rel=\"noopener\" target=\"_blank\">Privacy Center</a> help <a href=\"https://www.salesforce.com/form/demo/platform-privacy-center-demo-form/?d=pb\" rel=\"noopener\" target=\"_blank\">manage the surplus of data</a> from multiple sources, especially when it comes to handling duplicate records. </p>\n<p>Remember that your datasets need to adapt over time to stay relevant to evolving trends. Prioritizing <a href=\"https://trailhead.salesforce.com/content/learn/modules/data_quality\" rel=\"noopener\" target=\"_blank\">data quality lays the groundwork</a> for building generative AI systems that provide reliable and trusted outputs, setting a strong standard for <a href=\"https://www.salesforce.com/company/responsible-ai-and-technology/\" rel=\"noopener\" target=\"_blank\">ethical AI practices</a>.</p>\n<div class=\"layout-astro wp-block-salesforce-blog-related-trail\">\n<img alt=\"\" class=\"related-trail__illustration related-trail__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-cloud-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__background\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-background-layout-astro.png\"/>\n<div class=\"related-trail__wrapper\">\n<div class=\"related-trail__content\">\n<svg aria-hidden=\"true\" class=\"related-trail__logo\" viewbox=\"0 0 345.8 82.8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M96.6 33h9v22.6h4.8V33h8.8v-4.3H96.6zm49.8 5.3c0-5.7-3.6-9.6-10.8-9.6H127v27h4.8v-7.9h3l2.3-.1 5.7 8h5.6l-7-9.2c3.4-1.6 5-4.5 5-8.2m-11.1 5.3h-3.6V33h3.6c4.4 0 6 2.3 6 5.3s-1.6 5.3-6 5.3m30.8-15.2-12.6 27.2h5l2.3-5.3h11.6l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm25.2-17.7h4.8v27h-4.8zm20.7 0h-4.8v27h17.6v-4.4h-12.8zm38.4 12.1h-13.2V28.7H229v27h4.7V45h13.2v10.6h4.7V28.7h-4.7zm15.9 14.8h17.5v-4.4h-12.7v-6.4H279v-4.2h-11.5v-7.5h12.7v-4.4h-17.5zm36.9-27.2L287 55.6h5l2.3-5.3H306l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm35.4-17.7h-10.2v27h10.2c8.2 0 14.4-5.9 14.4-13.6s-6-13.4-14.4-13.4m0 22.6H326V33h5.4a9.1 9.1 0 1 1 0 18.1z\" fill=\"#1d3767\"></path><path d=\"M43 82.8h.1a74 74 0 0 0 38.5-12.3 3 3 0 0 0 1.3-2.4v-6A66.2 66.2 0 0 0 42.5.2a3 3 0 0 0-2.3 0A66.2 66.2 0 0 0 0 62.2V68a3 3 0 0 0 1.2 2.4 74 74 0 0 0 40.2 12.4z\" fill=\"#1d315f\"></path><path d=\"M13.8 51.8a.3.3 0 0 0 0-.1L33 23.6a3.1 3.1 0 0 1 .8-.8 3 3 0 0 1 4 .8l9.5 13.8 3.5-5a3 3 0 0 1 4.9 0L69 51.6a.3.3 0 0 1 .1.3h7C70.7 17.7 43.7 7.2 41.4 6.2c0 0-11.2 4-21.2 16A59.6 59.6 0 0 0 6.8 51.8zm21.7-21.3\" fill=\"#8ed1f4\"></path><path d=\"m62 51.9-8.7-12.6-4.2 6.1 4.8 6.4z\" fill=\"#aa76b3\"></path><path d=\"m49 45.4-4.4 6.4H54z\" fill=\"#722a87\"></path><path d=\"m37 32.6-1.5-2.1z\" fill=\"#8ed1f4\"></path><path d=\"m28 41.4 7.6 10.4h1.8l6.4-9.2-6.8-10-1.5-2.1z\" fill=\"#aa76b3\"></path><path d=\"m28 41.4-7 10.4h14.6z\" fill=\"#722a87\"></path><path d=\"M43.8 72.5a1.8 1.8 0 0 0-1-2.4L40.1 69a8 8 0 0 1-1-.5 7.8 7.8 0 0 1-2.4-10.7H6a44 44 0 0 0-.2 4.4v4.4A70 70 0 0 0 26 75a70 70 0 0 0 15.2 2l2.4-4.3zm33-14.8H44.3l-2.5 3a1.7 1.7 0 0 0-.2.5 1.8 1.8 0 0 0 1 2.3l2.7 1.2.7.4a7.8 7.8 0 0 1 3 10.6l-.5.9 4.8-.8a71 71 0 0 0 8.4-2.2l1.3-.4a71 71 0 0 0 14-6.7v-8.8z\" fill=\"#069a49\"></path><path d=\"m46 65-.7-.3-2.7-1.2a1.8 1.8 0 0 1-1-2.4 1.7 1.7 0 0 1 .2-.4l2.5-3h-7.6A7.8 7.8 0 0 0 39 68.4a8 8 0 0 0 1 .5l2.7 1.2a1.8 1.8 0 0 1 1 2.4l-.1.2-2.5 4.3a52.5 52.5 0 0 0 7.2-.4l.5-.9A7.8 7.8 0 0 0 46 65.1z\" fill=\"#fff\"></path><path d=\"M56.9 67.3h8.8l-4.4-5zM23 71h9l-4.5-5.1zm-4.1-10.4-4.5 5h8.9z\" fill=\"#157139\"></path></svg>\n<h2 class=\"wp-block-related-trail__title\">Learning made (AI)mazing</h2>\n<p>Learn how artificial intelligence works and how to use it effectively and responsibly on Trailhead, Salesforce's free learning platform.</p>\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://trailhead.salesforce.com/content/learn/trails/get-started-with-ai-data\" rel=\"noopener\" target=\"_blank\">Start learning</a></div>\n</div>\n<div class=\"related-trail__mock\">\n<div class=\"related-trail__points\">+2,200 points</div>\n<div class=\"related-trail__eyebrow\">Trail</div>\n<p class=\"related-trail__trail-title h3\">Get Started with Artificial Intelligence</p>\n<p class=\"related-trail__trail-description\">Learn the ways of this trail.</p>\n<div class=\"related-trail__actions\">\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\"><path clip-rule=\"evenodd\" d=\"m4.93.69.88 2.88c.04.12.16.18.27.18h2.89c.29 0 .4.38.17.56L6.79 6.04c-.1.07-.13.2-.1.32l1.12 2.96c.08.27-.2.5-.44.33L4.85 7.77c-.1-.08-.23-.08-.34 0L1.97 9.65a.29.29 0 0 1-.45-.33L2.6 6.36a.3.3 0 0 0-.1-.32L.17 4.3c-.23-.18-.1-.56.17-.56h2.89c.13 0 .23-.04.27-.18l.9-2.9c.08-.27.46-.25.54.02Z\" fill=\"#747474\" fill-rule=\"evenodd\"></path></svg>\n</div>\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 9 5\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.16 4.5.26 0h7.8z\" fill=\"#747474\"></path></svg>\n</div>\n</div>\n</div>\n</div>\n<img alt=\"\" class=\"related-trail__illustration related-trail__foreground\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-foreground-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__parks\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-parks-layout-astro.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">Step 2. Define ethical boundaries and data privacy guidelines</h2>\n<p>Respecting customer privacy and protecting data throughout AI processes are essential for building and maintaining user trust. </p>\n<p>As AI systems, including generative AI and agents, increasingly interact with sensitive data, including personally identifiable information (PII), IT leaders must establish <a href=\"https://www.salesforce.com/platform/data-security/what-is-data-security/\" rel=\"noopener\" target=\"_blank\">strong data protection policies</a>. Here are some key actions to prioritize <a href=\"https://www.salesforce.com/blog/data-privacy-best-practices/\" rel=\"noopener\" target=\"_blank\">data privacy</a> and ethics:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Create guidelines that prioritize data privacy</strong>: At every stage – from collection to processing and storage – adopt a secure and compliant approach throughout the data lifecycle (pro tip: <a href=\"https://www.salesforce.com/products/platform/products/privacy-center/\" rel=\"noopener\" target=\"_blank\">Privacy Center</a> supports retention policies to manage the complete lifecycle of AI-related data used)     </li>\n<li><strong>Implement a data minimization strategy</strong>: Collect and process only the data needed to meet  specific objectives and retain it only for as long as necessary     </li>\n<li><strong>Encrypt sensitive data and limit access</strong>: This includes authorized personnel and systems to minimize the risk of unauthorized exposure or breaches</li>\n<li><strong>Form ethical AI teams to </strong><a href=\"https://www.salesforceairesearch.com/static/ethics/EthicalAIMaturityModel.pdf\" rel=\"noopener\" target=\"_blank\"><strong>oversee AI practices</strong></a>: Ensure <a href=\"https://www.salesforce.com/blog/generative-ai-regulations/\" rel=\"noopener\" target=\"_blank\">compliance with ethical standards</a> and protect the organization from legal, brand, or financial risks     </li>\n</ul>\n<p>Transparency in how data is collected, processed, and used strengthens stakeholder trust and helps mitigate the risks of data misuse.</p>\n<h2 class=\"wp-block-heading\">Step 3. Establish a practice of regular auditing</h2>\n<p>Even with strong ethical policies in place, AI can still produce unintended or harmful results, such as inaccuracies, biases, or misinformation. </p>\n<p>These risks become even more pronounced when <a href=\"https://www.salesforce.com/news/stories/future-of-salesforce/\" rel=\"noopener\" target=\"_blank\">AI agents are involved in</a> critical decision-making. A robust auditing process is key to addressing these challenges and preventing future issues.     </p>\n<p>The first line of defense in AI audits involves using automated tools to scan AI outputs for compliance with <a href=\"https://www.salesforce.com/blog/data-privacy-compliance/\" rel=\"noopener\" target=\"_blank\">ethical standards and organizational policies</a>. However, it’s just as important to gather feedback directly from end users who engage with the AI on a daily basis. </p>\n<p>Regular surveys and interviews offer a practical, ground-level view into how the AI is performing, what it produces, and how it integrates (or doesn’t) with existing teams and workflows. This approach helps organizations identify and address risks, making sure AI systems operate responsibly and effectively.      </p>\n<h2 class=\"wp-block-heading\">Step 4. Monitor and protect your AI processes</h2>\n<p>Any valuable AI system will interact with sensitive data, raising security concerns — especially for organizations in <a href=\"https://www.salesforce.com/blog/transparency-in-ai/\" rel=\"noopener\" target=\"_blank\">highly regulated industries</a>. This is why both <a href=\"https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/\" rel=\"noopener\" target=\"_blank\">The White House and Congress</a> have called for independent AI audits to protect the public from AI misuse. In Europe, <a href=\"https://artificialintelligenceact.eu/\" rel=\"noopener\" target=\"_blank\">the EU Artificial Intelligence Act</a> serves a similar purpose in regulating AI practices.           </p>\n<p>To fully trust the AI you’re using, rigorous monitoring and protection measures are essential. Start by building clear boundaries around what data the AI can access and what must remain off-limits.      </p>\n<p>Once these guardrails are set, the next step is defining strict access controls, making sure only authorized users can interact with the <a href=\"https://www.salesforce.com/blog/complete-ai-system/\" rel=\"noopener\" target=\"_blank\">AI systems</a>. Tools like <a href=\"https://www.salesforce.com/products/platform/products/security-center/\" rel=\"noopener\" target=\"_blank\">Security Center</a> make managing user permissions and org configurations for data used in and by AI processes easier.     </p>\n<p>Ongoing security management is also critical to maintaining a trustworthy AI framework. Have a dedicated security review of your AI systems that manage testing (end-user testing, quality control testing, penetration testing, etc.). </p>\n<p>You might also want to consider <a href=\"https://www.salesforce.com/products/platform/products/shield/\" rel=\"noopener\" target=\"_blank\">Event Monitoring</a>, which simplifies this process with advanced features like transaction security. This allows you to set up alerts or block unintended actions within your AI processes, maintaining a trusted environment.     </p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Don’t DIY your AI</h2>\n<p class=\"wp-block-offer__description\">Join Salesforce experts to learn how to build and deploy your own AI agents quickly without the hassle of a DIY implementation. </p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/events/webinars/form-rss/4783270\" target=\"_blank\">Access the webinar now</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-step-5-prioritize-transparency-and-be-open-to-feedback-to-build-trusted-ai\">Step 5. Prioritize transparency and be open to feedback to build trusted AI</h2>\n<p>A lack of transparency around AI can lead to serious ethical concerns — so much so that <a href=\"https://www.salesforce.com/blog/transparency-in-ai/#:~:text=Lack%20of%20transparency%20is%20creating,down%20from%2058%25%20in%202023.\" rel=\"noopener\" target=\"_blank\">only 42% of customers trusted businesses</a> to use AI ethically in 2024, a drop of 16% from the previous year. </p>\n<p>This trend highlights a key lesson: customers and users are paying attention and expect businesses to be <a href=\"https://www.salesforce.com/blog/data-foundation/\" rel=\"noopener\" target=\"_blank\">open about how and where AI is used</a>.     </p>\n<p>IT leaders should make sure its use is never a mystery when deploying AI. One of the first steps to achieving clarity is labeling AI-generated content. Organizations should be explicit about when AI-generated content, insights, or media allows end users to evaluate and interpret this information appropriately.      </p>\n<p>In addition, documenting processes and providing transparency about the datasets, models, and algorithms that produce AI outputs is important. Being open about your auditing and security processes further strengthens customer trust. </p>\n<p>And make sure to actively solicit feedback on the relevance, quality, and ethical implications of AI-generated content. This not only creates opportunities for improvement but also ensures that you align with your organization’s values. </p>\n<p>Over time, you can create a collaborative environment where AI evolves through continuous feedback and iteration.</p>\n<h2 class=\"wp-block-heading\">Trusted AI is a process, not a given</h2>\n<p>Building trusted AI isn’t something that happens automatically – it’s a journey that <a href=\"https://www.salesforce.com/news/stories/video/ibm-cio-ai-agent-use-cases/\" rel=\"noopener\" target=\"_blank\">requires ongoing effort</a>. </p>\n<p>As AI continues to reshape modern enterprises, ensuring trusted AI means taking a <a href=\"https://www.salesforce.com/blog/the-agentic-ai-era-after-the-dawn-heres-what-to-expect/\" rel=\"noopener\" target=\"_blank\">proactive approach</a> to data quality, privacy protection, regular audits, and transparency. <a href=\"https://www.salesforce.com/news/press-releases/2024/09/12/agentforce-announcement/\" rel=\"noopener\" target=\"_blank\">Agentforce</a> is designed to support you through each step, from policy creation to agent implementation.      </p>\n<p>By putting these measures in place, you help build a trusted framework that upholds the integrity and reliability of AI processes, all while supporting innovation in a secure environment. </p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Trust + security = AI you can rely on</h2>\n<p class=\"wp-block-offer__description\">In this guide, you’ll learn the essential strategies for building a trusted foundation for generative AI so your business can thrive. </p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/resources/research-reports/trusted-gen-ai-report-2024/\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n</div>"
+}

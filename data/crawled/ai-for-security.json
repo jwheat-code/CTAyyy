@@ -1,0 +1,107 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-for-security/?bc=DB",
+  "slug": "ai-for-security",
+  "title": "Turning the Tables: How to Use AI to Get Ahead of Security Threats",
+  "author": "Cynthia Huang",
+  "published_date": "2025-09-05T11:14:34+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Asartificial intelligence(AI) becomes more integral to our everyday lives, attackers are looking for ways to exploit AI models directly. Cybercriminals are already using AI to create more effective and scalable attacks, from personalized phishing emails togenerating new malware.Traditional, signature-based security tools struggle to keep up with this rapid pace of innovation. They’re designed to react to known threats, but what happens when a threat is brand new and has never been seen before? While ensuringthe security of AI systems like Agentforceis critical, that’s only half of the equation. In addition to protecting AI-specific processes, you can also use AI to detect and respond to security challenges.",
+      "word_count": 106,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "artificial intelligence",
+          "href": "https://www.salesforce.com/artificial-intelligence/what-is-ai/"
+        },
+        {
+          "text": "generating new malware.",
+          "href": "https://www.eset.com/blog/en/business-topics/threat-landscape/the-first-known-ai-written-ransomware/"
+        },
+        {
+          "text": "the security of AI systems like Agentforce",
+          "href": "https://www.salesforce.com/artificial-intelligence/trusted-ai/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "The AI paradox in cybersecurity",
+      "text": "OurState of IT: Security Reporthighlights a unique “AI paradox”: 80% of IT leaders see both new security challenges and immense potential for AI to strengthen their security posture. This sentiment was echoed at the2025 RSA Conference, where a key theme for more than 40,000 professionals was AI’s rapid reshaping of the cybersecurity landscape‌ — ‌bringing both unprecedented opportunities and significant challenges.",
+      "word_count": 61,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "State of IT: Security Report",
+          "href": "https://www.salesforce.com/form/platform/4th-state-of-it-security/"
+        },
+        {
+          "text": "2025 RSA Conference",
+          "href": "https://www.onec1.com/blog/major-rsa-conference-2025-trends-in-ai-cybersecurity"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "What are security teams struggling with?",
+      "text": "Not all security teams are created equal. Many SaaS business owners, for example, are responsible for managing the security of their environments but lack the necessary experience and expertise. For them, detecting, investigating, and remediating a security incident can be a difficult, time-consuming, and even overwhelming task. Seasoned security professionals, on the other hand, are experts in security, but often lack the deep, platform-specific knowledge needed to effectively protect every part of a business. In both scenarios, traditional security tools can’t easily bridge this gap.",
+      "word_count": 85,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "Three ways AI can augment your security posture",
+      "text": "AI is uniquely positioned to address these challenges by augmenting human capabilities and automating critical security tasks. By automating threat detection, prevention, and response, AI-powered systems help organizations respond to cyber threats quickly and accurately. Here are a few ways AI can provide much-needed support: Instead of relying on predefined rules, AI can analyze vast amounts of data to learn what “normal” behavior looks like. When a deviation occurs‌ — ‌even a subtle one‌ — ‌AI can flag it in real-time, helping to identify zero-day attacks and insider threats that would otherwise go unnoticed. When a potential incident is detected, AI can act as a tireless investigator. It can quickly correlate data from various sources, such as user activity logs, network traffic, and system events, to build a comprehensive timeline of the incident. This drastically reduces the time it takes for a human analyst to understand the scope and impact of an attack. Once an investigation is complete, AI can provide a head start on recovery. By analyzing the incident and learning from past remediation efforts, it can propose a clear, actionable plan to contain the threat and restore the system to a secure state, enabling teams to act faster and more effectively.",
+      "word_count": 203,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "Putting AI to work with Agentforce in Security Center",
+      "text": "As we’ve seen, AI can be powerful ally when defending against cyberthreats. We’re excited to announce thatAgentforce is now available with Security Center, a tool designed to improve the security posture of your entire Salesforce environment. Security Center offers a unified view of metrics, user permissions, and activity, and with the addition of Agentforce, you can now: Conduct fast, in-depth security investigations:Get immediate, insightful summaries of user activity.Receive guided security remediation:Let Agentforce guide you with step-by-step instructions to resolve incidents and prevent future threats.Benefit from proactive threat detection and monitoring:Simply ask Agentforce about potential issues or let it proactively flag irregularities for you.",
+      "word_count": 103,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agentforce is now available with Security Center",
+          "href": "https://www.salesforce.com/blog/agentforce-in-security-center/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Looking Ahead: The Future is Now",
+      "text": "It’s getting to be that time again when budgets are being planned for the next year. According to our State of IT: Security Report, 80% of security leaders anticipate their security budgets will increase. As you start to plan yours, keep in mind how budgeting for AI initiatives can help you not just keep up, but get ahead of the threats. Check out theSecurity Keynotefrom Dreamforce 2025 to learn more about Agentforce in Security Center and how it can transform your security posture.",
+      "word_count": 83,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Security Keynote",
+          "href": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/it_at_dreamforce_2025/episode/episode-s1e23"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Be ready and AI-ble for Agentforce",
+      "body": "Dive into the world of AI with both eyes open — here are six essential security steps to prepare for Agentforce.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/platform/six-security-steps-to-prepare-for-agentforce/",
+      "position_after_section": 1
+    },
+    {
+      "heading": "Future-proof your IT security strategy",
+      "body": "Learn how the top security and compliance professionals are securing their data in the AI era.",
+      "button_text": "Download the report",
+      "button_url": "https://www.salesforce.com/form/platform/4th-state-of-it-security/",
+      "position_after_section": 5
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>As <a href=\"https://www.salesforce.com/artificial-intelligence/what-is-ai/\">artificial intelligence</a> (AI) becomes more integral to our everyday lives, attackers are looking for ways to exploit AI models directly. Cybercriminals are already using AI to create more effective and scalable attacks, from personalized phishing emails to <a href=\"https://www.eset.com/blog/en/business-topics/threat-landscape/the-first-known-ai-written-ransomware/\" rel=\"noopener\" target=\"_blank\">generating new malware.</a> Traditional, signature-based security tools struggle to keep up with this rapid pace of innovation. They’re designed to react to known threats, but what happens when a threat is brand new and has never been seen before? </p>\n<p>While ensuring <a href=\"https://www.salesforce.com/artificial-intelligence/trusted-ai/\" rel=\"noopener\" target=\"_blank\">the security of AI systems like Agentforce</a> is critical, that’s only half of the equation. In addition to protecting AI-specific processes, you can also use AI to detect and respond to security challenges.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-ai-paradox-in-cybersecurity\">The AI paradox in cybersecurity</h2>\n<p>Our <a href=\"https://www.salesforce.com/form/platform/4th-state-of-it-security/\" rel=\"noopener\" target=\"_blank\">State of IT: Security Report</a> highlights a unique “AI paradox”: 80% of IT leaders see both new security challenges and immense potential for AI to strengthen their security posture. This sentiment was echoed at the <a href=\"https://www.onec1.com/blog/major-rsa-conference-2025-trends-in-ai-cybersecurity\" rel=\"noopener\" target=\"_blank\">2025 RSA Conference</a>, where a key theme for more than 40,000 professionals was AI’s rapid reshaping of the cybersecurity landscape‌ — ‌bringing both unprecedented opportunities and significant challenges.</p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Be ready and AI-ble for Agentforce</h2>\n<p class=\"wp-block-offer__description\">Dive into the world of AI with both eyes open — here are six essential security steps to prepare for Agentforce.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/six-security-steps-to-prepare-for-agentforce/\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-what-are-security-teams-struggling-with\">What are security teams struggling with?</h2>\n<p>Not all security teams are created equal. Many SaaS business owners, for example, are responsible for managing the security of their environments but lack the necessary experience and expertise. For them, detecting, investigating, and remediating a security incident can be a difficult, time-consuming, and even overwhelming task.</p>\n<p>Seasoned security professionals, on the other hand, are experts in security, but often lack the deep, platform-specific knowledge needed to effectively protect every part of a business. In both scenarios, traditional security tools can’t easily bridge this gap.</p>\n<h2 class=\"wp-block-heading\" id=\"h-three-ways-ai-can-augment-your-security-posture\">Three ways AI can augment your security posture</h2>\n<p>AI is uniquely positioned to address these challenges by augmenting human capabilities and automating critical security tasks. By automating threat detection, prevention, and response, AI-powered systems help organizations respond to cyber threats quickly and accurately. Here are a few ways AI can provide much-needed support:</p>\n<h3 class=\"wp-block-heading\" id=\"h-detecting-anomalies\">Detecting anomalies</h3>\n<p>Instead of relying on predefined rules, AI can analyze vast amounts of data to learn what “normal” behavior looks like. When a deviation occurs‌ — ‌even a subtle one‌ — ‌AI can flag it in real-time, helping to identify zero-day attacks and insider threats that would otherwise go unnoticed.</p>\n<h3 class=\"wp-block-heading\" id=\"h-investigating-security-incidents\">Investigating security incidents</h3>\n<p>When a potential incident is detected, AI can act as a tireless investigator. It can quickly correlate data from various sources, such as user activity logs, network traffic, and system events, to build a comprehensive timeline of the incident. This drastically reduces the time it takes for a human analyst to understand the scope and impact of an attack.</p>\n<h3 class=\"wp-block-heading\" id=\"h-proposing-a-remediation-plan\"><strong>Proposing a remediation plan</strong></h3>\n<p>Once an investigation is complete, AI can provide a head start on recovery. By analyzing the incident and learning from past remediation efforts, it can propose a clear, actionable plan to contain the threat and restore the system to a secure state, enabling teams to act faster and more effectively.</p>\n<h2 class=\"wp-block-heading\" id=\"h-putting-ai-to-work-with-agentforce-in-security-center\"><strong>Putting AI to work with Agentforce in Security Center</strong></h2>\n<p>As we’ve seen, AI can be powerful ally when defending against cyberthreats. We’re excited to announce that <strong><a href=\"https://www.salesforce.com/blog/agentforce-in-security-center/\" rel=\"noopener\" target=\"_blank\">Agentforce is now available with Security Center</a></strong>, a tool designed to improve the security posture of your entire Salesforce environment. Security Center offers a unified view of metrics, user permissions, and activity, and with the addition of Agentforce, you can now:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Conduct fast, in-depth security investigations:</strong> Get immediate, insightful summaries of user activity.</li>\n<li><strong>Receive guided security remediation:</strong> Let Agentforce guide you with step-by-step instructions to resolve incidents and prevent future threats.</li>\n<li><strong>Benefit from proactive threat detection and monitoring:</strong> Simply ask Agentforce about potential issues or let it proactively flag irregularities for you.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-looking-ahead-the-future-is-now\">Looking Ahead: The Future is Now</h2>\n<p>It’s getting to be that time again when budgets are being planned for the next year. According to our State of IT: Security Report, 80% of security leaders anticipate their security budgets will increase. As you start to plan yours, keep in mind how budgeting for AI initiatives can help you not just keep up, but get ahead of the threats. </p>\n<p>Check out the <a href=\"https://www.salesforce.com/plus/experience/dreamforce_2025/series/it_at_dreamforce_2025/episode/episode-s1e23\" rel=\"noopener\" target=\"_blank\">Security Keynote</a> from Dreamforce 2025 to learn more about Agentforce in Security Center and how it can transform your security posture.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Future-proof your IT security strategy</h2>\n<p class=\"wp-block-offer__description\">Learn how the top security and compliance professionals are securing their data in the AI era.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/4th-state-of-it-security/\" target=\"_blank\">Download the report</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n</div>"
+}

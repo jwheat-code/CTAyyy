@@ -1,0 +1,248 @@
+{
+  "url": "https://www.salesforce.com/blog/sustainability-business-value/?bc=DB",
+  "slug": "sustainability-business-value",
+  "title": "Sustainability’s new agenda for business value, unified data, and AI at Dreamforce 2025",
+  "author": "Patrick McAteer",
+  "published_date": "2025-11-03T16:45:00+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "security",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, sales_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "1.Sustainability must “flip the script” to secure stakeholder buy-in",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "productivity",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '1.Sustainability must “flip the script” to secure stakeholder buy-in'. Products: sales_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "2.Disconnected spreadsheets are out, a single source of sustainability truth is in",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in '2.Disconnected spreadsheets are out, a single source of sustainability truth is in'. Products: agentforce, sales_cloud. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "See the future of Agentforce Net Zero",
+        "body": "Agentforce Net Zero Head of Product Prashanthi Sudhakar overviewed the latest trends and challenges in the world of sustainability—and how Agentforce Net Zero is uniquely positioned to solve them—during a product roadmap session at Dreamforce.",
+        "button_text": "Watch now",
+        "button_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/manufacturing_automotive_and_energy_at_dreamforce_2025/episode/episode-s1e10",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "3. Connecting sustainability data across the business drives ROI",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "einstein_ai",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "productivity",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in '3. Connecting sustainability data across the business drives ROI'. Products: einstein_ai, sales_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "From a solid data foundation to an AI-powered future",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "productivity",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'From a solid data foundation to an AI-powered future'. Products: agentforce. Funnel: decision."
+      },
+      "existing_cta": {
+        "heading": "Sustainability, simplified.",
+        "body": "",
+        "button_text": "Meet Agentforce Net Zero",
+        "button_url": "https://www.salesforce.com/form/conf/sustainability/net-zero-cloud-demo/?leadcreated=true&redirect=true&sfuuid=50abfd59-749a-4844-8aea-5e4926df0550&tid=be62ebb4-100d-47f7-aa01-eff0413983d0&chapter=&d=pb&player=&nc=7013y000002OvULAA0&videoId=&playlistId=",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is decision-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.36,
+  "misaligned_count": 3
+}

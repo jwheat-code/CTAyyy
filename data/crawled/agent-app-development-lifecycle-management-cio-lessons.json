@@ -1,0 +1,164 @@
+{
+  "url": "https://www.salesforce.com/blog/agent-app-development-lifecycle-management-cio-lessons/?bc=DB",
+  "slug": "agent-app-development-lifecycle-management-cio-lessons",
+  "title": "Circle Back to Success: Four ALM Lessons to Deploy your Agents and Apps",
+  "author": "Alli Jaeggi",
+  "published_date": "2025-09-29T13:18:09+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "If you’re in IT, this is not new news — IT teams are overwhelmed. If you have a project (or five) that you need to “circle back to”, you’re not alone. Withproject requests jumping 18% compared to last year, it’s not hard to imagine why1 in 3 IT projects miss their deadlines. The expected timeline from ideation to deployment is getting shorter and shorter, but scalability and security still need to be top of mind along the way. Enteragent and application lifecycle management(ALM). This methodology balances flexibility and structure to support fast-paced, mixed-coding environments, along with security and governance needs. With a strong ALM process, teams can have clear project specs, better testing data, secure data that adheres to key regulations, and streamlined systems and workflows to make sure the job is done seamlessly. Ultimately, an ALM strategy can help teams keep up, meet deadlines, and deploy their AI agents and apps quickly and securely.",
+      "word_count": 155,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "project requests jumping 18% compared to last year",
+          "href": "https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/"
+        },
+        {
+          "text": "1 in 3 IT projects miss their deadlines",
+          "href": "https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/"
+        },
+        {
+          "text": "agent and application lifecycle management",
+          "href": "https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/?leadcreated=true&redirect=true&sfuuid=419cbe29-b6ca-4bb0-8d6e-71f2b7a2c9c1&tid=841fe048-5daa-42fb-b8b3-0c9c382066b8&d=70130000000sUVq&nc=701ed00000Vbf2QAAR"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Introducing Agent and Application Lifecycle Management",
+      "text": "Agent and application lifecycle management(ALM) covers the entire journey of building, testing, deploying, and continuously improving AI agents and apps. There are five main stages: 1) Ideate and plan, 2) Build, 3) Test, 4) Observe, and 5) Deploy. Throughout the entire process, governance is baked into each stage to ensure consistency, compliance, and reliability. In other words, ALM is a system that helps IT teams manage their projects consistently to ensure they’re meeting their deployment deadlines. In the age ofagentic AI, it’s easy to get caught up in the boundless benefits that this technology can help your business achieve. However, in order to turn hype into a strong AI implementation strategy, it’s critical to take a step back, reflect, and learn from others to build the future. In a chat with Chief Data Officer at Zurich Insurance,Alex Sidgreavesand Salesforce Product Marketing Director, Alli Jaeggi,unpacked software development in the age of agentic AI. To foster your organization’s AI transformation, here are four key takeaways from their conversation.",
+      "word_count": 166,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Agent and application lifecycle management",
+          "href": "https://www.salesforce.com/blog/agent-and-application-lifecycle-management/"
+        },
+        {
+          "text": "agentic AI",
+          "href": "https://www.salesforce.com/agentforce/what-is-agentic-ai/"
+        },
+        {
+          "text": "Alex Sidgreaves",
+          "href": "https://www.linkedin.com/in/alexsidgreaves/"
+        },
+        {
+          "text": "unpacked software development in the age of agentic AI.",
+          "href": "https://www.salesforce.com/form/platform/AI-development-secure-platform/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Lesson 1: Connect early, communicate often",
+      "text": "“Ideate and plan” is the first step of the ALM process, and for good reason. Before the first line of code is even written, everyone should be on the same page. Intentional, thoughtful planning helps minimize technical debt and compliance headaches down the line. By connecting teams and stakeholders early, everyone can agree on shared goals and expectations. Team members can understand project requirements, testing needs, security standards, and how changes will be managed throughout the project lifecycle. Deeper into the process, consistent communication keeps business stakeholders closely involved. Providing relevant updates and transparency, in turn, builds trust and buy-in for your agents and apps. And, when quick decisions need to be made, there is less time needed to catch up and more time finding a solution.",
+      "word_count": 127,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "Lesson 2: Find the right tools",
+      "text": "Low-code and no-code tools are becoming standard practice in modern development, and the use of AI is quickly gaining traction. And it’s no surprise why that is:majority (84%) of developers who use AI say it helps their teams complete projects faster. AI as a coding partner for code generation assistance, test case creation, and other repetitive tasks — helps developers focus on the bigger picture, like fine-tuning AI-driven solutions and orchestrating strategy. At the end of the day,AI is meant to support the stack, not own it. From traditional software development, low- and no-code tools, and now the emergence of “vibe coding” — developers have a plethora of tools at their disposal. It’s just a matter of identifying the best use cases for AI to accelerate the process.",
+      "word_count": 128,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "majority (84%) of developers who use AI say it helps their teams complete projects faster",
+          "href": "https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/"
+        },
+        {
+          "text": "AI is meant to support the stack, not own it",
+          "href": "https://docs.google.com/document/d/1T_NmbYD9PtCaJZVhqMQDhRI1Y2q33ibwJGtRNlcytWU/edit?tab=t.0"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Lesson 3: Build in layers",
+      "text": "Agentic AI is new and exciting, but it’s important to be mindful how it fits with business goals. Rather thantrying to integrate AI into every workflow and processall at once, organizations can start by evaluating key priorities and where AI could be a high-impact, high-value solution. “Don’t be afraid to build your AI capabilities in stages. The first layer might simply provide new insights.” says Sidgreaves. Starting with smaller projects can equip teams to learn the lessons to tackle the more complex problems later. The way teams organize their projects can also support this iterative strategy. Sidegreaves shared that by creating a modular architecture usingsandbox environments, teams can break down a big project into smaller, more manageable steps. In turn, enabling more agility to make updates quickly and adjust as teams learn.",
+      "word_count": 132,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "trying to integrate AI into every workflow and process",
+          "href": "https://www.salesforce.com/blog/agentic-automation/"
+        },
+        {
+          "text": "sandbox environments",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Lesson 4: Accelerate with governance",
+      "text": "Traditionally, organizations have used a more reactive approach when it came to security, compliance, and governance. However, in today’s tech landscape, where cybersecurity threats are getting more sophisticated and the need to have an abundance of quality data is essential — a proactive approach is essential. As Jaeggi puts it, “Tomorrow’s innovations are being built with today’s processes and tools.” Delivering powerful agents and apps requires a balance of speed, innovation, and reliability. In order to do so, governance needs to be considered as an essential component of innovation — not a bottleneck.DevSecOps,short for development, security, and operations, is all about integrating security into every stage of thesoftware development lifecycle (SDLC), rather than at the end. This way teams can identify and catch issues during the design and development phases — when they’re easier to fix and less expensive to address. TheAgentforce 360 Platformsupports continuous governance across your entire development process with built-in tools designed for security, visibility, and compliance at scale. Whatever the unique security needs your organization has, there’s a tool in theSalesforce security and privacy portfolioto help your organization become atrusted Agentic Enterprise.",
+      "word_count": 186,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "DevSecOps,",
+          "href": "https://www.salesforce.com/form/platform/the-salesforce-devsecops-guide/"
+        },
+        {
+          "text": "software development lifecycle (SDLC)",
+          "href": "https://www.salesforce.com/platform/software-development-lifecycle/"
+        },
+        {
+          "text": "Agentforce 360 Platform",
+          "href": "https://www.salesforce.com/platform/"
+        },
+        {
+          "text": "Salesforce security and privacy portfolio",
+          "href": "https://www.salesforce.com/platform/cloud-data-security/"
+        },
+        {
+          "text": "trusted Agentic Enterprise",
+          "href": "https://www.youtube.com/watch?v=sfP6GxZ-CAQ"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "Time to start building",
+      "text": "Want to dive deeper into each step of the ALM process? To develop and deliver AI-powered apps and agents faster and more effectively, take a look at the guide, The5 Stages of Agent and Application Lifecycle Management. You’ll get practical insights to help your team reduce complexity, move faster, and scale secure AI apps and agents with confidence.",
+      "word_count": 58,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "5 Stages of Agent and Application Lifecycle Management",
+          "href": "https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "The future of AI development is here",
+      "body": "Explore the key takeaways from +2,000 IT and dev leaders in the 4th State of IT report.",
+      "button_text": "Explore the insights",
+      "button_url": "https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/",
+      "position_after_section": 1
+    },
+    {
+      "heading": "Secure your sandbox",
+      "body": "Accelerate AI development with realistic (not *real*), secure test data for your sandbox with Data Mask & Seed.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/conf/platform/data-masking-and-seeding-guide/",
+      "position_after_section": 4
+    },
+    {
+      "heading": "Data Security in the Age of AI",
+      "body": "IT leaders are putting data security at the center of their AI strategy. Explore the risks introduced by AI systems and get bestpractices to build responsibly, reduce exposure, and stay ahead of evolving compliance standards.",
+      "button_text": "Download for free",
+      "button_url": "https://www.salesforce.com/form/conf/platform/data-security-best-practices-guide/",
+      "position_after_section": 5
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>If you’re in IT, this is not new news — IT teams are overwhelmed. If you have a project (or five) that you need to “circle back to”, you’re not alone. With <a href=\"https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/\" rel=\"noopener\" target=\"_blank\">project requests jumping 18% compared to last year</a>, it’s not hard to imagine why <a href=\"https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/\" rel=\"noopener\" target=\"_blank\">1 in 3 IT projects miss their deadlines</a>. The expected timeline from ideation to deployment is getting shorter and shorter, but scalability and security still need to be top of mind along the way.</p>\n<p>Enter <a href=\"https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/?leadcreated=true&amp;redirect=true&amp;sfuuid=419cbe29-b6ca-4bb0-8d6e-71f2b7a2c9c1&amp;tid=841fe048-5daa-42fb-b8b3-0c9c382066b8&amp;d=70130000000sUVq&amp;nc=701ed00000Vbf2QAAR\" rel=\"noopener\" target=\"_blank\">agent and application lifecycle management</a> (ALM). This methodology balances flexibility and structure to support fast-paced, mixed-coding environments, along with security and governance needs. With a strong ALM process, teams can have clear project specs, better testing data, secure data that adheres to key regulations, and streamlined systems and workflows to make sure the job is done seamlessly.</p>\n<p>Ultimately, an ALM strategy can help teams keep up, meet deadlines, and deploy their AI agents and apps quickly and securely. </p>\n<h2 class=\"wp-block-heading\" id=\"h-introducing-agent-and-application-lifecycle-management\">Introducing Agent and Application Lifecycle Management</h2>\n<p><a href=\"https://www.salesforce.com/blog/agent-and-application-lifecycle-management/\" rel=\"noopener\" target=\"_blank\">Agent and application lifecycle management</a> (ALM) covers the entire journey of building, testing, deploying, and continuously improving AI agents and apps. There are five main stages: 1) Ideate and plan, 2) Build, 3) Test, 4) Observe, and 5) Deploy. Throughout the entire process, governance is baked into each stage to ensure consistency, compliance, and reliability.</p>\n<p>In other words, ALM is a system that helps IT teams manage their projects consistently to ensure they’re meeting their deployment deadlines. </p>\n<p>In the age of <a href=\"https://www.salesforce.com/agentforce/what-is-agentic-ai/\" rel=\"noopener\" target=\"_blank\">agentic AI</a>, it’s easy to get caught up in the boundless benefits that this technology can help your business achieve. However, in order to turn hype into a strong AI implementation strategy, it’s critical to take a step back, reflect, and learn from others to build the future. In a chat with Chief Data Officer at Zurich Insurance, <a href=\"https://www.linkedin.com/in/alexsidgreaves/\" rel=\"noopener\" target=\"_blank\">Alex Sidgreaves</a> and Salesforce Product Marketing Director, Alli Jaeggi, <a href=\"https://www.salesforce.com/form/platform/AI-development-secure-platform/\">unpacked software development in the age of agentic AI. </a></p>\n<p>To foster your organization’s AI transformation, here are four key takeaways from their conversation.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">The future of AI development is here</h2>\n<p class=\"wp-block-offer__description\">Explore the key takeaways from +2,000 IT and dev leaders in the 4th State of IT report.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/\" target=\"_self\">Explore the insights</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">Lesson 1: Connect early, communicate often</h2>\n<p>“Ideate and plan” is the first step of the ALM process, and for good reason. Before the first line of code is even written, everyone should be on the same page. </p>\n<p>Intentional, thoughtful planning helps minimize technical debt and compliance headaches down the line. By connecting teams and stakeholders early, everyone can agree on shared goals and expectations. Team members can understand project requirements, testing needs, security standards, and how changes will be managed throughout the project lifecycle.</p>\n<p>Deeper into the process, consistent communication keeps business stakeholders closely involved. Providing relevant updates and transparency, in turn, builds trust and buy-in for your agents and apps. And, when quick decisions need to be made, there is less time needed to catch up and more time finding a solution.</p>\n<h2 class=\"wp-block-heading\">Lesson 2: Find the right tools</h2>\n<p>Low-code and no-code tools are becoming standard practice in modern development, and the use of AI is quickly gaining traction. And it’s no surprise why that is: <a href=\"https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/\" rel=\"noopener\" target=\"_blank\">majority (84%) of developers who use AI say it helps their teams complete projects faster</a>. AI as a coding partner for code generation assistance, test case creation, and other repetitive tasks — helps developers focus on the bigger picture, like fine-tuning AI-driven solutions and orchestrating strategy. </p>\n<p>At the end of the day, <a href=\"https://docs.google.com/document/d/1T_NmbYD9PtCaJZVhqMQDhRI1Y2q33ibwJGtRNlcytWU/edit?tab=t.0\" rel=\"noopener\" target=\"_blank\">AI is meant to support the stack, not own it</a>. From traditional software development, low- and no-code tools, and now the emergence of “vibe coding” — developers have a plethora of tools at their disposal. It’s just a matter of identifying the best use cases for AI to accelerate the process.</p>\n<h2 class=\"wp-block-heading\">Lesson 3: Build in layers</h2>\n<p>Agentic AI is new and exciting, but it’s important to be mindful how it fits with business goals. Rather than <a href=\"https://www.salesforce.com/blog/agentic-automation/\" rel=\"noopener\" target=\"_blank\">trying to integrate AI into every workflow and process</a> all at once, organizations can start by evaluating key priorities and where AI could be a high-impact, high-value solution. </p>\n<p>“Don’t be afraid to build your AI capabilities in stages. The first layer might simply provide new insights.” says Sidgreaves. Starting with smaller projects can equip teams to learn the lessons to tackle the more complex problems later. The way teams organize their projects can also support this iterative strategy. Sidegreaves shared that by creating a modular architecture using <a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">sandbox environments</a>, teams can break down a big project into smaller, more manageable steps. In turn, enabling more agility to make updates quickly and adjust as teams learn.</p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Secure your sandbox</h2>\n<p class=\"wp-block-offer__description\">Accelerate AI development with realistic (not *real*), secure test data for your sandbox with Data Mask &amp; Seed.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/platform/data-masking-and-seeding-guide/\" target=\"_self\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">Lesson 4: Accelerate with governance</h2>\n<p>Traditionally, organizations have used a more reactive approach when it came to security, compliance, and governance. However, in today’s tech landscape, where cybersecurity threats are getting more sophisticated and the need to have an abundance of quality data is essential — a proactive approach is essential.</p>\n<p>As Jaeggi puts it, “Tomorrow’s innovations are being built with today’s processes and tools.” Delivering powerful agents and apps requires a balance of speed, innovation, and reliability. In order to do so, governance needs to be considered as an essential component of innovation — not a bottleneck. <a href=\"https://www.salesforce.com/form/platform/the-salesforce-devsecops-guide/\" rel=\"noopener\" target=\"_blank\">DevSecOps,</a> short for development, security, and operations, is all about integrating security into every stage of the <a href=\"https://www.salesforce.com/platform/software-development-lifecycle/\" rel=\"noopener\" target=\"_blank\">software development lifecycle (SDLC)</a>, rather than at the end. This way teams can identify and catch issues during the design and development phases — when they’re easier to fix and less expensive to address. </p>\n<p>The <a href=\"https://www.salesforce.com/platform/\" rel=\"noopener\" target=\"_blank\">Agentforce 360 Platform</a> supports continuous governance across your entire development process with built-in tools designed for security, visibility, and compliance at scale. Whatever the unique security needs your organization has, there’s a tool in the <a href=\"https://www.salesforce.com/platform/cloud-data-security/\" rel=\"noopener\" target=\"_blank\">Salesforce security and privacy portfolio</a> to help your organization become a <a href=\"https://www.youtube.com/watch?v=sfP6GxZ-CAQ\" rel=\"noopener\" target=\"_blank\">trusted Agentic Enterprise</a>.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Data Security in the Age of AI</h2>\n<p class=\"wp-block-offer__description\">IT leaders are putting data security at the center of their AI strategy. Explore the risks introduced by AI systems and get best<br/>practices to build responsibly, reduce exposure, and stay ahead of evolving compliance standards.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/platform/data-security-best-practices-guide/\" target=\"_self\">Download for free</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">Time to start building</h2>\n<p>Want to dive deeper into each step of the ALM process? To develop and deliver AI-powered apps and agents faster and more effectively, take a look at the guide, The <a href=\"https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/\" rel=\"noopener\" target=\"_blank\">5 Stages of Agent and Application Lifecycle Management</a>. You’ll get practical insights to help your team reduce complexity, move faster, and scale secure AI apps and agents with confidence.</p>\n<p></p>\n</div>"
+}

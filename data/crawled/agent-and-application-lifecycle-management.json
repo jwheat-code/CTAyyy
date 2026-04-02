@@ -1,0 +1,174 @@
+{
+  "url": "https://www.salesforce.com/blog/agent-and-application-lifecycle-management/?bc=DB",
+  "slug": "agent-and-application-lifecycle-management",
+  "title": "A 5-Step Playbook to Tackle ALM for AI Agents and Apps",
+  "author": "Alli Jaeggi",
+  "published_date": "2025-06-25T20:09:20+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "BuildingAI agents and appsis exciting — but it’s also complex, especially when you’re balancing speed, innovation, and security. Business leaders want quick wins. Your IT team is focused on building responsibly, staying compliant, and scaling sustainably. If this tension feels familiar, you’re not alone. Traditionalapplication lifecycle management(ALM) wasn’t designed with AI in mind. Most existing frameworks were built for slower, more predictable development cycles — not the fast-paced, mixed-code environments teams are working in today. That gap can lead to disconnected tools, rushed workarounds, and growing technical debt. What’s needed isagent and application lifecycle managementthat fits how teams actually build now — flexible enough for low-code and pro-code, and structured enough to support governance, security, and scale from day one. When ALM works the way your team works, you spend less time untangling complexity and more time delivering AI solutions that are built to last.",
+      "word_count": 145,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "AI agents and apps",
+          "href": "https://www.salesforce.com/agentforce/ai-software-development/"
+        },
+        {
+          "text": "application lifecycle management",
+          "href": "https://www.salesforce.com/platform/enterprise-app-development/application-lifecycle-management-alm/"
+        },
+        {
+          "text": "agent and application lifecycle management",
+          "href": "https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What is agent and application lifecycle management?",
+      "text": "Agent and application lifecycle management (ALM) covers the entire journey of building, testing, deploying, and continuously improving AI agents and apps. For IT teams, it provides a structured way to manage complexity, reduce risk, and scale with confidence. A strong ALM approach supports: Connecting low-code and pro-code teams without confusionTesting early and often, using realistic (and safe) dataDeploying confidently withintegrated DevOps and observability toolsKeeping visibility, security, and compliance in view from the start Agentforce 360 Platformsupports AI-driven development with a structured ALM process built around five key stages:",
+      "word_count": 88,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Testing early and often",
+          "href": "https://www.salesforce.com/blog/secure-testing/"
+        },
+        {
+          "text": "integrated DevOps and observability tools",
+          "href": "https://www.salesforce.com/blog/5-devsecops-tips-to-accelerate-agentforce-adoption/"
+        },
+        {
+          "text": "Agentforce 360 Platform",
+          "href": "https://www.salesforce.com/platform/enterprise-app-development/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "1. Ideate & Plan: Align early, across every stakeholder",
+      "text": "Successful AI agents and apps start long before any code is written. Early alignment means involving everyone — architects, developers, admins, security experts, and platform owners — from the very beginning. When your team shares a clear understanding of project requirements, testing needs, data security standards, and change management processes, you dramatically reduce confusion, technical debt, and costly rework later on. Whether you’re automating support workflows, improving operations, or enhancing compliance tracking, thoughtful planning from the start helps everyone move faster, navigate complexity, and deliver value that lasts. Pro Tip:Set up ashared project and backlogto give every stakeholder visibility into planned work, priorities, and dependencies — so everyone’s working from the same source of truth.",
+      "word_count": 115,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "shared project and backlog",
+          "href": "https://www.salesforce.com/platform/devops-tools/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "2. Build: Bridge the gap between low-code and pro-code development",
+      "text": "Rapid innovation requires flexibility — and that means uniting your low-code and pro-code teams around a shared build process. With Salesforce Platform, visual builders and custom coders don’t need to work in separate silos. Instead, they can work in tandem: Low-code developers and admins use intuitive, drag-and-drop tools to build automations and interfaces quicklyPro-code developers extend functionality with Apex, APIs, and custom logic — including the creation of modular, reusable AI agents A unified development process means fewer errors, faster development cycles, and higher-quality agents and apps, built to scale effectively across your organization. Pro Tip:Let low-code and pro-code teams shape agent behavior together — usingnatural language promptsto define logic, guide outcomes, and enforce intent across teams.",
+      "word_count": 117,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "natural language prompts",
+          "href": "https://www.salesforce.com/artificial-intelligence/prompt-builder/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "3. Test: Catch issues earlier with realistic, automated testing",
+      "text": "The era of testing as a final checkbox before launch is over. Today’s AI-driven development demands continuous, realistic testing at every step. Automated testing inenvironments that mirror your production setupmakes sure performance, reliability, and compliance problems get identified early, saving teams from surprises down the road. With continuous testing, teams can: Quickly validate logic and performanceIdentify and fix security or compliance risksReduce costly late-stage surprises and rollbacks It’s not just about faster testing – it’s about safer, more reliable releases. Pro Tip:Seed test environmentswith only the data needed for each scenario; it speeds up testing and reduces the risk of exposing sensitive info.",
+      "word_count": 103,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "environments that mirror your production setup",
+          "href": "https://www.salesforce.com/blog/agentforce-testing/"
+        },
+        {
+          "text": "Seed test environments",
+          "href": "https://www.salesforce.com/platform/data-masking/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "4. Deploy: Turn release day into a routine",
+      "text": "No more last-minute scrambles or manual patching. Predictable deployments come from automation, clear visibility, and tight version control. With built-inDevOps toolsand real-time observability on the platform, deployment becomes a repeatable, reliable process — not a high-stakes event. Integrated deployment pipelines make it easier to: Eliminate manual handoffsTrack changes and rollback confidentlyPush updates without disrupting users The result? Smoother launches, fewer errors, and happier IT teams. Pro Tip:Make deployments more predictable byproactively monitoring app and agent performance, so you can catch scalability issues before they impact users.",
+      "word_count": 86,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "DevOps tools",
+          "href": "https://www.salesforce.com/platform/devops-tools/what-is-devops/tools/"
+        },
+        {
+          "text": "proactively monitoring app and agent performance",
+          "href": "https://help.salesforce.com/s/articleView?id=xcloud.scale_center_overview.htm&type=5"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "5. Observe: Improve continuously with real-time insights",
+      "text": "Launching your agentor app isn’t a finish line — it’s the start of a feedback loop. Real success comes from ongoing observability that helps you monitor agent behavior, spot issues early, and optimize over time. Agentforce 360 Platform‘s built-in observability tools deliver real-time visibility into user behavior, system performance, and security events, allowing teams to stay ahead of issues and drive ongoing improvements. With real-time insights, you can: Detect and resolve performance issues before users noticeTrack usage patterns and system load to inform scaling decisionsMonitor data access and ensure compliance is upheld When you can see what’s happening in production, you can keep improving — without guesswork. Pro Tip:Go beyond surface-levelmonitoring: track user behavior, API usage, and data access in real time to detect anomalies, enforce policies, and strengthen security.",
+      "word_count": 130,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Launching your agent",
+          "href": "https://www.salesforce.com/blog/is-your-agent-production-ready/"
+        },
+        {
+          "text": "Agentforce 360 Platform",
+          "href": "https://www.salesforce.com/blog/ai-digital-transformation/"
+        },
+        {
+          "text": "monitoring",
+          "href": "https://www.salesforce.com/form/demo/platform-shield-event-monitoring-demo-form/?d=pb"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "Bonus: Embed governance from the start",
+      "text": "Governance works best when it’s built in, not bolted on. Byembedding governanceinto every stage of the ALM process — from planning through deployment and monitoring — your team can stay compliant without slowing down. Think policy-driven access control, built-in audit trails and monitoring, plus easy alignment with compliance frameworks. When governance is integrated, your team spends less time managing risk. If you’d like to explore how these stages can help your teams develop and deliver AI-powered apps and agents faster and more effectively, take a look at the new guide,The 5 Stages of Agent and Application Lifecycle Management. You’ll get practical insights to help your team reduce complexity, move faster, and scale secure AI apps and agents with confidence.",
+      "word_count": 119,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "embedding governance",
+          "href": "https://www.salesforce.com/blog/data-governance-for-ai/"
+        },
+        {
+          "text": "The 5 Stages of Agent and Application Lifecycle Management",
+          "href": "https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "AI has entered the chat. IT’s your move.",
+      "body": "Dive into the full findings of the Salesforce 4th State of IT: AI + App Dev report and see how top IT teams are turning pressure into progress.",
+      "button_text": "Download the report",
+      "button_url": "https://www.salesforce.com/form/platform/4th-state-of-it-ai-and-app-development/",
+      "position_after_section": 7
+    },
+    {
+      "heading": "Add more IT value – not more to the dev queue",
+      "body": "Cut the code clutter and explore the latest POV on agent productivity + low-code success with The Low-Code Playbook.",
+      "button_text": "Build without bottlenecks",
+      "button_url": "https://www.salesforce.com/form/platform/low-code-playbook/",
+      "position_after_section": 4
+    },
+    {
+      "heading": "The 5 stages of ALM (without the headaches)",
+      "body": "Because building AI agents and apps shouldn’t require aspirin. Learn how to scale smart on the Agentforce 360 Platform.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management",
+      "position_after_section": 7
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Building <a href=\"https://www.salesforce.com/agentforce/ai-software-development/\" rel=\"noopener\" target=\"_blank\">AI agents and apps</a> is exciting — but it’s also complex, especially when you’re balancing speed, innovation, and security. Business leaders want quick wins. Your IT team is focused on building responsibly, staying compliant, and scaling sustainably. If this tension feels familiar, you’re not alone.</p>\n<p>Traditional <a href=\"https://www.salesforce.com/platform/enterprise-app-development/application-lifecycle-management-alm/\" rel=\"noopener\" target=\"_blank\">application lifecycle management</a> (ALM) wasn’t designed with AI in mind. Most existing frameworks were built for slower, more predictable development cycles — not the fast-paced, mixed-code environments teams are working in today. That gap can lead to disconnected tools, rushed workarounds, and growing technical debt.</p>\n<p>What’s needed is <a href=\"https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management\" rel=\"noopener\" target=\"_blank\">agent and application lifecycle management</a> that fits how teams actually build now — flexible enough for low-code and pro-code, and structured enough to support governance, security, and scale from day one. When ALM works the way your team works, you spend less time untangling complexity and more time delivering AI solutions that are built to last.</p>\n<div class=\"layout-four wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>AI has entered the chat. IT’s your move.</strong></h2>\n<p class=\"wp-block-offer__description\">Dive into the full findings of the Salesforce 4th State of IT: AI + App Dev report and see how top IT teams are turning pressure into progress.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/4th-state-of-it-ai-and-app-development/\" target=\"_blank\">Download the report</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-four.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-four.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-four.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-what-is-agent-and-application-lifecycle-management\">What is agent and application lifecycle management?</h2>\n<p>Agent and application lifecycle management (ALM) covers the entire journey of building, testing, deploying, and continuously improving AI agents and apps. For IT teams, it provides a structured way to manage complexity, reduce risk, and scale with confidence. A strong ALM approach supports:</p>\n<ul class=\"wp-block-list\">\n<li>Connecting low-code and pro-code teams without confusion</li>\n<li><a href=\"https://www.salesforce.com/blog/secure-testing/\" rel=\"noopener\" target=\"_blank\">Testing early and often</a>, using realistic (and safe) data</li>\n<li>Deploying confidently with <a href=\"https://www.salesforce.com/blog/5-devsecops-tips-to-accelerate-agentforce-adoption/\" rel=\"noopener\" target=\"_blank\">integrated DevOps and observability tools</a></li>\n<li>Keeping visibility, security, and compliance in view from the start</li>\n</ul>\n<p><a href=\"https://www.salesforce.com/platform/enterprise-app-development/\" rel=\"noopener\" target=\"_blank\">Agentforce 360 Platform</a> supports AI-driven development with a structured ALM process built around five key stages:</p>\n<figure class=\"wp-block-image size-full wp-lightbox-container\" data-wp-context='{\"imageId\":\"69ce7319bd9bd\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69ce7319bd9bd\"><img alt=\"\" class=\"wp-image-117189\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" fetchpriority=\"high\" height=\"1292\" sizes=\"(max-width: 2228px) 100vw, 2228px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?strip=all&amp;quality=95\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png 2228w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=862&amp;h=500 862w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=768&amp;h=445 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=1536&amp;h=891 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=2048&amp;h=1188 2048w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=150&amp;h=87 150w\" width=\"2228\"><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button></img></figure>\n<h2 class=\"wp-block-heading\">1. Ideate &amp; Plan: Align early, across every stakeholder</h2>\n<p>Successful AI agents and apps start long before any code is written. Early alignment means involving everyone — architects, developers, admins, security experts, and platform owners — from the very beginning. </p>\n<p>When your team shares a clear understanding of project requirements, testing needs, data security standards, and change management processes, you dramatically reduce confusion, technical debt, and costly rework later on. </p>\n<p>Whether you’re automating support workflows, improving operations, or enhancing compliance tracking, thoughtful planning from the start helps everyone move faster, navigate complexity, and deliver value that lasts.</p>\n<p><strong>Pro Tip:</strong> Set up a <a href=\"https://www.salesforce.com/platform/devops-tools/\" rel=\"noopener\" target=\"_blank\">shared project and backlog</a> to give every stakeholder visibility into planned work, priorities, and dependencies — so everyone’s working from the same source of truth.</p>\n<h2 class=\"wp-block-heading\">2. Build: Bridge the gap between low-code and pro-code development </h2>\n<p>Rapid innovation requires flexibility — and that means uniting your low-code and pro-code teams around a shared build process. With Salesforce Platform, visual builders and custom coders don’t need to work in separate silos. Instead, they can work in tandem:</p>\n<ul class=\"wp-block-list\">\n<li>Low-code developers and admins use intuitive, drag-and-drop tools to build automations and interfaces quickly</li>\n<li>Pro-code developers extend functionality with Apex, APIs, and custom logic — including the creation of modular, reusable AI agents</li>\n</ul>\n<p>A unified development process means fewer errors, faster development cycles, and higher-quality agents and apps, built to scale effectively across your organization.</p>\n<p><strong>Pro Tip:</strong> Let low-code and pro-code teams shape agent behavior together — using <a href=\"https://www.salesforce.com/artificial-intelligence/prompt-builder/\" rel=\"noopener\" target=\"_blank\">natural language prompts</a> to define logic, guide outcomes, and enforce intent across teams.</p>\n<h2 class=\"wp-block-heading\">3. Test: Catch issues earlier with realistic, automated testing</h2>\n<p>The era of testing as a final checkbox before launch is over. Today’s AI-driven development demands continuous, realistic testing at every step. Automated testing in <a href=\"https://www.salesforce.com/blog/agentforce-testing/\" rel=\"noopener\" target=\"_blank\">environments that mirror your production setup</a> makes sure performance, reliability, and compliance problems get identified early, saving teams from surprises down the road.</p>\n<p>With continuous testing, teams can: </p>\n<ul class=\"wp-block-list\">\n<li>Quickly validate logic and performance</li>\n<li>Identify and fix security or compliance risks</li>\n<li>Reduce costly late-stage surprises and rollbacks</li>\n</ul>\n<p>It’s not just about faster testing – it’s about safer, more reliable releases. </p>\n<p><strong>Pro Tip:</strong> <a href=\"https://www.salesforce.com/platform/data-masking/\" rel=\"noopener\" target=\"_blank\">Seed test environments</a> with only the data needed for each scenario; it speeds up testing and reduces the risk of exposing sensitive info.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>Add more IT value – not more to the dev queue</strong></h2>\n<p class=\"wp-block-offer__description\">Cut the code clutter and explore the latest POV on agent productivity + low-code success with The Low-Code Playbook.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/low-code-playbook/\" target=\"_blank\">Build without bottlenecks</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">4. Deploy: Turn release day into a routine</h2>\n<p>No more last-minute scrambles or manual patching. Predictable deployments come from automation, clear visibility, and tight version control. With built-in <a href=\"https://www.salesforce.com/platform/devops-tools/what-is-devops/tools/\" rel=\"noopener\" target=\"_blank\">DevOps tools</a> and real-time observability on the platform, deployment becomes a repeatable, reliable process — not a high-stakes event.</p>\n<p>Integrated deployment pipelines make it easier to:</p>\n<ul class=\"wp-block-list\">\n<li>Eliminate manual handoffs</li>\n<li>Track changes and rollback confidently</li>\n<li>Push updates without disrupting users</li>\n</ul>\n<p>The result? Smoother launches, fewer errors, and happier IT teams.</p>\n<p><strong>Pro Tip:</strong> Make deployments more predictable by <a href=\"https://help.salesforce.com/s/articleView?id=xcloud.scale_center_overview.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">proactively monitoring app and agent performance</a>, so you can catch scalability issues before they impact users.</p>\n<h2 class=\"wp-block-heading\">5. Observe: Improve continuously with real-time insights</h2>\n<p><a href=\"https://www.salesforce.com/blog/is-your-agent-production-ready/\" rel=\"noopener\" target=\"_blank\">Launching your agent</a> or app isn’t a finish line — it’s the start of a feedback loop. Real success comes from ongoing observability that helps you monitor agent behavior, spot issues early, and optimize over time.</p>\n<p><a href=\"https://www.salesforce.com/blog/ai-digital-transformation/\" rel=\"noopener\" target=\"_blank\">Agentforce 360 Platform</a>‘s built-in observability tools deliver real-time visibility into user behavior, system performance, and security events, allowing teams to stay ahead of issues and drive ongoing improvements. With real-time insights, you can: </p>\n<ul class=\"wp-block-list\">\n<li>Detect and resolve performance issues before users notice</li>\n<li>Track usage patterns and system load to inform scaling decisions</li>\n<li>Monitor data access and ensure compliance is upheld</li>\n</ul>\n<p>When you can see what’s happening in production, you can keep improving — without guesswork.</p>\n<p><strong>Pro Tip:</strong> Go beyond surface-level <a href=\"https://www.salesforce.com/form/demo/platform-shield-event-monitoring-demo-form/?d=pb\" rel=\"noopener\" target=\"_blank\">monitoring</a>: track user behavior, API usage, and data access in real time to detect anomalies, enforce policies, and strengthen security.</p>\n<h2 class=\"wp-block-heading\">Bonus: Embed governance from the start</h2>\n<p>Governance works best when it’s built in, not bolted on. By <a href=\"https://www.salesforce.com/blog/data-governance-for-ai/\" rel=\"noopener\" target=\"_blank\">embedding governance</a> into every stage of the ALM process — from planning through deployment and monitoring — your team can stay compliant without slowing down. </p>\n<p>Think policy-driven access control, built-in audit trails and monitoring, plus easy alignment with compliance frameworks. When governance is integrated, your team spends less time managing risk.</p>\n<p>If you’d like to explore how these stages can help your teams develop and deliver AI-powered apps and agents faster and more effectively, take a look at the new guide, <a href=\"https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management\" rel=\"noopener\" target=\"_blank\">The 5 Stages of Agent and Application Lifecycle Management</a>. You’ll get practical insights to help your team reduce complexity, move faster, and scale secure AI apps and agents with confidence.</p>\n<div class=\"layout-seven wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>The 5 stages of ALM (without the headaches</strong>)</h2>\n<p class=\"wp-block-offer__description\">Because building AI agents and apps shouldn’t require aspirin. Learn how to scale smart on the Agentforce 360 Platform.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-seven.png\"/>\n<!-- Small Accent Illustration -->\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-seven.png\"/>\n</div>\n</div>"
+}

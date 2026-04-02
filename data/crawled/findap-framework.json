@@ -1,0 +1,109 @@
+{
+  "url": "https://www.salesforce.com/blog/findap-framework/?bc=DB",
+  "slug": "findap-framework",
+  "title": "Making AI Smarter for Finance: The FINDAP Framework",
+  "author": "Zixuan Ke, Xuan Phi Nguyen, Shafiq Joty, Caiming Xiong",
+  "published_date": "2025-11-04T06:50:20+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "What is FINDAP?",
+      "text": "The FINDAP Framework is a cutting-edge approach to fine-tune large language models (LLMs) specifically for the finance industry. While LLMs like ChatGPT or Bard are excellent general-purpose tools, specialized domains like finance require models that can understand complex concepts, regulatory constraints, and industry-specific language. FINDAP addresses this by providing a structured, systematic process for training LLMs to meet the unique demands of the financial sector.",
+      "word_count": 65,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 1,
+      "heading": "FINDAP is Built Around 4 Core Components:",
+      "text": "FinCap: Defines the key capabilities needed for success in finance, such as reasoning, financial knowledge recall, and task-specific skills.FinRec: A training recipe that improves the model’s ability to learn from finance-specific data while ensuring it can follow instructions effectively. It even uses a new method called preference data distillation to make the training process smarter.FinTrain: A carefully curated set of training datasets that ensures the model learns from high-quality, relevant financial data.FinEval: A comprehensive evaluation system that tests the model on real-world financial tasks to ensure it’s performing as expected. Under FINDAP, we developedLlama-Fin, a state-of-the-art financial language model that has achieved groundbreaking results across a wide range of financial tasks.",
+      "word_count": 111,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "Why is FINDAP Innovative?",
+      "text": "Principle Approach:While other efforts have focused on sequential training or domain adaptation in isolation, FINDAP is the first framework to approach this challenge in a systematic and fine-grained way. It looks at every stage of the process, from defining the right skills to training and testing the model, revealing unique challenges and uncovering effective solutions. This step-by-step methodology sets FINDAP apart, enabling LLMs to reach new levels of specialization and performance. Forgetting Prevention:one well-known but important challenge when adapting a LLM to specified domain is how to address the “catastrophic forgetting” issue. Indeed, we observe serious forgetting of general capabilities when performing Continual Pretraining (CPT) and Instruction Tuning (IT) sequentially from an instruction-tuned LLM (specially in instruction-following). 🔀 Our trick:mix CPT and IT data and train them jointly, downsample CPT data to match the size of IT. 🔍Turns out, this not only helps prevent forgetting but also boosts knowledge transfer. Plus, since concepts learned from CPT are often inherently more generalizable due to their shared nature across tasks, combining CPT and IT training improves generalization without requiring exposure to a diverse range of tasks. Improving reasoning capability:For improvement in reasoning, to balance sparse outcome-based and expensive step-wise rewards, we use a generative reward model (GenRM) with Final Answer Preference (FAP) and Stepwise Corrective Preference (SCP) as follows: 🎯FAP: prompt GenRM to give a holistic judgment for the entire solution using a single ‘Yes’ or ‘No’ token. 🎯SCP: prompt GenRM to identify the first erroneous step and ask it to provide a correction for that step. Using this correction, we construct preference data for reasoning.",
+      "word_count": 264,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "Why Does This Matter?",
+      "text": "The finance industry handles high-stakes tasks like investment analysis, regulatory compliance, and market predictions. Current AI models often struggle to adapt effectively to the nuanced and complex nature of financial tasks due to the lack of domain-specific training strategies. The FINDAP framework changes this by teaching models the exact skills and knowledge needed for finance, making them more reliable and capable in these critical applications. For example, FINDAP allows the Llama-Fin model to: Summarize financial events with precision.Answer finance-related questions accurately.Perform advanced reasoning tasks like CFA-level challenges.Generalize to completely novel financial tasks it has never seen before. This adaptability ensures that companies can trust the AI to deliver consistent, high-quality performance across a wide range of use cases.",
+      "word_count": 118,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "What Are the Results?",
+      "text": "Llama-Fin, developed using FINDAP, has set a new benchmark for financial AI. Here’s what it achieved: Top-Tier Performance: Llama-Fin outperformed all other models in its size category by 10-25% on tasks similar to its training data. It also beat larger models like GPT-4o and Palmyra-Fin-32K.Generalization to New Tasks: Even on completely novel financial tasks, Llama-Fin remained competitive, performing better than its base model in 13 out of 17 benchmarks.Reasoning Excellence: Llama-Fin excelled in reasoning-heavy tasks, achieving up to a 20% improvement in benchmarks like CFA-Challenge.Preservation of General Knowledge: Despite its specialization, Llama-Fin retained its general knowledge and conversational abilities, ensuring it remains a versatile tool. These results demonstrate that FINDAP’s systematic approach not only adapts LLMs for finance but also ensures they generalize effectively, making them robust and reliable tools.",
+      "word_count": 130,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "heading": "Why Does This Matter for Businesses?",
+      "text": "For companies like Salesforce and other enterprises, the FINDAP framework offers a way to: Deliver Better Insights: With finance-specific AI models like Llama-Fin, companies can provide more accurate insights for investment, compliance, and decision-making.Enhance Customer Support: AI-powered customer service tools can handle finance-related queries with greater accuracy and depth.Drive Innovation: By adopting FINDAP’s approach, businesses can create their own domain-specific models tailored to their unique industries.Increase Trust in AI: Models that perform reliably in high-stakes domains build confidence among customers, regulators, and stakeholders.",
+      "word_count": 83,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "heading": "Looking Ahead",
+      "text": "The success of FINDAP and Llama-Fin is just the beginning. The framework’s systematic approach can be applied to other specialized domains, from healthcare to legal services. By refining and extending FINDAP, we aim to unlock the potential of AI to solve complex, industry-specific challenges and redefine how businesses leverage technology in their operations. For companies, researchers, and AI enthusiasts, FINDAP represents a leap forward in creating smarter, more capable AI systems that can handle the complexities of the real world with precision and reliability.",
+      "word_count": 84,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "heading": "Resources",
+      "text": "Paper (EMNLP2025 Oral, with ARR Best Paper nomination):https://arxiv.org/abs/2501.04961Project:https://vincent950129.github.io/adapt-llm/Model:https://huggingface.co/Salesforce/Llama-Fin-8bTraining Data:https://huggingface.co/datasets/Salesforce/FinTrainEvaluation Data:https://huggingface.co/datasets/Salesforce/FinEvalCode:https://github.com/SalesforceAIResearch/FinDAPSalesforce AI Research Website Follow us on X:@SFResearch",
+      "word_count": 17,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "https://arxiv.org/abs/2501.04961",
+          "href": "https://arxiv.org/pdf/2501.04961"
+        },
+        {
+          "text": "https://vincent950129.github.io/adapt-llm/",
+          "href": "https://vincent950129.github.io/adapt-llm/"
+        },
+        {
+          "text": "https://huggingface.co/Salesforce/Llama-Fin-8b",
+          "href": "https://huggingface.co/Salesforce/Llama-Fin-8b"
+        },
+        {
+          "text": "https://huggingface.co/datasets/Salesforce/FinTrain",
+          "href": "https://huggingface.co/datasets/Salesforce/FinTrain"
+        },
+        {
+          "text": "https://huggingface.co/datasets/Salesforce/FinEval",
+          "href": "https://huggingface.co/datasets/Salesforce/FinEval"
+        },
+        {
+          "text": "https://github.com/SalesforceAIResearch/FinDAP",
+          "href": "https://github.com/SalesforceAIResearch/FinDAP"
+        },
+        {
+          "text": "Salesforce AI Research Website",
+          "href": "https://www.salesforceairesearch.com/"
+        },
+        {
+          "text": "@SFResearch",
+          "href": "https://x.com/SFResearch"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<h2 class=\"wp-block-heading\" id=\"h-what-is-findap-nbsp\"><strong>What is FINDAP?</strong> </h2>\n<p>The FINDAP Framework is a cutting-edge approach to fine-tune large language models (LLMs) specifically for the finance industry. While LLMs like ChatGPT or Bard are excellent general-purpose tools, specialized domains like finance require models that can understand complex concepts, regulatory constraints, and industry-specific language. FINDAP addresses this by providing a structured, systematic process for training LLMs to meet the unique demands of the financial sector.</p>\n<figure class=\"wp-block-image size-full wp-lightbox-container\" data-wp-context='{\"imageId\":\"69ce641d4c386\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69ce641d4c386\"><img alt=\"\" class=\"wp-image-130155\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" fetchpriority=\"high\" height=\"783\" sizes=\"(max-width: 1600px) 100vw, 1600px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image_bf3d13.png?strip=all&amp;quality=95\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image_bf3d13.png 1600w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image_bf3d13.png?w=1022&amp;h=500 1022w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image_bf3d13.png?w=768&amp;h=376 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image_bf3d13.png?w=1536&amp;h=752 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image_bf3d13.png?w=150&amp;h=73 150w\" width=\"1600\"/><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button></figure>\n<h2 class=\"wp-block-heading\" id=\"h-findap-is-built-around-4-core-components\">FINDAP is Built Around 4 Core Components:</h2>\n<ol class=\"wp-block-list\">\n<li><strong>FinCap</strong>: Defines the key capabilities needed for success in finance, such as reasoning, financial knowledge recall, and task-specific skills.</li>\n<li><strong>FinRec</strong>: A training recipe that improves the model’s ability to learn from finance-specific data while ensuring it can follow instructions effectively. It even uses a new method called preference data distillation to make the training process smarter.</li>\n<li><strong>FinTrain</strong>: A carefully curated set of training datasets that ensures the model learns from high-quality, relevant financial data.</li>\n<li><strong>FinEval</strong>: A comprehensive evaluation system that tests the model on real-world financial tasks to ensure it’s performing as expected.</li>\n</ol>\n<p>Under FINDAP, we developed <strong>Llama-Fin</strong>, a state-of-the-art financial language model that has achieved groundbreaking results across a wide range of financial tasks.</p>\n<h2 class=\"wp-block-heading\" id=\"h-why-is-findap-innovative-nbsp\"><strong>Why is FINDAP Innovative?</strong> </h2>\n<p><strong>Principle Approach: </strong>While other efforts have focused on sequential training or domain adaptation in isolation, FINDAP is the first framework to approach this challenge in a systematic and fine-grained way. It looks at every stage of the process, from defining the right skills to training and testing the model, revealing unique challenges and uncovering effective solutions. This step-by-step methodology sets FINDAP apart, enabling LLMs to reach new levels of specialization and performance.</p>\n<p><strong>Forgetting Prevention:</strong> one well-known but important challenge when adapting a LLM to specified domain is how to address the “catastrophic forgetting” issue.</p>\n<p>Indeed, we observe serious forgetting of general capabilities when performing Continual Pretraining (CPT) and Instruction Tuning (IT) sequentially from an instruction-tuned LLM (specially in instruction-following).</p>\n<p><strong>🔀 Our trick:</strong> mix CPT and IT data and train them jointly, downsample CPT data to match the size of IT.</p>\n<p>🔍Turns out, this not only helps prevent forgetting but also boosts knowledge transfer. Plus, since concepts learned from CPT are often inherently more generalizable due to their shared nature across tasks, combining CPT and IT training improves generalization without requiring exposure to a diverse range of tasks.</p>\n<p><strong>Improving reasoning capability: </strong> For improvement in reasoning, to balance sparse outcome-based and expensive step-wise rewards, we use a generative reward model (GenRM) with Final Answer Preference (FAP) and Stepwise Corrective Preference (SCP) as follows:</p>\n<p><strong>🎯FAP</strong>: prompt GenRM to give a holistic judgment for the entire solution using a single ‘Yes’ or ‘No’ token.</p>\n<p><strong>🎯SCP</strong>: prompt GenRM to identify the first erroneous step and ask it to provide a correction for that step.</p>\n<p>Using this correction, we construct preference data for reasoning.</p>\n<h2 class=\"wp-block-heading\" id=\"h-why-does-this-matter-nbsp\"><strong>Why Does This Matter?</strong> </h2>\n<p>The finance industry handles high-stakes tasks like investment analysis, regulatory compliance, and market predictions. Current AI models often struggle to adapt effectively to the nuanced and complex nature of financial tasks due to the lack of domain-specific training strategies. The FINDAP framework changes this by teaching models the exact skills and knowledge needed for finance, making them more reliable and capable in these critical applications.</p>\n<p>For example, FINDAP allows the Llama-Fin model to:</p>\n<ul class=\"wp-block-list\">\n<li>Summarize financial events with precision.</li>\n<li>Answer finance-related questions accurately.</li>\n<li>Perform advanced reasoning tasks like CFA-level challenges.</li>\n<li>Generalize to completely novel financial tasks it has never seen before.</li>\n</ul>\n<p>This adaptability ensures that companies can trust the AI to deliver consistent, high-quality performance across a wide range of use cases.</p>\n<h2 class=\"wp-block-heading\" id=\"h-what-are-the-results-nbsp\"><strong>What Are the Results?</strong> </h2>\n<p>Llama-Fin, developed using FINDAP, has set a new benchmark for financial AI. Here’s what it achieved:</p>\n<ol class=\"wp-block-list\">\n<li><strong>Top-Tier Performance</strong>: Llama-Fin outperformed all other models in its size category by 10-25% on tasks similar to its training data. It also beat larger models like GPT-4o and Palmyra-Fin-32K.</li>\n<li><strong>Generalization to New Tasks</strong>: Even on completely novel financial tasks, Llama-Fin remained competitive, performing better than its base model in 13 out of 17 benchmarks.</li>\n<li><strong>Reasoning Excellence</strong>: Llama-Fin excelled in reasoning-heavy tasks, achieving up to a 20% improvement in benchmarks like CFA-Challenge.</li>\n<li><strong>Preservation of General Knowledge</strong>: Despite its specialization, Llama-Fin retained its general knowledge and conversational abilities, ensuring it remains a versatile tool.</li>\n</ol>\n<p>These results demonstrate that FINDAP’s systematic approach not only adapts LLMs for finance but also ensures they generalize effectively, making them robust and reliable tools.</p>\n<h2 class=\"wp-block-heading\" id=\"h-why-does-this-matter-for-businesses-nbsp\"><strong>Why Does This Matter for Businesses?</strong> </h2>\n<p>For companies like Salesforce and other enterprises, the FINDAP framework offers a way to:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Deliver Better Insights</strong>: With finance-specific AI models like Llama-Fin, companies can provide more accurate insights for investment, compliance, and decision-making.</li>\n<li><strong>Enhance Customer Support</strong>: AI-powered customer service tools can handle finance-related queries with greater accuracy and depth.</li>\n<li><strong>Drive Innovation</strong>: By adopting FINDAP’s approach, businesses can create their own domain-specific models tailored to their unique industries.</li>\n<li><strong>Increase Trust in AI</strong>: Models that perform reliably in high-stakes domains build confidence among customers, regulators, and stakeholders.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-looking-ahead-nbsp\"><strong>Looking Ahead</strong> </h2>\n<p>The success of FINDAP and Llama-Fin is just the beginning. The framework’s systematic approach can be applied to other specialized domains, from healthcare to legal services. By refining and extending FINDAP, we aim to unlock the potential of AI to solve complex, industry-specific challenges and redefine how businesses leverage technology in their operations.</p>\n<p>For companies, researchers, and AI enthusiasts, FINDAP represents a leap forward in creating smarter, more capable AI systems that can handle the complexities of the real world with precision and reliability.</p>\n<h2 class=\"wp-block-heading\" id=\"h-resources\"><strong>Resources</strong></h2>\n<ul class=\"wp-block-list\">\n<li>Paper (EMNLP2025 Oral, with ARR Best Paper nomination): <a href=\"https://arxiv.org/pdf/2501.04961\">https://arxiv.org/abs/2501.04961</a> </li>\n<li>Project: <a href=\"https://vincent950129.github.io/adapt-llm/\">https://vincent950129.github.io/adapt-llm/</a> </li>\n<li>Model: <a href=\"https://huggingface.co/Salesforce/Llama-Fin-8b\">https://huggingface.co/Salesforce/Llama-Fin-8b</a> </li>\n<li>Training Data: <a href=\"https://huggingface.co/datasets/Salesforce/FinTrain\">https://huggingface.co/datasets/Salesforce/FinTrain</a>  </li>\n<li>Evaluation Data: <a href=\"https://huggingface.co/datasets/Salesforce/FinEval\">https://huggingface.co/datasets/Salesforce/FinEval</a> </li>\n<li>Code: <a href=\"https://github.com/SalesforceAIResearch/FinDAP\">https://github.com/SalesforceAIResearch/FinDAP</a> </li>\n<li><a href=\"https://www.salesforceairesearch.com/\">Salesforce AI Research Website</a></li>\n</ul>\n<p>Follow us on X: <a href=\"https://x.com/SFResearch\">@SFResearch</a></p>\n</div>"
+}

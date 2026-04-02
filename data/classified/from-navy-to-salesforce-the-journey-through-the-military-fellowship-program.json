@@ -1,0 +1,66 @@
+{
+  "url": "https://www.salesforce.com/blog/from-navy-to-salesforce-the-journey-through-the-military-fellowship-program/?bc=DB",
+  "slug": "from-navy-to-salesforce-the-journey-through-the-military-fellowship-program",
+  "title": "From Navy to Salesforce: The Journey Through the Military Fellowship Program",
+  "author": "Cori Lanigan",
+  "published_date": "2025-10-28T21:27:21+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud, slack. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Ready to learn more?",
+        "body": "Explore our fellowship opportunities and start your transition journey today.",
+        "button_text": "Military Program",
+        "button_url": "https://veterans.my.site.com/s/",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.85,
+  "misaligned_count": 0
+}

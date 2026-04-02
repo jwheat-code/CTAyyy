@@ -1,0 +1,143 @@
+{
+  "url": "https://www.salesforce.com/blog/shift-left-security/?bc=DB",
+  "slug": "shift-left-security",
+  "title": "Shift Left Security Starts with Your Sandbox",
+  "author": "Amanda Lane",
+  "published_date": "2025-09-09T20:39:20+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "When you’rebuilding AI agents and apps, yoursandboxshould be the safest place to move fast and experiment. However, without proper security and quality controls in place, your sandbox can expose you to a number of security and quality issues that can compromise your development process. So how do you keep your sandbox secure and scalable — without slowing your team down? It starts by treating your sandbox as a foundation of your security posture. For IT teams, that means puttingsecure environmentsat the center of the delivery model by masking data, seeding only what you need, and archiving the rest before testing begins.",
+      "word_count": 101,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "building AI agents and apps",
+          "href": "https://www.salesforce.com/blog/build-ai-apps/"
+        },
+        {
+          "text": "sandbox",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        },
+        {
+          "text": "secure environments",
+          "href": "https://www.salesforce.com/blog/secure-testing/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What is “shift left security”?",
+      "text": "Whether you’re buildingAI agents, writing Apex, or iterating in alow-code environment, “shift left security” means integrating security as early as possible in the software development lifecycle — before a single line of test code is written. That starts at environment setup and test data preparation. And for most teams, the first place that happens is the sandbox. The sandbox is where developers first interact with real data and logic. It’s the launchpad for building automations, testing flows, validating Apex, reproducing bugs, and experimenting safely — all without touching production. But if your sandbox mirrors production without strongdata governance, you’re not just testing — you’re exposing sensitive information, slowing delivery, and increasing risk. At its core, shift left security means addressing risks at the source: data access, environment setup, and test configuration (aka beginning in your sandbox). By embedding smart practices like data masking, selective seeding, and archiving, teams can operationalize shift left security at the environment level — turning sandboxes into secure, high-performance foundations for development. It’s not just about compliance. It’s about building faster, safer, and with more confidence. Because if your sandbox isn’t secure, you’re not really shifting left — you’re just pushing risks further down the line.",
+      "word_count": 200,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "AI agents",
+          "href": "https://www.salesforce.com/agentforce/ai-agents/"
+        },
+        {
+          "text": "low-code environment",
+          "href": "https://www.salesforce.com/platform/low-code-development-platform/"
+        },
+        {
+          "text": "shift left security",
+          "href": "https://www.salesforce.com/blog/devsecops/"
+        },
+        {
+          "text": "data governance",
+          "href": "https://www.salesforce.com/data/governance/guide/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Why sandboxes feel “good enough” – until they aren’t",
+      "text": "When you need to test quickly, you want your data to feel real. But without the right controls, that realism comes at a cost. Relying on production-like data in lower environments introduces three critical risks: PII exposure: Personally identifiable information in dev or QA environments is often unencrypted, unaudited, and overshared across teams and vendors.Compliance blind spots: Untracked environments make it difficult to prove access controls, enforce retention policies, or prove data minimization (all of which are increasingly critical under evolving regulations).Performance drag: Large, unfiltered datasets slow down refreshes and limit agility across teams. These risks are compounded in fast-moving orgs with multiple sandboxes or Scratch Orgs. The more environments you spin up, the more surface area you expose. And as teams adopt AI agents that act on customer data, secure, compliant test environments are no longer optional — they’re essential.",
+      "word_count": 141,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "How IT teams are shifting left with smarter sandbox practices",
+      "text": "To truly shift left, you need to treat your test data with the same rigor as production data. In fact,53% of organizations have experienced data breachesstemming from insecure lower environments. That’s why leading IT teams are building security into their sandboxes from the start by masking, seeding, and archiving as part of their development cycle. Here’s how: In the spirit ofPrinciple of Least Privilege, only give sandbox access to team members who need it to do their job.Selective Sandbox Accesslets you control who has access to a sandbox by limiting it to a public group. As you go through the development process, continue to update access as needed. Secure sensitive data immediately after sandbox refresh. WithData Mask & Seed, PII is automatically masked – so your team works with safe, production-like data from day one. No sensitive data in test. No manual cleanup. No risky shortcuts. Create more precise, performant test environments. Use Data Mask & Seed toseed specific records(like the last 200 accounts and contact records with related objects) while maintaining all data relationships. That means faster cycles and more targeted testing. And bonus tip:Archiving dataand seeding go hand-in-hand. You can you can offload inactive data in production that meets your predefined criteria on a regular cadence. Not only does this help make sure the data you seed is fresh, it also helps you boost org performance and maintain compliance. Together, these practices turn your sandbox from a liability into a launchpad. Need to test edge-case behavior? Seed it. Mask it. Move on. Building an Agentforce use case? Startsecurely in your sandbox. That’s what shift left security really means: embedding trust into development from the very first step.",
+      "word_count": 279,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "53% of organizations have experienced data breaches",
+          "href": "https://www.synthesized.io/post/the-risks-of-replicating-production-data-in-lower-environments"
+        },
+        {
+          "text": "Principle of Least Privilege",
+          "href": "https://www.salesforce.com/blog/principle-of-least-privilege/"
+        },
+        {
+          "text": "Selective Sandbox Access",
+          "href": "https://help.salesforce.com/s/articleView?id=platform.data_sandbox_selective_access.htm&type=5"
+        },
+        {
+          "text": "Data Mask & Seed",
+          "href": "https://www.salesforce.com/platform/data-masking/"
+        },
+        {
+          "text": "seed specific records",
+          "href": "https://www.salesforce.com/form/platform/data-mask-and-seed-datasheet/?d=pb"
+        },
+        {
+          "text": "Archiving data",
+          "href": "https://www.salesforce.com/platform/data-archiving-solutions/"
+        },
+        {
+          "text": "securely in your sandbox",
+          "href": "https://www.salesforce.com/blog/agentforce-testing/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Why shift left boosts quality – not just compliance",
+      "text": "Securing your sandbox doesn’t just reduce risk — it makes everything you build better. In fact, Agentforce 360 Platform customers saw a31% increase in developer productivitywhen security was prioritized earlier in the lifecycle. By applying shift left principles to your sandbox strategy, you can: Build safer AI agents using scoped, secure datasetsAccelerate QA cycles with pre-seeded, business-relevant scenariosCatch logic and integration issues earlier — before they hit productionImprove auditability with more transparent and controlled environments ForAI agent developmentespecially, secure test data is critical. It helps reduce hallucinations, minimize training bias, and ensure model outputs are accurate, safe, and aligned to business needs. By treating test data with production-grade care, teams reduce rework, ship faster, and build with confidence.",
+      "word_count": 118,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "31% increase in developer productivity",
+          "href": "https://www.salesforce.com/form/platform/sandboxes/?d=pb"
+        },
+        {
+          "text": "AI agent development",
+          "href": "https://www.salesforce.com/agentforce/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Your sandbox is your security strategy",
+      "text": "If your sandbox is just a copy of production, you’re building on borrowed trust — and that’s not sustainable, especially in the age of AI. By shifting left — masking, seeding, and archiving from the start — dev and IT teams can move fast without exposing sensitive data or compromising compliance. It’s not just best practice. It’s a prerequisite for scalable, secure AI agent and app development.",
+      "word_count": 67,
+      "has_existing_cta": true,
+      "inline_links": []
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "Visit Trail",
+      "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-sandboxes-quick-look",
+      "position_after_section": 5
+    },
+    {
+      "heading": "Build, Secure, Deploy, and Repeat",
+      "body": "Make sure your agents and apps make it out of the sandbox with agent and application lifecycle management (ALM).",
+      "button_text": "Download for free",
+      "button_url": "https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/?leadcreated=true&redirect=true&sfuuid=80038bec-e064-42bd-9843-2d2608d91029&tid=52a04572-3c46-4c99-bc83-c58dca421363&d=70130000000sUVq&nc=701ed00000Vbf2QAAR",
+      "position_after_section": 4
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>When you’re <a href=\"https://www.salesforce.com/blog/build-ai-apps/\" rel=\"noopener\" target=\"_blank\">building AI agents and apps</a>, your <a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">sandbox</a> should be the safest place to move fast and experiment. However, without proper security and quality controls in place, your sandbox can expose you to a number of security and quality issues that can compromise your development process.</p>\n<p>So how do you keep your sandbox secure and scalable — without slowing your team down? It starts by treating your sandbox as a foundation of your security posture. For IT teams, that means putting <a href=\"https://www.salesforce.com/blog/secure-testing/\" rel=\"noopener\" target=\"_blank\">secure environments</a> at the center of the delivery model by masking data, seeding only what you need, and archiving the rest before testing begins. </p>\n<h2 class=\"wp-block-heading\" id=\"h-what-is-shift-left-security\">What is “shift left security”?</h2>\n<p>Whether you’re building <a href=\"https://www.salesforce.com/agentforce/ai-agents/\" rel=\"noopener\" target=\"_blank\">AI agents</a>, writing Apex, or iterating in a <a href=\"https://www.salesforce.com/platform/low-code-development-platform/\" rel=\"noopener\" target=\"_blank\">low-code environment</a>, “<a href=\"https://www.salesforce.com/blog/devsecops/\" rel=\"noopener\" target=\"_blank\">shift left security</a>” means integrating security as early as possible in the software development lifecycle — before a single line of test code is written. That starts at environment setup and test data preparation. And for most teams, the first place that happens is the sandbox.</p>\n<p>The sandbox is where developers first interact with real data and logic. It’s the launchpad for building automations, testing flows, validating Apex, reproducing bugs, and experimenting safely — all without touching production. </p>\n<figure class=\"wp-block-image size-large wp-lightbox-container\" data-wp-context='{\"imageId\":\"69ce72ccb0967\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69ce72ccb0967\"><img alt=\"The stages of application and agent lifecycle. Ideate and plan, build, test, observe, and deploy. Data governance at each step.\" class=\"wp-image-117189\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" fetchpriority=\"high\" height=\"1292\" sizes=\"(max-width: 2228px) 100vw, 2228px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=2228\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png 2228w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=862&amp;h=500 862w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=768&amp;h=445 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=1536&amp;h=891 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=2048&amp;h=1188 2048w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/alm-mini-guide-5-stages_b91d2a.png?w=150&amp;h=87 150w\" width=\"2228\"/><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button></figure>\n<p>But if your sandbox mirrors production without strong <a href=\"https://www.salesforce.com/data/governance/guide/\" rel=\"noopener\" target=\"_blank\">data governance</a>, you’re not just testing — you’re exposing sensitive information, slowing delivery, and increasing risk.</p>\n<h3 class=\"wp-block-heading\">Why sandbox security is the first step in shifting left</h3>\n<p>At its core, shift left security means addressing risks at the source: data access, environment setup, and test configuration (aka beginning in your sandbox). </p>\n<p>By embedding smart practices like data masking, selective seeding, and archiving, teams can operationalize shift left security at the environment level — turning sandboxes into secure, high-performance foundations for development. It’s not just about compliance. It’s about building faster, safer, and with more confidence.</p>\n<p>Because if your sandbox isn’t secure, you’re not really shifting left — you’re just pushing risks further down the line.</p>\n<h2 class=\"wp-block-heading\">Why sandboxes feel “good enough” – until they aren’t </h2>\n<p>When you need to test quickly, you want your data to feel real. But without the right controls, that realism comes at a cost. Relying on production-like data in lower environments introduces three critical risks:</p>\n<ul class=\"wp-block-list\">\n<li><strong>PII exposure</strong>: Personally identifiable information in dev or QA environments is often unencrypted, unaudited, and overshared across teams and vendors.</li>\n<li><strong>Compliance blind spots</strong>: Untracked environments make it difficult to prove access controls, enforce retention policies, or prove data minimization (all of which are increasingly critical under evolving regulations).</li>\n<li><strong>Performance drag</strong>: Large, unfiltered datasets slow down refreshes and limit agility across teams.</li>\n</ul>\n<p>These risks are compounded in fast-moving orgs with multiple sandboxes or Scratch Orgs. The more environments you spin up, the more surface area you expose. And as teams adopt AI agents that act on customer data, secure, compliant test environments are no longer optional — they’re essential.</p>\n<div class=\"layout-astro wp-block-salesforce-blog-related-trail\">\n<img alt=\"\" class=\"related-trail__illustration related-trail__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-cloud-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__background\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-background-layout-astro.png\"/>\n<div class=\"related-trail__wrapper\">\n<div class=\"related-trail__content\">\n<svg aria-hidden=\"true\" class=\"related-trail__logo\" viewbox=\"0 0 345.8 82.8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M96.6 33h9v22.6h4.8V33h8.8v-4.3H96.6zm49.8 5.3c0-5.7-3.6-9.6-10.8-9.6H127v27h4.8v-7.9h3l2.3-.1 5.7 8h5.6l-7-9.2c3.4-1.6 5-4.5 5-8.2m-11.1 5.3h-3.6V33h3.6c4.4 0 6 2.3 6 5.3s-1.6 5.3-6 5.3m30.8-15.2-12.6 27.2h5l2.3-5.3h11.6l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm25.2-17.7h4.8v27h-4.8zm20.7 0h-4.8v27h17.6v-4.4h-12.8zm38.4 12.1h-13.2V28.7H229v27h4.7V45h13.2v10.6h4.7V28.7h-4.7zm15.9 14.8h17.5v-4.4h-12.7v-6.4H279v-4.2h-11.5v-7.5h12.7v-4.4h-17.5zm36.9-27.2L287 55.6h5l2.3-5.3H306l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm35.4-17.7h-10.2v27h10.2c8.2 0 14.4-5.9 14.4-13.6s-6-13.4-14.4-13.4m0 22.6H326V33h5.4a9.1 9.1 0 1 1 0 18.1z\" fill=\"#1d3767\"></path><path d=\"M43 82.8h.1a74 74 0 0 0 38.5-12.3 3 3 0 0 0 1.3-2.4v-6A66.2 66.2 0 0 0 42.5.2a3 3 0 0 0-2.3 0A66.2 66.2 0 0 0 0 62.2V68a3 3 0 0 0 1.2 2.4 74 74 0 0 0 40.2 12.4z\" fill=\"#1d315f\"></path><path d=\"M13.8 51.8a.3.3 0 0 0 0-.1L33 23.6a3.1 3.1 0 0 1 .8-.8 3 3 0 0 1 4 .8l9.5 13.8 3.5-5a3 3 0 0 1 4.9 0L69 51.6a.3.3 0 0 1 .1.3h7C70.7 17.7 43.7 7.2 41.4 6.2c0 0-11.2 4-21.2 16A59.6 59.6 0 0 0 6.8 51.8zm21.7-21.3\" fill=\"#8ed1f4\"></path><path d=\"m62 51.9-8.7-12.6-4.2 6.1 4.8 6.4z\" fill=\"#aa76b3\"></path><path d=\"m49 45.4-4.4 6.4H54z\" fill=\"#722a87\"></path><path d=\"m37 32.6-1.5-2.1z\" fill=\"#8ed1f4\"></path><path d=\"m28 41.4 7.6 10.4h1.8l6.4-9.2-6.8-10-1.5-2.1z\" fill=\"#aa76b3\"></path><path d=\"m28 41.4-7 10.4h14.6z\" fill=\"#722a87\"></path><path d=\"M43.8 72.5a1.8 1.8 0 0 0-1-2.4L40.1 69a8 8 0 0 1-1-.5 7.8 7.8 0 0 1-2.4-10.7H6a44 44 0 0 0-.2 4.4v4.4A70 70 0 0 0 26 75a70 70 0 0 0 15.2 2l2.4-4.3zm33-14.8H44.3l-2.5 3a1.7 1.7 0 0 0-.2.5 1.8 1.8 0 0 0 1 2.3l2.7 1.2.7.4a7.8 7.8 0 0 1 3 10.6l-.5.9 4.8-.8a71 71 0 0 0 8.4-2.2l1.3-.4a71 71 0 0 0 14-6.7v-8.8z\" fill=\"#069a49\"></path><path d=\"m46 65-.7-.3-2.7-1.2a1.8 1.8 0 0 1-1-2.4 1.7 1.7 0 0 1 .2-.4l2.5-3h-7.6A7.8 7.8 0 0 0 39 68.4a8 8 0 0 0 1 .5l2.7 1.2a1.8 1.8 0 0 1 1 2.4l-.1.2-2.5 4.3a52.5 52.5 0 0 0 7.2-.4l.5-.9A7.8 7.8 0 0 0 46 65.1z\" fill=\"#fff\"></path><path d=\"M56.9 67.3h8.8l-4.4-5zM23 71h9l-4.5-5.1zm-4.1-10.4-4.5 5h8.9z\" fill=\"#157139\"></path></svg>\n<h2 class=\"wp-block-related-trail__title\">Your Salesforce Sandbox Awaits</h2>\n<p>Learn how and when to use different Salesforce developer environments on Trailhead, Salesforce’s free online learning platform.</p>\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce-sandboxes-quick-look\" rel=\"noopener\" target=\"_blank\">Visit Trail</a></div>\n</div>\n<div class=\"related-trail__mock\">\n<div class=\"related-trail__points\">+100 points</div>\n<div class=\"related-trail__eyebrow\">Module</div>\n<p class=\"related-trail__trail-title h3\">Salesforce Sandboxes: <br/>Quick Look</p>\n<p class=\"related-trail__trail-description\">Learn the ways of this trail.</p>\n<div class=\"related-trail__actions\">\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\"><path clip-rule=\"evenodd\" d=\"m4.93.69.88 2.88c.04.12.16.18.27.18h2.89c.29 0 .4.38.17.56L6.79 6.04c-.1.07-.13.2-.1.32l1.12 2.96c.08.27-.2.5-.44.33L4.85 7.77c-.1-.08-.23-.08-.34 0L1.97 9.65a.29.29 0 0 1-.45-.33L2.6 6.36a.3.3 0 0 0-.1-.32L.17 4.3c-.23-.18-.1-.56.17-.56h2.89c.13 0 .23-.04.27-.18l.9-2.9c.08-.27.46-.25.54.02Z\" fill=\"#747474\" fill-rule=\"evenodd\"></path></svg>\n</div>\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 9 5\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.16 4.5.26 0h7.8z\" fill=\"#747474\"></path></svg>\n</div>\n</div>\n</div>\n</div>\n<img alt=\"\" class=\"related-trail__illustration related-trail__foreground\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-foreground-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__parks\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-parks-layout-astro.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">How IT teams are shifting left with smarter sandbox practices</h2>\n<p>To truly shift left, you need to treat your test data with the same rigor as production data. In fact, <a href=\"https://www.synthesized.io/post/the-risks-of-replicating-production-data-in-lower-environments\" rel=\"noopener\" target=\"_blank\">53% of organizations have experienced data breaches</a> stemming from insecure lower environments. That’s why leading IT teams are building security into their sandboxes from the start by masking, seeding, and archiving as part of their development cycle. Here’s how:</p>\n<h3 class=\"wp-block-heading\">1. Start with access</h3>\n<p>In the spirit of <a href=\"https://www.salesforce.com/blog/principle-of-least-privilege/\" rel=\"noopener\" target=\"_blank\">Principle of Least Privilege</a>, only give sandbox access to team members who need it to do their job. <a href=\"https://help.salesforce.com/s/articleView?id=platform.data_sandbox_selective_access.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Selective Sandbox Access</a> lets you control who has access to a sandbox by limiting it to a public group. As you go through the development process, continue to update access as needed.</p>\n<h3 class=\"wp-block-heading\">2. Don’t forget to mask </h3>\n<p>Secure sensitive data immediately after sandbox refresh. With <a href=\"https://www.salesforce.com/platform/data-masking/\" rel=\"noopener\" target=\"_blank\">Data Mask &amp; Seed</a>, PII is automatically masked – so your team works with safe, production-like data from day one. No sensitive data in test. No manual cleanup. No risky shortcuts.</p>\n<h3 class=\"wp-block-heading\">3. Seed only what you need</h3>\n<p>Create more precise, performant test environments. Use Data Mask &amp; Seed to <a href=\"https://www.salesforce.com/form/platform/data-mask-and-seed-datasheet/?d=pb\" rel=\"noopener\" target=\"_blank\">seed specific records</a> (like the last 200 accounts and contact records with related objects) while maintaining all data relationships. That means faster cycles and more targeted testing.</p>\n<p>And bonus tip: <a href=\"https://www.salesforce.com/platform/data-archiving-solutions/\" rel=\"noopener\" target=\"_blank\">Archiving data</a> and seeding go hand-in-hand. You can you can offload inactive data in production that meets your predefined criteria on a regular cadence. Not only does this help make sure the data you seed is fresh, it also helps you boost org performance and maintain compliance. </p>\n<p>Together, these practices turn your sandbox from a liability into a launchpad. Need to test edge-case behavior? Seed it. Mask it. Move on. Building an Agentforce use case? Start <a href=\"https://www.salesforce.com/blog/agentforce-testing/\" rel=\"noopener\" target=\"_blank\">securely in your sandbox</a>. </p>\n<p>That’s what shift left security really means: embedding trust into development from the very first step.</p>\n<h2 class=\"wp-block-heading\">Why shift left boosts quality – not just compliance</h2>\n<p>Securing your sandbox doesn’t just reduce risk — it makes everything you build better. In fact, Agentforce 360 Platform customers saw a <a href=\"https://www.salesforce.com/form/platform/sandboxes/?d=pb\" rel=\"noopener\" target=\"_blank\">31% increase in developer productivity</a> when security was prioritized earlier in the lifecycle. By applying shift left principles to your sandbox strategy, you can:</p>\n<ul class=\"wp-block-list\">\n<li>Build safer AI agents using scoped, secure datasets</li>\n<li>Accelerate QA cycles with pre-seeded, business-relevant scenarios</li>\n<li>Catch logic and integration issues earlier — before they hit production</li>\n<li>Improve auditability with more transparent and controlled environments</li>\n</ul>\n<p>For <a href=\"https://www.salesforce.com/agentforce/\" rel=\"noopener\" target=\"_blank\">AI agent development</a> especially, secure test data is critical. It helps reduce hallucinations, minimize training bias, and ensure model outputs are accurate, safe, and aligned to business needs. By treating test data with production-grade care, teams reduce rework, ship faster, and build with confidence.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Build, Secure, Deploy, and Repeat</h2>\n<p class=\"wp-block-offer__description\">Make sure your agents and apps make it out of the sandbox with agent and application lifecycle management (ALM).</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/?leadcreated=true&amp;redirect=true&amp;sfuuid=80038bec-e064-42bd-9843-2d2608d91029&amp;tid=52a04572-3c46-4c99-bc83-c58dca421363&amp;d=70130000000sUVq&amp;nc=701ed00000Vbf2QAAR\" target=\"_blank\">Download for free</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">Your sandbox is your security strategy</h2>\n<p>If your sandbox is just a copy of production, you’re building on borrowed trust — and that’s not sustainable, especially in the age of AI. By shifting left — masking, seeding, and archiving from the start — dev and IT teams can move fast without exposing sensitive data or compromising compliance. It’s not just best practice. It’s a prerequisite for scalable, secure AI agent and app development.</p>\n</div>"
+}

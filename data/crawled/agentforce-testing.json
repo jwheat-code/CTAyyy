@@ -1,0 +1,167 @@
+{
+  "url": "https://www.salesforce.com/blog/agentforce-testing/?bc=DB",
+  "slug": "agentforce-testing",
+  "title": "6 Ways Sandboxes Prepare Your Agentforce for the Real World",
+  "author": "Katie Muse",
+  "published_date": "2025-03-04T18:10:30+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Between ‌rising customer expectations, skill shortages, and growing pressures for AI adoption — keeping up is a challenge. EnterAgentforce. We’re now in thethird wave of AI, where intelligent agent networks are reshaping the workplace. Agentforce unlocks a new level of productivity, powering “limitless digital labor.” From offering support 24/7 to seamless customer interactions, AI agents aretransformingevery part of an organization. But without proper Agentforce testing, even the most advanced AI can create challenges instead of solutions.",
+      "word_count": 76,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "third wave of AI",
+          "href": "https://www.salesforce.com/blog/the-agentic-ai-era-after-the-dawn-heres-what-to-expect/"
+        },
+        {
+          "text": "limitless digital labor",
+          "href": "https://www.salesforce.com/news/press-releases/2024/12/17/agentforce-2-0-announcement/"
+        },
+        {
+          "text": "transforming",
+          "href": "https://www.salesforce.com/blog/why-hyper-personalization-is-the-future/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Why testing is essential to your Agentforce strategy",
+      "text": "Even groundbreaking innovations like Agentforce must be tested before deployment. Unlike traditional apps,AI agentsare non-deterministic – their behavior can vary between interactions. That’s why every step of the Agentforce testing and deployment cycle matters. From brainstorming and setup to thorough testing, deployment, and ongoing monitoring, skipping a single step can lead to real-world errors that impact your end users. It’s a crucial step to make sure your AI agent enhances workflows instead of creating obstacles, draining resources, and‌ damaging trust. A well-tested agent is an asset – not a liability. Take recruiting, for example. AnAgentforce-powered assistantcould autonomously handle administrative tasks, freeing recruiters to focus on building relationships with candidates. Using predefined criteria like skills, experience, and location, it could scan resumes, generate a curated shortlist, and highlight top candidates – eliminating time-consuming manual screening. But before deployment, it must be tested to ensure accurate data processing, regulatory compliance, and unbiased decision-making. Without thesesafeguards, even the most powerful AI can introduce risk instead of results.",
+      "word_count": 164,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "AI agents",
+          "href": "https://www.salesforce.com/agentforce/what-are-ai-agents/"
+        },
+        {
+          "text": "Agentforce-powered assistant",
+          "href": "https://www.salesforce.com/customer-stories/the-adecco-group/"
+        },
+        {
+          "text": "safeguards",
+          "href": "https://www.salesforce.com/blog/5-step-guide-to-trusted-ai/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "6 reasons why Agentforce testing in a Sandbox is key",
+      "text": "Salesforce Sandboxesprovide admins and developers with a secure environment to experiment and innovate. By replicating the production environment, teams can build, test, and refine new features, code, and integrations —without affecting live data and operations. Experiment with and refine Agentforce capabilities in an isolated environment to ensure smooth integration and deployment. Validate Agentforce workflows using live CRM andData 360data for real-world accuracy. With Data 360 unifying company-wide data, Sandboxes allow precise testing in acontrolled environment– delivering results that closely mirror production. Using a tool likeData Mask & Seed, you can effortlessly populate Sandboxes with fresh data and ensure sensitive information isn’t exposed. Simulate user interactions in a Sandbox to uncover patterns, refine AI responses, and improve natural language understanding. This ensures the AI adapts to common phrases and user behaviors before deployment.AI systems can struggle under heavy loads, causing delays or failures. Sandbox testing can identify bottlenecks. Using a scalability tool, LikeScale Test, your teams can test new features at a production environment’sfull traffic loadto make sure they are performant and resilient. Imagine an AI system accidentally exposing sensitive user data orviolating privacy regulations. TheAgentforce Trust Layerupholds data privacy and security across all interactions. Agentforce’s built-in guardrails protect data privacy, security, and accuracy. Testing in a Sandbox validates that these measures work correctly so your organization canconfidently deploy secure and compliant AI agents.Organizations often have unique challenges, such as preventing data loss or monitoring access.Agentforce 360 Platformaddresses these needs with solutions like real-time data controls and compliance tools. Safely test utterances and conversational scenarios to improve Agentforce’s understanding and response. TheAgentforce Testing Centerprovides a controlled space to simulate real-world interactions. For example, developers can test a range of customer queries and refine how the AI handles edge cases, ensuring reduced misunderstandings and errors when it goes live.Sometimes, AI can glitch in unexpected ways. Testing helps find unexpected behaviors and quirks that could disrupt user experience or even cause harm. Verify that AI agents correctly interpret and respond to specific topics by testing integrations and configurations. The more you test, the better your agents will understand their skill sets and take more precise actions. Repeated testing with iterations will help confirm accuracy and relevance, boosting performance during real-world interactions.",
+      "word_count": 368,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Salesforce Sandboxes",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        },
+        {
+          "text": "without affecting live data and operations",
+          "href": "https://www.salesforce.com/blog/secure-testing/"
+        },
+        {
+          "text": "Data 360",
+          "href": "https://www.salesforce.com/data/what-is-data-cloud/"
+        },
+        {
+          "text": "controlled environment",
+          "href": "https://developer.salesforce.com/blogs/2025/01/data-cloud-in-sandbox-environments"
+        },
+        {
+          "text": "Data Mask & Seed",
+          "href": "https://www.salesforce.com/platform/data-masking/"
+        },
+        {
+          "text": "Scale Test",
+          "href": "https://www.platformdemos.com/s/demo/a0gKY000000PBsCYAW/scale-test-for-sandbox"
+        },
+        {
+          "text": "full traffic load",
+          "href": "https://www.salesforce.com/blog/scale-testing/"
+        },
+        {
+          "text": "violating privacy regulations",
+          "href": "https://www.salesforce.com/blog/generative-ai-regulations/"
+        },
+        {
+          "text": "Agentforce Trust Layer",
+          "href": "https://www.salesforce.com/artificial-intelligence/trusted-ai/"
+        },
+        {
+          "text": "confidently deploy secure and compliant AI agents",
+          "href": "https://www.salesforce.com/blog/ai-accountability/"
+        },
+        {
+          "text": "Agentforce 360 Platform",
+          "href": "https://trust.salesforce.com/"
+        },
+        {
+          "text": "Agentforce Testing Center",
+          "href": "https://help.salesforce.com/s/articleView?id=ai.agent_testing_center.htm&type=5"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Enhance your testing with data masking and seeding",
+      "text": "While Sandboxes make Agentforce testing less risky, you can take it a step further by quickly populating your sandbox with realistic data using data seeding, especially when a mid-cycle refresh isn’t feasible. Data masking, on the other hand, is crucial for maintaining data privacy and security. It allows you to use real data for testing without exposing sensitive information. With data masking, you can ensure that while you’re refining your agents, they don’t inadvertently misuse sensitive business or customer PII data. For any organization working with sensitive data, this step is especially important for maintaining compliance and mitigating the risk of data breaches or leaks. It’s even more critical for industries with strict regulatory requirements, such as healthcare and finance. By masking sensitive data, you can simulate real-world scenarios while ensuring compliance and protecting user information.",
+      "word_count": 136,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Data masking",
+          "href": "https://www.salesforce.com/platform/data-masking/what-is-data-masking/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Prepare your Agentforce for deployment",
+      "text": "Testing lays the groundwork for creating a reliable, high-performing Agentforce that meets expectations immediately. By testing in a Sandbox with realistic, secure data, you can fine-tune your Agentforce in a controlled environment, ensuring seamless performance so you can be sure they’re ready for deployment. Learn more about risk-free Agentforce testing withSalesforce SandboxesandData Mask & Seed.",
+      "word_count": 55,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Salesforce Sandboxes",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        },
+        {
+          "text": "Data Mask & Seed.",
+          "href": "https://www.salesforce.com/platform/data-masking/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "Start learning",
+      "button_url": "https://trailhead.salesforce.com/content/learn/trails/get-ready-for-agentforce",
+      "position_after_section": 4
+    },
+    {
+      "heading": "D-I-Why? Deploy AI agents faster with Agentforce",
+      "body": "Building and deploying autonomous AI agents takes time. Agentforce, the agentic layer of the Salesforce platform, can reduce time to market by 16x compared to DIY approaches — with 70% greater accuracy, according to a new Valoir report.",
+      "button_text": "Read the report",
+      "button_url": "https://www.salesforce.com/agentforce/accelerate-agentic-ai/",
+      "position_after_section": 1
+    },
+    {
+      "heading": "A match made in innovation",
+      "body": "Discover how AI innovations are driving the emergence of agents, and explore how agents are also reshaping software and software development.",
+      "button_text": "Dive in",
+      "button_url": "https://www.salesforce.com/agentforce/ai-software-development/",
+      "position_after_section": 4
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Between ‌rising customer expectations, skill shortages, and growing pressures for AI adoption — keeping up is a challenge. Enter <a href=\"https://www.salesforce.com/agentforce/\" rel=\"noopener\" target=\"_blank\">Agentforce</a>. </p>\n<p>We’re now in the <a href=\"https://www.salesforce.com/blog/the-agentic-ai-era-after-the-dawn-heres-what-to-expect/\" rel=\"noopener\" target=\"_blank\">third wave of AI</a>, where intelligent agent networks are reshaping the workplace. Agentforce unlocks a new level of productivity, powering “<a href=\"https://www.salesforce.com/news/press-releases/2024/12/17/agentforce-2-0-announcement/\" rel=\"noopener\" target=\"_blank\">limitless digital labor</a>.” From offering support 24/7 to seamless customer interactions, AI agents are <a href=\"https://www.salesforce.com/blog/why-hyper-personalization-is-the-future/\" rel=\"noopener\" target=\"_blank\">transforming </a> every part of an organization. But without proper Agentforce testing, even the most advanced AI can create challenges instead of solutions.</p>\n<div class=\"layout-astro wp-block-salesforce-blog-related-trail\">\n<img alt=\"\" class=\"related-trail__illustration related-trail__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-cloud-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__background\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-background-layout-astro.png\"/>\n<div class=\"related-trail__wrapper\">\n<div class=\"related-trail__content\">\n<svg aria-hidden=\"true\" class=\"related-trail__logo\" viewbox=\"0 0 345.8 82.8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M96.6 33h9v22.6h4.8V33h8.8v-4.3H96.6zm49.8 5.3c0-5.7-3.6-9.6-10.8-9.6H127v27h4.8v-7.9h3l2.3-.1 5.7 8h5.6l-7-9.2c3.4-1.6 5-4.5 5-8.2m-11.1 5.3h-3.6V33h3.6c4.4 0 6 2.3 6 5.3s-1.6 5.3-6 5.3m30.8-15.2-12.6 27.2h5l2.3-5.3h11.6l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm25.2-17.7h4.8v27h-4.8zm20.7 0h-4.8v27h17.6v-4.4h-12.8zm38.4 12.1h-13.2V28.7H229v27h4.7V45h13.2v10.6h4.7V28.7h-4.7zm15.9 14.8h17.5v-4.4h-12.7v-6.4H279v-4.2h-11.5v-7.5h12.7v-4.4h-17.5zm36.9-27.2L287 55.6h5l2.3-5.3H306l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm35.4-17.7h-10.2v27h10.2c8.2 0 14.4-5.9 14.4-13.6s-6-13.4-14.4-13.4m0 22.6H326V33h5.4a9.1 9.1 0 1 1 0 18.1z\" fill=\"#1d3767\"></path><path d=\"M43 82.8h.1a74 74 0 0 0 38.5-12.3 3 3 0 0 0 1.3-2.4v-6A66.2 66.2 0 0 0 42.5.2a3 3 0 0 0-2.3 0A66.2 66.2 0 0 0 0 62.2V68a3 3 0 0 0 1.2 2.4 74 74 0 0 0 40.2 12.4z\" fill=\"#1d315f\"></path><path d=\"M13.8 51.8a.3.3 0 0 0 0-.1L33 23.6a3.1 3.1 0 0 1 .8-.8 3 3 0 0 1 4 .8l9.5 13.8 3.5-5a3 3 0 0 1 4.9 0L69 51.6a.3.3 0 0 1 .1.3h7C70.7 17.7 43.7 7.2 41.4 6.2c0 0-11.2 4-21.2 16A59.6 59.6 0 0 0 6.8 51.8zm21.7-21.3\" fill=\"#8ed1f4\"></path><path d=\"m62 51.9-8.7-12.6-4.2 6.1 4.8 6.4z\" fill=\"#aa76b3\"></path><path d=\"m49 45.4-4.4 6.4H54z\" fill=\"#722a87\"></path><path d=\"m37 32.6-1.5-2.1z\" fill=\"#8ed1f4\"></path><path d=\"m28 41.4 7.6 10.4h1.8l6.4-9.2-6.8-10-1.5-2.1z\" fill=\"#aa76b3\"></path><path d=\"m28 41.4-7 10.4h14.6z\" fill=\"#722a87\"></path><path d=\"M43.8 72.5a1.8 1.8 0 0 0-1-2.4L40.1 69a8 8 0 0 1-1-.5 7.8 7.8 0 0 1-2.4-10.7H6a44 44 0 0 0-.2 4.4v4.4A70 70 0 0 0 26 75a70 70 0 0 0 15.2 2l2.4-4.3zm33-14.8H44.3l-2.5 3a1.7 1.7 0 0 0-.2.5 1.8 1.8 0 0 0 1 2.3l2.7 1.2.7.4a7.8 7.8 0 0 1 3 10.6l-.5.9 4.8-.8a71 71 0 0 0 8.4-2.2l1.3-.4a71 71 0 0 0 14-6.7v-8.8z\" fill=\"#069a49\"></path><path d=\"m46 65-.7-.3-2.7-1.2a1.8 1.8 0 0 1-1-2.4 1.7 1.7 0 0 1 .2-.4l2.5-3h-7.6A7.8 7.8 0 0 0 39 68.4a8 8 0 0 0 1 .5l2.7 1.2a1.8 1.8 0 0 1 1 2.4l-.1.2-2.5 4.3a52.5 52.5 0 0 0 7.2-.4l.5-.9A7.8 7.8 0 0 0 46 65.1z\" fill=\"#fff\"></path><path d=\"M56.9 67.3h8.8l-4.4-5zM23 71h9l-4.5-5.1zm-4.1-10.4-4.5 5h8.9z\" fill=\"#157139\"></path></svg>\n<h2 class=\"wp-block-related-trail__title\">Ready, set, Agentforce</h2>\n<p>Learn how Agentforce fits your business goals, launch your first agent, and build a plan for AI success on Trailhead, Salesforce’s free online learning platform.</p>\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://trailhead.salesforce.com/content/learn/trails/get-ready-for-agentforce\" rel=\"noopener\" target=\"_blank\">Start learning</a></div>\n</div>\n<div class=\"related-trail__mock\">\n<div class=\"related-trail__points\">+1,500 points</div>\n<div class=\"related-trail__eyebrow\">Trail</div>\n<p class=\"related-trail__trail-title h3\">Get Ready for Agentforce</p>\n<p class=\"related-trail__trail-description\">Learn the ways of this trail.</p>\n<div class=\"related-trail__actions\">\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\"><path clip-rule=\"evenodd\" d=\"m4.93.69.88 2.88c.04.12.16.18.27.18h2.89c.29 0 .4.38.17.56L6.79 6.04c-.1.07-.13.2-.1.32l1.12 2.96c.08.27-.2.5-.44.33L4.85 7.77c-.1-.08-.23-.08-.34 0L1.97 9.65a.29.29 0 0 1-.45-.33L2.6 6.36a.3.3 0 0 0-.1-.32L.17 4.3c-.23-.18-.1-.56.17-.56h2.89c.13 0 .23-.04.27-.18l.9-2.9c.08-.27.46-.25.54.02Z\" fill=\"#747474\" fill-rule=\"evenodd\"></path></svg>\n</div>\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 9 5\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.16 4.5.26 0h7.8z\" fill=\"#747474\"></path></svg>\n</div>\n</div>\n</div>\n</div>\n<img alt=\"\" class=\"related-trail__illustration related-trail__foreground\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-foreground-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__parks\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-parks-layout-astro.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-why-testing-is-essential-to-your-agentforce-strategy\">Why testing is essential to your Agentforce strategy</h2>\n<p>Even groundbreaking innovations like Agentforce must be tested before deployment. Unlike traditional apps, <a href=\"https://www.salesforce.com/agentforce/what-are-ai-agents/\" rel=\"noopener\" target=\"_blank\">AI agents</a> are non-deterministic – their behavior can vary between interactions.      </p>\n<p>That’s why every step of the Agentforce testing and deployment cycle matters. From brainstorming and setup to thorough testing, deployment, and ongoing monitoring, skipping a single step can lead to real-world errors that impact your end users. It’s a crucial step to make sure your AI agent enhances workflows instead of creating obstacles, draining resources, and‌ damaging trust. A well-tested agent is an asset – not a liability.               </p>\n<p>Take recruiting, for example. An <a href=\"https://www.salesforce.com/customer-stories/the-adecco-group/\" rel=\"noopener\" target=\"_blank\">Agentforce-powered assistant</a> could autonomously handle administrative tasks, freeing recruiters to focus on building relationships with candidates. Using predefined criteria like skills, experience, and location, it could scan resumes, generate a curated shortlist, and highlight top candidates – eliminating time-consuming manual screening. </p>\n<p>But before deployment, it must be tested to ensure accurate data processing, regulatory compliance, and unbiased decision-making. Without these <a href=\"https://www.salesforce.com/blog/5-step-guide-to-trusted-ai/\" rel=\"noopener\" target=\"_blank\">safeguards</a>, even the most powerful AI can introduce risk instead of results.        </p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong><strong>D-I-Why? Deploy AI agents faster with Agentforce</strong></strong></h2>\n<p class=\"wp-block-offer__description\">Building and deploying autonomous AI agents takes time. Agentforce, the agentic layer of the Salesforce platform, can reduce time to market by 16x compared to DIY approaches — with 70% greater accuracy, according to a new Valoir report.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/agentforce/accelerate-agentic-ai/\" target=\"_blank\">Read the report</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-6-reasons-why-agentforce-testing-in-a-sandbox-is-key\">6 reasons why Agentforce testing in a Sandbox is key</h2>\n<p><a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">Salesforce Sandboxes</a> provide admins and developers with a secure environment to experiment and innovate. By replicating the production environment, teams can build, test, and refine new features, code, and integrations — <a href=\"https://www.salesforce.com/blog/secure-testing/\" rel=\"noopener\" target=\"_blank\">without affecting live data and operations</a>. </p>\n<h3 class=\"wp-block-heading\" id=\"h-1-build-and-refine-without-business-disruption\">1. <strong>Build and refine without business disruption</strong></h3>\n<p>Experiment with and refine Agentforce capabilities in an isolated environment to ensure smooth integration and deployment.    </p>\n<h3 class=\"wp-block-heading\" id=\"h-2-test-real-workflows-with-real-data\">2. <strong>Test real workflows with real data</strong></h3>\n<p>Validate Agentforce workflows using live CRM and <a href=\"https://www.salesforce.com/data/what-is-data-cloud/\" rel=\"noopener\" target=\"_blank\">Data 360</a> data for real-world accuracy. With Data 360 unifying company-wide data, Sandboxes allow precise testing in a <a href=\"https://developer.salesforce.com/blogs/2025/01/data-cloud-in-sandbox-environments\" rel=\"noopener\" target=\"_blank\">controlled environment</a> – delivering results that closely mirror production. Using a tool like <a href=\"https://www.salesforce.com/platform/data-masking/\" rel=\"noopener\" target=\"_blank\">Data Mask &amp; Seed</a>, you can effortlessly populate Sandboxes with fresh data and ensure sensitive information isn’t exposed.</p>\n<h3 class=\"wp-block-heading\" id=\"h-3-monitor-and-analyze-user-behavior\">3. <strong>Monitor and analyze user behavior</strong></h3>\n<p>Simulate user interactions in a Sandbox to uncover patterns, refine AI responses, and improve natural language understanding.  This ensures the AI adapts to common phrases and user behaviors before deployment.<br/><br/>AI systems can struggle under heavy loads, causing delays or failures. Sandbox testing can identify bottlenecks. Using a scalability tool, Like <a href=\"https://www.platformdemos.com/s/demo/a0gKY000000PBsCYAW/scale-test-for-sandbox\" rel=\"noopener\" target=\"_blank\">Scale Test</a>, your teams can test new features at a production environment’s <a href=\"https://www.salesforce.com/blog/scale-testing/\" rel=\"noopener\" target=\"_blank\">full traffic load</a> to make sure they are performant and resilient.</p>\n<h3 class=\"wp-block-heading\" id=\"h-4-validate-the-trust-layer-across-interactions\">4. <strong>Validate the Trust Layer across interactions</strong></h3>\n<p>Imagine an AI system accidentally exposing sensitive user data or <a href=\"https://www.salesforce.com/blog/generative-ai-regulations/\" rel=\"noopener\" target=\"_blank\">violating privacy regulations</a>. The <a href=\"https://www.salesforce.com/artificial-intelligence/trusted-ai/\" rel=\"noopener\" target=\"_blank\">Agentforce Trust Layer</a> upholds data privacy and security across all interactions. Agentforce’s built-in guardrails protect data privacy, security, and accuracy. Testing in a Sandbox validates that these measures work correctly so your organization can <a href=\"https://www.salesforce.com/blog/ai-accountability/\" rel=\"noopener\" target=\"_blank\">confidently deploy secure and compliant AI agents</a>.<br/><br/>Organizations often have unique challenges, such as preventing data loss or monitoring access. <a href=\"https://trust.salesforce.com/\" rel=\"noopener\" target=\"_blank\">Agentforce 360 Platform</a> addresses these needs with solutions like real-time data controls and compliance tools.</p>\n<h3 class=\"wp-block-heading\" id=\"h-5-fine-tune-natural-language-understanding\">5. <strong>Fine-tune natural language understanding</strong></h3>\n<p>Safely test utterances and conversational scenarios to improve  Agentforce’s understanding and response. The <a href=\"https://help.salesforce.com/s/articleView?id=ai.agent_testing_center.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Agentforce Testing Center</a> provides a controlled space to simulate real-world interactions. For example, developers can test a range of customer queries and refine how the AI handles edge cases, ensuring reduced misunderstandings and errors when it goes live.<br/><br/>Sometimes, AI can glitch in unexpected ways. Testing helps find unexpected behaviors and quirks that could disrupt user experience or even cause harm.</p>\n<h3 class=\"wp-block-heading\" id=\"h-6-test-and-optimize-topic-engagement\">6. <strong>Test and optimize topic engagement</strong></h3>\n<p>Verify that AI agents correctly interpret and respond to specific topics by testing integrations and configurations. The more you test, the better your agents will understand their skill sets and take more precise actions. Repeated testing with iterations will help confirm accuracy and relevance, boosting performance during real-world interactions.</p>\n<h2 class=\"wp-block-heading\" id=\"h-enhance-your-testing-with-data-masking-and-seeding\">Enhance your testing with data masking and seeding</h2>\n<p>While Sandboxes make Agentforce testing less risky, you can take it a step further by quickly populating your sandbox with realistic data using data seeding, especially when a mid-cycle refresh isn’t feasible. </p>\n<p><a href=\"https://www.salesforce.com/platform/data-masking/what-is-data-masking/\" rel=\"noopener\" target=\"_blank\">Data masking</a>, on the other hand, is crucial for maintaining data privacy and security. It allows you to use real data for testing without exposing sensitive information. With data masking, you can ensure that while you’re refining your agents, they don’t inadvertently misuse sensitive business or customer PII data. For any organization working with sensitive data, this step is especially important for maintaining compliance and mitigating the risk of data breaches or leaks. It’s even more critical for industries with strict regulatory requirements, such as healthcare and finance. By masking sensitive data, you can simulate real-world scenarios while ensuring compliance and protecting user information.</p>\n<h2 class=\"wp-block-heading\" id=\"h-prepare-your-agentforce-for-deployment-nbsp\">Prepare your Agentforce for deployment </h2>\n<p>Testing lays the groundwork for creating a reliable, high-performing Agentforce that meets expectations immediately. By testing in a Sandbox with realistic, secure data, you can fine-tune your Agentforce in a controlled environment, ensuring seamless performance so you can be sure they’re ready for deployment.</p>\n<p>Learn more about risk-free Agentforce testing with <a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">Salesforce Sandboxes</a> and <a href=\"https://www.salesforce.com/platform/data-masking/\" rel=\"noopener\" target=\"_blank\">Data Mask &amp; Seed.</a></p>\n<div class=\"layout-seven wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">A match made in innovation</h2>\n<p class=\"wp-block-offer__description\">Discover how AI innovations are driving the emergence of agents, and explore how agents are also reshaping software and software development.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/agentforce/ai-software-development/\" target=\"_blank\">Dive in</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-seven.png\"/>\n<!-- Small Accent Illustration -->\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-seven.png\"/>\n</div>\n<p> </p>\n</div>"
+}

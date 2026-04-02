@@ -1,0 +1,143 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-unified-development-experience/?bc=DB",
+  "slug": "ai-unified-development-experience",
+  "title": "AI Killed the Development Divide (And That’s a Good Thing)",
+  "author": "Alli Jaeggi",
+  "published_date": "2025-09-18T17:59:27+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "The development world has been artificially divided for decades. Organizations were forced to choose: build fast with low-code platforms but sacrifice customization, or code everything from scratch and accept slower delivery. This wasn’t a technology problem — it was a tooling problem. But here’s what’s changing everything: AI isn’t just making development faster — it’s making the distinction betweenlow-codeand pro-code irrelevant. We’re now seeing unified development experiences where the platform adapts to the problem, not the other way around.",
+      "word_count": 79,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "low-code",
+          "href": "https://www.salesforce.com/platform/low-code-development-platform/what-is-low-code/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Why you had to pick sides before",
+      "text": "Traditional development forced impossible choices: Low-code platformsdelivered working solutions quickly but hit walls when you needed custom logic or complex integrations. Your marketing team could build lead scoring workflows, but integrating with your custom pricing engine required a complete rebuild in code. Pro-code developmentgave you complete control but required extensive development time for even simple automation. Building a basic approval workflow meant weeks of development work that a business analyst could conceptualize in minutes. The result? Organizations ended up with separate teams using different tools, often working on the same problems without being able to collaborate effectively. You chose your methodology before you even understood what you were building.",
+      "word_count": 109,
+      "has_existing_cta": true,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "AI doesn’t care about your methodology",
+      "text": "AI-powered development platforms understand what you’re trying to build, not how you prefer to build it. When you describe business requirements, AI generates the most appropriate implementation — whether that’s visual workflows, custom code, or a combination of both. Consider building a customer onboarding process. Traditional approaches forced you to decide upfront: visual workflow tool or custom development? Each choice locked you into specific capabilities and limitations. With AI, you describe the business requirements: “New customers need account setup, document verification, and integration with our billing system.” The AI generates a solution that uses visual flows for the main process, custom code for document analysis, and automated connectors for system integration. Each piece uses the optimal approach.",
+      "word_count": 117,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "How the Agentforce 360 Platform delivers unified development",
+      "text": "Salesforce is leading this transformation by making AI native to the development experience. The platform’s AI capabilities don’t just generate code or create flows—they understand context and recommend the optimal approach for each requirement. TakeFlow, traditionally a pure low-code tool. With AI integration, Flow now seamlessly incorporates custom Apex code, calls external APIs, and integrates with complex business logic without forcing you to leave the visual environment. You get the speed of visual development with the power of custom code when you need it. Developers working in Apex can now use AI to generate Flow components, createLightning Web Components, and build data models without switching contexts. The AI acts as a translator between different development paradigms, making the entire platform feel unified.",
+      "word_count": 122,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Flow",
+          "href": "https://www.salesforce.com/mulesoft/automation/"
+        },
+        {
+          "text": "Lightning Web Components",
+          "href": "https://developer.salesforce.com/developer-centers/lightning-web-components"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Building AI agents without the traditional trade-offs",
+      "text": "The power of unified development becomes clear when buildingAI agents— a use case that traditionally required choosing between competing approaches. In the old world, you’d have separate teams: low-code builders creating conversation flows, pro-code developers building integrations, and system architects connecting everything together. Each team worked in isolation, then struggled to integrate their pieces. With AI-unified development, you describe what the agent should do: “Handle customer service inquiries, process returns, and escalate complex issues.” The AI helps you build: Conversational interfacesusing pre-built componentsCustom business logicgenerated as neededVisual workflowsfor standard processesAutomated integrationswith existing systems Business analysts can define conversation flows visually while developers add custom functions for complex calculations. AI ensures everything works together seamlessly.",
+      "word_count": 114,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "AI agents",
+          "href": "https://agentforce.com/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "More people can build sophisticated solutions",
+      "text": "AI democratizes capabilities that were previously limited to experienced developers. Complex integrations, custom algorithms, and advanced business logic are no longer exclusive to senior technical teams. When AI can generate code from natural language descriptions, test that code automatically, and integrate it with visual components, the barrier to entry drops dramatically. A business analyst who understands the requirements can create sophisticated solutions without learning traditional programming languages.This doesn’t diminish the role of experienced developers — it elevates them.Instead of spending time on routine integration work or standard CRUD operations, developers can focus on architecture, optimization, and genuinely complex problems that require human insight.",
+      "word_count": 103,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "This doesn’t diminish the role of experienced developers — it elevates them.",
+          "href": "https://www.salesforce.com/blog/4th-state-of-it-ai-and-app-development/"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "The Agentforce 360 Platform advantage: enterprise-grade by default",
+      "text": "Salesforce’s AI-unified development happens within a comprehensive platform, automatically providing enterprise-grade security, compliance, and scalability. When you build with AI assistance onthe Agentforce 360 Platform, you get more than AI-generated code — you get AI-generated solutions that work within a proven enterprise ecosystem. AI understands the platform’s capabilities and builds solutions that take advantage of everything available. Generated code follows platform best practices. Integrations use proven patterns. Architecture recommendations optimize for the platform’s strengths. This means faster development and more reliable, maintainable solutions that scale with your business.",
+      "word_count": 88,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "the Agentforce 360 Platform",
+          "href": "https://www.salesforce.com/products/platform/overview/"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "Development teams are already evolving",
+      "text": "As AI closes the gap between low-code and pro-code development, we’re seeing development teams evolve. The old distinctions between “citizen developers” and “professional developers” are becoming less meaningful. Instead, we’re seeing solution-focused teams where everyone contributes based on their domain expertise rather than their technical skills. The marketing expert who understands customer journeys can build sophisticated automation. The sales manager who uses low-code and AI-powered tools can create AI agents. The developer who understands system architecture can focus on optimization and scaling. This creates more diverse development teams and, ultimately, better solutions. When the people who understand the business problem can directly contribute to the technical solution, the result is software that actually solves the right problems.",
+      "word_count": 117,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "heading": "What this means for your organization",
+      "text": "The traditional approach of having separate low-code and pro-code teams, with different tools and different processes, is becoming obsolete. Organizations can now build unified development practices that leverage the best of both approaches. This translates to: Faster time to marketbecause there’s no friction between different development approachesBetter solutionsbecause the right tool gets used for each piece of the puzzleMore inclusive developmentbecause more people can contribute meaningfully to building solutionsReduced technical debtbecause AI generates platform-optimized code from the start The key is choosing platforms that embrace this unified approach rather than trying to force everything into one paradigm.",
+      "word_count": 97,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "heading": "The development divide is over",
+      "text": "The artificial divide between low-code and pro-code development is dissolving. AI has made the debate irrelevant by creating development experiences that adapt to human needs rather than forcing humans to adapt to tool limitations. This isn’t about replacing developers with visual tools, or replacing visual tools with code. It’s about creating development experiences where the tool gets out of the way and lets builders focus on solving business problems. Organizations that embrace this unified approach will build better solutions faster, while those that cling to the old divisions will find themselves at a competitive disadvantage. The future belongs to platforms that understand the best development experience is one where methodology follows problems, not the other way around. AI didn’t just change how we build software — it changed who can build software and what’s possible when artificial barriers disappear.",
+      "word_count": 139,
+      "has_existing_cta": true,
+      "inline_links": []
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "The vibe shift in AI development",
+      "body": "Here are the key insights about the state of IT from +2,000 IT and dev leaders.",
+      "button_text": "Read the report",
+      "button_url": "https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/%20",
+      "position_after_section": 1
+    },
+    {
+      "heading": "Launch your agents and apps",
+      "body": "Explore each stage of the agent and application lifecycle management (ALM) process, and the tools to help you build, test, and deploy.",
+      "button_text": "Download for free",
+      "button_url": "https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/",
+      "position_after_section": 5
+    },
+    {
+      "heading": "The Low-Code Playbook",
+      "body": "There’s a reason why 80% of IT organizations now use low-code/no-code development tools. Here’s why.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/conf/platform/low-code-playbook/%20",
+      "position_after_section": 9
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>The development world has been artificially divided for decades. Organizations were forced to choose: build fast with low-code platforms but sacrifice customization, or code everything from scratch and accept slower delivery. This wasn’t a technology problem — it was a tooling problem.</p>\n<p>But here’s what’s changing everything: AI isn’t just making development faster — it’s making the distinction between <a href=\"https://www.salesforce.com/platform/low-code-development-platform/what-is-low-code/\" rel=\"noopener\" target=\"_blank\">low-code</a> and pro-code irrelevant. We’re now seeing unified development experiences where the platform adapts to the problem, not the other way around.</p>\n<h2 class=\"wp-block-heading\" id=\"h-why-you-had-to-pick-sides-before\">Why you had to pick sides before</h2>\n<p>Traditional development forced impossible choices:</p>\n<p><strong>Low-code platforms</strong> delivered working solutions quickly but hit walls when you needed custom logic or complex integrations. Your marketing team could build lead scoring workflows, but integrating with your custom pricing engine required a complete rebuild in code.</p>\n<p><strong>Pro-code development</strong> gave you complete control but required extensive development time for even simple automation. Building a basic approval workflow meant weeks of development work that a business analyst could conceptualize in minutes.</p>\n<p>The result? Organizations ended up with separate teams using different tools, often working on the same problems without being able to collaborate effectively. You chose your methodology before you even understood what you were building.</p>\n<div class=\"layout-four wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">The vibe shift in AI development</h2>\n<p class=\"wp-block-offer__description\">Here are the key insights about the state of IT from +2,000 IT and dev leaders.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/%20\" target=\"_self\">Read the report</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-four.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-four.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-four.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">AI doesn’t care about your methodology</h2>\n<p>AI-powered development platforms understand what you’re trying to build, not how you prefer to build it. When you describe business requirements, AI generates the most appropriate implementation — whether that’s visual workflows, custom code, or a combination of both.</p>\n<p>Consider building a customer onboarding process. Traditional approaches forced you to decide upfront: visual workflow tool or custom development? Each choice locked you into specific capabilities and limitations.</p>\n<p>With AI, you describe the business requirements: “New customers need account setup, document verification, and integration with our billing system.” The AI generates a solution that uses visual flows for the main process, custom code for document analysis, and automated connectors for system integration. Each piece uses the optimal approach.</p>\n<h2 class=\"wp-block-heading\" id=\"h-how-the-agentforce-360-platform-delivers-unified-development\">How the Agentforce 360 Platform delivers unified development</h2>\n<p>Salesforce is leading this transformation by making AI native to the development experience. The platform’s AI capabilities don’t just generate code or create flows—they understand context and recommend the optimal approach for each requirement.</p>\n<p>Take <a href=\"https://www.salesforce.com/mulesoft/automation/\" rel=\"noopener\" target=\"_blank\">Flow</a>, traditionally a pure low-code tool. With AI integration, Flow now seamlessly incorporates custom Apex code, calls external APIs, and integrates with complex business logic without forcing you to leave the visual environment. You get the speed of visual development with the power of custom code when you need it.</p>\n<p>Developers working in Apex can now use AI to generate Flow components, create <a href=\"https://developer.salesforce.com/developer-centers/lightning-web-components\" rel=\"noopener\" target=\"_blank\">Lightning Web Components</a>, and build data models without switching contexts. The AI acts as a translator between different development paradigms, making the entire platform feel unified.</p>\n<h2 class=\"wp-block-heading\">Building AI agents without the traditional trade-offs</h2>\n<p>The power of unified development becomes clear when building <a href=\"https://agentforce.com/\" rel=\"noopener\" target=\"_blank\">AI agents</a> — a use case that traditionally required choosing between competing approaches.</p>\n<p>In the old world, you’d have separate teams: low-code builders creating conversation flows, pro-code developers building integrations, and system architects connecting everything together. Each team worked in isolation, then struggled to integrate their pieces.</p>\n<p>With AI-unified development, you describe what the agent should do: “Handle customer service inquiries, process returns, and escalate complex issues.” The AI helps you build:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Conversational interfaces</strong> using pre-built components</li>\n<li><strong>Custom business logic</strong> generated as needed</li>\n<li><strong>Visual workflows</strong> for standard processes</li>\n<li><strong>Automated integrations</strong> with existing systems</li>\n</ul>\n<p>Business analysts can define conversation flows visually while developers add custom functions for complex calculations. AI ensures everything works together seamlessly.</p>\n<h2 class=\"wp-block-heading\">More people can build sophisticated solutions</h2>\n<p>AI democratizes capabilities that were previously limited to experienced developers. Complex integrations, custom algorithms, and advanced business logic are no longer exclusive to senior technical teams.</p>\n<p>When AI can generate code from natural language descriptions, test that code automatically, and integrate it with visual components, the barrier to entry drops dramatically. A business analyst who understands the requirements can create sophisticated solutions without learning traditional programming languages. <a href=\"https://www.salesforce.com/blog/4th-state-of-it-ai-and-app-development/\" rel=\"noopener\" target=\"_blank\">This doesn’t diminish the role of experienced developers — it elevates them.</a> Instead of spending time on routine integration work or standard CRUD operations, developers can focus on architecture, optimization, and genuinely complex problems that require human insight.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Launch your agents and apps</h2>\n<p class=\"wp-block-offer__description\">Explore each stage of the agent and application lifecycle management (ALM) process, and the tools to help you build, test, and deploy.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/platform/five-stages-of-agent-and-application-lifecycle-management/\" target=\"_self\">Download for free</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-the-agentforce-360-platform-advantage-enterprise-grade-by-default\">The Agentforce 360 Platform advantage: enterprise-grade by default</h2>\n<p>Salesforce’s AI-unified development happens within a comprehensive platform, automatically providing enterprise-grade security, compliance, and scalability. When you build with AI assistance on <a href=\"https://www.salesforce.com/products/platform/overview/\" rel=\"noopener\" target=\"_blank\">the Agentforce 360 Platform</a>, you get more than AI-generated code — you get AI-generated solutions that work within a proven enterprise ecosystem.</p>\n<p>AI understands the platform’s capabilities and builds solutions that take advantage of everything available. Generated code follows platform best practices. Integrations use proven patterns. Architecture recommendations optimize for the platform’s strengths.</p>\n<p>This means faster development and more reliable, maintainable solutions that scale with your business.</p>\n<h2 class=\"wp-block-heading\">Development teams are already evolving</h2>\n<p>As AI closes the gap between low-code and pro-code development, we’re seeing development teams evolve. The old distinctions between “citizen developers” and “professional developers” are becoming less meaningful.</p>\n<p>Instead, we’re seeing solution-focused teams where everyone contributes based on their domain expertise rather than their technical skills. The marketing expert who understands customer journeys can build sophisticated automation. The sales manager who uses low-code and AI-powered tools can create AI agents. The developer who understands system architecture can focus on optimization and scaling.</p>\n<p>This creates more diverse development teams and, ultimately, better solutions. When the people who understand the business problem can directly contribute to the technical solution, the result is software that actually solves the right problems.</p>\n<h2 class=\"wp-block-heading\">What this means for your organization </h2>\n<p>The traditional approach of having separate low-code and pro-code teams, with different tools and different processes, is becoming obsolete. Organizations can now build unified development practices that leverage the best of both approaches.</p>\n<p>This translates to:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Faster time to market</strong> because there’s no friction between different development approaches</li>\n<li><strong>Better solutions</strong> because the right tool gets used for each piece of the puzzle</li>\n<li><strong>More inclusive development</strong> because more people can contribute meaningfully to building solutions</li>\n<li><strong>Reduced technical debt</strong> because AI generates platform-optimized code from the start</li>\n</ul>\n<p>The key is choosing platforms that embrace this unified approach rather than trying to force everything into one paradigm.</p>\n<h2 class=\"wp-block-heading\">The development divide is over</h2>\n<p>The artificial divide between low-code and pro-code development is dissolving. AI has made the debate irrelevant by creating development experiences that adapt to human needs rather than forcing humans to adapt to tool limitations.</p>\n<p>This isn’t about replacing developers with visual tools, or replacing visual tools with code. It’s about creating development experiences where the tool gets out of the way and lets builders focus on solving business problems.</p>\n<p>Organizations that embrace this unified approach will build better solutions faster, while those that cling to the old divisions will find themselves at a competitive disadvantage. The future belongs to platforms that understand the best development experience is one where methodology follows problems, not the other way around.</p>\n<p>AI didn’t just change how we build software — it changed who can build software and what’s possible when artificial barriers disappear.</p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">The Low-Code Playbook</h2>\n<p class=\"wp-block-offer__description\">There’s a reason why 80% of IT organizations now use low-code/no-code development tools. Here’s why.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/platform/low-code-playbook/%20\" target=\"_self\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n<p></p>\n</div>"
+}

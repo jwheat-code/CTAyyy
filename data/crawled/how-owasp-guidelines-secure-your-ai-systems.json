@@ -1,0 +1,206 @@
+{
+  "url": "https://www.salesforce.com/blog/how-owasp-guidelines-secure-your-ai-systems/?bc=DB",
+  "slug": "how-owasp-guidelines-secure-your-ai-systems",
+  "title": "How Following OWASP Guidelines Keeps Your AI Systems Safe",
+  "author": "Craig Eidelman",
+  "published_date": "2025-01-30T14:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "As AI systems grow more complex, their vulnerabilities also increase — ranging from model sabotage to data reconstruction and adversarial attacks. To address these challenges, theOpen Web Application Security Project(OWASP) became a key advocate for secure software development. TheOWASP AI Security and Privacy Guideprovides actionable principles for building strong and ethical AI applications. By incorporating OWASP guidelines into a broader framework, we’ll show how they support strategies that deliver AI solutions that are trusted, secure, and responsible.",
+      "word_count": 77,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Open Web Application Security Project",
+          "href": "https://owasp.org/"
+        },
+        {
+          "text": "OWASP AI Security and Privacy Guide",
+          "href": "https://owasp.org/www-project-ai-security-and-privacy-guide/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What is the Open Web Application Security Project (OWASP)?",
+      "text": "In 2001, developers founded OWASP, which is now a globally recognized nonprofit dedicated to enhancing the security of software and web applications. Its mission is to provide developers, security professionals, and organizations with unbiased, practical, and freely accessible resources. Over the years, OWASP has become a trusted name in secure software development, addressing vulnerabilities and setting key industry standards. OWASP designs its resources — including guidelines, frameworks, and tools — to help manage risks and strengthen system resilience. Most recently,OWASP guidelinesaddressed the unique challenges that AI poses, providing organizations with a roadmap for building secure and ethical AI systems.",
+      "word_count": 99,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "OWASP guidelines",
+          "href": "https://owasp.org/www-project-ai-security-and-privacy-guide/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Understanding Salesforce’s commitment to the OWASP guidelines",
+      "text": "Salesforce’s approach upholds many key principles from the OWASP AI Security and Privacy Guide, focusing on safeguarding data and building customer trust. These shared principles address essential areas of AI, including data privacy and protection, ethical AI management, data governance, and transparency – all of which are core to developing and maintaining trustworthy AI solutions. This principle emphasizes that organizations should not repurpose data collected for specific purposes without placing proper controls. Data privacy and regulatory concerns matter more now than ever, especially regarding how organizations use data to train and power AI. How Salesforce supports this principle:Salesforce anchorsAgentforcewith theSalesforce AI Policy Frameworkand theAcceptable AI Use Policy,which set strict guidelines for ethical data use and processing. This includes clear limits on how personal data can be used in AI, making sure it’s only applied for well-defined purposes. Also, Salesforce governance policies within these standards make sure that we do not collect data for AI use without clear methods for opting out. Accuracy has always challenged AI development, and without careful attention during development and ongoing training, AI models can unintentionally create adverse or unfair outcomes for end users. The OWASP fairness principle explains that ethical AI systems must process data in ways that individuals expect, avoiding discrimination or unjust effects. This includes overt discrimination based on demographics and more subtle biases in key decisions, such as bans or exclusions. How Salesforce supports this principle:TheAcceptable AI Use Policyand theAgentforce Trust Layerare designed to make sure AI systems follow these fairness principles. These policies help prevent biases in AI models and provide tools to evaluate and mitigate potential discriminatory effects. Data organizations operating under the European Union (EU)’sGeneral Data Protection Regulation(GDPR) are well aware of the importance of data minimization. This means collecting only the necessary data for a given task, anonymizing it when possible, and limiting storage time to the absolute minimum. How Salesforce supports this principle:The AI Policy Framework sets strict governance guidelines and uses policies related to data minimization and retention. Personal data is only used for its intended purpose and stored for the minimal time needed. TheData Processing Addendumoutlines strict protocols to reduce data collection and ensure it’s securely stored. Additionally, SalesforceData Mask & Seedhelps anonymize sensitive information in your Salesforce Sandbox, supporting the OWASP principle of minimizing unnecessary data exposure. Organizations can strengthen data privacy and follow data minimization best practices by making suresensitive data is obfuscatedwhen not needed for testing or development. In production environments, SalesforcePrivacy Centerlets customers create data management policies to delete or obfuscate data. This will make sure thatonly relevant datais used for generative AI prompt creation. A clear understanding of those models, specifically what they do with that data and for how long, is essential. In response, OWASP promotes transparency by advocating for clear privacy notices, user access to their data, and explanations of algorithmic decisions made by AI. How Salesforce supports this principle:TheGenerative AI Guidelines,Model Cards for AI Transparency, andGuidelines for Responsible AIefforts clarify the workings of AI and support user understanding. The Model Cards specifically outline the following: Clear and understandable explanations of AI predictions or recommendationsThe intended applications and potential impacts of AI capabilities Tools like Prompt and Model Builders also help reinforce these guidelines by allowing users to access insights and better understand how AI decision-making processes work. These principles highlight a broader concern around privacy. OWASP emphasizes that addressing privacy is foundational for developing secure and ethical AI systems. Alongside tools likeencryptionanddata masking, they define privacy rights as the responsibility of upholding individuals’ rights to their own data — specifically, their right to access, correct, delete, and object to data processing. How Salesforce supports this principle:Salesforce prioritizes the security and privacy of the data that we are entrusted to protect. Salesforce’sprivacy policiesshow our commitment to upholding our customers’ privacy rights. Salesforce Privacy Center allows customers to createRight to Be Forgotten(RTBF) policies to ensure compliance withdata privacy regulations. Logging and tracking privacy requests properly provides the necessary proof of compliance in case of an audit. AI’s outputs or predictions are only as good as the data they are based on. While software output inaccuracies might seem inconsequential, they can become significant when AI is used for large-scale, predictive tasks that impact critical decisions. OWASP states that secure and ethical AI must ensure data is both accurate and sourced from reliable origins. How Salesforce supports this principle:This commitment to accuracy is embedded in the Ethical AI Framework, which prioritizesmonitoring,auditing, and external surveys and tests to ensure accurate data and output. Customers can useprompt groundingto infuse prompts with structured and unstructured data, grounding the prompt in a relevant context. This helps make sure that the response is generated with accurate, up-to-date data. TheAgentforce Trust Layerincludes the Prompt Grounding feature. GDPR and EU regulations strongly push for‘opt-in’ data gathering. This means organizations must obtain explicit, granular, and auditable consent before they collect or use user data. How Salesforce supports this principle:The Ethical AI Framework and Salesforce’scommitment to data privacymake consent a cornerstone of data practices. With auditable consent processes embedded into theAgentforce 360 Platform, users have control and visibility over how their data is used, which is in line with OWASP’s emphasis on informed consent. Privacy Centerallows customers to manage communication consent with their users, ensuring organizations adhere to privacy laws and best practices. This includes auditable processes that allow organizations to initiate and trackdata privacyprocedures, such as the right to be forgotten. Of course, overt threats to AI security exist, such as data injection and damaging training data. OWASP emphasizes that secure AI must protect against risks like membership inference and model inversion attacks, which can unintentionally disclose data. How Salesforce supports this principle:Salesforce designs itsAI security frameworkwith protections against model-specific attacks. These mitigation approaches address Model DDoS, training data poisoning, insecure output handling, and insecure software design (among others).",
+      "word_count": 970,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "Salesforce AI Policy Framework",
+          "href": "https://www.salesforce.com/content/dam/web/en_us/www/documents/shaping-the-future-a-policy-framework-for-trusted-enterprise-ai.pdf"
+        },
+        {
+          "text": "Acceptable AI Use Policy,",
+          "href": "https://www.salesforce.com/news/stories/ai-acceptable-use-policy/"
+        },
+        {
+          "text": "Acceptable AI Use Policy",
+          "href": "https://www.salesforce.com/news/stories/ai-acceptable-use-policy/"
+        },
+        {
+          "text": "Agentforce Trust Layer",
+          "href": "https://help.salesforce.com/s/articleView?id=sf.generative_ai_trust_arch2.htm&type=5"
+        },
+        {
+          "text": "General Data Protection Regulation",
+          "href": "https://gdpr-info.eu/"
+        },
+        {
+          "text": "Data Processing Addendum",
+          "href": "https://www.salesforce.com/company/legal/agreements/"
+        },
+        {
+          "text": "Data Mask & Seed",
+          "href": "https://www.salesforce.com/platform/data-masking/"
+        },
+        {
+          "text": "sensitive data is obfuscated",
+          "href": "https://www.salesforce.com/platform/data-masking/what-is-data-obfuscation/"
+        },
+        {
+          "text": "Privacy Center",
+          "href": "https://www.salesforce.com/platform/privacy-center/"
+        },
+        {
+          "text": "only relevant data",
+          "href": "https://help.salesforce.com/s/articleView?id=xcloud.privacy_center_and_data_governance_laws.htm&type=5"
+        },
+        {
+          "text": "Generative AI Guidelines",
+          "href": "https://www.salesforce.com/news/stories/generative-ai-guidelines/"
+        },
+        {
+          "text": "Model Cards for AI Transparency",
+          "href": "https://blog.salesforceairesearch.com/model-cards-for-ai-model-transparency/"
+        },
+        {
+          "text": "Guidelines for Responsible AI",
+          "href": "https://www.salesforce.com/news/stories/generative-ai-guidelines/"
+        },
+        {
+          "text": "encryption",
+          "href": "https://help.salesforce.com/s/articleView?id=xcloud.security_pe_overview.htm&type=5"
+        },
+        {
+          "text": "data masking",
+          "href": "https://www.salesforce.com/platform/data-masking/what-is-data-masking/"
+        },
+        {
+          "text": "privacy policies",
+          "href": "https://www.salesforce.com/company/privacy/"
+        },
+        {
+          "text": "Right to Be Forgotten",
+          "href": "https://help.salesforce.com/s/articleView?id=xcloud.about_rtbf_policies.htm&type=5"
+        },
+        {
+          "text": "data privacy regulations",
+          "href": "https://www.salesforce.com/platform/data-privacy-compliance/what-is-data-privacy-compliance/"
+        },
+        {
+          "text": "monitoring",
+          "href": "https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/real_time_event_monitoring_overview.htm"
+        },
+        {
+          "text": "auditing",
+          "href": "https://help.salesforce.com/s/articleView?id=xcloud.security_overview_auditing.htm&type=5"
+        },
+        {
+          "text": "prompt grounding",
+          "href": "https://www.salesforce.com/blog/what-is-grounding/"
+        },
+        {
+          "text": "Agentforce Trust Layer",
+          "href": "https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm&type=5"
+        },
+        {
+          "text": "‘opt-in’ data gathering",
+          "href": "https://help.salesforce.com/s/articleView?id=mktg.mc_es_opt-in-best-practices.htm&type=5"
+        },
+        {
+          "text": "commitment to data privacy",
+          "href": "https://www.salesforce.com/company/legal/agreements/"
+        },
+        {
+          "text": "Agentforce 360 Platform",
+          "href": "https://www.salesforce.com/platform/privacy-center/"
+        },
+        {
+          "text": "Privacy Center",
+          "href": "https://help.salesforce.com/s/articleView?id=release-notes.rn_security_privacy_center.htm&language=en_US&release=246&type=5"
+        },
+        {
+          "text": "data privacy",
+          "href": "https://www.salesforce.com/platform/data-privacy-compliance/what-is-data-privacy/"
+        },
+        {
+          "text": "AI security framework",
+          "href": "https://compliance.salesforce.com/en/documents/a006e0000161khLAAQ"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Building secure, ethical, and trusted AI systems with OWASP guidelines",
+      "text": "The OWASP AI Security and Privacy Guide offers an essential framework to build secure, ethical, andtransparent AIsystems. By focusing on key principles such as use limitation, fairness, transparency, and data minimization, organizations can navigate AI complexities more effectively while staying up-to-date with the latest security and privacy practices. As AI advances, organizations that prioritize these principles willequip themselves to deliver AI solutionsthat are not only effective but also responsible and secure.",
+      "word_count": 71,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "transparent AI",
+          "href": "https://www.salesforce.com/artificial-intelligence/ai-transparency/"
+        },
+        {
+          "text": "equip themselves to deliver AI solutions",
+          "href": "https://www.salesforce.com/platform/cloud-data-security/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "No more if and bytes – just secure AI",
+      "body": "Hear from 4,000 IT professionals on improving data quality and building secure AI capabilities.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/platform/state-of-it-security/",
+      "position_after_section": 1
+    },
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "Start learning",
+      "button_url": "https://trailhead.salesforce.com/content/learn/modules/artificial-intelligence-and-cybersecurity",
+      "position_after_section": 3
+    },
+    {
+      "heading": "Become data safe to AI brave",
+      "body": "Get the guide to learn how Salesforce helps you adopt best practices for data security while innovating with AI.",
+      "button_text": "Download for free",
+      "button_url": "https://www.salesforce.com/form/platform/data-security-best-practices-guide/",
+      "position_after_section": 3
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>As AI systems grow more complex, their vulnerabilities also increase — ranging from model sabotage to data reconstruction and adversarial attacks. To address these challenges, the <a href=\"https://owasp.org/\" rel=\"noopener\" target=\"_blank\">Open Web Application Security Project</a> (OWASP) became a key advocate for secure software development.</p>\n<p>The <a href=\"https://owasp.org/www-project-ai-security-and-privacy-guide/\" rel=\"noopener\" target=\"_blank\">OWASP AI Security and Privacy Guide</a> provides actionable principles for building strong and ethical AI applications. By incorporating OWASP guidelines into a broader framework, we’ll show how they support strategies that deliver AI solutions that are trusted, secure, and responsible.</p>\n<h2 class=\"wp-block-heading\" id=\"h-what-is-the-open-web-application-security-project-owasp-nbsp\">What is the Open Web Application Security Project (OWASP)? </h2>\n<p>In 2001, developers founded OWASP, which is now a globally recognized nonprofit dedicated to enhancing the security of software and web applications. Its mission is to provide developers, security professionals, and organizations with unbiased, practical, and freely accessible resources.</p>\n<p>Over the years, OWASP has become a trusted name in secure software development, addressing vulnerabilities and setting key industry standards. OWASP designs its resources — including guidelines, frameworks, and tools — to help manage risks and strengthen system resilience.</p>\n<p>Most recently, <a href=\"https://owasp.org/www-project-ai-security-and-privacy-guide/\" rel=\"noopener\" target=\"_blank\">OWASP guidelines</a> addressed the unique challenges that AI poses, providing organizations with a roadmap for building secure and ethical AI systems.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">No more if and bytes – just secure AI</h2>\n<p class=\"wp-block-offer__description\">Hear from 4,000 IT professionals on improving data quality and building secure AI capabilities.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/state-of-it-security/\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-understanding-salesforce-s-commitment-to-the-owasp-guidelines-nbsp-nbsp\">Understanding Salesforce’s commitment to the OWASP guidelines  </h2>\n<p>Salesforce’s approach upholds many key principles from the OWASP AI Security and Privacy Guide, focusing on safeguarding data and building customer trust.</p>\n<p>These shared principles address essential areas of AI, including data privacy and protection, ethical AI management, data governance, and transparency – all of which are core to developing and maintaining trustworthy AI solutions.</p>\n<h3 class=\"wp-block-heading\">Principle 1. Use limitation and purpose specification</h3>\n<p>This principle emphasizes that organizations should not repurpose data collected for specific purposes without placing proper controls. Data privacy and regulatory concerns matter more now than ever, especially regarding how organizations use data to train and power AI.</p>\n<p><strong>How Salesforce supports this principle:</strong> Salesforce anchors <a href=\"https://www.salesforce.com/agentforce/\" rel=\"noopener\" target=\"_blank\">Agentforce</a> with the <a href=\"https://www.salesforce.com/content/dam/web/en_us/www/documents/shaping-the-future-a-policy-framework-for-trusted-enterprise-ai.pdf\" rel=\"noopener\" target=\"_blank\">Salesforce AI Policy Framework</a> and the <a href=\"https://www.salesforce.com/news/stories/ai-acceptable-use-policy/\" rel=\"noopener\" target=\"_blank\">Acceptable AI Use Policy,</a> which set strict guidelines for ethical data use and processing. This includes clear limits on how personal data can be used in AI, making sure it’s only applied for well-defined purposes.</p>\n<p>Also, Salesforce governance policies within these standards make sure that we do not collect data for AI use without clear methods for opting out.</p>\n<h3 class=\"wp-block-heading\">Principle 2. Fairness</h3>\n<p>Accuracy has always challenged AI development, and without careful attention during development and ongoing training, AI models can unintentionally create adverse or unfair outcomes for end users.</p>\n<p>The OWASP fairness principle explains that ethical AI systems must process data in ways that individuals expect, avoiding discrimination or unjust effects. This includes overt discrimination based on demographics and more subtle biases in key decisions, such as bans or exclusions.</p>\n<p><strong>How Salesforce supports this principle: </strong>The <a href=\"https://www.salesforce.com/news/stories/ai-acceptable-use-policy/\" rel=\"noopener\" target=\"_blank\">Acceptable AI Use Policy</a> and the <a href=\"https://help.salesforce.com/s/articleView?id=sf.generative_ai_trust_arch2.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Agentforce Trust Layer</a> are designed to make sure AI systems follow these fairness principles. These policies help prevent biases in AI models and provide tools to evaluate and mitigate potential discriminatory effects. </p>\n<h3 class=\"wp-block-heading\">Principle 3. Data minimization and storage limitation</h3>\n<p>Data organizations operating under the European Union (EU)’s <a href=\"https://gdpr-info.eu/\" rel=\"noopener\" target=\"_blank\">General Data Protection Regulation</a> (GDPR) are well aware of the importance of data minimization. This means collecting only the necessary data for a given task, anonymizing it when possible, and limiting storage time to the absolute minimum.</p>\n<p><strong>How Salesforce supports this principle: </strong>The AI Policy Framework sets strict governance guidelines and uses policies related to data minimization and retention. Personal data is only used for its intended purpose and stored for the minimal time needed. The <a href=\"https://www.salesforce.com/company/legal/agreements/\" rel=\"noopener\" target=\"_blank\">Data Processing Addendum</a> outlines strict protocols to reduce data collection and ensure it’s securely stored.  </p>\n<p>Additionally, Salesforce <a href=\"https://www.salesforce.com/platform/data-masking/\" rel=\"noopener\" target=\"_blank\">Data Mask &amp; Seed </a>helps anonymize sensitive information in your Salesforce Sandbox, supporting the OWASP principle of minimizing unnecessary data exposure. Organizations can strengthen data privacy and follow data minimization best practices by making sure <a href=\"https://www.salesforce.com/platform/data-masking/what-is-data-obfuscation/\" rel=\"noopener\" target=\"_blank\">sensitive data is obfuscated</a> when not needed for testing or development.     </p>\n<p>In production environments, Salesforce <a href=\"https://www.salesforce.com/platform/privacy-center/\" rel=\"noopener\" target=\"_blank\">Privacy Center</a> lets customers create data management policies to delete or obfuscate data. This will make sure that <a href=\"https://help.salesforce.com/s/articleView?id=xcloud.privacy_center_and_data_governance_laws.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">only relevant data</a> is used for generative AI prompt creation. </p>\n<h3 class=\"wp-block-heading\">Principle 4. Transparency</h3>\n<p>A clear understanding of those models, specifically what they do with that data and for how long, is essential. In response, OWASP promotes transparency by advocating for clear privacy notices, user access to their data, and explanations of algorithmic decisions made by AI.</p>\n<p><strong>How Salesforce supports this principle:</strong> The <a href=\"https://www.salesforce.com/news/stories/generative-ai-guidelines/\" rel=\"noopener\" target=\"_blank\">Generative AI Guidelines</a>, <a href=\"https://blog.salesforceairesearch.com/model-cards-for-ai-model-transparency/\" rel=\"noopener\" target=\"_blank\">Model Cards for AI Transparency</a>, and <a href=\"https://www.salesforce.com/news/stories/generative-ai-guidelines/\" rel=\"noopener\" target=\"_blank\">Guidelines for Responsible AI</a> efforts clarify the workings of AI and support user understanding. The Model Cards specifically outline the following:</p>\n<ul class=\"wp-block-list\">\n<li>Clear and understandable explanations of AI predictions or recommendations</li>\n<li>The intended applications and potential impacts of AI capabilities </li>\n</ul>\n<p>Tools like Prompt and Model Builders also help reinforce these guidelines by allowing users to access insights and better understand how AI decision-making processes work. </p>\n<div class=\"layout-astro wp-block-salesforce-blog-related-trail\">\n<img alt=\"\" class=\"related-trail__illustration related-trail__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-cloud-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__background\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-background-layout-astro.png\"/>\n<div class=\"related-trail__wrapper\">\n<div class=\"related-trail__content\">\n<svg aria-hidden=\"true\" class=\"related-trail__logo\" viewbox=\"0 0 345.8 82.8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M96.6 33h9v22.6h4.8V33h8.8v-4.3H96.6zm49.8 5.3c0-5.7-3.6-9.6-10.8-9.6H127v27h4.8v-7.9h3l2.3-.1 5.7 8h5.6l-7-9.2c3.4-1.6 5-4.5 5-8.2m-11.1 5.3h-3.6V33h3.6c4.4 0 6 2.3 6 5.3s-1.6 5.3-6 5.3m30.8-15.2-12.6 27.2h5l2.3-5.3h11.6l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm25.2-17.7h4.8v27h-4.8zm20.7 0h-4.8v27h17.6v-4.4h-12.8zm38.4 12.1h-13.2V28.7H229v27h4.7V45h13.2v10.6h4.7V28.7h-4.7zm15.9 14.8h17.5v-4.4h-12.7v-6.4H279v-4.2h-11.5v-7.5h12.7v-4.4h-17.5zm36.9-27.2L287 55.6h5l2.3-5.3H306l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm35.4-17.7h-10.2v27h10.2c8.2 0 14.4-5.9 14.4-13.6s-6-13.4-14.4-13.4m0 22.6H326V33h5.4a9.1 9.1 0 1 1 0 18.1z\" fill=\"#1d3767\"></path><path d=\"M43 82.8h.1a74 74 0 0 0 38.5-12.3 3 3 0 0 0 1.3-2.4v-6A66.2 66.2 0 0 0 42.5.2a3 3 0 0 0-2.3 0A66.2 66.2 0 0 0 0 62.2V68a3 3 0 0 0 1.2 2.4 74 74 0 0 0 40.2 12.4z\" fill=\"#1d315f\"></path><path d=\"M13.8 51.8a.3.3 0 0 0 0-.1L33 23.6a3.1 3.1 0 0 1 .8-.8 3 3 0 0 1 4 .8l9.5 13.8 3.5-5a3 3 0 0 1 4.9 0L69 51.6a.3.3 0 0 1 .1.3h7C70.7 17.7 43.7 7.2 41.4 6.2c0 0-11.2 4-21.2 16A59.6 59.6 0 0 0 6.8 51.8zm21.7-21.3\" fill=\"#8ed1f4\"></path><path d=\"m62 51.9-8.7-12.6-4.2 6.1 4.8 6.4z\" fill=\"#aa76b3\"></path><path d=\"m49 45.4-4.4 6.4H54z\" fill=\"#722a87\"></path><path d=\"m37 32.6-1.5-2.1z\" fill=\"#8ed1f4\"></path><path d=\"m28 41.4 7.6 10.4h1.8l6.4-9.2-6.8-10-1.5-2.1z\" fill=\"#aa76b3\"></path><path d=\"m28 41.4-7 10.4h14.6z\" fill=\"#722a87\"></path><path d=\"M43.8 72.5a1.8 1.8 0 0 0-1-2.4L40.1 69a8 8 0 0 1-1-.5 7.8 7.8 0 0 1-2.4-10.7H6a44 44 0 0 0-.2 4.4v4.4A70 70 0 0 0 26 75a70 70 0 0 0 15.2 2l2.4-4.3zm33-14.8H44.3l-2.5 3a1.7 1.7 0 0 0-.2.5 1.8 1.8 0 0 0 1 2.3l2.7 1.2.7.4a7.8 7.8 0 0 1 3 10.6l-.5.9 4.8-.8a71 71 0 0 0 8.4-2.2l1.3-.4a71 71 0 0 0 14-6.7v-8.8z\" fill=\"#069a49\"></path><path d=\"m46 65-.7-.3-2.7-1.2a1.8 1.8 0 0 1-1-2.4 1.7 1.7 0 0 1 .2-.4l2.5-3h-7.6A7.8 7.8 0 0 0 39 68.4a8 8 0 0 0 1 .5l2.7 1.2a1.8 1.8 0 0 1 1 2.4l-.1.2-2.5 4.3a52.5 52.5 0 0 0 7.2-.4l.5-.9A7.8 7.8 0 0 0 46 65.1z\" fill=\"#fff\"></path><path d=\"M56.9 67.3h8.8l-4.4-5zM23 71h9l-4.5-5.1zm-4.1-10.4-4.5 5h8.9z\" fill=\"#157139\"></path></svg>\n<h2 class=\"wp-block-related-trail__title\">AI that’s smart, security that’s smarter</h2>\n<p>Learn to navigate the ethical and security considerations of AI on Trailhead, Salesforce's free online learning platform.</p>\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://trailhead.salesforce.com/content/learn/modules/artificial-intelligence-and-cybersecurity\" rel=\"noopener\" target=\"_blank\">Start learning</a></div>\n</div>\n<div class=\"related-trail__mock\">\n<div class=\"related-trail__points\">+200 points</div>\n<div class=\"related-trail__eyebrow\">Module</div>\n<p class=\"related-trail__trail-title h3\">Artificial Intelligence and Cybersecurity</p>\n<p class=\"related-trail__trail-description\">Learn the ways of this trail.</p>\n<div class=\"related-trail__actions\">\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\"><path clip-rule=\"evenodd\" d=\"m4.93.69.88 2.88c.04.12.16.18.27.18h2.89c.29 0 .4.38.17.56L6.79 6.04c-.1.07-.13.2-.1.32l1.12 2.96c.08.27-.2.5-.44.33L4.85 7.77c-.1-.08-.23-.08-.34 0L1.97 9.65a.29.29 0 0 1-.45-.33L2.6 6.36a.3.3 0 0 0-.1-.32L.17 4.3c-.23-.18-.1-.56.17-.56h2.89c.13 0 .23-.04.27-.18l.9-2.9c.08-.27.46-.25.54.02Z\" fill=\"#747474\" fill-rule=\"evenodd\"></path></svg>\n</div>\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 9 5\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.16 4.5.26 0h7.8z\" fill=\"#747474\"></path></svg>\n</div>\n</div>\n</div>\n</div>\n<img alt=\"\" class=\"related-trail__illustration related-trail__foreground\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-foreground-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__parks\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-parks-layout-astro.png\"/>\n</div>\n<h3 class=\"wp-block-heading\">Principle 5. Privacy rights</h3>\n<p>These principles highlight a broader concern around privacy. OWASP emphasizes that addressing privacy is foundational for developing secure and ethical AI systems.</p>\n<p>Alongside tools like <a href=\"https://help.salesforce.com/s/articleView?id=xcloud.security_pe_overview.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">encryption</a> and <a href=\"https://www.salesforce.com/platform/data-masking/what-is-data-masking/\" rel=\"noopener\" target=\"_blank\">data masking</a>, they define privacy rights as the responsibility of upholding individuals’ rights to their own data — specifically, their right to access, correct, delete, and object to data processing.</p>\n<p><strong>How Salesforce supports this principle: </strong>Salesforce prioritizes the security and privacy of the data that we are entrusted to protect. Salesforce’s <a href=\"https://www.salesforce.com/company/privacy/\" rel=\"noopener\" target=\"_blank\">privacy policies</a> show our commitment to upholding our customers’ privacy rights.</p>\n<p>Salesforce Privacy Center allows customers to create <a href=\"https://help.salesforce.com/s/articleView?id=xcloud.about_rtbf_policies.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Right to Be Forgotten</a> (RTBF) policies to ensure compliance with <a href=\"https://www.salesforce.com/platform/data-privacy-compliance/what-is-data-privacy-compliance/\" rel=\"noopener\" target=\"_blank\">data privacy regulations</a>. Logging and tracking privacy requests properly provides the necessary proof of compliance in case of an audit.</p>\n<h3 class=\"wp-block-heading\">Principle 6. Data accuracy</h3>\n<p>AI’s outputs or predictions are only as good as the data they are based on. While software output inaccuracies might seem inconsequential, they can become significant when AI is used for large-scale, predictive tasks that impact critical decisions. </p>\n<p>OWASP states that secure and ethical AI must ensure data is both accurate and sourced from reliable origins.</p>\n<p><strong>How Salesforce supports this principle: </strong>This commitment to accuracy is embedded in the Ethical AI Framework, which prioritizes <a href=\"https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/real_time_event_monitoring_overview.htm\" rel=\"noopener\" target=\"_blank\">monitoring</a>, <a href=\"https://help.salesforce.com/s/articleView?id=xcloud.security_overview_auditing.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">auditing</a>, and external surveys and tests to ensure accurate data and output.</p>\n<p>Customers can use <a href=\"https://www.salesforce.com/blog/what-is-grounding/\" rel=\"noopener\" target=\"_blank\">prompt grounding</a> to infuse prompts with structured and unstructured data, grounding the prompt in a relevant context. This helps make sure that the response is generated with accurate, up-to-date data. The <a href=\"https://help.salesforce.com/s/articleView?id=ai.generative_ai_trust_arch.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Agentforce Trust Layer</a> includes the Prompt Grounding feature.</p>\n<h3 class=\"wp-block-heading\">Principle 7. Consent</h3>\n<p>GDPR and EU regulations strongly push for <a href=\"https://help.salesforce.com/s/articleView?id=mktg.mc_es_opt-in-best-practices.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">‘opt-in’ data gathering</a>. This means organizations must obtain explicit, granular, and auditable consent before they collect or use user data.</p>\n<p><strong>How Salesforce supports this principle: </strong>The Ethical AI Framework and Salesforce’s <a href=\"https://www.salesforce.com/company/legal/agreements/\" rel=\"noopener\" target=\"_blank\">commitment to data privacy</a> make consent a cornerstone of data practices. With auditable consent processes embedded into the <a href=\"https://www.salesforce.com/platform/privacy-center/\" rel=\"noopener\" target=\"_blank\">Agentforce 360 Platform</a>, users have control and visibility over how their data is used, which is in line with OWASP’s emphasis on informed consent.</p>\n<p><a href=\"https://help.salesforce.com/s/articleView?id=release-notes.rn_security_privacy_center.htm&amp;language=en_US&amp;release=246&amp;type=5\" rel=\"noopener\" target=\"_blank\">Privacy Center</a> allows customers to manage communication consent with their users, ensuring organizations adhere to privacy laws and best practices. This includes auditable processes that allow organizations to initiate and track <a href=\"https://www.salesforce.com/platform/data-privacy-compliance/what-is-data-privacy/\" rel=\"noopener\" target=\"_blank\">data privacy</a> procedures, such as the right to be forgotten.</p>\n<h3 class=\"wp-block-heading\">Principle 8. Model attacks</h3>\n<p>Of course, overt threats to AI security exist, such as data injection and damaging training data. OWASP emphasizes that secure AI must protect against risks like membership inference and model inversion attacks, which can unintentionally disclose data.</p>\n<p><strong>How Salesforce supports this principle: </strong>Salesforce designs its <a href=\"https://compliance.salesforce.com/en/documents/a006e0000161khLAAQ\" rel=\"noopener\" target=\"_blank\">AI security framework</a> with protections against model-specific attacks. These mitigation approaches address Model DDoS, training data poisoning, insecure output handling, and insecure software design (among others). </p>\n<h2 class=\"wp-block-heading\">Building secure, ethical, and trusted AI systems with OWASP guidelines          </h2>\n<p>The OWASP AI Security and Privacy Guide offers an essential framework to build secure, ethical, and <a href=\"https://www.salesforce.com/artificial-intelligence/ai-transparency/\" rel=\"noopener\" target=\"_blank\">transparent AI</a> systems.</p>\n<p>By focusing on key principles such as use limitation, fairness, transparency, and data minimization, organizations can navigate AI complexities more effectively while staying up-to-date with the latest security and privacy practices.</p>\n<p>As AI advances, organizations that prioritize these principles will <a href=\"https://www.salesforce.com/platform/cloud-data-security/\" rel=\"noopener\" target=\"_blank\">equip themselves to deliver AI solutions</a> that are not only effective but also responsible and secure.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Become data safe to AI brave</h2>\n<p class=\"wp-block-offer__description\">Get the guide to learn how Salesforce helps you adopt best practices for data security while innovating with AI.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/data-security-best-practices-guide/\" target=\"_blank\">Download for free</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n</div>"
+}
