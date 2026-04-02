@@ -31,19 +31,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -75,19 +81,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage sales_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage sales_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage sales_leader reader."
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage sales_leader reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage sales_leader reader."
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage sales_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -117,19 +129,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
         },
         {
+          "type": "cta",
           "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -157,19 +175,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
         },
         {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -212,19 +236,28 @@
       },
       "recommendations": [
         {
-          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
-          "score": 0.5,
-          "match_rationale": "Matches slack product focus at consideration stage for decision-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-be-more-productive-with-slack",
+          "name": "Slack: Get Started with the Operating System For Work",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/be-more-productive-with-slack",
+          "duration_minutes": 200,
+          "score": 0.85,
+          "match_rationale": "Trail targets slack at decision stage for decision-stage small_business_owner reader."
         },
         {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.5,
+          "match_rationale": "Trail targets general at decision stage for decision-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
-        },
-        {
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.15,
-          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -268,19 +301,25 @@
       },
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage small_business_owner reader."
         },
         {
+          "type": "cta",
           "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at consideration stage for consideration-stage small_business_owner reader."
+          "match_rationale": "CTA targets slack at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -308,19 +347,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
         },
         {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -353,19 +398,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
         },
         {
+          "type": "cta",
           "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-grow-your-business-with-salesforce-foundations",
+          "name": "Grow Your Business with Salesforce Foundations",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/grow-your-business-with-salesforce-foundations",
+          "duration_minutes": 750,
+          "score": 0.85,
+          "match_rationale": "Trail targets starter at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -399,19 +453,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
+          "type": "cta",
           "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,

@@ -41,19 +41,28 @@
       },
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-tableau-data-visualization-and-storytelling",
+          "name": "Tableau: Data Visualization and Storytelling",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-data-visualization-and-storytelling",
+          "duration_minutes": 428,
+          "score": 0.95,
+          "match_rationale": "Trail targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "https:--www.tableau.com-solutions-customer-america",
           "score": 0.85,
-          "match_rationale": "Matches tableau product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets tableau at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,

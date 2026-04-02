@@ -30,19 +30,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
         },
         {
+          "type": "trail",
+          "trail_id": "trail-use-einstein-features-in-marketing-cloud",
+          "name": "Use Einstein Features in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/use-einstein-features-in-marketing-cloud",
+          "duration_minutes": 90,
+          "score": 0.95,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "form-service-cloud-achieve-operational-excellence-",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
-        },
-        {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,

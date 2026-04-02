@@ -359,60 +359,101 @@ def score_existing_cta(cta: dict, products: list, funnel: str, persona: str, cta
     }
 
 
-def get_recommendations(products: list, funnel: str, persona: str, cta_lib: list, n: int = 3) -> list[dict]:
+def _score_item(item: dict, products: list, funnel: str, persona: str) -> float:
+    """Unified scoring for both CTAs and trails."""
     funnel_order = ["awareness", "consideration", "decision"]
     sf = funnel_order.index(funnel) if funnel in funnel_order else 0
+    cf = funnel_order.index(item["funnel_stage"]) if item["funnel_stage"] in funnel_order else 0
+
+    s = 0.0
+    diff = cf - sf
+    if diff == 0:
+        s += 0.45
+    elif diff == 1:
+        s += 0.25
+    elif diff == -1:
+        s += 0.10
+
+    item_product = item.get("product", "general")
+    if item_product in products:
+        s += 0.40
+    elif item_product == "general":
+        s += 0.05
+    elif item_product == "agentforce" and "agentforce" in products:
+        s += 0.40
+
+    # Multi-product trails get a bonus if any product matches
+    for p in item.get("products", []):
+        if p in products and p != item_product:
+            s += 0.10
+            break
+
+    personas = item.get("target_personas", [])
+    if persona in personas or "all" in personas:
+        s += 0.10
+
+    return round(s, 2)
+
+
+def get_recommendations(products: list, funnel: str, persona: str, cta_lib: list,
+                        trail_lib: list = None, n: int = 3) -> list[dict]:
+    """Return top n recommendations mixing CTAs and trails, each labeled by type."""
+    funnel_order = ["awareness", "consideration", "decision"]
 
     scored = []
     for cta in cta_lib:
-        s = 0.0
-        cf = funnel_order.index(cta["funnel_stage"]) if cta["funnel_stage"] in funnel_order else 0
-        diff = cf - sf
-        if diff == 0:
-            s += 0.45
-        elif diff == 1:
-            s += 0.25
-        elif diff == -1:
-            s += 0.10
+        s = _score_item(cta, products, funnel, persona)
+        scored.append((s, "cta", cta))
 
-        if cta["product"] in products:
-            s += 0.40
-        elif cta["product"] == "general":
-            s += 0.05
-        elif cta["product"] == "agentforce" and "agentforce" in products:
-            s += 0.40
-
-        # Persona fit bonus
-        personas = cta.get("target_personas", [])
-        if persona in personas or "all" in personas:
-            s += 0.10
-
-        scored.append((round(s, 2), cta))
+    for trail in (trail_lib or []):
+        s = _score_item(trail, products, funnel, persona)
+        scored.append((s, "trail", trail))
 
     scored.sort(key=lambda x: x[0], reverse=True)
 
     results = []
     seen_products = set()
-    for score, cta in scored:
+    seen_types = {"cta": 0, "trail": 0}
+
+    for score, item_type, item in scored:
         if len(results) >= n:
             break
-        # Diversify products
-        prod_key = cta["product"]
+        prod_key = item.get("product", "general")
         if prod_key in seen_products and len(seen_products) < 3:
             continue
+        # Ensure at least 1 trail in recommendations if trails exist
+        if item_type == "cta" and seen_types["trail"] == 0 and len(results) >= n - 1 and trail_lib:
+            continue
         seen_products.add(prod_key)
-        results.append({
-            "cta_id": cta["cta_id"],
-            "score": score,
-            "match_rationale": (
-                f"Matches {cta['product']} product focus at {cta['funnel_stage']} stage "
-                f"for {funnel}-stage {persona} reader."
-            ),
-        })
+        seen_types[item_type] += 1
+
+        if item_type == "trail":
+            results.append({
+                "type": "trail",
+                "trail_id": item["trail_id"],
+                "name": item["name"],
+                "url": item["url"],
+                "duration_minutes": item.get("duration_minutes"),
+                "score": score,
+                "match_rationale": (
+                    f"Trail targets {item['product']} at {item['funnel_stage']} stage "
+                    f"for {funnel}-stage {persona} reader."
+                ),
+            })
+        else:
+            results.append({
+                "type": "cta",
+                "cta_id": item["cta_id"],
+                "score": score,
+                "match_rationale": (
+                    f"CTA targets {item['product']} at {item['funnel_stage']} stage "
+                    f"for {funnel}-stage {persona} reader."
+                ),
+            })
     return results
 
 
-def classify_article(article: dict, cta_lib: list) -> dict:
+def classify_article(article: dict, cta_lib: list, trail_lib: list = None) -> dict:
     title = article["title"]
     author = article.get("author", "")
     published_date = article.get("published_date", "")
@@ -459,7 +500,7 @@ def classify_article(article: dict, cta_lib: list) -> dict:
             recommend_no_cta = True
             no_cta_reason = skip_reason
         else:
-            recommendations = get_recommendations(products, funnel, primary_persona, cta_lib)
+            recommendations = get_recommendations(products, funnel, primary_persona, cta_lib, trail_lib)
             recommend_no_cta = False
             no_cta_reason = ""
 
@@ -534,6 +575,13 @@ def main():
     with open(settings.cta_library_path) as f:
         cta_lib = json.load(f)
 
+    trail_lib_path = settings.cta_library_path.parent / "trail_library.json"
+    trail_lib = []
+    if trail_lib_path.exists():
+        with open(trail_lib_path) as f:
+            trail_lib = json.load(f)
+        print(f"Loaded {len(trail_lib)} trails from trail_library.json")
+
     if args.slug:
         paths = [crawled_dir / f"{args.slug}.json"]
     elif args.all:
@@ -554,7 +602,7 @@ def main():
         if not article.get("title") or not article.get("sections"):
             print(f"  SKIP (no content): {path.stem}")
             continue
-        result = classify_article(article, cta_lib)
+        result = classify_article(article, cta_lib, trail_lib)
         with open(out_path, "w") as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
         done += 1

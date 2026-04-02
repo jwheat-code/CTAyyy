@@ -32,19 +32,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "http:--join.serviceblazer.com",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage service_leader reader."
+          "match_rationale": "CTA targets service_cloud at consideration stage for consideration-stage service_leader reader."
         },
         {
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at consideration stage for consideration-stage service_leader reader."
+          "type": "trail",
+          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
+          "name": "Get Started with Omnistudio on the Salesforce Platform",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
+          "duration_minutes": 190,
+          "score": 0.65,
+          "match_rationale": "Trail targets platform at decision stage for consideration-stage service_leader reader."
         },
         {
-          "cta_id": "small-business-marketing",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage service_leader reader."
+          "type": "trail",
+          "trail_id": "trail-agentforce-commerce-sell-everywhere-anytime",
+          "name": "Agentforce Commerce: Sell Everywhere, Anytime",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/agentforce-commerce-sell-everywhere-anytime",
+          "duration_minutes": 695,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -88,19 +97,28 @@
       },
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -148,19 +166,25 @@
       },
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
-        },
-        {
+          "type": "cta",
           "cta_id": "form-data-clean-rooms-demo",
           "score": 0.85,
-          "match_rationale": "Matches data_cloud product focus at consideration stage for consideration-stage developer reader."
+          "match_rationale": "CTA targets data_cloud at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,

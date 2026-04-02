@@ -46,19 +46,25 @@
       },
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
-        },
-        {
+          "type": "cta",
           "cta_id": "form-service-cloud-achieve-operational-excellence-",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,

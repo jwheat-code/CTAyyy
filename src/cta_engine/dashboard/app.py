@@ -21,6 +21,7 @@ DATA_DIR = PROJECT_ROOT / "data"
 CRAWLED_DIR = DATA_DIR / "crawled"
 CLASSIFIED_DIR = DATA_DIR / "classified"
 CTA_LIBRARY_PATH = DATA_DIR / "cta_library.json"
+TRAIL_LIBRARY_PATH = DATA_DIR / "trail_library.json"
 
 
 def load_cta_library() -> dict:
@@ -30,6 +31,45 @@ def load_cta_library() -> dict:
     with open(CTA_LIBRARY_PATH) as f:
         ctas = json.load(f)
     return {c["cta_id"]: c for c in ctas}
+
+
+def load_trail_library() -> dict:
+    """Load trail library as a dict keyed by trail_id."""
+    if not TRAIL_LIBRARY_PATH.exists():
+        return {}
+    with open(TRAIL_LIBRARY_PATH) as f:
+        trails = json.load(f)
+    return {t["trail_id"]: t for t in trails}
+
+
+def render_recommendation(rec: dict, cta_library: dict, trail_library: dict) -> str:
+    """Render a single recommendation (CTA or trail) as markdown."""
+    rec_type = rec.get("type", "cta")
+    score = rec.get("score", 0)
+
+    if rec_type == "trail":
+        trail = trail_library.get(rec.get("trail_id", ""), {})
+        name = trail.get("name") or rec.get("name", rec.get("trail_id", "Unknown trail"))
+        url = trail.get("url") or rec.get("url", "")
+        mins = trail.get("duration_minutes") or rec.get("duration_minutes")
+        dur = f" · {mins} min" if mins else ""
+        return (
+            f"🎓 **Trail** — [{name}]({url}){dur}\n\n"
+            f"Match score: {score:.0%}"
+        )
+    else:
+        cta = cta_library.get(rec.get("cta_id", ""), {})
+        headline = cta.get("headline") or rec.get("cta_id", "Unknown CTA")
+        body = cta.get("body", "")
+        btn = cta.get("button_text", "")
+        dest = cta.get("destination_url", "")
+        link = f"→ [{btn}]({dest})\n\n" if btn and dest else ""
+        return (
+            f"📣 **CTA** — **{headline}**\n\n"
+            f"{body}\n\n"
+            f"{link}"
+            f"Match score: {score:.0%}"
+        )
 
 
 def load_crawled_articles() -> dict[str, dict]:
@@ -103,6 +143,7 @@ st.title("CTA Engine — Health Report")
 
 # Load data
 cta_library = load_cta_library()
+trail_library = load_trail_library()
 articles = load_crawled_articles()
 analyses = load_analyses()
 
@@ -286,13 +327,7 @@ with tab2:
                     st.success(f"**No CTA recommended**\n\n{sa.get('no_cta_reason', '')}")
                 elif sa.get("recommendations"):
                     top = sa["recommendations"][0]
-                    cta_detail = cta_library.get(top["cta_id"], {})
-                    st.success(
-                        f"**{cta_detail.get('headline', top['cta_id'])}**\n\n"
-                        f"{cta_detail.get('body', '')}\n\n"
-                        f"→ [{cta_detail.get('button_text', '')}]({cta_detail.get('destination_url', '')})\n\n"
-                        f"Match score: {top['score']:.0%}"
-                    )
+                    st.success(render_recommendation(top, cta_library, trail_library))
                 else:
                     st.info("No recommendation available")
 
@@ -304,9 +339,16 @@ with tab2:
                 if sa.get("recommendations"):
                     st.markdown("**All Candidates:**")
                     for i, rec in enumerate(sa["recommendations"]):
-                        cta_d = cta_library.get(rec["cta_id"], {})
+                        rec_type = rec.get("type", "cta")
+                        label = "🎓 Trail" if rec_type == "trail" else "📣 CTA"
+                        if rec_type == "trail":
+                            t = trail_library.get(rec.get("trail_id", ""), {})
+                            name = t.get("name") or rec.get("trail_id", "Unknown")
+                        else:
+                            t = cta_library.get(rec.get("cta_id", ""), {})
+                            name = t.get("headline") or rec.get("cta_id", "Unknown")
                         st.markdown(
-                            f"{i+1}. **{cta_d.get('headline', rec['cta_id'])}** "
+                            f"{i+1}. {label} — **{name}** "
                             f"(Score: {rec['score']:.0%}) — {rec['match_rationale']}"
                         )
 

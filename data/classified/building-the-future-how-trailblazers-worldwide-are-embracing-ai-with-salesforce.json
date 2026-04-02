@@ -32,19 +32,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
         },
         {
+          "type": "cta",
           "cta_id": "form-service-cloud-achieve-operational-excellence-",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-drive-success-with-mulesoft-anypoint-platform",
+          "name": "Drive Success with MuleSoft Anypoint Platform",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/drive-success-with-mulesoft-anypoint-platform",
+          "duration_minutes": 218,
+          "score": 0.85,
+          "match_rationale": "Trail targets mulesoft at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,

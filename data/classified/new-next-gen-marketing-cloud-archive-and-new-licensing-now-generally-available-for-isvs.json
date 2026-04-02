@@ -44,19 +44,25 @@
       },
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage marketing_leader reader."
-        },
-        {
+          "type": "cta",
           "cta_id": "form-data-clean-rooms-demo",
           "score": 0.85,
-          "match_rationale": "Matches data_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+          "match_rationale": "CTA targets data_cloud at consideration stage for consideration-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,

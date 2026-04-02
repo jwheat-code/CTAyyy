@@ -45,19 +45,25 @@
       },
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage small_business_owner reader."
         },
         {
+          "type": "cta",
           "cta_id": "http:--join.serviceblazer.com",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+          "match_rationale": "CTA targets service_cloud at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-set-up-merchandising-for-your-storefront",
+          "name": "Set Up Merchandising for Your Storefront",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/set-up-merchandising-for-your-storefront",
+          "duration_minutes": 1010,
+          "score": 0.85,
+          "match_rationale": "Trail targets einstein_ai at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -88,19 +94,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-grow-your-business-with-salesforce-foundations",
+          "name": "Grow Your Business with Salesforce Foundations",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/grow-your-business-with-salesforce-foundations",
+          "duration_minutes": 750,
+          "score": 0.85,
+          "match_rationale": "Trail targets starter at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-prepare-for-your-salesforce-platform-foundations-certification",
+          "name": "Prepare for your Salesforce Platform Foundations Certification",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-platform-foundations-certification",
+          "duration_minutes": 1705,
+          "score": 0.55,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,

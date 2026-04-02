@@ -31,19 +31,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -72,19 +81,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "form-service-cloud-achieve-operational-excellence-",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage service_leader reader."
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -113,19 +131,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -156,19 +183,31 @@
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "http:--join.serviceblazer.com",
+          "type": "trail",
+          "trail_id": "trail-get-started-with-industries-order-management",
+          "name": "Get Started with Industries Order Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-industries-order-management",
+          "duration_minutes": 70,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at decision stage for decision-stage service_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-service_cloud_move",
+          "name": "Get Started with Service Cloud for Lightning Experience",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/service_cloud_move",
+          "duration_minutes": 420,
+          "score": 0.85,
+          "match_rationale": "Trail targets service_cloud at decision stage for decision-stage service_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
           "score": 0.5,
-          "match_rationale": "Matches service_cloud product focus at consideration stage for decision-stage service_leader reader."
-        },
-        {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage service_leader reader."
-        },
-        {
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.15,
-          "match_rationale": "Matches general product focus at consideration stage for decision-stage service_leader reader."
+          "match_rationale": "Trail targets general at decision stage for decision-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -202,19 +241,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-deploy-commerce-cloud-einstein",
+          "name": "Deploy Commerce Cloud Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
+          "duration_minutes": 250,
+          "score": 0.95,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage service_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "form-service-cloud-achieve-operational-excellence-",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
-        },
-        {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -248,19 +293,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -304,19 +358,28 @@
       },
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-deploy-commerce-cloud-einstein",
+          "name": "Deploy Commerce Cloud Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
+          "duration_minutes": 250,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,

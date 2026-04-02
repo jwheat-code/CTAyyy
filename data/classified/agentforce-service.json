@@ -30,19 +30,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
-        },
-        {
+          "type": "cta",
           "cta_id": "form-service-cloud-achieve-operational-excellence-",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -76,19 +82,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
+          "type": "cta",
           "cta_id": "https:--www.informatica.com-departments-data-archi",
           "score": 0.85,
-          "match_rationale": "Matches data_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+          "match_rationale": "CTA targets data_cloud at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -136,19 +148,25 @@
       },
       "recommendations": [
         {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage service_leader reader."
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage service_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage service_leader reader."
-        },
-        {
+          "type": "cta",
           "cta_id": "http:--join.serviceblazer.com",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage service_leader reader."
+          "match_rationale": "CTA targets service_cloud at consideration stage for consideration-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -191,19 +209,25 @@
       },
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "form-service-cloud-achieve-operational-excellence-",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage service_leader reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,

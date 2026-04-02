@@ -29,19 +29,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
         },
         {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -72,19 +78,31 @@
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+          "type": "trail",
+          "trail_id": "trail-discover-the-healthcare-and-life-sciences-industry",
+          "name": "Discover the Healthcare and Life Sciences Industry",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/discover-the-healthcare-and-life-sciences-industry",
+          "duration_minutes": 120,
+          "score": 0.85,
+          "match_rationale": "Trail targets industry_clouds at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
+          "type": "trail",
+          "trail_id": "trail-prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
+          "name": "Prepare for Your Agentforce Life Sciences Consultant Certification",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
+          "duration_minutes": 1240,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -113,19 +131,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "http:--agentblazer.com",
           "score": 0.5,
-          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage small_business_owner reader."
         },
         {
+          "type": "trail",
+          "trail_id": "trail-discover-the-healthcare-and-life-sciences-industry",
+          "name": "Discover the Healthcare and Life Sciences Industry",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/discover-the-healthcare-and-life-sciences-industry",
+          "duration_minutes": 120,
+          "score": 0.5,
+          "match_rationale": "Trail targets industry_clouds at awareness stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "small-business-marketing",
           "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -171,19 +195,25 @@
       },
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage small_business_owner reader."
         },
         {
+          "type": "cta",
           "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
           "score": 0.85,
-          "match_rationale": "Matches slack product focus at consideration stage for consideration-stage small_business_owner reader."
+          "match_rationale": "CTA targets slack at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -229,19 +259,28 @@
       },
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.85,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-grow-your-business-with-salesforce-foundations",
+          "name": "Grow Your Business with Salesforce Foundations",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/grow-your-business-with-salesforce-foundations",
+          "duration_minutes": 750,
+          "score": 0.85,
+          "match_rationale": "Trail targets starter at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+          "type": "trail",
+          "trail_id": "trail-prepare-for-your-salesforce-platform-foundations-certification",
+          "name": "Prepare for your Salesforce Platform Foundations Certification",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-platform-foundations-certification",
+          "duration_minutes": 1705,
+          "score": 0.55,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,

@@ -27,19 +27,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
         },
         {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -71,19 +77,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "https:--www.tableau.com-solutions-customer-america",
           "score": 0.85,
-          "match_rationale": "Matches tableau product focus at awareness stage for awareness-stage developer reader."
+          "match_rationale": "CTA targets tableau at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+          "type": "trail",
+          "trail_id": "trail-tableau-data-visualization-and-storytelling",
+          "name": "Tableau: Data Visualization and Storytelling",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/tableau-data-visualization-and-storytelling",
+          "duration_minutes": 428,
+          "score": 0.55,
+          "match_rationale": "Trail targets sales_cloud at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -113,19 +128,28 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -155,19 +179,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.85,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
           "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage it_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -196,19 +226,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -241,19 +277,25 @@
       "existing_cta_score": null,
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "form-service-cloud-achieve-operational-excellence-",
           "score": 0.85,
-          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -295,19 +337,25 @@
       },
       "recommendations": [
         {
+          "type": "cta",
           "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.85,
-          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
         },
         {
+          "type": "cta",
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.45,
-          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
           "score": 0.45,
-          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
