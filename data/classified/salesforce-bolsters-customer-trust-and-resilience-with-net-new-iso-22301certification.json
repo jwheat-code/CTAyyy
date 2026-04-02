@@ -1,0 +1,71 @@
+{
+  "url": "https://www.salesforce.com/blog/salesforce-bolsters-customer-trust-and-resilience-with-net-new-iso-22301certification/?bc=DB",
+  "slug": "salesforce-bolsters-customer-trust-and-resilience-with-net-new-iso-22301certification",
+  "title": "Salesforce Bolsters Customer Trust and Resilience with Net New ISO 22301Certification",
+  "author": "Gagandeep Singh",
+  "published_date": "2025-12-20T01:59:28+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "data_analytics",
+          "ecommerce",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, einstein_ai, sales_cloud, service_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Salesforce Security Made Simple with Invisibles, Configurables and Enhanceables",
+        "body": "Salesforce Security Made Simple with Invisibles, Configurables and EnhanceablesWant a fun, approachable way to explain security best practices to your admin and dev networks?Listen to the latest episode of Awesome Admins!",
+        "button_text": "Listen Now",
+        "button_url": "https://admin.salesforce.com/blog/2025/salesforce-security-made-simple-with-invisibles-configurables-enhanceables-podcast?_ga=2.83514198.1913174565.1766096104-461065394.1762284144&_gac=1.251172340.1765305415.Cj0KCQiArt_JBhCTARIsADQZayk_i4MuYnTHSZFn2SnB-ShSo9gVobmwp4AVLv5pBETKC8pn6edK-AsaAiqoEALw_wcB",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.8,
+  "misaligned_count": 0
+}

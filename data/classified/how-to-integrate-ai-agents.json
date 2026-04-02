@@ -2,47 +2,48 @@
   "url": "https://www.salesforce.com/blog/how-to-integrate-ai-agents/?bc=DB",
   "slug": "how-to-integrate-ai-agents",
   "title": "Is Your Agent Integration Stuck? 3 Ways To Unblock It",
+  "author": "More by Laura",
+  "published_date": "2026-03-13T21:38:12+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "AI Synopsis",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "mulesoft",
-          "einstein_ai"
+          "sales_cloud",
+          "mulesoft"
         ],
         "topic_tags": [
           "ai_agents",
-          "integration_challenges",
-          "system_connectivity",
-          "pilot_implementation",
-          "tech_stack_unification"
+          "customer_service",
+          "data_analytics",
+          "security"
         ],
-        "confidence": 0.9,
-        "rationale": "This section addresses a specific pain point (AI agent integration struggles) that IT leaders face when moving from pilot to production. The MuleSoft research cited and focus on integration challenges indicates consideration stage content for IT decision-makers evaluating solutions. The problem-solving intent is clear as it promises \"a fix for each\" integration blocker."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'AI Synopsis'. Products: agentforce, sales_cloud, mulesoft. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
           "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with IT leaders seeking insights on AI agent implementations. The section discusses AI agent integration challenges, and this CTA offers research on how businesses are using AI agents - directly relevant to their problem-solving needs."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for IT leaders in consideration stage looking at AI agent solutions. Agentforce Service addresses the integration and implementation challenges discussed in the section, moving them toward a solution."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.7,
-          "match_rationale": "Provides actionable guidance on implementing AI agents, which directly addresses the 'messy middle' between pilot and production that the section highlights. Good fit for IT leaders seeking implementation strategies."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -52,36 +53,44 @@
       "section_index": 1,
       "section_heading": "Blocker #1: Your systems can’t talk to one another",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "it_leader",
-        "secondary_persona": "developer",
-        "funnel_stage": "consideration",
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "mulesoft",
-          "agentforce"
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "system_integration",
-          "api_connectivity",
           "ai_agents",
-          "data_fragmentation",
-          "enterprise_applications"
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "ecommerce",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section clearly identifies a specific technical problem (systems not talking to each other) that blocks AI agent implementations. The content targets IT leaders who are responsible for system architecture and developers who need to build integrations. The reader has already identified they want to implement agents but are stuck on integration challenges, placing them in the consideration stage. MuleSoft is explicitly mentioned as the solution for connectivity, and the context is about agent integration (Agentforce)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Blocker #1: Your systems can’t talk to one another'. Products: agentforce, sales_cloud, service_cloud, commerce_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "service-cloud",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment - this section discusses system integration challenges that IT leaders face, and Agentforce Service directly addresses these integration needs. The consideration funnel stage matches, and IT leaders are the primary persona for service infrastructure decisions."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Strong match for the Agentforce product alignment and addresses implementation concerns that IT leaders would have after learning about system integration challenges. The awareness-to-consideration funnel progression is appropriate."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -91,24 +100,24 @@
       "section_index": 2,
       "section_heading": "Solution: Get on the same page",
       "classification": {
-        "reader_intent": "problem_solving",
+        "reader_intent": "learning",
         "primary_persona": "developer",
         "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "mulesoft",
           "agentforce",
-          "data_cloud"
+          "platform",
+          "mulesoft"
         ],
         "topic_tags": [
-          "agent_integration",
-          "ipaas",
-          "api_management",
-          "ai_connectivity",
-          "workflow_automation"
+          "ai_agents",
+          "data_analytics",
+          "productivity",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section directly addresses the pain point of agent integration challenges and provides a technical solution using MuleSoft iPaaS. The content targets developers and IT leaders who are actively seeking to solve integration problems. It's in the consideration stage as it presents specific Salesforce solutions (MuleSoft, Agentforce, Data360) with concrete examples and technical details for evaluation."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Solution: Get on the same page'. Products: agentforce, platform, mulesoft. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
@@ -116,17 +125,17 @@
         {
           "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Perfect fit - section discusses MuleSoft's agent integration capabilities with Agentforce, and this CTA offers insights into how businesses are using AI agents. Reader is learning about agent connectivity solutions and would naturally want to see real-world applications."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Strong alignment - section shows how to solve agent integration challenges with MuleSoft, and this guide provides next steps for implementing AI agents. Matches the problem-solving intent and developer persona seeking practical implementation guidance."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.7,
-          "match_rationale": "Good fit for developers - after learning about MuleSoft's agent connectivity solutions, developers would want hands-on learning about agent testing. Matches the technical persona and consideration stage funnel position."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -136,42 +145,41 @@
       "section_index": 3,
       "section_heading": "Blocker #2: You’re worried about data and privacy issues",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "slack",
-          "platform"
+          "sales_cloud",
+          "service_cloud",
+          "slack"
         ],
         "topic_tags": [
-          "data_privacy",
-          "ai_agents",
+          "customer_service",
+          "data_analytics",
           "security",
-          "pii_protection",
-          "guardrails"
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section directly addresses IT leaders' concerns about data privacy and security when implementing AI agents. The content cites that 69% of IT leaders view this as their biggest concern, and provides specific examples of how Salesforce solved these problems internally. The reader is clearly in problem-solving mode, trying to understand how to overcome data privacy barriers to agent integration. The consideration stage is evident as they're evaluating solutions and learning from case studies."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Blocker #2: You’re worried about data and privacy issues'. Products: sales_cloud, service_cloud, slack. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with IT leaders' security concerns. The '10 Key Reasons to Implement Shield on Day 1' guide directly addresses the data privacy and security worries mentioned in the section, providing actionable security implementation guidance for the consideration stage."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.75,
-          "match_rationale": "Highly relevant to the PII protection concerns discussed in the section. This guide on data masking and seeding would help IT leaders understand how to protect sensitive information while implementing AI agents, matching their awareness-to-consideration journey."
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.65,
-          "match_rationale": "Connects well with the Agentforce security discussion in the section. Since the text mentions Salesforce's secure agent implementation for customer support, this CTA for Agentforce Service provides a logical next step for IT leaders evaluating secure AI agent solutions."
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -181,24 +189,26 @@
       "section_index": 4,
       "section_heading": "Solution: Mask your data, set guardrails, and test safely",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "learning",
         "primary_persona": "developer",
         "secondary_persona": "it_leader",
-        "funnel_stage": "decision",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "mulesoft",
-          "platform"
+          "einstein_ai",
+          "sales_cloud",
+          "slack"
         ],
         "topic_tags": [
           "ai_agents",
-          "data_security",
-          "api_management",
-          "sandbox_testing",
-          "integration"
+          "crm",
+          "data_analytics",
+          "security",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides specific technical implementation guidance for securing AI agent integrations, including detailed steps using Agentforce Trust Layer, MuleSoft API management, and sandbox testing. The how-to nature, specific product features mentioned, and practical testing scenarios indicate readers are ready to implement, targeting developers and IT leaders in the decision stage."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Solution: Mask your data, set guardrails, and test safely'. Products: agentforce, einstein_ai, sales_cloud, slack. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "What’s your agentic AI strategy?",
@@ -208,32 +218,28 @@
         "position_after_section": 4
       },
       "existing_cta_score": {
-        "relevance_score": 0.35,
-        "funnel_alignment": "mismatch",
-        "persona_match": "partial",
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
         "product_alignment": "match",
-        "issues": [
-          "Funnel stage mismatch: offering awareness-stage content (playbook/guide) to readers in decision stage who need implementation details",
-          "CTA focuses on strategy and planning while section provides specific technical implementation guidance",
-          "Missed opportunity to offer hands-on resources like trials, documentation, or implementation support"
-        ],
-        "rationale": "The CTA offers high-level strategic guidance when the section provides specific implementation details for developers ready to implement solutions."
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.95,
-          "match_rationale": "Perfect match for developers at decision stage who just read about data masking and testing implementation. The guide directly addresses the Data Mask & Seed tools mentioned in the section, providing actionable next steps for secure agent deployment."
-        },
-        {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Highly relevant for developers implementing Agentforce solutions. The learning module focuses on agent testing, which directly follows the section's emphasis on testing agents in sandbox environments before deployment."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-signup-freetrial-platform",
-          "score": 0.75,
-          "match_rationale": "Good fit for developers ready to implement end-to-end AI development solutions. The platform trial aligns with the decision stage and provides hands-on access to the Agentforce and integration tools discussed in the section."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -243,42 +249,41 @@
       "section_index": 5,
       "section_heading": "Blocker #3: Your agent is located in the wrong place",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "slack",
-          "sales_cloud"
+          "sales_cloud",
+          "slack"
         ],
         "topic_tags": [
           "ai_agents",
-          "user_adoption",
-          "integration_strategy",
-          "workflow_optimization",
-          "change_management"
+          "customer_service",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section addresses a specific problem (low AI agent adoption) and provides a solution-oriented case study. The content targets IT/business leaders who are implementing AI agents and struggling with adoption. It's consideration-stage content that helps readers evaluate placement strategies. Strong alignment with Agentforce (AI agents), Slack (integration location), and Sales Cloud (CRM context)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Blocker #3: Your agent is located in the wrong place'. Products: agentforce, sales_cloud, slack. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-change-management-for-ai-imp",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect match for IT leaders in consideration stage dealing with AI agent integration challenges. The section focuses on change management and user adoption - core challenges this learning resource addresses. Reader just learned about placement strategy and would benefit from broader change management guidance."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for IT leaders considering Agentforce implementation. The section discusses real implementation challenges at Salesforce, and this guide provides actionable steps for implementation - exactly what a consideration-stage reader needs after learning about potential blockers."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.65,
-          "match_rationale": "Good fit for IT leaders who just read about agent placement challenges. This research report would provide broader context about how other businesses are implementing AI agents, helping inform their strategic decisions. Slightly lower score as it's awareness-level content for a consideration-stage reader."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -288,41 +293,37 @@
       "section_index": 6,
       "section_heading": "Solution: Figure out where employees are really working",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "platform"
+          "agentforce"
         ],
         "topic_tags": [
           "ai_agents",
-          "workflow_integration",
-          "employee_productivity",
-          "system_analysis",
-          "implementation_strategy"
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section provides tactical advice on how to implement AI agents by analyzing existing workflows and systems. The content targets IT leaders who need to understand current employee behavior patterns before deploying agents. It's consideration stage because readers are exploring how to execute AI agent integration rather than learning what agents are or ready to purchase immediately."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Solution: Figure out where employees are really working'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment - this CTA offers a guide on implementing AI agents for small business, which directly matches the section's focus on implementing AI agents into teams. The awareness-to-consideration funnel progression is appropriate for an IT leader who has just learned about workforce analysis and is ready for implementation guidance."
-        },
-        {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Strong product alignment with Agentforce and addresses AI agents topic. While it's awareness-level content, it provides valuable research on how businesses are using AI agents, which supports the implementation strategy the IT leader is developing after reading about workforce analysis."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.7,
-          "match_rationale": "Good match for IT leaders moving toward implementation. After understanding where employees work, they need to learn how to test agents in those environments. The learning format suits the consideration stage and supports the technical implementation aspects relevant to IT leaders."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -332,23 +333,18 @@
       "section_index": 7,
       "section_heading": "The best way to integrate an AI agent? Pay attention",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "it_leader",
-        "secondary_persona": "developer",
-        "funnel_stage": "decision",
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "platform"
+          "agentforce"
         ],
         "topic_tags": [
-          "ai_agents",
-          "integration",
-          "implementation",
-          "technical_guidance",
-          "best_practices"
+          "ai_agents"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is clearly focused on implementation guidance for AI agent integration, addressing someone who is already working on or about to implement agents. The language \"stuck\", \"unblock it\", and \"remove the obstacles\" indicates readers are in active problem-solving mode during implementation. The emphasis on integration with existing technology and people suggests IT leaders or developers who need to make technical integration decisions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'The best way to integrate an AI agent? Pay attention'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "",
@@ -358,35 +354,36 @@
         "position_after_section": 7
       },
       "existing_cta_score": {
-        "relevance_score": 0.2,
-        "funnel_alignment": "mismatch",
-        "persona_match": "mismatch",
-        "product_alignment": "none",
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
         "issues": [
-          "CTA has no heading or body text to explain value proposition",
-          "Button text 'AI Synopsis' is vague and doesn't clearly indicate what the reader will get",
-          "Destination URL '#' appears to be broken/placeholder",
-          "Doesn't address the implementation concerns or next steps for IT leaders",
-          "Misses opportunity to offer demo, trial, or consultation for decision-ready audience"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "This broken CTA offers no clear value proposition and fails to match the decision-stage intent of IT leaders looking to implement AI agents."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.75,
-          "match_rationale": "Strong match for IT leaders in decision stage who need to understand agent testing and validation processes. After reading about integration considerations, they would logically want to learn about testing methodologies before full implementation."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.65,
-          "match_rationale": "Good supporting resource that provides enterprise-level insights into AI agent usage patterns. While slightly early-stage for someone ready to implement, it offers valuable benchmarking data that IT leaders would find useful for planning their integration strategy."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.06875,
-  "misaligned_count": 8
+  "overall_health_score": 0.2313,
+  "misaligned_count": 6
 }

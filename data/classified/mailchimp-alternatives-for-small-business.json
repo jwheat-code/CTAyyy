@@ -2,46 +2,47 @@
   "url": "https://www.salesforce.com/blog/mailchimp-alternatives-for-small-business/?bc=DB",
   "slug": "mailchimp-alternatives-for-small-business",
   "title": "Mailchimp Alternatives: The Big List For Small Business",
+  "author": "More by Sachin",
+  "published_date": "2026-01-15T15:10:14+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
         "reader_intent": "evaluating",
-        "primary_persona": "marketing_leader",
-        "secondary_persona": "business_leader",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "marketing_cloud",
-          "starter"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "email_marketing",
-          "mailchimp_alternatives",
           "small_business",
           "marketing_automation",
-          "smb_solutions"
+          "data_analytics",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a clear consideration-stage piece where SMB marketing leaders are actively evaluating Mailchimp alternatives. The section positions Salesforce as \"the best alternative\" and addresses specific pain points (cost, features, integration needs), indicating readers are comparing solutions. The focus on email marketing with broader platform needs aligns with Marketing Cloud and Starter offerings for small businesses."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Key Takeaways'. Products: marketing_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
           "cta_id": "small-business-marketing",
-          "score": 0.9,
-          "match_rationale": "Perfect alignment - the section is about evaluating Mailchimp alternatives for email marketing, targeting marketing leaders at small businesses in the consideration stage. This CTA directly addresses 'What can you do with a CRM built to reach more prospects?' which is exactly what they're thinking about after reading about marketing automation solutions."
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.85,
-          "match_rationale": "Strong match - after reading about Mailchimp alternatives and Salesforce being positioned as the best option for small businesses, readers are ready to explore Salesforce's free offering. The consideration-stage funnel alignment and small business focus make this highly relevant."
-        },
-        {
-          "cta_id": "small-business",
-          "score": 0.8,
-          "match_rationale": "Good fit - reinforces the key message that 'Salesforce works for small businesses' which directly supports the section's conclusion about Salesforce being the best Mailchimp alternative. Appeals to marketing leaders evaluating solutions in the consideration stage."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -51,41 +52,42 @@
       "section_index": 1,
       "section_heading": "Why startups and SMBs need an email marketing platform",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "marketing_leader",
-        "funnel_stage": "awareness",
+        "funnel_stage": "consideration",
         "product_alignment": [
-          "marketing_cloud",
-          "starter"
+          "service_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "email_marketing",
           "small_business",
-          "startup",
-          "customer_relationships",
-          "marketing_automation"
+          "marketing_automation",
+          "customer_service",
+          "data_analytics",
+          "productivity",
+          "security"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is educational content explaining the value of email marketing platforms for startups/SMBs. The reader is in the learning phase, understanding why they need such tools before exploring specific solutions. Primary persona is business leaders at small companies who need to understand the strategic value, with marketing leaders as secondary audience. Maps to Marketing Cloud capabilities and Starter suite for SMBs."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Why startups and SMBs need an email marketing platform'. Products: service_cloud, marketing_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "http:--join.serviceblazer.com",
           "score": 0.85,
-          "match_rationale": "Perfect match for business leaders learning about email marketing platforms. This awareness-stage guide about AI for small businesses directly follows the reader's journey from understanding why they need an email platform to learning how AI can enhance their marketing efforts."
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with business leaders in the consideration phase. After learning why startups need email marketing platforms, this CTA naturally transitions them to explore how Salesforce specifically works for small businesses like theirs."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "launchpad",
-          "score": 0.72,
-          "match_rationale": "Well-suited for startup business leaders who have just learned about email marketing platform needs. This consideration-stage CTA specifically targets startups and offers a comprehensive solution that aligns with their growth mindset."
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -95,41 +97,42 @@
       "section_index": 2,
       "section_heading": "Why consider alternatives to Mailchimp?",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "marketing_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "implementing",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "marketing_cloud",
-          "starter"
+          "einstein_ai",
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "email_marketing",
           "small_business",
-          "mailchimp_alternatives",
-          "marketing_automation",
-          "crm_integration"
+          "crm",
+          "ai_tools",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly targeting small business marketing leaders who are experiencing limitations with Mailchimp and evaluating alternatives. The content focuses on common pain points (rising costs, limited features, complexity) and positions Salesforce as a solution. The reader intent is evaluating as they're comparing options, and it's consideration stage since they're exploring alternatives to their current platform."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Why consider alternatives to Mailchimp?'. Products: einstein_ai, sales_cloud, marketing_cloud. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-marketing",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Perfect match - targets marketing leaders evaluating CRM solutions for small business marketing needs. The CTA asks 'What can you do with a CRM built to reach more prospects?' which directly addresses their consideration stage mindset after reading about Mailchimp limitations and needing better marketing automation."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.75,
-          "match_rationale": "Strong alignment - offers free Salesforce for small businesses, which directly addresses the cost concerns mentioned about Mailchimp's rising subscription costs. The consideration-stage CTA matches where readers are in their evaluation process."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.7,
-          "match_rationale": "Good fit - reinforces that Salesforce works specifically for small businesses, addressing the core audience. The consideration-stage positioning aligns with readers who are evaluating alternatives after learning about Mailchimp's limitations."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -140,23 +143,25 @@
       "section_heading": "Top 10 Mailchimp alternatives for small and growing businesses",
       "classification": {
         "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "marketing_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "starter",
+          "einstein_ai",
+          "sales_cloud",
           "marketing_cloud",
-          "sales_cloud"
+          "slack"
         ],
         "topic_tags": [
-          "email_marketing",
           "small_business",
-          "crm_alternatives",
+          "crm",
           "marketing_automation",
-          "mailchimp_alternatives"
+          "data_analytics",
+          "productivity",
+          "ecommerce"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly positioned as a Mailchimp alternative comparison for small businesses. The reader is actively evaluating email marketing solutions (evidenced by reading an \"alternatives\" article), making this consideration stage content. The detailed product feature breakdown, benefits explanation, and CTA to \"find out for free\" all indicate evaluating intent. Primary persona is business_leader as it targets small business owners/decision makers, with marketing_leader as secondary since it focuses on email marketing capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Top 10 Mailchimp alternatives for small and growing businesses'. Products: einstein_ai, sales_cloud, marketing_cloud, slack. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "What can you do with a CRM built to reach more prospects?",
@@ -166,25 +171,28 @@
         "position_after_section": 3
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
+        "relevance_score": 1.0,
         "funnel_alignment": "match",
         "persona_match": "match",
         "product_alignment": "match",
-        "issues": [
-          "Button text 'Find out for free' is somewhat vague and could be more specific about what free offering is being provided"
-        ],
-        "rationale": "Strong alignment with consideration-stage readers evaluating Salesforce Starter Suite as a Mailchimp alternative, though \"Find out for free\" could be more specific about the free offering."
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders evaluating Mailchimp alternatives. After reading about Starter Suite's capabilities, they'd be interested in trying the free CRM that specifically targets small businesses. The CTA is consideration-stage appropriate and directly relevant to the product being discussed."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Strong general fit for the target audience. After reading about Starter Suite as a Mailchimp alternative for small businesses, this CTA reinforces that Salesforce is built for their segment and invites further exploration of the platform's small business focus."
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -194,42 +202,42 @@
       "section_index": 4,
       "section_heading": "Pro Tip: Add AI to your email marketing campaigns",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "problem_solving",
         "primary_persona": "marketing_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "marketing_cloud",
-          "einstein_ai"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "email_marketing",
-          "marketing_automation",
           "ai_agents",
-          "customer_engagement",
-          "personalization"
+          "small_business",
+          "marketing_automation",
+          "productivity",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section appears in an article about Mailchimp alternatives for small businesses, positioning Agentforce 360 as a solution consideration. The reader is evaluating email marketing options and this presents AI-enhanced capabilities. The content targets marketing leaders looking for automation and personalization features, placing it squarely in the consideration stage of the funnel."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Pro Tip: Add AI to your email marketing campaigns'. Products: agentforce, sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.9,
-          "match_rationale": "Perfect match - the section specifically discusses Agentforce 360 for email marketing automation and personalization. This CTA targets small businesses looking to grow with AI agents, directly aligning with the section's focus on Agentforce and marketing automation. The consideration funnel stage matches the reader's evaluating intent."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.7,
-          "match_rationale": "Strong alignment as Agentforce Service relates to the customer engagement and AI automation themes discussed in the section. The consideration funnel stage matches perfectly, and the focus on AI-powered service aligns with the section's discussion of automated customer interactions and personalization."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.65,
-          "match_rationale": "Good match for the Agentforce product focus and implementation guidance that would naturally follow after reading about Agentforce 360's capabilities. However, it's positioned at awareness stage which is slightly behind the reader's consideration-level intent after learning about specific product benefits."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -239,24 +247,22 @@
       "section_index": 5,
       "section_heading": "Resources to make better email marketing decisions",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "marketing_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
           "sales_cloud",
-          "starter"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "email_marketing",
-          "mailchimp_alternatives",
-          "crm_comparison",
           "small_business",
-          "marketing_automation"
+          "crm",
+          "marketing_automation",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides resources to help small businesses compare marketing tools and make decisions about Mailchimp alternatives. The content targets marketing leaders evaluating options (consideration stage) with resources like CRM buyer's guides and customer stories. The CTA \"Be a Trailblazer — Free to Reinvent\" suggests they're ready to explore Salesforce solutions but still in evaluation mode rather than decision phase."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Resources to make better email marketing decisions'. Products: sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Be a Trailblazer",
@@ -266,33 +272,28 @@
         "position_after_section": 5
       },
       "existing_cta_score": {
-        "relevance_score": 0.25,
-        "funnel_alignment": "mismatch",
-        "persona_match": "mismatch",
-        "product_alignment": "none",
-        "issues": [
-          "Funnel stage mismatch: offers general learning instead of evaluation support",
-          "Persona mismatch: generic career messaging doesn't speak to marketing leaders' business needs",
-          "No product alignment: doesn't connect to Marketing Cloud, Sales Cloud, or decision-making process",
-          "Missed conversion opportunity: should offer product trials, demos, or buying guides instead of general learning"
-        ],
-        "rationale": "The generic Trailblazer learning CTA completely misses marketing leaders who are actively evaluating CRM tools and need decision-support resources."
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "small-business-marketing",
-          "score": 0.9,
-          "match_rationale": "Perfect match for marketing leaders evaluating CRM tools for email marketing. The CTA directly addresses reaching more prospects with a CRM, which aligns with the section's focus on making better email marketing decisions and CRM comparison. The consideration funnel stage matches exactly."
-        },
-        {
-          "cta_id": "form-signup-free-crm",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Highly relevant for small business marketing leaders who just read about CRM comparison resources. Offers a free CRM trial which is a logical next step after evaluating options. The consideration stage CTA matches the reader's current evaluation mindset."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.8,
-          "match_rationale": "Strong alignment with the small business focus and marketing leader persona. After reading about resources for making marketing decisions, this general CTA reinforces that Salesforce works for their business size and encourages further consideration."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -303,42 +304,42 @@
       "section_heading": "Salesforce — the best Mailchimp alternative for small business",
       "classification": {
         "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "marketing_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
+          "agentforce",
           "marketing_cloud",
-          "starter",
-          "platform",
-          "agentforce"
+          "starter"
         ],
         "topic_tags": [
-          "email_marketing",
+          "ai_agents",
           "small_business",
-          "mailchimp_alternative",
-          "unified_platform",
-          "business_growth"
+          "crm",
+          "marketing_automation",
+          "customer_service",
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly targeting small business owners evaluating Mailchimp alternatives, positioning Salesforce as the superior choice. The reader intent is evaluating different email marketing solutions. The content appeals to business leaders making purchasing decisions, with secondary appeal to marketing leaders. It's in the consideration stage as readers are comparing options. Multiple product tiers are mentioned (Free, Starter Suite, Pro Suite) with specific calls to explore and try products."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Salesforce — the best Mailchimp alternative for small business'. Products: agentforce, marketing_cloud, starter. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.9,
-          "match_rationale": "Perfect match - the section is specifically about Salesforce as a Mailchimp alternative for small businesses and mentions starting with 'Free or Starter Suite today.' This CTA directly aligns with that recommendation and targets the decision-ready business leader persona who has just been convinced by the comparison."
-        },
-        {
-          "cta_id": "small-business",
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
           "score": 0.85,
-          "match_rationale": "Excellent alignment with small business focus and business leader persona. After reading about Salesforce as the best Mailchimp alternative, this CTA reinforces that 'Salesforce works for small businesses' - validating their consideration stage thinking and building confidence in the platform choice."
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.8,
-          "match_rationale": "Strong match for small business leaders evaluating Salesforce. The 'FREE for small businesses' messaging directly addresses cost concerns that small business leaders have when considering alternatives to Mailchimp, and matches the consideration to decision funnel progression."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -349,42 +350,47 @@
       "section_heading": "Frequently Asked Questions (FAQs)",
       "classification": {
         "reader_intent": "evaluating",
-        "primary_persona": "marketing_leader",
-        "secondary_persona": "business_leader",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
         "funnel_stage": "decision",
         "product_alignment": [
-          "starter",
+          "sales_cloud",
           "marketing_cloud",
-          "sales_cloud"
+          "starter"
         ],
         "topic_tags": [
-          "email_marketing",
-          "mailchimp_alternatives",
           "small_business",
-          "crm_integration",
-          "marketing_automation"
+          "crm",
+          "marketing_automation",
+          "data_analytics",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This FAQ section directly addresses small businesses evaluating Mailchimp alternatives, positioning Salesforce as a superior solution. The content emphasizes decision-making factors like pricing, scalability, and offers specific trial options (free trial, Free Suite), indicating readers are ready to take action. The mention of specific product capabilities and trial offers signals decision-stage intent."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Frequently Asked Questions (FAQs)'. Products: sales_cloud, marketing_cloud, starter. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-lead-management",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Excellent fit for marketing leaders evaluating CRM solutions. The section discusses CRM integration and growing businesses, and this CTA targets the exact same audience with a trial offer for decision-stage prospects."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-signup-freetrial-prosuite",
-          "score": 0.75,
-          "match_rationale": "Good match as the section mentions scaling 'from Starter Suite to Pro Suite without losing data.' This CTA would appeal to readers who are already considering growth and want to explore the more advanced option."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.1375,
-  "misaligned_count": 7
+  "overall_health_score": 0.25,
+  "misaligned_count": 6
 }

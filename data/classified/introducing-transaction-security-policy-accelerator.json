@@ -2,46 +2,45 @@
   "url": "https://www.salesforce.com/blog/introducing-transaction-security-policy-accelerator/?bc=DB",
   "slug": "introducing-transaction-security-policy-accelerator",
   "title": "Deploy Best-Practice Security Policies Instantly with Transaction Security Policy Accelerator",
+  "author": "More by Stephen",
+  "published_date": "2026-03-25T15:10:23+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
         "reader_intent": "implementing",
-        "primary_persona": "admin",
+        "primary_persona": "developer",
         "secondary_persona": "it_leader",
         "funnel_stage": "decision",
         "product_alignment": [
-          "platform",
-          "general"
+          "platform"
         ],
         "topic_tags": [
-          "transaction_security",
-          "security_policies",
-          "appexchange",
-          "data_protection",
-          "implementation"
+          "data_analytics",
+          "security",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This is clearly implementation-focused content introducing a specific tool (Transaction Security Policy Accelerator) that solves a known pain point. The reader intent is \"implementing\" as it addresses the \"how to get started\" challenge with TSPs. Primary persona is admin since they're the ones who would deploy security policies, with IT leaders as secondary decision makers. It's decision-stage content because it's announcing a specific solution available now on AppExchange. Product alignment is platform (AppExchange app) and general (cross-product security)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Key Takeaways'. Products: platform. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment - this section discusses implementing Transaction Security Policies and this CTA is about implementing Shield security features on Day 1. Both focus on platform security implementation for admins in the decision stage."
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage developer reader."
         },
         {
-          "cta_id": "form-signup-freetrial-platform",
-          "score": 0.75,
-          "match_rationale": "Strong match - after learning about Transaction Security Policy implementation, admins ready to implement would benefit from trying the full platform. Matches decision funnel stage and admin persona."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage developer reader."
         },
         {
-          "cta_id": "content-learn-modules-event_monitoring",
-          "score": 0.65,
-          "match_rationale": "Good complementary fit - event monitoring is closely related to transaction security monitoring. While it's awareness stage, it provides valuable learning for admins implementing security policies."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -51,36 +50,40 @@
       "section_index": 1,
       "section_heading": "The challenge with Transaction Security Policies",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "admin",
+        "reader_intent": "implementing",
+        "primary_persona": "developer",
         "secondary_persona": "it_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "platform",
-          "general"
+          "platform"
         ],
         "topic_tags": [
-          "transaction_security",
-          "shield_event_monitoring",
-          "security_policies",
-          "data_protection",
-          "setup_configuration"
+          "customer_service",
+          "data_analytics",
+          "security",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section identifies a specific implementation challenge (manual configuration slowing adoption) for existing Salesforce customers using Shield Event Monitoring. The technical detail about setup configuration and policy implementation strongly indicates an admin audience, with IT leaders as secondary stakeholders. Reader intent is problem_solving as they have a pain point with manual effort. Funnel stage is consideration as they're evaluating solutions to streamline implementation."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'The challenge with Transaction Security Policies'. Products: platform. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-event_monitoring",
-          "score": 0.75,
-          "match_rationale": "Perfect topical match for Event Monitoring learning content. Since the section discusses Shield Event Monitoring challenges, admins would benefit from foundational learning about event monitoring concepts and implementation. The learning format suits the consideration stage well."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.65,
-          "match_rationale": "Relevant for admins focused on data protection and security policies. While not specifically about Transaction Security, it addresses the broader security and data protection concerns that admins dealing with Shield would have. The awareness-level guide fits well for expanding security knowledge."
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -91,39 +94,35 @@
       "section_heading": "From guidance to one-click deployment",
       "classification": {
         "reader_intent": "implementing",
-        "primary_persona": "admin",
-        "secondary_persona": null,
-        "funnel_stage": "decision",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
         "product_alignment": [
           "platform"
         ],
         "topic_tags": [
-          "transaction_security",
-          "security_policies",
-          "admin_tools",
-          "one_click_deployment",
-          "best_practices"
+          "security"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly targeting Salesforce admins who are ready to implement security policies. The emphasis on \"one-click deployment\" and \"install proven, ready-to-use policies in minutes\" indicates decision-stage content for readers with implementing intent. The Transaction Security Policy Accelerator is a platform tool that helps admins configure security within their Salesforce org."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'From guidance to one-click deployment'. Products: platform. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-          "score": 0.85,
-          "match_rationale": "Perfect match for admins in decision stage. The section discusses Transaction Security Policy implementation, and this CTA offers 'Shield on Day 1' guidance which directly relates to security implementation best practices that admins need when implementing security policies."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-signup-freetrial-platform",
-          "score": 0.75,
-          "match_rationale": "Strong match for platform-focused admins in decision stage. After reading about one-click deployment capabilities, admins would be motivated to try the platform themselves to experience these admin-friendly features firsthand."
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.65,
-          "match_rationale": "Good complementary match for security-focused admins. While the section covers transaction security policies, this data security guide provides additional security implementation guidance that would interest admins thinking about comprehensive security strategies."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -133,36 +132,38 @@
       "section_index": 3,
       "section_heading": "What the Transaction Security Policy Accelerator does",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "admin",
+        "reader_intent": "learning",
+        "primary_persona": "developer",
         "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "general"
+          "platform"
         ],
         "topic_tags": [
-          "security_policies",
-          "transaction_security",
-          "salesforce_shield",
-          "admin_tools",
-          "security_automation"
+          "data_analytics",
+          "security",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly targeted at Salesforce admins and security teams who need to implement security policies. The content focuses on the practical benefits of the accelerator tool - one-click deployment, pre-built policies, and time savings. The reader intent is implementing because it's about deploying and using security policies. The funnel stage is consideration as readers are evaluating this specific tool's capabilities and benefits. Product alignment includes platform (Salesforce admin tools) and general (cross-product security features like Shield)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What the Transaction Security Policy Accelerator does'. Products: platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-event_monitoring",
-          "score": 0.75,
-          "match_rationale": "Strong alignment - Event Monitoring is directly mentioned in the section as something to maximize value from. The admin persona would benefit from learning more about this platform feature that complements Transaction Security policies."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.65,
-          "match_rationale": "Good fit - Data protection is mentioned as one of the common security use cases in the section. This guide on data masking and seeding would be relevant for admins implementing comprehensive security policies."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -172,40 +173,36 @@
       "section_index": 4,
       "section_heading": "Who should use the Transaction Security Policy Accelerator?",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "admin",
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
         "secondary_persona": "it_leader",
-        "funnel_stage": "decision",
+        "funnel_stage": "consideration",
         "product_alignment": [
           "platform"
         ],
         "topic_tags": [
-          "security",
-          "transaction_security",
-          "appexchange",
-          "deployment",
-          "admin_tools"
+          "security"
         ],
-        "confidence": 0.9,
-        "rationale": "This section clearly targets Salesforce admins and architects who need to implement security policies. The content describes who should use a specific tool, provides availability information (AppExchange), and includes a demo link - all indicating readers are ready to take action. The focus on \"operationalizing\" and \"standardizing deployments\" signals implementation intent at the decision stage."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Who should use the Transaction Security Policy Accelerator?'. Products: platform. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment - this is a guide about implementing Salesforce Shield (security platform) on Day 1, which matches the admin persona who just learned about a security tool (Transaction Security Policy Accelerator) and is in decision stage about implementing security best practices."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.75,
-          "match_rationale": "Strong fit for security-focused admins in decision stage. Data masking and seeding is a complementary security practice that admins implementing transaction security policies would also need to consider for comprehensive data protection."
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "content-learn-modules-backup-recover-basics",
-          "score": 0.65,
-          "match_rationale": "Good complementary match for admins focused on security implementation. Backup and recovery is another essential security practice that admins responsible for org security would want to learn about alongside transaction security policies."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,

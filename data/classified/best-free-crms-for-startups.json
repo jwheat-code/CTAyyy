@@ -2,46 +2,46 @@
   "url": "https://www.salesforce.com/crm/free-crm/best-free-crms/?bc=DB",
   "slug": "best-free-crms-for-startups",
   "title": "Best Free CRMs for Startups and SMBs in 2026",
+  "author": "",
+  "published_date": "",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Introduction",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "sales_cloud",
           "starter"
         ],
         "topic_tags": [
-          "free_crm",
-          "startups",
-          "smb",
-          "crm_selection",
-          "small_business"
+          "small_business",
+          "crm",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This is an introductory section for an article about free CRM tools for startups/SMBs. The reader intent is 'evaluating' as they're comparing CRM options. Primary persona is business_leader as they make software decisions for smaller companies. Funnel stage is 'consideration' since they're actively researching CRM solutions. Product alignment includes sales_cloud (core CRM) and starter (Salesforce's SMB offering)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud, starter. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.95,
-          "match_rationale": "Perfect match for a business leader reading about free CRM tools for smaller teams. This CTA directly offers free Salesforce CRM for small businesses, aligning with both the content focus and the reader's evaluation stage."
-        },
-        {
-          "cta_id": "small-business",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Strong alignment with the section's focus on small business CRM solutions. Appeals to business leaders evaluating CRM options by emphasizing that Salesforce works specifically for small businesses."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "crm-free-crm",
-          "score": 0.8,
-          "match_rationale": "Good fit for readers exploring free CRM options. Positions Salesforce as a starting point for AI journey, which could appeal to business leaders considering future growth and technology advancement."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,

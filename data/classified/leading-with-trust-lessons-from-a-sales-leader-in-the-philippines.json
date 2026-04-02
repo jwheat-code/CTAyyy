@@ -1,0 +1,65 @@
+{
+  "url": "https://www.salesforce.com/blog/leading-with-trust-lessons-from-a-sales-leader-in-the-philippines/?bc=DB",
+  "slug": "leading-with-trust-lessons-from-a-sales-leader-in-the-philippines",
+  "title": "Leading with Trust: Lessons from a Sales Leader in the Philippines",
+  "author": "Salesforce Careers",
+  "published_date": "2025-12-01T17:09:09+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "crm",
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Blaze your trail to Salesforce!",
+        "body": "At Salesforce, we’re not just shaping the future. We’re turning big ideas into breakthroughs. Want to join the #1 AI CRM that’s leading the digital labor revolution? Explore our open roles today!",
+        "button_text": "Apply now",
+        "button_url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site?source=Salesforce_Career_Blog",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 1.0,
+  "misaligned_count": 0
+}

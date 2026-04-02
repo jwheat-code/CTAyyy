@@ -2,46 +2,49 @@
   "url": "https://www.salesforce.com/blog/event-monitoring-analytics-dashboards/?bc=DB",
   "slug": "event-monitoring-analytics-dashboards",
   "title": "Drive Adoption, Accelerate Performance, and Monitor Security Threats with Event Log Objects Analytics",
+  "author": "More by Arpita",
+  "published_date": "2026-03-10T18:46:06+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "it_leader",
-        "secondary_persona": "admin",
-        "funnel_stage": "consideration",
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "einstein_ai"
+          "sales_cloud",
+          "platform"
         ],
         "topic_tags": [
-          "event_logs",
-          "security_monitoring",
-          "performance_optimization",
-          "platform_analytics",
-          "visibility"
+          "data_analytics",
+          "productivity",
+          "security",
+          "collaboration",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section addresses specific pain points IT leaders face - visibility gaps, security threats, performance issues - and positions Event Log Objects Analytics as the solution. The technical focus on Lightning pages, Apex bottlenecks, and threat detection indicates IT leaders as primary audience, with platform admins as secondary. Reader has identified problems and is evaluating solutions, placing this in consideration stage."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Key Takeaways'. Products: sales_cloud, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-event_monitoring",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment - this section is specifically about event logs, security monitoring, and platform analytics. The CTA offers learning about event monitoring, which directly matches what IT leaders would want to explore after reading about visibility gaps and monitoring solutions. The awareness funnel stage is appropriate for IT leaders evaluating monitoring capabilities."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-          "score": 0.75,
-          "match_rationale": "Strong match for IT leaders in consideration stage who just learned about security threats and visibility gaps. The guide about implementing Shield (Salesforce's security platform) directly addresses the security monitoring and threat detection themes discussed in the section. The awareness funnel stage works well for IT leaders evaluating security solutions."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-platform-backup-recover-datasheet",
-          "score": 0.65,
-          "match_rationale": "Good secondary match for IT leaders concerned about platform stability and data protection. After reading about performance bottlenecks and security threats, IT leaders would naturally consider data protection strategies. The consideration funnel stage aligns well with the section's consideration stage, representing the next logical step."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -51,23 +54,22 @@
       "section_index": 1,
       "section_heading": "Introducing New Event Log Objects Analytics",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "admin",
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
         "secondary_persona": "it_leader",
-        "funnel_stage": "awareness",
+        "funnel_stage": "consideration",
         "product_alignment": [
           "platform",
-          "einstein_ai"
+          "tableau"
         ],
         "topic_tags": [
-          "event_monitoring",
-          "analytics",
-          "platform_security",
-          "performance_optimization",
-          "admin_tools"
+          "data_analytics",
+          "security",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This is an announcement/introduction of new analytics dashboards for Event Monitoring. The content is educational, explaining what the feature does and its benefits. The primary audience is Salesforce admins who need to monitor security, performance, and adoption. The \"Start learning\" CTA and explanatory tone indicate awareness stage content focused on learning about this new capability."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Introducing New Event Log Objects Analytics'. Products: platform, tableau. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "",
@@ -77,29 +79,36 @@
         "position_after_section": 1
       },
       "existing_cta_score": {
-        "relevance_score": 0.95,
-        "funnel_alignment": "match",
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
-        "product_alignment": "match",
-        "issues": [],
-        "rationale": "The CTA perfectly aligns with the awareness-stage section by directing admins to learn more about Event Monitoring on Trailhead, which directly matches the platform product being discussed."
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-          "score": 0.85,
-          "match_rationale": "Highly relevant for platform security-focused admins. After learning about Event Log Objects Analytics for threat monitoring, this Shield implementation guide is a natural next step for comprehensive platform security."
+          "cta_id": "https:--www.tableau.com-solutions-customer-america",
+          "score": 0.5,
+          "match_rationale": "Matches tableau product focus at awareness stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.75,
-          "match_rationale": "Good fit for security-conscious admins. After reading about threat detection and data security dashboards, learning about data protection techniques like masking and seeding is a logical progression in their security education."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.475,
+  "overall_health_score": 0.325,
   "misaligned_count": 1
 }

@@ -2,6 +2,8 @@
   "url": "https://www.salesforce.com/blog/distributed-marketing-and-alerts/?bc=DB",
   "slug": "distributed-marketing-and-alerts",
   "title": "4 Ways Marketers Can Help Sales to Deliver On-Brand Messages",
+  "author": "More by Megan",
+  "published_date": "2026-02-24T12:29:46+00:00",
   "section_analyses": [
     {
       "section_index": 0,
@@ -9,22 +11,20 @@
       "classification": {
         "reader_intent": "problem_solving",
         "primary_persona": "marketing_leader",
-        "secondary_persona": "sales_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
           "agentforce",
-          "data_cloud"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "distributed_marketing",
-          "sales_marketing_alignment",
-          "brand_consistency",
-          "regulatory_compliance",
-          "customer_journey"
+          "data_analytics",
+          "security",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This introduction clearly identifies a specific problem (misaligned marketing and sales messaging in distributed organizations) and presents statistics to validate the pain point. The reader intent is problem_solving as it addresses marketers facing challenges with brand consistency and compliance. The primary persona is marketing_leader since the article title focuses on how marketers can help sales. The consideration stage is appropriate as readers are likely exploring solutions to their alignment challenges. The mention of Agentforce Marketing and the demo CTA suggests readers are evaluating Salesforce's distributed marketing capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Optimize campaigns for sellers",
@@ -34,34 +34,34 @@
         "position_after_section": 0
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
+        "relevance_score": 1.0,
         "funnel_alignment": "match",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "The CTA aligns well with the consideration-stage section about distributed marketing challenges, offering a demo to marketing leaders evaluating solutions for seller enablement."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "marketing-demos-distributed-marketing-demo",
-          "score": 0.95,
-          "match_rationale": "Perfect match for the section content. This demo specifically addresses 'distributed marketing' which is the exact topic of the section. The CTA targets marketing leaders who have just learned about distributed marketing challenges and are in the consideration stage looking for solutions."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.7,
-          "match_rationale": "Good alignment with Marketing Cloud product focus and marketing personas. The Agentforce Marketing guide addresses the need for AI-powered solutions to solve the coordination challenges between corporate and local teams discussed in the section."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "marketing-resources-revenue-marketing-platforms-fo",
-          "score": 0.65,
-          "match_rationale": "Relevant for marketing leaders seeking solutions to revenue marketing challenges. The Forrester report provides third-party validation for marketing platforms that could help solve the alignment issues between marketing and sales discussed in the section."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.85,
+  "overall_health_score": 1.0,
   "misaligned_count": 0
 }

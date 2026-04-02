@@ -1,0 +1,64 @@
+{
+  "url": "https://www.salesforce.com/blog/smarter-access-governance-ai-powered-policy-driven-and-time-bound/?bc=DB",
+  "slug": "smarter-access-governance-ai-powered-policy-driven-and-time-bound",
+  "title": "Smarter Access Governance: AI-Powered, Policy-Driven, and Time-Bound",
+  "author": "Saai Krishnan Udayakumar",
+  "published_date": "2025-11-26T20:52:41+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "security"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Missed Dreamforce? Check out the Security Keynote on Salesforce+",
+        "body": "",
+        "button_text": "Watch Now",
+        "button_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/it_at_dreamforce_2025/episode/episode-s1e23",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.8,
+  "misaligned_count": 0
+}

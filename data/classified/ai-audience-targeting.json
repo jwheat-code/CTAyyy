@@ -2,48 +2,49 @@
   "url": "https://www.salesforce.com/blog/ai-audience-targeting/?bc=DB",
   "slug": "ai-audience-targeting",
   "title": "How AI Audience Targeting Is Supercharging SMBs",
+  "author": "More by Nicole",
+  "published_date": "2026-01-26T15:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "marketing_leader",
-        "secondary_persona": "business_leader",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
-          "data_cloud",
-          "einstein_ai",
-          "starter"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "ai_audience_targeting",
-          "smb_marketing",
-          "customer_segmentation",
-          "marketing_automation",
-          "predictive_analytics"
+          "small_business",
+          "ai_tools",
+          "data_analytics",
+          "productivity",
+          "ecommerce",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This is a \"Key Takeaways\" section that educates SMB marketing leaders about AI audience targeting concepts. The content explains what AI targeting is and its benefits without pushing specific products or solutions. The mention of needing a \"unified platform like Salesforce\" suggests awareness stage content that introduces the concept before deeper consideration. The focus on SMBs aligns with Starter Suite, while the AI and data requirements point to Marketing Cloud, Data Cloud, and Einstein AI capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Key Takeaways'. Products: sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with section content about AI audience targeting for small businesses. Marketing leaders who just learned about AI targeting benefits would naturally want a comprehensive guide to implementing AI in their small business. Matches awareness funnel stage and marketing leader persona."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
-          "score": 0.75,
-          "match_rationale": "Strong fit for marketing leaders seeking broader context after learning about AI targeting. The State of Marketing report would provide industry benchmarks and trends that complement the AI audience targeting concepts discussed. Appropriate for awareness stage learning."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-marketing",
-          "score": 0.7,
-          "match_rationale": "Good fit as it directly addresses what marketing leaders can accomplish with CRM for reaching prospects, which is the next logical consideration after understanding AI audience targeting benefits. Moves reader from awareness to consideration stage appropriately."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -54,41 +55,38 @@
       "section_heading": "What is AI audience targeting?",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "marketing_leader",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
-          "data_cloud",
           "einstein_ai"
         ],
         "topic_tags": [
-          "ai_targeting",
-          "audience_segmentation",
-          "machine_learning",
-          "smb_marketing",
-          "predictive_analytics"
+          "small_business",
+          "data_analytics",
+          "thought_leadership",
+          "trailhead"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a definitional \"What is...\" section that educates readers about AI audience targeting concepts without promoting specific Salesforce products. The content focuses on explaining how AI enhances traditional targeting methods, making it educational awareness-stage content. Primary audience is marketing leaders who need to understand these concepts, with business leaders as secondary audience since SMBs are mentioned in the title."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is AI audience targeting?'. Products: einstein_ai. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.85,
-          "match_rationale": "Perfect match for marketing leaders learning about AI targeting. This Agentforce Marketing Quick Guide directly connects to the AI audience targeting concepts discussed in the section and matches both the awareness funnel stage and marketing_leader persona."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
-          "score": 0.75,
-          "match_rationale": "Strong relevance for marketing leaders at awareness stage. The State of Marketing report would naturally appeal to marketing leaders who just learned about AI audience targeting and want broader industry insights on marketing trends and best practices."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.7,
-          "match_rationale": "Good fit for marketing leaders interested in AI applications. After reading about AI audience targeting capabilities, this guide about how businesses are using AI agents provides valuable context and broader perspective on AI adoption in business."
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -101,35 +99,40 @@
         "reader_intent": "learning",
         "primary_persona": "marketing_leader",
         "secondary_persona": "business_leader",
-        "funnel_stage": "awareness",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "marketing_cloud",
           "einstein_ai",
           "sales_cloud",
-          "data_cloud"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "ai_audience_targeting",
-          "machine_learning",
-          "marketing_automation",
-          "customer_segmentation",
-          "crm"
+          "small_business",
+          "crm",
+          "data_analytics",
+          "collaboration",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is educational content explaining \"how AI audience targeting works\" - clear learning intent. The technical explanation of the process indicates awareness stage as readers are learning about the concept. Marketing leaders are the primary audience given the focus on targeting, campaigns, and ROI, though business leaders evaluating marketing tech are also relevant. Multiple Salesforce products align: Marketing Cloud for targeting/campaigns, Einstein AI for the ML algorithms, Sales Cloud as the mentioned CRM example, and Data Cloud for the data unification aspects."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How does AI audience targeting work?'. Products: einstein_ai, sales_cloud, marketing_cloud. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Perfect match for marketing leaders in awareness stage learning about AI. After reading about how AI audience targeting works, they would naturally want a comprehensive guide to AI for business implementation. The funnel stage (awareness) and educational format align perfectly with the section's learning intent."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage marketing_leader reader."
         },
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for marketing leaders who just learned about AI audience targeting mechanics. This research report on how businesses use AI agents provides the next logical step - seeing real-world applications and benchmarks. The awareness-stage funnel and research format match the educational context."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -140,36 +143,41 @@
       "section_heading": "What does it mean for small businesses?",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "marketing_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
           "einstein_ai",
-          "starter"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "ai_targeting",
-          "smb_marketing",
-          "marketing_automation",
-          "audience_segmentation",
-          "marketing_roi"
+          "small_business",
+          "crm",
+          "collaboration",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This section educates SMB leaders about the benefits of AI audience targeting without promoting specific products or driving toward purchase. The focus on leveling the playing field and explaining concepts like 'spray-and-pray' vs. 'surgical precision' indicates awareness-stage educational content aimed at business leaders seeking to understand new marketing capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What does it mean for small businesses?'. Products: einstein_ai, sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.78,
-          "match_rationale": "Strong match for SMB leaders interested in AI implementation. The section discusses AI targeting benefits, and this guide provides specific implementation steps for AI agents in small business. Appropriate awareness-stage content for business leaders wanting to learn more about AI."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.65,
-          "match_rationale": "Good general match for small business leaders. After learning about AI targeting benefits, they might want to explore how Salesforce works for small businesses overall. Matches the business_leader persona and consideration funnel stage (one step ahead of awareness)."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -179,26 +187,25 @@
       "section_index": 4,
       "section_heading": "Benefits of AI audience targeting",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
           "sales_cloud",
           "service_cloud",
-          "commerce_cloud",
-          "einstein_ai"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "ai_targeting",
-          "audience_segmentation",
-          "personalization",
-          "smb_marketing",
-          "campaign_optimization"
+          "small_business",
+          "sales_automation",
+          "customer_service",
+          "productivity",
+          "ecommerce",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is explaining the benefits of AI audience targeting across multiple business functions, which indicates the reader is evaluating the value proposition. The content targets business leaders and marketing leaders at SMBs who are considering AI solutions. The \"Try it for free\" CTA suggests consideration stage. The section covers multiple Salesforce products (Marketing Cloud for campaigns, Sales Cloud for pipeline, Service Cloud for support routing, Commerce Cloud for recommendations, plus Einstein AI powering it all)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Benefits of AI audience targeting'. Products: sales_cloud, service_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Wherever you are — just get started.",
@@ -208,32 +215,30 @@
         "position_after_section": 4
       },
       "existing_cta_score": {
-        "relevance_score": 0.4,
+        "relevance_score": 0.5,
         "funnel_alignment": "mismatch",
-        "persona_match": "mismatch",
-        "product_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "match",
         "issues": [
-          "Funnel stage mismatch: offers free trial (decision stage) when reader is still evaluating AI benefits (consideration stage)",
-          "Persona mismatch: targets 'business owners' with basic CRM when section speaks to business leaders about enterprise AI capabilities",
-          "Product mismatch: promotes Starter Suite when section discusses advanced AI features across Marketing, Sales, Service, and Commerce Clouds"
+          "Funnel mismatch: CTA is decision-stage but section is awareness-stage"
         ],
-        "rationale": "The CTA promotes Starter Suite for business owners while the section targets business leaders evaluating enterprise AI audience targeting capabilities across multiple clouds."
+        "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment - targets business leaders considering AI agents for growth. The section covers AI targeting benefits across multiple functions, and this CTA offers a natural next step to explore how AI agents can deliver those benefits for small businesses."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "crm-foundations",
-          "score": 0.75,
-          "match_rationale": "Strong relevance - the section emphasizes AI's need for rich customer data and 360-degree views. This CTA about getting data ready for AI with Salesforce Foundations is a logical next step for business leaders evaluating AI targeting capabilities."
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "plus-experience-dreamforce_2025-series-marketers_a",
-          "score": 0.72,
-          "match_rationale": "Good fit - after reading about AI targeting benefits, business leaders would be interested in seeing practical applications. This CTA invites them to explore how agentic AI can help their business, matching the consideration stage and multi-product focus."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -243,24 +248,23 @@
       "section_index": 5,
       "section_heading": "Tools to try for your own targeting campaign",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "business_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "marketing_leader",
-        "funnel_stage": "decision",
+        "funnel_stage": "consideration",
         "product_alignment": [
-          "starter",
+          "einstein_ai",
+          "sales_cloud",
           "marketing_cloud",
-          "einstein_ai"
+          "starter"
         ],
         "topic_tags": [
-          "ai_targeting",
-          "smb",
+          "small_business",
           "crm",
-          "customer_segmentation",
-          "marketing_automation"
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides specific product recommendations (Starter Suite, Pro Suite) with actionable guidance for implementation. The \"Tools to try\" heading and direct product mentions indicate decision-stage content for SMB leaders ready to implement AI targeting solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Tools to try for your own targeting campaign'. Products: einstein_ai, sales_cloud, marketing_cloud, starter. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "Agentforce Marketing Quick Guide",
@@ -270,32 +274,30 @@
         "position_after_section": 5
       },
       "existing_cta_score": {
-        "relevance_score": 0.4,
-        "funnel_alignment": "mismatch",
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "partial",
         "issues": [
-          "Funnel stage mismatch: offering educational content to decision-ready readers",
-          "Missed conversion opportunity: section discusses specific Salesforce products but CTA doesn't drive trial/demo",
-          "CTA promotes Agentforce Marketing while section focuses on Starter/Pro Suite products"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "The CTA offers an educational guide when readers are ready to implement tools, creating a significant funnel stage mismatch."
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-prosuite",
-          "score": 0.9,
-          "match_rationale": "Perfect match - the section specifically mentions Pro Suite as a solution for AI targeting and this CTA offers a trial for Pro Suite. The decision-stage funnel alignment and implementation intent make this highly relevant."
-        },
-        {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Strong match - the section mentions Starter Suite as an option for small businesses implementing AI targeting. This CTA offers getting started with Salesforce, aligning well with the implementation intent and decision stage."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-sales",
-          "score": 0.75,
-          "match_rationale": "Good match - targets business leaders at small businesses with CRM for growth, which aligns with the AI targeting implementation context. Decision-stage funnel and trial type support the implementation intent."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -305,25 +307,20 @@
       "section_index": 6,
       "section_heading": "Expert tips for getting started",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "problem_solving",
         "primary_persona": "marketing_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "decision",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "consideration",
         "product_alignment": [
-          "marketing_cloud",
-          "data_cloud",
-          "einstein_ai",
-          "service_cloud"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "ai_targeting",
-          "smb_marketing",
-          "audience_segmentation",
-          "customer_data",
-          "marketing_automation"
+          "small_business",
+          "ai_tools",
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This is tactical, how-to content providing specific implementation steps for AI audience targeting. The \"expert tips\" format and actionable advice (start small, focus on intent data, test subject lines) indicates implementing intent. Marketing leaders are the primary audience given the focus on targeting, segmentation, and campaign optimization. The CTA for Salesforce Foundations suggests decision-stage readiness to try a solution. Multiple Salesforce products are relevant: Marketing Cloud for campaigns, Data Cloud for audience data, Einstein AI for the AI capabilities, and Service Cloud for the service data mentioned."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Expert tips for getting started'. Products: marketing_cloud. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "Get your data ready for AI with Salesforce Foundations",
@@ -333,31 +330,30 @@
         "position_after_section": 6
       },
       "existing_cta_score": {
-        "relevance_score": 0.75,
+        "relevance_score": 0.85,
         "funnel_alignment": "match",
         "persona_match": "match",
         "product_alignment": "partial",
         "issues": [
-          "CTA focuses on broad platform foundations rather than the specific AI implementation tips discussed in the section",
-          "Missing direct connection to the AI tools and audience targeting strategies mentioned in the content"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "The CTA aligns well with decision-stage intent and marketing leader persona, but only partially matches the specific AI and data analytics focus of the section content."
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-platform",
-          "score": 0.85,
-          "match_rationale": "Perfect match for marketing leaders ready to implement AI-driven marketing strategies. After reading expert implementation tips, they're ready for a hands-on trial of the platform to execute these strategies. The decision-stage funnel alignment and trial format directly supports their implementation intent."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.75,
-          "match_rationale": "Strong fit for marketing leaders who want to see the AI targeting and automation capabilities in action before implementing. The interactive demo format allows them to explore the specific features mentioned in the tips (lookalike audiences, intent data, AI subject lines) in a hands-on way."
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
         },
         {
-          "cta_id": "data",
-          "score": 0.7,
-          "match_rationale": "Good alignment for marketing leaders focused on customer data and segmentation strategies mentioned in the section. Data 360 directly supports the data-driven AI targeting approaches discussed, and the decision-stage funnel matches their implementation readiness after reading the expert tips."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -367,42 +363,40 @@
       "section_index": 7,
       "section_heading": "Ready to target smarter? Here are your next steps",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "marketing_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "business_leader",
         "funnel_stage": "decision",
         "product_alignment": [
-          "starter",
           "agentforce",
-          "marketing_cloud"
+          "starter"
         ],
         "topic_tags": [
-          "ai_targeting",
-          "smb_marketing",
-          "audience_targeting",
-          "personalization",
-          "marketing_automation"
+          "ai_agents",
+          "small_business",
+          "customer_service",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a clear decision-stage section with strong CTAs to start with Salesforce products (Free/Starter Suite, Pro Suite, Agentforce 360). The implementation-focused language (\"Start your journey\", \"Are you ready?\") and specific product recommendations indicate readers are ready to take action. Primary persona is marketing leaders at SMBs who need AI targeting solutions, with business leaders as secondary decision makers."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Ready to target smarter? Here are your next steps'. Products: agentforce, starter. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "Perfect match for decision-stage marketing leaders implementing AI targeting. The section specifically mentions starting with Free or Starter Suite, and this CTA directly offers the Starter trial with 'just get started' messaging that aligns with the implementation intent."
-        },
-        {
-          "cta_id": "form-signup-freetrial-prosuite",
-          "score": 0.8,
-          "match_rationale": "Strong alignment with the section's mention of 'Looking for more customization? Explore Pro Suite.' This decision-stage CTA targets readers ready to implement advanced features beyond the basic offering."
-        },
-        {
           "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.7,
-          "match_rationale": "Good fit for marketing leaders implementing AI solutions. The section mentions Agentforce and this CTA focuses on growing small businesses with AI agents, matching the AI targeting theme and SMB focus of the content."
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -412,49 +406,50 @@
       "section_index": 8,
       "section_heading": "Frequently Asked Questions (FAQs)",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "starter",
-          "marketing_cloud",
           "einstein_ai",
-          "sales_cloud"
+          "sales_cloud",
+          "data_cloud",
+          "starter"
         ],
         "topic_tags": [
-          "ai_targeting",
-          "smb",
+          "small_business",
           "crm",
-          "audience_segmentation",
-          "marketing_automation"
+          "customer_service",
+          "data_analytics",
+          "collaboration",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This FAQ section directly addresses common concerns and objections about AI audience targeting for SMBs, indicating readers are evaluating solutions. The specific mentions of Salesforce Starter Suite and Pro Suite, along with detailed explanations of implementation steps, suggest consideration-stage content for business leaders making technology decisions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Frequently Asked Questions (FAQs)'. Products: einstein_ai, sales_cloud, data_cloud, starter. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Perfect match for business leaders evaluating AI targeting solutions. The FAQ section heavily emphasizes Salesforce Starter Suite as the accessible, affordable CRM solution for SMBs, and this CTA directly offers the free CRM that was discussed as the 'essential first step' in the content."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the business leader persona evaluating SMB-focused solutions. After reading about how Salesforce works for AI targeting and audience segmentation, this general consideration CTA reinforces that Salesforce is built for small businesses like theirs."
+          "cta_id": "form-data-clean-rooms-demo",
+          "score": 0.5,
+          "match_rationale": "Matches data_cloud product focus at consideration stage for decision-stage small_business_owner reader."
         },
         {
-          "cta_id": "crm-free-crm",
-          "score": 0.7,
-          "match_rationale": "Good match as it connects the AI journey discussion in the FAQ to actionable next steps. The section emphasizes adopting a 'unified, data-centric platform' and centralizing data in a CRM, making this CTA relevant for business leaders ready to start their AI-powered targeting journey."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.17222222222222222,
-  "misaligned_count": 8
+  "overall_health_score": 0.2222,
+  "misaligned_count": 6
 }

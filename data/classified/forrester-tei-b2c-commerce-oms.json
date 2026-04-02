@@ -2,45 +2,48 @@
   "url": "https://www.salesforce.com/blog/forrester-tei-b2c-commerce-oms/?bc=DB",
   "slug": "forrester-tei-b2c-commerce-oms",
   "title": "Forrester TEI study: How B2C Commerce and Order Management delivered a 119% return on investment",
+  "author": "More by Melissa",
+  "published_date": "2026-02-23T16:56:14+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Introduction",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "commerce_cloud"
+          "sales_cloud",
+          "commerce_cloud",
+          "platform"
         ],
         "topic_tags": [
-          "roi_study",
-          "b2c_commerce",
-          "order_management",
-          "forrester_tei",
-          "platform_migration"
+          "productivity",
+          "ecommerce",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This introduction presents a third-party ROI study to help decision makers evaluate Commerce Cloud solutions. The focus on \"clear framework to understand benefits, costs, and risks\" and \"thoughtful and strategic choice\" indicates readers are actively comparing options (consideration stage). Business leaders are the primary audience given the ROI focus, with IT leaders as secondary given the technical migration context."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: sales_cloud, commerce_cloud, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "commerce-resources-forrester-tei-b2c-commerce-oms",
-          "score": 0.95,
-          "match_rationale": "Perfect match - this CTA directly relates to the Forrester TEI study being discussed and offers the full study, which is exactly what a business leader evaluating commerce solutions would want after reading this introduction to the ROI findings."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "events-webinars-b2c-commerce-roadmap-innovation-gr",
-          "score": 0.7,
-          "match_rationale": "Strong alignment with B2C Commerce focus and business leader persona. After learning about ROI benefits, seeing what's next for the platform would be a logical next step in their evaluation process."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "commerce-innovations",
-          "score": 0.65,
-          "match_rationale": "Good fit for consideration stage business leaders evaluating Commerce Cloud. After reading about ROI benefits, exploring commerce innovations would help them understand platform capabilities and latest releases."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -50,35 +53,38 @@
       "section_index": 1,
       "section_heading": "The quantified impact: Serious ROI and 7-month payback period",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
+          "service_cloud",
           "commerce_cloud"
         ],
         "topic_tags": [
-          "roi_study",
-          "b2c_commerce",
-          "order_management",
-          "forrester_research",
-          "conversion_optimization"
+          "customer_service",
+          "ecommerce"
         ],
-        "confidence": 0.92,
-        "rationale": "This section presents quantified ROI data from a third-party study (Forrester TEI), which is classic consideration-stage content for business leaders evaluating commerce solutions. The specific metrics (119% ROI, 7-month payback, 45% conversion increase) are designed to help prospects justify investment decisions. IT leaders are secondary audience given the technical implementation aspects mentioned."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'The quantified impact: Serious ROI and 7-month payback period'. Products: service_cloud, commerce_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.75,
-          "match_rationale": "Strong fit - after reading quantified ROI results, business leaders in the consideration stage would naturally want to see the products in action to evaluate how they could achieve similar results for their organization."
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "https:--www.youtube.com-watch",
-          "score": 0.65,
-          "match_rationale": "Good match - business leaders evaluating commerce solutions after seeing ROI data would benefit from seeing how AI can support their growth strategy, aligning with their consideration stage mindset."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -88,41 +94,38 @@
       "section_index": 2,
       "section_heading": "Unify the shopping journey to unlock higher conversion rates and incremental revenue.",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
         "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "commerce_cloud",
-          "einstein_ai"
+          "sales_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
           "ecommerce",
-          "digital_transformation",
-          "roi",
-          "conversion_optimization",
-          "customer_experience"
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section presents concrete ROI evidence and customer testimonials about B2C Commerce performance improvements. The focus on conversion rates, revenue growth, and specific business outcomes indicates readers are evaluating ecommerce solutions. Business leaders are the primary audience given the emphasis on ROI and business metrics, with IT leaders as secondary due to technical performance discussions. The consideration stage is clear from the comparative language and solution benefits presentation."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Unify the shopping journey to unlock higher conversion rates and incremental revenue.'. Products: sales_cloud, commerce_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "commerce-resources-forrester-tei-b2c-commerce-oms",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders evaluating Commerce Cloud. The section focuses on ROI and conversion improvements from B2C Commerce, and this CTA offers a Forrester TEI study providing third-party validation of Commerce Cloud's business value. Matches the consideration funnel stage and provides the analytical backing that business leaders need when evaluating solutions."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "events-webinars-b2c-commerce-roadmap-innovation-gr",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders wanting to understand Commerce Cloud's future capabilities. After reading about current conversion improvements, leaders would be interested in upcoming innovations. The webinar format allows for deeper exploration of the platform's roadmap, supporting the consideration stage evaluation process."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "commerce-innovations",
-          "score": 0.6,
-          "match_rationale": "Relevant for business leaders who want to explore more Commerce Cloud capabilities beyond what was covered in the section. The general format allows for broader exploration of commerce innovations, which aligns with the consideration stage where leaders are gathering comprehensive information about the platform's full potential."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -132,36 +135,40 @@
       "section_index": 3,
       "section_heading": "Streamline the post-purchase experience to reduce service costs and call volume.",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "service_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "problem_solving",
+        "primary_persona": "service_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "commerce_cloud",
-          "service_cloud"
+          "service_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "order_management",
-          "post_purchase_experience",
-          "customer_service_efficiency",
-          "roi_study",
-          "wismo_inquiries"
+          "customer_service",
+          "productivity",
+          "ecommerce",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section presents quantified business benefits from Forrester research, targeting executives evaluating e-commerce and service solutions. The focus on ROI metrics, cost reduction, and efficiency gains indicates consideration-stage content for business leaders weighing Commerce Cloud and Service Cloud investments. Secondary persona is service leaders who would be involved in implementation decisions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Streamline the post-purchase experience to reduce service costs and call volume.'. Products: service_cloud, commerce_cloud. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "service-cloud",
-          "score": 0.75,
-          "match_rationale": "Strong alignment - the section focuses heavily on reducing service costs and improving customer service efficiency through order management. This CTA for Agentforce Service directly addresses the service automation and efficiency themes discussed, offering a solution for the challenges outlined."
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for decision-stage service_leader reader."
         },
         {
-          "cta_id": "http:--join.serviceblazer.com",
-          "score": 0.65,
-          "match_rationale": "Good fit - after reading about service efficiency improvements and cost reduction strategies, business leaders would benefit from connecting with a community focused on service excellence. This allows them to learn from peers facing similar post-purchase service challenges."
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage service_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -171,41 +178,43 @@
       "section_index": 4,
       "section_heading": "Consolidate your commerce stack to minimize legacy costs and increase operational efficiency.",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "commerce_cloud",
-          "data_cloud"
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "commerce_consolidation",
-          "operational_efficiency",
-          "data_silos",
-          "roi",
-          "order_management"
+          "customer_service",
+          "data_analytics",
+          "ecommerce",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section addresses specific pain points (data silos, operational inefficiency, multiple systems) with a solution-focused approach backed by ROI data. The customer quote describing \"data failures\" and needing \"four or five different systems\" indicates readers likely have similar problems they're trying to solve. The business case for consolidation and operational efficiency appeals to business leaders evaluating commerce platform solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Consolidate your commerce stack to minimize legacy costs and increase operational efficiency.'. Products: einstein_ai, sales_cloud, service_cloud, commerce_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "commerce-resources-forrester-tei-b2c-commerce-oms",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with section content about commerce stack consolidation and ROI. The section specifically mentions a Forrester study showing ROI benefits, making this CTA highly relevant for business leaders evaluating commerce solutions in the consideration stage."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "commerce-innovations",
-          "score": 0.75,
-          "match_rationale": "Strong match for business leaders exploring commerce consolidation solutions. After reading about the benefits of streamlined commerce operations, readers would naturally want to discover available commerce innovations that could address their stack complexity issues."
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.65,
-          "match_rationale": "Good fit for business leaders in consideration stage who want hands-on experience with solutions. After learning about the problems of siloed systems and benefits of consolidation, a demo would be a logical next step to evaluate specific capabilities."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -215,35 +224,43 @@
       "section_index": 5,
       "section_heading": "Modernize your technical foundation to accelerate time-to-market and developer agility.",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "it_leader",
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
         "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "commerce_cloud"
+          "sales_cloud",
+          "commerce_cloud",
+          "platform"
         ],
         "topic_tags": [
-          "technical_debt",
-          "developer_productivity",
-          "commerce_modernization",
-          "api_architecture",
-          "roi"
+          "data_analytics",
+          "productivity",
+          "ecommerce",
+          "collaboration",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section directly addresses IT leaders evaluating commerce platform modernization, presenting quantified benefits (75% and 100% productivity gains, 99.99% uptime) from Forrester research. The focus on technical debt, developer agility, and architectural benefits indicates readers are comparing solutions and evaluating ROI - classic consideration stage content."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Modernize your technical foundation to accelerate time-to-market and developer agility.'. Products: sales_cloud, commerce_cloud, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "events-webinars-b2c-commerce-roadmap-innovation-gr",
-          "score": 0.7,
-          "match_rationale": "Strong relevance for IT leaders interested in B2C Commerce roadmap and innovations after learning about modernization benefits. While it's awareness funnel stage, it's appropriate for consideration-stage readers who want to understand the product's future direction."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.6,
-          "match_rationale": "Good match for IT leaders who want hands-on experience with Salesforce products after reading about technical benefits. The consideration funnel stage aligns well, and getting hands-on experience is a logical next step for evaluating technical solutions."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -253,23 +270,20 @@
       "section_index": 6,
       "section_heading": "Is your ecommerce tech stack driving growth or friction?",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
         "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "commerce_cloud",
-          "general"
+          "commerce_cloud"
         ],
         "topic_tags": [
+          "productivity",
           "ecommerce",
-          "roi_study",
-          "tech_stack",
-          "cost_reduction",
-          "platform_consolidation"
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This section targets business leaders evaluating ecommerce solutions by presenting compelling ROI data (119% return) from a third-party Forrester study. The focus on \"driving growth or friction\" and platform consolidation benefits indicates consideration-stage content for decision-makers weighing Commerce Cloud against alternatives. The CTA to download the full study supports the evaluating intent."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Is your ecommerce tech stack driving growth or friction?'. Products: commerce_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Read the full study",
@@ -279,34 +293,36 @@
         "position_after_section": 6
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
-        "funnel_alignment": "match",
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
-        "product_alignment": "match",
-        "issues": [],
-        "rationale": "Strong fit with consideration-stage reader evaluating Salesforce Commerce solutions, offering detailed ROI data they need for decision-making."
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "commerce-resources-forrester-tei-b2c-commerce-oms",
-          "score": 0.9,
-          "match_rationale": "Perfect match - the section specifically mentions the Forrester TEI study for B2C Commerce & Order Management, and this CTA directly offers to 'Read the full study'. This aligns perfectly with the reader's likely next step after reading about the study's findings."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "small-business-commerce",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders evaluating ecommerce solutions. The section discusses commerce tech stack evaluation and this CTA offers to 'Start selling online with Starter Suite', which is a logical next step for consideration stage prospects focused on commerce platforms."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "commerce-innovations",
-          "score": 0.65,
-          "match_rationale": "Relevant for business leaders in the consideration stage who want to learn more about commerce solutions. After reading about platform consolidation benefits, discovering more commerce innovations would be a natural next step for evaluation."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.12142857142857143,
+  "overall_health_score": 0.0929,
   "misaligned_count": 6
 }

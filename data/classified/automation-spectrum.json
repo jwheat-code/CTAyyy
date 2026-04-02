@@ -2,48 +2,48 @@
   "url": "https://www.salesforce.com/blog/automation-spectrum/?bc=DB",
   "slug": "automation-spectrum",
   "title": "How the Automation Spectrum Moves the Needle on Your Agentforce Marketing Use Cases",
+  "author": "More by Pratik",
+  "published_date": "2026-01-14T14:24:14+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Introduction",
       "classification": {
         "reader_intent": "problem_solving",
-        "primary_persona": "it_leader",
+        "primary_persona": "service_leader",
         "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "marketing_cloud",
           "sales_cloud",
-          "service_cloud"
+          "service_cloud",
+          "slack"
         ],
         "topic_tags": [
-          "automation",
-          "workflow_optimization",
           "ai_agents",
-          "business_process",
-          "agentic_ai"
+          "customer_service",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This introduction is clearly targeting readers who have experienced pain points with traditional automation (problem_solving intent). It speaks directly to IT leaders dealing with workflow inefficiencies while also resonating with business leaders frustrated by operational bottlenecks. The content is awareness-stage, introducing the concept of agentic AI as a solution category rather than promoting specific features. Strong alignment with Agentforce as the primary solution, with mentions of marketing, sales, and service use cases throughout."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, sales_cloud, service_cloud, slack. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.9,
-          "match_rationale": "Perfect match for IT leaders reading about automation challenges. After learning about gaps in traditional automation, they'll want strategic guidance on agentic AI solutions. Aligns with awareness funnel stage and agentic AI topic focus."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Highly relevant for IT leaders seeking to understand how businesses are implementing AI agents to solve automation gaps. Provides research-based insights at the awareness stage, directly aligned with Agentforce product focus."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.7,
-          "match_rationale": "Good fit for IT leaders interested in practical AI agent implementation after reading about automation limitations. Offers actionable guidance on Agentforce at awareness level, though more marketing-focused than the broader automation challenges discussed."
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -53,42 +53,40 @@
       "section_index": 1,
       "section_heading": "The Automation Spectrum is a new way to see your workflows",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "marketing_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
         "secondary_persona": "business_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
           "agentforce",
-          "marketing_cloud",
-          "sales_cloud"
+          "sales_cloud",
+          "platform"
         ],
         "topic_tags": [
-          "automation_spectrum",
-          "workflow_optimization",
           "ai_agents",
-          "lead_routing",
-          "marketing_automation"
+          "productivity",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section introduces a conceptual framework (automation spectrum) to help readers evaluate where AI agents fit in their workflows. It's clearly targeting marketing leaders considering Agentforce by explaining the practical difference between traditional automation and agentic execution. The consideration stage is evident from the evaluative tone and the focus on understanding \"where\" and \"how\" to apply different automation approaches."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'The Automation Spectrum is a new way to see your workflows'. Products: agentforce, sales_cloud, platform. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with the section's focus on AI agents and automation spectrum. As marketing leaders evaluate automation approaches, this report provides valuable insights into how businesses are implementing AI agents - directly relevant to the transition from deterministic to Agentforce execution discussed in the section."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.75,
-          "match_rationale": "Strong fit for marketing leaders in consideration stage exploring Agentforce capabilities. The quick guide format matches their need for practical information about implementing agentic AI for marketing automation workflows, which aligns with the section's discussion of moving beyond traditional deterministic automation."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.7,
-          "match_rationale": "Good consideration-stage match for marketing leaders evaluating Agentforce Service capabilities. Since the section discusses how AI agents can handle complex workflow execution that traditional automation cannot, this CTA allows them to explore Agentforce solutions that bridge the automation spectrum gap."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -98,25 +96,23 @@
       "section_index": 2,
       "section_heading": "Related content",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
           "sales_cloud",
           "service_cloud",
-          "einstein_ai"
+          "platform"
         ],
         "topic_tags": [
           "ai_agents",
-          "automation",
-          "workflow_optimization",
-          "agentforce",
-          "business_process"
+          "customer_service",
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides detailed implementation guidance for deploying Agentforce agents across different complexity levels. The tactical advice about mapping workflows and strategic deployment indicates readers are evaluating how to implement these solutions. The content targets business leaders making automation decisions but also speaks to IT leaders who would handle deployment."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Related content'. Products: agentforce, sales_cloud, service_cloud, platform. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "See how agentic AI can help your business",
@@ -126,39 +122,34 @@
         "position_after_section": 2
       },
       "existing_cta_score": {
-        "relevance_score": 0.4,
-        "funnel_alignment": "mismatch",
-        "persona_match": "mismatch",
-        "product_alignment": "partial",
-        "issues": [
-          "Funnel stage mismatch: offers awareness content (keynote video) to consideration-stage readers",
-          "Persona mismatch: targets marketers while section is for business leaders implementing AI",
-          "Product mismatch: focuses on Agentforce Marketing while section discusses general Agentforce across multiple clouds",
-          "Missed opportunity: should offer implementation resources or demos instead of educational content"
-        ],
-        "rationale": "The CTA promotes Agentforce Marketing content to business leaders reading about general Agentforce implementation, with an awareness-stage video offer for a consideration-stage audience."
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with the section content about implementing Agentforce strategies. The reader just learned about complex agent deployment patterns and would naturally want a practical implementation guide. Matches the business leader persona and consideration funnel stage."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.75,
-          "match_rationale": "Strong relevance as the section discusses customer service use cases with Agentforce, and this CTA leads to Agentforce Service which directly aligns with the collaborative human+agent examples provided. Appropriate for business leaders in consideration stage."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders who have learned about advanced Agentforce capabilities and are considering how to grow their business with AI agents. The consideration funnel stage matches, though it's more growth-focused than implementation-focused."
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.13333333333333333,
-  "misaligned_count": 3
+  "overall_health_score": 0.2667,
+  "misaligned_count": 2
 }

@@ -2,47 +2,50 @@
   "url": "https://www.salesforce.com/blog/sales-crms-for-small-business/?bc=DB",
   "slug": "sales-crms-for-small-business",
   "title": "6 Sales CRMs For Small Businesses: Low-Cost Tools For Big-Ticket Selling",
+  "author": "More by Caylin",
+  "published_date": "2026-03-18T14:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "sales_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
           "sales_cloud",
-          "starter",
-          "data_cloud"
+          "commerce_cloud",
+          "starter"
         ],
         "topic_tags": [
-          "small_business_crm",
-          "sales_tools",
-          "budget_solutions",
-          "lead_management",
-          "sales_pipeline"
+          "small_business",
+          "crm",
+          "sales_automation",
+          "data_analytics",
+          "ecommerce",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a key takeaways section from an article comparing CRM options for small businesses. The reader is clearly in evaluation mode, comparing solutions and prioritizing based on budget and features. The content targets business leaders making CRM decisions, with sales leaders as secondary audience. It's consideration stage content as readers are actively shopping for solutions. Strong alignment with Sales Cloud and Starter suite, with Data Cloud mentioned as a value-add."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Key Takeaways'. Products: sales_cloud, commerce_cloud, starter. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.95,
-          "match_rationale": "Perfect match for business leaders evaluating CRM solutions. The section emphasizes free and low-cost CRMs for small businesses, and this CTA directly offers Salesforce's free CRM. Aligns with consideration funnel stage and business_leader persona."
-        },
-        {
-          "cta_id": "small-business-sales",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Strong alignment with the section's focus on sales CRMs for growing businesses. While it's a decision-stage CTA, it's appropriate for business leaders who have finished evaluating options and are ready to boost sales with a proven solution."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.8,
-          "match_rationale": "Good fit as it offers a trial of Salesforce Starter, which aligns with the section's emphasis on budget-friendly solutions for small businesses. The 'just get started' messaging matches the takeaway that lean sales teams need a CRM as their growth engine."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -52,36 +55,41 @@
       "section_index": 1,
       "section_heading": "Why you need a CRM for your small business sales",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "business_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "sales_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "sales_cloud",
-          "starter"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "small_business_crm",
-          "sales_pipeline",
-          "lead_management",
-          "workflow_automation",
-          "business_scalability"
+          "small_business",
+          "crm",
+          "sales_automation",
+          "data_analytics",
+          "ecommerce",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section addresses specific pain points of small business owners struggling with manual lead management processes. The reader intent is problem_solving as it identifies common challenges (lost opportunities, disorganized data) and presents CRM as the solution. The primary persona is business_leader as small business owners typically wear multiple hats and make technology decisions. The consideration stage is evident from the solution-oriented content that positions CRM benefits without hard selling. Product alignment includes sales_cloud (core CRM functionality) and starter (specifically mentions low-cost package for small businesses). The mention of Salesforce as a scalable, unified platform reinforces this classification."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Why you need a CRM for your small business sales'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-sales",
-          "score": 0.95,
-          "match_rationale": "Perfect alignment - this section explains why small businesses need a CRM, and this CTA directly offers 'a CRM made for growing businesses' in the decision funnel stage. The reader has just learned about CRM benefits and is ready to take action."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.85,
-          "match_rationale": "Strong alignment with small business focus and consideration stage. After reading about CRM necessity, this general CTA reinforces that 'Salesforce works for small businesses' and encourages further exploration."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -92,40 +100,37 @@
       "section_heading": "Top 6 low-cost CRMs for small business sales teams",
       "classification": {
         "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "sales_cloud",
-          "starter"
+          "sales_cloud"
         ],
         "topic_tags": [
           "small_business",
-          "crm_comparison",
-          "budget_solutions",
-          "sales_tools",
-          "crm_evaluation"
+          "crm",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly focused on CRM evaluation for small businesses, with readers comparing options based on price and features. The content targets business leaders making purchasing decisions for their sales teams, positioning them in the consideration stage of the funnel as they evaluate multiple CRM solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Top 6 low-cost CRMs for small business sales teams'. Products: sales_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.95,
-          "match_rationale": "Perfect match for business leaders evaluating low-cost CRMs. This CTA offers 'FREE Salesforce for small businesses' which directly addresses the cost concern after reading about budget-friendly CRM options. It's at the consideration funnel stage, matching the reader's evaluation mindset."
-        },
-        {
-          "cta_id": "small-business",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Strong alignment with the section content about small business CRMs. The messaging 'Salesforce works for small businesses' reinforces the value proposition after readers have learned about CRM options for small teams. Consideration-stage CTA matches the evaluative reader intent."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.8,
-          "match_rationale": "Good fit for readers ready to take action after comparing CRM options. The 'Wherever you are — just get started' messaging appeals to business leaders who have finished their evaluation and are ready to try a solution. Decision-stage CTA is one step ahead of consideration stage."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -135,23 +140,26 @@
       "section_index": 3,
       "section_heading": "1. Salesforce growth tiers: Free and Starter",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
+        "reader_intent": "implementing",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "starter",
-          "sales_cloud"
+          "sales_cloud",
+          "service_cloud",
+          "marketing_cloud",
+          "slack"
         ],
         "topic_tags": [
           "small_business",
-          "crm_selection",
-          "sales_automation",
-          "business_growth",
-          "cost_effective_solutions"
+          "crm",
+          "marketing_automation",
+          "data_analytics",
+          "ecommerce",
+          "collaboration"
         ],
-        "confidence": 0.95,
-        "rationale": "This section is clearly targeting small business owners/leaders who are actively evaluating CRM options. The content compares specific Salesforce tiers with detailed features, capabilities, and pricing - classic consideration-stage content. The \"Try it for free\" CTA and focus on entry-level solutions indicates they're helping readers evaluate Salesforce as a solution option. Primary persona is business_leader (small business owners making buying decisions) with secondary sales_leader (those focused on sales processes)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in '1. Salesforce growth tiers: Free and Starter'. Products: sales_cloud, service_cloud, marketing_cloud, slack. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "Wherever you are — just get started.",
@@ -161,23 +169,28 @@
         "position_after_section": 3
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
-        "funnel_alignment": "match",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "The CTA perfectly aligns with the consideration-stage section discussing Salesforce growth tiers, offering a free trial for business leaders evaluating Starter Suite."
+        "rationale": "CTA targets decision-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.9,
-          "match_rationale": "Excellent alignment with the section's detailed coverage of Salesforce Starter Suite. Business leaders who just read about Starter's capabilities (unified solution, scalability, customization) are primed to try it. The CTA matches the product focus and decision-stage intent."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Good fit for business leaders in consideration stage. After learning about growth tiers, this CTA reinforces that Salesforce works for their business type and encourages further exploration of small business solutions, matching the section's small business and business growth themes."
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -187,41 +200,40 @@
       "section_index": 4,
       "section_heading": "2. Pipedrive",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "learning",
         "primary_persona": "sales_leader",
-        "secondary_persona": null,
+        "secondary_persona": "small_business_owner",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "sales_cloud",
-          "starter"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "crm_comparison",
           "small_business",
-          "sales_pipeline",
-          "software_evaluation",
-          "pipedrive"
+          "crm",
+          "sales_automation",
+          "collaboration",
+          "trailhead"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is part of a CRM comparison article for small businesses, presenting detailed feature/benefit analysis of Pipedrive. The reader is clearly in evaluation mode, comparing CRM options. Sales leaders at small businesses are the primary audience given the focus on sales-centered features and small business context. This is consideration stage content as readers are actively comparing solutions with specific feature details and pricing."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '2. Pipedrive'. Products: sales_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.9,
-          "match_rationale": "Perfect match for sales leaders comparing CRMs. After reading about Pipedrive's features and pricing, they're ready to explore Salesforce's free CRM option. The consideration funnel stage aligns perfectly, and the sales_cloud product focus matches their evaluation needs."
-        },
-        {
-          "cta_id": "small-business",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Highly relevant for sales leaders of small businesses who are evaluating CRM options. After learning about Pipedrive, they would naturally want to understand how Salesforce works for businesses like theirs. Matches the consideration stage and small business context perfectly."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage sales_leader reader."
         },
         {
-          "cta_id": "crm-free-crm",
-          "score": 0.8,
-          "match_rationale": "Strong fit for sales leaders in the CRM evaluation process. After reading about Pipedrive's pipeline-focused approach, they'd be interested in starting their AI journey with Salesforce Suites. The consideration stage and CRM comparison context make this highly relevant."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage sales_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage sales_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -231,36 +243,39 @@
       "section_index": 5,
       "section_heading": "3. Bigin by Zoho CRM",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "sales_cloud",
-          "starter"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "crm_comparison",
           "small_business",
-          "sales_pipeline",
-          "crm_alternatives",
-          "competitive_analysis"
+          "crm",
+          "sales_automation",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is part of a CRM comparison article targeting small business owners who are actively evaluating different CRM options. The content provides specific details about pricing, features, and target audience for a Salesforce competitor, indicating readers are in the consideration stage comparing solutions. The primary persona is business leaders at small companies, with sales leaders as secondary audience given the sales-focused features discussed."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '3. Bigin by Zoho CRM'. Products: sales_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the small business focus of the section. After reading about Bigin's features for small teams, this CTA reinforces that Salesforce also serves small businesses well, keeping them in consideration phase."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-sales",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders comparing CRM options. After evaluating Bigin's sales pipeline features, this trial CTA for Salesforce's sales solution is a natural next step for hands-on comparison."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -270,35 +285,42 @@
       "section_index": 6,
       "section_heading": "4. HubSpot Sales Hub Starter",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "sales_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "sales_cloud"
+          "sales_cloud",
+          "starter"
         ],
         "topic_tags": [
-          "crm_comparison",
           "small_business",
-          "hubspot",
-          "sales_tools",
-          "competitor_analysis"
+          "crm",
+          "sales_automation",
+          "data_analytics",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is part of a CRM comparison article specifically focused on HubSpot's offering. The reader is clearly evaluating different CRM options for small businesses, comparing features, benefits, and costs. The content targets business leaders making software purchasing decisions, with sales leaders as a secondary audience who would be end users. This is classic consideration-stage content where prospects are actively comparing solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '4. HubSpot Sales Hub Starter'. Products: sales_cloud, starter. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Perfect match for business leaders evaluating HubSpot alternatives. After reading about HubSpot's paid starter plan, offering Salesforce's free CRM for small businesses directly addresses their needs and provides a compelling alternative to evaluate."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-marketing",
-          "score": 0.7,
-          "match_rationale": "Good fit as it addresses the CRM capabilities for reaching prospects, which complements the evaluation context. Business leaders comparing HubSpot would be interested in understanding Salesforce's marketing-integrated CRM approach."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -308,37 +330,41 @@
       "section_index": 7,
       "section_heading": "5. Freshsales (by Freshworks)",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "sales_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "sales_cloud",
-          "einstein_ai",
-          "starter"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "small_business_crm",
-          "competitor_comparison",
-          "lead_scoring",
+          "small_business",
+          "crm",
+          "ai_tools",
           "sales_automation",
-          "affordable_crm"
+          "productivity",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is part of a CRM comparison article specifically targeting small businesses evaluating different sales CRM options. The detailed breakdown of Freshsales features, pricing, and benefits indicates readers are in the consideration stage, actively comparing solutions. The focus on small business needs and budget-friendly options aligns with business leaders making purchasing decisions, while the sales-specific features also appeal to sales leaders."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '5. Freshsales (by Freshworks)'. Products: sales_cloud. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-lead-management",
-          "score": 0.95,
-          "match_rationale": "Perfect match for readers evaluating Freshsales' lead scoring and sales automation features. This CTA directly addresses growing businesses looking for CRM solutions with lead management capabilities, which aligns exactly with the section's focus on AI-powered lead scoring and sales automation."
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-sales",
-          "score": 0.9,
-          "match_rationale": "Highly relevant for business leaders comparing CRM options for growing businesses. After reading about Freshsales' features and competitive pricing, readers would be interested in exploring Salesforce's CRM solution designed for similar business needs."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -349,42 +375,48 @@
       "section_heading": "Choosing your next sales partner",
       "classification": {
         "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
-        "funnel_stage": "decision",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
         "product_alignment": [
+          "agentforce",
           "sales_cloud",
-          "starter",
-          "agentforce"
+          "starter"
         ],
         "topic_tags": [
-          "small_business_crm",
-          "crm_selection",
+          "ai_agents",
+          "small_business",
+          "crm",
           "sales_automation",
-          "pricing",
-          "starter_suite"
+          "customer_service",
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly decision-stage content with direct calls-to-action for Salesforce products (Free, Starter Suite, Pro Suite, Agentforce 360). The reader intent is evaluating as they're weighing CRM options and getting practical guidance on selection criteria. The primary persona is business_leader (small business owners making software decisions) with secondary sales_leader persona. High confidence due to explicit product recommendations and decision-ready language."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Choosing your next sales partner'. Products: agentforce, sales_cloud, starter. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.95,
-          "match_rationale": "Perfect match for a business leader in decision stage evaluating CRM options. The section specifically mentions 'Start your journey with the Free or Starter Suite today' and this CTA directly offers trial signup for Salesforce Starter, which aligns with the starter product focus and small business CRM selection topic."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-sales",
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
           "score": 0.85,
-          "match_rationale": "Excellent fit for business leaders in decision stage. Focuses on boosting sales with CRM for growing businesses, which directly matches the section's emphasis on small business CRM selection and sales automation. The trial type CTA is appropriate for someone ready to make a purchase decision."
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.09444444444444444,
+  "overall_health_score": 0.0889,
   "misaligned_count": 8
 }

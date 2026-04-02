@@ -23,11 +23,11 @@ class SitemapSpider(SalesforceBlogSpider):
     def __init__(self, url_list_path=None, *args, **kwargs):
         # Don't call parent __init__ which sets start_urls
         import scrapy
-        self.max_articles = 999
-        self.min_year = "2026"
+        self.max_articles = 9999
+        self.min_year = "2000"  # No year filter — sitemap already filtered
         self.seen_urls = set()
         self.article_count = 0
-        self.custom_settings = {"CLOSESPIDER_ITEMCOUNT": 999}
+        self.custom_settings = {"CLOSESPIDER_ITEMCOUNT": 9999}
 
         crawled_dir = Path(__file__).resolve().parent.parent / "data" / "crawled"
         self.crawled_slugs = {p.stem for p in crawled_dir.glob("*.json")} if crawled_dir.exists() else set()
@@ -51,7 +51,7 @@ class SitemapSpider(SalesforceBlogSpider):
 def main():
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--url-list", default="/tmp/sitemap_urls_2026.json",
+    parser.add_argument("--url-list", default="/tmp/sitemap_urls_2025.json",
                         help="JSON file with [{slug, url, date}] entries")
     parser.add_argument("--limit", type=int, default=999)
     args = parser.parse_args()

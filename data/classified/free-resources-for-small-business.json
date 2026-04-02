@@ -2,46 +2,50 @@
   "url": "https://www.salesforce.com/blog/free-resources-for-small-business/?bc=DB",
   "slug": "free-resources-for-small-business",
   "title": "30+ Free Resources for Small Businesses and Startups",
+  "author": "More by Caylin",
+  "published_date": "2026-02-16T17:45:06+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
-        "secondary_persona": "general",
+        "secondary_persona": "small_business_owner",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
-          "general"
+          "agentforce",
+          "sales_cloud",
+          "service_cloud"
         ],
         "topic_tags": [
+          "ai_agents",
           "small_business",
-          "free_resources",
-          "business_strategy",
-          "ai",
-          "smb_education"
+          "ai_tools",
+          "customer_service",
+          "data_analytics",
+          "productivity"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a key takeaways section introducing 30+ free resources for SMBs. The content is educational and awareness-focused, targeting small business owners who wear multiple hats. The mention of SMBs and the breadth of topics (sales, marketing, service, commerce, AI) suggests alignment with Salesforce Starter and general business solutions. No specific product promotion or CTA indicates early-funnel awareness content designed to educate and build trust."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Key Takeaways'. Products: agentforce, sales_cloud, service_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders wanting to continue learning about AI for small business after reading about free resources. The CTA aligns with the section's AI topic focus, SMB education theme, and awareness stage funnel positioning."
-        },
-        {
-          "cta_id": "company-be-a-trailblazer",
-          "score": 0.8,
-          "match_rationale": "Excellent fit for readers in learning mode who want to continue their educational journey. Matches the awareness stage and learning intent, offering access to the broader Salesforce learning ecosystem which aligns with the section's focus on free educational resources."
-        },
-        {
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.75,
-          "match_rationale": "Strong match for business leaders seeking structured learning after being introduced to free resources. Specifically targets small businesses with Salesforce essentials content, maintaining the educational focus while introducing relevant product knowledge."
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -51,37 +55,43 @@
       "section_index": 1,
       "section_heading": "Free resources on sales and growth",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "sales_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
+          "agentforce",
           "sales_cloud",
-          "agentforce"
+          "starter"
         ],
         "topic_tags": [
+          "ai_agents",
           "small_business",
-          "sales_training",
-          "crm_education",
-          "lead_management",
-          "sales_automation"
+          "crm",
+          "ai_tools",
+          "sales_automation",
+          "productivity"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly educational, providing free resources to help small business owners learn about sales fundamentals and CRM concepts. The language is introductory (\"Learning how to sell\", \"introduces you to CRM\"), targeting business leaders who are still learning rather than actively evaluating specific solutions. While it mentions Salesforce products like Starter Suite, the focus is on education and skill-building rather than product comparison or purchase decisions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Free resources on sales and growth'. Products: agentforce, sales_cloud, starter. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.95,
-          "match_rationale": "Perfect match - this section ends with highlighting free learning resources (Trailhead trails), and this CTA offers 'Visit Trail' for Salesforce essentials for small business. Matches awareness stage, business leader persona, and small business/sales training focus."
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "au-resources-guides-sales-productivity-pitfalls",
-          "score": 0.75,
-          "match_rationale": "Strong match - the section covers sales training and productivity through automation. This guide on sales productivity pitfalls naturally follows the reader's interest in learning about sales effectiveness and aligns with the awareness stage."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -91,24 +101,22 @@
       "section_index": 2,
       "section_heading": "Free resources on marketing",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "problem_solving",
         "primary_persona": "marketing_leader",
         "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
-          "einstein_ai",
-          "data_cloud"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "marketing_strategy",
           "small_business",
-          "free_resources",
-          "marketing_roi",
-          "personalization"
+          "sales_automation",
+          "data_analytics",
+          "trailhead"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly educational, providing free marketing resources and insights from Salesforce's State of Marketing Report. The reader intent is learning about marketing concepts and best practices. The primary audience is marketing leaders at small businesses/startups who are seeking to improve their marketing knowledge and strategy. It's awareness-stage content as it focuses on education rather than promoting specific Salesforce products, though it subtly introduces Marketing Cloud concepts like personalization and analytics."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Free resources on marketing'. Products: sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Join millions in the growing Salesforce ecosystem",
@@ -118,23 +126,28 @@
         "position_after_section": 2
       },
       "existing_cta_score": {
-        "relevance_score": 0.8,
+        "relevance_score": 1.0,
         "funnel_alignment": "match",
         "persona_match": "match",
-        "product_alignment": "none",
+        "product_alignment": "match",
         "issues": [],
-        "rationale": "Strong alignment with awareness stage and marketing leader persona, but lacks connection to the specific products (Marketing Cloud, Einstein AI, Data Cloud) discussed in the section."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
-          "score": 0.9,
-          "match_rationale": "Perfect match - the section directly references the State of Marketing Report and readers are in learning mode about marketing resources. This CTA offers the exact report mentioned in the content, matching both the awareness funnel stage and marketing leader persona."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.7,
-          "match_rationale": "Strong relevance - the section covers small business marketing and mentions AI innovation. This CTA provides educational content about AI for small businesses, matching the awareness stage and addressing both small business and AI topics discussed in the section."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -144,44 +157,44 @@
       "section_index": 3,
       "section_heading": "Free resources on service",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "service_leader",
-        "funnel_stage": "awareness",
+        "funnel_stage": "consideration",
         "product_alignment": [
-          "service_cloud",
           "agentforce",
-          "slack",
-          "starter",
-          "einstein_ai"
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud"
         ],
         "topic_tags": [
-          "customer_service",
-          "small_business",
           "ai_agents",
-          "customer_satisfaction",
-          "free_resources"
+          "small_business",
+          "ai_tools",
+          "productivity",
+          "thought_leadership",
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This section provides educational content about customer service best practices for SMBs through free resources. It's awareness-stage content helping business leaders learn about service concepts and trends like AI in customer experience. The mention of specific Salesforce products (Agentforce, Slack, Starter Suite) is informational rather than sales-focused, making it educational content for business leaders exploring how to improve customer service."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Free resources on service'. Products: agentforce, einstein_ai, sales_cloud, service_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "resources-research-reports-state-of-service",
-          "score": 0.95,
-          "match_rationale": "Perfect match - this section is specifically about free service resources and mentions the State of the AI Connected Customer Report. This CTA offers the latest customer service research, directly aligning with what business leaders would want after reading about service best practices and AI insights."
-        },
-        {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Strong alignment - the section focuses on AI in customer service for SMBs and mentions business leaders. This guide for AI in small business would be the natural next step for business leaders wanting to learn more about implementing AI after reading about its benefits in customer service."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Good fit - the section discusses AI agents and Agentforce 360 in customer service contexts. Business leaders reading about AI agents would be interested in seeing how other businesses are actually using AI agents in practice."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -191,25 +204,26 @@
       "section_index": 4,
       "section_heading": "Free resources on commerce",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "commerce_cloud",
-          "starter",
+          "agentforce",
           "sales_cloud",
-          "service_cloud"
+          "service_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "ecommerce",
+          "ai_agents",
           "small_business",
-          "free_resources",
-          "digital_payments",
-          "unified_commerce"
+          "crm",
+          "ecommerce",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This section targets small business owners evaluating ecommerce solutions. It provides educational content about commerce trends while introducing specific Salesforce products (Starter Suite, Pro Suite, Commerce Cloud) as solutions. The tone is educational but solution-oriented, indicating consideration stage where readers are exploring options to grow their commerce business."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Free resources on commerce'. Products: agentforce, sales_cloud, service_cloud, commerce_cloud. Funnel: decision."
       },
       "existing_cta": {
         "heading": "Boosting Small Business with Salesforce Foundations: The VEV Story",
@@ -219,32 +233,28 @@
         "position_after_section": 4
       },
       "existing_cta_score": {
-        "relevance_score": 0.35,
-        "funnel_alignment": "mismatch",
-        "persona_match": "partial",
-        "product_alignment": "mismatch",
-        "issues": [
-          "Product mismatch: Section discusses Commerce Cloud, Starter, Sales Cloud, and Service Cloud for ecommerce, but CTA promotes Foundations for service case resolution",
-          "Topic disconnect: Section provides commerce resources and ecommerce guidance, while CTA focuses on service efficiency improvements",
-          "Missed opportunity: Reader is evaluating commerce solutions but CTA doesn't address commerce needs or next steps"
-        ],
-        "rationale": "The CTA promotes a Foundations customer story about service efficiency, while the section focuses on commerce resources and ecommerce strategies for business leaders evaluating commerce solutions."
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is decision-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "small-business-commerce",
-          "score": 0.95,
-          "match_rationale": "Perfect match for business leaders evaluating commerce solutions. The section discusses free commerce resources, ecommerce trends, and Starter Suite capabilities. This CTA directly aligns with 'Start selling online with Starter Suite' and targets the consideration funnel stage."
-        },
-        {
-          "cta_id": "commerce-innovations",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Strong alignment for readers who just learned about commerce trends and unified commerce strategies. After reading about digital payments, social commerce, and Commerce Cloud capabilities, they'd naturally want to discover more innovations in this space."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
         },
         {
-          "cta_id": "crm-foundations",
-          "score": 0.8,
-          "match_rationale": "Highly relevant since the section specifically mentions Salesforce Foundations as a free CRM upgrade. Business leaders evaluating commerce solutions would be interested in getting their data ready for AI with this foundational offering."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for decision-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -255,42 +265,42 @@
       "section_heading": "Free resources on productivity",
       "classification": {
         "reader_intent": "problem_solving",
-        "primary_persona": "business_leader",
-        "secondary_persona": "admin",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "service_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "sales_cloud",
           "agentforce",
           "einstein_ai",
-          "platform"
+          "sales_cloud",
+          "service_cloud"
         ],
         "topic_tags": [
-          "productivity",
           "small_business",
-          "automation",
           "crm",
-          "training"
+          "productivity",
+          "collaboration",
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This section targets small business owners struggling with productivity challenges (switching between tools, distractions). The content provides specific solutions including Salesforce CRM, Trailhead training, and AI tools. The reader intent is problem-solving as they have a clear pain point (low productivity) and are seeking actionable solutions. It's consideration stage because readers are being presented with Salesforce products as solutions to evaluate, with specific benefits mentioned (30% sales productivity increase)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Free resources on productivity'. Products: agentforce, einstein_ai, sales_cloud, service_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Perfect match for business leaders in consideration stage who just learned about CRM productivity benefits. The section emphasizes how CRM increases productivity by 30%, making this free CRM offer highly relevant for small business owners ready to take action."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with business leaders considering Salesforce for small business needs. The section focuses on productivity for SMB owners, and this CTA directly addresses how Salesforce works for small businesses."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.7,
-          "match_rationale": "Good fit for readers who want to continue their learning journey after reading about productivity strategies. The section mentions Trailhead training, making this learning-focused CTA a natural next step for skill development."
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -301,22 +311,25 @@
       "section_heading": "Free resources on AI",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "general",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "service_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "einstein_ai"
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "small_business",
           "ai_agents",
-          "generative_ai",
-          "business_automation"
+          "small_business",
+          "ai_tools",
+          "customer_service",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly educational, targeting small business leaders who are learning about AI fundamentals and capabilities. The content focuses on building AI literacy through free resources rather than evaluating specific solutions. The 87% statistic about SMB leaders believing in AI's future potential and the educational framing (\"learn the basics\", \"keeping up with AI trends\") indicates awareness-stage content for business leaders seeking foundational knowledge."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Free resources on AI'. Products: agentforce, einstein_ai, sales_cloud, service_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "5 Steps To Implementing AI Agents For Small Business",
@@ -326,28 +339,28 @@
         "position_after_section": 6
       },
       "existing_cta_score": {
-        "relevance_score": 0.95,
-        "funnel_alignment": "match",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "This CTA perfectly aligns with an awareness-stage section about AI resources for business leaders, offering a relevant free e-book on implementing AI agents for small business."
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.95,
-          "match_rationale": "Perfect match for business leaders who just read about AI resources for SMBs. This guide directly aligns with their learning intent about AI fundamentals and is specifically targeted at small businesses. The awareness-level funnel stage matches the section's educational nature."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.9,
-          "match_rationale": "Excellent follow-up for readers who learned about AI agents from the 'Grow Your Business With AI Agents' e-book mentioned in the section. Provides actionable next steps for implementing AI agents, matching both the Agentforce product alignment and awareness funnel stage."
-        },
-        {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Natural progression for readers interested in learning more about AI agents. The learning format matches their intent to continue education, and the Agentforce focus aligns with the section's emphasis on AI agents for small businesses."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -357,24 +370,23 @@
       "section_index": 7,
       "section_heading": "Access more resources for your business with Salesforce",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "general",
-        "funnel_stage": "decision",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
-          "sales_cloud",
-          "agentforce"
+          "agentforce",
+          "platform",
+          "starter"
         ],
         "topic_tags": [
+          "ai_agents",
           "small_business",
-          "startup_resources",
-          "crm_adoption",
-          "business_growth",
-          "free_tools"
+          "customer_service",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly promotional content targeting small businesses ready to take action. It includes multiple CTAs (Free, Starter Suite, Pro Suite, Foundations) and specific product recommendations based on business stage. The language is action-oriented (\"Start your journey\", \"Try for free\") indicating decision-stage content for business leaders evaluating CRM solutions for growth."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Access more resources for your business with Salesforce'. Products: agentforce, platform, starter. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Boost sales with a CRM made for growing businesses",
@@ -384,34 +396,37 @@
         "position_after_section": 7
       },
       "existing_cta_score": {
-        "relevance_score": 0.95,
-        "funnel_alignment": "match",
+        "relevance_score": 0.35,
+        "funnel_alignment": "mismatch",
         "persona_match": "match",
-        "product_alignment": "match",
-        "issues": [],
-        "rationale": "Perfect alignment with decision-stage section promoting Starter Suite to business leaders ready to try the product."
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel mismatch: CTA is decision-stage but section is awareness-stage",
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.95,
-          "match_rationale": "Perfect match for business leaders in decision stage evaluating Salesforce Starter Suite. The section directly mentions 'Start your journey with the Free or Starter Suite today' and this CTA provides exactly that entry point with 'Wherever you are — just get started.'"
-        },
-        {
-          "cta_id": "form-signup-freetrial-prosuite",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Excellent fit for readers who read 'Looking for more customization? Explore Pro Suite' in the section. This CTA directly addresses that next step with 'Ready to go Pro?' for business leaders ready to upgrade beyond Starter."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-sales",
-          "score": 0.8,
-          "match_rationale": "Strong alignment for business leaders focused on CRM adoption and business growth. Matches the decision stage funnel and small business focus, offering a CRM trial specifically 'made for growing businesses' which aligns with the section's growth messaging."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.38125,
+  "overall_health_score": 0.3688,
   "misaligned_count": 5
 }

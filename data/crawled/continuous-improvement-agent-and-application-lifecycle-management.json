@@ -1,0 +1,168 @@
+{
+  "url": "https://www.salesforce.com/blog/continuous-improvement-agent-and-application-lifecycle-management/?bc=DB",
+  "slug": "continuous-improvement-agent-and-application-lifecycle-management",
+  "title": "Your AI Could Be Better: The 4 Tools You Need for Continuous Improvement",
+  "author": "Alli Jaeggi",
+  "published_date": "2025-12-08T14:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Developers continue to tackle the consistent challenge: building tomorrow’s innovation with today’s tools. While the developer role has fundamentally shifted from executor to orchestrator, some things remain the same. From a lack of realistic test data, scope creep, unsecured data vulnerabilities, broken processes, to ever-growingIT backlogs— developers are still facing legacy hurdles. The velocity of AI development only amplifies these issues, making the need for trusted, governed practices more urgent than ever. This is where a strongagent and application lifecycle management (ALM)framework becomes non-negotiable. But ALM’s job doesn’t end at deployment. Not only does a modern ALM framework get teams to launch quickly, but it also drives continuous improvement, security, and consistent performance — even after the agents and apps are live.",
+      "word_count": 122,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "IT backlogs",
+          "href": "https://www.salesforce.com/blog/ai-agent-application-development-best-practice/"
+        },
+        {
+          "text": "agent and application lifecycle management (ALM)",
+          "href": "https://www.salesforce.com/blog/agent-and-application-lifecycle-management/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "The road to deployment",
+      "text": "Agent and application lifecycle management (ALM)provides a structured way to manage the journey of an AI agent or application, from ideation to deployment. ALM helps IT and development teams navigate complexity, ensuring a consistent, speedy, and secure way to build, test, and deploy new AI agents and applications across the organization. A modern, trusted ALM framework is built around five core stages: Ideate & plan:Defining requirements, setting business goals, and establishing compliance and security standards before a single line of code is written.Build:Developing the application or AI agent using low-code, pro-code, and AI-assisted tools (like Generative AI for code).Test:Verifying for functionality, performance, and security in isolated, production-like environments.Deploy:Consistently and securely moving validated code and configurations into production.Observe:Tracking performance, collecting feedback, and using real-world results to inform the next cycle of improvements. And bonus!Governanceis embedded from the start, ensuring your AI development remains compliant and secure without slowing down.",
+      "word_count": 148,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Agent and application lifecycle management (ALM)",
+          "href": "https://www.salesforce.com/blog/agent-and-application-lifecycle-management/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Going beyond the launch",
+      "text": "Historically, traditional enterprise apps were static and predictable. Once deployed, they followed established rules and workflows, remaining stable until the next major update. Now, with AI, the maintenance schedule has shifted from periodic, major releases to an accelerated, continuous update cycle. AI agents and apps are inherently dynamic. They continuously learn, adapt, and iterate based on new data, user interactions, and changing business conditions. On top of that, the security andregulationslandscape is ever-evolving. In order to adhere to key regulations, it can be too late to wait months, or even weeks, to release a new update. A robust, continuous ALM cycle enables organizations to do more than a functionality check. By going beyond deployment, development teams can drive improved and consistent performance by continuously fine-tuning models, maintaining security and compliance, and reducing harmful hallucinations.",
+      "word_count": 134,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "regulations",
+          "href": "https://www.salesforce.com/form/platform/regulations-whitepaper/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Tools to drive continuous AI improvements",
+      "text": "The definition of “done” has changed from deployment to continuous iteration — and this requires a fundamentally different approach to agent and application maintenance. At the heart of modern software development is speed. In order to keep up with the latest tech or regulatory changes, you need agile, flexible, and versatile developer tools. Admins and developers need a central hub for alignment and a consistent, automated approach to change management. WithDevOps Center, teams can visualize, track, and deploy changes across all stages of the lifecycle, simplifying complex deployments and ensuring that governance standards are applied consistently across all environments—from low-code declaratives to complex pro-code and AI component updates. The productivity is in the stats:80% of IT organizations use no code and low-code development tools, and 84% of developers who use AI say it helps their teams complete projects faster. There’s no need to reinvent the wheel, and no need to code from scratch if a feature or test has been done before.Low-code toolshave been in dev toolboxes for a while now, and they continue to see increased adoption because of their ease of use. Vibe coding, the practice of using generative AI to turn natural language into code by simply describing the feature or app you want, is quickly gaining traction. Tools likeAgentforce Vibescan handle routine tasks like code development assistance, test case generation, code analysis for security and performance, and more. Building dynamic AI goes hand-in-hand withsandboxes. By creating a copy of your production environment, teams can build, test, and refine new features, code, and integrations — all without affecting live data and operations. And, when working with AI agents, the quality and realism of your test environment are critical for building trust. To balance realistic testing conditions with security,data masking toolsare essential. Data masking replaces sensitive information (PII, financial data) with realistic, fictitious values, ensuring compliance and data privacy during testing. But security is half the equation. What about the speed of development? Data seeding is the practice of pre-populating a non-production environment with mock or templated records. By pairing data masking with data seeding, you get a winning formula that accelerates deployment cycles while maintaining robust data privacy.Data Mask & Seedput this synergy into action, enabling developers to quickly seed realistic data intoSalesforce Sandboxes. As AI agents perform increasingly complex tasks, verifying for only functionality is not enough. Testing should also encompass performance, reliability, and accuracy at scale. Robust testing tools can help validate application performance under high-stress environments. In aFull Copy Sandbox, devs can use tools likeScale Testto identify bottlenecks and confidently manage peak loads and unexpected traffic surges. AI agent testing tools are also emerging.Agentforce Testing Centeris essential for simulating real-world conversations and scenarios to ensure AI agents behave reliably, maintain accuracy, and adhere to predefined guardrails.",
+      "word_count": 462,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "DevOps Center",
+          "href": "https://www.salesforce.com/platform/devops-tools/"
+        },
+        {
+          "text": "The productivity is in the stats:",
+          "href": "https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/"
+        },
+        {
+          "text": "Low-code tools",
+          "href": "https://www.salesforce.com/platform/low-code-development-platform/what-is-low-code/"
+        },
+        {
+          "text": "Agentforce Vibes",
+          "href": "https://www.salesforce.com/agentforce/developers/vibe-coding/"
+        },
+        {
+          "text": "sandboxes",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/salesforce-sandbox-guide/"
+        },
+        {
+          "text": "data masking tools",
+          "href": "https://www.salesforce.com/platform/data-masking/data-masking-tools/"
+        },
+        {
+          "text": "Data Mask & Seed",
+          "href": "https://www.salesforce.com/platform/data-masking/"
+        },
+        {
+          "text": "Salesforce Sandboxes.",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        },
+        {
+          "text": "Full Copy Sandbox",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        },
+        {
+          "text": "Scale Test",
+          "href": "https://www.salesforce.com/platform/application-scaling-performance-testing/"
+        },
+        {
+          "text": "Agentforce Testing Center",
+          "href": "https://www.salesforce.com/agentforce/dev-tools/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "From Theory to Production",
+      "text": "In avirtual eventwith Senior Salesforce Admin at Alpine Intel,Nick McOwen, he shared his advice for the development process: “no idea is a bad idea.” Ideas can quickly become innovation, especially with the right tools to build it. McOwen explained how he was able to take speedy action by being able toQuick Clonehis sandbox environment, configure an agent, and demo his idea to his manager — no code or months of development required. And, when it comes time to truly build and test his agents, McOwen emphasizes the convenience and ease of use that aFull Copy Sandboxenables. By having all flows, processes, and other production configurations already there, he is able to bulk test agent responses using realistic, production-like data. While the initial idea might evolve to take on a new form, starting in a sandbox environment empowers devs to take immediate action on their ideas and work at the speed of AI.",
+      "word_count": 152,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "virtual event",
+          "href": "https://www.salesforce.com/form/platform/drive-continuous-improvement-for-your-agents-and-apps/"
+        },
+        {
+          "text": "Nick McOwen",
+          "href": "https://www.linkedin.com/in/nick-mcowen-262b116a/"
+        },
+        {
+          "text": "Quick Clone",
+          "href": "https://help.salesforce.com/s/articleView?id=platform.data_sandbox_clone.htm&type=5"
+        },
+        {
+          "text": "Full Copy Sandbox",
+          "href": "https://help.salesforce.com/s/articleView?id=platform.create_test_instance.htm&type=5"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Closing the loop",
+      "text": "To meet demand and build in the modern AI landscape — devs need more than consistency, they need continuity. By embracing a continuous ALM lifecycle that prioritizes security, realistic testing, and ongoing iteration after launch, teams can turn the potential of AI into transformative innovation. Ready to dive deeper into the ALM cycle? Download the 5 Stages of theAgent and Application lifecycle Management guide.",
+      "word_count": 64,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Agent and Application lifecycle Managemen",
+          "href": "https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "From idea to innovation",
+      "body": "Dig deeper into each of the five stages of the agent and application lifecycle management (ALM) process.",
+      "button_text": "Download today",
+      "button_url": "https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management/",
+      "position_after_section": 1
+    },
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "Start learning",
+      "button_url": "https://trailhead.salesforce.com/content/learn/modules/einstein-for-developers",
+      "position_after_section": 5
+    },
+    {
+      "heading": "Move fast without breaking things",
+      "body": "Salesforce Sandboxes help you build and test new apps, train users, and launch agents – safely and securely. Discover how to streamline data seeding, mask sensitive information, and scale across environments.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/platform/data-masking-and-seeding-guide/",
+      "position_after_section": 4
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Developers continue to tackle the consistent challenge: building tomorrow’s innovation with today’s tools. </p>\n<p>While the developer role has fundamentally shifted from executor to orchestrator, some things remain the same. From a lack of realistic test data, scope creep, unsecured data vulnerabilities, broken processes, to ever-growing <a href=\"https://www.salesforce.com/blog/ai-agent-application-development-best-practice/\" rel=\"noopener\" target=\"_blank\">IT backlogs</a> — developers are still facing legacy hurdles.  The velocity of AI development only amplifies these issues, making the need for trusted, governed practices more urgent than ever.</p>\n<p>This is where a strong <a href=\"https://www.salesforce.com/blog/agent-and-application-lifecycle-management/\" rel=\"noopener\" target=\"_blank\">agent and application lifecycle management (ALM)</a> framework becomes non-negotiable. But ALM’s job doesn’t end at deployment. Not only does a modern ALM framework get teams to launch quickly, but it also drives continuous improvement, security, and consistent performance — even after the agents and apps are live.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-road-to-deployment\">The road to deployment</h2>\n<p><a href=\"https://www.salesforce.com/blog/agent-and-application-lifecycle-management/\" rel=\"noopener\" target=\"_blank\">Agent and application lifecycle management (ALM)</a> provides a structured way to manage the journey of an AI agent or application, from ideation to deployment. ALM helps IT and development teams navigate complexity, ensuring a consistent, speedy, and secure way to build, test, and deploy new AI agents and applications across the organization.</p>\n<p>A modern, trusted ALM framework is built around five core stages:</p>\n<ol class=\"wp-block-list\">\n<li><strong>Ideate &amp; plan:</strong> Defining requirements, setting business goals, and establishing compliance and security standards before a single line of code is written.</li>\n<li><strong>Build:</strong> Developing the application or AI agent using low-code, pro-code, and AI-assisted tools (like Generative AI for code).</li>\n<li><strong>Test:</strong> Verifying for functionality, performance, and security in isolated, production-like environments.</li>\n<li><strong>Deploy:</strong> Consistently and securely moving validated code and configurations into production.</li>\n<li><strong>Observe:</strong> Tracking performance, collecting feedback, and using real-world results to inform the next cycle of improvements.</li>\n</ol>\n<p>And bonus! <strong>Governance</strong> is embedded from the start, ensuring your AI development remains compliant and secure without slowing down.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">From idea to innovation</h2>\n<p class=\"wp-block-offer__description\">Dig deeper into each of the five stages of the agent and application lifecycle management (ALM) process.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management/\" target=\"_blank\">Download today</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">Going beyond the launch</h2>\n<p>Historically, traditional enterprise apps were static and predictable. Once deployed, they followed established rules and workflows, remaining stable until the next major update. Now, with AI, the maintenance schedule has shifted from periodic, major releases to an accelerated, continuous update cycle. </p>\n<p>AI agents and apps are inherently dynamic. They continuously learn, adapt, and iterate based on new data, user interactions, and changing business conditions. On top of that, the security and <a href=\"https://www.salesforce.com/form/platform/regulations-whitepaper/\" rel=\"noopener\" target=\"_blank\">regulations</a> landscape is ever-evolving. In order to adhere to key regulations, it can be too late to wait months, or even weeks, to release a new update. </p>\n<p>A robust, continuous ALM cycle enables organizations to do more than a functionality check. By going beyond deployment, development teams can drive improved and consistent performance by continuously fine-tuning models, maintaining security and compliance, and reducing harmful hallucinations. </p>\n<h2 class=\"wp-block-heading\" id=\"h-tools-to-drive-continuous-ai-improvements\">Tools to drive continuous AI improvements</h2>\n<p>The definition of “done” has changed from deployment to continuous iteration — and this requires a fundamentally different approach to agent and application maintenance. At the heart of modern software development is speed. In order to keep up with the latest tech or regulatory changes, you need agile, flexible, and versatile developer tools. </p>\n<h3 class=\"wp-block-heading\">Change and release management</h3>\n<p>Admins and developers need a central hub for alignment and a consistent, automated approach to change management. With <a href=\"https://www.salesforce.com/platform/devops-tools/\" rel=\"noopener\" target=\"_blank\">DevOps Center</a>, teams can visualize, track, and deploy changes across all stages of the lifecycle, simplifying complex deployments and ensuring that governance standards are applied consistently across all environments—from low-code declaratives to complex pro-code and AI component updates.</p>\n<h3 class=\"wp-block-heading\">Vibe coding and low code</h3>\n<p><a href=\"https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/\" rel=\"noopener\" target=\"_blank\">The productivity is in the stats:</a> 80% of IT organizations use no code and low-code development tools, and 84% of developers who use AI say it helps their teams complete projects faster. There’s no need to reinvent the wheel, and no need to code from scratch if a feature or test has been done before. <br/><a href=\"https://www.salesforce.com/platform/low-code-development-platform/what-is-low-code/\" rel=\"noopener\" target=\"_blank\">Low-code tools</a> have been in dev toolboxes for a while now, and they continue to see increased adoption because of their ease of use. Vibe coding, the practice of using generative AI to turn natural language into code by simply describing the feature or app you want, is quickly  gaining traction. Tools like <a href=\"https://www.salesforce.com/agentforce/developers/vibe-coding/\" rel=\"noopener\" target=\"_blank\">Agentforce Vibes</a> can handle routine tasks like code development assistance, test case generation, code analysis for security and performance, and more.</p>\n<div class=\"layout-astro wp-block-salesforce-blog-related-trail\">\n<img alt=\"\" class=\"related-trail__illustration related-trail__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-cloud-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__background\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-background-layout-astro.png\"/>\n<div class=\"related-trail__wrapper\">\n<div class=\"related-trail__content\">\n<svg aria-hidden=\"true\" class=\"related-trail__logo\" viewbox=\"0 0 345.8 82.8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M96.6 33h9v22.6h4.8V33h8.8v-4.3H96.6zm49.8 5.3c0-5.7-3.6-9.6-10.8-9.6H127v27h4.8v-7.9h3l2.3-.1 5.7 8h5.6l-7-9.2c3.4-1.6 5-4.5 5-8.2m-11.1 5.3h-3.6V33h3.6c4.4 0 6 2.3 6 5.3s-1.6 5.3-6 5.3m30.8-15.2-12.6 27.2h5l2.3-5.3h11.6l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm25.2-17.7h4.8v27h-4.8zm20.7 0h-4.8v27h17.6v-4.4h-12.8zm38.4 12.1h-13.2V28.7H229v27h4.7V45h13.2v10.6h4.7V28.7h-4.7zm15.9 14.8h17.5v-4.4h-12.7v-6.4H279v-4.2h-11.5v-7.5h12.7v-4.4h-17.5zm36.9-27.2L287 55.6h5l2.3-5.3H306l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm35.4-17.7h-10.2v27h10.2c8.2 0 14.4-5.9 14.4-13.6s-6-13.4-14.4-13.4m0 22.6H326V33h5.4a9.1 9.1 0 1 1 0 18.1z\" fill=\"#1d3767\"></path><path d=\"M43 82.8h.1a74 74 0 0 0 38.5-12.3 3 3 0 0 0 1.3-2.4v-6A66.2 66.2 0 0 0 42.5.2a3 3 0 0 0-2.3 0A66.2 66.2 0 0 0 0 62.2V68a3 3 0 0 0 1.2 2.4 74 74 0 0 0 40.2 12.4z\" fill=\"#1d315f\"></path><path d=\"M13.8 51.8a.3.3 0 0 0 0-.1L33 23.6a3.1 3.1 0 0 1 .8-.8 3 3 0 0 1 4 .8l9.5 13.8 3.5-5a3 3 0 0 1 4.9 0L69 51.6a.3.3 0 0 1 .1.3h7C70.7 17.7 43.7 7.2 41.4 6.2c0 0-11.2 4-21.2 16A59.6 59.6 0 0 0 6.8 51.8zm21.7-21.3\" fill=\"#8ed1f4\"></path><path d=\"m62 51.9-8.7-12.6-4.2 6.1 4.8 6.4z\" fill=\"#aa76b3\"></path><path d=\"m49 45.4-4.4 6.4H54z\" fill=\"#722a87\"></path><path d=\"m37 32.6-1.5-2.1z\" fill=\"#8ed1f4\"></path><path d=\"m28 41.4 7.6 10.4h1.8l6.4-9.2-6.8-10-1.5-2.1z\" fill=\"#aa76b3\"></path><path d=\"m28 41.4-7 10.4h14.6z\" fill=\"#722a87\"></path><path d=\"M43.8 72.5a1.8 1.8 0 0 0-1-2.4L40.1 69a8 8 0 0 1-1-.5 7.8 7.8 0 0 1-2.4-10.7H6a44 44 0 0 0-.2 4.4v4.4A70 70 0 0 0 26 75a70 70 0 0 0 15.2 2l2.4-4.3zm33-14.8H44.3l-2.5 3a1.7 1.7 0 0 0-.2.5 1.8 1.8 0 0 0 1 2.3l2.7 1.2.7.4a7.8 7.8 0 0 1 3 10.6l-.5.9 4.8-.8a71 71 0 0 0 8.4-2.2l1.3-.4a71 71 0 0 0 14-6.7v-8.8z\" fill=\"#069a49\"></path><path d=\"m46 65-.7-.3-2.7-1.2a1.8 1.8 0 0 1-1-2.4 1.7 1.7 0 0 1 .2-.4l2.5-3h-7.6A7.8 7.8 0 0 0 39 68.4a8 8 0 0 0 1 .5l2.7 1.2a1.8 1.8 0 0 1 1 2.4l-.1.2-2.5 4.3a52.5 52.5 0 0 0 7.2-.4l.5-.9A7.8 7.8 0 0 0 46 65.1z\" fill=\"#fff\"></path><path d=\"M56.9 67.3h8.8l-4.4-5zM23 71h9l-4.5-5.1zm-4.1-10.4-4.5 5h8.9z\" fill=\"#157139\"></path></svg>\n<h2 class=\"wp-block-related-trail__title\">Code with Agentforce Vibes</h2>\n<p>Meet your AI-powered coding assistant. Explore the key features to supercharge developer productivity on Trailhead, Salesforce’s free learning platform.</p>\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://trailhead.salesforce.com/content/learn/modules/einstein-for-developers\" rel=\"noopener\" target=\"_blank\">Start learning</a></div>\n</div>\n<div class=\"related-trail__mock\">\n<div class=\"related-trail__points\">+100 points</div>\n<div class=\"related-trail__eyebrow\">Trail</div>\n<p class=\"related-trail__trail-title h3\">Agentforce Vibes Extension</p>\n<p class=\"related-trail__trail-description\">Learn the ways of this trail.</p>\n<div class=\"related-trail__actions\">\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\"><path clip-rule=\"evenodd\" d=\"m4.93.69.88 2.88c.04.12.16.18.27.18h2.89c.29 0 .4.38.17.56L6.79 6.04c-.1.07-.13.2-.1.32l1.12 2.96c.08.27-.2.5-.44.33L4.85 7.77c-.1-.08-.23-.08-.34 0L1.97 9.65a.29.29 0 0 1-.45-.33L2.6 6.36a.3.3 0 0 0-.1-.32L.17 4.3c-.23-.18-.1-.56.17-.56h2.89c.13 0 .23-.04.27-.18l.9-2.9c.08-.27.46-.25.54.02Z\" fill=\"#747474\" fill-rule=\"evenodd\"></path></svg>\n</div>\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 9 5\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.16 4.5.26 0h7.8z\" fill=\"#747474\"></path></svg>\n</div>\n</div>\n</div>\n</div>\n<img alt=\"\" class=\"related-trail__illustration related-trail__foreground\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-foreground-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__parks\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-parks-layout-astro.png\"/>\n</div>\n<h3 class=\"wp-block-heading\">Secure test environments</h3>\n<p>Building dynamic AI goes hand-in-hand with <a href=\"https://www.salesforce.com/platform/sandboxes-environments/salesforce-sandbox-guide/\" rel=\"noopener\" target=\"_blank\">sandboxes</a>. By creating a copy of your production environment, teams can build, test, and refine new features, code, and integrations — all without affecting live data and operations. And, when working with AI agents, the quality and realism of your test environment are critical for building trust.</p>\n<p>To balance realistic testing conditions with security, <a href=\"https://www.salesforce.com/platform/data-masking/data-masking-tools/\" rel=\"noopener\" target=\"_blank\">data masking tools </a>are essential. Data masking replaces sensitive information (PII, financial data) with realistic, fictitious values, ensuring compliance and data privacy during testing. </p>\n<p>But security is half the equation. What about the speed of development? Data seeding is the practice of pre-populating a non-production environment with mock or templated records. By pairing data masking with data seeding, you get a winning formula that accelerates deployment cycles while maintaining robust data privacy. <a href=\"https://www.salesforce.com/platform/data-masking/\" rel=\"noopener\" target=\"_blank\">Data Mask &amp; Seed</a> put this synergy into action, enabling developers to quickly seed realistic data into <a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">Salesforce Sandboxes.</a></p>\n<h3 class=\"wp-block-heading\">Testing tools</h3>\n<p>As AI agents perform increasingly complex tasks, verifying for only functionality is not enough. Testing should also encompass performance, reliability, and accuracy at scale. </p>\n<p>Robust testing tools can help validate application performance under high-stress environments. In a <a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">Full Copy Sandbox</a>, devs can use tools like <a href=\"https://www.salesforce.com/platform/application-scaling-performance-testing/\" rel=\"noopener\" target=\"_blank\">Scale Test</a> to identify bottlenecks and confidently manage peak loads and unexpected traffic surges. </p>\n<p>AI agent testing tools are also emerging. <a href=\"https://www.salesforce.com/agentforce/dev-tools/\" rel=\"noopener\" target=\"_blank\">Agentforce Testing Center</a> is essential for simulating real-world conversations and scenarios to ensure AI agents behave reliably, maintain accuracy, and adhere to predefined guardrails.</p>\n<h2 class=\"wp-block-heading\">From Theory to Production</h2>\n<p>In a <a href=\"https://www.salesforce.com/form/platform/drive-continuous-improvement-for-your-agents-and-apps/\" rel=\"noopener\" target=\"_blank\">virtual event</a> with Senior Salesforce Admin at Alpine Intel, <a href=\"https://www.linkedin.com/in/nick-mcowen-262b116a/\" rel=\"noopener\" target=\"_blank\">Nick McOwen</a>, he shared his advice for the development process: “no idea is a bad idea.” </p>\n<p>Ideas can quickly become innovation, especially with the right tools to build it. McOwen explained how he was able to take speedy action by being able to <a href=\"https://help.salesforce.com/s/articleView?id=platform.data_sandbox_clone.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Quick Clone</a> his sandbox environment, configure an agent, and demo his idea to his manager — no code or months of development required. And, when it comes time to truly build and test his agents, McOwen emphasizes the convenience and ease of use that a <a href=\"https://help.salesforce.com/s/articleView?id=platform.create_test_instance.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Full Copy Sandbox</a> enables. By having all flows, processes, and other production configurations already there, he is able to bulk test agent responses using realistic, production-like data.  </p>\n<p>While the initial idea might evolve to take on a new form, starting in a sandbox environment empowers devs to take immediate action on their ideas and work at the speed of AI. </p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Move fast without breaking things</h2>\n<p class=\"wp-block-offer__description\">Salesforce Sandboxes help you build and test new apps, train users, and launch agents – safely and securely. Discover how to streamline data seeding, mask sensitive information, and scale across environments.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/data-masking-and-seeding-guide/\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n<h2 class=\"wp-block-heading\">Closing the loop </h2>\n<p>To meet demand and build in the modern AI landscape — devs need more than consistency, they need continuity. By embracing a continuous ALM lifecycle that prioritizes security, realistic testing, and ongoing iteration after launch, teams can turn the potential of AI into transformative innovation.</p>\n<p>Ready to dive deeper into the ALM cycle? Download the 5 Stages of the <a href=\"https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management/\" rel=\"noopener\" target=\"_blank\">Agent and Application lifecycle Managemen</a>t guide. </p>\n</div>"
+}

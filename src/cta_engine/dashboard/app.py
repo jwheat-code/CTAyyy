@@ -67,6 +67,8 @@ def build_health_df(analyses: dict, articles: dict) -> pd.DataFrame:
 
         rows.append({
             "Article": analysis.get("title", slug),
+            "Author": analysis.get("author", article.get("author", "")),
+            "Published": (analysis.get("published_date", article.get("published_date", "")) or "")[:10],
             "URL": analysis.get("url", ""),
             "Slug": slug,
             "Sections": total,
@@ -81,6 +83,8 @@ def build_health_df(analyses: dict, articles: dict) -> pd.DataFrame:
         if slug not in analyses:
             rows.append({
                 "Article": article.get("title", slug),
+                "Author": article.get("author", ""),
+                "Published": (article.get("published_date", "") or "")[:10],
                 "URL": article.get("url", ""),
                 "Slug": slug,
                 "Sections": len(article.get("sections", [])),
@@ -386,7 +390,7 @@ with tab3:
 
         # Table
         display_df = (
-            analyzed_df[["Article", "Sections", "Misaligned", "Aligned", "Health Score"]]
+            analyzed_df[["Article", "Author", "Published", "Sections", "Misaligned", "Aligned", "Health Score"]]
             .sort_values("Health Score", ascending=True)
             .copy()
         )

@@ -1,0 +1,340 @@
+{
+  "url": "https://www.salesforce.com/blog/automation-vs-custom-code/?bc=DB",
+  "slug": "automation-vs-custom-code",
+  "title": "Automation vs. Custom Code: When Startups Should Build vs. Buy",
+  "author": "Brett Grossfeld",
+  "published_date": "2025-11-25T15:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Technology choices are often a big decision for startups andsmall and medium businesses (SMBs). Every tech choice shapes how fast you can grow. The classic debate? Automation vs custom code — to buy or to build, that is the question. You might be thinking about building your own custom app, but that often brings high costs and long waits. What if there was a way to get the right tools your business needs without all that trouble? Artificial intelligence (AI) and smartcustomer relationship management (CRM)solutions show us a better way forward. These business tools give you access to automation capabilities that help scale fast, but what are your options? Here’s how to choose between automation and custom code for your business and the differences between the two, along with a simple roadmap to get started. What we’ll cover: What automation and custom coding really meanWhy waiting to automate could cost youUnderstanding automation and custom code for your growing businessA simple roadmap to automating smarterThe custom code routeHow small businesses are using automation with SalesforceMaking the smart choice for your business",
+      "word_count": 180,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "small and medium businesses (SMBs)",
+          "href": "https://www.salesforce.com/small-business/what-is-an-smb/"
+        },
+        {
+          "text": "Artificial intelligence (AI",
+          "href": "https://www.salesforce.com/resources/ai/"
+        },
+        {
+          "text": "customer relationship management (CRM)",
+          "href": "https://www.salesforce.com/crm/crm-for-small-business/"
+        },
+        {
+          "text": "What automation and custom coding really mean",
+          "href": "#h-what-automation-and-custom-coding-really-mean"
+        },
+        {
+          "text": "Why waiting to automate could cost you",
+          "href": "#h-why-waiting-to-automate-could-cost-you"
+        },
+        {
+          "text": "Understanding automation and custom code for your growing business",
+          "href": "#h-understanding-automation-and-custom-code-for-your-growing-business"
+        },
+        {
+          "text": "A simple roadmap to automating smarter",
+          "href": "#h-a-simple-roadmap-to-automating-smarter"
+        },
+        {
+          "text": "The custom code route",
+          "href": "#h-the-custom-code-route"
+        },
+        {
+          "text": "How small businesses are using automation with Salesforce",
+          "href": "#h-how-small-businesses-are-using-automation-with-salesforce"
+        },
+        {
+          "text": "Making the smart choice for your business",
+          "href": "#h-automation-vs-custom-code-scale-faster-with-salesforce"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What automation and custom coding really mean",
+      "text": "Before we dig into which one is right for your startup, let’s define our terms. Let’s look at whatautomationand custom code mean. Automationinvolves setting up systems to handle repetitive tasks without needing constant manual input. Imagine a customer completing a form, which triggers an email to automatically be sent to them with their request. Or For SMBs, this can range from simple email sequences to complex workflows that span your entiresales,marketing,commerce, andserviceoperations. It’s about making your processes efficient and letting technology do the time-consuming manual jobs. Custom code, on the other hand, means developing software or applications specifically for your business from the ground up. This approach lets you control every detail to create a solution that fits your needs. You design it, you code it, and it’s yours. This could be a specialized internal tool, a niche customer application, or a uniquedata management system. These are sometimes called custom apps. Here’s a short table summarizing the pros and cons:",
+      "word_count": 160,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "automation",
+          "href": "https://www.salesforce.com/blog/how-to-automate-your-small-business/"
+        },
+        {
+          "text": "Automation",
+          "href": "https://help.salesforce.com/s/articleView?id=000393269&language=en_US&type=1"
+        },
+        {
+          "text": "sales",
+          "href": "https://www.salesforce.com/sales/"
+        },
+        {
+          "text": "marketing",
+          "href": "https://www.salesforce.com/marketing"
+        },
+        {
+          "text": "commerce",
+          "href": "https://www.salesforce.com/small-business/commerce/"
+        },
+        {
+          "text": "service",
+          "href": "https://www.salesforce.com/service"
+        },
+        {
+          "text": "Custom code",
+          "href": "https://developer.salesforce.com/docs/platform/code-builder/guide/byotemplate.html"
+        },
+        {
+          "text": "data management system",
+          "href": "https://www.salesforce.com/data/connectivity/guide?d=afx"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Why waiting to automate could cost you",
+      "text": "According to our latest SMB trends report,88% of growing SMBs are increasing their technology spendingthis year because they understand the cost of standing still. Wasted time on repetitive work: Your team gets stuck entering data, sending invoices, and creating reports instead of helping customers or growing the business. As you scale, you’ll need more people just to handle these manual tasks. Costly human errors: Manual processes lead to typos, missed steps, and unhappy customers. A wrong invoice delays payment. A shipping mistake creates returns. Fixing these errors costs time, money, and damages your reputation. Growth bottlenecks: Manual processes can’t keep up with more customers and data. This creates delays that make it hard to respond quickly to market changes, putting you behind competitors. It’s no surprise that90% of SMB leaders with automation say it makes their operations more efficient. Missed opportunities: While your resources handle busy work, you miss chances to innovate and improve customer experience. This leads to lost market share and revenue you can’t recover. Businesses investing in automation are seeing real results. In fact,87% of SMB leaders with AI say it helps them scale their business. ImagineAI agentshandling initial customer inquiries, freeing your service team to focus on complex, high-value issues. Or automated workflows thatnurture leadsthrough your sales funnel without a single manual click. These smart CRM solutions can significantly increase your team’s productivity and impact. According to our e-book, Grow Your Business With AI Agents,SMB that effectively integrate AI models into their operations will gain a significant competitive advantage. Consider these powerful use cases for automation: Follow-ups:Automated email sequences make sure every lead is followed up, nurturing prospects consistently until they’re ready to engage.Triggers:When a customer takes a specific action, an automated trigger can create a follow-up task for sales or send a personalized marketing offer.Reporting:Automated reports give you real-time insights into sales, marketing, commerce, and service. This makes it easier to make faster, more informed decisions without manual data crunching.",
+      "word_count": 325,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "88% of growing SMBs are increasing their technology spending",
+          "href": "https://www.salesforce.com/resources/research-reports/smb-trends/"
+        },
+        {
+          "text": "90% of SMB leaders with automation say it makes their operations more efficient",
+          "href": "https://www.salesforce.com/resources/research-reports/smb-trends/"
+        },
+        {
+          "text": "87% of SMB leaders with AI say it helps them scale their business",
+          "href": "https://www.salesforce.com/resources/research-reports/smb-trends/"
+        },
+        {
+          "text": "AI agents",
+          "href": "https://www.salesforce.com/agentforce/what-are-ai-agents/"
+        },
+        {
+          "text": "nurture leads",
+          "href": "https://www.salesforce.com/sales/engagement-platform/what-is-lead-nurturing/"
+        },
+        {
+          "text": "SMB that effectively integrate AI models into their operations will gain a significant competitive advantage",
+          "href": "https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Understanding automation and custom code for your growing business",
+      "text": "As your business grows, the choice between automation and custom code becomes even more important. You need solutions that scale with you, without eating into the budget. Here’s where many growing businesses get stuck when it comes to custom code.Custom developmentis a tedious process, and it can lead to rigid systems, and long development cycles. This can become harder to manage as your team grows. You start with one custom feature, then need another, and you need developers to maintain everything. Over time, the hidden costs pile up: Ongoing developer feesSecurity updates and patchesIntegration maintenanceTraining new team members on custom systems Ano-codealternative offers an easier way to implement powerful solutions. Instead of trying to understand code, you build visual dashboards in one application. This approach helps businesses create solutions without needing a developer.Smart CRMsare customizable these days, and can handle workflows,lead scoring, and marketing tasks, allowing you to quickly adapt without the complexities of custom development.",
+      "word_count": 156,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Custom development",
+          "href": "https://www.salesforce.com/platform/enterprise-app-development/custom-application-development-guide/"
+        },
+        {
+          "text": "no-code",
+          "href": "https://www.salesforce.com/platform/low-code-development-platform/what-is-no-code/"
+        },
+        {
+          "text": "Smart CRMs",
+          "href": "https://www.salesforce.com/small-business/starter/"
+        },
+        {
+          "text": "lead scoring",
+          "href": "https://www.salesforce.com/blog/lead-scoring/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "A simple roadmap to automating smarter",
+      "text": "Here’s a path built by the experts at Salesforce to start automating your startup or small business with smart solutions. Look for ‌repetitive, time-consuming tasks that don’t directly contribute to your core business value. These are prime candidates for automation. Think about how much time your team spends on manual data entry, scheduling, or generating routine reports. Pinpointing these tasks is the first step toward significant efficiency gains across your sales, service, marketing, and commerce operations. For example, with your CRM you can automate: Lead generation: Automatically update a lead’s status and assign the next task to a team member, ensuring no one gets lost in the pipeline.Email automation: Send automatic reminders and schedule meetings directly from your calendar, eliminating back-and-forth emails.Customer follow-ups: After a sale, the CRM automatically sends a thank-you email and schedules a future check-in, keeping customers engaged long after they buy. Try out the Salesforce small business suiteto scale fast. The Suites provide powerful and accessible tools specifically for growing businesses. Starter Suite offers the perfect starter CRM for small business, coveringsales,marketing,service,commerce, andteam productivity. For more flexibility and advanced features,Pro Suitedelivers a more advanced CRM with automation to help your business scale efficiently. These tools allow you to implementautomated workflowsand processes quickly and effectively. And, with access toFoundations, you can try AI tools likeAgentforce 360to see how far you can take automation. Launch with one pilot task, track the results, and see how it works. Don’t try to automate everything at once. Start small — pick one or two key processes that can yield quick wins, and implement them. Your CRM automatically tracks key metrics likeresponse time,conversion rate, andcustomer satisfaction. Monitor how automation affects lead qualification speed and deal closure rates. Then gradually expand your efforts. This phased approach reduces disruption while you learn what works best. AI for small businessis here, and you don’t need to be a data scientist to use it effectively. Start with simple AI features within your CRM, like predictive lead scoring orautomated customer serviceresponses. As you get comfortable, explore advancedEinstein insightswithin yourSalesforce CRMto make smarter business decisions.",
+      "word_count": 347,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "sales",
+          "href": "https://www.salesforce.com/small-business/sales/"
+        },
+        {
+          "text": "marketing",
+          "href": "https://www.salesforce.com/small-business/marketing/"
+        },
+        {
+          "text": "service",
+          "href": "https://www.salesforce.com/small-business/service/"
+        },
+        {
+          "text": "commerce",
+          "href": "https://www.salesforce.com/small-business/commerce/"
+        },
+        {
+          "text": "team productivity",
+          "href": "https://www.salesforce.com/small-business/collaboration/"
+        },
+        {
+          "text": "Pro Suite",
+          "href": "https://www.salesforce.com/small-business/pro-suite/"
+        },
+        {
+          "text": "automated workflows",
+          "href": "https://www.salesforce.com/crm/what-is-crm/crm-systems?d=afx"
+        },
+        {
+          "text": "Foundations",
+          "href": "https://www.salesforce.com/crm/foundations/"
+        },
+        {
+          "text": "Agentforce 360",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "response time",
+          "href": "http://answers.salesforce.com/blog/2016/10/improving-response-time-on-leads.html"
+        },
+        {
+          "text": "conversion rate",
+          "href": "https://www.salesforce.com/in/blog/conversion-rates/"
+        },
+        {
+          "text": "customer satisfaction",
+          "href": "https://www.salesforce.com/ap/service/customer-service-incident-management/what-is-customer-satisfaction/"
+        },
+        {
+          "text": "AI for small business",
+          "href": "https://www.salesforce.com/blog/ai-for-small-business/"
+        },
+        {
+          "text": "automated customer service",
+          "href": "https://www.salesforce.com/service/what-is-automated-customer-service/"
+        },
+        {
+          "text": "Einstein insights",
+          "href": "https://www.salesforce.com/in/sales/conversation-intelligence/"
+        },
+        {
+          "text": "Salesforce CRM",
+          "href": "https://www.salesforce.com/crm/startup-crm/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "The custom code route",
+      "text": "Sometimes custom solutions are genuinely necessary. If your business has truly unique requirements that no existing solution can handle, custom code might be your only option. Building custom software is a powerful, though initially expensive, option for small businesses that have unique or complex operational needs. Custom code is built specifically to address a company’s exact requirements, eliminating inefficiencies and providing a significant competitive advantage through unique features and workflows. Although the upfront investment and longer development timeline can be daunting, custom software delivers long-term value by offering full ownership, seamless integration with existing systems, enhanced security, and the ability to scale and evolve as the business grows. Consider the full picture — beyond initial development costs, you’ll have ongoing expenses for maintenance. You’ll depend on third-party developers, and any shift in your business model could mean costly system overhauls. These factors matter when deciding whether to build or buy.",
+      "word_count": 150,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "heading": "How small businesses are using automation with Salesforce",
+      "text": "SMBs are finding significant success by choosingsmart automationwith Salesforce.75% of SMBs are investing in AI, recognizing its potential to transform their operations. These platforms are designed for growth, offering considerable advantages over building from scratch. With a CRM, you have the power of customization without coding. Salesforce offers templates and drag-and-drop builders that let you tailor solutions quickly. Create personalizedcustomer journeys, automate sales processes, and set up service queues using visual tools. Pro Suite provides drag-and-drop functionality, custom objects for data organization, and process automation. Businesses see results without development headaches. Fisher & Paykel, a premium appliance manufacturer, transformed their customer service with Salesforce automation. They saved up to 3,300 hours per month through improved automation and self-service, while their AI-powered support became 50% faster and more effective. Service rep training time dropped by 76%, and they eliminated 30 minutes of manual effort per order. This is the impact of choosing smart automation instead of custom development — results that keep building over time. 88% of growing SMBs are increasing their technology spending this year, focusing on solutions that scale with their success. Choosing Salesforce means choosing a solution that grows with you. The architecture is clean, meaning it’s built to handle increasing data and users without performance issues. Plus, your costs are transparent and predictable, unlike the scaling expenses that come with custom development. This allows you to budget effectively and focus on expansion.",
+      "word_count": 235,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "smart automation",
+          "href": "https://www.salesforce.com/mulesoft/automation/"
+        },
+        {
+          "text": "75% of SMBs are investing in AI, recognizing its potential to transform their operations",
+          "href": "https://www.salesforce.com/resources/research-reports/smb-trends/"
+        },
+        {
+          "text": "customer journeys",
+          "href": "https://www.salesforce.com/marketing/customer-journey/"
+        },
+        {
+          "text": "Fisher & Paykel",
+          "href": "https://www.salesforce.com/customer-stories/fisher-and-paykel/"
+        },
+        {
+          "text": "88% of growing SMBs are increasing their technology spending this year, focusing on solutions that scale with their success",
+          "href": "https://www.salesforce.com/resources/research-reports/smb-trends/"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "Automation vs custom code: scale faster with Salesforce",
+      "text": "Now you’ve learned the differences between automation and custom code, so you can decide for yourself. Automation offers predictable costs, faster implementation, and built-in scalability. Custom code provides you full ownership and longer development delays, ongoing maintenance, and unpredictable expenses. Smart AI-powered solutions help SMBs scale faster by automating tasks and reducing manual effort. Try them out for yourself. Start your journey withStarter Suitetoday. Looking for more customization?Explore Pro Suite. Already a Salesforce customer?Activate Foundationsand try out Agentforce 360 today. AI supported the writers and editors who created this article.",
+      "word_count": 90,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Starter Suite",
+          "href": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta"
+        },
+        {
+          "text": "Explore Pro Suite",
+          "href": "https://www.salesforce.com/small-business/pro-suite/"
+        },
+        {
+          "text": "Activate Foundations",
+          "href": "https://www.salesforce.com/crm/foundations/"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "heading": "Frequently Asked Questions (FAQs)",
+      "text": "Automation uses existing software to connect different apps and automate simple tasks. Custom code is a brand-new program built from scratch to handle unique and complex business needs. Opt for automation when dealing with repetitive tasks that can be standardized. Use custom code when you require complex, unique functionalities that automation tools can’t achieve. Salesforce automation, through tools likeFlow Builder, enhances efficiency by automating tasks such as record updates and notifications, allowing your team to focus on strategic activities. Excessive use of custom code can lead to increased maintenance, longer development cycles, and potential scalability issues. Balancing automation and custom code is crucial for sustainable growth. Start by automating standard processes with Flow Builder and reserve Apex for complex requirements. This approach ensures scalability and reduces technical debt.",
+      "word_count": 128,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Flow Builder",
+          "href": "https://help.salesforce.com/s/articleView?id=platform.flow_builder.htm&type=5"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "The Guide to AI for Small Business",
+      "body": "AI can transform your small business for the better. Get the guide below to learn how.",
+      "button_text": "Download the guide",
+      "button_url": "https://www.salesforce.com/form/conf/small-business/ai-guide-for-smbs/?leadcreated=true&redirect=true&sfuuid=efe86c4e-cf50-494a-ba81-c17a3dac6855&tid=577f38ae-67b9-4913-b7c3-681f9917a241&chapter=&d=70130000000sUVq&player=&nc=7013y000002RVYjAAO&videoId=&playlistId=",
+      "position_after_section": 2
+    },
+    {
+      "heading": "Wherever you are — just get started.",
+      "body": "No matter where you are on your journey as a business owner, you can get started with Starter Suite for free — the CRM made for growth.",
+      "button_text": "Try it for free",
+      "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+      "position_after_section": 3
+    },
+    {
+      "heading": "Ready to go Pro?",
+      "body": "Level up your CRM with the top-rated Pro Suite — the customer platform that scales with you.",
+      "button_text": "Try it for free",
+      "button_url": "https://www.salesforce.com/form/signup/freetrial-prosuite/?d=bcta",
+      "position_after_section": 4
+    },
+    {
+      "heading": "Get your data ready for AI with Salesforce Foundations",
+      "body": "Easily activate Foundations in your existing CRM to add key features in Agentforce 360, Sales, Service, Marketing, Commerce, and Data — all for free.",
+      "button_text": "Try out Foundations",
+      "button_url": "https://www.salesforce.com/crm/foundations/?d=bcta",
+      "position_after_section": 4
+    },
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "Visit Trail",
+      "button_url": "https://trailhead.salesforce.com/content/learn/modules/salesforce-essentials-small-business/?d=bcta",
+      "position_after_section": 8
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Technology choices are often a big decision for startups and <a href=\"https://www.salesforce.com/small-business/what-is-an-smb/\">small and medium businesses (SMBs)</a>. Every tech choice shapes how fast you can grow. The classic debate? Automation vs custom code — to buy or to build, that is the question. You might be thinking about building your own custom app, but that often brings high costs and long waits. What if there was a way to get the right tools your business needs without all that trouble?</p>\n<p><a href=\"https://www.salesforce.com/resources/ai/\">Artificial intelligence (AI</a>) and smart <a href=\"https://www.salesforce.com/crm/crm-for-small-business/\">customer relationship management (CRM)</a> solutions show us a better way forward. These business tools give you access to automation capabilities that help scale fast, but what are your options? Here’s how to choose between automation and custom code for your business and the differences between the two, along with a simple roadmap to get started.</p>\n<p><strong>What we’ll cover:</strong></p>\n<ul class=\"wp-block-list\">\n<li><a href=\"#h-what-automation-and-custom-coding-really-mean\">What automation and custom coding really mean</a></li>\n<li><a href=\"#h-why-waiting-to-automate-could-cost-you\">Why waiting to automate could cost you</a></li>\n<li><a href=\"#h-understanding-automation-and-custom-code-for-your-growing-business\">Understanding automation and custom code for your growing business</a></li>\n<li><a href=\"#h-a-simple-roadmap-to-automating-smarter\">A simple roadmap to automating smarter</a></li>\n<li><a href=\"#h-the-custom-code-route\">The custom code route</a></li>\n<li><a href=\"#h-how-small-businesses-are-using-automation-with-salesforce\">How small businesses are using automation with Salesforce</a></li>\n<li><a href=\"#h-automation-vs-custom-code-scale-faster-with-salesforce\">Making the smart choice for your business</a></li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-what-automation-and-custom-coding-really-mean\">What automation and custom coding really mean</h2>\n<p>Before we dig into which one is right for your startup, let’s define our terms. Let’s look at what <a href=\"https://www.salesforce.com/blog/how-to-automate-your-small-business/\">automation</a> and custom code mean.</p>\n<h3 class=\"wp-block-heading\" id=\"h-what-is-automation\">What is automation?</h3>\n<p><a href=\"https://help.salesforce.com/s/articleView?id=000393269&amp;language=en_US&amp;type=1\">Automation</a> involves setting up systems to handle repetitive tasks without needing constant manual input. Imagine a customer completing a form, which triggers an email to automatically be sent to them with their request. Or  For SMBs, this can range from simple email sequences to complex workflows that span your entire <a href=\"https://www.salesforce.com/sales/\">sales</a>, <a href=\"https://www.salesforce.com/marketing\">marketing</a>, <a href=\"https://www.salesforce.com/small-business/commerce/\">commerce</a>, and <a href=\"https://www.salesforce.com/service\">service</a> operations. It’s about making your processes efficient and letting technology do the time-consuming manual jobs. </p>\n<div class=\"wp-block-group is-style-cluster-content-section-alt has-white-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained\">\n<div class=\"alignfull wp-block-salesforce-blog-section-heading\">\n<h2 class=\"wp-block-salesforce-blog-section-heading__title\">\n\t\t\t\tStart with SMB Basics\t</h2>\n</div>\n<div class=\"wp-block-columns is-style-default is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex\">\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\" style=\"flex-basis:50%\">\n<div class=\"wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-8cf370e7 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-large is-resized\"><a href=\"https://www.salesforce.com/resources/research-reports/smb-trends/\" rel=\"noopener\" target=\"_blank\"><img alt=\"Astro holds a Small and Medium Business Trends report\" class=\"wp-image-7477\" decoding=\"async\" fetchpriority=\"high\" height=\"281\" sizes=\"(max-width: 500px) 100vw, 500px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2020/10/small-business-trends-smb-research-1.jpg?w=500\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2020/10/small-business-trends-smb-research-1.jpg 500w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2020/10/small-business-trends-smb-research-1.jpg?w=150&amp;h=84 150w\" style=\"width:500px;height:auto\" width=\"500\"/></a></figure>\n<h3 class=\"wp-block-heading\" id=\"h-get-the-free-smb-trends-report\">Get the Free <a href=\"https://www.salesforce.com/resources/research-reports/smb-trends/\" rel=\"noopener\" target=\"_blank\">SMB Trends Report</a></h3>\n</div>\n</div>\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\" style=\"flex-basis:50%\">\n<div class=\"wp-block-group is-style-cluster-content-card is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-94bc23d7 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-large\"><a href=\"https://www.salesforce.com/blog/how-to-automate-your-small-business/\" rel=\"noopener\" target=\"_blank\"><img alt=\"\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/02/TSK-38783_Automate_Your_SMB_With_These_Tips_And_Tools.png\"/></a></figure>\n<h4 class=\"wp-block-heading\" id=\"h-how-to-automate-your-small-business-ai-tips-and-tools\"><a href=\"https://www.salesforce.com/blog/how-to-automate-your-small-business/\" rel=\"noopener\" target=\"_blank\">How to Automate Your Small Business (AI Tips and Tools)<br/></a></h4>\n</div>\n<div class=\"wp-block-group is-style-cluster-content-card is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-94bc23d7 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-large is-resized\"><img alt=\"\" class=\"wp-image-109846\" decoding=\"async\" height=\"2160\" sizes=\"(max-width: 3840px) 100vw, 3840px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/04/Starter-Suite-Version-A.png?w=3840\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/04/Starter-Suite-Version-A.png 3840w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/04/Starter-Suite-Version-A.png?w=889&amp;h=500 889w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/04/Starter-Suite-Version-A.png?w=768&amp;h=432 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/04/Starter-Suite-Version-A.png?w=1536&amp;h=864 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/04/Starter-Suite-Version-A.png?w=2048&amp;h=1152 2048w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/04/Starter-Suite-Version-A.png?w=150&amp;h=84 150w\" style=\"width:183px;height:auto\" width=\"3840\"/></figure>\n<h4 class=\"wp-block-heading\" id=\"h-win-more-deals-with-salesforce-starter-suite\"><a href=\"https://www.youtube.com/watch?v=o8NBN4L9xyk\">Win More Deals with Salesforce Starter Suite</a></h4>\n</div>\n<div class=\"wp-block-group is-style-cluster-content-card is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-94bc23d7 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-large is-resized\"><a href=\"https://www.salesforce.com/blog/salesforce-starter-vs-pro-suite-comparison/\" rel=\"noopener\" target=\"_blank\"><img alt=\"Illustration showcasing artificial intelligence (AI) tools for small businesses.\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/09/10.png?w=768&amp;h=410\" style=\"width:178px;height:auto\"/></a></figure>\n<h4 class=\"wp-block-heading\" id=\"h-starter-suite-vs-pro-suite-crm-comparison-for-smbs\"><a href=\"https://www.salesforce.com/blog/salesforce-starter-vs-pro-suite-comparison/\">Starter Suite vs. Pro Suite: CRM Comparison For SMBs</a></h4>\n</div>\n</div>\n</div>\n</div>\n<h3 class=\"wp-block-heading\">What is custom code?</h3>\n<p><a href=\"https://developer.salesforce.com/docs/platform/code-builder/guide/byotemplate.html\">Custom code</a>, on the other hand, means developing software or applications specifically for your business from the ground up. This approach lets you control every detail to create a solution that fits your needs. You design it, you code it, and it’s yours. This could be a specialized internal tool, a niche customer application, or a unique <a href=\"https://www.salesforce.com/data/connectivity/guide?d=afx\">data management system</a>. These are sometimes called custom apps.</p>\n<h3 class=\"wp-block-heading\">Pros and cons breakdown</h3>\n<p>Here’s a short table summarizing the pros and cons:</p>\n<figure class=\"wp-block-image size-full wp-lightbox-container\" data-wp-context='{\"imageId\":\"69cdb7262ec18\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69cdb7262ec18\"><img alt=\"\" class=\"wp-image-129299\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" height=\"608\" sizes=\"(max-width: 1278px) 100vw, 1278px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Screenshot-2025-10-17-at-10.55.43-AM.png?strip=all&amp;quality=95\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Screenshot-2025-10-17-at-10.55.43-AM.png 1278w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Screenshot-2025-10-17-at-10.55.43-AM.png?w=1051&amp;h=500 1051w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Screenshot-2025-10-17-at-10.55.43-AM.png?w=768&amp;h=365 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/Screenshot-2025-10-17-at-10.55.43-AM.png?w=150&amp;h=71 150w\" width=\"1278\"/><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button></figure>\n<h2 class=\"wp-block-heading\" id=\"h-why-waiting-to-automate-could-cost-you\">Why waiting to automate could cost you</h2>\n<p>According to our latest SMB trends report, <a href=\"https://www.salesforce.com/resources/research-reports/smb-trends/\">88% of growing SMBs are increasing their technology spending</a> this year because they understand the cost of standing still.</p>\n<p><strong>Wasted time on repetitive work</strong>: Your team gets stuck entering data, sending invoices, and creating reports instead of helping customers or growing the business. As you scale, you’ll need more people just to handle these manual tasks.</p>\n<p><strong>Costly human errors</strong>: Manual processes lead to typos, missed steps, and unhappy customers. A wrong invoice delays payment. A shipping mistake creates returns. Fixing these errors costs time, money, and damages your reputation.</p>\n<p><strong>Growth bottlenecks</strong>: Manual processes can’t keep up with more customers and data. This creates delays that make it hard to respond quickly to market changes, putting you behind competitors. It’s no surprise that <a href=\"https://www.salesforce.com/resources/research-reports/smb-trends/\">90% of SMB leaders with automation say it makes their operations more efficient</a>.</p>\n<p><strong>Missed opportunities</strong>: While your resources handle busy work, you miss chances to innovate and improve customer experience. This leads to lost market share and revenue you can’t recover. Businesses investing in automation are seeing real results. In fact, <a href=\"https://www.salesforce.com/resources/research-reports/smb-trends/\">87% of SMB leaders with AI say it helps them scale their business</a>.</p>\n<h3 class=\"wp-block-heading\">AI and automation help small teams move faster</h3>\n<p>Imagine <a href=\"https://www.salesforce.com/agentforce/what-are-ai-agents/\">AI agents</a> handling initial customer inquiries, freeing your service team to focus on complex, high-value issues. Or automated workflows that <a href=\"https://www.salesforce.com/sales/engagement-platform/what-is-lead-nurturing/\">nurture leads</a> through your sales funnel without a single manual click. These smart CRM solutions can significantly increase your team’s productivity and impact. According to our e-book, Grow Your Business With AI Agents, <a href=\"https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/\">SMB that effectively integrate AI models into their operations will gain a significant competitive advantage</a>. Consider these powerful use cases for automation:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Follow-ups:</strong> Automated email sequences make sure every lead is followed up, nurturing prospects consistently until they’re ready to engage. </li>\n<li><strong>Triggers:</strong> When a customer takes a specific action, an automated trigger can create a follow-up task for sales or send a personalized marketing offer.</li>\n<li><strong>Reporting:</strong> Automated reports give you real-time insights into sales, marketing, commerce, and service. This makes it easier to make faster, more informed decisions without manual data crunching.</li>\n</ul>\n<div class=\"layout-sixteen wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">The Guide to AI for Small Business</h2>\n<p class=\"wp-block-offer__description\">AI can transform your small business for the better. Get the guide below to learn how.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/small-business/ai-guide-for-smbs/?leadcreated=true&amp;redirect=true&amp;sfuuid=efe86c4e-cf50-494a-ba81-c17a3dac6855&amp;tid=577f38ae-67b9-4913-b7c3-681f9917a241&amp;chapter=&amp;d=70130000000sUVq&amp;player=&amp;nc=7013y000002RVYjAAO&amp;videoId=&amp;playlistId=\" target=\"_self\">Download the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-sixteen.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-sixteen.png\"/>\n<!-- Left Side Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration-left\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-left-layout-sixteen.png\"/>\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-sixteen.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-understanding-automation-and-custom-code-for-your-growing-business\">Understanding automation and custom code for your growing business</h2>\n<p>As your business grows, the choice between automation and custom code becomes even more important. You need solutions that scale with you, without eating into the budget.</p>\n<h3 class=\"wp-block-heading\">What is the custom code trap?</h3>\n<p>Here’s where many growing businesses get stuck when it comes to custom code. <a href=\"https://www.salesforce.com/platform/enterprise-app-development/custom-application-development-guide/\">Custom development</a> is a tedious process, and it can lead to rigid systems, and long development cycles. This can become harder to manage as your team grows. You start with one custom feature, then need another, and you need developers to maintain everything. Over time, the hidden costs pile up:</p>\n<ul class=\"wp-block-list\">\n<li>Ongoing developer fees</li>\n<li>Security updates and patches</li>\n<li>Integration maintenance</li>\n<li>Training new team members on custom systems</li>\n</ul>\n<h3 class=\"wp-block-heading\">What is the no-code alternative?</h3>\n<p>A <a href=\"https://www.salesforce.com/platform/low-code-development-platform/what-is-no-code/\">no-code</a> alternative offers an easier way to implement powerful solutions. Instead of trying to understand code, you build visual dashboards in one application. This approach helps businesses create solutions without needing a developer. <a href=\"https://www.salesforce.com/small-business/starter/\">Smart CRMs</a> are customizable these days, and can handle workflows, <a href=\"https://www.salesforce.com/blog/lead-scoring/\">lead scoring</a>, and marketing tasks, allowing you to quickly adapt without the complexities of custom development. </p>\n<div class=\"layout-six wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Wherever you are — just get started.</h2>\n<p class=\"wp-block-offer__description\">No matter where you are on your journey as a business owner, you can get started with Starter Suite for free — the CRM made for growth.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta\" target=\"_blank\">Try it for free</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n<img alt=\"\" class=\"attachment-full size-full\" decoding=\"async\" height=\"280\" loading=\"lazy\" sizes=\"auto, (max-width: 448px) 100vw, 448px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/05/starter-cta-ace781ebd06060cbd46e5eb3ff380208661f845844b0637a0dfcc1f5633cc56a.png\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/05/starter-cta-ace781ebd06060cbd46e5eb3ff380208661f845844b0637a0dfcc1f5633cc56a.png 448w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/05/starter-cta-ace781ebd06060cbd46e5eb3ff380208661f845844b0637a0dfcc1f5633cc56a.png?w=150&amp;h=94 150w\" width=\"448\"> </img></div>\n</div>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-a-simple-roadmap-to-automating-smarter\">A simple roadmap to automating smarter</h2>\n<p>Here’s a path built by the experts at Salesforce to start automating your startup or small business with smart solutions.</p>\n<h3 class=\"wp-block-heading\">Step 1: Spot time-heavy, low-value tasks</h3>\n<p>Look for ‌repetitive, time-consuming tasks that don’t directly contribute to your core business value. These are prime candidates for automation. Think about how much time your team spends on manual data entry, scheduling, or generating routine reports. Pinpointing these tasks is the first step toward significant efficiency gains across your sales, service, marketing, and commerce operations. </p>\n<p>For example, with your CRM you can automate: </p>\n<ul class=\"wp-block-list\">\n<li><strong>Lead generation</strong>: Automatically update a lead’s status and assign the next task to a team member, ensuring no one gets lost in the pipeline.</li>\n<li><strong>Email automation</strong>: Send automatic reminders and schedule meetings directly from your calendar, eliminating back-and-forth emails.</li>\n<li><strong>Customer follow-ups</strong>: After a sale, the CRM automatically sends a thank-you email and schedules a future check-in, keeping customers engaged long after they buy.</li>\n</ul>\n<h3 class=\"wp-block-heading\">Step 2: Try Salesforce small business tools for quick wins</h3>\n<p>Try out the Salesforce small business suiteto scale fast. The Suites provide powerful and accessible tools specifically for growing businesses. Starter Suite offers the perfect starter CRM for small business, covering <a href=\"https://www.salesforce.com/small-business/sales/\">sales</a>, <a href=\"https://www.salesforce.com/small-business/marketing/\">marketing</a>, <a href=\"https://www.salesforce.com/small-business/service/\">service</a>, <a href=\"https://www.salesforce.com/small-business/commerce/\">commerce</a>, and <a href=\"https://www.salesforce.com/small-business/collaboration/\">team productivity</a>. </p>\n<p>For more flexibility and advanced features, <a href=\"https://www.salesforce.com/small-business/pro-suite/\">Pro Suite</a> delivers a more advanced CRM with automation to help your business scale efficiently. These tools allow you to implement <a href=\"https://www.salesforce.com/crm/what-is-crm/crm-systems?d=afx\">automated workflows</a> and processes quickly and effectively. And, with access to <a href=\"https://www.salesforce.com/crm/foundations/\">Foundations</a>, you can try AI tools like <a href=\"https://www.salesforce.com/agentforce/\">Agentforce 360</a> to see how far you can take automation.</p>\n<div class=\"layout-six wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Ready to go Pro? </h2>\n<p class=\"wp-block-offer__description\">Level up your CRM with the top-rated Pro Suite — the customer platform that scales with you. </p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/signup/freetrial-prosuite/?d=bcta\" target=\"_self\">Try it for free</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n<img alt=\"Pro Suite\" class=\"attachment-full size-full\" decoding=\"async\" height=\"1024\" loading=\"lazy\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/prosuite-features-campaign-templates-1.webp\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/prosuite-features-campaign-templates-1.webp 1024w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/prosuite-features-campaign-templates-1.webp?w=500&amp;h=500 500w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/prosuite-features-campaign-templates-1.webp?w=768&amp;h=768 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/prosuite-features-campaign-templates-1.webp?w=150&amp;h=150 150w\" width=\"1024\"> </img></div>\n</div>\n</div>\n<h3 class=\"wp-block-heading\">Step 3: Launch task automation in phases</h3>\n<p>Launch with one pilot task, track the results, and see how it works. Don’t try to automate everything at once. Start small — pick one or two key processes that can yield quick wins, and implement them.</p>\n<p>Your CRM automatically tracks key metrics like <a href=\"http://answers.salesforce.com/blog/2016/10/improving-response-time-on-leads.html\">response time</a>, <a href=\"https://www.salesforce.com/in/blog/conversion-rates/\">conversion rate</a>, and <a href=\"https://www.salesforce.com/ap/service/customer-service-incident-management/what-is-customer-satisfaction/\">customer satisfaction</a>. Monitor how automation affects lead qualification speed and deal closure rates. Then gradually expand your efforts. This phased approach reduces disruption while you learn what works best.</p>\n<h3 class=\"wp-block-heading\">Step 4: Integrate AI gradually</h3>\n<p><a href=\"https://www.salesforce.com/blog/ai-for-small-business/\">AI for small business</a> is here, and you don’t need to be a data scientist to use it effectively. Start with simple AI features within your CRM, like predictive lead scoring or <a href=\"https://www.salesforce.com/service/what-is-automated-customer-service/\">automated customer service</a> responses. As you get comfortable, explore advanced <a href=\"https://www.salesforce.com/in/sales/conversation-intelligence/\">Einstein insights </a>within your <a href=\"https://www.salesforce.com/crm/startup-crm/\">Salesforce CRM</a> to make smarter business decisions.</p>\n<div class=\"layout-seven wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Get your data ready for AI with Salesforce Foundations </h2>\n<p class=\"wp-block-offer__description\">Easily activate Foundations in your existing CRM to add key features in Agentforce 360, Sales, Service, Marketing, Commerce, and Data — all for free.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/crm/foundations/?d=bcta\" target=\"_self\">Try out Foundations</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-seven.png\"/>\n<!-- Small Accent Illustration -->\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-seven.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-the-custom-code-route\">The custom code route</h2>\n<p>Sometimes custom solutions are genuinely necessary. If your business has truly unique requirements that no existing solution can handle, custom code might be your only option.</p>\n<p>Building custom software is a powerful, though initially expensive, option for small businesses that have unique or complex operational needs. Custom code is built specifically to address a company’s exact requirements, eliminating inefficiencies and providing a significant competitive advantage through unique features and workflows. Although the upfront investment and longer development timeline can be daunting, custom software delivers long-term value by offering full ownership, seamless integration with existing systems, enhanced security, and the ability to scale and evolve as the business grows.</p>\n<p>Consider the full picture — beyond initial development costs, you’ll have ongoing expenses for maintenance. You’ll depend on third-party developers, and any shift in your business model could mean costly system overhauls. These factors matter when deciding whether to build or buy. </p>\n<div class=\"layout-astro wp-block-salesforce-blog-related-trail\">\n<img alt=\"\" class=\"related-trail__illustration related-trail__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-cloud-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__background\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-background-layout-astro.png\"/>\n<div class=\"related-trail__wrapper\">\n<div class=\"related-trail__content\">\n<svg aria-hidden=\"true\" class=\"related-trail__logo\" viewbox=\"0 0 345.8 82.8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M96.6 33h9v22.6h4.8V33h8.8v-4.3H96.6zm49.8 5.3c0-5.7-3.6-9.6-10.8-9.6H127v27h4.8v-7.9h3l2.3-.1 5.7 8h5.6l-7-9.2c3.4-1.6 5-4.5 5-8.2m-11.1 5.3h-3.6V33h3.6c4.4 0 6 2.3 6 5.3s-1.6 5.3-6 5.3m30.8-15.2-12.6 27.2h5l2.3-5.3h11.6l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm25.2-17.7h4.8v27h-4.8zm20.7 0h-4.8v27h17.6v-4.4h-12.8zm38.4 12.1h-13.2V28.7H229v27h4.7V45h13.2v10.6h4.7V28.7h-4.7zm15.9 14.8h17.5v-4.4h-12.7v-6.4H279v-4.2h-11.5v-7.5h12.7v-4.4h-17.5zm36.9-27.2L287 55.6h5l2.3-5.3H306l2.4 5.3h5l-12.6-27.1zm-3.6 18 4.1-9.2 4.1 9.3zm35.4-17.7h-10.2v27h10.2c8.2 0 14.4-5.9 14.4-13.6s-6-13.4-14.4-13.4m0 22.6H326V33h5.4a9.1 9.1 0 1 1 0 18.1z\" fill=\"#1d3767\"></path><path d=\"M43 82.8h.1a74 74 0 0 0 38.5-12.3 3 3 0 0 0 1.3-2.4v-6A66.2 66.2 0 0 0 42.5.2a3 3 0 0 0-2.3 0A66.2 66.2 0 0 0 0 62.2V68a3 3 0 0 0 1.2 2.4 74 74 0 0 0 40.2 12.4z\" fill=\"#1d315f\"></path><path d=\"M13.8 51.8a.3.3 0 0 0 0-.1L33 23.6a3.1 3.1 0 0 1 .8-.8 3 3 0 0 1 4 .8l9.5 13.8 3.5-5a3 3 0 0 1 4.9 0L69 51.6a.3.3 0 0 1 .1.3h7C70.7 17.7 43.7 7.2 41.4 6.2c0 0-11.2 4-21.2 16A59.6 59.6 0 0 0 6.8 51.8zm21.7-21.3\" fill=\"#8ed1f4\"></path><path d=\"m62 51.9-8.7-12.6-4.2 6.1 4.8 6.4z\" fill=\"#aa76b3\"></path><path d=\"m49 45.4-4.4 6.4H54z\" fill=\"#722a87\"></path><path d=\"m37 32.6-1.5-2.1z\" fill=\"#8ed1f4\"></path><path d=\"m28 41.4 7.6 10.4h1.8l6.4-9.2-6.8-10-1.5-2.1z\" fill=\"#aa76b3\"></path><path d=\"m28 41.4-7 10.4h14.6z\" fill=\"#722a87\"></path><path d=\"M43.8 72.5a1.8 1.8 0 0 0-1-2.4L40.1 69a8 8 0 0 1-1-.5 7.8 7.8 0 0 1-2.4-10.7H6a44 44 0 0 0-.2 4.4v4.4A70 70 0 0 0 26 75a70 70 0 0 0 15.2 2l2.4-4.3zm33-14.8H44.3l-2.5 3a1.7 1.7 0 0 0-.2.5 1.8 1.8 0 0 0 1 2.3l2.7 1.2.7.4a7.8 7.8 0 0 1 3 10.6l-.5.9 4.8-.8a71 71 0 0 0 8.4-2.2l1.3-.4a71 71 0 0 0 14-6.7v-8.8z\" fill=\"#069a49\"></path><path d=\"m46 65-.7-.3-2.7-1.2a1.8 1.8 0 0 1-1-2.4 1.7 1.7 0 0 1 .2-.4l2.5-3h-7.6A7.8 7.8 0 0 0 39 68.4a8 8 0 0 0 1 .5l2.7 1.2a1.8 1.8 0 0 1 1 2.4l-.1.2-2.5 4.3a52.5 52.5 0 0 0 7.2-.4l.5-.9A7.8 7.8 0 0 0 46 65.1z\" fill=\"#fff\"></path><path d=\"M56.9 67.3h8.8l-4.4-5zM23 71h9l-4.5-5.1zm-4.1-10.4-4.5 5h8.9z\" fill=\"#157139\"></path></svg>\n<h2 class=\"wp-block-related-trail__title\">Trailhead: <strong>Salesforce for Small Business</strong></h2>\n<p>Learn how your business can benefit from this out-of-the-box CRM.</p>\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://trailhead.salesforce.com/content/learn/modules/salesforce-essentials-small-business/?d=bcta\">Visit Trail</a></div>\n</div>\n<div class=\"related-trail__mock\">\n<div class=\"related-trail__points\">+200 points</div>\n<div class=\"related-trail__eyebrow\">Trail</div>\n<p class=\"related-trail__trail-title h3\">Salesforce for Small Business</p>\n<p class=\"related-trail__trail-description\"></p>\n<div class=\"related-trail__actions\">\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\"><path clip-rule=\"evenodd\" d=\"m4.93.69.88 2.88c.04.12.16.18.27.18h2.89c.29 0 .4.38.17.56L6.79 6.04c-.1.07-.13.2-.1.32l1.12 2.96c.08.27-.2.5-.44.33L4.85 7.77c-.1-.08-.23-.08-.34 0L1.97 9.65a.29.29 0 0 1-.45-.33L2.6 6.36a.3.3 0 0 0-.1-.32L.17 4.3c-.23-.18-.1-.56.17-.56h2.89c.13 0 .23-.04.27-.18l.9-2.9c.08-.27.46-.25.54.02Z\" fill=\"#747474\" fill-rule=\"evenodd\"></path></svg>\n</div>\n<div class=\"related-trail__action\">\n<svg aria-hidden=\"true\" fill=\"none\" viewbox=\"0 0 9 5\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.16 4.5.26 0h7.8z\" fill=\"#747474\"></path></svg>\n</div>\n</div>\n</div>\n</div>\n<img alt=\"\" class=\"related-trail__illustration related-trail__foreground\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-foreground-layout-astro.png\"/>\n<img alt=\"\" class=\"related-trail__illustration related-trail__parks\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/related-trail-parks-layout-astro.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-how-small-businesses-are-using-automation-with-salesforce\">How small businesses are using automation with Salesforce</h2>\n<p>SMBs are finding significant success by choosing <a href=\"https://www.salesforce.com/mulesoft/automation/\">smart automation</a> with Salesforce. <a href=\"https://www.salesforce.com/resources/research-reports/smb-trends/\">75% of SMBs are investing in AI, recognizing its potential to transform their operations</a>. These platforms are designed for growth, offering considerable advantages over building from scratch.</p>\n<h3 class=\"wp-block-heading\">Built-in customization that‌ works</h3>\n<p>With a CRM, you have the power of customization without coding. Salesforce offers templates and drag-and-drop builders that let you tailor solutions quickly. Create personalized <a href=\"https://www.salesforce.com/marketing/customer-journey/\">customer journeys</a>, automate sales processes, and set up service queues using visual tools.</p>\n<p>Pro Suite provides drag-and-drop functionality, custom objects for data organization, and process automation. Businesses see results without development headaches.</p>\n<h3 class=\"wp-block-heading\">Real results from automation </h3>\n<p><a href=\"https://www.salesforce.com/customer-stories/fisher-and-paykel/\">Fisher &amp; Paykel</a>, a premium appliance manufacturer, transformed their customer service with Salesforce automation. They saved up to 3,300 hours per month through improved automation and self-service, while their AI-powered support became 50% faster and more effective. Service rep training time dropped by 76%, and they eliminated 30 minutes of manual effort per order.  </p>\n<p>This is the impact of choosing smart automation instead of custom development — results that keep building over time.</p>\n<h3 class=\"wp-block-heading\">Scalable and predictable costs</h3>\n<p><a href=\"https://www.salesforce.com/resources/research-reports/smb-trends/\">88% of growing SMBs are increasing their technology spending this year, focusing on solutions that scale with their success</a>. Choosing Salesforce means choosing a solution that grows with you. The architecture is clean, meaning it’s built to handle increasing data and users without performance issues. </p>\n<p>Plus, your costs are transparent and predictable, unlike the scaling expenses that come with custom development. This allows you to budget effectively and focus on expansion.</p>\n<figure class=\"wp-block-image size-full\"><a href=\"https://www.salesforce.com/agentforce/?d=bcta\"><img alt=\"Agentforce 360\" class=\"wp-image-100636\" decoding=\"async\" height=\"1080\" loading=\"lazy\" sizes=\"auto, (max-width: 1920px) 100vw, 1920px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist.webp\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist.webp 1920w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist.webp?w=889&amp;h=500 889w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist.webp?w=768&amp;h=432 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist.webp?w=1536&amp;h=864 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist.webp?w=150&amp;h=84 150w\" width=\"1920\"/></a></figure>\n<h2 class=\"wp-block-heading\" id=\"h-automation-vs-custom-code-scale-faster-with-salesforce\">Automation vs custom code: scale faster with Salesforce</h2>\n<p>Now you’ve learned the differences between automation and custom code, so you can decide for yourself. Automation offers predictable costs, faster implementation, and built-in scalability. Custom code provides you full ownership and longer development delays, ongoing maintenance, and unpredictable expenses. </p>\n<p>Smart AI-powered solutions help SMBs scale faster by automating tasks and reducing manual effort. Try them out for yourself. </p>\n<p>Start your journey with <a href=\"https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta\">Starter Suite</a> today. Looking for more customization? <a href=\"https://www.salesforce.com/small-business/pro-suite/\">Explore Pro Suite</a>. Already a Salesforce customer? <a href=\"https://www.salesforce.com/crm/foundations/\">Activate Foundations</a> and try out Agentforce 360 today.</p>\n<p><em>AI supported the writers and editors who created this article.</em></p>\n<p></p>\n<h2 class=\"wp-block-heading\" id=\"h-frequently-asked-questions-faqs\">Frequently Asked Questions (FAQs)</h2>\n<div class=\"accordion\">\n<button class=\"accordion-header\" type=\"button\">What’s the difference between automation and custom code?</button>\n<div class=\"accordion-content\">\n<p>Automation uses existing software to connect different apps and automate simple tasks. Custom code is a brand-new program built from scratch to handle unique and complex business needs.</p>\n</div>\n<button class=\"accordion-header\" type=\"button\">What should I choose automation over custom tools?</button>\n<div class=\"accordion-content\">\n<p>Opt for automation when dealing with repetitive tasks that can be standardized. Use custom code when you require complex, unique functionalities that automation tools can’t achieve.</p>\n</div>\n<button class=\"accordion-header\" type=\"button\">What are the benefits of using Salesforce for automation?</button>\n<div class=\"accordion-content\">\n<p>Salesforce automation, through tools like <a href=\"https://help.salesforce.com/s/articleView?id=platform.flow_builder.htm&amp;type=5\">Flow Builder</a>, enhances efficiency by automating tasks such as record updates and notifications, allowing your team to focus on strategic activities.</p>\n</div>\n<button class=\"accordion-header\" type=\"button\">What are the risks of relying solely on custom code?</button>\n<div class=\"accordion-content\">\n<p>Excessive use of custom code can lead to increased maintenance, longer development cycles, and potential scalability issues. Balancing automation and custom code is crucial for sustainable growth.</p>\n</div>\n<button class=\"accordion-header\" type=\"button\">How can SMBs balance automation and custom code effectively?</button>\n<div class=\"accordion-content\">\n<p>Start by automating standard processes with Flow Builder and reserve Apex for complex requirements. This approach ensures scalability and reduces technical debt.</p>\n</div>\n</div> <!-- /.accordion -->\n</div>"
+}

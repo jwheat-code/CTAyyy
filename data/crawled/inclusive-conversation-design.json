@@ -1,0 +1,112 @@
+{
+  "url": "https://www.salesforce.com/blog/inclusive-conversation-design/?bc=DB",
+  "slug": "inclusive-conversation-design",
+  "title": "Does AI Speak Your Language? 7 Ways Conversation Design Improves Inclusivity",
+  "author": "Denise Martinez",
+  "published_date": "2024-04-24T07:01:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "The motto of the artificial intelligence (AI) moment might be:quality data inputs equal quality outputs. There are many ways to unpack that statement. But let’s focus on seven ways conversation design can help make AI-enabled experiences more inclusive of the diversity of ways people input their customer relationship management (CRM) data. This matters because how a person prefers to communicate and the way they speak or write determines how they might interact with your AI. What is conversation design?How does it influence AI?Design for nuances of human communications stylesSeven ways diversity affects how people input dataBe a part of the conversation",
+      "word_count": 101,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "What is conversation design?",
+          "href": "#h-what-is-conversation-design"
+        },
+        {
+          "text": "How does it influence AI?",
+          "href": "#h-how-does-it-influence-ai"
+        },
+        {
+          "text": "Design for nuances of human communications styles",
+          "href": "http://h-design-for-nuances-of-human-communication-styles"
+        },
+        {
+          "text": "Seven ways diversity affects how people input data",
+          "href": "http://h-here-are-7-ways-diversity-affects-how-people-input-data"
+        },
+        {
+          "text": "Be a part of the conversation",
+          "href": "http://h-be-a-part-of-the-conversation"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What is conversation design?",
+      "text": "Conversation designis a field within user experience design. It focuses on the process of designing an interaction between a user and a system, via voice or text, based on the principles of human-to-human conversation. Basically, it’s the art and science of how people interact with one another.",
+      "word_count": 47,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Conversation design",
+          "href": "https://www.salesforce.com/blog/what-is-conversation-design/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "How does it influence AI?",
+      "text": "In conversation design, we know and understand that each person is unique. For a given intent, orgoal to accomplish with AI, there can be a wide range of inputs from users. As a global company with users from diverse cultures and backgrounds, we focus and embrace designing for that diversity. This includes accounting for the nuances of human communication style. Because each individual has their own communication and writing style, it can affect how they input data within their CRM. It’s essential that we understand this diversity, because we capture and use that information to ground prompts that we send to LLMs. This then impacts how contextual and relevant the generated output is. When you use Salesforce, Einstein is grounded on your data. That means that Einstein knows your business data context while theTrust Layer– guardrails –protects your sensitive datafrom exposure to large language models (LLMs).",
+      "word_count": 146,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "goal to accomplish with AI",
+          "href": "https://salesforce.com/blog/design-einstein-copilot-actions/"
+        },
+        {
+          "text": "Trust Layer",
+          "href": "https://www.salesforce.com/products/secure-ai/"
+        },
+        {
+          "text": "protects your sensitive data",
+          "href": "https://help.salesforce.com/s/articleView?id=sf.generative_ai_trust_layer.htm&type=5"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Design for nuances of human communication styles",
+      "text": "Effective communication is essential for a successful interaction. Whendesigning an interactionbetween a user and the system, it’s important to consider the diverse ways humans communicate information. Inclusivity is a core principle in designing for diversity in the world of AI and LLMs. We aim to design a diversity of ways for users to participate – by language, dialect, culture, and style – to allow for globalization at scale for the widest breadth of users. It helps us create a sense of belonging for our users. Kat Holmes, our chief design officer at Salesforce, reminds us that “inclusive designis thinking about how to recognize exclusion and then how we move toward more inclusive solutions.”",
+      "word_count": 113,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "designing an interaction",
+          "href": "https://www.nngroup.com/articles/ai-prompt-structure/"
+        },
+        {
+          "text": "Kat Holmes",
+          "href": "https://mitpress.mit.edu/9780262539487/mismatch/"
+        },
+        {
+          "text": "inclusive design",
+          "href": "https://trailhead.salesforce.com/content/learn/modules/inclusive-design"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Here are 7 ways diversity affects how people input data",
+      "text": "There are seven types of influences that affect how people input data into their CRM. Considering these aspects when designing interactions for AI will improve inclusivity. Due to personal preference or situational context, users may express themselves by writing complete sentences with proper grammar or phrases with casual language.For example, imagine an account executive who has just met with a prospect and needs to input the next steps to ensure the opportunity moves forward smoothly. The account executive might enter phrases:Next steps:send additional documents about pricinginclude applicable discountset up a meeting in two weeks, make sure key stakeholders are invited Another account executive might write in complete sentences: Next steps:Send an email to John with the additional documents about pricing and include the discount we discussed.Also, need to set up a meeting in two weeks, invite all the current participants, and include key stakeholders. The words we use allow us to effectively communicate and show credibility and expertise. However, using technical jargon or industry-specific words may have challenges when the LLM isn’t familiar with them. It’s possible the LLM could misinterpret the jargon if not given the right context. Examples of jargon:quote-to-cashsubscription managementcontract lifecycle management People may use acronyms and abbreviations to save time or because they have a shared understanding within their company. The challenge is that these short form words may have different meanings in different contexts. If the data refers to “DSR,” does it mean “daily sales report” or “deal support request?” It could mean either, but how would an LLM know what itactuallymeans? Users need to provide the right context in the description to help the LLM understand. Everyone has their own preference when it comes to formatting style. For example, they may use bullet points, lists, or a narrative. Regardless of how data was formatted, it’s important the LLM can capture the context and meaning to provide an output that’s understandable by a wide range of individuals. Users may include direct quotes or paraphrased customer feedback. To make sure the LLM correctly interprets this information and to avoid bias and misinterpretation, you must clearly label it as a customer feedback or direct quote.Also, guide the model on what pronoun to use. But, if you’re unsure, tell the model to use the common noun “customer” instead of letting the model defer to the inclusive pronoun “they.” In a business context, you don’t want to risk implying that a collective decision was made or a collective action will take place when you’re referring to a direct quote from an individual. Users may include personal notes to supplement a case or meeting summary to provide additional context. But, such a note is a form of unstructured data that can contain ambiguities or nuances. Explicitly instructing the model on the specific information to extract from the given data will help ensure the LLM processes it correctly and generates relevant outputs. Regional differences or personal preference can influence how users format or structure dates, currency amounts, even addresses. Accounting for a range of formats helps the LLM provide accurate and contextually relevant outputs. Example date formats:10 April 2024April 10, 20244.10.2410.04.24 Example currency formats:$245,000.00€245.000,00",
+      "word_count": 523,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "heading": "Be a part of the conversation",
+      "text": "We all have different approaches to language and that influences how we communicate and input data into systems. In this moment of history where AI is reshaping our world, let’s look at language and conversation design from the perspective of how it’s used in real life. Let’s assure users that we understand the diversity of human communication style. It’s our responsibility to ensure AI understands humans.",
+      "word_count": 66,
+      "has_existing_cta": false,
+      "inline_links": []
+    }
+  ],
+  "existing_ctas": [],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>The motto of the artificial intelligence (AI) moment might be: <strong>quality data inputs equal quality outputs</strong>. There are many ways to unpack that statement. But let’s focus on seven ways conversation design can help make AI-enabled experiences more inclusive of the diversity of ways people input their customer relationship management (CRM) data.</p>\n<p>This matters because how a person prefers to communicate and the way they speak or write determines how they might interact with your AI. </p>\n<h3 class=\"wp-block-heading\" id=\"h-what-we-ll-cover\">What we’ll cover:</h3>\n<p><a href=\"#h-what-is-conversation-design\">What is conversation design?</a><br/><a href=\"#h-how-does-it-influence-ai\">How does it influence AI?</a><br/><a href=\"http://h-design-for-nuances-of-human-communication-styles\">Design for nuances of human communications styles</a><br/><a href=\"http://h-here-are-7-ways-diversity-affects-how-people-input-data\">Seven ways diversity affects how people input data</a><br/><a href=\"http://h-be-a-part-of-the-conversation\">Be a part of the conversation</a></p>\n<h2 class=\"wp-block-heading\" id=\"h-what-is-conversation-design\">What is conversation design?</h2>\n<p><a href=\"https://www.salesforce.com/blog/what-is-conversation-design/\" rel=\"noopener\" target=\"_blank\">Conversation design</a> is a field within user experience design. It focuses on the process of designing an interaction between a user and a system, via voice or text, based on the principles of human-to-human conversation. Basically, it’s the art and science of how people interact with one another.</p>\n<h2 class=\"wp-block-heading\" id=\"h-how-does-it-influence-ai\">How does it influence AI?</h2>\n<p>In conversation design, we know and understand that each person is unique. For a given intent, or <a href=\"https://salesforce.com/blog/design-einstein-copilot-actions/\">goal to accomplish with AI</a>, there can be a wide range of inputs from users.</p>\n<p>As a global company with users from diverse cultures and backgrounds, we focus and embrace designing for that diversity. This includes accounting for the nuances of human communication style. Because each individual has their own communication and writing style, it can affect how they input data within their CRM. </p>\n<p>It’s essential that we understand this diversity, because we capture and use that information to ground prompts that we send to LLMs. This then impacts how contextual and relevant the generated output is. </p>\n<p>When you use Salesforce, Einstein is grounded on your data. That means that Einstein knows your business data context while the <a href=\"https://www.salesforce.com/products/secure-ai/\" rel=\"noopener\" target=\"_blank\">Trust Layer</a> – guardrails – <a href=\"https://help.salesforce.com/s/articleView?id=sf.generative_ai_trust_layer.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">protects your sensitive data</a> from exposure to large language models (LLMs). </p>\n<h2 class=\"wp-block-heading\" id=\"h-design-for-nuances-of-human-communication-styles\">Design for nuances of human communication styles</h2>\n<p>Effective communication is essential for a successful interaction. When <a href=\"https://www.nngroup.com/articles/ai-prompt-structure/\" rel=\"noopener\" target=\"_blank\">designing an interaction</a> between a user and the system, it’s important to consider the diverse ways humans communicate information.</p>\n<p>Inclusivity is a core principle in designing for diversity in the world of AI and LLMs. We aim to design a diversity of ways for users to participate – by language, dialect, culture, and style – to allow for globalization at scale for the widest breadth of users. It helps us create a sense of belonging for our users.</p>\n<p><a href=\"https://mitpress.mit.edu/9780262539487/mismatch/\" rel=\"noopener\" target=\"_blank\">Kat Holmes</a>, our chief design officer at Salesforce, reminds us that “<a href=\"https://trailhead.salesforce.com/content/learn/modules/inclusive-design\" rel=\"noopener\" target=\"_blank\">inclusive design</a> is thinking about how to recognize exclusion and then how we move toward more inclusive solutions.” </p>\n<h2 class=\"wp-block-heading\" id=\"h-here-are-7-ways-diversity-affects-how-people-input-data\">Here are 7 ways diversity affects how people input data</h2>\n<p>There are seven types of influences that affect how people input data into their CRM. Considering these aspects when designing interactions for AI will improve inclusivity.</p>\n<h3 class=\"wp-block-heading\" id=\"h-1-writing-style\">1. Writing style</h3>\n<p>Due to personal preference or situational context, users may express themselves by writing complete sentences with proper grammar or phrases with casual language.<br/><br/>For example, imagine an account executive who has just met with a prospect and needs to input the next steps to ensure the opportunity moves forward smoothly. The account executive might enter phrases:<br/><br/><em><strong>Next steps:</strong><br/>send additional documents about pricing<br/>include applicable discount<br/>set up a meeting in two weeks, make sure key stakeholders are invited</em></p>\n<p>Another account executive might write in complete sentences:</p>\n<p><em><strong>Next steps:</strong><br/>Send an email to John with the additional documents about pricing and include the discount we discussed.<br/>Also, need to set up a meeting in two weeks, invite all the current participants, and include key stakeholders.</em><br/></p>\n<h3 class=\"wp-block-heading\" id=\"h-2-use-of-technical-jargon\">2. Use of technical jargon</h3>\n<p>The words we use allow us to effectively communicate and show credibility and expertise. However, using technical jargon or industry-specific words may have challenges when the LLM isn’t familiar with them. It’s possible the LLM could misinterpret the jargon if not given the right context.</p>\n<p><strong>Examples of jargon:</strong><br/>quote-to-cash<br/>subscription management<br/>contract lifecycle management</p>\n<h3 class=\"wp-block-heading\" id=\"h-3-acronyms-and-abbreviations\">3. Acronyms and abbreviations<strong> </strong></h3>\n<p>People may use acronyms and abbreviations to save time or because they have a shared understanding within their company. The challenge is that these short form words may have different meanings in different contexts.</p>\n<p>If the data refers to “DSR,” does it mean “daily sales report” or “deal support request?” It could mean either, but how would an LLM know what it <em>actually</em> means? Users need to provide the right context in the description to help the LLM understand.</p>\n<p></p>\n<h3 class=\"wp-block-heading\" id=\"h-4-formatting-style\"><strong>4. Formatting style</strong></h3>\n<p>Everyone has their own preference when it comes to formatting style. For example, they may use bullet points, lists, or a narrative. Regardless of how data was formatted, it’s important the LLM can capture the context and meaning to provide an output that’s understandable by a wide range of individuals.</p>\n<h3 class=\"wp-block-heading\" id=\"h-5-customer-feedback-or-quotes\">5. Customer feedback or quotes</h3>\n<p>Users may include direct quotes or paraphrased customer feedback. To make sure the LLM correctly interprets this information and to avoid bias and misinterpretation, you must clearly label it as a customer feedback or direct quote.<br/><br/>Also, guide the model on what pronoun to use. But, if you’re unsure, tell the model to use the common noun “customer” instead of letting the model defer to the inclusive pronoun “they.” In a business context, you don’t want to risk implying that a collective decision was made or a collective action will take place when you’re referring to a direct quote from an individual.</p>\n<h3 class=\"wp-block-heading\" id=\"h-6-personal-notes\">6. Personal notes</h3>\n<p>Users may include personal notes to supplement a case or meeting summary to provide additional context. But, such a note is a form of unstructured data that can contain ambiguities or nuances. Explicitly instructing the model on the specific information to extract from the given data will help ensure the LLM processes it correctly and generates relevant outputs. </p>\n<h3 class=\"wp-block-heading\" id=\"h-7-regional-nuances-in-formats-structure-and-word-choice\">7. Regional nuances in formats, structure, and word choice</h3>\n<p>Regional differences or personal preference can influence how users format or structure dates, currency amounts, even addresses. Accounting for a range of formats helps the LLM provide accurate and contextually relevant outputs.</p>\n<p><strong>Example date formats:</strong><br/>10 April 2024<br/>April 10, 2024<br/>4.10.24<br/>10.04.24</p>\n<p><strong>Example currency formats:</strong><br/>$245,000.00<br/>€245.000,00</p>\n<h2 class=\"wp-block-heading\" id=\"h-be-a-part-of-the-conversation\">Be a part of the conversation</h2>\n<p>We all have different approaches to language and that influences how we communicate and input data into systems. In this moment of history where AI is reshaping our world, let’s look at language and conversation design from the perspective of how it’s used in real life. Let’s assure users that we understand the diversity of human communication style. </p>\n<p>It’s our responsibility to ensure AI understands humans.</p>\n</div>"
+}

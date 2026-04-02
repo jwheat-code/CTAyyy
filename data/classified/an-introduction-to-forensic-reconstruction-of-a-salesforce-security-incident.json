@@ -1,0 +1,67 @@
+{
+  "url": "https://www.salesforce.com/blog/an-introduction-to-forensic-reconstruction-of-a-salesforce-security-incident/?bc=DB",
+  "slug": "an-introduction-to-forensic-reconstruction-of-a-salesforce-security-incident",
+  "title": "An Introduction to Forensic Reconstruction of a Salesforce Security Incident",
+  "author": "Eoghan Casey, Matt Potts",
+  "published_date": "2025-12-30T21:18:42+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "security",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Salesforce Security Made Simple with Invisibles, Configurables and Enhanceables",
+        "body": "Salesforce Security Made Simple with Invisibles, Configurables and EnhanceablesWant a fun, approachable way to explain security best practices to your admin and dev networks?Listen to the latest episode of Awesome Admins!",
+        "button_text": "Listen Now",
+        "button_url": "https://admin.salesforce.com/blog/2025/salesforce-security-made-simple-with-invisibles-configurables-enhanceables-podcast?_ga=2.188292712.1913174565.1766096104-461065394.1762284144&_gac=1.48590932.1765305415.Cj0KCQiArt_JBhCTARIsADQZayk_i4MuYnTHSZFn2SnB-ShSo9gVobmwp4AVLv5pBETKC8pn6edK-AsaAiqoEALw_wcB",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.65,
+  "misaligned_count": 0
+}

@@ -2,47 +2,45 @@
   "url": "https://www.salesforce.com/blog/internet-marketing/?bc=DB",
   "slug": "internet-marketing",
   "title": "Internet Marketing 101: Online Campaigns for SMEs",
+  "author": "More by Caylin",
+  "published_date": "2026-03-25T14:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "marketing_leader",
-        "funnel_stage": "awareness",
+        "funnel_stage": "consideration",
         "product_alignment": [
           "sales_cloud",
-          "marketing_cloud",
-          "starter"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "internet_marketing",
-          "sme",
-          "crm",
-          "digital_strategy",
-          "online_campaigns"
+          "small_business",
+          "crm"
         ],
-        "confidence": 0.9,
-        "rationale": "This is clearly educational content targeting SME business leaders who are learning about internet marketing fundamentals. The \"101\" in the title and introductory nature (\"roadmap to understanding\") indicates awareness-stage content. The mention of CRM for personalization aligns with Sales Cloud, while the focus on online campaigns relates to Marketing Cloud. The SME focus makes Starter Suite relevant."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Key Takeaways'. Products: sales_cloud, marketing_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders learning about internet marketing for SMEs. This AI guide aligns with the digital strategy focus and is at the right awareness funnel stage. After reading about CRM and digital strategy implementation, readers would naturally want to explore AI capabilities for their business."
-        },
-        {
           "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Directly relevant to SME leaders who just learned about internet marketing and CRM personalization. The consideration-stage CTA is one step ahead of the awareness content, asking 'What can you do with a CRM built to reach more prospects?' which naturally follows the section's discussion of using CRM for marketing connections."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
-          "score": 0.8,
-          "match_rationale": "Excellent fit for business leaders in the awareness stage learning about internet marketing strategies. After reading about implementing marketing strategies and understanding audiences, they would benefit from industry insights and benchmarks from the State of Marketing report to inform their approach."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -53,35 +51,38 @@
       "section_heading": "What is internet marketing and why does your SME need it?",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
-        "funnel_stage": "awareness",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "marketing_cloud",
-          "general"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "digital_marketing",
-          "sme",
-          "online_campaigns",
-          "marketing_basics",
-          "internet_marketing"
+          "crm",
+          "ai_tools",
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This is clearly educational content defining internet marketing basics for SMEs. The reader intent is learning (defining \"what is\" internet marketing), targeting business leaders who may not be familiar with digital marketing concepts. It's awareness stage content that introduces the concept without pushing specific solutions. While it mentions various marketing channels that align with Marketing Cloud, it's general educational content about digital marketing fundamentals."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is internet marketing and why does your SME need it?'. Products: sales_cloud, marketing_cloud. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
-          "score": 0.75,
-          "match_rationale": "Excellent fit for business leaders seeking to understand marketing trends and best practices. After reading about internet marketing fundamentals, they would naturally want to see current industry data and benchmarks. Matches the awareness funnel stage perfectly."
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage marketing_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.65,
-          "match_rationale": "Good general resource for small business leaders who are now aware of internet marketing's importance. This CTA moves them from awareness to consideration by showing how Salesforce specifically helps small businesses, which aligns with their SME focus and business leader persona."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -92,40 +93,38 @@
       "section_heading": "Build your online foundation",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "small_business_owner",
         "funnel_stage": "awareness",
         "product_alignment": [
           "sales_cloud",
           "marketing_cloud"
         ],
         "topic_tags": [
-          "internet_marketing",
-          "sme",
-          "customer_profiling",
           "crm",
-          "goal_setting"
+          "data_analytics",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This is educational content teaching SME basics of internet marketing strategy. The reader is learning foundational concepts like customer profiling and SMART goals. It mentions CRM and Salesforce marketing tools but focuses on conceptual education rather than product evaluation. Primary audience is business leaders at SMEs who need to understand marketing fundamentals, with marketing leaders as secondary audience."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Build your online foundation'. Products: sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment: This guide directly addresses small business leaders who just learned about CRM and goal-setting for internet marketing. The AI guide provides the next logical step in their learning journey, matching the awareness funnel stage and business_leader persona."
-        },
-        {
-          "cta_id": "small-business-marketing",
-          "score": 0.75,
-          "match_rationale": "Strong match: After reading about building online foundations and using CRM for customer profiling, business leaders would naturally want to learn more about what CRM can do for marketing and reaching prospects. This moves them from awareness to consideration."
-        },
-        {
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.7,
-          "match_rationale": "Good educational fit: Business leaders who just learned about CRM importance and goal-setting would benefit from structured learning about Salesforce essentials. Maintains awareness stage while building product knowledge relevant to their SME context."
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -135,24 +134,23 @@
       "section_index": 3,
       "section_heading": "Choose the right digital channels for internet marketing",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
+        "reader_intent": "evaluating",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "marketing_leader",
-        "funnel_stage": "awareness",
+        "funnel_stage": "consideration",
         "product_alignment": [
-          "marketing_cloud",
           "sales_cloud",
-          "service_cloud"
+          "service_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "digital_marketing",
-          "seo",
-          "sem",
           "small_business",
-          "channel_strategy"
+          "crm",
+          "data_analytics",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This educational content teaches SME leaders about digital marketing fundamentals without promoting specific Salesforce products. The learning intent and awareness stage are evident from the \"101\" title and instructional tone. References to CRM data, customer service tools, and social platforms align with Salesforce's marketing and service solutions, though not explicitly mentioned."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Choose the right digital channels for internet marketing'. Products: sales_cloud, service_cloud, marketing_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
@@ -160,12 +158,17 @@
         {
           "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Perfect alignment - targets business leaders learning about digital marketing channels. The CTA 'What can you do with a CRM built to reach more prospects?' directly connects to the section's focus on selecting the right channels to reach specific audiences. Consideration-stage CTA is appropriate for awareness content."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders exploring digital marketing strategies. The broad 'Salesforce works for small businesses' message aligns with readers who are learning about channel selection and may be considering how CRM fits into their marketing strategy."
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -175,24 +178,20 @@
       "section_index": 4,
       "section_heading": "Measure and optimize your online marketing efforts",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "problem_solving",
         "primary_persona": "marketing_leader",
         "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
           "sales_cloud",
-          "general"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "digital_marketing",
-          "sme",
-          "marketing_metrics",
-          "campaign_optimization",
-          "measurement"
+          "data_analytics",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This is educational content explaining fundamental marketing measurement concepts for SMEs. The reader intent is learning (explaining \"what is\" various metrics like CTR, engagement rate, etc.). The primary persona is marketing_leader since it focuses on marketing metrics and optimization. It's awareness stage because it's teaching basic concepts rather than positioning specific solutions. The CTA mentions CRM capabilities but the content is broadly educational about digital marketing measurement."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Measure and optimize your online marketing efforts'. Products: sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "What can you do with a CRM built to reach more prospects?",
@@ -202,32 +201,28 @@
         "position_after_section": 4
       },
       "existing_cta_score": {
-        "relevance_score": 0.4,
-        "funnel_alignment": "mismatch",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
-        "product_alignment": "partial",
-        "issues": [
-          "Funnel stage mismatch: section is awareness-focused (teaching measurement) but CTA is decision-stage (trial)",
-          "CTA jumps straight to product trial without addressing the reader's current need to understand marketing metrics",
-          "Missing educational bridge between measurement concepts and CRM solution"
-        ],
-        "rationale": "The CTA pushes for a trial/demo (\"Find out for free\") when the reader is still in learning mode about marketing measurement and optimization."
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect match for marketing leaders learning about measurement and optimization. The State of Marketing report provides benchmarks and insights directly relevant to the marketing metrics and campaign optimization topics covered. Aligns with awareness stage funnel and marketing_leader persona."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for marketing leaders at SMEs who just learned about measurement and optimization. An AI guide for small business provides the next logical step - understanding how AI can enhance their marketing measurement efforts. Matches SME focus and awareness stage."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "marketing-resources-revenue-marketing-platforms-for",
-          "score": 0.7,
-          "match_rationale": "Strong fit for marketing leaders seeking to optimize campaigns. The Forrester Wave report on Revenue Marketing Platforms provides authoritative insights into tools and strategies for marketing measurement and optimization. Appropriate for awareness stage learning about marketing technology solutions."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -237,43 +232,44 @@
       "section_index": 5,
       "section_heading": "Connect your internet marketing and business operations",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "decision",
         "product_alignment": [
+          "agentforce",
           "sales_cloud",
           "marketing_cloud",
-          "service_cloud",
-          "agentforce"
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "internet_marketing",
-          "sme",
-          "crm_integration",
-          "marketing_automation",
-          "lead_management"
+          "ai_agents",
+          "crm",
+          "data_analytics",
+          "productivity",
+          "ecommerce",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides specific, actionable guidance on connecting marketing with business operations for SMEs. The reader intent is \"implementing\" because it offers concrete steps and automation examples. The primary persona is \"business_leader\" as SME owners/managers need to understand cross-functional integration, with \"marketing_leader\" as secondary since they'd execute these strategies. It's \"consideration\" stage because readers are evaluating how to integrate systems rather than just learning concepts. High confidence due to clear how-to content and specific Salesforce product mentions (Agentforce 360, CRM automation features)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Connect your internet marketing and business operations'. Products: agentforce, sales_cloud, marketing_cloud, commerce_cloud. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.95,
-          "match_rationale": "Perfect match for business leaders implementing AI automation solutions. The section discusses Agentforce 360 and automation tools, and this CTA directly addresses growing small businesses with AI agents. Matches the consideration funnel stage and targets the exact use case discussed."
-        },
-        {
-          "cta_id": "crm-foundations",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Highly relevant for business leaders looking to integrate marketing and business operations. The section emphasizes using CRM to capture interactions and prepare data, which aligns perfectly with getting data ready for AI with Salesforce Foundations. Matches consideration stage."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage marketing_leader reader."
         },
         {
-          "cta_id": "small-business-marketing",
-          "score": 0.75,
-          "match_rationale": "Good fit for the marketing automation and lead management focus of the section. Addresses reaching more prospects with a CRM, which connects to the section's theme of connecting internet marketing with business operations. Appropriate for consideration stage."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -283,24 +279,25 @@
       "section_index": 6,
       "section_heading": "Internet marketing made easy with CRM",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "business_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "marketing_leader",
         "funnel_stage": "decision",
         "product_alignment": [
-          "starter",
           "agentforce",
-          "sales_cloud"
+          "sales_cloud",
+          "marketing_cloud",
+          "starter"
         ],
         "topic_tags": [
+          "ai_agents",
           "small_business",
-          "internet_marketing",
           "crm",
-          "digital_campaigns",
-          "startup"
+          "customer_service",
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly in the decision stage with multiple direct product CTAs (free trial of Starter Suite, Pro Suite, Agentforce 360). The content provides actionable implementation advice and FAQs for SMEs ready to act. Primary persona is business leaders at small companies, with secondary focus on marketing leaders who would implement these campaigns."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Internet marketing made easy with CRM'. Products: agentforce, sales_cloud, marketing_cloud, starter. Funnel: decision."
       },
       "existing_cta": {
         "heading": "",
@@ -310,38 +307,36 @@
         "position_after_section": 6
       },
       "existing_cta_score": {
-        "relevance_score": 0.25,
+        "relevance_score": 0.5,
         "funnel_alignment": "mismatch",
-        "persona_match": "partial",
-        "product_alignment": "partial",
+        "persona_match": "match",
+        "product_alignment": "match",
         "issues": [
-          "Major funnel stage mismatch - section is decision-stage with explicit trial CTAs, but CTA sends to awareness-stage learning content",
-          "Missed conversion opportunity - reader ready to try products is sent to educational materials instead",
-          "Weak CTA presentation - no heading or body text to contextualize the Trail visit"
+          "Funnel mismatch: CTA is awareness-stage but section is decision-stage"
         ],
-        "rationale": "The CTA directs to Trailhead learning content when the section explicitly encourages readers to start free trials and activate products, creating a major funnel stage mismatch."
+        "rationale": "CTA targets awareness-stage readers; section is decision-stage. Product alignment: match."
       },
       "recommendations": [
         {
           "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.95,
-          "match_rationale": "Perfect match - the section mentions 'Start your journey with a free trial of Starter Suite today' and this CTA directly aligns with that call to action. Business leaders in the decision stage for small business CRM solutions would find this highly relevant after learning about internet marketing with CRM."
-        },
-        {
-          "cta_id": "form-signup-freetrial-prosuite",
           "score": 0.85,
-          "match_rationale": "Strong match - the section mentions 'Looking for more customization? Explore Pro Suite' making this CTA highly relevant. Business leaders who need more advanced features after reading about basic CRM for internet marketing would be interested in this decision-stage trial offer."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-lead-management",
-          "score": 0.75,
-          "match_rationale": "Good match - this CTA targets growing businesses with CRM solutions, which aligns with business leaders implementing internet marketing strategies. The decision-stage funnel and small business focus make it relevant for readers looking to boost sales through CRM after learning about internet marketing."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.5,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.09285714285714286,
-  "misaligned_count": 7
+  "overall_health_score": 0.1857,
+  "misaligned_count": 5
 }

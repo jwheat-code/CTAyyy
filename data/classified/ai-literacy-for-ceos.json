@@ -2,47 +2,46 @@
   "url": "https://www.salesforce.com/blog/ai-literacy-for-ceos/?bc=DB",
   "slug": "ai-literacy-for-ceos",
   "title": "For CEOs, AI Fluency Is the New MBA",
+  "author": "More by Lisa",
+  "published_date": "2026-01-05T18:31:59+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "implementing",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "awareness",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
         "product_alignment": [
           "agentforce",
-          "einstein_ai",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_fluency",
-          "ceo_leadership",
-          "digital_transformation",
-          "ai_strategy",
-          "executive_education"
+          "ai_agents",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a thought leadership piece targeting CEOs and senior business leaders who need to understand AI's strategic importance. The content is educational (learning intent) and focuses on awareness-stage concepts about AI leadership requirements rather than specific Salesforce solutions. While it mentions AI agents (relevant to Agentforce), it's primarily conceptual rather than product-focused."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Key Takeaways'. Products: agentforce, sales_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Perfect match for business leaders reading about agentic AI and enterprise transformation. The section discusses redesigning business into 'agentic enterprise' and this CTA offers insights into how businesses are actually using AI agents. Matches awareness funnel stage and agentforce product alignment."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for CEOs reading about AI fluency requirements. The section emphasizes the gap in CEO AI knowledge and this research specifically addresses how CEOs feel about agentic AI. Good consideration-stage follow-up for awareness content about CEO AI preparedness."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.7,
-          "match_rationale": "Strong alignment with the section's focus on AI strategy for business leaders. After reading about the importance of AI fluency for CEOs, a strategic playbook for agentic AI is a logical next step. Matches awareness funnel stage and provides actionable guidance for the challenges discussed."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -52,23 +51,20 @@
       "section_index": 1,
       "section_heading": "AI literacy for CEOs is becoming part of the leadership toolkit",
       "classification": {
-        "reader_intent": "inspiring",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
-        "secondary_persona": null,
-        "funnel_stage": "awareness",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
         "product_alignment": [
           "agentforce",
-          "einstein_ai"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "ceo_leadership",
-          "digital_transformation",
-          "agentic_enterprise",
-          "ai_strategy"
+          "productivity",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This is thought leadership content aimed at inspiring CEOs to think strategically about AI. The focus is on high-level concepts like AI fluency and agentic enterprise rather than specific product evaluation. The BCG \"electricity moment\" analogy and discussion of redesigning business processes positions this as visionary/inspiring content at the awareness stage."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'AI literacy for CEOs is becoming part of the leadership toolkit'. Products: agentforce, sales_cloud. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "What’s your agentic AI strategy?",
@@ -79,22 +75,27 @@
       },
       "existing_cta_score": {
         "relevance_score": 0.8,
-        "funnel_alignment": "match",
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "The CTA offers educational content (playbook) that aligns with the awareness stage, targets business leaders appropriately, and connects well to the AI/Agentforce discussion, though the button text could be more specific."
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Highly relevant for CEOs who just read about AI literacy being part of the leadership toolkit. This research on CEO feelings about agentic AI provides the next logical step for leaders wanting to understand where they stand compared to peers in AI preparedness."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders seeking practical guidance on AI implementation. While focused on small business, the guide provides actionable AI insights that align with the section's emphasis on CEOs needing practical AI knowledge for strategic decision-making."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -104,37 +105,40 @@
       "section_index": 2,
       "section_heading": "How AI is different than everything that came before",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "inspiring",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": "sales_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "einstein_ai",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_transformation",
-          "ceo_leadership",
-          "business_strategy",
           "ai_agents",
-          "organizational_change"
+          "customer_service",
+          "data_analytics",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly educational content targeting CEOs and business leaders who need to understand AI's transformative potential. It's conceptual rather than product-focused, explaining how AI differs from previous technology shifts. The content is aimed at the awareness stage, helping leaders understand they need to think differently about AI adoption. While it mentions AI agents and references Salesforce capabilities, it's primarily thought leadership rather than solution evaluation."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'How AI is different than everything that came before'. Products: agentforce, sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders learning about AI transformation. The section discusses how AI agents can handle multistep workflows and transform business processes, and this CTA offers insights into how businesses are actually using AI agents. Aligns with agentforce product focus and awareness funnel stage."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.8,
-          "match_rationale": "Excellent fit as the section emphasizes the strategic importance of understanding AI capabilities for CEOs. This guide on implementing AI agents provides the practical next step for business leaders who want to move beyond conceptual understanding to actionable strategy."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -146,35 +150,37 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "einstein_ai",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_leadership",
-          "ceo_transformation",
-          "ai_fluency",
-          "workforce_management",
-          "digital_transformation"
+          "ai_agents",
+          "thought_leadership",
+          "trailhead"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is educational content about the need for CEOs to develop AI fluency. It's targeted at business leaders (particularly CEOs) who are learning about the importance of technical understanding in AI transformation. The content is awareness-stage as it's building understanding of a concept rather than promoting specific solutions. While it mentions AI agents and orchestration concepts related to Agentforce, it's more about leadership philosophy than product evaluation."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'A leadership paradox? Tech fluencyandhuman connection'. Products: agentforce, sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
-          "score": 0.75,
-          "match_rationale": "Directly addresses the target persona (business leaders/CEOs) and builds on the section's theme about CEO leadership in the AI era. After reading about the leadership paradox and need for technical fluency, CEOs would be interested in research about how other CEOs are preparing for agentic AI."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.65,
-          "match_rationale": "Provides a practical next step for business leaders who have just learned about the need for AI orchestration. This Agentforce quick guide would help them understand how to start implementing AI agents in their organization, moving from awareness to consideration stage."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -184,36 +190,38 @@
       "section_index": 4,
       "section_heading": "What these new expectations mean for CEOs",
       "classification": {
-        "reader_intent": "inspiring",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": "sales_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ceo_leadership",
-          "ai_transformation",
-          "executive_development",
-          "business_strategy",
-          "organizational_change"
+          "sales_automation",
+          "data_analytics",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is thought leadership content targeting CEOs and senior executives about the evolving leadership requirements in the AI era. It's inspirational/visionary content that helps leaders understand broader industry trends rather than promoting specific solutions. The focus on AI transformation and organizational change aligns with Einstein AI capabilities, though the content is more strategic than product-specific."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What these new expectations mean for CEOs'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the section's focus on AI transformation and business strategy. As CEOs are thinking about operationalizing technology and AI capabilities, this guide provides insights into how businesses are using AI agents, which is highly relevant to their strategic planning needs."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.65,
-          "match_rationale": "Good fit for business leaders seeking practical guidance on AI implementation. While focused on small business, the core content about AI strategy and implementation aligns with what CEOs need to understand about preparing their organizations for the AI era."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -225,22 +233,16 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "einstein_ai",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "ceo_leadership",
-          "digital_transformation",
-          "strategic_planning",
-          "agentic_ai"
+          "customer_service"
         ],
-        "confidence": 0.9,
-        "rationale": "This section focuses on educating CEOs about the strategic importance of AI literacy rather than promoting specific Salesforce products. The content is conceptual and thought-leadership oriented, targeting business leaders in the awareness stage who are learning about AI's strategic implications. The CTA mentions \"agentic AI\" which aligns with Salesforce's Agentforce positioning, but the primary focus is educational rather than solution-focused."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'AI literacy for CEOs: A 21st-century imperative'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "How do CEOs really feel about agentic AI?",
@@ -250,29 +252,34 @@
         "position_after_section": 5
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
-        "funnel_alignment": "match",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "Strong alignment across all dimensions with CEO persona, awareness-stage research content, and AI/agent focus, though the CTA could be more explicitly educational in tone."
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for CEOs who are thinking about AI strategy after reading about AI literacy as a leadership imperative. This research specifically addresses CEO perspectives on agentic AI, which is a natural next step for a business leader seeking to understand where they stand relative to peers."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.65,
-          "match_rationale": "Good fit for business leaders who want practical guidance after learning about the importance of AI literacy. While the guide is positioned for small businesses, the AI focus aligns well with the section's emphasis on AI as a strategic imperative for CEOs."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.27499999999999997,
+  "overall_health_score": 0.2667,
   "misaligned_count": 4
 }

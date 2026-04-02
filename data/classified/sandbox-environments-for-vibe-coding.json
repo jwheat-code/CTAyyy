@@ -2,46 +2,44 @@
   "url": "https://www.salesforce.com/blog/sandbox-environments-for-vibe-coding/?bc=DB",
   "slug": "sandbox-environments-for-vibe-coding",
   "title": "From Prompt to Prod: How to Vibe Code Responsibly at Scale in a Sandbox",
+  "author": "More by Amanda",
+  "published_date": "2026-02-10T14:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Introduction",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "implementing",
         "primary_persona": "developer",
         "secondary_persona": "it_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "einstein_ai"
+          "platform"
         ],
         "topic_tags": [
-          "vibe_coding",
-          "ai_development",
-          "sandbox_environments",
-          "responsible_ai",
-          "software_deployment"
+          "security",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This introduction section is educating readers about the concept of \"vibe coding\" and setting up the need for responsible deployment practices. The content is conceptual and educational, focusing on AI-powered development paradigms. Primary audience is developers who would be implementing these practices, with IT leaders as secondary audience for oversight. It's awareness stage as it's introducing concepts rather than evaluating specific solutions. Platform and Einstein AI are most relevant as this relates to AI-powered development on Salesforce's platform."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Introduction'. Products: platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-platform-the-salesforce-devsecops-guide",
-          "score": 0.85,
-          "match_rationale": "Perfect match for developers learning about responsible AI deployment. The DevSecOps guide directly addresses the section's focus on moving from build to deploy responsibly, which is exactly what developers need after learning about vibe coding and sandbox environments."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "content-learn-modules-einstein-for-developers",
-          "score": 0.75,
-          "match_rationale": "Strong fit for developers in awareness stage learning about AI development. This learning trail complements the section's discussion of AI-powered development and would naturally follow a reader's interest in understanding Einstein AI capabilities for development."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.65,
-          "match_rationale": "Good match for developers concerned with responsible deployment practices. After reading about the need to properly vet vibe coded apps, developers would be interested in learning about data security practices like masking and seeding in development environments."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -53,39 +51,40 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "developer",
-        "secondary_persona": "it_leader",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
+          "einstein_ai",
           "platform"
         ],
         "topic_tags": [
-          "vibe_coding",
-          "ai_development",
-          "generative_ai",
-          "code_generation",
-          "developer_tools"
+          "ai_agents",
+          "ai_tools",
+          "data_analytics",
+          "security",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section introduces a new concept (vibe coding) in an educational \"what is\" format, targeting developers who are learning about AI-powered development tools. It's in the awareness stage as it's defining a concept rather than promoting specific solutions. The content focuses on Agentforce Vibes for Salesforce platform development."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is vibe coding?'. Products: agentforce, einstein_ai, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.85,
-          "match_rationale": "Perfect match for developers learning about vibe coding and Agentforce. This learning module directly relates to Agentforce agent testing, which is the next logical step after understanding what vibe coding is. It's educational content at the awareness stage that aligns with developer personas and Agentforce product focus."
-        },
-        {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the section's focus on AI development and Agentforce. After learning about vibe coding concepts, developers would be interested in seeing how businesses are actually implementing AI agents in practice. This guide provides valuable insights at the awareness stage."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.65,
-          "match_rationale": "Good fit for developers interested in the practical implementation of Agentforce after learning about vibe coding fundamentals. While focused on small business, it provides actionable guidance on implementing AI agents, which is relevant to the development audience at the awareness stage."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -95,41 +94,39 @@
       "section_index": 2,
       "section_heading": "A dedicated environment for innovation",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "problem_solving",
         "primary_persona": "developer",
-        "secondary_persona": "admin",
-        "funnel_stage": "consideration",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "agentforce"
+          "platform"
         ],
         "topic_tags": [
-          "sandboxes",
-          "development",
-          "testing",
-          "application_lifecycle_management",
-          "platform_development"
+          "security",
+          "collaboration",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is educational content explaining what sandboxes are and their benefits. The primary audience is developers who need to understand sandbox environments, with admins as secondary audience. It's consideration stage because readers are learning about Salesforce's specific sandbox offerings and how to choose between them. The content focuses on platform development concepts with mentions of agent lifecycle management (agentforce connection)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'A dedicated environment for innovation'. Products: platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.9,
-          "match_rationale": "Perfect alignment - this CTA offers a guide specifically about data masking and seeding, which directly relates to sandbox development practices and security concerns discussed in the section. It targets developers in the consideration stage who need to understand best practices for handling data in sandbox environments."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-signup-freetrial-platform",
-          "score": 0.85,
-          "match_rationale": "Highly relevant for developers interested in platform development. After reading about sandboxes and ALM processes, developers would naturally be interested in trying the platform themselves. The CTA promotes 'end-to-end AI development on one platform' which aligns with the platform focus and moves them toward decision stage."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.7,
-          "match_rationale": "Good fit for developers in consideration stage who want hands-on experience. After learning about sandboxes and development environments, developers would benefit from an interactive demo to see the platform capabilities firsthand. This matches their consideration-stage mindset of evaluating solutions."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -141,21 +138,19 @@
       "classification": {
         "reader_intent": "implementing",
         "primary_persona": "developer",
-        "secondary_persona": "admin",
-        "funnel_stage": "consideration",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
           "platform"
         ],
         "topic_tags": [
-          "vibe_coding",
-          "sandbox_development",
-          "ai_testing",
-          "agentforce_development",
-          "performance_testing"
+          "ai_agents",
+          "data_analytics",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides detailed technical implementation guidance on using sandboxes with Agentforce for development and testing. The step-by-step approach and technical details (Developer Sandbox, Full Copy sandbox, Scale Test) indicate implementing intent. Primary persona is developers given the focus on coding, testing, and technical environments, with admins as secondary given sandbox management relevance. Consideration stage as readers are learning about specific Salesforce development approaches rather than just awareness of concepts."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'How to vibe code responsibly in your sandbox'. Products: agentforce, platform. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Get the best of both worlds",
@@ -165,27 +160,30 @@
         "position_after_section": 3
       },
       "existing_cta_score": {
-        "relevance_score": 0.4,
-        "funnel_alignment": "mismatch",
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
         "persona_match": "match",
         "product_alignment": "partial",
         "issues": [
-          "Funnel stage mismatch: offering educational content to readers who are already implementing",
-          "Topic disconnect: section focuses on sandbox experimentation and vibe coding, CTA shifts to DevSecOps security practices",
-          "Missed conversion opportunity: readers ready for hands-on implementation could benefit from trial access or advanced resources"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "The CTA offers awareness-stage content (downloadable guide) to readers actively implementing Salesforce solutions, creating a significant funnel stage mismatch."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Perfect alignment - this section is about testing AI agents in sandboxes, and this CTA offers learning about Agentforce agent testing. The developer persona matches, and it moves them from consideration (implementing) to awareness-level learning about testing methodologies."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-signup-freetrial-platform",
-          "score": 0.75,
-          "match_rationale": "Strong match for developers who want to implement what they've learned about sandbox development and vibe coding. The platform trial allows hands-on experience with the development environment discussed in the section, moving from consideration to decision stage."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -195,23 +193,21 @@
       "section_index": 4,
       "section_heading": "Sending all the responsible vibes",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "inspiring",
         "primary_persona": "developer",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "decision",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
           "platform"
         ],
         "topic_tags": [
-          "code_development",
-          "sandbox_testing",
           "ai_agents",
-          "enterprise_development",
-          "responsible_ai"
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is clearly targeting developers with implementing intent, as it provides actionable guidance on using Agentforce Vibes and Salesforce Sandbox for development. The decision-stage classification is supported by the call-to-action directing to Trail (Salesforce's learning platform) and the assumption that readers are ready to start building. The content focuses on practical implementation rather than conceptual learning."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Sending all the responsible vibes'. Products: agentforce, platform. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "",
@@ -221,33 +217,36 @@
         "position_after_section": 4
       },
       "existing_cta_score": {
-        "relevance_score": 0.35,
-        "funnel_alignment": "mismatch",
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
         "persona_match": "match",
-        "product_alignment": "mismatch",
+        "product_alignment": "partial",
         "issues": [
-          "Funnel stage mismatch: section is decision-stage (ready to implement) but CTA offers awareness-stage educational content",
-          "Product mismatch: section focuses on Agentforce and Platform but CTA leads to Einstein learning materials",
-          "Missed conversion opportunity: decision-ready developers need sandbox access or implementation guides, not basic learning modules"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "The CTA directs to Einstein learning content when the section discusses Agentforce implementation, and offers educational content to decision-ready developers who need implementation resources."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-platform",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Perfect match - developer at decision stage for platform development. The section discusses implementing Agentforce Vibes with Salesforce Sandbox strategy, and this CTA offers a trial for 'End-to-end AI development on one platform', directly enabling the reader to start implementing what they just read about."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.65,
-          "match_rationale": "Good fit for developers focused on secure, tested development practices. The section emphasizes 'grounded, tested, and secure' development, and data masking/seeding is crucial for safe sandbox testing with realistic data while maintaining security."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.15,
-  "misaligned_count": 5
+  "overall_health_score": 0.34,
+  "misaligned_count": 3
 }

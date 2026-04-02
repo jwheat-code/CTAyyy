@@ -2,6 +2,8 @@
   "url": "https://www.salesforce.com/blog/environment-management-ai-development/?bc=DB",
   "slug": "environment-management-ai-development",
   "title": "The AI Development Guide to Choosing the Right Sandbox",
+  "author": "More by Amanda",
+  "published_date": "2026-01-16T18:02:46+00:00",
   "section_analyses": [
     {
       "section_index": 0,
@@ -9,7 +11,7 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "developer",
-        "secondary_persona": "it_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
@@ -17,32 +19,30 @@
           "platform"
         ],
         "topic_tags": [
-          "ai_development",
-          "sandbox_environments",
-          "testing",
-          "development_best_practices",
-          "ai_agents"
+          "ai_agents",
+          "platform",
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This introduction sets up an educational piece about AI development and sandbox environments. The reader is learning about the importance of proper environment management for AI development. While it mentions AI agents, it's primarily focused on development practices and tooling, making it relevant to Salesforce's platform capabilities and AI offerings. The content is conceptual and educational rather than solution-specific."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, einstein_ai, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.85,
-          "match_rationale": "Perfect match - this section is about testing AI agents in sandbox environments, and this CTA specifically offers learning about Agentforce agent testing. It aligns with the developer persona, awareness funnel stage, and directly relates to the agentforce product and testing topics discussed."
-        },
-        {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.75,
-          "match_rationale": "Strong alignment - developers reading about sandbox environments and testing would be very interested in data masking and seeding, which are critical components of effective sandbox management. This educational guide matches the awareness stage and developer persona perfectly."
-        },
-        {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.65,
-          "match_rationale": "Good fit - after learning about AI development and sandbox environments, developers would benefit from understanding how businesses are implementing AI agents in practice. This awareness-stage guide provides valuable context for the agentforce product focus."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -52,36 +52,39 @@
       "section_index": 1,
       "section_heading": "There’s a sandbox for that",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "evaluating",
         "primary_persona": "developer",
-        "secondary_persona": "admin",
+        "secondary_persona": "business_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "platform",
-          "agentforce"
+          "agentforce",
+          "sales_cloud",
+          "platform"
         ],
         "topic_tags": [
-          "sandbox_environments",
-          "development_lifecycle",
-          "ai_development",
-          "testing_environments",
-          "application_lifecycle_management"
+          "data_analytics",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides detailed technical guidance on choosing between different Salesforce sandbox types for AI development. The content is implementation-focused with specific technical specifications (storage capacities, refresh cadences) and use case recommendations. The primary audience is developers building AI agents, with admins as secondary audience who would manage these environments. While educational, it's clearly targeting readers who are already considering Salesforce's platform for their AI development needs."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'There’s a sandbox for that'. Products: agentforce, sales_cloud, platform. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-platform",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Perfect match for developers reading about sandbox environments. After learning about sandbox types, developers would naturally want to try the platform themselves. The decision-stage CTA aligns well with the consideration-stage content, moving readers one step ahead in the funnel."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.75,
-          "match_rationale": "Good fit for developers who want hands-on experience after reading about sandbox capabilities. The demo format allows them to explore the platform features they just learned about, and the consideration-stage CTA matches the section's funnel stage."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -91,23 +94,21 @@
       "section_index": 2,
       "section_heading": "Securing your sandbox",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "inspiring",
         "primary_persona": "developer",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "agentforce"
+          "platform"
         ],
         "topic_tags": [
-          "data_governance",
-          "sandbox_security",
-          "data_masking",
-          "compliance",
-          "application_lifecycle"
+          "data_analytics",
+          "security",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This is a technical implementation guide focused on securing sandboxes during AI development. The content addresses developers/IT leaders who need to implement data masking solutions for compliance. It's in the consideration stage as readers are evaluating data governance approaches. The CTA for a data masking guide reinforces the implementation intent."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Securing your sandbox'. Products: platform. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "A Guide to Data Masking & Seeding",
@@ -118,29 +119,29 @@
       },
       "existing_cta_score": {
         "relevance_score": 0.85,
-        "funnel_alignment": "adjacent",
+        "funnel_alignment": "match",
         "persona_match": "match",
-        "product_alignment": "match",
+        "product_alignment": "partial",
         "issues": [
-          "Funnel stage mismatch: offering educational guide to reader already implementing solutions"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "The CTA perfectly matches the developer persona and platform/data masking topic, but offers an awareness-stage guide when the reader is in consideration stage evaluating implementation options."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.95,
-          "match_rationale": "Perfect match - this guide directly addresses data masking and seeding, which are the exact tools mentioned in the section for securing sandbox data. The reader is in consideration stage learning about implementation, and this awareness-level resource provides deeper educational content on the specific solution discussed."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with platform security and Shield implementation, which relates to the compliance and security governance themes. While not specifically about sandboxes, it addresses the broader security implementation mindset that developers need when securing their environments."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-platform-backup-recover-datasheet",
-          "score": 0.65,
-          "match_rationale": "Relevant to data governance and protection themes discussed in the section. While focused on backup/recovery rather than sandbox masking specifically, it addresses the broader data protection concerns that developers implementing secure ALM processes would consider."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -152,34 +153,37 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "developer",
-        "secondary_persona": "it_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
           "platform"
         ],
         "topic_tags": [
-          "ai_development",
-          "sandbox_environments",
-          "agentforce",
-          "testing",
-          "deployment"
+          "ai_agents",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This section educates readers about the importance of sandboxes in AI development using Agentforce as a case study. It's educational content targeting developers and IT leaders who need to understand development best practices. The focus on sandboxes as development environments and the technical nature points to awareness-stage learning content for technical personas."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Building Agentforce for Salesforce'. Products: agentforce, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.9,
-          "match_rationale": "Perfect match for developers who just learned about Agentforce development and testing in sandboxes. This learning module on Agentforce agent testing directly follows the reader's journey from understanding the importance of testing environments to actually learning how to test agents."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.8,
-          "match_rationale": "Excellent fit for developers in awareness stage learning about Agentforce. After reading about Salesforce's own Agentforce implementation success, this guide provides broader perspective on how other businesses are using AI agents, expanding their understanding of real-world applications."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -189,23 +193,20 @@
       "section_index": 4,
       "section_heading": "Take control of your environment management",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "learning",
         "primary_persona": "developer",
-        "secondary_persona": null,
-        "funnel_stage": "consideration",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "agentforce"
+          "agentforce",
+          "platform"
         ],
         "topic_tags": [
-          "sandbox_management",
-          "development_lifecycle",
-          "environment_management",
-          "platform_development",
-          "alm"
+          "ai_agents",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is highly technical, focusing on Application Lifecycle Management (ALM) and sandbox environment management - core concerns for developers implementing Salesforce solutions. The content discusses specific platform capabilities and includes a \"Start learning\" CTA, indicating readers are in consideration phase, evaluating Salesforce's development tools and capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Take control of your environment management'. Products: agentforce, platform. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "",
@@ -215,38 +216,36 @@
         "position_after_section": 4
       },
       "existing_cta_score": {
-        "relevance_score": 0.6,
-        "funnel_alignment": "mismatch",
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
         "persona_match": "match",
         "product_alignment": "partial",
         "issues": [
-          "Funnel stage mismatch: awareness-level learning content for consideration-stage reader",
-          "Product misalignment: CTA focuses on Agentforce agent testing while section discusses platform sandbox management",
-          "Missed opportunity to provide implementation guidance or tools for developers evaluating sandbox solutions"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "The CTA directs to Agentforce agent testing content while the section discusses platform sandbox management, creating a funnel stage mismatch (awareness CTA for consideration-stage content) and product misalignment."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-platform",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Perfect match for developers implementing sandbox/environment management solutions. The CTA offers an end-to-end AI development platform trial, which directly aligns with the reader's need to take control of their development environment after learning about sandbox management capabilities."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.7,
-          "match_rationale": "Strong fit for developers in consideration stage who want hands-on experience with Salesforce products. After reading about sandbox management capabilities, developers would benefit from interactive demos to see the platform tools in action before implementation."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.65,
-          "match_rationale": "Good complementary resource for developers implementing sandbox environments. Data masking and seeding is a critical aspect of sandbox management and environment setup, making this guide valuable for readers planning their ALM implementation strategy."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.29,
+  "overall_health_score": 0.34,
   "misaligned_count": 3
 }

@@ -1,0 +1,71 @@
+{
+  "url": "https://www.salesforce.com/blog/jonathan-agentblazer/?bc=DB",
+  "slug": "jonathan-agentblazer",
+  "title": "Architecting Agents & Deploying Agentforce for Customers with Jonathan Fox",
+  "author": "Marissa Chesney",
+  "published_date": "2025-09-25T13:00:00+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud",
+          "slack",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "ai_tools",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Introduction'. Products: agentforce, service_cloud, slack, platform. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Want to meet more Agentblazers like Jonathan?",
+        "body": "Check back soon for more stories andjointhe community for the latest Agentforce content.",
+        "button_text": "Join the community",
+        "button_url": "https://www.salesforce.com/blog/ai/agents/",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.65,
+  "misaligned_count": 0
+}

@@ -2,28 +2,26 @@
   "url": "https://www.salesforce.com/agentforce/large-action-models/?bc=DB",
   "slug": "large-action-models",
   "title": "What Are Large Action Models (LAMs)?",
+  "author": "",
+  "published_date": "",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Introduction",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
           "einstein_ai"
         ],
         "topic_tags": [
-          "large_action_models",
-          "ai_agents",
-          "generative_ai",
-          "autonomous_ai",
-          "llm"
+          "ai_tools"
         ],
-        "confidence": 0.9,
-        "rationale": "This is an introductory section explaining what Large Action Models are, positioning them as AI that can take actions beyond just generating text. The reader intent is clearly educational (learning about LAMs), targeting technical leaders who need to understand this emerging AI concept. It's awareness-stage content introducing a new technology category. The mention of AI as an \"active partner\" and autonomous decision-making aligns with Salesforce's Agentforce positioning."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, einstein_ai. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
@@ -31,17 +29,17 @@
         {
           "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Perfect match for IT leaders in awareness stage learning about AI agents. The CTA offers research on how businesses are using AI agents, directly aligning with the section's focus on large action models and autonomous AI. This provides valuable industry insights for someone just learning about agentic AI."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the section's focus on AI agents and Agentforce. While targeted at small business, the content about implementing AI agents is relevant for IT leaders who need to understand practical implementation. The awareness-stage funnel matches perfectly."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.7,
-          "match_rationale": "Good fit for IT leaders wanting to learn more about Agentforce after reading about AI agents becoming active partners. The learning format suits the awareness stage, and the focus on agent testing provides practical knowledge relevant to IT leaders evaluating AI implementations."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,

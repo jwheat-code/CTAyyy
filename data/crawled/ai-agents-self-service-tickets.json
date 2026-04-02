@@ -1,0 +1,87 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-agents-self-service-tickets/?bc=DB",
+  "slug": "ai-agents-self-service-tickets",
+  "title": "How Our AI Agents Are Eliminating 70% of Employee Self-Service IT Tickets",
+  "author": "Sravan Kumar Vazrapu, Surya Kiran Chittiboyana, Anil Kumar Aruru",
+  "published_date": "2025-12-02T17:45:33+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "At a company the size of Salesforce, a “simple” employee change can be anything but, demanding flawless orchestration of data across 100+ internal and external systems, including HR, payroll, benefits, identity management and dozens of vendor applications. That’s why weturned to our own technologyto streamline processes like our onboarding usingMuleSoftandAgentforce 360. Now we’re on track to cut 70% of employee self-service IT tickets. Before using MuleSoft and Agentforce 360 for onboarding when an employee changed roles and noticed data discrepancy in different systems, it kicked off a long process with a lot of manual tickets and follow ups. A single mismatch, like a failed permissions sync due to an old department code, would mean a locked-out employee. And that locked-out employee’s first stop? Filing an IT help-desk ticket. This wasn’t just an inconvenience; it was a massive drain. We were burning approximately 2,000 high-value IT work-hours each year on “swivel-chair” data cleanup: an engineer manually cross-referencing multiple systems to find one bad entry. It was slow, expensive, and not a great experience for our employees. We knew we had to do better. Here’s how we made this tedious process an efficient one,improving the employee experienceso we could better serve our customers.",
+      "word_count": 201,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "turned to our own technology",
+          "href": "https://www.salesforce.com/blog/ai-for-lead-qualification/"
+        },
+        {
+          "text": "MuleSoft",
+          "href": "https://www.mulesoft.com/"
+        },
+        {
+          "text": "Agentforce 360",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "improving the employee experience",
+          "href": "https://blogs.mulesoft.com/automation/employee-data-integrations-a-mulesoft-for-agentforce-use-case/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "The solution: From reactive tickets to proactive AI",
+      "text": "We tackled this with a two-part strategy. First, we had to build a single source of truth for all 90+ systems. Our integration team used MuleSoft to build a network of APIs that securely unlock data from every core employee application. This created a unified“Employee 360”profile, allowing all systems to subscribe to a single, trusted stream of data. This alone was a huge step forward, but it was still reactive. If a downstream system failed to “get” the message, the data would cause discrepancies in downstream systems. This is where we flipped the model. Instead of waiting for an employee to file a ticket,we used Agentforceto support the employees for correcting these discrepancies as a self-service capability. To begin, we leveragedData 36Oas the centralized data fabric for our Agentforce agent in retrieving the context. This was essential for storing data (like integration documentation, field mapping information, FAQs and support logs) and providing system specific context to the Agent. Agentforce constantly supports our employees through our employee internal self-service portal (BaseCamp) and responds to all the user queries related to their profile information discrepancies. Here’s what it does: Identifies a mismatch:It detects when an employee’s status in one system is different from another system.Understands the “why”:It doesn’t just find the error; it analyzes it. It knows the difference between a simple processing lag and a genuine data conflict.Takes autonomous action:Agentforce doesn’t just create an alert for a human. It invokes a MuleSoft API and autonomously fixes the data discrepancy on the spot. For example, if a role change fails to sync, Agentforce resolves the issue by using a simple natural language prompt from the user. No human, no ticket, no wait time for 70% of the issues.",
+      "word_count": 286,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "we used Agentforce",
+          "href": "https://www.salesforce.com/news/stories/first-year-agentforce-customer-zero/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "The results: What this actually did for our business",
+      "text": "By shifting from a reactive “human-in-the-loop” model to a proactive, “AI-in-the-loop first” one, the impact was immediate. We are on track to completely eliminate 70% of employee self-service IT tickets.We’re projecting a reduction of hundreds of “Tier 1” support cases annually,freeing up our IT teams to focus on high-value innovation instead of data discrepancy resolution.Employee onboarding and role transitions are now seamless.A new hire gets the right access on day one, not days later. A newly promoted manager gets their new permissions in minutes, not days.For our Employees, it’s a Revolution in Experience.What used to be a 3-day wait time by filling forms and tickets is now a 5-second conversation. This is a massive driver of employee satisfaction and productivity.For our Business, it’s a Leap in Efficiency.For our operations team, this isn’t just one less ticket. It’s theeliminationof an entire category of manual, repetitive work. It’s automation that drives real operational excellence.",
+      "word_count": 152,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "What we learned (and what you can do)",
+      "text": "The biggest lesson we learned: You cannot have a world-class customer experience if it’s built on a broken employee experience. By using MuleSoft andAgentforce360, we’re not just making our employees happier. We’re giving them back the time and mental energy they need to focus on what actually matters: customers. If you want to start, focus first on the most impactful use cases. Find the friction:Ask your teams, “What’s the most common, repetitive IT ticket you file?”Map the systems:Identify the 3-5 systems involved in that one broken process.Connect and automate:Use integration to build the bridges and an AI agent to proactively manage the flows. Fixing your internal experiences is one of the fastest and most overlooked paths to a better external one.",
+      "word_count": 121,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/blog/building-agentforce-for-salesforce/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Future enhancements",
+      "text": "Being Customer Zero, we continuously use our own products to strengthen and refine the solutions we deliver. As part of this effort, we are integrating MuleSoft’s Agent Fabric for agent governance, implementing MCP server integration, and leveraging Informatica’s mastered data capabilities to improve accuracy and minimize data discrepancies.",
+      "word_count": 48,
+      "has_existing_cta": true,
+      "inline_links": []
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Read our agentic enterprise playbook",
+      "body": "How did Salesforce build an agentic enterprise? In this playbook, we show you the steps we took, so you can experience similar success.",
+      "button_text": "Take a look",
+      "button_url": "https://www.salesforce.com/blog/playbook/agentic-ai/",
+      "position_after_section": 4
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>At a company the size of Salesforce, a “simple” employee change can be anything but, demanding flawless orchestration of data across 100+ internal and external systems, including HR, payroll, benefits, identity management and dozens of vendor applications. </p>\n<p>That’s why we <a href=\"https://www.salesforce.com/blog/ai-for-lead-qualification/\">turned to our own technology</a> to streamline processes like our onboarding using <a href=\"https://www.mulesoft.com/\">MuleSoft</a> and <a href=\"https://www.salesforce.com/agentforce/\">Agentforce 360</a>. Now we’re on track to cut 70% of employee self-service IT tickets. </p>\n<p>Before using MuleSoft and Agentforce 360 for onboarding when an employee changed roles and noticed data discrepancy in different systems, it kicked off a long process with a lot of manual tickets and follow ups.</p>\n<p>A single mismatch, like a failed permissions sync due to an old department code, would mean a locked-out employee. And that locked-out employee’s first stop? Filing an IT help-desk ticket.</p>\n<p>This wasn’t just an inconvenience; it was a massive drain. We were burning approximately 2,000 high-value IT work-hours each year on “swivel-chair” data cleanup: an engineer manually cross-referencing multiple systems to find one bad entry. It was slow, expensive, and not a great  experience for our employees.</p>\n<p>We knew we had to do better. Here’s how we made this tedious process an efficient one, <a href=\"https://blogs.mulesoft.com/automation/employee-data-integrations-a-mulesoft-for-agentforce-use-case/\">improving the employee experience</a> so we could better serve our customers.</p>\n<!-- The script tag should live in the head of your page if at all possible -->\n<script async=\"\" src=\"https://play.vidyard.com/embed/v4.js\" type=\"text/javascript\"></script>\n<!-- Put this wherever you would like your player to appear -->\n<img class=\"vidyard-player-embed\" data-type=\"inline\" data-uuid=\"n1EVPmPAGREf9skZMwvapu\" data-v=\"4\" src='“https://salesforce.vidyard.com/watch/n1EVPmPAGREf9skZMwvapu\"' style=\"width: 100%; margin: auto; display: block;\"/>\n<h2 class=\"wp-block-heading\" id=\"h-the-solution-from-reactive-tickets-to-proactive-ai\"><strong>The solution: From reactive tickets to proactive AI</strong></h2>\n<p>We tackled this with a two-part strategy.</p>\n<h3 class=\"wp-block-heading\" id=\"h-part-1-building-the-foundation-with-mulesoft\"><strong>Part 1: Building the foundation with MuleSoft</strong></h3>\n<p>First, we had to build a single source of truth for all 90+ systems. Our integration team used MuleSoft to build a network of APIs that securely unlock data from every core employee application.</p>\n<p>This created a unified <strong>“Employee 360”</strong> profile, allowing all systems to subscribe to a single, trusted stream of data. This alone was a huge step forward, but it was still reactive. If a downstream system failed to “get” the message, the data would cause discrepancies in downstream systems.</p>\n<h3 class=\"wp-block-heading\" id=\"h-part-2-the-game-changer-data-36o-and-agentforce\"><strong>Part 2: The game-changer: Data 36O and Agentforce</strong></h3>\n<p>This is where we flipped the model. Instead of waiting for an employee to file a ticket, <a href=\"https://www.salesforce.com/news/stories/first-year-agentforce-customer-zero/\">we used Agentforce</a> to support the employees for correcting these discrepancies as a self-service capability.</p>\n<p>To begin, we leveraged <strong>Data 36O</strong> as the centralized data fabric for our Agentforce agent in retrieving the context. This was essential for storing data (like integration documentation, field mapping information, FAQs and support logs) and providing system specific context to the Agent. </p>\n<p>Agentforce constantly supports our employees through our employee internal self-service portal (BaseCamp) and responds to all the user queries related to their profile information discrepancies. Here’s what it does:</p>\n<ol class=\"wp-block-list\">\n<li><strong>Identifies a mismatch:</strong> It detects when an employee’s status in one system is different from another system.</li>\n<li><strong>Understands the “why”:</strong> It doesn’t just find the error; it analyzes it. It knows the difference between a simple processing lag and a genuine data conflict.</li>\n<li><strong>Takes autonomous action:</strong> Agentforce doesn’t just create an alert for a human. It invokes a MuleSoft API and autonomously fixes the data discrepancy on the spot<strong>.</strong></li>\n</ol>\n<p>For example, if a role change fails to sync, Agentforce resolves the issue by using a simple natural language prompt from the user. No human, no ticket, no wait time for 70% of the issues.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-results-what-this-actually-did-for-our-business\"><strong>The results: What this actually did for our business</strong></h2>\n<p>By shifting from a reactive “human-in-the-loop” model to a proactive, “AI-in-the-loop first” one, the impact was immediate.</p>\n<ul class=\"wp-block-list\">\n<li><strong>We are on track to completely eliminate 70% of employee self-service IT tickets.</strong> <strong>We’re projecting a reduction of hundreds of “Tier 1” support cases annually,</strong> freeing up our IT teams to focus on high-value innovation instead of data discrepancy resolution.</li>\n<li><strong>Employee onboarding and role transitions are now seamless.</strong> A new hire gets the right access on day one, not days later. A newly promoted manager gets their new permissions in minutes, not days.</li>\n<li><strong>For our Employees, it’s a Revolution in Experience.</strong> What used to be a 3-day wait time by filling forms and tickets is now a 5-second conversation. This is a massive driver of employee satisfaction and productivity.</li>\n<li><strong>For our Business, it’s a Leap in Efficiency.</strong> For our operations team, this isn’t just one less ticket. It’s the <em>elimination</em> of an entire category of manual, repetitive work. It’s automation that drives real operational excellence.</li>\n</ul>\n<h2 class=\"wp-block-heading\"><strong>What we learned (and what you can do)</strong></h2>\n<p>The biggest lesson we learned: You cannot have a world-class customer experience if it’s built on a broken employee experience.</p>\n<p>By using MuleSoft and <a href=\"https://www.salesforce.com/blog/building-agentforce-for-salesforce/\">Agentforce</a> 360, we’re not just making our employees happier. We’re giving them back the time and mental energy they need to focus on what actually matters: customers.</p>\n<p>If you want to start, focus first on the most impactful use cases.</p>\n<ol class=\"wp-block-list\">\n<li><strong>Find the friction:</strong> Ask your teams, “What’s the most common, repetitive IT ticket you file?”</li>\n<li><strong>Map the systems:</strong> Identify the 3-5 systems involved in that one broken process.</li>\n<li><strong>Connect and automate:</strong> Use integration to build the bridges  and an AI agent to proactively manage the flows.</li>\n</ol>\n<p>Fixing your internal experiences is one of the fastest and most overlooked paths to a better external one.</p>\n<h2 class=\"wp-block-heading\" id=\"h-future-enhancements\"><strong>Future enhancements</strong></h2>\n<p>Being Customer Zero, we continuously use our own products to strengthen and refine the solutions we deliver. As part of this effort, we are integrating MuleSoft’s Agent Fabric for agent governance, implementing MCP server integration, and leveraging Informatica’s mastered data capabilities to improve accuracy and minimize data discrepancies.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Read our agentic enterprise playbook</h2>\n<p class=\"wp-block-offer__description\">How did Salesforce build an agentic enterprise? In this playbook, we show you the steps we took, so you can experience similar success.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/blog/playbook/agentic-ai/\" target=\"_self\">Take a look</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n</div>"
+}

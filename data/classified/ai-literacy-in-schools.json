@@ -2,45 +2,46 @@
   "url": "https://www.salesforce.com/blog/ai-literacy-in-schools/?bc=DB",
   "slug": "ai-literacy-in-schools",
   "title": "Today’s Lesson Plan: How Students — And Teachers — Are Becoming AI Literate",
+  "author": "More by Laura",
+  "published_date": "2026-01-13T22:10:03+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "AI Synopsis",
       "classification": {
-        "reader_intent": "inspiring",
-        "primary_persona": "business_leader",
-        "secondary_persona": "general",
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "einstein_ai",
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "education",
-          "corporate_social_responsibility",
-          "ai_ethics",
-          "youth_development"
+          "ai_tools",
+          "platform",
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This section tells an inspiring story about AI literacy education in schools, showcasing Salesforce's community investment. It's awareness-stage content that demonstrates thought leadership and social impact rather than promoting specific products. The narrative appeals to business leaders interested in responsible AI adoption and corporate citizenship, with inspiring intent showing how AI education can be implemented thoughtfully."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'AI Synopsis'. Products: einstein_ai, sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect match for a business leader reading about AI education and ethics. After learning about AI literacy in classroom settings, they would be inspired to explore AI guidance for their own business context. The awareness-level funnel stage aligns perfectly."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Strong fit as it connects AI literacy concepts to real business applications. A business leader inspired by AI education would want to see how other businesses are practically implementing AI agents. Awareness stage matches the reader's current mindset."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.7,
-          "match_rationale": "Good alignment for business leaders inspired by AI education who want practical implementation guidance. The focus on AI agents connects well to the AI literacy themes, though it's slightly more tactical than the inspirational tone of the section."
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -50,23 +51,19 @@
       "section_index": 1,
       "section_heading": "Why it’s so important to teach AI literacy",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "agentforce"
+          "einstein_ai"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "education",
-          "workforce_preparation",
-          "digital_citizenship",
-          "ai_training"
+          "platform",
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is educational content about AI literacy in schools, targeting leaders who need to understand workforce preparation trends. The reader intent is learning about AI literacy concepts rather than evaluating specific solutions. The CTA about \"agentic AI strategy\" suggests alignment with Salesforce's AI products like Einstein AI and Agentforce, even though the content itself is industry/trend focused rather than product-specific."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Why it’s so important to teach AI literacy'. Products: einstein_ai. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "What’s your agentic AI strategy?",
@@ -76,27 +73,30 @@
         "position_after_section": 1
       },
       "existing_cta_score": {
-        "relevance_score": 0.3,
-        "funnel_alignment": "mismatch",
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
         "persona_match": "match",
         "product_alignment": "partial",
         "issues": [
-          "Funnel stage mismatch - section is awareness-focused on AI literacy basics while CTA pushes enterprise strategy",
-          "Topic disconnect - section discusses K-12 AI education while CTA targets enterprise agentic AI deployment",
-          "Premature conversion attempt - readers learning about AI literacy aren't ready for enterprise AI strategy guides"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "The CTA's strategic focus on agentic AI fits business leaders but is too advanced for readers learning about basic AI literacy in education."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Strong match for business leaders interested in understanding how other businesses are using AI agents. After learning about AI literacy importance, they'd want to see real-world enterprise applications. Product alignment with agentforce and appropriate awareness-stage content."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.65,
-          "match_rationale": "Good fit as an Agentforce quick guide for business leaders who just learned about AI importance. While it's marketing-focused, it provides actionable AI guidance at the awareness stage that aligns with their newfound understanding of AI's business relevance."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -106,62 +106,78 @@
       "section_index": 2,
       "section_heading": "AI Synopsis",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "general",
-        "secondary_persona": null,
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "small_business_owner",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "sales_cloud",
+          "industry_clouds"
         ],
         "topic_tags": [
-          "corporate_social_responsibility",
-          "education",
-          "ai_literacy",
-          "community_investment",
-          "stem_education"
+          "small_business",
+          "customer_service",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section focuses on Salesforce's educational and community initiatives rather than product features. The content is informational about corporate social responsibility programs, targeting a general audience interested in learning about the company's community impact. No specific products are mentioned, and there's no sales intent - it's pure brand/awareness content about Salesforce's commitment to education."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'AI Synopsis'. Products: sales_cloud, industry_clouds. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [],
-      "recommend_no_cta": true,
-      "no_cta_reason": "This section is purely educational content about Salesforce's corporate social responsibility and community investment initiatives in education. There is no product angle or business context that would make any CTA relevant. The reader is learning about Salesforce's philanthropic efforts, not considering business solutions. All available CTAs are product-focused for sales, marketing, or Agentforce, which would feel out of place and irrelevant after reading about educational grants and nonprofit partnerships."
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
     },
     {
       "section_index": 3,
       "section_heading": "Training teachers is the key to AI literacy in schools",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "service_leader",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "industry_clouds"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "education",
-          "teacher_training",
-          "nonprofit_partnerships",
-          "digital_transformation"
+          "customer_service"
         ],
-        "confidence": 0.85,
-        "rationale": "This section focuses on educational AI literacy initiatives and teacher training, positioning Salesforce as a thought leader supporting education through nonprofit partnerships. The content is educational and awareness-focused rather than product-specific. The primary audience appears to be business leaders interested in AI's societal impact and corporate social responsibility, with secondary appeal to service leaders given the focus on training and support programs."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Training teachers is the key to AI literacy in schools'. Products: industry_clouds. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.85,
-          "match_rationale": "Perfect match for business leaders learning about AI literacy and digital transformation. This awareness-stage guide about AI for small business directly builds on the reader's interest in AI education and provides practical next steps for business implementation."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
         },
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the AI literacy theme. Business leaders reading about AI in education would naturally be interested in developing their own AI strategy. The awareness-stage positioning matches the educational nature of the section."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -172,28 +188,39 @@
       "section_heading": "The AI issues teachers think about most",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "service_leader",
-        "secondary_persona": "business_leader",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "general"
+          "agentforce"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "education",
-          "teacher_training",
-          "professional_development",
-          "ai_adoption"
+          "general"
         ],
-        "confidence": 0.85,
-        "rationale": "This section focuses on educational content about AI literacy challenges teachers face, making it awareness-stage learning content. While not directly about Salesforce products, it relates to AI adoption patterns that would interest service and business leaders thinking about AI implementation in their organizations. The educational context and focus on common AI concerns suggests learning intent from leaders exploring AI transformation."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'The AI issues teachers think about most'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [],
-      "recommend_no_cta": true,
-      "no_cta_reason": "This section is purely educational content about AI literacy and teacher training concerns, with no connection to Salesforce products or services. The reader (service_leader) is learning about general AI adoption challenges in education, which doesn't align with any of the available CTAs that focus on sales, marketing, or Salesforce-specific solutions. The content is too early-stage awareness without any product angle that would warrant a CTA."
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
     },
     {
       "section_index": 5,
@@ -201,34 +228,35 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "general"
+          "einstein_ai"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "education",
-          "cognitive_offloading",
-          "generative_ai",
-          "student_performance"
+          "ai_tools",
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This section educates readers about cognitive off-loading concerns in AI usage by students. It presents research findings and challenges without promoting specific solutions, indicating awareness-stage content for leaders interested in understanding AI's impact on education and workforce development."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Cognitive off-loading'. Products: einstein_ai. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Strong match for business leaders in awareness stage learning about AI. The guide about how businesses use AI agents naturally follows from understanding cognitive off-loading concepts and provides practical business context."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.65,
-          "match_rationale": "Good fit for business leaders seeking AI education after learning about cognitive concerns. The Agentforce Marketing Quick Guide provides actionable AI insights that complement their learning about AI's educational implications."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -240,33 +268,34 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
           "general"
         ],
         "topic_tags": [
-          "ai_education",
-          "academic_integrity",
-          "ai_adoption",
-          "digital_transformation",
-          "ai_literacy"
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This section discusses the challenge of AI use/misuse in education, presenting both problems (cheating) and solutions (embracing AI as a learning tool). It's educational content about AI adoption challenges that would interest education leaders and decision-makers who are navigating similar AI implementation issues in their organizations. The content is awareness-stage as it explores a broader trend without promoting specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Cheating'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with section context about AI in education and academic integrity concerns. The section discusses AI adoption challenges in schools, making a guide about AI for business leaders highly relevant. This awareness-stage CTA matches the reader's learning intent about AI implementation considerations."
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.7,
-          "match_rationale": "Good relevance for business leaders considering AI adoption. The section highlights both challenges and opportunities with AI implementation, making a guide about implementing AI agents valuable. The awareness-stage funnel aligns with the reader's current learning phase about AI considerations."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -278,34 +307,34 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
           "general"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "education",
-          "differentiated_learning",
-          "teacher_productivity",
-          "covid_impact"
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is educational content about how AI is being used in education to address learning disruptions. The reader intent is learning about AI applications rather than evaluating specific solutions. Primary persona is business leaders (likely education administrators or decision makers) understanding AI's potential impact. The content is awareness-stage as it introduces concepts without promoting specific products. While it touches on AI generally, it aligns with Einstein AI capabilities and cross-product AI themes."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Differentiated learning'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.7,
-          "match_rationale": "Good alignment for business leaders learning about AI applications. After reading about AI in education, they would naturally want to understand broader AI strategy implications for their organization."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.6,
-          "match_rationale": "Relevant for business leaders who are in early awareness stage about AI implementation. The guide about implementing AI agents connects well with the educational AI use cases they just read about."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -316,67 +345,74 @@
       "section_heading": "Free AI literacy resources for teachers",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "general",
+        "primary_persona": "business_leader",
         "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "industry_clouds"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "education",
-          "free_resources",
-          "teacher_tools",
-          "curriculum"
-        ],
-        "confidence": 0.85,
-        "rationale": "This section provides educational information about free AI literacy resources for teachers. The reader intent is clearly learning-focused as it explains available educational resources. The primary persona is general rather than a specific business role since it targets educators broadly. It's in the awareness stage as it's informational content about AI literacy concepts rather than promoting Salesforce solutions. No specific Salesforce products are mentioned or aligned with this educational content."
-      },
-      "existing_cta": null,
-      "existing_cta_score": null,
-      "recommendations": [],
-      "recommend_no_cta": true,
-      "no_cta_reason": "This section is purely educational content focused on free AI literacy resources for teachers. The reader has just consumed information about external educational resources (Common Sense Education, Stanford, aiEDU) and is likely looking to explore those free resources rather than engage with Salesforce products. The content is early-stage awareness with no product angle, and none of the available CTAs align well with educational/teacher personas or AI literacy curriculum needs. The available CTAs are primarily focused on business/sales use cases rather than educational applications."
-    },
-    {
-      "section_index": 9,
-      "section_heading": "AI is moving faster than educators can keep up",
-      "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "admin",
-        "funnel_stage": "awareness",
-        "product_alignment": [
-          "einstein_ai",
           "general"
         ],
-        "topic_tags": [
-          "ai_literacy",
-          "education",
-          "teacher_training",
-          "ai_adoption",
-          "digital_transformation"
-        ],
-        "confidence": 0.85,
-        "rationale": "This section focuses on educating readers about AI adoption challenges in education, presenting factual information about teacher training and school policies without promoting specific solutions. The content targets education leaders and administrators who need to understand the current landscape of AI in schools. It's awareness-stage content that builds understanding of a trend rather than positioning Salesforce products."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Free AI literacy resources for teachers'. Products: industry_clouds. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.85,
-          "match_rationale": "Perfect match for business leaders learning about AI in education. This awareness-stage guide about AI for small business directly addresses the educational challenges mentioned in the section, helping leaders understand how to approach AI adoption in their organizations."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for business leaders who just read about AI moving faster than organizations can keep up. This awareness-stage guide provides insights into how businesses are using AI agents, which would help educational leaders understand practical AI implementation approaches."
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 9,
+      "section_heading": "AI is moving faster than educators can keep up",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "ai_tools"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'AI is moving faster than educators can keep up'. Products: einstein_ai. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.65,
-          "match_rationale": "Good fit for business leaders seeking practical guidance on AI implementation. After reading about schools struggling with AI adoption, this awareness-stage guide provides actionable steps for implementing AI agents, which could be valuable for educational institutions."
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -386,22 +422,19 @@
       "section_index": 10,
       "section_heading": "How you can help boost AI literacy in schools",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "general",
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
         "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
           "general"
         ],
         "topic_tags": [
-          "ai_literacy",
-          "education",
-          "community_engagement",
-          "digital_transformation",
-          "ai_strategy"
+          "customer_service",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This section provides actionable steps for parents/guardians to boost AI literacy in schools. It's implementation-focused with specific tactics, targets a general audience concerned about education, and represents awareness-stage content as readers are learning about the importance of AI literacy rather than evaluating specific Salesforce solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'How you can help boost AI literacy in schools'. Products: general. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "",
@@ -411,35 +444,36 @@
         "position_after_section": 10
       },
       "existing_cta_score": {
-        "relevance_score": 0.2,
-        "funnel_alignment": "mismatch",
-        "persona_match": "mismatch",
-        "product_alignment": "none",
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
         "issues": [
-          "No heading or body text to explain the CTA offer",
-          "Placeholder URL (#) makes the CTA non-functional",
-          "Button text 'AI Synopsis' is unclear and doesn't indicate value",
-          "No connection to the section's focus on helping schools with AI literacy",
-          "Fails to provide the educational resources that awareness-stage readers need"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "This CTA is functionally broken with no heading/body text and a placeholder URL, making it completely unusable for readers seeking actionable guidance on AI literacy in schools."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.7,
-          "match_rationale": "After reading about how to boost AI literacy in schools, readers implementing AI initiatives would naturally want to develop their own AI strategy. This awareness-stage guide aligns perfectly with the section's focus on AI education and strategy development."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.6,
-          "match_rationale": "The section discusses implementing AI in educational settings, so readers would be interested in seeing how other businesses are using AI agents. This awareness-stage guide provides relevant insights into AI implementation across organizations."
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.3181818181818182,
-  "misaligned_count": 8
+  "overall_health_score": 0.1545,
+  "misaligned_count": 9
 }

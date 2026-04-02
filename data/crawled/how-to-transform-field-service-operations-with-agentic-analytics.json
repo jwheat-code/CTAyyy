@@ -1,0 +1,188 @@
+{
+  "url": "https://www.salesforce.com/blog/how-to-transform-field-service-operations-with-agentic-analytics/?bc=DB",
+  "slug": "how-to-transform-field-service-operations-with-agentic-analytics",
+  "title": "Operate with Confidence: Transform Your Field Service with Agentic and Conversational Analytics",
+  "author": "Tushar Sharma",
+  "published_date": "2025-09-23T18:44:05+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Let’s be real: field service operations are more complex than ever. Customers expect fast, reliable service, competition is fierce, and every small inefficiency — whether it’s an extra hour of technician travel or a growing service backlog — has a big impact on the bottom line. To keep up, field service teams need to make smarter, faster decisions. And those decisions need to be powered by data. The problem? Most organizations have plenty of data, but not enough value coming from it. In fact, our research finds that94% of business leaderssay they should be getting more from their data, yet outdated reports, siloed systems, and manual processes often hold them back. That’s why Salesforce built AgentforceField Servicewith a built-in set of analytics dashboards, powered byTableau Next,Data Cloud, andAgentforce. These dashboards go beyond basic reporting. They pair data with conversational analytics through Concierge Agent so leaders can see what’s happening in their field service operations right now and actually take action on it. In this blog article, you’ll see what’s inside the dashboards, how you can tailor them for your business, and three reasons they’re game-changing for modern field service operations.",
+      "word_count": 190,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "94% of business leaders",
+          "href": "https://www.salesforce.com/resources/research-reports/state-of-service/"
+        },
+        {
+          "text": "Field Service",
+          "href": "https://www.salesforce.com/service/field-service-management/"
+        },
+        {
+          "text": "Tableau Next",
+          "href": "https://www.tableau.com/products/tableau-next"
+        },
+        {
+          "text": "Data Cloud",
+          "href": "https://www.salesforce.com/data/"
+        },
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What you’ll learn:",
+      "text": "From data to impact: Turning insights into actionInside the analyticsDashboards built on a powerful platformWhy intelligent analytics matter for field service successThe future of field service operations",
+      "word_count": 27,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "From data to impact: Turning insights into action",
+          "href": "#impact"
+        },
+        {
+          "text": "Inside the analytics",
+          "href": "#inside-the-analytics"
+        },
+        {
+          "text": "Dashboards built on a powerful platform",
+          "href": "#dashboards"
+        },
+        {
+          "text": "Why intelligent analytics matter for field service success",
+          "href": "#why"
+        },
+        {
+          "text": "The future of field service operations",
+          "href": "#future"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "From data to impact: Turning insights into action",
+      "text": "What sets Salesforce’s dashboards apart is conversational analytics. You don’t need to be a data analyst to get answers. Just ask Agentforce a question in plain language — like “What’s causing the spike in work orders?” — and it analyzes your data, explains what it found, and even builds visualizations on the fly. Imagine demand is spiking in a specific region. Instead of digging through reports, you ask Concierge Agent to show you the work types causing the issue. , and the agent suggests relocating technicians to high demand areas, saving hours of manual analysis. Or maybe inventory is running low on a critical part — AI can alert you early and recommend reordering those parts before appointments get disrupted. Over time, Tableau Next picks up on patterns across your entire field service operations. It starts anticipating potential roadblocks before they happen, helping you make smarter staffing choices and deliver more personalized customer experiences. It’s not just about reporting on what happened yesterday. It’s about turning data into a partner that helps you act today.",
+      "word_count": 175,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "Inside the analytics",
+      "text": "Agentforce Field Service comes with several coreoperational analytics dashboardsthat give leaders, asset managers, and dispatchers a complete picture of how their teams are performing. The best part? Tableau Next enriches Agentforce with a pre-built analytics skill, Concierge, which means you don’t need to be a reporting expert. You can just ask questions in plain language — like“What’s my demand by region?”— and get instant, visual answers. Here’s what’s included: This is your single source of truth and the homepage for field service back-office personnel monitoring business operations.Operations Hometracks 12 out-of-the-box KPIs like first-time fix rate, utilization rate, job duration, and asset downtime. Instead of building custom reports, you can instantly see performance gaps by region orfield service technicianand drill into the details. Want to know what’s driving efficiency or inefficiency across your field service operations?Field Service Intelligenceincludes five out-of-the-box dashboards covering work orders, appointments, assets, parts inventory, and resources — with over 30 KPIs you can track. With conversational analytics through Concierge Agent, you can filter dashboards, compare trends, and surface root causes in seconds instead of spending hours building reports. Capacity Planninglooks ahead. It gives you visibility into total capacity and demand trends, broken down by location, work type, and skill. When a proactive service campaign creates higher-than-anticipated demand, you can use the relocation tool to temporarily move service resources to locations that need assistance. With Concierge Agent, you even get suggestions for how to rebalance schedules before gaps become problems.(Back to top)",
+      "word_count": 244,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "operational analytics dashboards",
+          "href": "https://help.salesforce.com/s/articleView?language=en_US&id=service.fs_get_metrics_with_analytics.htm&type=5"
+        },
+        {
+          "text": "Operations Home",
+          "href": "https://help.salesforce.com/s/articleView?language=en_US&id=service.fs_home.htm&type=5"
+        },
+        {
+          "text": "field service technician",
+          "href": "https://www.salesforce.com/service/field-service-management/what-is-a-field-service-technician/"
+        },
+        {
+          "text": "Field Service Intelligence",
+          "href": "https://help.salesforce.com/s/articleView?language=en_US&id=service.fs_home.htm&type=5"
+        },
+        {
+          "text": "Capacity Planning",
+          "href": "https://help.salesforce.com/s/articleView?language=en_US&id=service.fs_capacity_planning_overview.htm&type=5"
+        },
+        {
+          "text": "(Back to top)",
+          "href": "#real"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Dashboards built on a powerful platform",
+      "text": "The dashboards that come with Agentforce Field Service are built directly on the Salesforce platform. They’re connected to everything else your business runs on. And that connection matters in two big ways. These dashboards don’t just pull from field service data. They tap into your entire CRM — sales pipeline, service history, marketing campaigns, customer interactions. When you’re analyzing why first-time fix rates dropped in a region, you can see if it correlates with other aspects of your business. The data’s all there, unified in Salesforce’s Data Cloud. Most analytics tools stop at showing you a problem. Agentforce Field Service goes further. It doesn’t just surface issues. It recommends the next best actions. It doesn’t just flag capacity constraints — it suggests which resources to relocate. It can even notify your team via Slack to make it happen. Your analytics are no longer isolated in some reporting tool. They’re working alongside your team, connected to the systems where work actually happens. This is the power of analytics built on the platform that already runs your business. You’re working in one place, with all your data connected, and with AI that helps you move smoothly from insight to outcome.(Back to top)",
+      "word_count": 200,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "(Back to top)",
+          "href": "#real"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Why intelligent analytics matter for field service success",
+      "text": "Dashboards might sound like “just another reporting tool,” but in field service, they’re much more than that. Here’s why they’re critical: Every inefficiency in the field has a cost. With real-time insights, you can cut delays, reduce technician downtime, and improve completion rates. The result? Faster time to value and stronger revenue. Reliability is everything in service. Fewer missed appointments and faster resolutions drivecustomer satisfaction. Happy customers stick around. Dashboards that trackfield service metricslike first-time fix rates and on-time arrivals make it easier to keep your commitments. Dashboards aren’t just about fixing today’s issues. They give leaders the big-picture visibility needed to scale field service operations strategically. Whether it’s entering a new market or adding technicians, you’ll have the data — and agentic analytics insights — to back your decisions.(Back to top)",
+      "word_count": 132,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "customer satisfaction",
+          "href": "https://www.salesforce.com/service/customer-service-incident-management/what-is-customer-satisfaction/"
+        },
+        {
+          "text": "field service metrics",
+          "href": "https://www.salesforce.com/blog/field-service-management-key-metrics/"
+        },
+        {
+          "text": "(Back to top)",
+          "href": "#real"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "The future of field service operations",
+      "text": "Customer expectations aren’t slowing down anytime soon and neither is the complexity of managing service teams. Businesses that keep relying on outdated tools and disconnected data will fall behind. That’s where Field Service Go comes in. With smart guided setup, we help you get up and running quickly by installing Data Cloud data streams and Tableau Next, setting up the right features, and eliminating 93% of manual configuration clicks. You get to value faster, with best practices built in from day one. With operational analytics from Agentforce Field Service, you can unify your data strategy across field service operations, eliminate silos, and act with confidence. The outcome? More productive technicians, happier customers, and stronger ROI.Want to see operational analytics in action? Check out ourDreamforce keynote. Subscribe to ourField Service newsletterto stay up-to-date.(Back to top)",
+      "word_count": 134,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Dreamforce keynote",
+          "href": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e27?t=1470"
+        },
+        {
+          "text": "Field Service newsletter",
+          "href": "https://www.linkedin.com/newsletters/field-service-spotlight-7358941506986024961/"
+        },
+        {
+          "text": "(Back to top)",
+          "href": "#real"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Field service made simple with AI",
+      "body": "Learn how high-performing field service teams are using AI to boost productivity and deliver customer satisfaction.",
+      "button_text": "Watch demo",
+      "button_url": "https://www.salesforce.com/form/demo/crm-service-demo-field-service/?d=pb",
+      "position_after_section": 1
+    },
+    {
+      "heading": "Supercharge field service efficiency with AI",
+      "body": "Learn what high-performing service teams are doing with AI and automation to boost field service productivity and deliver a better customer experience.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/resources/articles/field-service-trends/?d=pb",
+      "position_after_section": 4
+    },
+    {
+      "heading": "Elevate every field service experience",
+      "body": "Make sure your customers get fast, complete service from start to finish. This starts with the right field service management solution with AI.",
+      "button_text": "Show me how",
+      "button_url": "https://www.salesforce.com/service/field-service-management/",
+      "position_after_section": 6
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p id=\"real\">Let’s be real: field service operations are more complex than ever. Customers expect fast, reliable service, competition is fierce, and every small inefficiency — whether it’s an extra hour of technician travel or a growing service backlog — has a big impact on the bottom line. To keep up, field service teams need to make smarter, faster decisions. And those decisions need to be powered by data.</p>\n<p>The problem? Most organizations have plenty of data, but not enough value coming from it. In fact, our research finds that <a href=\"https://www.salesforce.com/resources/research-reports/state-of-service/\" rel=\"noopener\" target=\"_blank\">94% of business leaders</a> say they should be getting more from their data, yet outdated reports, siloed systems, and manual processes often hold them back.</p>\n<p>That’s why Salesforce built Agentforce <a href=\"https://www.salesforce.com/service/field-service-management/\" rel=\"noopener\" target=\"_blank\">Field Service</a> with a built-in set of analytics dashboards, powered by <a href=\"https://www.tableau.com/products/tableau-next\" rel=\"noopener\" target=\"_blank\">Tableau Next</a>, <a href=\"https://www.salesforce.com/data/\" rel=\"noopener\" target=\"_blank\">Data Cloud</a>, and <a href=\"https://www.salesforce.com/agentforce/\" rel=\"noopener\" target=\"_blank\">Agentforce</a>. These dashboards go beyond basic reporting. They pair data with conversational analytics through Concierge Agent so leaders can see what’s happening in their field service operations right now and actually take action on it.</p>\n<p>In this blog article, you’ll see what’s inside the dashboards, how you can tailor them for your business, and three reasons they’re game-changing for modern field service operations.</p>\n<h2 class=\"wp-block-heading\" id=\"h-what-you-ll-learn\">What you’ll learn:</h2>\n<ul class=\"wp-block-list\">\n<li><a href=\"#impact\">From data to impact: Turning insights into action</a></li>\n<li><a href=\"#inside-the-analytics\">Inside the analytics</a></li>\n<li><a href=\"#dashboards\">Dashboards built on a powerful platform</a></li>\n<li><a href=\"#why\">Why intelligent analytics matter for field service success</a></li>\n<li><a href=\"#future\">The future of field service operations</a></li>\n</ul>\n<div class=\"layout-thirteen wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Field service made simple with AI</h2>\n<p class=\"wp-block-offer__description\"><br/>Learn how high-performing field service teams are using AI to boost productivity and deliver customer satisfaction.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/demo/crm-service-demo-field-service/?d=pb\" target=\"_blank\">Watch demo</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-thirteen.png\"/>\n<!-- Small Accent Illustration -->\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n</div>\n<h2 class=\"wp-block-heading\" id=\"impact\">From data to impact: Turning insights into action</h2>\n<p>What sets Salesforce’s dashboards apart is conversational analytics. You don’t need to be a data analyst to get answers. Just ask Agentforce a question in plain language — like “What’s causing the spike in work orders?” — and it analyzes your data, explains what it found, and even builds visualizations on the fly. </p>\n<p>Imagine demand is spiking in a specific region. Instead of digging through reports, you ask Concierge Agent to show you the work types causing the issue. , and the agent suggests relocating technicians to high demand areas, saving hours of manual analysis. Or maybe inventory is running low on a critical part — AI can alert you early and recommend reordering those parts before appointments get disrupted.</p>\n<p>Over time, Tableau Next picks up on patterns across your entire field service operations. It starts anticipating potential roadblocks before they happen, helping you make smarter staffing choices and deliver more personalized customer experiences.</p>\n<p>It’s not just about reporting on what happened yesterday. It’s about turning data into a partner that helps you act today.</p>\n<!-- The script tag should live in the head of your page if at all possible -->\n<script async=\"\" src=\"https://play.vidyard.com/embed/v4.js\" type=\"text/javascript\"></script>\n<!-- Put this wherever you would like your player to appear -->\n<img class=\"vidyard-player-embed\" data-type=\"inline\" data-uuid=\"MUrUnPcPgLB9Mo52795cGU\" data-v=\"4\" src=\"https://salesforce.vidyard.com/watch/MUrUnPcPgLB9Mo52795cGU\" style=\"width: 100%; margin: auto; display: block;\">\n<h2 class=\"wp-block-heading\" id=\"inside-the-analytics\">Inside the analytics </h2>\n<p>Agentforce Field Service comes with several core <a href=\"https://help.salesforce.com/s/articleView?language=en_US&amp;id=service.fs_get_metrics_with_analytics.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">operational analytics dashboards</a> that give leaders, asset managers, and dispatchers a complete picture of how their teams are performing. The best part? Tableau Next enriches Agentforce with a pre-built analytics skill, Concierge, which means you don’t need to be a reporting expert. You can just ask questions in plain language — like <em>“What’s my demand by region?”</em> — and get instant, visual answers.</p>\n<p>Here’s what’s included:</p>\n<h3 class=\"wp-block-heading\">Operations Home</h3>\n<p>This is your single source of truth and the homepage for field service back-office personnel monitoring business operations. <a href=\"https://help.salesforce.com/s/articleView?language=en_US&amp;id=service.fs_home.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Operations Home</a> tracks 12 out-of-the-box KPIs like first-time fix rate, utilization rate, job duration, and asset downtime. Instead of building custom reports, you can instantly see performance gaps by region or <a href=\"https://www.salesforce.com/service/field-service-management/what-is-a-field-service-technician/\" rel=\"noopener\" target=\"_blank\">field service technician</a> and drill into the details.</p>\n<h3 class=\"wp-block-heading\">Field Service Intelligence</h3>\n<p>Want to know what’s driving efficiency or inefficiency across your field service operations? <a href=\"https://help.salesforce.com/s/articleView?language=en_US&amp;id=service.fs_home.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Field Service Intelligence</a> includes five out-of-the-box dashboards covering work orders, appointments, assets, parts inventory, and resources — with over 30 KPIs you can track. With conversational analytics through Concierge Agent, you can filter dashboards, compare trends, and surface root causes in seconds instead of spending hours building reports.</p>\n<h3 class=\"wp-block-heading\">Capacity Planning</h3>\n<p><a href=\"https://help.salesforce.com/s/articleView?language=en_US&amp;id=service.fs_capacity_planning_overview.htm&amp;type=5\" rel=\"noopener\" target=\"_blank\">Capacity Planning</a> looks ahead. It gives you visibility into total capacity and demand trends, broken down by location, work type, and skill. When a proactive service campaign creates higher-than-anticipated demand, you can use the relocation tool to temporarily move service resources to locations that need assistance. With Concierge Agent, you even get suggestions for how to rebalance schedules before gaps become problems. <a href=\"https://www.salesforce.com/blog/help-customer-service-thrive-with-ai/#learn\"></a><a href=\"#real\">(Back to top)</a></p>\n<h2 class=\"wp-block-heading\" id=\"dashboard\"><strong>Dashboards built on a powerful platform</strong></h2>\n<p>The dashboards that come with Agentforce Field Service are built directly on the Salesforce platform. They’re connected to everything else your business runs on. And that connection matters in two big ways.</p>\n<h3 class=\"wp-block-heading\"><strong>First, you get the complete picture.</strong> </h3>\n<p>These dashboards don’t just pull from field service data. They tap into your entire CRM — sales pipeline, service history, marketing campaigns, customer interactions. When you’re analyzing why first-time fix rates dropped in a region, you can see if it correlates with other aspects of your business. The data’s all there, unified in Salesforce’s Data Cloud.</p>\n<h3 class=\"wp-block-heading\"><strong>Second, insight becomes action.</strong> </h3>\n<p>Most analytics tools stop at showing you a problem. Agentforce Field Service goes further. It doesn’t just surface issues. It recommends the next best actions. It doesn’t just flag capacity constraints — it suggests which resources to relocate. It can even notify your team via Slack to make it happen.</p>\n<p>Your analytics are no longer isolated in some reporting tool. They’re working alongside your team, connected to the systems where work actually happens. This is the power of analytics built on the platform that already runs your business. You’re working in one place, with all your data connected, and with AI that helps you move smoothly from insight to outcome. <a href=\"https://www.salesforce.com/blog/help-customer-service-thrive-with-ai/#learn\"></a><a href=\"#real\">(Back to top)</a></p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><br/>Supercharge field service efficiency with AI</h2>\n<p class=\"wp-block-offer__description\"><br/>Learn what high-performing service teams are doing with AI and automation to boost field service productivity and deliver a better customer experience.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/resources/articles/field-service-trends/?d=pb\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"why\">Why intelligent analytics matter for field service success</h2>\n<p>Dashboards might sound like “just another reporting tool,” but in field service, they’re much more than that. Here’s why they’re critical:</p>\n<h3 class=\"wp-block-heading\">1. They boost revenue</h3>\n<p>Every inefficiency in the field has a cost. With real-time insights, you can cut delays, reduce technician downtime, and improve completion rates. The result? Faster time to value and stronger revenue.</p>\n<h3 class=\"wp-block-heading\">2. They improve customer satisfaction</h3>\n<p>Reliability is everything in service. Fewer missed appointments and faster resolutions drive <a href=\"https://www.salesforce.com/service/customer-service-incident-management/what-is-customer-satisfaction/\" rel=\"noopener\" target=\"_blank\">customer satisfaction</a>. Happy customers stick around. Dashboards that track <a href=\"https://www.salesforce.com/blog/field-service-management-key-metrics/\" rel=\"noopener\" target=\"_blank\">field service metrics</a> like first-time fix rates and on-time arrivals make it easier to keep your commitments.</p>\n<h3 class=\"wp-block-heading\">3. They support growth</h3>\n<p>Dashboards aren’t just about fixing today’s issues. They give leaders the big-picture visibility needed to scale field service operations strategically. Whether it’s entering a new market or adding technicians, you’ll have the data — and agentic analytics insights — to back your decisions. <a href=\"https://www.salesforce.com/blog/help-customer-service-thrive-with-ai/#learn\"></a><a href=\"#real\">(Back to top)</a></p>\n<h2 class=\"wp-block-heading\" id=\"future\">The future of field service operations</h2>\n<p>Customer expectations aren’t slowing down anytime soon and neither is the complexity of managing service teams. Businesses that keep relying on outdated tools and disconnected data will fall behind. That’s where Field Service Go comes in. With smart guided setup, we help you get up and running quickly by installing Data Cloud data streams and Tableau Next, setting up the right features, and eliminating 93% of manual configuration clicks. You get to value faster, with best practices built in from day one.</p>\n<p>With operational analytics from Agentforce Field Service, you can unify your data strategy across field service operations, eliminate silos, and act with confidence. The outcome? More productive technicians, happier customers, and stronger ROI. <br/><br/>Want to see operational analytics in action? Check out our <a href=\"https://www.salesforce.com/plus/experience/dreamforce_2025/series/service_at_dreamforce_2025/episode/episode-s1e27?t=1470\">Dreamforce keynote</a>. Subscribe to our <a href=\"https://www.linkedin.com/newsletters/field-service-spotlight-7358941506986024961/\">Field Service newsletter</a> to stay up-to-date. <a href=\"https://www.salesforce.com/blog/help-customer-service-thrive-with-ai/#learn\"></a><a href=\"#real\">(Back to top)</a></p>\n<div class=\"layout-four wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><br/>Elevate every field service experience</h2>\n<p class=\"wp-block-offer__description\"><br/>Make sure your customers get fast, complete service from start to finish. This starts with the right field service management solution with AI.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/service/field-service-management/\" target=\"_blank\">Show me how</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-four.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-four.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-four.png\"/>\n</div>\n<p></p>\n</img></div>"
+}

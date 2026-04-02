@@ -2,177 +2,115 @@
   "url": "https://www.salesforce.com/blog/recent-stories/?bc=DB",
   "slug": "recent-stories",
   "title": "Recent Stories",
+  "author": "",
+  "published_date": "",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "10 Mobile App Marketing Tips for Small Teams",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "problem_solving",
         "primary_persona": "marketing_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "awareness",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
         "product_alignment": [
-          "marketing_cloud",
-          "general"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "mobile_app_marketing",
-          "digital_marketing",
-          "small_teams",
-          "marketing_tips",
-          "content_marketing"
+          "marketing_automation"
         ],
-        "confidence": 0.85,
-        "rationale": "This section offers educational marketing tips for mobile apps, targeting marketing leaders at smaller organizations who want to learn effective techniques. It's awareness-stage content focused on general marketing knowledge rather than specific Salesforce solutions, though it aligns with Marketing Cloud's digital marketing capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in '10 Mobile App Marketing Tips for Small Teams'. Products: marketing_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "marketing-resources-state-of-marketing-report",
-          "score": 0.75,
-          "match_rationale": "Perfect alignment for marketing leaders reading about mobile app marketing tips. This awareness-stage CTA offers valuable marketing research that extends their learning journey with actionable insights about the broader marketing landscape."
-        },
-        {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.65,
-          "match_rationale": "Excellent fit for small team context mentioned in the section. Marketing leaders learning about mobile app marketing for small teams would benefit from this comprehensive AI guide specifically designed for small businesses."
-        },
-        {
-          "cta_id": "marketing-resources-revenue-marketing-platforms-fo",
-          "score": 0.6,
-          "match_rationale": "Strong relevance for marketing leaders seeking to understand platform solutions. After learning mobile app marketing tips, they would logically want to explore comprehensive revenue marketing platforms to support their strategies."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 1,
       "section_heading": "Introducing Trailbread: Trailhead’s Pivot into Bread-ucation",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "general",
+        "primary_persona": "business_leader",
         "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
           "agentforce"
         ],
         "topic_tags": [
-          "trailhead",
-          "learning",
-          "education",
-          "bread_humor",
-          "trailblazer"
+          "ai_agents",
+          "trailhead"
         ],
-        "confidence": 0.7,
-        "rationale": "This appears to be a humorous/playful section introducing \"Trailbread\" - likely a pun on Trailhead (Salesforce's learning platform) and bread. The minimal text and bread puns suggest this is light, awareness-stage content for general learning about Salesforce education. References to Agentforce and Trailblazer indicate platform/agent connections, though the actual content is quite brief and playful rather than substantive."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introducing Trailbread: Trailhead’s Pivot into Bread-ucation'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.85,
-          "match_rationale": "Perfect match for readers in learning mode who just read about Trailhead education. This CTA maintains the educational journey while introducing Salesforce concepts, aligning with awareness stage and general persona."
-        },
-        {
-          "cta_id": "company-be-a-trailblazer",
-          "score": 0.8,
-          "match_rationale": "Excellent thematic alignment with the Trailblazer community concept mentioned in the section. Appeals to readers interested in learning and joining the broader Salesforce ecosystem after reading about Trailhead."
-        },
-        {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.7,
-          "match_rationale": "Good product alignment with Agentforce mentioned in the section. Continues the learning theme for readers who want to explore the specific AI agent capabilities referenced in the content."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 2,
       "section_heading": "6 AI Trailhead Certifications To Train Your Small Business Teams",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "business_leader",
-        "secondary_persona": "general",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "platform"
+          "general"
         ],
         "topic_tags": [
-          "ai_training",
-          "trailhead",
           "small_business",
-          "upskilling",
-          "certification"
+          "collaboration",
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This section targets small business leaders looking to upskill their teams with AI certifications. The focus on \"hands-on training needed today\" and specific Trailhead certifications indicates implementation intent. The SMB context and team training focus suggests business leaders as the primary audience, though it could appeal to various roles. It's in consideration stage as readers are evaluating training options rather than just learning about AI concepts."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '6 AI Trailhead Certifications To Train Your Small Business Teams'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.85,
-          "match_rationale": "Perfect match for business leaders implementing AI training in small businesses. After reading about AI Trailhead certifications, they would naturally want a comprehensive guide to AI for small businesses. The awareness/consideration funnel stage aligns well, and the content directly supports their implementation journey."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for business leaders who are now thinking about implementing AI after learning about training options. This guide provides the next logical step - actual implementation strategies for AI agents in small business. The agentforce product aligns with AI focus, and the awareness stage is appropriate for continued learning."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders in the consideration stage who are evaluating how AI can help their small business grow. After learning about team training, they're likely considering the business impact. The agentforce product and consideration funnel stage align well with their next step in the decision process."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 3,
       "section_heading": "3 Ways You Can Keep Salesforce Certifications Safe",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "developer",
-        "secondary_persona": "admin",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "platform"
+          "general"
         ],
         "topic_tags": [
-          "salesforce_certifications",
-          "professional_development",
-          "credential_protection",
-          "career_advancement",
-          "platform_expertise"
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This content targets certified Salesforce professionals seeking guidance on protecting their credentials. The \"implementing\" intent reflects readers wanting actionable steps, while \"consideration\" stage indicates they're evaluating best practices for maintaining their certifications. Developer is primary persona as they're most certification-focused, with admin as secondary."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '3 Ways You Can Keep Salesforce Certifications Safe'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "content-learn-modules-manage_the_sfdc_way_engage_r",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.85,
-          "match_rationale": "Perfect match for developers in consideration stage looking to implement certification protection. This Trail offers hands-on learning about Salesforce management practices, directly supporting certification maintenance and platform expertise development."
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the developer persona focused on implementing security measures. Shield implementation guide directly relates to credential protection and platform security, key concerns after reading about certification safety."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "content-learn-modules-backup-recover-basics",
-          "score": 0.7,
-          "match_rationale": "Good fit for developers concerned about protecting valuable assets (certifications). Learning about backup and recovery fundamentals supports the broader theme of protecting important credentials and maintaining professional development investments."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -182,266 +120,145 @@
       "section_index": 4,
       "section_heading": "Beyond Efficiency: How To Use AI To Innovate and Grow",
       "classification": {
-        "reader_intent": "inspiring",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "awareness",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
         "product_alignment": [
           "agentforce",
-          "einstein_ai"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_innovation",
-          "business_growth",
-          "agentic_ai",
-          "strategic_ai",
-          "ai_transformation"
+          "general"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is clearly thought leadership content encouraging leaders to think beyond basic AI efficiency gains toward innovation and growth. The inspiring tone (\"dream bigger\"), focus on leadership perspective, and emphasis on strategic AI transformation (specifically mentioning \"Agentic AI\") indicates awareness-stage content targeting business leaders who are exploring the broader potential of AI rather than evaluating specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Beyond Efficiency: How To Use AI To Innovate and Grow'. Products: agentforce, sales_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders reading about AI innovation and strategic transformation. The CTA offers insights into how businesses are using AI agents, which directly aligns with the section's focus on 'dreaming bigger with AI' and agentic AI. Matches awareness funnel stage and agentforce product alignment."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Highly relevant guide for implementing AI agents, which connects well to the section's theme of using AI to innovate and grow. The strategic implementation focus appeals to business leaders thinking about transformation after reading about agentic AI possibilities."
-        },
-        {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.8,
-          "match_rationale": "Strong strategic alignment for business leaders exploring agentic AI strategy after reading about AI innovation. While focused on sales_cloud rather than agentforce, the strategic planning angle matches the section's inspirational tone about transformation and growth."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 5,
       "section_heading": "Thinking of Vibe Coding Your CRM? Here’s The True Cost",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "sales_cloud",
-          "starter"
+          "platform"
         ],
         "topic_tags": [
-          "crm",
           "small_business",
-          "ai",
-          "cost_analysis",
-          "vibe_coding"
+          "crm"
         ],
-        "confidence": 0.85,
-        "rationale": "This section appears to be warning readers about the costs of \"vibe coding\" (likely informal/ad-hoc) CRM approaches, suggesting they're in the consideration phase evaluating CRM solutions. The business_leader persona fits as they'd be concerned about costs and ROI. The mention of \"Small Business\" and focus on CRM costs aligns with sales_cloud and starter products. The evaluating intent is clear from the cautionary tone about reading cost implications before proceeding."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Thinking of Vibe Coding Your CRM? Here’s The True Cost'. Products: sales_cloud, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders evaluating CRM costs. After reading about the true cost of vibe coding vs. professional CRM solutions, they'd be interested in a free CRM option. The consideration-stage funnel alignment and Sales Cloud product focus are ideal."
-        },
-        {
-          "cta_id": "small-business",
-          "score": 0.85,
-          "match_rationale": "Highly relevant for business leaders considering CRM solutions after cost analysis. This general CTA about Salesforce working for small businesses directly addresses their evaluation mindset and matches the consideration funnel stage perfectly."
-        },
-        {
-          "cta_id": "small-business-marketing",
-          "score": 0.8,
-          "match_rationale": "Strong fit as it addresses what can be done with a professional CRM after readers have evaluated the costs of vibe coding. The consideration-stage positioning and focus on CRM capabilities for prospects aligns well with their evaluation intent."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 6,
       "section_heading": "How Smarsh Humanizes Customer Support",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "service_leader",
+        "primary_persona": "business_leader",
         "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "service_cloud"
+          "agentforce"
         ],
         "topic_tags": [
-          "customer_support",
-          "workforce_optimization",
-          "ai_agents",
-          "case_study",
-          "humanization"
+          "ai_agents"
         ],
-        "confidence": 0.8,
-        "rationale": "This appears to be a case study about Smarsh's approach to customer support, focusing on workforce improvement and AI implementation. The mention of \"AIAgentic AIAgentforce Service\" suggests this showcases Agentforce in a service context. The reader intent is learning (educational case study format), targeting service leaders who want to understand how to improve their support operations. It's awareness stage since it's sharing learnings rather than promoting specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How Smarsh Humanizes Customer Support'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "service-cloud",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment - reader just learned about Smarsh humanizing customer support with Agentforce Service, and this CTA directly promotes Agentforce Service for service leaders in the consideration stage"
-        },
-        {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Strong match - after reading about AI agents in customer support, service leaders would be interested in learning how other businesses are using AI agents broadly"
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.65,
-          "match_rationale": "Good alignment - provides practical guidance on implementing AI agents after learning about Smarsh's success, though focuses on small business rather than enterprise service leaders"
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 7,
       "section_heading": "Beyond Compliance: IBM’s Blueprint for Building an Agentic Trust Framework",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "einstein_ai"
+          "general"
         ],
         "topic_tags": [
-          "ai_governance",
-          "trust_framework",
-          "agentic_ai",
-          "compliance",
-          "enterprise_architecture"
+          "general"
         ],
-        "confidence": 0.8,
-        "rationale": "This section appears to be educational content about IBM's approach to building trust frameworks for AI agents. The focus on \"Beyond Compliance\" and \"Blueprint\" suggests conceptual learning rather than product evaluation. IT leaders would be most interested in architectural approaches to AI governance, with business leaders as secondary audience for strategic implications. Maps to awareness stage as it's introducing concepts rather than promoting specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Beyond Compliance: IBM’s Blueprint for Building an Agentic Trust Framework'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment with IT leader persona learning about agentic AI governance. After reading about IBM's trust framework, they would naturally want to see how other businesses are implementing AI agents in practice. The awareness-level funnel stage matches perfectly."
-        },
-        {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.75,
-          "match_rationale": "Strong match for IT leaders seeking practical guidance on agentic AI implementation. The quick guide format provides actionable next steps after learning about trust frameworks, and the awareness funnel stage is appropriate for readers still in learning mode."
-        },
-        {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.7,
-          "match_rationale": "Good fit for IT leaders who need to understand the technical aspects of agent implementation after learning about governance frameworks. The learning format matches the reader's intent, and the awareness stage is appropriate for building foundational knowledge."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 8,
       "section_heading": "Total Defense: Why Perimeter Security Isn’t Enough to Protect Your Data",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "problem_solving",
         "primary_persona": "it_leader",
-        "secondary_persona": "admin",
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
           "platform"
         ],
         "topic_tags": [
-          "data_security",
-          "perimeter_security",
-          "threat_protection",
-          "data_resilience",
-          "cybersecurity"
+          "security",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is educational content about security concepts, targeting IT leaders and admins who need to understand modern security approaches beyond traditional perimeter defense. The awareness-stage content focuses on learning about comprehensive security strategies rather than evaluating specific Salesforce solutions. Platform alignment is indicated by the Salesforce Platform mention."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Total Defense: Why Perimeter Security Isn’t Enough to Protect Your Data'. Products: platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment for IT leaders reading about data security. The CTA '10 Key Reasons to Implement Shield on Day 1' directly addresses security implementation, matching the section's focus on data protection and perimeter security. Shield is Salesforce's security platform, making this highly relevant to the platform alignment and security topics covered."
-        },
-        {
-          "cta_id": "form-platform-data-masking-and-seeding-guide",
-          "score": 0.75,
-          "match_rationale": "Strong match for IT leaders concerned about data security. After reading about total defense and data protection, a guide on data masking and seeding is a natural next step for understanding how to implement data security measures on the Salesforce platform."
-        },
-        {
-          "cta_id": "form-events-webinars-form-rss-4933898",
-          "score": 0.65,
-          "match_rationale": "Good contextual fit as it promises to 'Give your data a safety net' which aligns with the section's focus on data resilience and protection. The awareness-level funnel stage matches the section's educational intent for IT leaders exploring comprehensive security strategies."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 9,
       "section_heading": "How Salesforce Built, Tested, and Scaled Our IT Support Agents",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "it_leader",
-        "secondary_persona": "admin",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "service_cloud"
+          "general"
         ],
         "topic_tags": [
-          "it_support",
-          "ai_agents",
-          "case_study",
-          "automation",
-          "salesforce_on_salesforce"
+          "customer_service"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a behind-the-scenes case study showing how Salesforce implemented AI agents for IT support, achieving 40% automation. The \"how we did it\" framing targets IT leaders looking to implement similar solutions. The \"Salesforce on Salesforce\" tag indicates this showcases internal usage as social proof for prospects evaluating agent automation capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How Salesforce Built, Tested, and Scaled Our IT Support Agents'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "service-cloud",
-          "score": 0.9,
-          "match_rationale": "Perfect match for an IT leader reading about implementing IT support agents. This section is about Salesforce's own implementation case study, and the reader (IT leader in consideration stage) would naturally want to explore Agentforce Service for their own IT support automation. The product alignment (agentforce/service_cloud) and persona (it_leader) are exactly right."
-        },
-        {
-          "cta_id": "service-resources-it-service-guide",
-          "score": 0.75,
-          "match_rationale": "Highly relevant guide about 'the future of IT service is agentic' which perfectly matches what an IT leader would want after reading about Salesforce's IT support agent implementation. Though it's awareness-level content, it's appropriate for someone in consideration stage who wants to learn more about the broader IT service strategy before making decisions."
-        },
-        {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.7,
-          "match_rationale": "Good fit for an IT leader who just read about how Salesforce built and tested IT support agents. The testing aspect directly relates to the section content, and learning about agent testing would be a logical next step for someone considering implementing similar solutions. Product alignment with agentforce is perfect."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     }
   ],
-  "overall_health_score": 0.0,
-  "misaligned_count": 10
+  "overall_health_score": 0.9,
+  "misaligned_count": 1
 }

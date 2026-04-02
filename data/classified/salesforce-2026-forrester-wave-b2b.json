@@ -2,6 +2,8 @@
   "url": "https://www.salesforce.com/blog/salesforce-2026-forrester-wave-b2b/?bc=DB",
   "slug": "salesforce-2026-forrester-wave-b2b",
   "title": "Salesforce Positioned as a Leader in 2026 Forrester Wave™ for Revenue Marketing Platforms for B2B",
+  "author": "Read More",
+  "published_date": "2026-02-24T22:06:55+00:00",
   "section_analyses": [
     {
       "section_index": 0,
@@ -9,41 +11,40 @@
       "classification": {
         "reader_intent": "evaluating",
         "primary_persona": "marketing_leader",
-        "secondary_persona": "sales_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
-          "data_cloud",
           "einstein_ai",
-          "sales_cloud"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "revenue_marketing",
-          "b2b_marketing",
-          "forrester_wave",
           "marketing_automation",
-          "cross_cloud_orchestration"
+          "data_analytics",
+          "collaboration",
+          "platform",
+          "trailhead"
         ],
-        "confidence": 0.9,
-        "rationale": "This section introduces Salesforce's positioning as a Forrester Wave Leader for B2B revenue marketing platforms. The content is clearly aimed at marketing leaders evaluating solutions, as it emphasizes third-party validation and competitive positioning. The mention of \"high-stakes decision\" and platform evaluation suggests consideration stage. The content highlights Marketing Cloud capabilities while emphasizing cross-cloud integration with Data Cloud, Einstein AI, and Sales Cloud for unified revenue operations."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Introduction'. Products: einstein_ai, sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "marketing-resources-revenue-marketing-platforms-fo",
-          "score": 0.95,
-          "match_rationale": "Perfect match - this CTA directly offers the Forrester Wave report on Revenue Marketing Platforms for B2B that the section is discussing. Marketing leaders evaluating revenue marketing platforms would want to access the full report after reading about Salesforce's recognition as a Leader."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "crm-foundations",
-          "score": 0.75,
-          "match_rationale": "Strong alignment - the section emphasizes unified data foundations and cross-cloud orchestration, and this CTA offers 'Get your data ready for AI with Salesforce Foundations,' which matches the consideration stage and addresses the data unification themes discussed."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.7,
-          "match_rationale": "Good fit for marketing leaders in consideration stage who want to explore Salesforce's revenue marketing capabilities hands-on after learning about the platform's recognition and integrated approach to marketing and sales alignment."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -53,37 +54,41 @@
       "section_index": 1,
       "section_heading": "Innovation in action",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "inspiring",
         "primary_persona": "marketing_leader",
         "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
           "agentforce",
-          "data_cloud"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "forrester_wave",
-          "revenue_marketing",
-          "b2b_marketing",
-          "third_party_validation",
-          "platform_innovation"
+          "ai_agents",
+          "data_analytics",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section presents third-party validation from Forrester positioning Salesforce as a leader in revenue marketing platforms. It showcases specific innovations (Agentforce Marketing, conversational email, adaptive websites) to help marketing leaders evaluate Salesforce's capabilities against competitors. The focus on proving marketing's revenue impact and delivering personalized experiences directly addresses marketing leader concerns during solution evaluation."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Innovation in action'. Products: agentforce, sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Highly relevant - after reading about Agentforce Marketing innovations and platform capabilities, marketing leaders would want practical guidance on getting started. This Agentforce Marketing Quick Guide aligns perfectly with the product focus (agentforce, marketing_cloud) and consideration stage."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Good fit - the section heavily discusses AI agents and Agentforce innovations. Marketing leaders evaluating these capabilities would benefit from seeing how other businesses are using AI agents, providing valuable context for their decision-making process."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -93,23 +98,23 @@
       "section_index": 2,
       "section_heading": "Customer perspective",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "inspiring",
         "primary_persona": "marketing_leader",
         "secondary_persona": "business_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "marketing_cloud",
-          "agentforce"
+          "agentforce",
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "b2b_marketing",
-          "forrester_research",
+          "ai_agents",
           "marketing_automation",
-          "third_party_validation",
-          "competitive_analysis"
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section presents third-party validation from Forrester showing customer praise for Salesforce marketing capabilities. Marketing leaders in the consideration stage would use this analyst research to evaluate Salesforce against competitors. The content specifically highlights Marketing Cloud Account Engagement and Agentforce for B2B marketing, making it highly relevant for purchase decision-making."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Customer perspective'. Products: agentforce, sales_cloud, marketing_cloud. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "Our new State of Marketing report is here!",
@@ -119,33 +124,34 @@
         "position_after_section": 2
       },
       "existing_cta_score": {
-        "relevance_score": 0.35,
-        "funnel_alignment": "mismatch",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
-        "product_alignment": "partial",
-        "issues": [
-          "Funnel stage mismatch: offering awareness-stage content to consideration-stage readers",
-          "Missed conversion opportunity: readers evaluating Salesforce capabilities should be directed to product-specific information or trials",
-          "Generic marketing trends report doesn't capitalize on reader interest in Salesforce's specific Marketing Cloud and Agentforce capabilities"
-        ],
-        "rationale": "The CTA offers awareness-stage content (industry report) when readers are in consideration stage evaluating Salesforce's capabilities, representing a significant funnel stage mismatch."
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "marketing-resources-revenue-marketing-platforms-fo",
-          "score": 0.95,
-          "match_rationale": "Perfect match - this section discusses Forrester's evaluation of Salesforce capabilities, and this CTA offers 'The Forrester Wave™: Revenue Marketing Platforms For B2B' which is exactly the report being referenced. The reader is evaluating Salesforce's Marketing Cloud capabilities and wants to see the full Forrester research."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
         },
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.65,
-          "match_rationale": "Good relevance - the section highlights Salesforce's AI capabilities and innovation pace, making this Agentforce research report appealing to marketing leaders who want to understand how businesses are implementing AI agents in their marketing operations."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.11666666666666665,
-  "misaligned_count": 3
+  "overall_health_score": 0.2667,
+  "misaligned_count": 2
 }

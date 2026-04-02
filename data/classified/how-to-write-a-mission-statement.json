@@ -2,46 +2,44 @@
   "url": "https://www.salesforce.com/blog/how-to-write-a-mission-statement/?bc=DB",
   "slug": "how-to-write-a-mission-statement",
   "title": "How to Write a Mission Statement",
+  "author": "More by Caylin",
+  "published_date": "2026-01-30T15:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": null,
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
           "general"
         ],
         "topic_tags": [
-          "mission_statement",
           "small_business",
-          "brand_strategy",
-          "business_fundamentals",
-          "smb"
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This is educational content teaching business fundamentals (how to write a mission statement) to SMB owners. It's awareness-stage content about business strategy concepts rather than Salesforce solutions. The focus on small/medium business aligns with Salesforce Starter, though the content is broadly applicable business guidance."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Key Takeaways'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.9,
-          "match_rationale": "Perfect alignment - this section is about mission statements and business fundamentals for SMBs, and after reading about defining their brand's core purpose, business leaders would naturally want to learn more about AI tools that can help their small business grow. The awareness-stage funnel match is ideal."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.8,
-          "match_rationale": "Strong match for business leaders who just learned about mission statements and brand strategy. This CTA directly addresses that 'Salesforce works for small businesses' which is highly relevant after reading about small business fundamentals. Consideration stage is appropriate for moving them forward."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.75,
-          "match_rationale": "Good fit for business leaders focused on small business growth. After reading about mission statements as the foundation for business success, they'd be interested in AI agents that can help grow their business. The consideration stage aligns with their likely next step in exploring solutions."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -53,33 +51,35 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "mission_statement",
-          "business_strategy",
-          "organizational_purpose",
-          "company_vision",
-          "business_fundamentals"
+          "crm",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This is clearly educational content explaining what a mission statement is at a fundamental level. The reader is learning about basic business concepts rather than evaluating Salesforce solutions. While Salesforce briefly mentions being \"#1 AI CRM\" as an example, the content is focused on general business education rather than product promotion. This targets business leaders who want to understand mission statements for their organizations."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What exactly is a mission statement?'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
-          "score": 0.7,
-          "match_rationale": "Strong fit for business leaders who are thinking about organizational purpose and strategy. A state of marketing report provides valuable industry insights that complement their strategic thinking. Awareness stage content ideal for learning-focused readers."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "resources-research-reports-high-tech-trends",
-          "score": 0.65,
-          "match_rationale": "Good match for business leaders focused on strategy and vision. After learning about mission statements, they'd benefit from understanding industry trends to inform their strategic decisions. Awareness-level research content fits the educational context."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -90,40 +90,35 @@
       "section_heading": "Why does a small team need a mission statement?",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "general",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
           "general"
         ],
         "topic_tags": [
-          "mission_statement",
-          "team_management",
-          "small_business",
-          "organizational_clarity",
-          "business_strategy"
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This is educational content about fundamental business concepts (mission statements) targeting small business leaders who are learning organizational best practices. The focus on small teams aligns with Salesforce Starter Suite's target market. No product-specific content present, making it general awareness-stage content."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Why does a small team need a mission statement?'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.85,
-          "match_rationale": "Perfect alignment - targets small business leaders in awareness stage learning about AI/business strategy. After reading about mission statements for small teams, business leaders would naturally want guidance on AI implementation for their small business."
-        },
-        {
-          "cta_id": "company-be-a-trailblazer",
-          "score": 0.75,
-          "match_rationale": "Good fit for business leaders in awareness stage. After learning about mission statements and organizational clarity, joining the broader Salesforce learning ecosystem aligns with their educational mindset and leadership development needs."
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.7,
-          "match_rationale": "Appropriate awareness-stage learning content for small business leaders. After understanding the importance of mission statements, they'd be interested in learning more foundational business concepts through Salesforce essentials."
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -133,35 +128,38 @@
       "section_index": 3,
       "section_heading": "The step-by-step guide to writing your mission statement",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
           "general"
         ],
         "topic_tags": [
-          "mission_statement",
-          "brand_strategy",
-          "business_planning",
-          "company_values",
-          "small_business"
+          "small_business",
+          "customer_service",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a tactical how-to guide providing step-by-step instructions for writing mission statements. The implementing intent is clear from the actionable framework and specific examples. While it targets business leaders generally, it's at the awareness stage since it's foundational business content rather than solution-focused. No specific Salesforce products are relevant to this general business guidance."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'The step-by-step guide to writing your mission statement'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the small business focus and business leader persona. After working on their mission statement, they'd be interested in learning how Salesforce can support their overall small business operations and growth."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.7,
-          "match_rationale": "Good educational fit for business leaders in awareness stage. After defining their mission statement, they would benefit from learning essential business tools and strategies to support their newly clarified business direction."
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -172,39 +170,35 @@
       "section_heading": "Examples of effective mission statements",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": null,
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "mission_statements",
-          "business_strategy",
-          "company_values",
-          "organizational_purpose",
-          "leadership"
+          "general"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides educational examples of mission statements from well-known companies (TED, Tesla, IKEA, Warby Parker) to inspire readers. The content is purely instructional and awareness-stage, helping business leaders understand what effective mission statements look like. No Salesforce products are mentioned or directly relevant to this foundational business strategy content."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Examples of effective mission statements'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "company-be-a-trailblazer",
-          "score": 0.7,
-          "match_rationale": "Perfect alignment for business leaders in awareness stage learning about mission statements. After reading about effective mission statements, leaders would naturally be interested in joining a community of like-minded professionals to continue their learning journey about business best practices."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.5,
-          "match_rationale": "Good fit for business leaders seeking strategic guidance. While the section focuses on mission statements, the transition to AI strategy for small business aligns with the leadership and strategic thinking context, though not directly related to the mission statement topic."
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage it_leader reader."
         },
         {
-          "cta_id": "resources-research-reports-high-tech-trends",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.45,
-          "match_rationale": "Moderately relevant for business leaders interested in strategic insights. After learning about mission statements, leaders may want to explore broader business trends and expert perspectives, though the connection is less direct than other options."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -214,41 +208,40 @@
       "section_index": 5,
       "section_heading": "Your final mission: Write your heart out",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "business_leader",
-        "secondary_persona": "general",
-        "funnel_stage": "decision",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
-          "agentforce"
+          "agentforce",
+          "starter"
         ],
         "topic_tags": [
-          "mission_statement",
-          "strategic_planning",
-          "small_business",
-          "leadership",
-          "business_strategy"
+          "ai_agents",
+          "customer_service",
+          "collaboration",
+          "trailhead"
         ],
-        "confidence": 0.85,
-        "rationale": "This is a concluding section that transitions from educational content about mission statements to clear product calls-to-action. The reader intent is \"implementing\" as they're ready to take action after learning how to write mission statements. The funnel stage is \"decision\" due to multiple specific product CTAs (Free, Starter Suite, Pro Suite, Agentforce 360). Primary persona is business_leader since mission statements are typically created by business leadership, though it could apply broadly to small business owners/entrepreneurs."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Your final mission: Write your heart out'. Products: agentforce, starter. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.95,
-          "match_rationale": "Perfect match for decision-stage business leaders implementing mission/strategic planning. The section mentions 'Start your journey with the Free or Starter Suite today' and this CTA directly supports that recommendation with a starter trial signup."
-        },
-        {
-          "cta_id": "form-signup-freetrial-prosuite",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Strong match for business leaders ready to implement. The section mentions 'Looking for more customization? Explore Pro Suite' making this CTA highly relevant for leaders who need more advanced features for their strategic initiatives."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business-sales",
-          "score": 0.75,
-          "match_rationale": "Good fit for small business leaders in decision stage. Aligns with the small business focus of the mission statement content and offers a CRM solution that supports business growth and strategic implementation."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -258,22 +251,20 @@
       "section_index": 6,
       "section_heading": "Frequently Asked Questions (FAQs)",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "general",
+        "reader_intent": "inspiring",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "general"
         ],
         "topic_tags": [
-          "mission_statement",
-          "business_strategy",
           "small_business",
-          "brand_identity",
-          "organizational_purpose"
+          "collaboration",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This FAQ section provides educational content about mission statements - defining what they are, how they differ from vision statements, and best practices. The content is foundational business guidance rather than product-specific, targeting business leaders who are learning fundamental concepts. The awareness stage classification reflects that readers are educating themselves on basic business strategy concepts rather than evaluating specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Frequently Asked Questions (FAQs)'. Products: general. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "",
@@ -287,30 +278,32 @@
         "funnel_alignment": "match",
         "persona_match": "match",
         "product_alignment": "partial",
-        "issues": [],
-        "rationale": "The CTA appropriately offers educational content for business leaders in the awareness stage, though the connection to mission/vision statements could be stronger."
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.8,
-          "match_rationale": "Perfect match for business leaders in the awareness stage learning about mission statements and business strategy. This AI guide for small businesses provides the next logical educational step after understanding organizational purpose."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.7,
-          "match_rationale": "Strong alignment with the small business focus of the section. After learning about mission statements, business leaders would naturally be interested in exploring how Salesforce works for small businesses like theirs."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "company-be-a-trailblazer",
-          "score": 0.6,
-          "match_rationale": "Good fit for business leaders in awareness stage who are thinking about organizational purpose and joining a larger business ecosystem. Matches the educational learning intent while staying at awareness level."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.12142857142857143,
+  "overall_health_score": 0.1214,
   "misaligned_count": 6
 }

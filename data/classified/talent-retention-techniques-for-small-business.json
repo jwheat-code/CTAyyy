@@ -2,47 +2,46 @@
   "url": "https://www.salesforce.com/blog/talent-retention-techniques-for-small-business/?bc=DB",
   "slug": "talent-retention-techniques-for-small-business",
   "title": "Hire Smart, Grow Smarter With These Talent Retention Techniques",
+  "author": "Read More",
+  "published_date": "2026-02-09T15:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "problem_solving",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
-          "sales_cloud",
           "agentforce"
         ],
         "topic_tags": [
-          "talent_retention",
-          "smb",
-          "hr_management",
-          "ai_productivity",
-          "employee_development"
+          "small_business",
+          "crm",
+          "productivity",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section targets SMB business leaders facing talent retention challenges (problem_solving intent). The content mentions using CRM tools for HR, AI/digital agents for productivity, and professional development - indicating consideration stage as readers explore solutions. Primary alignment with Salesforce Starter (SMB focus), Sales Cloud (CRM mention), and Agentforce (AI agents reference)."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Key Takeaways'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders reading about talent retention and AI productivity. This CTA directly addresses using AI agents to grow small businesses, aligning with the section's focus on using AI to maximize human productivity and solve staffing challenges. The consideration funnel stage matches exactly."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.8,
-          "match_rationale": "Strong alignment with the business leader persona and small business context. After reading about talent retention challenges and AI productivity solutions, business leaders would naturally want a comprehensive guide to AI implementation. The awareness funnel stage is appropriate for educational follow-up content."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Good general match for small business owners who just learned about talent retention strategies. This CTA reinforces that Salesforce understands and serves small businesses, which builds confidence after reading about SMB-specific challenges. The consideration stage aligns with readers evaluating solutions."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -53,40 +52,38 @@
       "section_heading": "What it takes to retain talent as a growing business",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": null,
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "talent_retention",
-          "employee_engagement",
           "small_business",
-          "workforce_management",
-          "business_growth"
+          "customer_service",
+          "data_analytics",
+          "productivity"
         ],
-        "confidence": 0.85,
-        "rationale": "This is an educational introduction about talent retention challenges, targeting business leaders who are learning about how technology can solve HR/operational issues. The mention of 'growing business' and 'small businesses' suggests Salesforce Starter alignment, while the general discussion of tech stack and processes indicates broader platform relevance."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What it takes to retain talent as a growing business'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect match for business leaders reading about talent retention in small businesses. This AI guide for SMBs aligns with the awareness stage, matches the small business context, and provides educational value on how AI can help with workforce challenges."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Directly relevant to the small business audience discussing talent retention. The general CTA about how Salesforce works for small businesses naturally follows learning about workforce management challenges and positions Salesforce as a potential solution."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "customer-stories-foundations-boosts-vev-small-busi",
-          "score": 0.7,
-          "match_rationale": "Provides social proof specifically for small businesses, which complements the talent retention discussion. After reading about retention challenges, seeing how another small business succeeded with Salesforce Foundations offers credible next steps for consideration."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -96,25 +93,25 @@
       "section_index": 2,
       "section_heading": "Why your SMB needs a modern professional services CRM",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "sales_cloud",
-          "service_cloud",
           "agentforce",
-          "starter"
+          "sales_cloud",
+          "platform"
         ],
         "topic_tags": [
-          "professional_services",
+          "ai_agents",
           "small_business",
           "crm",
-          "talent_retention",
-          "ai_agents"
+          "ai_tools",
+          "sales_automation",
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This section targets small professional services firms comparing CRM solutions. It showcases specific Salesforce products (HR Service Management, Agentforce 360, Professional Services) with concrete ROI data (273%) and industry-specific use cases. The \"Try it for free\" CTA and solution-focused content places readers in the consideration stage, evaluating whether Salesforce fits their growth needs."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Why your SMB needs a modern professional services CRM'. Products: agentforce, sales_cloud, platform. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Kickstart your SMB with Starter Suite",
@@ -124,28 +121,30 @@
         "position_after_section": 2
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
-        "funnel_alignment": "match",
+        "relevance_score": 0.5,
+        "funnel_alignment": "mismatch",
         "persona_match": "match",
         "product_alignment": "match",
-        "issues": [],
-        "rationale": "Strong alignment across all dimensions with consideration-stage trial offering for business leaders evaluating Starter Suite, though CTA could be more specific about professional services benefits."
+        "issues": [
+          "Funnel mismatch: CTA is decision-stage but section is awareness-stage"
+        ],
+        "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "small-business",
-          "score": 0.95,
-          "match_rationale": "Perfect alignment - targets small businesses with Sales Cloud CRM solutions, matching both the professional services SMB audience and consideration funnel stage. The generic positioning allows readers to explore how Salesforce works for their specific business type."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.92,
-          "match_rationale": "Highly relevant for SMBs evaluating CRM solutions. The free offering removes barriers for small professional services firms, and the consideration-stage positioning matches readers who are now convinced they need a modern CRM but want to try before committing."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "small-business-service",
-          "score": 0.88,
-          "match_rationale": "Strong fit for professional services firms focused on client relationships and service delivery. The social proof element helps build confidence for business leaders evaluating CRM solutions, and the service focus aligns with the professional services context."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -156,36 +155,39 @@
       "section_heading": "Top talent retention techniques using a CRM",
       "classification": {
         "reader_intent": "problem_solving",
-        "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
           "sales_cloud",
-          "service_cloud",
           "slack"
         ],
         "topic_tags": [
-          "talent_retention",
-          "employee_burnout",
-          "crm_benefits",
-          "workforce_management",
-          "data_unification"
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section addresses the specific pain point of employee turnover and presents CRM as a solution. The reader likely has retention challenges and is evaluating how technology can help. The content focuses on business outcomes (reducing burnout, improving collaboration) rather than technical features, indicating a business leader audience. The consideration stage fits because it's positioning CRM capabilities as solutions to evaluate, with specific benefits outlined."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Top talent retention techniques using a CRM'. Products: sales_cloud, slack. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "crm-free-crm",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with the section's focus on CRM benefits for talent retention. The reader has just learned how CRM systems solve employee burnout and retention issues, making them ready to explore CRM solutions. The consideration-stage funnel stage matches exactly, and it targets business leaders considering CRM adoption."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage it_leader reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders who have learned about CRM benefits and want to see the solutions in action. The section builds a strong case for CRM value in talent retention, making readers ready to explore hands-on demonstrations. Consideration stage is appropriate for this next step."
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at consideration stage for consideration-stage it_leader reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage it_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -195,41 +197,41 @@
       "section_index": 4,
       "section_heading": "Support professional growth through continuous learning",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "service_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "talent_retention",
-          "employee_development",
           "small_business",
-          "professional_growth",
-          "training"
+          "customer_service",
+          "data_analytics",
+          "collaboration",
+          "thought_leadership",
+          "trailhead"
         ],
-        "confidence": 0.8,
-        "rationale": "This section provides actionable advice and specific steps for implementing talent retention strategies, indicating 'implementing' intent. The focus on SMB leaders managing teams points to business leaders as primary persona. The mention of Trailhead and employee development suggests platform alignment, while the broader HR/talent management theme makes it generally applicable. The consideration stage is appropriate as readers are exploring talent retention solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Support professional growth through continuous learning'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.9,
-          "match_rationale": "Perfect alignment - section specifically mentions Trailhead learning and the reader is implementing professional development. This CTA provides direct access to Salesforce learning modules for small businesses, matching the consideration funnel stage and business leader persona."
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.8,
-          "match_rationale": "Strong match for business leaders implementing growth strategies in small businesses. The general CTA aligns with consideration stage and the section's focus on small business talent retention and development through Salesforce solutions."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.75,
-          "match_rationale": "Good fit for business leaders considering Salesforce to support their growing teams. The section mentions 66% of SMB leaders expect headcount growth, making a free CRM solution relevant for managing expanded teams and professional development tracking."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -239,40 +241,42 @@
       "section_index": 5,
       "section_heading": "Maximize productivity by using AI",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "developer",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "agentforce"
+          "agentforce",
+          "sales_cloud"
         ],
         "topic_tags": [
-          "talent_retention",
           "ai_agents",
+          "small_business",
+          "customer_service",
+          "data_analytics",
           "productivity",
-          "startup",
-          "workforce_management"
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section directly promotes Agentforce 360 as a solution for startup talent retention challenges. The content targets business leaders evaluating AI tools to solve specific productivity and retention problems. The detailed product benefits and business case indicate consideration-stage content for decision-makers weighing AI implementation options."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Maximize productivity by using AI'. Products: agentforce, sales_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
           "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.95,
-          "match_rationale": "Perfect alignment - this CTA is specifically about growing small businesses with AI agents (Agentforce), matches the consideration funnel stage, and directly relates to the section's focus on using Agentforce 360 for productivity and talent retention in startups."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.8,
-          "match_rationale": "Strong match as it promotes Agentforce Service, aligning with the product focus on Agentforce. The consideration funnel stage matches perfectly, and it's relevant for business leaders evaluating AI agent solutions for productivity."
-        },
-        {
-          "cta_id": "launchpad",
-          "score": 0.75,
-          "match_rationale": "Good fit for the startup context mentioned in the section. While not specifically about Agentforce, it targets startups in the consideration stage and could appeal to business leaders looking to accelerate their startup success with productivity tools."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -282,42 +286,41 @@
       "section_index": 6,
       "section_heading": "Build your best talent with Salesforce",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "business_leader",
-        "secondary_persona": "service_leader",
-        "funnel_stage": "decision",
+        "reader_intent": "inspiring",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
-          "service_cloud",
-          "agentforce"
+          "agentforce",
+          "starter"
         ],
         "topic_tags": [
-          "talent_retention",
-          "hr_management",
-          "employee_engagement",
-          "workforce_productivity",
-          "customer_data"
+          "ai_agents",
+          "customer_service",
+          "data_analytics",
+          "collaboration",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section directly addresses business leaders facing talent retention challenges and provides specific Salesforce product solutions. The multiple product mentions (Starter Suite, HR Service Management, Pro Suite, Agentforce) with clear next steps indicates decision-stage content aimed at converting readers to try or purchase solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Build your best talent with Salesforce'. Products: agentforce, starter. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Perfect match for decision-stage business leaders. The section explicitly mentions 'Start your journey with the Free or Starter Suite today' and this CTA directly supports that call-to-action with a trial offer for getting started with Salesforce."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "crm-foundations",
-          "score": 0.75,
-          "match_rationale": "Highly relevant as the section mentions 'Already a Salesforce customer? Activate Foundations to try out Agentforce 360 today.' This CTA about getting data ready for AI with Salesforce Foundations aligns perfectly with the AI/Agentforce focus and targets existing customers mentioned in the section."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.65,
-          "match_rationale": "Good fit as the section specifically mentions Service Cloud ('check out Salesforce HR Service Management') and discusses employee engagement/HR management topics. The Agentforce Service CTA matches the Service Cloud product alignment and decision funnel stage."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -327,24 +330,25 @@
       "section_index": 7,
       "section_heading": "Frequently Asked Questions (FAQs)",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "sales_cloud",
           "agentforce",
-          "platform"
+          "sales_cloud",
+          "service_cloud"
         ],
         "topic_tags": [
-          "talent_retention",
-          "employee_satisfaction",
-          "crm_benefits",
-          "ai_automation",
-          "workforce_optimization"
+          "ai_agents",
+          "small_business",
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This FAQ section addresses specific pain points around employee retention and turnover that business leaders face. The content explains how Salesforce tools (CRM, AI, Agentforce, Trailhead) solve retention challenges, indicating readers are evaluating solutions. The mention of competing against larger corporations and small business contexts strongly suggests business leaders seeking practical solutions to workforce challenges."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Frequently Asked Questions (FAQs)'. Products: agentforce, sales_cloud, service_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "",
@@ -354,34 +358,34 @@
         "position_after_section": 7
       },
       "existing_cta_score": {
-        "relevance_score": 0.8,
+        "relevance_score": 1.0,
         "funnel_alignment": "match",
         "persona_match": "match",
-        "product_alignment": "partial",
+        "product_alignment": "match",
         "issues": [],
-        "rationale": "The CTA aligns well with the consideration-stage funnel and business leader persona, offering educational content about employee engagement, but only partially connects to the specific products discussed in the FAQ section."
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment for business leaders in consideration stage. The FAQ section discusses AI automation and workforce optimization benefits, and this CTA directly addresses how Agentforce can help small businesses grow with AI agents - exactly what a business leader would want to explore after reading about AI handling repetitive tasks and acting as a force multiplier."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.75,
-          "match_rationale": "Strong match for business leaders considering CRM adoption. The FAQ section extensively covers CRM benefits for employee satisfaction and retention, making this free CRM offer highly relevant for business leaders ready to take the next step after learning about CRM advantages."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders in consideration stage. After reading about how CRM and AI can help with talent retention and workforce optimization, this general CTA reinforces that Salesforce solutions work specifically for small businesses, which aligns with the FAQ's focus on small business challenges."
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.20625,
+  "overall_health_score": 0.1875,
   "misaligned_count": 6
 }

@@ -1,0 +1,95 @@
+{
+  "url": "https://www.salesforce.com/blog/building-the-future-how-trailblazers-worldwide-are-embracing-ai-with-salesforce/?bc=DB",
+  "slug": "building-the-future-how-trailblazers-worldwide-are-embracing-ai-with-salesforce",
+  "title": "Building the Future: How Trailblazers Worldwide Are Embracing AI with Salesforce",
+  "author": "Florian Michel",
+  "published_date": "2025-12-15T22:22:18+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "service_cloud",
+          "mulesoft",
+          "starter"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "thought_leadership",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud, service_cloud, mulesoft, starter. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Ready to Start Your Journey?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "thought_leadership",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Ready to Start Your Journey?'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Join a Workforce Development Program",
+        "body": "Take the next step in your learning journey with a program to help you unlock your first role in the Salesforce ecosystem.",
+        "button_text": "Explore programs",
+        "button_url": "https://trailhead.salesforce.com/en/trailblazerconnect/directory/",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 2
+}

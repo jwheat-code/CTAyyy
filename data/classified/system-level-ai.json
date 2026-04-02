@@ -2,47 +2,45 @@
   "url": "https://www.salesforce.com/blog/system-level-ai/?bc=DB",
   "slug": "system-level-ai",
   "title": "We’ve Reached Peak LLM: Here’s What the Next Phase of AI Looks Like",
+  "author": "More by Lisa",
+  "published_date": "2026-02-02T14:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
           "einstein_ai",
-          "general"
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "ai_strategy",
-          "llm_evolution",
-          "system_ai",
-          "enterprise_ai",
-          "ai_infrastructure"
+          "data_analytics",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a thought leadership piece explaining AI evolution concepts without promoting specific products. The \"Key Takeaways\" summary format and educational tone about LLMs becoming commoditized infrastructure targets leaders who need to understand AI strategy. The content is awareness-stage, helping readers learn about the shift from standalone LLMs to system-level AI before they consider specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Key Takeaways'. Products: einstein_ai, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment with the section's focus on AI systems and infrastructure. This CTA offers insights into how businesses are implementing AI agents, which directly relates to the reader's need to understand practical applications of AI systems beyond LLMs. Matches the awareness funnel stage and IT leader persona."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Highly relevant as it provides a practical guide for implementing AI agents - exactly what IT leaders would need after learning about the shift from LLMs to AI systems. The agentforce product focus aligns with the section's emphasis on system-level AI thinking, though it's targeted toward small business which may not perfectly match all IT leaders."
-        },
-        {
-          "cta_id": "service-resources-it-service-guide",
-          "score": 0.65,
-          "match_rationale": "Good match for IT leaders specifically, focusing on agentic AI in IT service contexts. While it doesn't perfectly align with the broader enterprise AI strategy theme, it provides relevant next steps for IT leaders thinking about implementing AI systems in their organizations. Matches the awareness funnel stage appropriately."
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -52,36 +50,41 @@
       "section_index": 1,
       "section_heading": "Why system-level AI beats LLM innovation",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "it_leader",
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
         "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "einstein_ai"
+          "einstein_ai",
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_systems",
-          "llm_architecture",
-          "memory_systems",
           "ai_agents",
-          "enterprise_ai"
+          "data_analytics",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is educational content explaining the evolution from standalone LLMs to system-level AI. It's aimed at technical leaders trying to understand AI architecture concepts. The awareness stage classification fits because readers are learning about a concept (system-level AI) rather than actively evaluating specific solutions. The technical depth and research citations suggest IT leaders as primary audience, with business leaders secondary due to the strategic implications discussed."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Why system-level AI beats LLM innovation'. Products: agentforce, einstein_ai, sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.75,
-          "match_rationale": "Good fit as it provides practical guidance on Agentforce, which aligns with the section's discussion of AI systems and agents. The awareness-level guide format matches the reader's learning intent, and Agentforce is directly relevant to the system-level AI concepts being discussed."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.7,
-          "match_rationale": "Solid match for IT leaders who want to get hands-on with AI agent concepts after reading about system-level AI architecture. The learning format suits the awareness stage, and the technical focus on agent testing aligns with the detailed technical discussion in the section about memory systems and AI architecture."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -91,24 +94,23 @@
       "section_index": 2,
       "section_heading": "What does this mean for your AI strategy?",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "service_leader",
+        "secondary_persona": "sales_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
           "agentforce",
           "einstein_ai",
-          "sales_cloud"
+          "sales_cloud",
+          "service_cloud"
         ],
         "topic_tags": [
-          "ai_strategy",
-          "llm",
-          "ai_agents",
-          "system_level_ai",
-          "business_transformation"
+          "customer_service",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section helps readers evaluate their AI strategy by providing a framework for thinking about system-level AI components (memory, reasoning, orchestration). The practical business-problem-first approach and specific Salesforce AI agent example positions this as consideration-stage content for IT and business leaders who already understand AI basics but are evaluating how to evolve their approach. The CTA reinforces this by offering a report to learn how others are implementing AI agents."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'What does this mean for your AI strategy?'. Products: agentforce, einstein_ai, sales_cloud, service_cloud. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "Get a first look at how businesses are using AI agents",
@@ -118,28 +120,28 @@
         "position_after_section": 2
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
-        "funnel_alignment": "match",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "The CTA aligns well with the section's consideration-stage content about AI strategy, targeting IT leaders evaluating AI agents, though it could be more specific to system-level AI concepts discussed in the section."
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.9,
-          "match_rationale": "Perfect alignment with the section's focus on agentic AI strategy and system-level AI. The reader is evaluating AI strategy after learning about the shift from foundational models to agentic systems, making this CTA highly relevant for their consideration stage."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage service_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.8,
-          "match_rationale": "Strong match as the section discusses practical implementation of system-level AI components. After reading about how to think about system-level AI, IT leaders would benefit from a guide on implementing AI agents, which is the next logical step in their evaluation process."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage service_leader reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.7,
-          "match_rationale": "Good alignment as the section specifically mentions customer service teams needing past interaction context as an example use case. The Agentforce Service CTA directly addresses this consideration-stage need for IT leaders evaluating AI solutions for their service teams."
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -149,37 +151,37 @@
       "section_index": 3,
       "section_heading": "How to prepare for the move to system-level AI",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "it_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
         "secondary_persona": "business_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "agentforce",
-          "einstein_ai",
-          "platform"
+          "einstein_ai"
         ],
         "topic_tags": [
-          "system_level_ai",
-          "ai_orchestration",
-          "infrastructure",
-          "competitive_advantage",
-          "technical_implementation"
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.85,
-        "rationale": "This section focuses on practical implementation guidance for deploying system-level AI components, requiring infrastructure thinking and team coordination. The technical depth and emphasis on orchestration and monitoring appeals to IT leaders evaluating how to implement advanced AI systems. While educational, it's specifically about deployment strategy, indicating consideration stage as readers evaluate implementation approaches."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'How to prepare for the move to system-level AI'. Products: einstein_ai. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment for IT leaders implementing system-level AI. The section focuses on orchestrating AI components and infrastructure-level thinking, which directly matches a guide about implementing AI agents. Product alignment with Agentforce is strong, and the awareness-to-consideration funnel progression is appropriate."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-signup-freetrial-platform",
-          "score": 0.7,
-          "match_rationale": "Good fit for IT leaders ready to move from planning to hands-on implementation of AI systems. The platform trial aligns with the section's emphasis on infrastructure-level thinking and deploying AI capabilities. Decision-stage CTA appropriately pushes consideration-stage readers forward in the funnel."
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -190,35 +192,37 @@
       "section_heading": "The human element",
       "classification": {
         "reader_intent": "inspiring",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "general"
+          "einstein_ai",
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_transformation",
-          "organizational_change",
-          "human_ai_collaboration",
-          "system_level_ai",
-          "cultural_shift"
+          "collaboration",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This section focuses on thought leadership about the organizational and cultural transformation needed to work with AI systems. It's inspirational content about the future of human-AI collaboration rather than specific product features. The emphasis on cultural shifts and organizational adaptation suggests business leaders as the primary audience, with IT leaders as secondary since they need to understand the broader implications beyond technical implementation."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'The human element'. Products: einstein_ai, sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with the section's focus on system-level AI and organizational transformation. This guide about how businesses are using AI agents directly supports the reader's intent to understand AI transformation and human-AI collaboration. Matches awareness funnel stage and business leader persona."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "content-learn-modules-change-management-for-ai-imp",
-          "score": 0.7,
-          "match_rationale": "Directly addresses the section's core theme about the 'mental shift' and organizational change needed for AI adoption. This learning module on change management for AI implementation is highly relevant for business leaders seeking to understand the human element of AI transformation."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -228,24 +232,18 @@
       "section_index": 5,
       "section_heading": "System-level AI beats models",
       "classification": {
-        "reader_intent": "inspiring",
-        "primary_persona": "it_leader",
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
         "secondary_persona": "business_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "agentforce",
-          "einstein_ai",
-          "platform"
+          "einstein_ai"
         ],
         "topic_tags": [
-          "system_level_ai",
-          "ai_transformation",
-          "competitive_advantage",
-          "agentic_ai",
-          "ai_strategy"
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This section provides thought leadership on the evolution from individual AI models to system-level AI implementations. The content is visionary and strategic, targeting technical and business leaders who are considering how to advance their AI strategy beyond basic LLM implementations. The mention of \"agentic AI strategy\" and focus on systems aligns with Agentforce, while the broader AI transformation theme connects to Einstein AI and platform capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'System-level AI beats models'. Products: einstein_ai. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "What’s your agentic AI strategy?",
@@ -255,31 +253,36 @@
         "position_after_section": 5
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
-        "funnel_alignment": "match",
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
-        "product_alignment": "match",
+        "product_alignment": "partial",
         "issues": [
-          "Button text 'The future starts now' is vague and doesn't clearly convey the specific value of downloading the agentic AI playbook"
+          "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "The CTA aligns well with the section's strategic focus on system-level AI and provides a practical playbook for IT leaders in the consideration stage, though the button text could be more specific."
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Strong product alignment with Agentforce and addresses the practical 'how-to' aspect that follows naturally from understanding the strategic importance of system-level AI. The awareness-level guide helps IT leaders move from understanding the concept to implementation planning."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.7,
-          "match_rationale": "Good alignment with Agentforce product focus and consideration-level funnel stage. After reading about system-level AI advantages, an IT leader would naturally want to explore specific AI agent solutions like Agentforce Service that can deliver the competitive advantage discussed in the section."
+          "cta_id": "small-business-marketing",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.2833333333333333,
+  "overall_health_score": 0.2417,
   "misaligned_count": 4
 }

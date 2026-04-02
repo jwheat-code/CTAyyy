@@ -1,0 +1,68 @@
+{
+  "url": "https://www.salesforce.com/blog/data-360-for-isvs-is-ga-everything-you-need-to-know/?bc=DB",
+  "slug": "data-360-for-isvs-is-ga-everything-you-need-to-know",
+  "title": "Data 360 for ISVs is GA: Everything You Need to Know",
+  "author": "Matthew Parin, Kurt Lu",
+  "published_date": "2025-12-15T18:57:08+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "thought_leadership",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, einstein_ai, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Turn Ideas into Business",
+        "body": "",
+        "button_text": "Become a Partner",
+        "button_url": "https://www.google.com/url?q=https://www.salesforce.com/partners/build-on-salesforce/&sa=D&source=docs&ust=1765827065635549&usg=AOvVaw2CN59WHvIHpwmnzXekcJm8",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.8,
+  "misaligned_count": 0
+}

@@ -2,28 +2,31 @@
   "url": "https://www.salesforce.com/blog/upselling-for-startups/?bc=DB",
   "slug": "upselling-for-startups",
   "title": "Upsell Without Losing The Sale: A Quick Guide For Startups",
+  "author": "More by Caylin",
+  "published_date": "2026-01-16T15:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "sales_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "awareness",
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "consideration",
         "product_alignment": [
+          "einstein_ai",
           "sales_cloud",
-          "einstein_ai"
+          "service_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "upselling",
+          "small_business",
           "crm",
-          "sales_strategy",
-          "customer_lifetime_value",
-          "startup_sales"
+          "ai_tools",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This is a \"Key Takeaways\" section that provides educational content about upselling fundamentals and best practices. The reader intent is learning - they're being educated on what upselling is, how it differs from cross-selling, and why it matters. The primary persona is sales_leader as the content directly addresses sales processes and revenue optimization, with business_leader as secondary since startups/SMB leaders often wear multiple hats. It's awareness stage because it's teaching concepts rather than promoting specific solutions. The CTA suggests trial/consideration but the content itself is educational. Sales Cloud alignment due to CRM focus, Einstein AI due to AI/LLM personalization mentions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Key Takeaways'. Products: einstein_ai, sales_cloud, service_cloud, marketing_cloud. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "Boost sales with a CRM made for growing businesses",
@@ -33,32 +36,28 @@
         "position_after_section": 0
       },
       "existing_cta_score": {
-        "relevance_score": 0.4,
-        "funnel_alignment": "mismatch",
-        "persona_match": "mismatch",
-        "product_alignment": "partial",
-        "issues": [
-          "Funnel stage mismatch: Free trial CTA on learning-focused content pushes too hard too early",
-          "Persona mismatch: CTA targets small businesses while section is written for sales leaders",
-          "Missed opportunity: Should offer educational resources about upselling strategies instead of product trial"
-        ],
-        "rationale": "Decision-stage CTA (\"Try for free\") misaligns with awareness-stage content, and targets small businesses while section is for sales leaders."
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets decision-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "au-resources-guides-sales-productivity-pitfalls",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Perfect match for sales leaders who just learned about upselling strategies. This guide on sales productivity pitfalls naturally extends their learning journey by addressing broader sales challenges they likely face. It maintains the educational tone while staying in the awareness funnel stage."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.75,
-          "match_rationale": "Strong alignment since the section heavily emphasizes AI and ML for upselling. Sales leaders interested in AI-powered CRM capabilities would naturally want to learn more about implementing AI in their sales processes. Matches the awareness stage and educational intent."
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "sales",
-          "score": 0.65,
-          "match_rationale": "Good fit for sales leaders looking to connect with peers and continue learning about sales strategies. The Salesblazer community would appeal to leaders wanting to discuss upselling tactics and sales best practices with other professionals. Moves slightly toward consideration but still relevant."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -69,47 +68,45 @@
       "section_heading": "Frequently Asked Questions (FAQs)",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "sales_leader",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "sales_cloud",
-          "starter",
-          "einstein_ai"
+          "starter"
         ],
         "topic_tags": [
-          "upselling",
-          "startup_growth",
-          "customer_retention",
+          "small_business",
           "crm",
-          "ai_analytics"
+          "customer_service",
+          "data_analytics"
         ],
-        "confidence": 0.85,
-        "rationale": "This FAQ section provides educational content about upselling strategies for startups, with specific mentions of AI-powered CRM and Salesforce Starter Suite. The reader intent is learning (understanding upselling concepts and best practices) while the funnel stage is consideration since it positions Salesforce solutions as the recommended approach. The content targets sales leaders primarily, with secondary appeal to business leaders making strategic decisions about CRM and growth strategies."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Frequently Asked Questions (FAQs)'. Products: sales_cloud, starter. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.9,
-          "match_rationale": "Perfect alignment with the section's focus on Starter Suite for upselling. As sales leaders consider CRM solutions after learning about data-driven upselling strategies, this trial CTA naturally progresses them to experience the exact product mentioned in the content."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.8,
-          "match_rationale": "Strong match for sales leaders at consideration stage who just learned about CRM-powered upselling strategies. This general CTA about Salesforce working for small businesses aligns well with the startup growth and customer retention themes discussed."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "crm-free-crm",
-          "score": 0.75,
-          "match_rationale": "Good fit for sales leaders considering AI-powered CRM solutions after reading about using AI and CRM for upselling analytics. The 'Start your AI journey' positioning matches the AI analytics focus while being at the appropriate consideration funnel stage."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.2,
-  "misaligned_count": 2
+  "overall_health_score": 0.4,
+  "misaligned_count": 1
 }

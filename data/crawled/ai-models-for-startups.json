@@ -1,0 +1,321 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-models-for-startups/?bc=DB",
+  "slug": "ai-models-for-startups",
+  "title": "The Basics: AI Models for Small Business and Startups Explained",
+  "author": "Brett Grossfeld, Amy Lin",
+  "published_date": "2025-04-16T14:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Artificial intelligence (AI)is changing the way you grow your startup orsmall and medium business (SMB), helping you work smarter, automate tasks, and make data-driven decisions. But with so many different AI models available, how do you know which one is right for your business?Should you usepredictive AIto anticipate customer behavior?Generative AIto create content? Oragentic AIto automate decisions and workflows? Understanding the differences between these AI models can help you make smarter choices that fuel efficiency and growth. Let’s learn what an AI model is, how AI modeling works, and how the different models can support your success. What is an AI model for small business?How AI modeling works for small teamsPredictive AI modelsGenerative AI modelsAgentic AI modelsReal-world applications of AI models for small businessHow Agentforce is revolutionizing business operationsChoosing the right AI model for your startupHow to get started with AI modelsUsing AI models to scale your startup",
+      "word_count": 148,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Artificial intelligence (AI)",
+          "href": "https://www.salesforce.com/artificial-intelligence/"
+        },
+        {
+          "text": "small and medium business (SMB)",
+          "href": "https://www.salesforce.com/small-business/what-is-an-smb/"
+        },
+        {
+          "text": "predictive AI",
+          "href": "https://help.salesforce.com/s/articleView?id=release-notes.rn_cdp_2024_spring_ai_create_models_nocode.htm&release=248&type=5"
+        },
+        {
+          "text": "Generative AI",
+          "href": "https://www.salesforce.com/artificial-intelligence/what-is-generative-ai/"
+        },
+        {
+          "text": "agentic AI",
+          "href": "https://www.salesforce.com/platform/enterprise-app-development/"
+        },
+        {
+          "text": "What is an AI model for small business?",
+          "href": "#h-what-is-an-ai-model-for-small-business"
+        },
+        {
+          "text": "How AI modeling works for small teams",
+          "href": "#h-how-ai-modeling-works-for-small-teams"
+        },
+        {
+          "text": "Predictive AI models",
+          "href": "#h-predictive-ai-models"
+        },
+        {
+          "text": "Generative AI models",
+          "href": "#h-generative-ai-models"
+        },
+        {
+          "text": "Agentic AI models",
+          "href": "#h-agentic-ai-models"
+        },
+        {
+          "text": "Real-world applications of AI models for small business",
+          "href": "#h-real-world-applications-of-ai-models-for-small-business"
+        },
+        {
+          "text": "How Agentforce is revolutionizing business operations",
+          "href": "#h-how-agentforce-is-revolutionizing-business-operations"
+        },
+        {
+          "text": "Choosing the right AI model for your startup",
+          "href": "#h-choosing-the-right-ai-model-for-your-startup"
+        },
+        {
+          "text": "How to get started with AI models",
+          "href": "#h-how-to-get-started-with-ai-models"
+        },
+        {
+          "text": "Using AI models to scale your startup",
+          "href": "#h-using-ai-models-to-scale-your-startup"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What is an AI model for small business?",
+      "text": "An AI model is an artificial intelligence system that learns from data to recognize patterns and make decisions on its own. AI models help power everything from virtual assistants, orAI agents, to fraud detection tools, making your work easier and your decisions smarter. Each AI model is designed for a specific purpose. Some analyze past trends to predict what’s next, while others create new content or even make real-time decisions to streamline your operations. The more advanced models, called foundation models, are trained on vast amounts of data and can be adapted for different tasks. Whether you need AI to improvecustomer service, speed up processes, or uncover insights, there’s a model built to support your goals.",
+      "word_count": 116,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "AI agents",
+          "href": "https://www.salesforce.com/blog/ai-agent-for-small-business/"
+        },
+        {
+          "text": "customer service",
+          "href": "https://www.salesforce.com/small-business/service/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "How AI modeling works for small teams",
+      "text": "Creating or designing an AI model is like teaching a computer to understand and make decisions based on data. Here’s how it works: Gathering data: First, collect relevant information. Thequality and relevance of this dataare crucial, as they form the foundation upon which the AI will learn. Teaching the model:With this data in hand, you can guide the AI through examples, helping it recognize patterns and relationships. It’s similar to how we learn from experience — the more diverse and rich the experiences, the better we understand. Setting the AI parameters:Depending on the task, select the most suitable approach to train the AI. Sometimes, you’ll need to provide clear examples with correct answers; other times, you’ll let the AI explore the data to find hidden patterns on its own. Putting the model to work:Once trained, the AI is ready to assist in real-world scenarios. Set it up so you can monitor its performance and make adjustments as needed, ensuring it continues to provide valuable insights.",
+      "word_count": 165,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "quality and relevance of this data",
+          "href": "https://www.salesforce.com/data"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Predictive AI models",
+      "text": "Predictive AI AI models, also called predictive analytics, utilize machine learning algorithms to uncover patterns within historical data. These models help make sense of past information and provide insights that can influence future strategies By analyzing historical data and recognizing trends, predictive AI models forecast future outcomes. You can apply these models across all areas of business, likemarketing,finance, andcustomer service, to make smarter decisions. It can help you: Improvesales forecastingby predicting demand and managing inventory.Enhancecustomer relationship management (CRM)by spotting churn risks and recommending engagement strategies.Optimizemarketing campaignsby predicting which promotions will fuel conversions.Increaseoperational efficiencyfor teams of all different industries and sizes. Recommendation engines:Suggest products based on browsing and purchase history.Fraud detection systems:Identify suspicious transactions by analyzing spending behaviors.Lead scoring models:Help your sales team prioritize leads based on conversion likelihood.HR predictive analytics:Identify employees at risk of leaving based on engagement patterns.",
+      "word_count": 139,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "marketing",
+          "href": "https://www.salesforce.com/marketing"
+        },
+        {
+          "text": "finance",
+          "href": "https://www.salesforce.com/financial-services/"
+        },
+        {
+          "text": "customer service",
+          "href": "https://www.salesforce.com/service/"
+        },
+        {
+          "text": "sales forecasting",
+          "href": "https://www.salesforce.com/small-business/sales/"
+        },
+        {
+          "text": "customer relationship management (CRM)",
+          "href": "https://www.salesforce.com/crm/what-is-crm/"
+        },
+        {
+          "text": "marketing campaigns",
+          "href": "https://www.salesforce.com/small-business/marketing/"
+        },
+        {
+          "text": "operational efficiency",
+          "href": "https://www.salesforce.com/small-business/collaboration/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Generative AI models",
+      "text": "Generative AI doesn’t just analyze data — it creates new content, from text and images to code and videos. If you need AI-generated marketing materials, product descriptions, or software code, generative AI is a game-changer. Generative AIuses deep learning techniques like neural networks to mimic human creativity. It learns from vast datasets and generates new outputs based on prompts. You can use it to create: Text:Blog posts, email drafts, chatbot responses, and personalized customer messages.Images:AI-generated product designs, graphics, and branding materials.Code:AI-assisted programming that helps developers write and debug software.Video and audio:AI-generated voiceovers, video clips, and even music. Generative pre-trained transformer (GPT):Powers chatbots and content creation tools.DALL-E:Creates AI-generated images from text prompts.Codex:Assists developers with AI-generated code suggestions.Runway ML:Enable AI-generated videos and realistic avatars.",
+      "word_count": 122,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Generative AI",
+          "href": "https://www.salesforce.com/artificial-intelligence/what-is-generative-ai/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Agentic AI models",
+      "text": "Agentic AIis the technology that powers AI agents so they can act autonomously without human oversight. These models help you automate processes, streamline workflows, and enhance customer experiences. These models help you automate processes, streamline workflows, and enhance customer experiences. Agentic AI models use reinforcement learning and decision-making algorithms to perform tasks autonomously. Unlike traditional AI, which provides recommendations, agentic AI acts on its conclusions. You can use it to: Automate customer support with AI-powered chatbots.Optimize inventory management and anticipate delays.Streamlinesales processesby qualifying leads and scheduling follow-ups.Improvecybersecurityby detecting threats and taking preemptive action. Autonomous customer support bots:Handle routineservice requestsand escalate complex issues.AI-powered sales assistants:Automatelead nurturingand follow-ups.Workflow automation tools:Manage repetitive tasks like invoice processing and appointment scheduling.AI-powered autonomous agents:Carry out multi-step tasks, such as financial portfolio management.",
+      "word_count": 126,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Agentic AI",
+          "href": "https://www.salesforce.com/agentforce/what-is-agentic-ai/"
+        },
+        {
+          "text": "sales processes",
+          "href": "https://www.salesforce.com/small-business/sales/smb-sales-guide/"
+        },
+        {
+          "text": "cybersecurity",
+          "href": "https://www.salesforce.com/blog/cost-effective-cybersecurity-small-business/"
+        },
+        {
+          "text": "service requests",
+          "href": "https://www.salesforce.com/service"
+        },
+        {
+          "text": "lead nurturing",
+          "href": "https://www.salesforce.com/sales/engagement-platform/what-is-lead-nurturing/"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "Real-world applications of AI models for small business",
+      "text": "AI models are transforming the way businesses operate, helping you scale faster and smarter. Here are just a few ways AI is making a difference: Retail:AI is transforming the way we shop, both online and in stores. Whether you’re browsing your favoriteonline storeand seeing product suggestions that feel handpicked for you or walking into a physical store where the products you love are always in stock and checkout is a breeze, AI is working behind the scenes. It learns your preferences, manages inventory, and streamlines your shopping journey, creating a personalized experience every time.Healthcare:AI assists doctors by predicting health issues early, leading to timely treatments. AI also analyzes medical data to support healthcare professionals in making informed decisions.Finance:AI safeguards your money by spotting unusual activities instantly. AI also helps in detecting potential fraud, ensuring your financial security.Marketing:AI helps you understand your customers’ preferences, delivering messages that truly speak to you.",
+      "word_count": 150,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "online store",
+          "href": "https://www.salesforce.com/small-business/commerce/"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "How Agentforce is revolutionizing business operations",
+      "text": "Agentforceis a proactive, autonomous AI application that provides specialized support to your teams or customers. It equips your business with essential knowledge to execute tasks efficiently. With theagentic model, Agentforce is transforming how businesses operate by automating complex workflows and enablingAI agentsto act independently. These AI-powered assistants retrieve data, analyze customer needs, and take real-time actions, reducing manual effort. Whether it’s automating customer inquiries, processing transactions, or optimizing sales outreach, Agentforce enhances efficiency and responsiveness. It seamlessly integrates withSalesforce CRM, ensuring smooth operations across departments.",
+      "word_count": 85,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "agentic model",
+          "href": "https://www.salesforce.com/agentforce/what-is-a-reasoning-engine/atlas/"
+        },
+        {
+          "text": "AI agents",
+          "href": "https://www.salesforce.com/blog/ai-agent-for-small-business/"
+        },
+        {
+          "text": "Salesforce CRM",
+          "href": "https://www.salesforce.com/crm/"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "heading": "Choosing the right AI model for your startup",
+      "text": "Selecting the right AI model depends on your business needs.Predictive AIis ideal if you want to forecast trends and improve decision-making, whilegenerative AIhelps with content creation, from marketing copy to customer communications. For fully automated workflows and decision-making,agentic AIis the best choice. Evaluate factors like cost, ease of implementation, and integration with your existing systems.Agentforceis particularly beneficial for your startup looking to automate workflows without heavy development, as it provides pre-built and customizable AI agents that can enhance efficiency and streamline operations from day one. AI models are transformingCRM and business operationsby driving smarter customer interactions and streamlining workflows. These tools provide predictive insights, automate routine tasks, and enable hyper-personalization, making business processes more efficient. AI-powered CRM solutionshelp your business across sales, marketing, and customer support by using data to guide decisions and improve performance. With AI, you can create better customer experiences and boost their ability to respond quickly to changing needs. For startups like yours, AI-enhanced CRM tools make it easier to maintain strong relationships with customers, increase sales efficiency, and optimize marketing efforts — all with minimal manual effort and greater scalability.",
+      "word_count": 185,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Predictive AI",
+          "href": "https://www.salesforce.com/crm/ai-crm/"
+        },
+        {
+          "text": "generative AI",
+          "href": "https://www.salesforce.com/crm/ai-crm/"
+        },
+        {
+          "text": "agentic AI",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "CRM and business operations",
+          "href": "https://www.salesforce.com/crm/benefits-of-crm/"
+        },
+        {
+          "text": "AI-powered CRM solutions",
+          "href": "https://www.salesforce.com/crm/ai-crm/"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "heading": "How to get started with AI models",
+      "text": "Starting with AI doesn’t have to be overwhelming. In fact, breaking it down into simple, actionable steps makes it easier to integrate AI into your business and start seeing the benefits. Here’s how you can get started: Before you jump into AI, take a moment to ask yourself: How can AI help your business thrive? Think about areas where you could use a boost — whether it’s automating repetitive tasks, improving customer service, or gaining deeper insights from your data. Identifying these opportunities will help you set clear goals and expectations for what you want AI to achieve. Now that you know where AI can make a difference, it’s time to configure your model. The great thing is that tools likeAgentforcemake it easy for you to set up AI-driven solutions without needing a technical background. You can useAI-powered CRM systemsto centralize all your customer interactions, automate time-consuming tasks, and uncover valuable insights to drive smarter decisions. Don’t be afraid to dive in and test your AI applications in real-life situations. Take advantage ofSalesforce’s support networkto experiment with AI tools in a way that fits your business. Testing helps you understand what works best for your specific needs and gives you confidence in your AI solutions before fully committing. Start small and integrate AI into your workflow gradually. By taking a phased approach, you’ll have the chance to see the impact of AI on your business and make adjustments along the way. With time, you’ll unlock AI’s full potential, driving growth and innovation that will take your business to the next level.",
+      "word_count": 261,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "AI-powered CRM systems",
+          "href": "https://www.salesforce.com/crm/ai-crm/"
+        },
+        {
+          "text": "Salesforce’s support network",
+          "href": "https://help.salesforce.com/s/"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "heading": "Using AI models to scale your startup",
+      "text": "AI models aren’t just for large corporations — they’re key to your startup’s growth. By understanding the differences between predictive, generative, and agentic AI models, you can make informed decisions that boost efficiency and innovation for your growing business. If you’re ready to enhance your business processes, exploreStarter Suitetoday. See how AI can help transform your workflow and accelerate growth. Already a Salesforce customer?Learn how to get started with Agentforcetoday. AI supported the writers and editors of this article.",
+      "word_count": 79,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Starter Suite",
+          "href": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta"
+        },
+        {
+          "text": "Learn how to get started with Agentforce",
+          "href": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Grow Your Small Business With AI Agents",
+      "body": "Learn how autonomous AI can scale your small business for efficient growth in our free e-book.",
+      "button_text": "Get it now",
+      "button_url": "https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/?d=bcta",
+      "position_after_section": 2
+    },
+    {
+      "heading": "Get your data ready for AI with Salesforce Foundations",
+      "body": "Easily activate Foundations in your existing CRM to add key features in Agentforce 360, Sales, Service, Marketing, Commerce, and Data — all for free.",
+      "button_text": "Try out Foundations",
+      "button_url": "https://www.salesforce.com/crm/foundations/?d=bcta",
+      "position_after_section": 5
+    },
+    {
+      "heading": "Kickstart your SMB with Starter Suite",
+      "body": "See results from day one with a CRM designed for SMBs — the all-in-one suite for productivity. It all starts with Starter Suite.",
+      "button_text": "Try it for free",
+      "button_url": "https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta",
+      "position_after_section": 8
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p><a href=\"https://www.salesforce.com/artificial-intelligence/\">Artificial intelligence (AI)</a> is changing the way you grow your startup or <a href=\"https://www.salesforce.com/small-business/what-is-an-smb/\">small and medium business (SMB)</a>, helping you work smarter, automate tasks, and make data-driven decisions. But with so many different AI models available, how do you know which one is right for your business? <br/><br/>Should you use <a href=\"https://help.salesforce.com/s/articleView?id=release-notes.rn_cdp_2024_spring_ai_create_models_nocode.htm&amp;release=248&amp;type=5\">predictive AI </a>to anticipate customer behavior? <a href=\"https://www.salesforce.com/artificial-intelligence/what-is-generative-ai/\">Generative AI </a>to create content? Or <a href=\"https://www.salesforce.com/platform/enterprise-app-development/\">agentic AI</a> to automate decisions and workflows? Understanding the differences between these AI models can help you make smarter choices that fuel efficiency and growth. Let’s learn what an AI model is, how AI modeling works, and how the different models can support your success.</p>\n<div class=\"wp-block-yoast-seo-table-of-contents yoast-table-of-contents\"><h6>What we’ll cover: </h6><ul><li><a data-level=\"2\" href=\"#h-what-is-an-ai-model-for-small-business\">What is an AI model for small business?</a></li><li><a data-level=\"2\" href=\"#h-how-ai-modeling-works-for-small-teams\">How AI modeling works for small teams</a></li><li><a data-level=\"2\" href=\"#h-predictive-ai-models\">Predictive AI models</a></li><li><a data-level=\"2\" href=\"#h-generative-ai-models\">Generative AI models</a></li><li><a data-level=\"2\" href=\"#h-agentic-ai-models\">Agentic AI models</a></li><li><a data-level=\"2\" href=\"#h-real-world-applications-of-ai-models-for-small-business\">Real-world applications of AI models for small business</a></li><li><a data-level=\"2\" href=\"#h-how-agentforce-is-revolutionizing-business-operations\">How Agentforce is revolutionizing business operations</a></li><li><a data-level=\"2\" href=\"#h-choosing-the-right-ai-model-for-your-startup\">Choosing the right AI model for your startup</a></li><li><a data-level=\"2\" href=\"#h-how-to-get-started-with-ai-models\">How to get started with AI models</a></li><li><a data-level=\"2\" href=\"#h-using-ai-models-to-scale-your-startup\">Using AI models to scale your startup</a></li></ul></div>\n<h2 class=\"wp-block-heading\" id=\"h-what-is-an-ai-model-for-small-business\">What is an AI model for small business?</h2>\n<p>An AI model is an artificial intelligence system that learns from data to recognize patterns and make decisions on its own. AI models help power everything from virtual assistants, or <a href=\"https://www.salesforce.com/blog/ai-agent-for-small-business/\">AI agents</a>, to fraud detection tools, making your work easier and your decisions smarter.</p>\n<p>Each AI model is designed for a specific purpose. Some analyze past trends to predict what’s next, while others create new content or even make real-time decisions to streamline your operations. The more advanced models, called foundation models, are trained on vast amounts of data and can be adapted for different tasks.</p>\n<p>Whether you need AI to improve <a href=\"https://www.salesforce.com/small-business/service/\">customer service</a>, speed up processes, or uncover insights, there’s a model built to support your goals.</p>\n<div class=\"wp-block-group is-style-cluster-content-section-alt has-white-background-color has-background is-layout-constrained wp-block-group-is-layout-constrained\">\n<div class=\"alignfull wp-block-salesforce-blog-section-heading\">\n<h2 class=\"wp-block-salesforce-blog-section-heading__title\">\n\t\t\t\tAI Tools for Small Business\t</h2>\n</div>\n<div class=\"wp-block-columns is-style-default is-layout-flex wp-container-core-columns-is-layout-9d6595d7 wp-block-columns-is-layout-flex\">\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\" style=\"flex-basis:50%\">\n<div class=\"wp-block-group is-vertical is-layout-flex wp-container-core-group-is-layout-8cf370e7 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-full\"><img alt=\"\" class=\"wp-image-136216\" decoding=\"async\" fetchpriority=\"high\" height=\"657\" sizes=\"(max-width: 1191px) 100vw, 1191px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/Screenshot-2026-01-08-at-3.51.44-PM.png\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/Screenshot-2026-01-08-at-3.51.44-PM.png 1191w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/Screenshot-2026-01-08-at-3.51.44-PM.png?w=906&amp;h=500 906w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/Screenshot-2026-01-08-at-3.51.44-PM.png?w=768&amp;h=424 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/Screenshot-2026-01-08-at-3.51.44-PM.png?w=150&amp;h=83 150w\" width=\"1191\"/></figure>\n<h3 class=\"wp-block-heading\" id=\"h-get-your-data-ready-for-ai\"><a href=\"https://www.salesforce.com/small-business/starter/?d=bcta\" rel=\"noopener\" target=\"_blank\">Get Your Data Ready For AI</a></h3>\n</div>\n</div>\n<div class=\"wp-block-column is-layout-flow wp-block-column-is-layout-flow\" style=\"flex-basis:50%\">\n<div class=\"wp-block-group is-style-cluster-content-card is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-94bc23d7 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-large\"><a href=\"https://www.salesforce.com/blog/agentforce-for-small-business/\" rel=\"noopener\" target=\"_blank\"><img alt=\"Illustration showcasing Agentforce for small business by Salesforce\" class=\"wp-image-105202\" decoding=\"async\" height=\"844\" sizes=\"(max-width: 1500px) 100vw, 1500px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/TSK-39419_What_Is_Agentforce_For_SMB_v3-1.jpg?w=1500\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/TSK-39419_What_Is_Agentforce_For_SMB_v3-1.jpg 1500w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/TSK-39419_What_Is_Agentforce_For_SMB_v3-1.jpg?w=889&amp;h=500 889w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/TSK-39419_What_Is_Agentforce_For_SMB_v3-1.jpg?w=768&amp;h=432 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/01/TSK-39419_What_Is_Agentforce_For_SMB_v3-1.jpg?w=150&amp;h=84 150w\" width=\"1500\"/></a></figure>\n<h4 class=\"wp-block-heading\" id=\"h-what-is-agentforce-360-for-small-business\"><a href=\"https://www.salesforce.com/blog/agentforce-for-small-business/\" rel=\"noopener\" target=\"_blank\">What is Agentforce 360 For Small Business? </a></h4>\n</div>\n<div class=\"wp-block-group is-style-cluster-content-card is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-94bc23d7 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-large\"><a href=\"https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/\" rel=\"noopener\" target=\"_blank\"><img alt=\"\" decoding=\"async\" src=\"https://www.salesforce.com/content/dam/web/en_us/www/images/form/smb/form/grow-your-small-business-with-ai-agents-hero.png\"/></a></figure>\n<h4 class=\"wp-block-heading\" id=\"h-grow-your-startup-or-smb-with-ai-agents\"><a href=\"https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/\">Grow Your Startup or SMB With AI Agents</a></h4>\n</div>\n<div class=\"wp-block-group is-style-cluster-content-card is-content-justification-center is-nowrap is-layout-flex wp-container-core-group-is-layout-94bc23d7 wp-block-group-is-layout-flex\">\n<figure class=\"wp-block-image size-large\"><a href=\"https://www.salesforce.com/agentforce/\" rel=\"noopener\" target=\"_blank\"><img alt=\"\" class=\"wp-image-101141\" decoding=\"async\" height=\"432\" sizes=\"(max-width: 768px) 100vw, 768px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist_8e705c.webp?w=768\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist_8e705c.webp 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/10/agentforce_watchlist_8e705c.webp?w=150&amp;h=84 150w\" width=\"768\"/></a></figure>\n<h4 class=\"wp-block-heading\" id=\"h-kickstart-agentforce-360-with-foundations\"><a href=\"https://www.salesforce.com/agentforce/\" rel=\"noopener\" target=\"_blank\">Kickstart Agentforce 360 With Foundations</a></h4>\n</div>\n</div>\n</div>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-how-ai-modeling-works-for-small-teams\">How AI modeling works for small teams</h2>\n<p>Creating or designing an AI model is like teaching a computer to understand and make decisions based on data. Here’s how it works:</p>\n<p><strong>Gathering data</strong>: First, collect relevant information. The <a href=\"https://www.salesforce.com/data\">quality and relevance of this data</a> are crucial, as they form the foundation upon which the AI will learn.</p>\n<p><strong>Teaching the model:</strong> With this data in hand, you can guide the AI through examples, helping it recognize patterns and relationships. It’s similar to how we learn from experience — the more diverse and rich the experiences, the better we understand.</p>\n<p><strong>Setting the AI parameters:</strong> Depending on the task, select the most suitable approach to train the AI. Sometimes, you’ll need to provide clear examples with correct answers; other times, you’ll let the AI explore the data to find hidden patterns on its own.</p>\n<p><strong>Putting the model to work:</strong> Once trained, the AI is ready to assist in real-world scenarios. Set it up so you can monitor its performance and make adjustments as needed, ensuring it continues to provide valuable insights.</p>\n<div class=\"layout-six wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Grow Your Small Business With AI Agents</h2>\n<p class=\"wp-block-offer__description\">Learn how autonomous AI can scale your small business for efficient growth in our free e-book.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/?d=bcta\" target=\"_self\">Get it now</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n<img alt=\"Ebook\" class=\"attachment-full size-full\" decoding=\"async\" height=\"432\" loading=\"lazy\" sizes=\"auto, (max-width: 621px) 100vw, 621px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/Ebook-Cover.png\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/Ebook-Cover.png 621w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/06/Ebook-Cover.png?w=150&amp;h=104 150w\" width=\"621\"/> </div>\n</div>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-predictive-ai-models\">Predictive AI models</h2>\n<p>Predictive AI AI models, also called predictive analytics, utilize machine learning algorithms to uncover patterns within historical data. These models help make sense of past information and provide insights that can influence future strategies</p>\n<p>By analyzing historical data and recognizing trends, predictive AI models forecast future outcomes. You can apply these models across all areas of business, like <a href=\"https://www.salesforce.com/marketing\">marketing</a>, <a href=\"https://www.salesforce.com/financial-services/\">finance</a>, and <a href=\"https://www.salesforce.com/service/\">customer service</a>, to make smarter decisions. It can help you:</p>\n<ul class=\"wp-block-list\">\n<li>Improve <a href=\"https://www.salesforce.com/small-business/sales/\">sales forecasting</a> by predicting demand and managing inventory.</li>\n<li>Enhance <a href=\"https://www.salesforce.com/crm/what-is-crm/\">customer relationship management (CRM)</a> by spotting churn risks and recommending engagement strategies.</li>\n<li>Optimize <a href=\"https://www.salesforce.com/small-business/marketing/\">marketing campaigns</a> by predicting which promotions will fuel conversions.</li>\n<li>Increase <a href=\"https://www.salesforce.com/small-business/collaboration/\">operational efficiency</a> for teams of all different industries and sizes.</li>\n</ul>\n<h3 class=\"wp-block-heading\" id=\"h-examples-of-predictive-ai-models\">Examples of predictive AI models</h3>\n<ul class=\"wp-block-list\">\n<li><strong>Recommendation engines:</strong> Suggest products based on browsing and purchase history.</li>\n<li><strong>Fraud detection systems:</strong> Identify suspicious transactions by analyzing spending behaviors.</li>\n<li><strong>Lead scoring models:</strong> Help your sales team prioritize leads based on conversion likelihood.</li>\n<li><strong>HR predictive analytics:</strong> Identify employees at risk of leaving based on engagement patterns.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-generative-ai-models\">Generative AI models</h2>\n<p>Generative AI doesn’t just analyze data — it creates new content, from text and images to code and videos. If you need AI-generated marketing materials, product descriptions, or software code, generative AI is a game-changer.</p>\n<p><a href=\"https://www.salesforce.com/artificial-intelligence/what-is-generative-ai/\">Generative AI </a>uses deep learning techniques like neural networks to mimic human creativity. It learns from vast datasets and generates new outputs based on prompts. You can use it to create:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Text: </strong>Blog posts, email drafts, chatbot responses, and personalized customer messages.</li>\n<li><strong>Images: </strong>AI-generated product designs, graphics, and branding materials.</li>\n<li><strong>Code:</strong> AI-assisted programming that helps developers write and debug software.</li>\n<li><strong>Video and audio: </strong>AI-generated voiceovers, video clips, and even music.</li>\n</ul>\n<h3 class=\"wp-block-heading\" id=\"h-examples-of-generative-ai-models\">Examples of generative AI models</h3>\n<ul class=\"wp-block-list\">\n<li><strong>Generative pre-trained transformer (GPT):</strong> Powers chatbots and content creation tools.</li>\n<li><strong>DALL-E:</strong> Creates AI-generated images from text prompts.</li>\n<li><strong>Codex: </strong>Assists developers with AI-generated code suggestions.</li>\n<li><strong>Runway ML: </strong>Enable AI-generated videos and realistic avatars.</li>\n</ul>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" frameborder=\"0\" height=\"281\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/5GFGTuCONJc?feature=oembed\" title=\"How Does Agentforce Work? AI Service Agent Demo | Dreamforce 2024\" width=\"500\"></iframe>\n</div></figure>\n<h2 class=\"wp-block-heading\" id=\"h-agentic-ai-models\">Agentic AI models</h2>\n<p><a href=\"https://www.salesforce.com/agentforce/what-is-agentic-ai/\">Agentic AI</a> is the technology that powers AI agents so they can act autonomously without human oversight. These models help you automate processes, streamline workflows, and enhance customer experiences. These models help you automate processes, streamline workflows, and enhance customer experiences.</p>\n<p>Agentic AI models use reinforcement learning and decision-making algorithms to perform tasks autonomously. Unlike traditional AI, which provides recommendations, agentic AI acts on its conclusions. You can use it to:</p>\n<ul class=\"wp-block-list\">\n<li>Automate customer support with AI-powered chatbots.</li>\n<li>Optimize inventory management and anticipate delays.</li>\n<li>Streamline <a href=\"https://www.salesforce.com/small-business/sales/smb-sales-guide/\">sales processes</a> by qualifying leads and scheduling follow-ups.</li>\n<li>Improve <a href=\"https://www.salesforce.com/blog/cost-effective-cybersecurity-small-business/\">cybersecurity</a> by detecting threats and taking preemptive action.</li>\n</ul>\n<h3 class=\"wp-block-heading\" id=\"h-examples-of-agentic-ai-models\">Examples of agentic AI models</h3>\n<ul class=\"wp-block-list\">\n<li><strong>Autonomous customer support bots:</strong> Handle routine <a href=\"https://www.salesforce.com/service\">service requests</a> and escalate complex issues.</li>\n<li><strong>AI-powered sales assistants:</strong> Automate <a href=\"https://www.salesforce.com/sales/engagement-platform/what-is-lead-nurturing/\">lead nurturing</a> and follow-ups.</li>\n<li><strong>Workflow automation tools:</strong> Manage repetitive tasks like invoice processing and appointment scheduling.</li>\n<li><strong>AI-powered autonomous agents: </strong>Carry out multi-step tasks, such as financial portfolio management.</li>\n</ul>\n<div class=\"layout-seven wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Get your data ready for AI with Salesforce Foundations </h2>\n<p class=\"wp-block-offer__description\">Easily activate Foundations in your existing CRM to add key features in Agentforce 360, Sales, Service, Marketing, Commerce, and Data — all for free.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/crm/foundations/?d=bcta\" target=\"_self\">Try out Foundations</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-seven.png\"/>\n<!-- Small Accent Illustration -->\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-seven.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-real-world-applications-of-ai-models-for-small-business\">Real-world applications of AI models for small business</h2>\n<p>AI models are transforming the way businesses operate, helping you scale faster and smarter. Here are just a few ways AI is making a difference:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Retail:</strong> AI is transforming the way we shop, both online and in stores. Whether you’re browsing your favorite <a href=\"https://www.salesforce.com/small-business/commerce/\">online store</a> and seeing product suggestions that feel handpicked for you or walking into a physical store where the products you love are always in stock and checkout is a breeze, AI is working behind the scenes. It learns your preferences, manages inventory, and streamlines your shopping journey, creating a personalized experience every time.</li>\n<li><strong>Healthcare: </strong>AI assists doctors by predicting health issues early, leading to timely treatments. AI also analyzes medical data to support healthcare professionals in making informed decisions.</li>\n<li><strong>Finance: </strong>AI safeguards your money by spotting unusual activities instantly. AI also helps in detecting potential fraud, ensuring your financial security.</li>\n<li><strong>Marketing:</strong> AI helps you understand your customers’ preferences, delivering messages that truly speak to you.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-how-agentforce-is-revolutionizing-business-operations\">How Agentforce is revolutionizing business operations</h2>\n<p><a href=\"https://www.salesforce.com/agentforce/\">Agentforce</a> is a proactive, autonomous AI application that provides specialized support to your teams or customers. It equips your business with essential knowledge to execute tasks efficiently.</p>\n<p>With the <a href=\"https://www.salesforce.com/agentforce/what-is-a-reasoning-engine/atlas/\">agentic model</a>, Agentforce is transforming how businesses operate by automating complex workflows and enabling <a href=\"https://www.salesforce.com/blog/ai-agent-for-small-business/\">AI agents</a> to act independently. These AI-powered assistants retrieve data, analyze customer needs, and take real-time actions, reducing manual effort.</p>\n<p>Whether it’s automating customer inquiries, processing transactions, or optimizing sales outreach, Agentforce enhances efficiency and responsiveness. It seamlessly integrates with <a href=\"https://www.salesforce.com/crm/\">Salesforce CRM</a>, ensuring smooth operations across departments.</p>\n<figure class=\"wp-block-image size-full wp-lightbox-container\" data-wp-context='{\"imageId\":\"69cdbf63797f8\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69cdbf63797f8\"><img alt=\"\" class=\"wp-image-121218\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" height=\"1200\" loading=\"lazy\" sizes=\"auto, (max-width: 2155px) 100vw, 2155px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/12/AF-BEN-blog.png\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/12/AF-BEN-blog.png 2155w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/12/AF-BEN-blog.png?w=898&amp;h=500 898w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/12/AF-BEN-blog.png?w=768&amp;h=428 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/12/AF-BEN-blog.png?w=1536&amp;h=855 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/12/AF-BEN-blog.png?w=2048&amp;h=1140 2048w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2024/12/AF-BEN-blog.png?w=150&amp;h=84 150w\" width=\"2155\"><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button></img></figure>\n<h2 class=\"wp-block-heading\" id=\"h-choosing-the-right-ai-model-for-your-startup\">Choosing the right AI model for your startup</h2>\n<p>Selecting the right AI model depends on your business needs. <a href=\"https://www.salesforce.com/crm/ai-crm/\">Predictive AI</a> is ideal if you want to forecast trends and improve decision-making, while <a href=\"https://www.salesforce.com/crm/ai-crm/\">generative AI</a> helps with content creation, from marketing copy to customer communications. For fully automated workflows and decision-making, <a href=\"https://www.salesforce.com/agentforce/\">agentic AI</a> is the best choice. </p>\n<p>Evaluate factors like cost, ease of implementation, and integration with your existing systems. <a href=\"https://www.salesforce.com/agentforce/\">Agentforce</a> is particularly beneficial for your startup looking to automate workflows without heavy development, as it provides pre-built and customizable AI agents that can enhance efficiency and streamline operations from day one.</p>\n<h3 class=\"wp-block-heading\" id=\"h-ai-models-in-crm-and-business-operations\">AI models in CRM and business operations</h3>\n<p>AI models are transforming <a href=\"https://www.salesforce.com/crm/benefits-of-crm/\">CRM and business operations</a> by driving smarter customer interactions and streamlining workflows. These tools provide predictive insights, automate routine tasks, and enable hyper-personalization, making business processes more efficient.</p>\n<p><a href=\"https://www.salesforce.com/crm/ai-crm/\">AI-powered CRM solutions</a> help your business across sales, marketing, and customer support by using data to guide decisions and improve performance. With AI, you can create better customer experiences and boost their ability to respond quickly to changing needs.</p>\n<p>For startups like yours, AI-enhanced CRM tools make it easier to maintain strong relationships with customers, increase sales efficiency, and optimize marketing efforts — all with minimal manual effort and greater scalability.</p>\n<div class=\"layout-six wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Kickstart your SMB with Starter Suite</h2>\n<p class=\"wp-block-offer__description\">See results from day one with a CRM designed for SMBs — the all-in-one suite for productivity. It all starts with Starter Suite.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta\" target=\"_self\">Try it for free</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n<img alt=\"\" class=\"attachment-full size-full\" decoding=\"async\" height=\"683\" loading=\"lazy\" sizes=\"auto, (max-width: 1024px) 100vw, 1024px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/03/smb-freemium-marquee-alt-3.webp\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/03/smb-freemium-marquee-alt-3.webp 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/03/smb-freemium-marquee-alt-3.webp?w=750&amp;h=500 750w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/03/smb-freemium-marquee-alt-3.webp?w=768&amp;h=512 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/03/smb-freemium-marquee-alt-3.webp?w=150&amp;h=100 150w\" width=\"1024\"> </img></div>\n</div>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-how-to-get-started-with-ai-models\">How to get started with AI models</h2>\n<p>Starting with AI doesn’t have to be overwhelming. In fact, breaking it down into simple, actionable steps makes it easier to integrate AI into your business and start seeing the benefits. Here’s how you can get started:</p>\n<h3 class=\"wp-block-heading\" id=\"h-step-1-ask-the-right-questions\">Step 1: Ask the right questions</h3>\n<p>Before you jump into AI, take a moment to ask yourself: How can AI help your business thrive? Think about areas where you could use a boost — whether it’s automating repetitive tasks, improving customer service, or gaining deeper insights from your data. Identifying these opportunities will help you set clear goals and expectations for what you want AI to achieve.</p>\n<h3 class=\"wp-block-heading\" id=\"h-step-2-configure-your-model\">Step 2: Configure your model</h3>\n<p>Now that you know where AI can make a difference, it’s time to configure your model. The great thing is that tools like <a href=\"https://www.salesforce.com/agentforce/\">Agentforce</a> make it easy for you to set up AI-driven solutions without needing a technical background. You can use <a href=\"https://www.salesforce.com/crm/ai-crm/\">AI-powered CRM systems</a> to centralize all your customer interactions, automate time-consuming tasks, and uncover valuable insights to drive smarter decisions.</p>\n<h3 class=\"wp-block-heading\" id=\"h-step-3-test-with-real-world-scenarios\">Step 3: Test with real-world scenarios</h3>\n<p>Don’t be afraid to dive in and test your AI applications in real-life situations. Take advantage of <a href=\"https://help.salesforce.com/s/\">Salesforce’s support network</a> to experiment with AI tools in a way that fits your business. Testing helps you understand what works best for your specific needs and gives you confidence in your AI solutions before fully committing.</p>\n<h3 class=\"wp-block-heading\" id=\"h-step-4-integrate-ai-step-by-step\">Step 4: Integrate AI step by step</h3>\n<p>Start small and integrate AI into your workflow gradually. By taking a phased approach, you’ll have the chance to see the impact of AI on your business and make adjustments along the way. With time, you’ll unlock AI’s full potential, driving growth and innovation that will take your business to the next level.</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" frameborder=\"0\" height=\"281\" loading=\"lazy\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/N2z5swelQTM?feature=oembed\" title=\"How an AI CRM Scales With You | Salesforce Explained\" width=\"500\"></iframe>\n</div></figure>\n<h2 class=\"wp-block-heading\" id=\"h-using-ai-models-to-scale-your-startup\">Using AI models to scale your startup</h2>\n<p>AI models aren’t just for large corporations — they’re key to your startup’s growth. By understanding the differences between predictive, generative, and agentic AI models, you can make informed decisions that boost efficiency and innovation for your growing business.</p>\n<p>If you’re ready to enhance your business processes, explore <a href=\"https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta\">Starter Suite</a> today. See how AI can help transform your workflow and accelerate growth.</p>\n<p>Already a Salesforce customer? <a href=\"https://www.salesforce.com/form/signup/freetrial-salesforce-starter/?d=bcta\">Learn how to get started with Agentforce</a> today.</p>\n<p><em>AI supported the writers and editors of this article.</em></p>\n<p></p>\n</div>"
+}

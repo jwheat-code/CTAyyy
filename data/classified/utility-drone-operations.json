@@ -2,6 +2,8 @@
   "url": "https://www.salesforce.com/blog/utility-drone-operations/?bc=DB",
   "slug": "utility-drone-operations",
   "title": "From Detection to Dispatch: Why Utility Drone Operations Need a Unified Platform",
+  "author": "More by Aleksandr",
+  "published_date": "2026-01-30T19:12:11+00:00",
   "section_analyses": [
     {
       "section_index": 0,
@@ -37,7 +39,7 @@
           "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
         },
         {
-          "cta_id": "manufacturing",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.45,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
         }
@@ -73,12 +75,12 @@
         "position_after_section": 1
       },
       "existing_cta_score": {
-        "relevance_score": 1.0,
-        "funnel_alignment": "match",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
@@ -131,7 +133,7 @@
           "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "manufacturing",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
         },
@@ -247,7 +249,7 @@
           "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage it_leader reader."
         },
         {
-          "cta_id": "manufacturing",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.45,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage it_leader reader."
         }
@@ -256,6 +258,6 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.44,
+  "overall_health_score": 0.4,
   "misaligned_count": 3
 }

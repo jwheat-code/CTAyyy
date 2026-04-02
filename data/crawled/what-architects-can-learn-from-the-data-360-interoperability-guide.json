@@ -1,0 +1,67 @@
+{
+  "url": "https://www.salesforce.com/blog/what-architects-can-learn-from-the-data-360-interoperability-guide/?bc=DB",
+  "slug": "what-architects-can-learn-from-the-data-360-interoperability-guide",
+  "title": "What Architects Can Learn from the Data 360 Interoperability Guide",
+  "author": "Yugandhar Bora, Jan Fernando",
+  "published_date": "2025-11-18T18:06:23+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Architects today are designing data platforms that must enable seamless, trusted, and scalable data exchange across many systems and teams. The challenge is creating a foundation where data can move smoothly and securely wherever it is needed, without adding complexity or risking trust. This means designing a unified data fabric where information flows effortlessly betweenSalesforce Data 360and external data platforms such as Snowflake or Databricks, all governed under consistent policies and security controls. When this level of interoperability is in place, enterprises can reduce integration complexity, maintain compliance, and unlock real-time intelligence that drives smarter, more connected customer experiences.",
+      "word_count": 99,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Salesforce Data 360",
+          "href": "https://www.salesforce.com/data/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "The architect’s opportunity",
+      "text": "For architects, the challenge goes beyond system integration. It’s about making data trustworthy, meaningful, and ready to scale. Most organizations operate across multiple Salesforce orgs, hybrid cloud environments, and an expanding set of APIs and data platforms. Each integration choice creates ripple effects across governance, performance, and AI readiness. Data 360 Interoperability focuses on building a governed data fabric that allows customer data to flow cleanly and consistently across systems while maintaining security, compliance, and architectural simplicity. This is why we created theData 360 Interoperability Decision Guide: to help architects make confident, scalable, and consistent design decisions as they navigate increasingly complex environments.",
+      "word_count": 103,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Data 360 Interoperability Decision Guide",
+          "href": "https://architect.salesforce.com/decision-guides/data-360-interoperability"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Understand the core interoperability dimensions",
+      "text": "The Decision Guide is structured around the key architectural dimensions that shape how Data 360 interoperates with the broader enterprise ecosystem. Each dimension reflects a real-world challenge architects navigate every day and helps guide the decisions that lead to a more connected and governed data foundation. Learn how to reliably and securely bring enterprise data into Salesforce Data 360 from APIs, files, and event streams. For example, a global retailer unifying data from sales, marketing, and loyalty systems can use these patterns to maintain schema consistency, support lineage tracking, and scale ingestion pipelines without unnecessary custom code. Discover how Zero Copy enables governed, policy-aware access to external data without physically moving it between platforms. Imagine a financial institution that needs to access data stored in Snowflake for analytics while keeping it governed under a single policy framework within Data Cloud. This section of the guide explains how to design this approach securely while reducing duplication and compliance overhead. Interoperability isn’t just a technical challenge; it’s about trust. This section of the guide explains how to enforce consistent data governance, semantic alignment, and policy controls across multi-org and multi-system architectures. These practices create a strong foundation for AI-ready data and enterprise-wide compliance. Architect for performance and sustainability. Learn how to reduce integration maintenance, optimize data movement, and eliminate redundant ETL jobs (extract, transform, load processes) through declarative orchestration and Zero Copy design. These approaches help lower infrastructure and compute costs and free teams to focus on innovation instead of maintenance.",
+      "word_count": 249,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "Why architects use the decision guide",
+      "text": "This Decision Guide is not about identifying one “right” pattern. It is designed to help architects think strategically and make informed choices in a wide range of scenarios. Inside the guide you’ll find: Trade-off frameworksto balance scalability, latency, and costDecision treesto help you choose between native Salesforce connectors and middleware orchestrationsBest practicesfrom real-world implementations and AI-driven architectures that show how enterprises are building interoperability for the next decade For a growing enterprise merging data from marketing, sales, and service systems, these insights can mean the difference between smooth automation and endless manual fixes.",
+      "word_count": 93,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "Design with the big picture in mind",
+      "text": "As organizations move toward AI-native architectures, data interoperability is becoming a priority across both technical and business teams. Architects are being asked to deliver connected, governed, and compliant customer data ecosystems faster and more intelligently than ever. The Salesforce Data 360 Interoperability Decision Guide helps you: Evaluate integration patterns with confidenceDesign for compliance and governance from day oneBuild scalable, AI-ready data architectures that support trust and innovation Explore the fullDecision Guideto dive deeper and put these recommendations into practice across your data ecosystem.",
+      "word_count": 83,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Decision Guide",
+          "href": "https://architect.salesforce.com/decision-guides/data-360-interoperability"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Architects today are designing data platforms that must enable seamless, trusted, and scalable data exchange across many systems and teams. The challenge is creating a foundation where data can move smoothly and securely wherever it is needed, without adding complexity or risking trust.</p>\n<p>This means designing a unified data fabric where information flows effortlessly between <a href=\"https://www.salesforce.com/data/\" rel=\"noopener\" target=\"_blank\">Salesforce Data 360</a> and external data platforms such as Snowflake or Databricks, all governed under consistent policies and security controls. When this level of interoperability is in place, enterprises can reduce integration complexity, maintain compliance, and unlock real-time intelligence that drives smarter, more connected customer experiences.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-architect-s-opportunity-nbsp\"><strong>The architect’s opportunity </strong></h2>\n<p>For architects, the challenge goes beyond system integration. It’s about making data trustworthy, meaningful, and ready to scale. Most organizations operate across multiple Salesforce orgs, hybrid cloud environments, and an expanding set of APIs and data platforms. Each integration choice creates ripple effects across governance, performance, and AI readiness.</p>\n<p>Data 360 Interoperability focuses on building a governed data fabric that allows customer data to flow cleanly and consistently across systems while maintaining security, compliance, and architectural simplicity. This is why we created the <a href=\"https://architect.salesforce.com/decision-guides/data-360-interoperability\" rel=\"noopener\" target=\"_blank\">Data 360 Interoperability Decision Guide</a>: to help architects make confident, scalable, and consistent design decisions as they navigate increasingly complex environments.</p>\n<h2 class=\"wp-block-heading\" id=\"h-understand-the-core-interoperability-dimensions\"><strong>Understand the core interoperability dimensions</strong></h2>\n<p>The Decision Guide is structured around the key architectural dimensions that shape how Data 360 interoperates with the broader enterprise ecosystem. Each dimension reflects a real-world challenge architects navigate every day and helps guide the decisions that lead to a more connected and governed data foundation.</p>\n<h3 class=\"wp-block-heading\" id=\"h-1-inbound-data-integration-patterns\"><strong>1. Inbound data integration patterns</strong></h3>\n<p>Learn how to reliably and securely bring enterprise data into Salesforce Data 360 from APIs, files, and event streams. For example, a global retailer unifying data from sales, marketing, and loyalty systems can use these patterns to maintain schema consistency, support lineage tracking, and scale ingestion pipelines without unnecessary custom code.</p>\n<h3 class=\"wp-block-heading\" id=\"h-2-zero-copy-data-federation-patterns\">2. <strong>Zero Copy data federation patterns</strong></h3>\n<p>Discover how Zero Copy enables governed, policy-aware access to external data without physically moving it between platforms. Imagine a financial institution that needs to access data stored in Snowflake for analytics while keeping it governed under a single policy framework within Data Cloud. This section of the guide explains how to design this approach securely while reducing duplication and compliance overhead.</p>\n<h3 class=\"wp-block-heading\" id=\"h-3-governance-and-policy-alignment\">3. <strong>Governance and policy alignment</strong></h3>\n<p>Interoperability isn’t just a technical challenge; it’s about trust. This section of the guide explains how to enforce consistent data governance, semantic alignment, and policy controls across multi-org and multi-system architectures. These practices create a strong foundation for AI-ready data and enterprise-wide compliance.</p>\n<h3 class=\"wp-block-heading\" id=\"h-4-operational-efficiency\">4. <strong>Operational efficiency</strong></h3>\n<p>Architect for performance and sustainability. Learn how to reduce integration maintenance, optimize data movement, and eliminate redundant ETL jobs (extract, transform, load processes) through declarative orchestration and Zero Copy design. These approaches help lower infrastructure and compute costs and free teams to focus on innovation instead of maintenance.</p>\n<h2 class=\"wp-block-heading\" id=\"h-why-architects-use-the-decision-guide\"><strong>Why architects use the decision guide</strong></h2>\n<p>This Decision Guide is not about identifying one “right” pattern. It is designed to help architects think strategically and make informed choices in a wide range of scenarios.</p>\n<p>Inside the guide you’ll find: </p>\n<ul class=\"wp-block-list\">\n<li><strong>Trade-off frameworks </strong>to balance scalability, latency, and cost</li>\n<li><strong>Decision trees</strong> to help you choose between native Salesforce connectors and middleware orchestrations</li>\n<li><strong>Best practices</strong> from real-world implementations and AI-driven architectures that show how enterprises are building interoperability for the next decade</li>\n</ul>\n<p>For a growing enterprise merging data from marketing, sales, and service systems, these insights can mean the difference between smooth automation and endless manual fixes.</p>\n<h2 class=\"wp-block-heading\"><strong>Design with the big picture in mind</strong></h2>\n<p>As organizations move toward AI-native architectures, data interoperability is becoming a priority across both technical and business teams. Architects are being asked to deliver connected, governed, and compliant customer data ecosystems faster and more intelligently than ever.</p>\n<p>The Salesforce Data 360 Interoperability Decision Guide helps you:</p>\n<ul class=\"wp-block-list\">\n<li>Evaluate integration patterns with confidence</li>\n<li>Design for compliance and governance from day one</li>\n<li>Build scalable, AI-ready data architectures that support trust and innovation</li>\n</ul>\n<p>Explore the full <a href=\"https://architect.salesforce.com/decision-guides/data-360-interoperability\" rel=\"noopener\" target=\"_blank\">Decision Guide</a> to dive deeper and put these recommendations into practice across your data ecosystem.</p>\n</div>"
+}

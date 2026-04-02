@@ -414,6 +414,8 @@ def get_recommendations(products: list, funnel: str, persona: str, cta_lib: list
 
 def classify_article(article: dict, cta_lib: list) -> dict:
     title = article["title"]
+    author = article.get("author", "")
+    published_date = article.get("published_date", "")
     sections = article.get("sections", [])
     existing_ctas = article.get("existing_ctas", [])
     cta_by_section = {c.get("position_after_section", -1): c for c in existing_ctas}
@@ -509,6 +511,8 @@ def classify_article(article: dict, cta_lib: list) -> dict:
         "url": article["url"],
         "slug": article["slug"],
         "title": title,
+        "author": author,
+        "published_date": published_date,
         "section_analyses": section_analyses,
         "overall_health_score": round(health, 4),
         "misaligned_count": misaligned,

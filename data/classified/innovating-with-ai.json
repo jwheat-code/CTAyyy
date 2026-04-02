@@ -2,46 +2,47 @@
   "url": "https://www.salesforce.com/blog/innovating-with-ai/?bc=DB",
   "slug": "innovating-with-ai",
   "title": "Beyond Efficiency: How To Use AI To Innovate and Grow",
+  "author": "",
+  "published_date": "2026-03-30T16:33:11+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "How To Use AI To Innovate and Grow",
       "classification": {
-        "reader_intent": "inspiring",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "awareness",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
         "product_alignment": [
           "agentforce",
-          "einstein_ai"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_transformation",
-          "business_innovation",
-          "ai_strategy",
-          "growth",
-          "leadership"
+          "ai_agents",
+          "ai_tools",
+          "productivity",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly thought leadership content aimed at inspiring business leaders to think beyond operational efficiency and consider AI's transformational potential. The focus on \"dreaming bigger\" and \"100x payoff\" positions this as awareness-stage content that challenges conventional thinking. While it mentions Salesforce Help as proof, the primary intent is to inspire strategic thinking about AI innovation rather than promote specific products."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'How To Use AI To Innovate and Grow'. Products: agentforce, sales_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.9,
-          "match_rationale": "Perfect match for a business leader reading about AI transformation and innovation. After reading about the strategic potential of AI beyond efficiency, they would be highly interested in seeing real data on how businesses are implementing AI agents. The product alignment with agentforce matches the section's focus, and the awareness funnel stage is appropriate for this inspirational content."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.75,
-          "match_rationale": "Strong alignment for business leaders seeking strategic guidance on AI implementation. After being inspired by the transformational potential of AI, leaders would want practical guidance on how to develop their own AI strategy. The awareness funnel stage matches well with the inspirational nature of the section."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders who just read about AI transformation and are now thinking about their own agentic AI strategy. The awareness-level content matches the funnel stage, and the strategic focus aligns well with the section's emphasis on thinking bigger with AI beyond just efficiency gains."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -51,37 +52,37 @@
       "section_index": 1,
       "section_heading": "The 3 ways companies can use AI",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "inspiring",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "agentforce",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_strategy",
-          "digital_transformation",
-          "business_innovation",
-          "automation",
-          "ai_maturity"
+          "productivity",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is educational content that explains BCG's three-stage AI framework (deploy, reshape, invent) without promoting specific Salesforce products. The focus is on helping leaders understand AI potential beyond automation, making it awareness-stage content for business leaders who are learning about AI strategy and maturity models. The criticism that \"many organizations aim too low\" suggests readers are in early stages of AI adoption."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'The 3 ways companies can use AI'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.8,
-          "match_rationale": "Strong match for business leaders seeking to understand AI strategy implementation. The section discusses how organizations often 'aim too low' with AI - this guide would help leaders develop a more comprehensive AI approach. Awareness-stage funnel alignment is perfect for readers who just learned about AI maturity stages and want actionable guidance."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
-          "score": 0.75,
-          "match_rationale": "Good relevance for business leaders concerned about AI readiness and strategy. After reading about AI maturity stages and the challenge that 'leaders don't even ask what new approaches are possible,' CEOs would be interested in research about how other executives are preparing for agentic AI. The consideration-stage funnel is one step ahead of the awareness content, which is appropriate."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -91,36 +92,41 @@
       "section_index": 2,
       "section_heading": "Use AI to envision new opportunities",
       "classification": {
-        "reader_intent": "inspiring",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "awareness",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "decision",
         "product_alignment": [
           "einstein_ai",
-          "general"
+          "sales_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "ai_innovation",
-          "strategic_planning",
-          "market_analysis",
-          "future_planning",
-          "competitive_advantage"
+          "small_business",
+          "ai_tools",
+          "productivity",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is inspirational thought leadership focused on high-level AI strategy for business innovation. It presents conceptual frameworks (challenge assumptions, envision future, find opportunities) without diving into specific Salesforce products or implementation details. The content targets business leaders seeking to understand AI's strategic potential rather than evaluate specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Use AI to envision new opportunities'. Products: einstein_ai, sales_cloud, commerce_cloud. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Perfect match for business leaders seeking AI innovation insights. This CTA offers strategic intelligence about how other businesses are using AI agents, directly aligning with the section's focus on envisioning new AI opportunities and the reader's inspiring intent to explore competitive advantages."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
         },
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
-          "score": 0.7,
-          "match_rationale": "Highly relevant for business leaders exploring AI opportunities. This research specifically addresses CEO perspectives on agentic AI preparedness, which complements the section's focus on strategic planning and future visioning with AI."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -130,36 +136,39 @@
       "section_index": 3,
       "section_heading": "Follow the example of these companies",
       "classification": {
-        "reader_intent": "inspiring",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "marketing_leader",
+        "secondary_persona": "sales_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "data_cloud"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_innovation",
-          "trend_analysis",
-          "customer_insights",
-          "business_growth",
-          "social_media_analytics"
+          "ai_tools",
+          "data_analytics",
+          "productivity",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This section provides inspirational case studies showing how AI drives innovation and revenue growth. It targets business leaders seeking vision and ideas for AI transformation, positioning them in the awareness stage where they're learning about AI's potential through concrete examples rather than evaluating specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Follow the example of these companies'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.75,
-          "match_rationale": "Strong fit for business leaders inspired by AI success stories who want to understand how to implement AI in their own organization. This guide provides actionable next steps for the awareness stage, helping leaders move from inspiration to understanding AI implementation for business growth."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "resources-research-reports-high-tech-trends",
-          "score": 0.65,
-          "match_rationale": "Good match for business leaders seeking broader trend analysis after reading specific AI innovation examples. This positions them to understand the larger context of technology trends, which aligns with their awareness-stage interest in staying ahead of market developments and innovation."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -169,42 +178,42 @@
       "section_index": 4,
       "section_heading": "Create new products fueled by AI",
       "classification": {
-        "reader_intent": "inspiring",
-        "primary_persona": "it_leader",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "platform",
-          "einstein_ai"
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "ai_innovation",
-          "product_development",
-          "automation",
-          "digital_transformation",
-          "robotics"
+          "ai_agents",
+          "productivity",
+          "security",
+          "collaboration",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This section focuses on inspiring readers with concrete examples of AI innovation and product creation using Salesforce's Agentforce platform. The content showcases real use cases (security robots, Williams Sonoma's Olive agent) that demonstrate transformative AI applications beyond basic efficiency gains. The technical detail and innovation focus appeals primarily to IT leaders while also inspiring business leaders to think bigger about AI possibilities. It's consideration-stage content as readers are exploring what's possible with AI solutions rather than learning basic concepts or ready to make immediate purchase decisions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Create new products fueled by AI'. Products: agentforce, commerce_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.9,
-          "match_rationale": "Perfect match for IT leaders inspired by the Agentforce robotics example. After reading about real-world AI agent implementation, they'll want to see how other businesses are using AI agents. Matches consideration funnel stage and Agentforce product focus."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.8,
-          "match_rationale": "Strong match for IT leaders wanting to move from inspiration to implementation. The section showcases Agentforce robotics success, making readers think about how to implement AI agents in their organization. Provides practical implementation guidance."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.75,
-          "match_rationale": "Good match as the section demonstrates Agentforce solving operational challenges (security, automation). IT leaders will be interested in exploring Agentforce Service for similar use cases in their organization. Aligns with consideration stage and product focus."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -216,34 +225,35 @@
       "classification": {
         "reader_intent": "inspiring",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "agentforce"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_strategy",
-          "roi",
-          "innovation",
-          "mindset_shift",
-          "competitive_advantage"
+          "productivity",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is thought leadership content that inspires business leaders to think strategically about AI adoption beyond just efficiency gains. It addresses C-level concerns about ROI and shareholder pressure while positioning AI as both a defensive and offensive competitive strategy. The content is conceptual and visionary rather than product-specific, making it awareness-stage content that builds understanding of AI's strategic value."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Shift mindsets with AI’s help'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.75,
-          "match_rationale": "Strong match for awareness stage content about AI strategy and ROI. While focused on small business, the guide content on AI implementation aligns with the section's themes of mindset shifts and strategic AI deployment for business leaders."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders seeking validation and insights on AI strategy. The CEO research perspective matches the section's focus on executive decision-making around AI adoption and competitive advantage considerations."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -253,85 +263,60 @@
       "section_index": 6,
       "section_heading": "Ready to innovate with AI?",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
         "secondary_persona": null,
-        "funnel_stage": "decision",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "einstein_ai"
+          "agentforce"
         ],
         "topic_tags": [
-          "ai_innovation",
-          "agentic_enterprise",
-          "business_transformation",
-          "ai_strategy",
-          "enterprise_growth"
+          "productivity"
         ],
-        "confidence": 0.85,
-        "rationale": "This is a clear call-to-action section offering a free playbook for implementing agentic AI. The \"Ready to innovate\" heading and \"guide to becoming\" language indicates the reader is ready to take action (decision stage) and wants implementation guidance. Business leaders would be most interested in enterprise transformation playbooks."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Ready to innovate with AI?'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.9,
-          "match_rationale": "Perfect alignment - this CTA offers insights into how businesses are using AI agents, directly matching the section's focus on becoming an agentic enterprise. The section mentions a 'free playbook' and this CTA provides complementary research for business leaders ready to implement AI agent strategies."
-        },
-        {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Excellent match for implementation-focused business leaders. The section asks 'Ready to innovate with AI?' and mentions becoming an agentic enterprise, while this CTA provides actionable implementation steps for AI agents - exactly what a decision-stage reader would need next."
-        },
-        {
-          "cta_id": "service-cloud",
-          "score": 0.7,
-          "match_rationale": "Good product alignment with Agentforce and appropriate for business leaders in the decision stage. While not as specific to the 'agentic enterprise' theme as the top options, it offers a concrete next step for leaders ready to implement AI solutions in their organization."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 7,
       "section_heading": "Get comfortable with (a little) risk",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "inspiring",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
           "general"
         ],
         "topic_tags": [
-          "ai_innovation",
-          "risk_management",
-          "change_management",
-          "ai_strategy",
-          "digital_transformation"
+          "productivity",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is educational content about managing risk in AI innovation, targeting business leaders who are learning about AI strategy concepts. The BCG expert quotes and focus on organizational mindset indicate awareness-stage content. While AI-related, it's more about general innovation principles than specific Salesforce AI products."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Get comfortable with (a little) risk'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with business leaders learning about AI strategy and risk management. This awareness-stage guide about AI for small business directly follows up on the section's discussion of building AI portfolios and managing innovation risk."
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "content-learn-modules-change-management-for-ai-imp",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for business leaders who just read about managing AI innovation risk and the iterative nature of AI implementation. This learning trail addresses the change management challenges mentioned in the section."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders in awareness stage learning about AI strategy. After reading about AI risk management and portfolio approaches, this strategic playbook would be a natural next step for developing their AI approach."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -343,34 +328,35 @@
       "classification": {
         "reader_intent": "inspiring",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "agentforce"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_innovation",
-          "human_judgment",
-          "leadership",
-          "workplace_transformation",
-          "decision_making"
+          "productivity",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section focuses on inspiring leaders to think strategically about AI adoption while emphasizing human judgment as critical for success. It's thought leadership content aimed at business leaders who are in the awareness stage of understanding how to approach AI innovation. The content aligns with Einstein AI and Agentforce as tools that augment rather than replace human decision-making."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Rely on your most valuable tool: Human judgment'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "agentforce-agentic-enterprise-index",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment with the section's focus on AI innovation and human judgment. This CTA offers business leaders insights into how companies are actually using AI agents, which directly relates to making informed judgments about AI implementation. The awareness-level funnel stage matches the section's inspirational, early-stage content about AI workplace transformation."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
-          "score": 0.75,
-          "match_rationale": "Highly relevant for business leaders thinking about AI strategy and decision-making after reading about human judgment in the AI era. The IDC CEO research provides peer insights that would help leaders make better-informed judgments about AI preparedness, directly connecting to the section's theme of using good judgment for better outcomes."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -385,31 +371,31 @@
         "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "einstein_ai",
-          "agentforce"
+          "general"
         ],
         "topic_tags": [
-          "ai_innovation",
-          "business_growth",
-          "digital_transformation",
-          "competitive_advantage",
-          "ai_strategy"
+          "productivity"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is thought leadership content that inspires readers to think beyond basic AI efficiency gains toward transformational innovation. The aspirational tone (\"create the world's Next Big Thing\") and high-level strategic focus indicates business leaders in the awareness stage who are being inspired to consider AI's broader potential rather than evaluating specific solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Why innovating with AI is a smart next move'. Products: general. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.75,
-          "match_rationale": "Strong fit for business leaders inspired by AI innovation potential. This awareness-stage guide provides actionable next steps for readers who want to explore AI strategy further. While focused on small business, the strategic AI content is relevant for leaders thinking about competitive advantage."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.65,
-          "match_rationale": "Good match for the awareness stage and AI strategy focus. After reading about the strategic importance of AI innovation, business leaders would naturally want to develop their agentic AI strategy. The guide format provides deeper strategic thinking beyond the inspirational content."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -419,43 +405,27 @@
       "section_index": 10,
       "section_heading": "Get insights and advice just for you",
       "classification": {
-        "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": null,
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "einstein_ai",
-          "general"
+          "agentforce"
         ],
         "topic_tags": [
-          "ai_innovation",
           "ai_agents",
-          "business_growth",
-          "technology_adoption",
-          "digital_transformation"
+          "productivity"
         ],
-        "confidence": 0.8,
-        "rationale": "This is a content discovery/navigation section that invites readers to explore more educational content about AI innovation and growth. The learning intent and awareness stage classification reflect that readers are being directed to educational resources rather than product-specific content. Business leaders are the primary target given the focus on innovation and growth outcomes."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Get insights and advice just for you'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.9,
-          "match_rationale": "Perfect alignment - this section focuses on AI innovation and agents for business leaders in awareness stage. The CTA offers insights into how businesses are using AI agents, directly matching the reader's learning intent about AI innovation and business growth."
-        },
-        {
-          "cta_id": "form-marketing-conf-get-started-with-mceplus",
-          "score": 0.6,
-          "match_rationale": "Good fit as it offers an Agentforce guide for business leaders in awareness stage. Matches the AI agents topic and learning intent, though more marketing-focused than the broader business innovation theme of the section."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     }
   ],
-  "overall_health_score": 0.0,
-  "misaligned_count": 11
+  "overall_health_score": 0.1818,
+  "misaligned_count": 9
 }

@@ -2,48 +2,47 @@
   "url": "https://www.salesforce.com/blog/small-team-big-game/?bc=DB",
   "slug": "small-team-big-game",
   "title": "Small Team, Big Game: How We Built Mr. Beast’s AI-Powered Puzzle in 27 Days",
+  "author": "Read More",
+  "published_date": "2026-03-18T16:51:09+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Introduction",
       "classification": {
-        "reader_intent": "inspiring",
-        "primary_persona": "it_leader",
+        "reader_intent": "implementing",
+        "primary_persona": "developer",
         "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
+          "einstein_ai",
           "platform",
-          "agentforce",
-          "mulesoft",
-          "einstein_ai"
+          "mulesoft"
         ],
         "topic_tags": [
-          "ai_applications",
-          "platform_scale",
-          "customer_zero",
-          "technical_architecture",
-          "rapid_development"
+          "customer_service",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a high-level case study introduction that positions Salesforce platform capabilities in an inspiring, proof-of-concept context. The technical details and scale achievements target IT leaders evaluating platform capabilities, while the business outcomes appeal to business leaders. The content moves beyond basic awareness to demonstrate concrete platform value, placing it in the consideration stage where readers are evaluating Salesforce's technical capabilities and scalability."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Introduction'. Products: einstein_ai, platform, mulesoft. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-platform",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment for IT leaders inspired by the MrBeast platform scale story. After reading about Salesforce's ability to handle millions of concurrent users and rapid AI development, IT leaders would naturally want to explore the platform capabilities for their own AI projects. Decision-stage CTA matches their readiness to take action."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.75,
-          "match_rationale": "Excellent fit for IT leaders who just learned about Salesforce's platform capabilities at scale. After seeing the technical proof points around handling 10M+ users and rapid AI development, they'd want hands-on experience to evaluate how these capabilities apply to their organization's needs."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.65,
-          "match_rationale": "Strong relevance given the section's focus on AI applications and human-agent collaboration. IT leaders inspired by the MrBeast AI-powered puzzle would be interested in understanding how other enterprises are implementing AI agents, providing strategic context for their own AI initiatives."
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,

@@ -1,0 +1,68 @@
+{
+  "url": "https://www.salesforce.com/blog/new-next-gen-marketing-cloud-archive-and-new-licensing-now-generally-available-for-isvs/?bc=DB",
+  "slug": "new-next-gen-marketing-cloud-archive-and-new-licensing-now-generally-available-for-isvs",
+  "title": "New! Next Gen Marketing Cloud, Archive and New Licensing Now Generally Available for ISVs",
+  "author": "Matthew Parin",
+  "published_date": "2025-12-17T23:53:45+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "marketing_cloud",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "security",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, sales_cloud, marketing_cloud, data_cloud. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "Data 360 for ISVs",
+        "body": "Everything you need to know",
+        "button_text": "Read now",
+        "button_url": "https://www.salesforce.com/blog/data-360-for-isvs-is-ga-everything-you-need-to-know/",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "cta_id": "form-data-clean-rooms-demo",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 1.0,
+  "misaligned_count": 0
+}

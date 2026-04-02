@@ -2,46 +2,46 @@
   "url": "https://www.salesforce.com/artificial-intelligence/ai-for-small-business/best-ai-tools/?bc=DB",
   "slug": "ai-tools-for-small-business",
   "title": "Guide to the Best AI Tools for Small Businesses in 2026",
+  "author": "",
+  "published_date": "",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Introduction",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
-        "secondary_persona": null,
+        "secondary_persona": "small_business_owner",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general",
-          "starter"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "ai_tools",
           "small_business",
-          "productivity",
-          "growth",
-          "business_automation"
+          "crm",
+          "ai_tools",
+          "productivity"
         ],
-        "confidence": 0.85,
-        "rationale": "This is a high-level introduction to AI tools for small businesses, indicating awareness stage content where readers are learning about available solutions. The focus on small businesses suggests business leaders as the primary audience, and the general nature of AI tools discussion without specific Salesforce product mentions indicates general product alignment, though Starter Suite may be relevant for small business context."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.95,
-          "match_rationale": "Perfect match for business leaders in awareness stage reading about AI tools for small businesses. This guide directly addresses their learning intent about AI for small business - exactly what they're thinking about after reading the intro section."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.85,
-          "match_rationale": "Highly relevant as it provides actionable guidance on implementing AI agents for small business. Matches the business leader persona and awareness funnel stage while building on their interest in AI tools and business automation."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.75,
-          "match_rationale": "Good awareness-stage fit offering research on how businesses are using AI agents. Aligns with their learning intent about AI tools, though slightly less focused on small business specifically compared to the top options."
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,

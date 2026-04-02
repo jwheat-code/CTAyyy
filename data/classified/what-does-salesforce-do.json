@@ -2,6 +2,8 @@
   "url": "https://www.salesforce.com/blog/what-does-salesforce-do/?bc=DB",
   "slug": "what-does-salesforce-do",
   "title": "What Does Salesforce Do?",
+  "author": "More by Jody Farrar",
+  "published_date": "2026-02-06T22:54:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
@@ -9,40 +11,40 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "small_business_owner",
+        "secondary_persona": "it_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "sales_cloud",
-          "slack",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "what_is_salesforce",
-          "ai_crm",
-          "agentic_ai",
-          "overview"
+          "ai_agents",
+          "crm",
+          "data_analytics",
+          "ecommerce",
+          "platform",
+          "trailhead"
         ],
-        "confidence": 0.92,
-        "rationale": "Opening key takeaways for a 'What does Salesforce do?' explainer. Pure awareness-stage content for readers brand-new to Salesforce — they need orientation, not a pitch."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Key Takeaways'. Products: agentforce, sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.8,
-          "match_rationale": "After reading what Salesforce does, awareness-stage readers benefit from a forward-looking resource on agentic AI — the core of Salesforce's current strategy."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.72,
-          "match_rationale": "Free CRM offer is a low-friction next step for business leaders curious about what Salesforce does."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.65,
-          "match_rationale": "General Salesforce overview page aligns with the awareness intent of this section."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -53,64 +55,88 @@
       "section_heading": "Table of contents",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": null,
+        "primary_persona": "service_leader",
+        "secondary_persona": "small_business_owner",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "agentforce",
+          "service_cloud",
+          "commerce_cloud",
+          "slack"
         ],
         "topic_tags": [
-          "navigation",
-          "table_of_contents"
+          "ai_agents",
+          "small_business",
+          "customer_service",
+          "ecommerce",
+          "collaboration"
         ],
-        "confidence": 0.99,
-        "rationale": "Navigation/TOC section — no editorial content. No CTA appropriate here."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Table of contents'. Products: agentforce, service_cloud, commerce_cloud, slack. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [],
-      "recommend_no_cta": true,
-      "no_cta_reason": "Navigation section with no editorial content — CTA would be premature and interruptive."
+      "recommendations": [
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
     },
     {
       "section_index": 2,
       "section_heading": "What does Salesforce do?",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "small_business_owner",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "sales_cloud",
           "agentforce",
-          "general"
+          "sales_cloud",
+          "marketing_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "what_is_salesforce",
-          "ai_crm",
-          "platform_overview",
-          "customer_success"
+          "ai_agents",
+          "crm",
+          "data_analytics",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.93,
-        "rationale": "Core definitional section explaining what Salesforce is. Awareness-stage readers learning the basics. High confidence — this is textbook awareness content."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What does Salesforce do?'. Products: agentforce, sales_cloud, marketing_cloud, commerce_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.82,
-          "match_rationale": "After reading what Salesforce does, an interactive demo is the perfect next step to see it in action — moves awareness reader toward consideration."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.75,
-          "match_rationale": "Free CRM is a compelling, low-barrier offer for a reader just learning what Salesforce does."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.68,
-          "match_rationale": "Agentic AI playbook extends the learning journey for readers curious about the future of Salesforce."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -122,38 +148,39 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "secondary_persona": "sales_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "einstein_ai"
+          "sales_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "agentforce",
           "ai_agents",
-          "autonomous_ai",
-          "what_is_agentforce"
+          "sales_automation",
+          "data_analytics",
+          "ecommerce"
         ],
-        "confidence": 0.94,
-        "rationale": "Definitional explainer for Agentforce. Pure awareness — reader is learning what AI agents are within Salesforce."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is Agentforce?'. Products: agentforce, sales_cloud, commerce_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.83,
-          "match_rationale": "After learning what Agentforce is, an implementation e-book is a natural next step for curious business leaders."
-        },
-        {
-          "cta_id": "content-learn-modules-agentforce-agent-testing",
-          "score": 0.78,
-          "match_rationale": "Trailhead module on Agentforce aligns perfectly with awareness-stage readers wanting to learn more."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.72,
-          "match_rationale": "Agentic enterprise report deepens understanding of the Agentforce strategy for evaluating readers."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -164,39 +191,38 @@
       "section_heading": "What is Slack?",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
+        "primary_persona": "developer",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "slack",
-          "agentforce"
+          "agentforce",
+          "slack"
         ],
         "topic_tags": [
-          "slack",
-          "collaboration",
-          "ai_workspace",
-          "agentic_work_os"
+          "ai_agents",
+          "productivity",
+          "collaboration"
         ],
-        "confidence": 0.93,
-        "rationale": "Brief Slack explainer for readers new to the Salesforce ecosystem. Awareness-stage product introduction."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is Slack?'. Products: agentforce, slack. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-collaboration",
-          "score": 0.78,
-          "match_rationale": "Slack collaboration trial is a direct call-to-action for readers learning what Slack is."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.7,
-          "match_rationale": "Starter trial includes Slack, relevant for SMB readers exploring the full platform."
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.62,
-          "match_rationale": "Extends learning for readers interested in how Slack fits into the agentic enterprise vision."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -206,25 +232,26 @@
       "section_index": 5,
       "section_heading": "How does Salesforce work?",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "sales_cloud",
           "agentforce",
-          "data_cloud",
-          "general"
+          "sales_cloud",
+          "slack",
+          "data_cloud"
         ],
         "topic_tags": [
-          "platform_overview",
-          "data_foundation",
           "ai_agents",
-          "how_it_works",
-          "crm"
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "productivity",
+          "ecommerce"
         ],
-        "confidence": 0.9,
-        "rationale": "This section moves from 'what' to 'how' — the reader is beginning to evaluate whether Salesforce fits their needs. Consideration stage with a CTA to see an interactive demo."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How does Salesforce work?'. Products: agentforce, sales_cloud, slack, data_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Get hands on with our products",
@@ -234,28 +261,28 @@
         "position_after_section": 5
       },
       "existing_cta_score": {
-        "relevance_score": 0.88,
-        "funnel_alignment": "match",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "Interactive portfolio demo is a perfect match for a reader evaluating how Salesforce works — they want to see it in action, not just read about it."
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.9,
-          "match_rationale": "After understanding how Salesforce works, seeing an interactive demo is the natural next step."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.78,
-          "match_rationale": "Free CRM lets readers experience how it works firsthand."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "launchpad",
-          "score": 0.7,
-          "match_rationale": "Launchpad helps evaluating readers understand how to get started."
+          "cta_id": "https:--www.informatica.com-departments-data-archi",
+          "score": 0.85,
+          "match_rationale": "Matches data_cloud product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -267,40 +294,41 @@
       "classification": {
         "reader_intent": "problem_solving",
         "primary_persona": "sales_leader",
-        "secondary_persona": "business_leader",
+        "secondary_persona": "it_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "sales_cloud",
           "agentforce",
-          "einstein_ai"
+          "einstein_ai",
+          "sales_cloud"
         ],
         "topic_tags": [
+          "ai_agents",
+          "crm",
+          "ai_tools",
           "sales_automation",
-          "agentforce_sales",
-          "deal_insights",
-          "ai_coaching",
-          "crm"
+          "productivity",
+          "collaboration"
         ],
-        "confidence": 0.92,
-        "rationale": "Solution-oriented section for sales leaders learning how Salesforce addresses sales challenges. Consideration funnel — they're evaluating fit."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Salesforce for sales'. Products: agentforce, einstein_ai, sales_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-sales",
-          "score": 0.87,
-          "match_rationale": "Try-for-free CTA directly after reading about Salesforce for sales — perfect decision nudge for evaluating sales leaders."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage sales_leader reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.82,
-          "match_rationale": "Interactive demo lets sales leaders see Salesforce Sales in action."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage sales_leader reader."
         },
         {
-          "cta_id": "sales",
-          "score": 0.75,
-          "match_rationale": "Salesforce Sales overview page is a natural deeper dive for consideration-stage readers."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage sales_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -310,41 +338,42 @@
       "section_index": 7,
       "section_heading": "Salesforce for customer service",
       "classification": {
-        "reader_intent": "problem_solving",
+        "reader_intent": "learning",
         "primary_persona": "service_leader",
         "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "service_cloud",
-          "agentforce"
+          "agentforce",
+          "sales_cloud",
+          "service_cloud"
         ],
         "topic_tags": [
+          "ai_agents",
           "customer_service",
-          "agentforce_service",
-          "csat",
-          "contact_center",
-          "ai_support"
+          "productivity",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.92,
-        "rationale": "Metrics-led section (33% CSAT improvement, 26% cost reduction) targeting service leaders evaluating Agentforce Service. Consideration stage with proof points."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Salesforce for customer service'. Products: agentforce, sales_cloud, service_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "service-cloud",
-          "score": 0.88,
-          "match_rationale": "Explore Agentforce Service CTA directly aligns with readers evaluating Salesforce for customer service."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "small-business-service",
-          "score": 0.82,
-          "match_rationale": "Try-for-free service CTA is a natural next step for SMB service leaders evaluating the platform."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "http:--join.serviceblazer.com",
-          "score": 0.7,
-          "match_rationale": "Serviceblazer community invitation aligns with service leaders wanting peer connection."
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -357,39 +386,38 @@
         "reader_intent": "problem_solving",
         "primary_persona": "marketing_leader",
         "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "marketing_cloud",
           "agentforce",
-          "einstein_ai"
+          "sales_cloud",
+          "marketing_cloud"
         ],
         "topic_tags": [
-          "marketing_automation",
-          "agentforce_marketing",
-          "email_marketing",
-          "personalization",
-          "multichannel"
+          "ai_agents",
+          "data_analytics",
+          "productivity",
+          "collaboration"
         ],
-        "confidence": 0.91,
-        "rationale": "Solution-oriented overview of Salesforce Marketing for marketing leaders evaluating the platform."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Salesforce for marketing'. Products: agentforce, sales_cloud, marketing_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-marketing",
-          "score": 0.86,
-          "match_rationale": "Find-out-for-free marketing CTA is ideal for marketing leaders evaluating Salesforce's marketing capabilities."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
-          "score": 0.78,
-          "match_rationale": "State of Marketing report provides social proof and benchmarks for evaluating marketing leaders."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "events-webinars-marketing-cloud-spring-26-release",
-          "score": 0.7,
-          "match_rationale": "Marketing Cloud Spring release webinar extends learning for marketing leaders."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage marketing_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -399,41 +427,40 @@
       "section_index": 9,
       "section_heading": "Salesforce for B2C and B2B shopping and commerce",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "business_leader",
-        "secondary_persona": "service_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
+          "agentforce",
+          "sales_cloud",
           "commerce_cloud",
-          "agentforce"
+          "platform"
         ],
         "topic_tags": [
-          "b2c_commerce",
-          "b2b_commerce",
-          "agentforce_commerce",
-          "ecommerce",
-          "revenue_growth"
+          "ai_agents",
+          "ecommerce"
         ],
-        "confidence": 0.89,
-        "rationale": "Commerce overview for business leaders evaluating Salesforce's commerce capabilities."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Salesforce for B2C and B2B shopping and commerce'. Products: agentforce, sales_cloud, commerce_cloud, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "small-business-commerce",
-          "score": 0.84,
-          "match_rationale": "Commerce check-it-out CTA directly addresses readers learning about Salesforce commerce capabilities."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "commerce-innovations",
-          "score": 0.78,
-          "match_rationale": "Commerce innovations page is a natural next step for evaluating commerce capabilities."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.68,
-          "match_rationale": "Interactive demo includes commerce features for evaluating business leaders."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -444,23 +471,25 @@
       "section_heading": "Salesforce for IT",
       "classification": {
         "reader_intent": "problem_solving",
-        "primary_persona": "it_leader",
-        "secondary_persona": "developer",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "platform",
           "agentforce",
-          "einstein_ai"
+          "einstein_ai",
+          "sales_cloud",
+          "platform"
         ],
         "topic_tags": [
-          "it_automation",
-          "platform_security",
-          "no_code",
-          "low_code",
-          "agent_builder"
+          "ai_agents",
+          "customer_service",
+          "data_analytics",
+          "productivity",
+          "security",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "IT-focused section showing Salesforce platform capabilities for IT leaders evaluating the platform."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Salesforce for IT'. Products: agentforce, einstein_ai, sales_cloud, platform. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "What’s your agentic AI strategy?",
@@ -470,31 +499,28 @@
         "position_after_section": 10
       },
       "existing_cta_score": {
-        "relevance_score": 0.72,
+        "relevance_score": 0.8,
         "funnel_alignment": "adjacent",
-        "persona_match": "partial",
-        "product_alignment": "partial",
-        "issues": [
-          "CTA targets general awareness audience but section is consideration-stage for IT leaders",
-          "Agentic AI playbook is broader than the IT-specific content in this section"
-        ],
-        "rationale": "The 'future starts now' agentic AI playbook is more of an awareness/inspiration CTA while the IT section targets evaluating IT leaders. Reasonable match but not ideal — an IT-specific CTA or demo would be stronger."
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-platform",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Platform trial sign-up is ideal for IT leaders evaluating Salesforce's development capabilities."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "content-learn-modules-event_monitoring",
-          "score": 0.75,
-          "match_rationale": "Event monitoring Trailhead module directly aligns with IT security and admin audience."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage developer reader."
         },
         {
-          "cta_id": "form-platform-the-salesforce-devsecops-guide",
-          "score": 0.7,
-          "match_rationale": "DevSecOps guide is highly relevant for IT leaders thinking about platform security."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -504,42 +530,42 @@
       "section_index": 11,
       "section_heading": "Salesforce for small business",
       "classification": {
-        "reader_intent": "problem_solving",
+        "reader_intent": "inspiring",
         "primary_persona": "small_business_owner",
-        "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "starter",
           "sales_cloud",
-          "agentforce"
+          "service_cloud",
+          "starter"
         ],
         "topic_tags": [
           "small_business",
-          "starter_suite",
-          "free_crm",
-          "scalable_crm",
-          "smb"
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "platform"
         ],
-        "confidence": 0.93,
-        "rationale": "SMB-specific section covering Salesforce Starter and free CRM options. High-intent consideration content for small business owners evaluating Salesforce."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Salesforce for small business'. Products: sales_cloud, service_cloud, starter. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.91,
-          "match_rationale": "Free CRM is the perfect CTA for SMB owners who just read that Salesforce offers free tools for small businesses."
-        },
-        {
           "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.87,
-          "match_rationale": "Starter trial directly matches the Starter Suite content discussed in this section."
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.78,
-          "match_rationale": "See what's possible page aligns with SMB owners evaluating Salesforce for their needs."
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for decision-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -549,43 +575,43 @@
       "section_index": 12,
       "section_heading": "See an example of Salesforce in action",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "problem_solving",
         "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
+        "secondary_persona": "service_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
-          "sales_cloud",
           "agentforce",
-          "data_cloud",
-          "general"
+          "service_cloud",
+          "marketing_cloud",
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "customer_story",
-          "pepsico",
-          "real_world_example",
-          "platform_proof",
-          "case_study"
+          "ai_agents",
+          "small_business",
+          "data_analytics",
+          "collaboration",
+          "platform"
         ],
-        "confidence": 0.88,
-        "rationale": "PepsiCo case study example — social proof content for evaluating business leaders. Consideration stage, showing real-world results."
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'See an example of Salesforce in action'. Products: agentforce, service_cloud, marketing_cloud, commerce_cloud. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.86,
-          "match_rationale": "After seeing a real-world example, an interactive demo is the most natural next step to see Salesforce in your own context."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "customer-stories-foundations-boosts-vev-small-busi",
-          "score": 0.78,
-          "match_rationale": "Another customer story provides additional social proof for evaluating business leaders."
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "news-stories-idc-ceo-agentic-ai-preparedness-resea",
-          "score": 0.7,
-          "match_rationale": "IDC research adds third-party validation for leaders evaluating the platform."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -597,40 +623,41 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "small_business_owner",
+        "secondary_persona": "it_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "sales_cloud",
           "agentforce",
-          "general"
+          "sales_cloud",
+          "industry_clouds"
         ],
         "topic_tags": [
-          "crm_leadership",
-          "cloud_pioneer",
-          "agentforce",
-          "trust_layer",
-          "platform_evolution"
+          "ai_agents",
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "thought_leadership",
+          "platform"
         ],
-        "confidence": 0.9,
-        "rationale": "Brand reputation and heritage section — reinforces credibility for awareness-stage readers. Awareness CTA appropriate."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is Salesforce best known for?'. Products: agentforce, sales_cloud, industry_clouds. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
           "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.8,
-          "match_rationale": "Agentic enterprise index report extends the Salesforce innovation story for curious readers."
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "blog-playbook-agentic-ai",
-          "score": 0.74,
-          "match_rationale": "Agentic AI playbook is a natural follow-on for readers learning about what Salesforce is best known for."
-        },
-        {
-          "cta_id": "form-signup-free-crm",
-          "score": 0.68,
-          "match_rationale": "Free CRM bridges the awareness/consideration gap for readers building trust in the brand."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -641,48 +668,49 @@
       "section_heading": "Humans and agents driving customer success",
       "classification": {
         "reader_intent": "inspiring",
-        "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
-        "funnel_stage": "consideration",
+        "primary_persona": "service_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
           "sales_cloud",
           "service_cloud",
-          "marketing_cloud"
+          "commerce_cloud"
         ],
         "topic_tags": [
-          "human_ai_collaboration",
-          "agentforce",
-          "customer_success",
-          "digital_labor",
-          "agentic_enterprise"
+          "ai_agents",
+          "crm",
+          "sales_automation",
+          "customer_service",
+          "data_analytics",
+          "productivity"
         ],
-        "confidence": 0.88,
-        "rationale": "Closing inspirational section painting the vision of humans and AI agents working together. Long section (720w) that serves as a vision/aspiration narrative, moving reader toward decision."
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Humans and agents driving customer success'. Products: agentforce, sales_cloud, service_cloud, commerce_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "After the inspiring vision of humans+agents, the Agentforce growth guide is a perfect next step."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.8,
-          "match_rationale": "Interactive demo lets readers see the human+agent vision in practice."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Implementation e-book bridges the inspirational closing to concrete action."
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "Matches service_cloud product focus at awareness stage for awareness-stage service_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.1733,
-  "misaligned_count": 12
+  "overall_health_score": 0.1067,
+  "misaligned_count": 13
 }

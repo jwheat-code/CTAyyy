@@ -103,9 +103,14 @@ class SalesforceBlogSpider(scrapy.Spider):
         if not title:
             return
 
-        # Author
-        author_el = soup.select_one(".author-name, .post-author, [class*='author'] a")
-        author = author_el.get_text(strip=True) if author_el else ""
+        # Author — collect all display names (supports multiple authors)
+        author_els = soup.select("span.author-section__display-name")
+        if author_els:
+            author = ", ".join(el.get_text(strip=True) for el in author_els if el.get_text(strip=True))
+        else:
+            # Fallback: hero byline link (strips date/read-time noise via first word boundary)
+            byline_el = soup.select_one("a.hero-byline__author")
+            author = byline_el.get_text(strip=True).split("\n")[0].strip() if byline_el else ""
 
         # Published date
         date_meta = soup.select_one('meta[property="article:published_time"]')

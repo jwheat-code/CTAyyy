@@ -2,47 +2,51 @@
   "url": "https://www.salesforce.com/blog/agentforce-in-salesforce-suites/?bc=DB",
   "slug": "agentforce-in-salesforce-suites",
   "title": "Agentforce for Small Business is Now Built Into Salesforce Suites",
+  "author": "Read More",
+  "published_date": "2026-03-17T12:00:29+00:00",
   "section_analyses": [
     {
       "section_index": 0,
       "section_heading": "Key Takeaways",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
+        "reader_intent": "implementing",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "sales_leader",
         "funnel_stage": "consideration",
         "product_alignment": [
           "agentforce",
-          "starter",
-          "sales_cloud"
+          "einstein_ai",
+          "sales_cloud",
+          "starter"
         ],
         "topic_tags": [
-          "small_business",
           "ai_agents",
-          "crm_automation",
-          "productivity",
-          "employee_agent"
+          "small_business",
+          "crm",
+          "ai_tools",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a key takeaways section that clearly presents the value proposition and specific features of Agentforce for small businesses. The content is solution-focused, describing concrete benefits and capabilities, which indicates readers are evaluating whether this offering meets their needs. The primary audience is business leaders at small companies who need to understand how AI can help their teams be more efficient, with sales leaders as a secondary audience given the sales-specific examples."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Key Takeaways'. Products: agentforce, einstein_ai, sales_cloud, starter. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.95,
-          "match_rationale": "Perfect match for the section content. Reader just learned about AI agents and Employee Agent capabilities for small businesses. This CTA directly addresses how to 'Grow Your Small Business With AI Agents' which is exactly what they're evaluating. Product alignment with agentforce matches the section's focus, consideration funnel stage matches reader's evaluating intent."
-        },
-        {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "cta_id": "small-business-marketing",
           "score": 0.85,
-          "match_rationale": "Strong match as the section specifically mentions AI features built into Starter Suite and Employee Agent activation 'with no setup or extra costs.' Reader evaluating these capabilities would logically want to try Starter. Decision-stage CTA is appropriate for consideration-stage reader ready to move forward."
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Good general match for small business focus. After reading about Salesforce Suites designed for small businesses and AI capabilities, this CTA reinforces that 'Salesforce works for small businesses.' Consideration funnel stage aligns well with reader's evaluating intent and business_leader persona."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -52,24 +56,26 @@
       "section_index": 1,
       "section_heading": "AI that’s helpful, not heavy",
       "classification": {
-        "reader_intent": "problem_solving",
-        "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "starter",
-          "slack"
+          "sales_cloud",
+          "slack",
+          "starter"
         ],
         "topic_tags": [
-          "ai_tools",
+          "ai_agents",
           "small_business",
-          "context_aware_ai",
-          "unified_platform",
-          "efficiency"
+          "ai_tools",
+          "customer_service",
+          "collaboration",
+          "thought_leadership"
         ],
-        "confidence": 0.9,
-        "rationale": "This section addresses specific pain points of small businesses (overwhelmed by tools, budget constraints, lack of technical expertise) and positions Salesforce Suites with built-in AI as the solution. The reader intent is problem_solving as it directly addresses common SMB challenges with AI adoption. The funnel stage is consideration because it's positioning Salesforce as a solution to evaluate, with a \"Try it for free\" CTA indicating they're ready to compare options but not necessarily at final decision stage yet."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'AI that’s helpful, not heavy'. Products: agentforce, sales_cloud, slack, starter. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Start your AI journey with Salesforce Suites",
@@ -79,23 +85,28 @@
         "position_after_section": 1
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
-        "funnel_alignment": "match",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "The CTA strongly aligns with the consideration-stage section about AI solutions for business leaders, offering a relevant trial for the discussed Suites product."
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "crm-free-crm",
-          "score": 0.8,
-          "match_rationale": "Strong match for readers interested in the unified platform concept discussed in the section. 'Start your AI journey with Salesforce Suites' directly connects to the section's emphasis on Salesforce Suites as a unified platform that eliminates tool fragmentation. Appropriate consideration-stage CTA for business leaders."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.75,
-          "match_rationale": "Good general match for small business leaders who have just read about AI solutions designed for their specific needs. The simple message 'Salesforce works for small businesses' reinforces the section's theme about accessible, context-aware AI without complexity. Matches consideration funnel stage and target persona."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -105,26 +116,25 @@
       "section_index": 2,
       "section_heading": "Turning customer data into action",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "sales_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "starter",
           "sales_cloud",
-          "service_cloud",
-          "einstein_ai"
+          "starter"
         ],
         "topic_tags": [
           "ai_agents",
           "small_business",
-          "customer_data",
-          "sales_productivity",
-          "case_study"
+          "customer_service",
+          "data_analytics",
+          "productivity",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section uses a detailed customer case study (Asymbl) with specific metrics and outcomes to demonstrate how AI agents solve real SMB challenges. The focus on concrete benefits like \"15 minutes saved\" and \"data integrity\" indicates readers are evaluating solutions. The \"See what's possible\" CTA reinforces consideration-stage intent. Primary audience is business leaders making technology decisions for SMBs, with sales leaders as secondary given the sales-focused use cases."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Turning customer data into action'. Products: agentforce, sales_cloud, starter. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Salesforce works for small businesses",
@@ -134,27 +144,28 @@
         "position_after_section": 2
       },
       "existing_cta_score": {
-        "relevance_score": 0.75,
-        "funnel_alignment": "match",
-        "persona_match": "partial",
-        "product_alignment": "partial",
-        "issues": [
-          "CTA doesn't reference AI or automation benefits that are the main focus of the section",
-          "Generic messaging doesn't connect to the specific use cases and outcomes described",
-          "Doesn't speak directly to business leader persona with executive-level value proposition"
-        ],
-        "rationale": "The CTA aligns well with the consideration funnel stage and addresses SMBs mentioned in the section, but doesn't specifically connect to the AI/automation benefits discussed or speak directly to business leaders."
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.95,
-          "match_rationale": "Perfect match for business leaders evaluating AI agents for small businesses. The section showcases customer data transformation through Agentforce, and this CTA directly addresses growing small businesses with AI agents - exactly what the reader is thinking about after seeing the Asymbl case study."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "small-business",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
-          "match_rationale": "Excellent fit for business leaders in consideration stage. After reading about how Salesforce AI transforms customer data workflows for SMBs like Asymbl, this general CTA reinforces that Salesforce works for small businesses and invites further exploration."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -164,37 +175,43 @@
       "section_index": 3,
       "section_heading": "The power behind AI in Salesforce Suites",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "starter",
-          "einstein_ai"
+          "einstein_ai",
+          "starter"
         ],
         "topic_tags": [
-          "ai_platform",
+          "ai_agents",
           "small_business",
-          "data_security",
-          "workflow_automation",
-          "scalability"
+          "ai_tools",
+          "data_analytics",
+          "security",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section explains how Agentforce powers AI capabilities in Salesforce Suites, focusing on technical capabilities, scalability, and security benefits. The content targets business leaders evaluating AI solutions for small business, with secondary appeal to IT leaders concerned about data governance. The reader is in consideration stage, comparing AI platform capabilities and security features."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'The power behind AI in Salesforce Suites'. Products: agentforce, einstein_ai, starter. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "crm-free-crm",
-          "score": 0.8,
-          "match_rationale": "Strong alignment - after learning about Agentforce 360 powering Salesforce Suites, reader would naturally want to start their AI journey with Salesforce Suites, matches consideration funnel stage and business context"
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "service-cloud",
-          "score": 0.75,
-          "match_rationale": "Good fit - section mentions AI executing tasks across sales, service, and marketing workflows, this Agentforce Service CTA aligns with the product focus and consideration stage for business leaders evaluating AI solutions"
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.45,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -204,42 +221,44 @@
       "section_index": 4,
       "section_heading": "AI designed for how small businesses actually work",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "business_leader",
-        "secondary_persona": "sales_leader",
-        "funnel_stage": "consideration",
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "starter",
-          "sales_cloud"
+          "einstein_ai",
+          "sales_cloud",
+          "platform"
         ],
         "topic_tags": [
           "ai_agents",
           "small_business",
-          "crm_suites",
-          "automation",
-          "customer_relationships"
+          "crm",
+          "ai_tools",
+          "customer_service",
+          "data_analytics"
         ],
-        "confidence": 0.9,
-        "rationale": "This section is clearly targeting small business leaders who are evaluating AI-powered CRM solutions. The content explains specific features, pricing (no extra cost), and includes FAQ format addressing common evaluation concerns like security and setup. The mention of trials and specific suite options indicates consideration stage behavior."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'AI designed for how small businesses actually work'. Products: agentforce, einstein_ai, sales_cloud, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.9,
-          "match_rationale": "Perfect match for business leaders evaluating Salesforce after reading about AI features in small business suites. The section mentions 'Start your CRM journey' and 'Starter Suite trial', making this CTA the natural next step. Aligns with consideration to decision funnel progression and matches the product focus (starter suite)."
-        },
-        {
-          "cta_id": "form-signup-free-crm",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Excellent fit for business leaders in consideration stage who just learned about AI features for small businesses. The 'FREE for small businesses' messaging directly connects to the section's focus on small business solutions and reduces friction for evaluation. Matches consideration funnel stage and business_leader persona."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage developer reader."
         },
         {
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.8,
-          "match_rationale": "Strong alignment with the section's focus on Agentforce for small business and AI agents. After reading about how AI is designed for small businesses, this CTA offers deeper exploration of growing with AI agents. Matches consideration stage, business_leader persona, and agentforce product alignment."
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,

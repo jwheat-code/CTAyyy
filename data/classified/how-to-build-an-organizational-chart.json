@@ -2,6 +2,8 @@
   "url": "https://www.salesforce.com/blog/how-to-build-an-organizational-chart/?bc=DB",
   "slug": "how-to-build-an-organizational-chart",
   "title": "How to Build an Organizational Chart For Your Business",
+  "author": "More by Caylin",
+  "published_date": "2026-01-05T15:00:00+00:00",
   "section_analyses": [
     {
       "section_index": 0,
@@ -9,39 +11,37 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": null,
-        "funnel_stage": "awareness",
+        "secondary_persona": "developer",
+        "funnel_stage": "decision",
         "product_alignment": [
-          "sales_cloud",
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "organizational_chart",
-          "business_structure",
-          "team_management",
-          "crm_integration",
-          "digital_transformation"
+          "crm",
+          "data_analytics",
+          "collaboration",
+          "thought_leadership"
         ],
-        "confidence": 0.85,
-        "rationale": "This is educational content teaching readers what organizational charts are and why they matter. The \"Key Takeaways\" section provides foundational knowledge about org charts as business tools. The mention of connecting to CRM suggests Sales Cloud alignment, though the content is primarily conceptual rather than product-focused. The audience is business leaders seeking to understand organizational structure, placing this in the awareness stage of learning about business management concepts."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Key Takeaways'. Products: sales_cloud. Funnel: decision."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Perfect match for business leaders learning about organizational charts and team management. After reading about connecting org charts to CRM systems, this free CRM offer naturally progresses them from awareness to consideration while addressing the CRM integration topic mentioned in the section."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage business_leader reader."
         },
         {
-          "cta_id": "crm-foundations",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the section's focus on digital transformation and CRM integration. Business leaders who just learned about modernizing org charts would be interested in getting their data ready for AI, which connects to the theme of evolving traditional business tools."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage business_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.65,
-          "match_rationale": "Good fit for business leaders focused on team management and business structure. The general messaging about Salesforce working for small businesses aligns with the practical, growth-oriented tone of the org chart content and moves them toward consideration."
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.1,
+          "match_rationale": "Matches agentforce product focus at consideration stage for decision-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -53,38 +53,35 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": null,
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "organizational_structure",
-          "business_planning",
-          "team_management",
-          "organizational_design",
-          "business_operations"
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This is a foundational educational section that defines what an organizational chart is. The content is purely informational with no product mentions or solution-oriented language. The reader intent is clearly learning (defining a concept), targeting business leaders who need to understand organizational structure, and sits in awareness stage as it's building foundational knowledge rather than promoting solutions."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is an organizational chart?'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.65,
-          "match_rationale": "Business leaders reading about organizational charts are likely thinking about business structure and operations. This AI guide for small business aligns well with their leadership role and provides valuable awareness-stage content about AI - which is increasingly relevant for business planning and operations."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "company-be-a-trailblazer",
-          "score": 0.55,
-          "match_rationale": "After learning about organizational structure, business leaders might be interested in joining a broader business ecosystem. This awareness-stage learning resource about the Salesforce ecosystem could appeal to leaders thinking about business growth and community."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "marketing-resources-state-of-marketing-report",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.45,
-          "match_rationale": "Business leaders considering organizational design may also be thinking about broader business insights. This awareness-stage research report provides valuable industry intelligence that could inform their strategic thinking about business operations and planning."
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -96,33 +93,36 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "admin",
+        "secondary_persona": "small_business_owner",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "general"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "organizational_structure",
-          "team_management",
-          "business_operations",
-          "smb",
-          "workforce_planning"
+          "small_business",
+          "customer_service",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section is educational content explaining the benefits of organizational charts for business operations. The reader intent is learning about organizational structure concepts rather than evaluating specific solutions. The primary persona is business leaders who need to understand team structure and management, with admins as secondary since they often implement organizational tools. This is awareness-stage content as it's foundational business knowledge without direct product positioning. While this could relate to various Salesforce products that handle organizational data, the content is general business advice."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Why an organizational chart matters for your team'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-          "score": 0.75,
-          "match_rationale": "Strong alignment with the section's focus on organizational structure and team management for business leaders. This awareness-stage guide about implementing AI agents connects well to the themes of accountability, clarity, and operational efficiency discussed in the org chart section. Business leaders thinking about better team structure would be interested in AI implementation strategies."
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.7,
-          "match_rationale": "Good fit for business leaders in the SMB space who just learned about organizational structure importance. This consideration-stage CTA about how Salesforce works for small businesses naturally follows from understanding team structure needs. It's one funnel stage ahead of the awareness content and addresses the general business operations focus."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -132,65 +132,42 @@
       "section_index": 3,
       "section_heading": "What to include in an organizational chart",
       "classification": {
-        "reader_intent": "implementing",
+        "reader_intent": "evaluating",
         "primary_persona": "business_leader",
-        "secondary_persona": null,
-        "funnel_stage": "awareness",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
         "product_alignment": [
           "general"
         ],
         "topic_tags": [
-          "organizational_structure",
-          "business_planning",
-          "team_management",
-          "company_hierarchy",
-          "leadership"
+          "general"
         ],
-        "confidence": 0.8,
-        "rationale": "This section provides practical implementation guidance on creating organizational charts, targeting business leaders who are in the process of structuring their organizations. While it's educational content (awareness stage), the reader intent is clearly implementing as they're looking for actionable steps on what to include. The content is general business advice rather than product-specific."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'What to include in an organizational chart'. Products: general. Funnel: consideration."
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.75,
-          "match_rationale": "Perfect match for business leaders in awareness stage learning about organizational structure. This AI guide for small businesses aligns with their need to understand how to structure and manage teams effectively in the modern business environment."
-        },
-        {
-          "cta_id": "company-be-a-trailblazer",
-          "score": 0.65,
-          "match_rationale": "Good fit for business leaders exploring organizational concepts. Joining the Salesforce ecosystem provides educational resources and community insights that support business planning and organizational development at the awareness stage."
-        },
-        {
-          "cta_id": "content-learn-modules-manage_the_sfdc_way_engage_r",
-          "score": 0.6,
-          "match_rationale": "Relevant learning resource for business leaders thinking about organizational structure and team management. This Trailhead module offers educational content that builds on their current awareness-stage learning about organizational best practices."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
     },
     {
       "section_index": 4,
       "section_heading": "Types of organizational charts",
       "classification": {
-        "reader_intent": "learning",
+        "reader_intent": "implementing",
         "primary_persona": "business_leader",
-        "secondary_persona": null,
-        "funnel_stage": "awareness",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "consideration",
         "product_alignment": [
-          "starter"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "organizational_structure",
-          "business_management",
-          "team_building",
-          "startups",
-          "scaling"
+          "small_business",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section provides educational content about organizational chart types without promoting specific Salesforce products. The reader intent is learning about fundamental business structures. The CTA mentions Salesforce Launchpad, which aligns with the starter product for small businesses and startups. The content targets business leaders making structural decisions about their organizations."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Types of organizational charts'. Products: sales_cloud. Funnel: consideration."
       },
       "existing_cta": {
         "heading": "Accelerate your startup success with Salesforce Launchpad",
@@ -200,28 +177,28 @@
         "position_after_section": 4
       },
       "existing_cta_score": {
-        "relevance_score": 0.2,
-        "funnel_alignment": "mismatch",
-        "persona_match": "mismatch",
-        "product_alignment": "none",
-        "issues": [
-          "CTA targets startup founders/entrepreneurs while section serves established business leaders",
-          "Launchpad program unrelated to organizational structure content",
-          "Call-to-action ('Get more info') assumes purchase consideration when reader is in learning mode",
-          "Generic aspirational messaging doesn't connect to practical org chart guidance"
-        ],
-        "rationale": "This CTA promotes a startup accelerator program to business leaders reading about general organizational chart types, creating significant misalignments in both funnel stage and persona targeting."
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "launchpad",
-          "score": 0.75,
-          "match_rationale": "Strong fit as readers thinking about organizational structure are likely considering business growth and scaling. The startup focus aligns with the scaling topic, and the consideration funnel stage is one step ahead of awareness, which is appropriate for business leaders planning growth."
+          "cta_id": "small-business-marketing",
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at consideration stage for consideration-stage business_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.65,
-          "match_rationale": "Good general alignment for business leaders reading about organizational management. After learning about different org chart types, they'd be interested in solutions that work for small businesses. The consideration funnel stage naturally follows awareness content about business structure."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at consideration stage for consideration-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -232,22 +209,21 @@
       "section_heading": "Step-by-step guide to build an org chart",
       "classification": {
         "reader_intent": "implementing",
-        "primary_persona": "business_leader",
-        "secondary_persona": "admin",
-        "funnel_stage": "consideration",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
         "product_alignment": [
           "sales_cloud",
+          "slack",
           "platform"
         ],
         "topic_tags": [
-          "org_chart",
-          "organizational_structure",
-          "hr_management",
-          "team_management",
-          "business_processes"
+          "crm",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This is a detailed how-to guide for building organizational charts, indicating implementing intent. The content targets business leaders who need to structure their organizations, with mentions of CRM systems and Salesforce making it consideration-stage content. While not exclusively about Salesforce, it positions Sales Cloud CRM as a data source and mentions AppExchange apps, showing product alignment."
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Step-by-step guide to build an org chart'. Products: sales_cloud, slack, platform. Funnel: decision."
       },
       "existing_cta": {
         "heading": "Wherever you are — just get started.",
@@ -257,32 +233,28 @@
         "position_after_section": 5
       },
       "existing_cta_score": {
-        "relevance_score": 0.35,
-        "funnel_alignment": "mismatch",
-        "persona_match": "mismatch",
-        "product_alignment": "partial",
-        "issues": [
-          "Funnel stage mismatch: decision-stage free trial CTA on consideration-stage content about implementation",
-          "Persona mismatch: CTA targets small business owners ('business owner', 'Starter Suite') while section serves business leaders implementing org charts",
-          "Generic messaging doesn't connect to the specific org chart building context"
-        ],
-        "rationale": "The decision-stage \"Try it for free\" CTA misaligns with the consideration-stage section, and targets small business owners rather than business leaders implementing org charts."
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets decision-stage readers; section is decision-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-free-crm",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
           "score": 0.85,
-          "match_rationale": "Perfect alignment for business leaders implementing organizational management. After learning how to build an org chart, they're likely considering CRM solutions to manage team data and relationships. The 'free for small businesses' angle matches the implementation mindset and consideration funnel stage."
+          "match_rationale": "Matches sales_cloud product focus at decision stage for decision-stage developer reader."
         },
         {
-          "cta_id": "crm-foundations",
-          "score": 0.75,
-          "match_rationale": "Strong fit for business leaders who just learned about organizing team data and want to prepare for AI-driven insights. The focus on getting data ready aligns with the org chart implementation context and matches the consideration funnel stage."
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.5,
+          "match_rationale": "Matches slack product focus at consideration stage for decision-stage developer reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.65,
-          "match_rationale": "Good general alignment for business leaders implementing organizational processes. After reading about org chart creation, they may be interested in broader small business solutions that Salesforce offers, fitting the consideration stage."
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.15,
+          "match_rationale": "Matches general product focus at consideration stage for decision-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
@@ -292,36 +264,39 @@
       "section_index": 6,
       "section_heading": "Why connecting your org chart to your CRM matters",
       "classification": {
-        "reader_intent": "problem_solving",
+        "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "it_leader",
-        "funnel_stage": "consideration",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "sales_cloud",
-          "platform"
+          "sales_cloud"
         ],
         "topic_tags": [
-          "organizational_management",
-          "crm_integration",
-          "data_accuracy",
-          "team_collaboration",
-          "operational_efficiency"
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section addresses the specific problem of disconnected organizational data and presents CRM integration as the solution. The focus on operational benefits like real-time updates, better collaboration, and streamlined processes indicates readers are actively seeking to solve organizational inefficiencies. Business leaders are the primary audience given the emphasis on management benefits, capacity planning, and organizational structure, while IT leaders are secondary as they'd implement the technical integration."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Why connecting your org chart to your CRM matters'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "crm-foundations",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect alignment - this section is about CRM integration and organizational data accuracy, and this CTA offers 'Get your data ready for AI with Salesforce Foundations.' It matches the consideration funnel stage, targets business leaders who need foundational CRM capabilities, and directly addresses the core theme of connecting organizational structures to CRM systems."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
         },
         {
-          "cta_id": "small-business",
-          "score": 0.7,
-          "match_rationale": "Good fit - this general CTA about how 'Salesforce works for small businesses' is well-suited for business leaders in the consideration stage who just learned about CRM-org chart integration benefits. It's broad enough to capture interest while being specific to the target audience size, matching the Sales Cloud product alignment."
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
@@ -331,24 +306,22 @@
       "section_index": 7,
       "section_heading": "Three AppExchange tools to build org charts",
       "classification": {
-        "reader_intent": "evaluating",
-        "primary_persona": "admin",
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
         "secondary_persona": "business_leader",
-        "funnel_stage": "consideration",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "slack",
-          "data_cloud"
+          "sales_cloud",
+          "slack"
         ],
         "topic_tags": [
-          "org_charts",
-          "appexchange",
-          "team_management",
-          "salesforce_apps",
-          "organizational_structure"
+          "crm",
+          "ai_tools",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.9,
-        "rationale": "This section provides specific tool recommendations and comparisons for building org charts within Salesforce, indicating readers are actively evaluating solutions. The technical focus on AppExchange apps and integration details suggests the primary audience is admins who implement these tools, with business leaders as secondary users who might approve or request such solutions. The consideration stage is evident from the comparative analysis of different options with specific use case recommendations."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Three AppExchange tools to build org charts'. Products: sales_cloud, slack. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Boost team productivity with Slack",
@@ -358,27 +331,30 @@
         "position_after_section": 7
       },
       "existing_cta_score": {
-        "relevance_score": 0.3,
+        "relevance_score": 0.5,
         "funnel_alignment": "mismatch",
-        "persona_match": "partial",
-        "product_alignment": "partial",
+        "persona_match": "match",
+        "product_alignment": "match",
         "issues": [
-          "Funnel stage mismatch: offering 'Try for free' to readers who are still evaluating org chart solutions",
-          "Topic disconnect: section focuses on org chart tools while CTA pushes general Slack productivity",
-          "Premature conversion attempt: readers need more evaluation content before trial offers"
+          "Funnel mismatch: CTA is decision-stage but section is awareness-stage"
         ],
-        "rationale": "The CTA promotes a free trial (decision-stage) when the reader is evaluating org chart tools (consideration-stage), creating a significant funnel mismatch."
+        "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-platform",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Perfect match - after evaluating specific AppExchange org chart tools, admins are ready to try the platform that hosts these solutions. The decision-stage CTA aligns with their consideration stage evaluation, moving them one step forward in the funnel."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-demo-interactive-portfolio",
-          "score": 0.75,
-          "match_rationale": "Excellent fit - admins evaluating org chart tools would benefit from seeing hands-on demos of platform capabilities. The consideration-stage CTA matches their current funnel stage and lets them explore the ecosystem that powers these AppExchange solutions."
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "Matches slack product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -388,42 +364,41 @@
       "section_index": 8,
       "section_heading": "Making your org chart work for you",
       "classification": {
-        "reader_intent": "implementing",
-        "primary_persona": "business_leader",
-        "secondary_persona": "admin",
-        "funnel_stage": "decision",
+        "reader_intent": "evaluating",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
         "product_alignment": [
-          "starter",
+          "agentforce",
           "sales_cloud",
-          "agentforce"
+          "starter"
         ],
         "topic_tags": [
-          "organizational_charts",
-          "business_structure",
-          "crm_integration",
-          "team_management",
-          "small_business"
+          "ai_agents",
+          "crm",
+          "customer_service",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This section focuses on actionable implementation advice for org charts and includes specific product CTAs (Free, Starter Suite, Pro Suite, Agentforce 360), indicating decision-stage content. The business leader persona fits as they would own organizational structure decisions, with admin as secondary for implementation. The emphasis on \"making it work\" and integration with CRM systems suggests implementing intent."
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Making your org chart work for you'. Products: agentforce, sales_cloud, starter. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.95,
-          "match_rationale": "Perfect match for implementing reader intent. Section explicitly mentions 'Start your journey with the Free or Starter Suite today' and this CTA directly enables that action. Targets business leaders in decision stage with Sales Cloud/Starter Suite alignment."
-        },
-        {
-          "cta_id": "form-signup-freetrial-prosuite",
-          "score": 0.9,
-          "match_rationale": "Strong alignment with section's mention of 'Looking for more customization? Explore Pro Suite.' Matches decision-stage funnel, business leader persona, and Sales Cloud product focus for readers ready for advanced features."
-        },
-        {
-          "cta_id": "crm-foundations",
+          "cta_id": "content-learn-modules-salesforce-essentials-small-",
           "score": 0.85,
-          "match_rationale": "Excellent fit for the section's emphasis on CRM integration with org charts and the mention of 'Already a Salesforce customer? Activate Foundations.' Aligns with business leaders implementing CRM solutions and preparing for AI/Agentforce."
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         }
       ],
       "recommend_no_cta": false,
@@ -435,45 +410,43 @@
       "classification": {
         "reader_intent": "learning",
         "primary_persona": "business_leader",
-        "secondary_persona": "admin",
+        "secondary_persona": "developer",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "platform",
-          "general"
+          "sales_cloud",
+          "platform"
         ],
         "topic_tags": [
-          "organizational_chart",
-          "business_structure",
-          "team_management",
-          "employee_onboarding",
-          "crm_integration"
+          "crm",
+          "data_analytics",
+          "collaboration"
         ],
-        "confidence": 0.85,
-        "rationale": "This FAQ section provides basic educational content about organizational charts - what they are, why they matter, and how to create them. The reader intent is clearly learning-focused as it answers fundamental questions. The primary persona is business leaders who need to understand team structure and management, with admins as secondary since they'd likely implement the charts. It's awareness stage content since it's explaining concepts rather than selling solutions. While it mentions Salesforce AppExchange briefly, the content is largely general business guidance, making it more platform/general aligned rather than product-specific."
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Frequently Asked Questions (FAQs)'. Products: sales_cloud, platform. Funnel: awareness."
       },
       "existing_cta": null,
       "existing_cta_score": null,
       "recommendations": [
         {
-          "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-          "score": 0.85,
-          "match_rationale": "Perfect alignment for business leaders learning about organizational structure. After reading about org charts and team management, they'd naturally want guidance on AI implementation for small businesses. The awareness-level educational content matches the section's funnel stage and business_leader persona."
-        },
-        {
-          "cta_id": "company-be-a-trailblazer",
-          "score": 0.75,
-          "match_rationale": "Strong fit for business leaders in the awareness stage. After learning about organizational structure and CRM integration mentions, joining the broader Salesforce ecosystem aligns well with their learning journey about business management tools and community."
-        },
-        {
           "cta_id": "content-learn-modules-salesforce-essentials-small-",
-          "score": 0.7,
-          "match_rationale": "Good match for the learning intent and awareness stage. Business leaders who just read about org charts and CRM integration would benefit from foundational Salesforce training modules to understand how the platform supports business structure and team management."
+          "score": 0.85,
+          "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "Matches general product focus at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.45,
+          "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage business_leader reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.08499999999999999,
-  "misaligned_count": 10
+  "overall_health_score": 0.35,
+  "misaligned_count": 6
 }
