@@ -1,0 +1,65 @@
+{
+  "url": "https://www.salesforce.com/blog/commerce-cloud-winter-25-release/?bc=DB",
+  "slug": "commerce-cloud-winter-25-release",
+  "title": "Winter ‘25 Release: Customers can shop store-level inventory, online.",
+  "author": "Melissa Spadafora",
+  "published_date": "2025-09-29T19:04:52+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": ":: Drumroll, please::Commerce Cloud’snewest feature, Shop the Store, allows customers to shop store-level inventory directly from your website. Now, it’s easier than ever to facilitate conversion-increasing experiences like buy online pick-up in-store (BOPIS) and reserve online pick-up in-store. Our winter release is packed with features built to help merge online and in-store operations, streamline your merchandising efforts, and enhance security. Here’s a breakdown of what’s new.",
+      "word_count": 66,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Commerce Cloud’s",
+          "href": "https://www.salesforce.com/commerce/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Merge online and in-store experiences with Shop the Store",
+      "text": "Elevate your shoppers’ experience by merging online and in-store experiences, connecting shoppers to your stores and boosting sales. Shoppers can now discover in-store products when searching the online store and pick-up from their preferred store location. Shop the Store refines search results based on your B2C store’s location and store-level inventory. Shoppers can simply select a store and discover products available at that specific shop, or look up a product and refine their search by the closest store with available inventory. This new feature will be especially useful during peak shopping season. Now, customers can confidently visit your store with a specific product in mind — knowing you have it in stock. Even better? They don’t need to place an order and hope that it will be delivered before the holiday. Your customers can simply reserve or purchase an item and pick it up immediately at their nearest location. Here’s a deeper look at how it works:",
+      "word_count": 157,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "Save more time with merchandising updates",
+      "text": "Enhanced Campaign Management:Create and update campaigns more efficiently using our new Campaigns Detail screen, designed to make it easier for marketers to manage their campaigns by providing a clearer and more organized interface. Updated default values automatically populate fields with pre-configured settings to reduce time spent on setting up new campaigns.Streamlined A/B Testing:Time is money, and the faster you can uncover insights through A/B testing, the better. Our new A/B testing interface makes it easier and faster to manage tests more effectively with quick filters, visual indicators to identify top-performing segments, and clipboard functionality to copy test results for further analysis. Simplified Coupon Management:Consistency, control, and effectiveness in your promotional strategies is critical, especially during high-traffic moments. This is especially true if you operate ecommerce across multiple sites and markets. We simplified coupon management so you can now share system-generated coupon codes across multiple sites, with the ability to set site-specific redemption limits and import/export shared codes. A shared code can only be redeemed on one site unless configured for multiple redemptions.Here’s a deeper look at how it works:",
+      "word_count": 179,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "Get more peace of mind with trust and security enhancements",
+      "text": "These updates focus on improving the stability and integrity of your commerce operations. Scalability Alerts:Identify potential scalability issues with custom jobs that change multiple orders per transaction. Review your custom job scripts to ensure they only modify one order per transaction. Order Export Alerts:Detect concurrent modification issues during order export. Alerts notify you if another process modifies an order during export, helping you prevent data inconsistencies. Service Credential Encryption:Service credentials are now encrypted during import and export using Site Import & Export under Site Development. You can also import encrypted credentials back if needed. Improved Sandbox Connections:OAuth login to sandboxes is now more reliable, eliminating Connection Reset errors and enhancing your user experience.",
+      "word_count": 113,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "Leverage new innovations to navigate a changing market",
+      "text": "Commerce Cloud continuously innovates to help you meet the moment. New features and functionalities make it easier and faster to deliver consistent, personalized experiences on your customers’ terms, wherever and however they browse, buy, or expect delivery.",
+      "word_count": 37,
+      "has_existing_cta": true,
+      "inline_links": []
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "See how Commerce Cloud can increase revenue",
+      "body": "Talk to an expert about how the world’s most complete commerce platform can improve your business.",
+      "button_text": "Get in touch with us",
+      "button_url": "https://www.salesforce.com/form/contact/contactme-commerce/",
+      "position_after_section": 4
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>:: Drumroll, please:: <a href=\"https://www.salesforce.com/commerce/\">Commerce Cloud’s</a> newest feature, Shop the Store, allows customers to shop store-level inventory directly from your website. Now, it’s easier than ever to facilitate conversion-increasing experiences like buy online pick-up in-store (BOPIS) and reserve online pick-up in-store. </p>\n<p>Our winter release is packed with features built to help merge online and in-store operations, streamline your merchandising efforts, and enhance security. Here’s a breakdown of what’s new.</p>\n<h2 class=\"wp-block-heading\" id=\"h-merge-online-and-in-store-experiences-with-shop-the-store\">Merge online and in-store experiences with Shop the Store</h2>\n<p>Elevate your shoppers’ experience by merging online and in-store experiences, connecting shoppers to your stores and boosting sales. Shoppers can now discover in-store products when searching the online store and pick-up from their preferred store location.  </p>\n<p>Shop the Store refines search results based on your B2C store’s location and store-level inventory. Shoppers can simply select a store and discover products available at that specific shop, or look up a product and refine their search by the closest store with available inventory. </p>\n<p>This new feature will be especially useful during peak shopping season. Now, customers can confidently visit your store with a specific product in mind — knowing you have it in stock. Even better? They don’t need to place an order and hope that it will be delivered before the holiday. Your customers can simply reserve or purchase an item and pick it up immediately at their nearest location.</p>\n<p>Here’s a deeper look at how it works:</p>\n<script async=\"\" src=\"https://play.vidyard.com/embed/v4.js\" type=\"text/javascript\"></script>\n<img class=\"vidyard-player-embed\" data-type=\"inline\" data-uuid=\"QYR9y5GnwQuP8hiKQ4BJ42\" data-v=\"4\" src=\"https://salesforce.vidyard.com/watch/QYR9y5GnwQuP8hiKQ4BJ42\" style=\"width: 100%; margin: auto; display: block;\"/>\n<h2 class=\"wp-block-heading\" id=\"h-save-more-time-with-merchandising-updates\">Save more time with merchandising updates</h2>\n<p><strong>Enhanced Campaign Management: </strong>Create and update campaigns more efficiently using our new Campaigns Detail screen, designed to make it easier for marketers to manage their campaigns by providing a clearer and more organized interface. Updated default values automatically populate fields with pre-configured settings to reduce time spent on setting up new campaigns.<br/><br/><strong>Streamlined A/B Testing: </strong>Time is money, and the faster you can uncover insights through A/B testing, the better. Our new A/B testing interface makes it easier and faster to manage tests more effectively with quick filters, visual indicators to identify top-performing segments, and clipboard functionality to copy test results for further analysis.</p>\n<p><strong>Simplified Coupon Management: </strong>Consistency, control, and effectiveness in your promotional strategies is critical, especially during high-traffic moments. This is especially true if you operate ecommerce across multiple sites and markets. We simplified coupon management so you can now share system-generated coupon codes across multiple sites, with the ability to set site-specific redemption limits and import/export shared codes. A shared code can only be redeemed on one site unless configured for multiple redemptions.<br/><br/>Here’s a deeper look at how it works:</p>\n<script async=\"\" src=\"https://play.vidyard.com/embed/v4.js\" type=\"text/javascript\"></script>\n<img class=\"vidyard-player-embed\" data-type=\"inline\" data-uuid=\"axSYvLN46h9zCxHMszyUAU\" data-v=\"4\" src=\"https://salesforce.vidyard.com/watch/axSYvLN46h9zCxHMszyUAU\" style=\"width: 100%; margin: auto; display: block;\"/>\n<h2 class=\"wp-block-heading\" id=\"h-get-more-peace-of-mind-with-trust-and-security-enhancements\">Get more peace of mind with trust and security enhancements</h2>\n<p>These updates focus on improving the stability and integrity of your commerce operations.</p>\n<p><strong>Scalability Alerts:</strong> Identify potential scalability issues with custom jobs that change multiple orders per transaction. Review your custom job scripts to ensure they only modify one order per transaction.</p>\n<p><strong>Order Export Alerts:</strong> Detect concurrent modification issues during order export. Alerts notify you if another process modifies an order during export, helping you prevent data inconsistencies.</p>\n<p><strong>Service Credential Encryption: </strong>Service credentials are now encrypted during import and export using Site Import &amp; Export under Site Development. You can also import encrypted credentials back if needed.</p>\n<p><strong>Improved Sandbox Connections:</strong> OAuth login to sandboxes is now more reliable, eliminating Connection Reset errors and enhancing your user experience.</p>\n<h2 class=\"wp-block-heading\" id=\"h-leverage-new-innovations-to-navigate-a-changing-market\">Leverage new innovations to navigate a changing market</h2>\n<p>Commerce Cloud continuously innovates to help you meet the moment. New features and functionalities make it easier and faster to deliver consistent, personalized experiences on your customers’ terms, wherever and however they browse, buy, or expect delivery. </p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>See how Commerce Cloud can increase revenue</strong></h2>\n<p class=\"wp-block-offer__description\">Talk to an expert about how the world’s most complete commerce platform can improve your business.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/contact/contactme-commerce/\" target=\"_self\">Get in touch with us</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<p></p>\n</div>"
+}

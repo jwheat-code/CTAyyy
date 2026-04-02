@@ -1,0 +1,144 @@
+{
+  "url": "https://www.salesforce.com/blog/4th-state-of-it-security/?bc=DB",
+  "slug": "4th-state-of-it-security",
+  "title": "Inside the State of IT, Fourth Edition: Security Report",
+  "author": "Mike Melone",
+  "published_date": "2025-05-15T15:27:50+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "The world of IT security is in constant motion, but the rapid advancements inartificial intelligence (AI)are creating a seismic shift. Cybercriminals are using AI to craft more sophisticated attacks, presenting new challenges for organizations. However, AI also helps detect and respond to threats more efficiently, automating routine tasks and freeing employees for more valuable work. In the fourth edition of our newState of IT: Security report,which surveyed more than 4,000 IT leaders worldwide (including more than 2,000 security and compliance specialists), we explore this new dynamic, offering critical insights for organizations looking toinnovate while staying secure. Our findings reveal that striking this balance isn’t always easy, but it’s possible with the right tools and by embedding security into every step of the development process. Read on for some of the key trends from the report.",
+      "word_count": 135,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "artificial intelligence (AI)",
+          "href": "https://www.salesforce.com/artificial-intelligence/what-is-ai/"
+        },
+        {
+          "text": "State of IT: Security report,",
+          "href": "https://www.salesforce.com/form/platform/4th-state-of-it-security/"
+        },
+        {
+          "text": "innovate while staying secure",
+          "href": "https://www.salesforce.com/blog/ai-digital-transformation/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Trend 1: Security budgets are on the rise (again)",
+      "text": "Over the past five years, IT security budgets as a percentage of overall IT spending have steadily increased,rising from 8.6% in 2020 to 13.2% in 2024. Based on the findings in our report, that trend should continue. Seventy-five percent of organizations anticipate an increase in their security budgets to help fend off more frequent and sophisticated cyber threats. This financial commitment underscores a growing recognition of the potential for financial and reputational damage from AI attacks like data poisoning, model inversion, privacy leakage, and others Budget increases can help organizations invest in advanced security technologies, attract and retain cybersecurity professionals, and implement comprehensive security strategies.",
+      "word_count": 105,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "rising from 8.6% in 2020 to 13.2% in 2024",
+          "href": "https://www.iansresearch.com/resources/press-releases/detail/new-research-reveals-security-budgets-only-increased-2-points-in-2024--while-12--of-cisos-faced-reductions"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Trend 2: Trust matters more in the AI era",
+      "text": "AI has magnified the importance of customer trust. The report reveals that 64% of customers believe that companies handle their data irresponsibly, and 61% see AI as heightening the need for data protection. These statistics highlight the need for organizations to prioritize data stewardship. It’s not just about meeting compliance requirements — it’s a fundamental business imperative. Organizations can build and maintain customer confidence by demonstrating a commitment to data security, ensuring transparency in data usage, and implementing stringent security protocols.",
+      "word_count": 81,
+      "has_existing_cta": true,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "Trend 3: Compliance is getting more complex",
+      "text": "It’s clear from the report that the complexity of theregulatory landscapeis placing a strain on security leaders. 68% of security leaders report a tangible increase in the difficulty of maintaining compliance, driven by the rapid and often fragmented rollout of new regulations across different regions and industries. Adding another layer of complexity is the looming uncertainty surrounding newAI-specific regulations. Forty-three percent of security leaders admit to feeling underprepared for the potential wave of rules and guidelines that may govern the development and deployment of AI technologies. The need for more explicit guidance and proactive strategies to address AI-related compliance is becoming increasingly important.",
+      "word_count": 103,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "regulatory landscape",
+          "href": "https://www.salesforce.com/form/platform/regulations-whitepaper/"
+        },
+        {
+          "text": "AI-specific regulations",
+          "href": "https://www.salesforce.com/blog/guide-to-eu-ai-act/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Trend 4: AI is a double-edged sword",
+      "text": "AI provides both advantages and disadvantages when it comes to IT security. While 80% of security leaders recognizethe transformative potential of AI in enhancing their security posturethrough automated threat detection, faster incident response, and advanced vulnerability analysis, they also acknowledge the new security and compliance challenges it introduces. These include the risk of AI systems being exploited by malicious actors, the complexities of securing AI algorithms and training data, and the need to adapt existing compliance frameworks to address the unique aspects of AI deployments. Navigating this dual nature of AI requires establishing governance frameworks, proactive risk management strategies, and a continuous learning approach to stay ahead of potential AI-driven threats.",
+      "word_count": 111,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "the transformative potential of AI in enhancing their security posture",
+          "href": "https://www.salesforce.com/blog/secure-ai/"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Stories from the field",
+      "text": "How do you build a security strategy that doesn’t slow down innovation? AWS Security Enablement Senior Manager,Josh Kohl’s guiding principle is that it’s about “guardrails, not gates”. Development cycles are moving quickly, and developers and IT teams need the flexibility to innovate fast without being stopped by rigid security protocols. The “guardrails” approach focuses on creating a secure framework that guides teams toward safe practices naturally. For those who don’t consider themselves security experts, they can focus on their work while security is seamlessly integrated into their existing workflows. At AWS,Salesforce Shieldis layered on top of everything. From real-time event monitoring to track and monitor security and performance, setting up custom transaction security policies, and bringing your own key encryption — it’s all part of their everyday. In tandem with these solutions, they foster a culture of security by taking it beyond onboarding. To continue the security training, they maintain an internal newsletter to share the latest and greatest on all things security, ensuring teams are up to date on the latest tools and best practices. In the full interview, Kohl dives into his takeaways from the report along with insights on security strategy in the age of AI, restoring customer trust, and more. To see the full interview, watchrecording on the Salesforce Platform LinkedIn page.",
+      "word_count": 216,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Josh Kohl",
+          "href": "https://www.linkedin.com/in/joshuakohl/"
+        },
+        {
+          "text": "Salesforce Shield",
+          "href": "https://www.salesforce.com/platform/shield/"
+        },
+        {
+          "text": "recording on the Salesforce Platform LinkedIn page.",
+          "href": "https://www.linkedin.com/events/7345535431561617408/"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "Uncover more insights from the State of IT: Security Report",
+      "text": "These are just a few of the insights you’ll find in theState of IT: Security report. Whether you’re a security leader navigating AI governance, addressing increasing compliance demands, or aiming to build greater customer trust, this report offers valuable perspectives from your peers across industries and geographies. Ready to dive deeper into these findings and explore IT security in the age of AI?Download the reporttoday to navigate the evolving security landscape and turn potential vulnerabilities into competitive advantages.",
+      "word_count": 78,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "State of IT: Security report",
+          "href": "https://www.salesforce.com/form/platform/4th-state-of-it-security/"
+        },
+        {
+          "text": "Download the report",
+          "href": "https://www.salesforce.com/form/platform/4th-state-of-it-security/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Future-proof your IT security strategy",
+      "body": "Learn how the top security and compliance professionals are securing their data in the AI era.",
+      "button_text": "Download the report",
+      "button_url": "https://www.salesforce.com/form/platform/4th-state-of-it-security/",
+      "position_after_section": 6
+    },
+    {
+      "heading": "Unleash AI with secure data",
+      "body": "Get the guide to learn how Salesforce helps you adopt best practices for data security while innovating with AI.",
+      "button_text": "Get the free guide",
+      "button_url": "https://www.salesforce.com/form/platform/data-security-best-practices-guide",
+      "position_after_section": 2
+    },
+    {
+      "heading": "Be ready and AI-ble for Agentforce",
+      "body": "Dive into the world of AI with both eyes open – here are six essential security steps to prepare for Agentforce.",
+      "button_text": "Get the free guide",
+      "button_url": "https://www.salesforce.com/form/platform/six-security-steps-to-prepare-for-agentforce/",
+      "position_after_section": 6
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>The world of IT security is in constant motion, but the rapid advancements in <a href=\"https://www.salesforce.com/artificial-intelligence/what-is-ai/\" rel=\"noopener\" target=\"_blank\">artificial intelligence (AI)</a> are creating a seismic shift. Cybercriminals are using AI to craft more sophisticated attacks, presenting new challenges for organizations. However, AI also helps detect and respond to threats more efficiently, automating routine tasks and freeing employees for more valuable work.</p>\n<p>In the fourth edition of our new <a href=\"https://www.salesforce.com/form/platform/4th-state-of-it-security/\" rel=\"noopener\" target=\"_blank\">State of IT: Security report,</a> which surveyed more than 4,000 IT leaders worldwide (including more than 2,000 security and compliance specialists), we explore this new dynamic, offering critical insights for organizations looking to <a href=\"https://www.salesforce.com/blog/ai-digital-transformation/\" rel=\"noopener\" target=\"_blank\">innovate while staying secure</a>. </p>\n<p>Our findings reveal that striking this balance isn’t always easy, but it’s possible with the right tools and by embedding security into every step of the development process. Read on for some of the key trends from the report.</p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Future-proof your IT security strategy</h2>\n<p class=\"wp-block-offer__description\">Learn how the top security and compliance professionals are securing their data in the AI era.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/4th-state-of-it-security/\" target=\"_blank\">Download the report</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-trend-1-security-budgets-are-on-the-rise-again\">Trend 1: Security budgets are on the rise (again)</h2>\n<p>Over the past five years, IT security budgets as a percentage of overall IT spending have steadily increased, <a href=\"https://www.iansresearch.com/resources/press-releases/detail/new-research-reveals-security-budgets-only-increased-2-points-in-2024--while-12--of-cisos-faced-reductions\" rel=\"noopener\" target=\"_blank\">rising from 8.6% in 2020 to 13.2% in 2024</a>. Based on the findings in our report, that trend should continue. Seventy-five percent of organizations anticipate an increase in their security budgets to help fend off more frequent and sophisticated cyber threats. </p>\n<figure class=\"wp-block-image size-full is-resized wp-lightbox-container\" data-wp-context='{\"imageId\":\"69ce9e42b4667\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69ce9e42b4667\"><img alt=\"Chart showing anticipated security budget changes for the next year.\" class=\"wp-image-112804\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" fetchpriority=\"high\" height=\"1250\" sizes=\"(max-width: 1792px) 100vw, 1792px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report2.png?strip=all&amp;quality=95\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report2.png 1792w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report2.png?w=717&amp;h=500 717w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report2.png?w=768&amp;h=536 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report2.png?w=1536&amp;h=1071 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report2.png?w=150&amp;h=105 150w\" style=\"width:527px;height:auto\" width=\"1792\"><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button><figcaption class=\"wp-element-caption\">State of IT, Fourth Edition: Security Report</figcaption></img></figure>\n<p>This financial commitment underscores a growing recognition of the potential for financial and reputational damage from AI attacks like data poisoning, model inversion, privacy leakage, and others Budget increases can help organizations invest in advanced security technologies, attract and retain cybersecurity professionals, and implement comprehensive security strategies.</p>\n<h2 class=\"wp-block-heading\" id=\"h-trend-2-trust-matters-more-in-the-ai-era\">Trend 2: Trust matters more in the AI era</h2>\n<p>AI has magnified the importance of customer trust. The report reveals that 64% of customers believe that companies handle their data irresponsibly, and 61% see AI as heightening the need for data protection. These statistics highlight the need for organizations to prioritize data stewardship. </p>\n<p>It’s not just about meeting compliance requirements — it’s a fundamental business imperative. Organizations can build and maintain customer confidence by demonstrating a commitment to data security, ensuring transparency in data usage, and implementing stringent security protocols.</p>\n<div class=\"layout-three wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Unleash AI with secure data</h2>\n<p class=\"wp-block-offer__description\">Get the guide to learn how Salesforce helps you adopt best practices for data security while innovating with AI.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/data-security-best-practices-guide\" target=\"_blank\">Get the free guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-three.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-three.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-trend-3-compliance-is-getting-more-complex\">Trend 3: Compliance is getting more complex</h2>\n<p>It’s clear from the report that the complexity of the <a href=\"https://www.salesforce.com/form/platform/regulations-whitepaper/\" rel=\"noopener\" target=\"_blank\">regulatory landscape</a> is placing a strain on security leaders. 68% of security leaders report a tangible increase in the difficulty of maintaining compliance, driven by the rapid and often fragmented rollout of new regulations across different regions and industries. </p>\n<figure class=\"wp-block-image size-full is-resized wp-lightbox-container\" data-wp-context='{\"imageId\":\"69ce9e42b542b\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69ce9e42b542b\"><img alt=\"Two charts showing security leader concerns about regulations.\" class=\"wp-image-112805\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" height=\"1083\" sizes=\"(max-width: 1792px) 100vw, 1792px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report4.png?strip=all&amp;quality=95\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report4.png 1792w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report4.png?w=827&amp;h=500 827w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report4.png?w=768&amp;h=464 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report4.png?w=1536&amp;h=928 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/IT-Security-Report4.png?w=150&amp;h=91 150w\" style=\"width:543px;height:auto\" width=\"1792\"><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button><figcaption class=\"wp-element-caption\">State of IT, Fourth Edition: Security Report</figcaption></img></figure>\n<p>Adding another layer of complexity is the looming uncertainty surrounding new <a href=\"https://www.salesforce.com/blog/guide-to-eu-ai-act/\" rel=\"noopener\" target=\"_blank\">AI-specific regulations</a>. Forty-three percent of security leaders admit to feeling underprepared for the potential wave of rules and guidelines that may govern the development and deployment of AI technologies. The need for more explicit guidance and proactive strategies to address AI-related compliance is becoming increasingly important.</p>\n<h2 class=\"wp-block-heading\" id=\"h-trend-4-ai-is-a-double-edged-sword\">Trend 4: AI is a double-edged sword</h2>\n<p>AI provides both advantages and disadvantages when it comes to IT security. While 80% of security leaders recognize <a href=\"https://www.salesforce.com/blog/secure-ai/\" rel=\"noopener\" target=\"_blank\">the transformative potential of AI in enhancing their security posture</a> through automated threat detection, faster incident response, and advanced vulnerability analysis, they also acknowledge the new security and compliance challenges it introduces. </p>\n<p>These include the risk of AI systems being exploited by malicious actors, the complexities of securing AI algorithms and training data, and the need to adapt existing compliance frameworks to address the unique aspects of AI deployments. </p>\n<p>Navigating this dual nature of AI requires establishing governance frameworks, proactive risk management strategies, and a continuous learning approach to stay ahead of potential AI-driven threats.</p>\n<h2 class=\"wp-block-heading\">Stories from the field</h2>\n<p>How do you build a security strategy that doesn’t slow down innovation? AWS Security Enablement Senior Manager, <a href=\"https://www.linkedin.com/in/joshuakohl/\" rel=\"noopener\" target=\"_blank\">Josh Kohl</a>’s guiding principle is that it’s about “guardrails, not gates”. </p>\n<p>Development cycles are moving quickly, and developers and IT teams need the flexibility to innovate fast without being stopped by rigid security protocols. The “guardrails” approach focuses on creating a secure framework that guides teams toward safe practices naturally. For those who don’t consider themselves security experts, they can focus on their work while security is seamlessly integrated into their existing workflows.</p>\n<p>At AWS, <a href=\"https://www.salesforce.com/platform/shield/\" rel=\"noopener\" target=\"_blank\">Salesforce Shield</a> is layered on top of everything. From real-time event monitoring to track and monitor security and performance, setting up custom transaction security policies, and bringing your own key encryption — it’s all part of their everyday. In tandem with these solutions, they foster a culture of security by taking it beyond onboarding. To continue the security training, they maintain an internal newsletter to share the latest and greatest on all things security, ensuring teams are up to date on the latest tools and best practices.</p>\n<figure class=\"wp-block-image size-full\"><a href=\"https://www.linkedin.com/events/isaihelpingorhurtingyoursecurit7345535431561617408/theater/\"><img alt=\"Is AI helping or hurting your security? How 2,000+ IT leaders answered. Free, on-demand webinar.\" class=\"wp-image-125967\" decoding=\"async\" height=\"1694\" sizes=\"(max-width: 3014px) 100vw, 3014px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/SoIT-LL-for-blog-1.png?strip=all&amp;quality=95\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/SoIT-LL-for-blog-1.png 3014w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/SoIT-LL-for-blog-1.png?w=890&amp;h=500 890w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/SoIT-LL-for-blog-1.png?w=768&amp;h=432 768w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/SoIT-LL-for-blog-1.png?w=1536&amp;h=863 1536w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/SoIT-LL-for-blog-1.png?w=2048&amp;h=1151 2048w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/05/SoIT-LL-for-blog-1.png?w=150&amp;h=84 150w\" width=\"3014\"/></a></figure>\n<p>In the full interview, Kohl dives into his takeaways from the report along with insights on security strategy in the age of AI, restoring customer trust, and more. To see the full interview, watch <a href=\"https://www.linkedin.com/events/7345535431561617408/\" rel=\"noopener\" target=\"_blank\">recording on the Salesforce Platform LinkedIn page.</a></p>\n<h2 class=\"wp-block-heading\" id=\"h-uncover-more-insights-from-the-state-of-it-security-report\">Uncover more insights from the State of IT: Security Report</h2>\n<p>These are just a few of the insights you’ll find in the <a href=\"https://www.salesforce.com/form/platform/4th-state-of-it-security/\" rel=\"noopener\" target=\"_blank\">State of IT: Security report</a>. Whether you’re a security leader navigating AI governance, addressing increasing compliance demands, or aiming to build greater customer trust, this report offers valuable perspectives from your peers across industries and geographies. </p>\n<p>Ready to dive deeper into these findings and explore IT security in the age of AI? <a href=\"https://www.salesforce.com/form/platform/4th-state-of-it-security/\" rel=\"noopener\" target=\"_blank\">Download the report</a> today to navigate the evolving security landscape and turn potential vulnerabilities into competitive advantages.</p>\n<div class=\"layout-four wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Be ready and AI-ble for Agentforce</h2>\n<p class=\"wp-block-offer__description\">Dive into the world of AI with both eyes open – here are six essential security steps to prepare for Agentforce.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/six-security-steps-to-prepare-for-agentforce/\" target=\"_blank\">Get the free guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-four.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-four.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-four.png\"/>\n</div>\n</div>"
+}

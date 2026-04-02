@@ -1,0 +1,186 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-healthcare-marketing/?bc=DB",
+  "slug": "ai-healthcare-marketing",
+  "title": "AI in Healthcare Marketing: How to Balance Personalization and Privacy",
+  "author": "Cindy Angulo",
+  "published_date": "2025-09-05T14:24:47+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "security"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Introduction'. Products: marketing_cloud, industry_clouds. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-discover-the-healthcare-and-life-sciences-industry",
+          "name": "Discover the Healthcare and Life Sciences Industry",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/discover-the-healthcare-and-life-sciences-industry",
+          "duration_minutes": 120,
+          "score": 0.85,
+          "match_rationale": "Trail targets industry_clouds at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
+          "name": "Prepare for Your Agentforce Life Sciences Consultant Certification",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
+          "duration_minutes": 1240,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "3 best practices for AI in healthcare marketing",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '3 best practices for AI in healthcare marketing'. Products: marketing_cloud, industry_clouds. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-discover-the-healthcare-and-life-sciences-industry",
+          "name": "Discover the Healthcare and Life Sciences Industry",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/discover-the-healthcare-and-life-sciences-industry",
+          "duration_minutes": 120,
+          "score": 0.85,
+          "match_rationale": "Trail targets industry_clouds at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
+          "name": "Prepare for Your Agentforce Life Sciences Consultant Certification",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
+          "duration_minutes": 1240,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "How Salesforce can help",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud",
+          "commerce_cloud",
+          "data_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "security",
+          "collaboration",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How Salesforce can help'. Products: marketing_cloud, commerce_cloud, data_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Make your customer interactions a two-way conversation",
+        "body": "Learn how Marketing Cloud brings autonomous AI agents, actionable data, and full-funnel workflows together for truly connected engagement.",
+        "button_text": "Learn more",
+        "button_url": "https://www.salesforce.com/marketing/",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.95,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.informatica.com-departments-data-archi",
+          "score": 0.85,
+          "match_rationale": "CTA targets data_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2833,
+  "misaligned_count": 2
+}

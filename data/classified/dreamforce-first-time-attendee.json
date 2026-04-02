@@ -1,0 +1,263 @@
+{
+  "url": "https://www.salesforce.com/blog/dreamforce-first-time-attendee/?bc=DB",
+  "slug": "dreamforce-first-time-attendee",
+  "title": "4 Tips for Dreamforce First-Time Attendees",
+  "author": "Shanta Speller",
+  "published_date": "2025-09-24T19:03:02+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "thought_leadership",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "1. Build your personalized schedule with Agenda Builder",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in '1. Build your personalized schedule with Agenda Builder'. Products: general. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "2. Stay organized with the Salesforce Events app",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '2. Stay organized with the Salesforce Events app'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "3. Make meaningful connections",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in '3. Make meaningful connections'. Products: agentforce. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-set-up-merchandising-for-your-storefront",
+          "name": "Set Up Merchandising for Your Storefront",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/set-up-merchandising-for-your-storefront",
+          "duration_minutes": 1010,
+          "score": 0.45,
+          "match_rationale": "Trail targets einstein_ai at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "4. Embrace the adventure",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '4. Embrace the adventure'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Your agenda awaits",
+        "body": "The perfect Dreamforce starts with an agenda. Browse over 1,500 sessions and create a personalized schedule built just for you.",
+        "button_text": "Build it now",
+        "button_url": "https://reg.salesforce.com/flow/plus/df25/agendabuilder/page/agendabuilder",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.35,
+        "funnel_alignment": "mismatch",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Funnel mismatch: CTA is decision-stage but section is awareness-stage",
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.07,
+  "misaligned_count": 5
+}

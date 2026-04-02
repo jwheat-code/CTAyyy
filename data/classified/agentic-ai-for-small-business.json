@@ -1,0 +1,408 @@
+{
+  "url": "https://www.salesforce.com/blog/agentic-ai-for-small-business/?bc=DB",
+  "slug": "agentic-ai-for-small-business",
+  "title": "What Is Agentic AI For Small Business? Everything You Need to Know",
+  "author": "Brett Grossfeld",
+  "published_date": "2025-07-21T14:00:00+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "small_business",
+          "ai_tools"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-configure-revenue-cloud",
+          "name": "Configure Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
+          "duration_minutes": 1005,
+          "score": 0.85,
+          "match_rationale": "Trail targets agentforce at decision stage for decision-stage small_business_owner reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.5,
+          "match_rationale": "Trail targets general at decision stage for decision-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is agentic AI for small business?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "data_analytics",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is agentic AI for small business?'. Products: agentforce, sales_cloud, service_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Core aspects of agentic AI",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "small_business",
+          "crm",
+          "customer_service",
+          "data_analytics",
+          "security",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Core aspects of agentic AI'. Products: agentforce, sales_cloud, service_cloud, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Examples of agentic AI for small businesses",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "marketing_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "marketing_automation",
+          "customer_service",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Examples of agentic AI for small businesses'. Products: agentforce, sales_cloud, marketing_cloud, commerce_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-configure-revenue-cloud",
+          "name": "Configure Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
+          "duration_minutes": 1005,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-industries-order-management",
+          "name": "Get Started with Industries Order Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-industries-order-management",
+          "duration_minutes": 70,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at decision stage for decision-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "How to get started with agentic AI in your small business",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "ai_tools",
+          "customer_service",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How to get started with agentic AI in your small business'. Products: agentforce, sales_cloud, service_cloud, platform. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-configure-revenue-cloud",
+          "name": "Configure Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
+          "duration_minutes": 1005,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at decision stage for decision-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage service_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
+          "name": "Get Started with Omnistudio on the Salesforce Platform",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
+          "duration_minutes": 190,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at decision stage for decision-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Challenges with the agentic layer for small businesses",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "ai_tools",
+          "customer_service",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Challenges with the agentic layer for small businesses'. Products: agentforce, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Get your data ready for AI with Salesforce Foundations",
+        "body": "Easily activate Foundations in your existing CRM to add key features in Agentforce 360, Sales, Service, Marketing, Commerce, and Data — all for free.",
+        "button_text": "Try out Foundations",
+        "button_url": "https://www.salesforce.com/crm/foundations/?d=bcta",
+        "position_after_section": 5
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Agentic AI as a growth partner for your small business",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "small_business_owner",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "starter"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "small_business",
+          "crm",
+          "customer_service",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Agentic AI as a growth partner for your small business'. Products: agentforce, sales_cloud, starter. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Go to Trailhead",
+        "button_url": "https://trailhead.salesforce.com/content/learn/trails/build-ai-assistants-with-einstein-copilot",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-grow-your-business-with-salesforce-foundations",
+          "name": "Grow Your Business with Salesforce Foundations",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/grow-your-business-with-salesforce-foundations",
+          "duration_minutes": 750,
+          "score": 0.85,
+          "match_rationale": "Trail targets starter at awareness stage for awareness-stage small_business_owner reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2571,
+  "misaligned_count": 5
+}

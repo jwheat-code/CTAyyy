@@ -1,0 +1,288 @@
+{
+  "url": "https://www.salesforce.com/blog/what-is-experience-architecture/?bc=DB",
+  "slug": "what-is-experience-architecture",
+  "title": "What is Experience Architecture and Why You Can’t AI Without It",
+  "author": "JoEllen Kames",
+  "published_date": "2025-09-25T15:11:52+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What is experience architecture?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "ai_tools",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What is experience architecture?'. Products: einstein_ai. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-get_smart_einstein",
+          "name": "Get Smart with Salesforce Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get_smart_einstein",
+          "duration_minutes": 75,
+          "score": 0.85,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "A good runtime experience relies on good architecture",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'A good runtime experience relies on good architecture'. Products: agentforce. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Three examples of how experience architecture shows up",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "sales_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "ai_tools",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Three examples of how experience architecture shows up'. Products: agentforce, einstein_ai, sales_cloud, service_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Get to know the building blocks of success",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Get to know the building blocks of success'. Products: agentforce. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Architect your AI design practice",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Architect your AI design practice'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 6
+}

@@ -1,0 +1,382 @@
+{
+  "url": "https://www.salesforce.com/blog/mobile-worker-research/?bc=DB",
+  "slug": "mobile-worker-research",
+  "title": "What 350 Mobile Workers Taught Us About Fixing Productivity (And Your Costs)",
+  "author": "Kacey Heller",
+  "published_date": "2025-09-02T17:30:23+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What you’ll learn:",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What you’ll learn:'. Products: agentforce. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Administrativeburden eats up working hours — and your margins",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "service_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "crm",
+          "productivity"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Administrativeburden eats up working hours — and your margins'. Products: sales_cloud, service_cloud. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "Field service made simple with AI",
+        "body": "Learn how high-performing field service teams are using AI to boost productivity and deliver customer satisfaction.",
+        "button_text": "Watch demo",
+        "button_url": "/form/demo/crm-service-demo-field-service/?d=pb",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Scheduling chaos costs you more than just appointments",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Scheduling chaos costs you more than just appointments'. Products: agentforce, sales_cloud, service_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "The overtime crisis continues",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "sales_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "productivity"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'The overtime crisis continues'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Join the award-winning Serviceblazer Community on Slack",
+        "body": "",
+        "button_text": "Claim your invite",
+        "button_url": "https://join.serviceblazer.com",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage sales_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage sales_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage sales_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Technicians want better tools — like AI agents",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "service_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity",
+          "collaboration",
+          "thought_leadership",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Technicians want better tools — like AI agents'. Products: agentforce, service_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Calculate your costs with the new worksheet",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "sales_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Calculate your costs with the new worksheet'. Products: agentforce, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Unlock AI with Service Cloud",
+        "body": "Your AI is only as strong as the data it’s built on. Service Cloud is built on trusted, secured data to safely maximize the power of AI.",
+        "button_text": "Show me how",
+        "button_url": "https://www.salesforce.com/service/cloud/",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage sales_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage sales_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage sales_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.35,
+  "misaligned_count": 4
+}

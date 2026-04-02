@@ -1,0 +1,125 @@
+{
+  "url": "https://www.salesforce.com/blog/esp-migration/?bc=DB",
+  "slug": "esp-migration",
+  "title": "Moving to a New Email Provider? ESP Migration Doesn’t Need to Be Daunting",
+  "author": "Heidi Natkin",
+  "published_date": "2025-09-09T16:27:39+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "marketing_automation",
+          "customer_service",
+          "data_analytics",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud, marketing_cloud, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Step 8: Get moving!",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "productivity",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Step 8: Get moving!'. Products: sales_cloud, marketing_cloud. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "Make your customer interactions a two-way conversation",
+        "body": "Learn how Marketing Cloud brings autonomous AI agents, actionable data, and full-funnel workflows together for truly connected engagement.",
+        "button_text": "Learn more",
+        "button_url": "https://www.salesforce.com/marketing/",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.4,
+  "misaligned_count": 1
+}

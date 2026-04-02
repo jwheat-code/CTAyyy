@@ -1,0 +1,435 @@
+{
+  "url": "https://www.salesforce.com/blog/loyalty-programs-value/?bc=DB",
+  "slug": "loyalty-programs-value",
+  "title": "It’s Time to Redefine the Value Exchange in Loyalty – Here’s How to Do It",
+  "author": "Matthew Schnelker, Suryalaxmi R",
+  "published_date": "2025-09-11T21:19:33+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: sales_cloud, marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Why loyalty programs often fall short",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Why loyalty programs often fall short'. Products: marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Make your customer interactions a two-way conversation",
+        "body": "Learn how Marketing Cloud brings autonomous AI agents, actionable data, and full-funnel workflows together for truly connected engagement.",
+        "button_text": "Get the details",
+        "button_url": "https://www.salesforce.com/marketing/",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-use-einstein-features-in-marketing-cloud",
+          "name": "Use Einstein Features in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/use-einstein-features-in-marketing-cloud",
+          "duration_minutes": 90,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "5 things that make modern loyalty programs successful",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '5 things that make modern loyalty programs successful'. Products: sales_cloud, marketing_cloud, commerce_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-industries-order-management",
+          "name": "Get Started with Industries Order Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-industries-order-management",
+          "duration_minutes": 70,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-configure-revenue-cloud",
+          "name": "Configure Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
+          "duration_minutes": 1005,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at decision stage for decision-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Designing effective loyalty programs requires structure and scale",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "sales_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "productivity",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Designing effective loyalty programs requires structure and scale'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "See how Loyalty Management works",
+        "body": "Learn how you can configure your program with just a few clicks, enroll customers, deploy personalized promotions, and track program performance.",
+        "button_text": "Watch the demo",
+        "button_url": "https://www.salesforce.com/form/demo/loyalty-management-demo/",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage sales_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage sales_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage sales_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Delivering loyalty that’s flexible, fast, and future-ready",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "einstein_ai",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Delivering loyalty that’s flexible, fast, and future-ready'. Products: einstein_ai, marketing_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-set-up-merchandising-for-your-storefront",
+          "name": "Set Up Merchandising for Your Storefront",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/set-up-merchandising-for-your-storefront",
+          "duration_minutes": 1010,
+          "score": 0.85,
+          "match_rationale": "Trail targets einstein_ai at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "The end-to-end loyalty redemption experience, simplified",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "productivity",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'The end-to-end loyalty redemption experience, simplified'. Products: general. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Spoil users for choice with unmatched reward diversity",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Spoil users for choice with unmatched reward diversity'. Products: general. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "What’s next for loyalty",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "sales_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'What’s next for loyalty'. Products: agentforce, sales_cloud. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "Get started with Loyalty Management",
+        "body": "This 30-day free trial will give you a guided experience to learn how to configure tiers, currencies, and benefits; set up promotions and manage program partners; and dive into analytics.",
+        "button_text": "Sign me up",
+        "button_url": "https://www.salesforce.com/form/signup/loyalty-management-trial/",
+        "position_after_section": 7
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets decision-stage readers; section is consideration-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage sales_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage sales_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage sales_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.3063,
+  "misaligned_count": 5
+}

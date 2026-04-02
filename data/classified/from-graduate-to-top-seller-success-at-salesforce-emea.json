@@ -1,0 +1,254 @@
+{
+  "url": "https://www.salesforce.com/blog/from-graduate-to-top-seller-success-at-salesforce-emea/?bc=DB",
+  "slug": "from-graduate-to-top-seller-success-at-salesforce-emea",
+  "title": "From Graduate to Top Seller: Success at Salesforce EMEA",
+  "author": "Erin Lindsay",
+  "published_date": "2025-10-01T16:35:19+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "sales_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Landing His Dream Job: From FMCG to Futureforce",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "security",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Landing His Dream Job: From FMCG to Futureforce'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Building Skills and Changing Roles",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "small_business_owner",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "crm",
+          "data_analytics",
+          "security",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Building Skills and Changing Roles'. Products: agentforce, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Why Agentforce? The Differentiator",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "ai_tools",
+          "customer_service",
+          "data_analytics",
+          "security",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Why Agentforce? The Differentiator'. Products: agentforce, sales_cloud, service_cloud, data_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.informatica.com-departments-data-archi",
+          "score": 0.85,
+          "match_rationale": "CTA targets data_cloud at awareness stage for awareness-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "From Salesforce Graduate to Top Seller: A Major Achievement",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'From Salesforce Graduate to Top Seller: A Major Achievement'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.0,
+  "misaligned_count": 5
+}

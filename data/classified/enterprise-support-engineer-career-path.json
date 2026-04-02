@@ -1,0 +1,521 @@
+{
+  "url": "https://www.salesforce.com/blog/enterprise-support-engineer-career-path/?bc=DB",
+  "slug": "enterprise-support-engineer-career-path",
+  "title": "From Retail to Enterprise Software: Behind the Scenes of a Technical Support Engineer",
+  "author": "Salesforce Careers",
+  "published_date": "2023-12-15T04:40:00+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: commerce_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-deploy-commerce-cloud-einstein",
+          "name": "Deploy Commerce Cloud Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
+          "duration_minutes": 250,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "So, Stephanie: how did you get your start at Salesforce?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'So, Stephanie: how did you get your start at Salesforce?'. Products: sales_cloud, commerce_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Did you always see yourself working in a technical space?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "customer_service"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Did you always see yourself working in a technical space?'. Products: sales_cloud, commerce_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-search-engine-awareness-for-your-salesforce-b2c-commerce-storefront",
+          "name": "Optimize Search Engine Awareness for Your Salesforce B2C Commerce Storefront",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-search-engine-awareness-for-your-salesforce-b2c-commerce-storefront",
+          "duration_minutes": 225,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Can you describe a day in the life as a Technical Support Engineer? What does that mean?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Can you describe a day in the life as a Technical Support Engineer? What does that mean?'. Products: commerce_cloud, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "How is Salesforce innovating in this space? Is AI impacting your role?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How is Salesforce innovating in this space? Is AI impacting your role?'. Products: commerce_cloud, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "How is success measured on your team?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "customer_service"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How is success measured on your team?'. Products: commerce_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-deploy-commerce-cloud-einstein",
+          "name": "Deploy Commerce Cloud Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
+          "duration_minutes": 250,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "What’s the most important trait you have to have to succeed in your role?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What’s the most important trait you have to have to succeed in your role?'. Products: commerce_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-deploy-commerce-cloud-einstein",
+          "name": "Deploy Commerce Cloud Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
+          "duration_minutes": 250,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "What’s been the best piece of advice you received?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "customer_service"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What’s been the best piece of advice you received?'. Products: commerce_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-deploy-commerce-cloud-einstein",
+          "name": "Deploy Commerce Cloud Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
+          "duration_minutes": 250,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "What has been an obstacle you’ve had to overcome here at Salesforce?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What has been an obstacle you’ve had to overcome here at Salesforce?'. Products: commerce_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-deploy-commerce-cloud-einstein",
+          "name": "Deploy Commerce Cloud Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
+          "duration_minutes": 250,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 9,
+      "section_heading": "Last question: How do you see your career growing at Salesforce?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "customer_service"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Last question: How do you see your career growing at Salesforce?'. Products: commerce_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "We can’t wait to meet you!",
+        "body": "Join our Talent Community and be the first to know about open roles, career tips, events happening near you, and much more.",
+        "button_text": "Join today",
+        "button_url": "https://careers.mail.salesforce.com/wtl?cid=d1b27bc9-46b7-4023-87ef-933e36221899&utm_sourc%5B%E2%80%A6%5Dersite&utm_campaign=global_tc_globallg&utm_content=link&_ga=2.243912646.2109121547.1749574367-896457258.1747694941",
+        "position_after_section": 9
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-deploy-commerce-cloud-einstein",
+          "name": "Deploy Commerce Cloud Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
+          "duration_minutes": 250,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.065,
+  "misaligned_count": 9
+}

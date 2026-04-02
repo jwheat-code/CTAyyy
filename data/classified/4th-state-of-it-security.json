@@ -1,0 +1,381 @@
+{
+  "url": "https://www.salesforce.com/blog/4th-state-of-it-security/?bc=DB",
+  "slug": "4th-state-of-it-security",
+  "title": "Inside the State of IT, Fourth Edition: Security Report",
+  "author": "Mike Melone",
+  "published_date": "2025-05-15T15:27:50+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_tools",
+          "security",
+          "thought_leadership",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Trend 1: Security budgets are on the rise (again)",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "it_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "security",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Trend 1: Security budgets are on the rise (again)'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Trend 2: Trust matters more in the AI era",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "security"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Trend 2: Trust matters more in the AI era'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Unleash AI with secure data",
+        "body": "Get the guide to learn how Salesforce helps you adopt best practices for data security while innovating with AI.",
+        "button_text": "Get the free guide",
+        "button_url": "https://www.salesforce.com/form/platform/data-security-best-practices-guide",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Trend 3: Compliance is getting more complex",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "security",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Trend 3: Compliance is getting more complex'. Products: sales_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Trend 4: AI is a double-edged sword",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "productivity",
+          "security",
+          "thought_leadership",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Trend 4: AI is a double-edged sword'. Products: sales_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Stories from the field",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "security",
+          "collaboration",
+          "thought_leadership",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Stories from the field'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Uncover more insights from the State of IT: Security Report",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "it_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "security"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Uncover more insights from the State of IT: Security Report'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Be ready and AI-ble for Agentforce",
+        "body": "Dive into the world of AI with both eyes open – here are six essential security steps to prepare for Agentforce.",
+        "button_text": "Get the free guide",
+        "button_url": "https://www.salesforce.com/form/platform/six-security-steps-to-prepare-for-agentforce/",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage it_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2429,
+  "misaligned_count": 5
+}

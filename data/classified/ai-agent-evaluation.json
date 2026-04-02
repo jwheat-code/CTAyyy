@@ -1,0 +1,386 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-agent-evaluation/?bc=DB",
+  "slug": "ai-agent-evaluation",
+  "title": "How Do You Know if Your AI Agent Is Doing a Good Job?",
+  "author": "Laura Hilgers",
+  "published_date": "2025-09-24T19:14:39+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "service_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, service_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What does an effective AI agent look like?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "service_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "service_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'What does an effective AI agent look like?'. Products: agentforce, sales_cloud, service_cloud, platform. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at consideration stage for consideration-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "You can measure only what you can see",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "service_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'You can measure only what you can see'. Products: agentforce, service_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "How Salesforce measures performance",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'How Salesforce measures performance'. Products: agentforce, platform. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "What’s your agentic AI strategy?",
+        "body": "Our playbook is your free guide to becoming an agentic enterprise. Learn about use cases, deployment, and AI skills, and download interactive worksheets for your team.",
+        "button_text": "The future starts now",
+        "button_url": "https://www.salesforce.com/blog/playbook/agentic-ai",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is consideration-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-agentforce-commerce-sell-everywhere-anytime",
+          "name": "Agentforce Commerce: Sell Everywhere, Anytime",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/agentforce-commerce-sell-everywhere-anytime",
+          "duration_minutes": 695,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
+          "name": "Get Started with Omnistudio on the Salesforce Platform",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
+          "duration_minutes": 190,
+          "score": 0.65,
+          "match_rationale": "Trail targets platform at decision stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "More tools coming soon",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "service_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud",
+          "commerce_cloud",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'More tools coming soon'. Products: agentforce, service_cloud, commerce_cloud, data_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-agentforce-commerce-sell-everywhere-anytime",
+          "name": "Agentforce Commerce: Sell Everywhere, Anytime",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/agentforce-commerce-sell-everywhere-anytime",
+          "duration_minutes": 695,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--join.serviceblazer.com",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at consideration stage for consideration-stage service_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-data-clean-rooms-demo",
+          "score": 0.85,
+          "match_rationale": "CTA targets data_cloud at consideration stage for consideration-stage service_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Why AI agent evaluation is so important",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Why AI agent evaluation is so important'. Products: agentforce. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-set-up-merchandising-for-your-storefront",
+          "name": "Set Up Merchandising for Your Storefront",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/set-up-merchandising-for-your-storefront",
+          "duration_minutes": 1010,
+          "score": 0.45,
+          "match_rationale": "Trail targets einstein_ai at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Relax, your agent is hard at work",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Relax, your agent is hard at work'. Products: agentforce, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Get a first look at how businesses are using AI agents",
+        "body": "Explore how agents are already helping companies across sales, service, internal operations and more.",
+        "button_text": "Read the free report",
+        "button_url": "http://salesforce.com/agentforce/agentic-enterprise-index",
+        "position_after_section": 6
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2357,
+  "misaligned_count": 5
+}

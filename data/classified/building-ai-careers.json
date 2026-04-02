@@ -1,0 +1,175 @@
+{
+  "url": "https://www.salesforce.com/blog/building-ai-careers/?bc=DB",
+  "slug": "building-ai-careers",
+  "title": "Trailblazers Around the World Are Building AI Careers with Salesforce",
+  "author": "Florian Michel",
+  "published_date": "2025-09-29T17:25:47+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "thought_leadership",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Introduction'. Products: agentforce. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Reskilling for the Future: Building AI Careers through Salesforce Workforce Development",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "platform",
+          "industry_clouds"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "data_analytics",
+          "collaboration",
+          "thought_leadership",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Reskilling for the Future: Building AI Careers through Salesforce Workforce Development'. Products: sales_cloud, marketing_cloud, platform, industry_clouds. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.95,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Ready to Build Your AI Career?",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "thought_leadership",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Ready to Build Your AI Career?'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Join a Workforce Development Program",
+        "body": "Take the next step in your learning journey with a program to help you unlock your first role in the Salesforce ecosystem.",
+        "button_text": "Explore Programs",
+        "button_url": "https://trailhead.salesforce.com/en/trailblazerconnect/directory/",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2833,
+  "misaligned_count": 2
+}

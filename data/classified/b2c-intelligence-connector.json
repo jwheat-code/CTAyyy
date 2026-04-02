@@ -41,7 +41,7 @@
         },
         {
           "type": "cta",
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
           "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage marketing_leader reader."
         },
@@ -169,14 +169,14 @@
         "position_after_section": 3
       },
       "existing_cta_score": {
-        "relevance_score": 0.65,
-        "funnel_alignment": "adjacent",
+        "relevance_score": 0.5,
+        "funnel_alignment": "mismatch",
         "persona_match": "match",
-        "product_alignment": "partial",
+        "product_alignment": "match",
         "issues": [
-          "Product alignment is partial — a more targeted CTA may perform better"
+          "Funnel mismatch: CTA is decision-stage but section is awareness-stage"
         ],
-        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+        "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
@@ -190,7 +190,7 @@
         },
         {
           "type": "cta",
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
           "score": 0.85,
           "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
         },
@@ -208,6 +208,6 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.4125,
+  "overall_health_score": 0.375,
   "misaligned_count": 2
 }

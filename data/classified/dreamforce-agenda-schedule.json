@@ -1,0 +1,166 @@
+{
+  "url": "https://www.salesforce.com/blog/dreamforce-agenda-schedule/?bc=DB",
+  "slug": "dreamforce-agenda-schedule",
+  "title": "Build Your 2025 Dreamforce Agenda",
+  "author": "Shanta Speller",
+  "published_date": "2025-09-24T18:32:57+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "thought_leadership",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Introduction'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Here’s how to start building your agenda",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Here’s how to start building your agenda'. Products: agentforce. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-set-up-merchandising-for-your-storefront",
+          "name": "Set Up Merchandising for Your Storefront",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/set-up-merchandising-for-your-storefront",
+          "duration_minutes": 1010,
+          "score": 0.45,
+          "match_rationale": "Trail targets einstein_ai at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Get started today",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'Get started today'. Products: general. Funnel: decision."
+      },
+      "existing_cta": {
+        "heading": "Plan your Dreamforce experience today",
+        "body": "With more than 1,500 sessions over three days, maximize your time by creating a schedule that suits your needs.",
+        "button_text": "Build your agenda",
+        "button_url": "https://reg.salesforce.com/flow/plus/df25/agendabuilder/page/agendabuilder",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets decision-stage readers; section is decision-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.85,
+          "match_rationale": "Trail targets general at decision stage for decision-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-configure-revenue-cloud",
+          "name": "Configure Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
+          "duration_minutes": 1005,
+          "score": 0.45,
+          "match_rationale": "Trail targets agentforce at decision stage for decision-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.2833,
+  "misaligned_count": 2
+}

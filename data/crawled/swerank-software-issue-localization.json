@@ -1,0 +1,62 @@
+{
+  "url": "https://www.salesforce.com/blog/swerank-software-issue-localization/?bc=DB",
+  "slug": "swerank-software-issue-localization",
+  "title": "SweRank: How AI is Revolutionizing Software Issue Localization",
+  "author": "Denise Pérez, Revanth Gangi Reddy",
+  "published_date": "2025-06-20T12:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Behind every seamless customer experience is a complex, ever-changing codebase. When issues arise in that codebase, developers face a deceptively hard task: locating the exact part of the code that needs fixing. This process, called issue localization, can be time-consuming, manual, and error-prone—even with AI assistance. We know that faster, smarter development ultimately means faster innovation. That’s why our AI Research team builtSweRank—a powerful, efficient code ranking framework that helps automatically pinpoint the source of software issues with state-of-the-art accuracy.",
+      "word_count": 80,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "SweRank",
+          "href": "https://gangiswag.github.io/SweRank/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Understanding SweRank",
+      "text": "Software issue localization involves locating the exact parts of code—be it files, classes, or functions—that need modification to resolve a reported issue. Current approaches primarily rely on agent-based methods driven by large language models (LLMs) that can be resource-intensive and time-consuming. SweRank offers a more efficient and cost-effective solution by employing a two-step “retrieve-and-rerank” framework that comprises the following: SweRankEmbed: An embedding-based retriever that quickly narrows down potential code segments related to the issue.SweRankLLM: A lightweight LLM-based reranker that refines these results to identify the most relevant code snippets. To train this system, the team developedSweLoc, a large-scale dataset curated from public python repositories on GitHub. This dataset pairs real-world issue descriptions with corresponding code modifications, providing a rich resource for training. SweRank achieves state-of-the-art performance on two major issue localization benchmarks: SWE-Bench-Lite and LocBench. It outperforms earlier retrieval and reranking systems as well as newer agent-based methods that rely on closed-source LLMs like Claude-3.5. It’s not only more accurate—it’s also considerably moremore cost-efficient. Unlike agent-based approaches that require multiple iterations , SweRank performs only one pass of retrieval and reranking,making it quick and affordable to run.",
+      "word_count": 187,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "Implications for CRM and AI Agents",
+      "text": "While SweRank is tailored for software development and not productized, its underlying principles can have significant implications for CRM systems: Enhanced Automation: By efficiently identifying relevant code changes, SweRank can accelerate the development of CRM features, leading to faster deployment of customer-facing tools.Cost Efficiency: SweRank’s approach reduces reliance on large, expensive LLMs, making it a cost-effective solution that can be integrated into CRM systems without significant overhead.",
+      "word_count": 67,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "Looking Ahead",
+      "text": "The success of SweRank underscores the potential of combining ranking-based methods with LLM code agents to build better automatic bug fixing. While SweRank currently is primarily built for python, we will be releasing soon a more general version that works across a variety of programming languages. Research like SweRank helps us explore what’s possible—and shapes our thinking on how future AI tools could improve developer workflows and, ultimately, the customer experience.",
+      "word_count": 71,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "Explore More",
+      "text": "For more details on SweRank and its underlying research, visit theSweRank project page.Salesforce AI Website: salesforceairesearch.comFollow us on X: @SFResearch, @Salesforce",
+      "word_count": 21,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "SweRank project page",
+          "href": "https://gangiswag.github.io/SweRank/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Behind every seamless customer experience is a complex, ever-changing codebase. When issues arise in that codebase, developers face a deceptively hard task: locating the exact part of the code that needs fixing. This process, called issue localization, can be time-consuming, manual, and error-prone—even with AI assistance. We know that faster, smarter development ultimately means faster innovation. That’s why our AI Research team built <a href=\"https://gangiswag.github.io/SweRank/\"><strong>SweRank</strong></a>—a powerful, efficient code ranking framework that helps automatically pinpoint the source of software issues with state-of-the-art accuracy.</p>\n<h2 class=\"wp-block-heading\" id=\"h-understanding-swerank\"><strong>Understanding SweRank</strong></h2>\n<p>Software issue localization involves locating the exact parts of code—be it files, classes, or functions—that need modification to resolve a reported issue. Current approaches primarily rely on agent-based methods driven by large language models (LLMs) that can be resource-intensive and time-consuming.</p>\n<p>SweRank offers a more efficient and cost-effective solution by employing a two-step “retrieve-and-rerank” framework that comprises the following:</p>\n<ol class=\"wp-block-list\">\n<li><strong>SweRankEmbed</strong>: An embedding-based retriever that quickly narrows down potential code segments related to the issue.</li>\n<li><strong>SweRankLLM</strong>: A lightweight LLM-based reranker that refines these results to identify the most relevant code snippets.</li>\n</ol>\n<p>To train this system, the team developed <strong>SweLoc</strong>, a large-scale dataset curated from public python repositories on GitHub. This dataset pairs real-world issue descriptions with corresponding code modifications, providing a rich resource for training.</p>\n<p>SweRank achieves state-of-the-art performance on two major issue localization benchmarks: SWE-Bench-Lite and LocBench. It outperforms earlier retrieval and reranking systems as well as newer agent-based methods that rely on closed-source LLMs like Claude-3.5. It’s not only more accurate—it’s also considerably moremore cost-efficient. Unlike agent-based approaches that require multiple iterations , SweRank performs only one pass of retrieval and reranking,making it quick and affordable to run.</p>\n<figure class=\"wp-block-image wp-lightbox-container\" data-wp-context='{\"imageId\":\"69ceb403c9fec\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69ceb403c9fec\"><img alt=\"\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" src=\"https://lh7-rt.googleusercontent.com/docsz/AD_4nXeaG4KTXkyqRNrQKcL5iNN3qWSGcM78EB55DjqGCDsf950oelwScHJpLoPoG2nJG6B7lJTz6zmhzO8r6hwdxFpkJ1ktDBKdCeew8J4NI4speWuhGZW3NU2gMiB8B_184Qs3O6bbfA?key=9ZYSdYfqiMMmmnPeTWvA4A\"/><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button><figcaption class=\"wp-element-caption\">Our SweRank models achieve superior localization accuracy at a significantly lower cost compared to contemporary agent-based methods.</figcaption></figure>\n<p></p>\n<figure class=\"wp-block-image wp-lightbox-container\" data-wp-context='{\"imageId\":\"69ceb403ca33b\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69ceb403ca33b\"><img alt=\"\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" src=\"https://lh7-rt.googleusercontent.com/docsz/AD_4nXeWJhuW2wXyWpb-oFQBTUZtgTuNNUIGEI32ZAKoNHgEx2asdUTz2q0rRB2ygtLzrVfMlg_ooFoqLZM6DWOIqZvPDnAswqA1CJc5hWp9mh3wbm4wBkuz1_N9w0PEihDsey0dZr6Zjw?key=9ZYSdYfqiMMmmnPeTWvA4A\"/><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button><figcaption class=\"wp-element-caption\">Despite being primarily trained with bug reports in SweLoc, the SweRank models demonstrate impressive generalizability across other categories in LocBench.</figcaption></figure>\n<h2 class=\"wp-block-heading\" id=\"h-implications-for-crm-and-ai-agents\"><strong>Implications for CRM and AI Agents</strong></h2>\n<p>While SweRank is tailored for software development and not productized, its underlying principles can have significant implications for CRM systems:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Enhanced Automation</strong>: By efficiently identifying relevant code changes, SweRank can accelerate the development of CRM features, leading to faster deployment of customer-facing tools.<br/></li>\n<li><strong>Cost Efficiency</strong>: SweRank’s approach reduces reliance on large, expensive LLMs, making it a cost-effective solution that can be integrated into CRM systems without significant overhead.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-looking-ahead\"><strong>Looking Ahead</strong></h2>\n<p>The success of SweRank underscores the potential of combining ranking-based methods with LLM code agents to build better automatic bug fixing. While SweRank currently is primarily built for python, we will be releasing soon a more general version that works across a variety of programming languages. Research like SweRank helps us explore what’s possible—and shapes our thinking on how future AI tools could improve developer workflows and, ultimately, the customer experience.</p>\n<h2 class=\"wp-block-heading\" id=\"h-explore-more\"><strong>Explore More</strong></h2>\n<ul class=\"wp-block-list\">\n<li>For more details on SweRank and its underlying research, visit the<a href=\"https://gangiswag.github.io/SweRank/\"> SweRank project page</a>.</li>\n<li>Salesforce AI Website: salesforceairesearch.com</li>\n<li>Follow us on X: @SFResearch, @Salesforce</li>\n</ul>\n<p></p>\n</div>"
+}

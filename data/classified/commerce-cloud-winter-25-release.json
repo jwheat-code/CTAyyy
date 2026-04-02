@@ -1,0 +1,273 @@
+{
+  "url": "https://www.salesforce.com/blog/commerce-cloud-winter-25-release/?bc=DB",
+  "slug": "commerce-cloud-winter-25-release",
+  "title": "Winter ‘25 Release: Customers can shop store-level inventory, online.",
+  "author": "Melissa Spadafora",
+  "published_date": "2025-09-29T19:04:52+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "it_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "security",
+          "ecommerce"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: commerce_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-industries-order-management",
+          "name": "Get Started with Industries Order Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-industries-order-management",
+          "duration_minutes": 70,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at decision stage for decision-stage it_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.5,
+          "match_rationale": "Trail targets general at decision stage for decision-stage it_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage it_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Merge online and in-store experiences with Shop the Store",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "ecommerce"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Merge online and in-store experiences with Shop the Store'. Products: commerce_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-industries-order-management",
+          "name": "Get Started with Industries Order Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-industries-order-management",
+          "duration_minutes": 70,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.5,
+          "match_rationale": "Trail targets general at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Save more time with merchandising updates",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "ecommerce"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Save more time with merchandising updates'. Products: marketing_cloud, commerce_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-search-engine-awareness-for-your-salesforce-b2c-commerce-storefront",
+          "name": "Optimize Search Engine Awareness for Your Salesforce B2C Commerce Storefront",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-search-engine-awareness-for-your-salesforce-b2c-commerce-storefront",
+          "duration_minutes": 225,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-agentforce-commerce-sell-everywhere-anytime",
+          "name": "Agentforce Commerce: Sell Everywhere, Anytime",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/agentforce-commerce-sell-everywhere-anytime",
+          "duration_minutes": 695,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Get more peace of mind with trust and security enhancements",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "ecommerce",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Get more peace of mind with trust and security enhancements'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Leverage new innovations to navigate a changing market",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "ecommerce"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Leverage new innovations to navigate a changing market'. Products: commerce_cloud. Funnel: decision."
+      },
+      "existing_cta": {
+        "heading": "See how Commerce Cloud can increase revenue",
+        "body": "Talk to an expert about how the world’s most complete commerce platform can improve your business.",
+        "button_text": "Get in touch with us",
+        "button_url": "https://www.salesforce.com/form/contact/contactme-commerce/",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets decision-stage readers; section is decision-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-industries-order-management",
+          "name": "Get Started with Industries Order Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-industries-order-management",
+          "duration_minutes": 70,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.5,
+          "match_rationale": "Trail targets general at decision stage for decision-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.17,
+  "misaligned_count": 4
+}

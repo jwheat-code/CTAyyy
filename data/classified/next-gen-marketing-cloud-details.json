@@ -1,0 +1,307 @@
+{
+  "url": "https://www.salesforce.com/blog/next-gen-marketing-cloud-details/?bc=DB",
+  "slug": "next-gen-marketing-cloud-details",
+  "title": "Next-Gen Marketing Cloud: What You Need to Know About Product Details, Availability and Pricing",
+  "author": "Bobby Jania",
+  "published_date": "2025-09-10T16:17:38+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: agentforce, sales_cloud, marketing_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-configure-revenue-cloud",
+          "name": "Configure Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
+          "duration_minutes": 1005,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.5,
+          "match_rationale": "Trail targets general at decision stage for decision-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "How can I learn more about the next-gen Marketing Cloud?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "service_cloud",
+          "marketing_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "productivity",
+          "ecommerce",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How can I learn more about the next-gen Marketing Cloud?'. Products: agentforce, service_cloud, marketing_cloud, commerce_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Are you coming to Dreamforce?",
+        "body": "Join thousands of Trailblazers in San Francisco from October 14-16 to learn more about how you can get ahead with agentic AI.",
+        "button_text": "Register now",
+        "button_url": "https://www.salesforce.com/dreamforce/",
+        "position_after_section": 1
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-meet-agentforce-contact-center",
+          "name": "Meet Agentforce Contact Center",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
+          "duration_minutes": 65,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-service-cloud-achieve-operational-excellence-",
+          "score": 0.85,
+          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
+          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
+          "duration_minutes": 100,
+          "score": 0.85,
+          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "How can I get started with next-gen Marketing Cloud?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "marketing_automation"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How can I get started with next-gen Marketing Cloud?'. Products: marketing_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.5,
+          "match_rationale": "Trail targets general at decision stage for decision-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.5,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for decision-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "As an existing Marketing Cloud customer, how do I access these next-gen capabilities?",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "marketing_cloud",
+          "data_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'As an existing Marketing Cloud customer, how do I access these next-gen capabilities?'. Products: agentforce, marketing_cloud, data_cloud. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "See Account Engagement in action",
+        "body": "Learn how to access Marketing Cloud Growth and Advanced Edition features like SMS and Agentforce Campaign Creation alongside your current Account Engagement instance",
+        "button_text": "Watch the demo",
+        "button_url": "https://www.salesforce.com/form/marketing/mcae-mc-next/",
+        "position_after_section": 3
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "form-data-clean-rooms-demo",
+          "score": 0.85,
+          "match_rationale": "CTA targets data_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Next-gen Marketing Cloud: Looking ahead",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'Next-gen Marketing Cloud: Looking ahead'. Products: agentforce, marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "Make your customer interactions a two-way conversation",
+        "body": "Learn how Marketing Cloud brings autonomous AI agents, actionable data, and full-funnel workflows together for truly connected engagement.",
+        "button_text": "Get the details",
+        "button_url": "https://www.salesforce.com/marketing/",
+        "position_after_section": 4
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.85,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-use-einstein-features-in-marketing-cloud",
+          "name": "Use Einstein Features in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/use-einstein-features-in-marketing-cloud",
+          "duration_minutes": 90,
+          "score": 0.55,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.47,
+  "misaligned_count": 2
+}

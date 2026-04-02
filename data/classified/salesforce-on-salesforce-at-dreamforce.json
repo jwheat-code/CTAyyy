@@ -41,7 +41,7 @@
         },
         {
           "type": "cta",
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
           "score": 0.85,
           "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
@@ -80,7 +80,7 @@
       "recommendations": [
         {
           "type": "cta",
-          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+          "cta_id": "agentforce-agentic-enterprise-index",
           "score": 0.85,
           "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage developer reader."
         },
@@ -136,12 +136,12 @@
         "position_after_section": 2
       },
       "existing_cta_score": {
-        "relevance_score": 1.0,
-        "funnel_alignment": "match",
+        "relevance_score": 0.8,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "match",
         "issues": [],
-        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
@@ -155,7 +155,7 @@
         },
         {
           "type": "cta",
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
           "score": 0.85,
           "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
@@ -170,6 +170,6 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.3333,
+  "overall_health_score": 0.2667,
   "misaligned_count": 2
 }

@@ -29,7 +29,7 @@
       "recommendations": [
         {
           "type": "cta",
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
           "score": 0.85,
           "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
         },
@@ -76,7 +76,7 @@
       "recommendations": [
         {
           "type": "cta",
-          "cta_id": "content-learn-modules-salesforce-essentials-small-",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
           "score": 0.85,
           "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
         },
@@ -126,19 +126,17 @@
         "position_after_section": 2
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
+        "relevance_score": 1.0,
         "funnel_alignment": "match",
         "persona_match": "match",
-        "product_alignment": "partial",
-        "issues": [
-          "Product alignment is partial — a more targeted CTA may perform better"
-        ],
-        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: partial."
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
       },
       "recommendations": [
         {
           "type": "cta",
-          "cta_id": "small-business-marketing",
+          "cta_id": "wtl",
           "score": 0.85,
           "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage business_leader reader."
         },
@@ -162,6 +160,6 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.2833,
+  "overall_health_score": 0.3333,
   "misaligned_count": 2
 }

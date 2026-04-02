@@ -1,0 +1,73 @@
+{
+  "url": "https://www.salesforce.com/blog/how-to/build-brand-trust/?bc=DB",
+  "slug": "build-brand-trust",
+  "title": "How To Build Brand Trust, and Why It’s the Ultimate Currency",
+  "author": "Ari Bendersky",
+  "published_date": "2021-11-12T21:00:00+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "marketing_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud, marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "A version of this article appears in Vantage Point, a Salesforce magazine.",
+        "body": "",
+        "button_text": "Subscribe for free",
+        "button_url": "https://invite.salesforce.com/vantagepoint?d=cta-body-promo-1",
+        "position_after_section": 0
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
+          "name": "Create Engaging Content to Achieve Your Marketing Goals",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
+          "duration_minutes": 729,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 1.0,
+  "misaligned_count": 0
+}

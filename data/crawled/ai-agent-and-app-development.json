@@ -1,0 +1,170 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-agent-and-app-development/?bc=DB",
+  "slug": "ai-agent-and-app-development",
+  "title": "The ‘IT’ Factor: What AI Can’t Do – and Why IT Teams Still Lead the Build",
+  "author": "Alli Jaeggi",
+  "published_date": "2025-08-07T21:11:13+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Scroll through tech Twitter, and it’s easy to feel like we’re on the brink of a no-code, all-AI future — one where IT teams are outpaced by autocomplete and replaced by chatbots that “just build the app.” But talk to the people actually managing enterprise app development — andthe conversation shifts. It’s not, “Will AI replace coders?” It’s, “How do we safely scale AI to speed up delivery, reduce risk, and maintain control?” AI is here — that part’s settled. What’s still up for discussion is how IT teams adopt it in ways that make theAI agentandapp developmentprocess better, not blurrier (in other words, without compromising trust, performance, or governance).",
+      "word_count": 110,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "the conversation shifts",
+          "href": "https://venturebeat.com/ai/this-ai-already-writes-20-of-salesforces-code-heres-why-developers-arent-worried/"
+        },
+        {
+          "text": "AI agent",
+          "href": "https://www.salesforce.com/platform/ai-agent-development/"
+        },
+        {
+          "text": "app development",
+          "href": "https://www.salesforce.com/platform/enterprise-app-development/ai-app-development/"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "AI isn’t replacing developers, it’s replacing friction",
+      "text": "High-performing IT teams aren’t worried about being replaced by AI. Nearlya third of developers already use AIfor code generation assistance, with most others planning to adopt this practice. Those who’ve made the shift say they’re finishing projects faster. And with 80% of developers sayinglow-code and no-code toolshelp scale AI, it’s clear these platforms are picking up serious momentum. Today, that looks like: Automating boilerplate logic that clogs development timelinesGenerating test cases that speed up validationSuggesting components and flows to accelerate prototypingSurfacing edge cases earlier — before they reach production In other words:AI isn’t replacing your expertise. It’s doing the work that took up a lot of manual time in the first place — while leaving the strategic thinking, architecture decisions, and quality controls (a challenging part of software) to your team. The role of developers is evolving, too.31% of developers use AIto assist with code generation, and another 68% expect to: they’re becoming the orchestrators, guiding and fine-tuning AI-driven solutions instead of building everything from the ground up.",
+      "word_count": 168,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "a third of developers already use AI",
+          "href": "https://www.salesforce.com/form/platform/4th-state-of-it-ai-and-app-development/"
+        },
+        {
+          "text": "low-code and no-code tools",
+          "href": "https://www.salesforce.com/platform/low-code-development-platform/what-is-low-code/low-code-vs-no-code/"
+        },
+        {
+          "text": "AI isn’t replacing your expertise",
+          "href": "https://www.salesforce.com/blog/start-working-with-ai/"
+        },
+        {
+          "text": "31% of developers use AI",
+          "href": "https://www.salesforce.com/form/platform/4th-state-of-it-ai-and-app-development/"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Where AI fits in agent and app development (and where it doesn’t)",
+      "text": "The most meaningful shift today isn’t whether to use AI in agent and app development — it’s how to use it responsibly across the build process. That’s why IT leaders are asking: Control: How do teams stay accountable while letting AI accelerate routine tasks?Security: How do we govern AI-generated logic as rigorously as hand-written code?Scalability: How do we move from quick wins to enterprise-grade, maintainable apps? TheSalesforce Platformis built with these questions in mind. Tools likeFlowandAgent Builderoffer low-code and pro-code flexibility, while maintaining tight control over logic, data, and access. AI automation is layered in with trust and transparency, so teams can use features likeEinstein AIfor code generation or next-best-action recommendations — without sacrificing governance.",
+      "word_count": 115,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Salesforce Platform",
+          "href": "https://www.salesforce.com/platform/enterprise-app-development/"
+        },
+        {
+          "text": "Flow",
+          "href": "https://developer.salesforce.com/developer-centers/flow"
+        },
+        {
+          "text": "Agent Builder",
+          "href": "https://www.salesforce.com/agentforce/agent-builder/"
+        },
+        {
+          "text": "Einstein AI",
+          "href": "https://www.salesforce.com/artificial-intelligence/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "AI is here to support the stack – not own it",
+      "text": "From autocomplete to agent architect, Salesforce recently introducednew toolsthat reflect this shift in mindset: AI that works with you,in the tools you already use. Here’s a a few highlights: New Agentforce Command Centerdelivers full observability – think real-time dashboards tracking agent performance, health, error rates, and latency.Model Contenxt Protocol (MCP)support enables seamless, plug-and-play interoperability with more than 30 partner tools (AWS, Google Cloud, PayPal, Notion, Stripe, and more) without custom coding.Theupgraded Atlas architectureboosts enterprise readiness – offering lower latency, greater accuracy and resiliency, and support for natively hosted LLMs like Anthropic’s.100+ new pre‑built industry actionsspeed real‑world deployment and drive immediate value — customers are seeing reduced case handling time, autonomous resolution of chat sessions, and improved retention. And these aren’t just shiny upgrades — they address a core enterprise challenge: teams often lack visibility into what agents are doing and can’t adapt them quickly enough. OurSummer ’25 releaseraises the bar for developers, delivering deeper prioritization and clearer paths to action. Inline autocomplete in Apex and LWCspeeds up coding by suggesting context-aware snippets (while keeping developers firmly in control).Dev Assistantprovides tailored, in-context guidance to help you solve problems without generic or distracting suggestions.Test case generationautomatically creates robust validation tests, helping teams maintain compliance and confidence with less manual effort.Scale Testintegration withDevOps Testingsupports load testing and provides deep insights via live test views, making sure your AI-powered apps perform reliably under pressure.DX Inspectorenhancementssimplify deployment by allowing commits directly to GitHub and better tracking of metadata changes, speeding up your CI/CD workflows.Data Mask & Seedaccelerates deployment by combining Salesforce Data Mask with Own’s Accelerate capabilities to seed realistic, secure test data in anySandbox. These tools don’t replace your role as the builder. They help you write it faster with more confidence and fewer tabs open. And for teams building intelligent agents withAgentforce, the same applies: you control the logic, define the rules, and validate outputs (all within yourgovernance model).",
+      "word_count": 316,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "new tools",
+          "href": "https://www.salesforce.com/news/press-releases/2025/06/23/agentforce-3-announcement/"
+        },
+        {
+          "text": "in the tools you already use",
+          "href": "https://help.salesforce.com/s/articleView?id=release-notes.rn_development.htm&release=256&type=5"
+        },
+        {
+          "text": "Summer ’25 release",
+          "href": "https://www.salesforce.com/products/innovation/summer-25-release/"
+        },
+        {
+          "text": "Scale Test",
+          "href": "https://help.salesforce.com/s/articleView?id=sf.scale_test_overview.htm&language=en_US&type=5"
+        },
+        {
+          "text": "DevOps Testing",
+          "href": "https://www.salesforce.com/platform/devops-tools/"
+        },
+        {
+          "text": "DX Inspector",
+          "href": "https://help.salesforce.com/s/articleView?id=release-notes.rn_customization_appdev.htm&language=en_US&release=254&type=5"
+        },
+        {
+          "text": "Data Mask & Seed",
+          "href": "https://www.salesforce.com/platform/data-masking/"
+        },
+        {
+          "text": "Sandbox",
+          "href": "https://www.salesforce.com/platform/sandboxes-environments/"
+        },
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "governance model",
+          "href": "https://www.salesforce.com/data/governance/guide/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Why the human role matters more than ever",
+      "text": "Let’s be clear: AI can generate code, but it doesn’t understand context. It doesn’t know why your org structure looks the way it does. It doesn’t grasp why this Flow has to align with a compliance rule. It won’t see the unintended consequences of a seemingly simple logic change. Your team does. That’s why IT leaders are still curious with caution. They’re defining system architectures, validating quality gates, and ensuring AI integrations serve long-term goals — not short-term speed. In a world where AI helps build faster, developers are the ones who ensure what gets built is safe, scalable, and aligned to the business. AI is powerful, but only when guided by people who understand what’s at stake.",
+      "word_count": 118,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "heading": "AI app development is a team sport",
+      "text": "In short, AI is changing how we build (not who leads the build). It’s accelerating repetitive tasks, boosting productivity, and helping us ship faster. The shifts focus to higher-impact work: refining business logic, designing reusable components, improving performance, and leading with security from day one. It’s important to bring AI into the development experience in a way that complements your expertise, respects enterprise controls, and helps your team scale innovation securely.",
+      "word_count": 71,
+      "has_existing_cta": true,
+      "inline_links": []
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "AI has entered the chat. IT’s your move.",
+      "body": "Dive into the full findings of the Salesforce 4th State of IT: AI + App Dev report and see how top IT teams are turning pressure into progress.",
+      "button_text": "Download the report",
+      "button_url": "https://www.salesforce.com/form/platform/4th-state-of-it-ai-and-app-development/",
+      "position_after_section": 1
+    },
+    {
+      "heading": "Add more IT value, not more to the dev queue.",
+      "body": "Cut the code clutter and explore the latest POV on agent productivity + low-code success with The Low-Code Playbook.",
+      "button_text": "Build without bottlenecks",
+      "button_url": "https://www.salesforce.com/form/platform/low-code-playbook/",
+      "position_after_section": 3
+    },
+    {
+      "heading": "The 5 stages of ALM (without the headaches).",
+      "body": "Because building AI agents and apps shouldn’t require aspirin. Learn how to scale smart on the Salesforce Platform.",
+      "button_text": "Get the guide",
+      "button_url": "https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management",
+      "position_after_section": 5
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Scroll through tech Twitter, and it’s easy to feel like we’re on the brink of a no-code, all-AI future — one where IT teams are outpaced by autocomplete and replaced by chatbots that “just build the app.” But talk to the people actually managing enterprise app development — and <a href=\"https://venturebeat.com/ai/this-ai-already-writes-20-of-salesforces-code-heres-why-developers-arent-worried/\" rel=\"noopener\" target=\"_blank\">the conversation shifts</a>.</p>\n<p>It’s not, “Will AI replace coders?” It’s, “How do we safely scale AI to speed up delivery, reduce risk, and maintain control?”</p>\n<p>AI is here — that part’s settled. What’s still up for discussion is how IT teams adopt it in ways that make the <a href=\"https://www.salesforce.com/platform/ai-agent-development/\" rel=\"noopener\" target=\"_blank\">AI agent</a> and <a href=\"https://www.salesforce.com/platform/enterprise-app-development/ai-app-development/\" rel=\"noopener\" target=\"_blank\">app development</a> process better, not blurrier (in other words, without compromising trust, performance, or governance).</p>\n<h2 class=\"wp-block-heading\" id=\"h-ai-isn-t-replacing-developers-it-s-replacing-friction\">AI isn’t replacing developers, it’s replacing friction</h2>\n<p>High-performing IT teams aren’t worried about being replaced by AI. Nearly <a href=\"https://www.salesforce.com/form/platform/4th-state-of-it-ai-and-app-development/\" rel=\"noopener\" target=\"_blank\">a third of developers already use AI</a> for code generation assistance, with most others planning to adopt this practice. Those who’ve made the shift say they’re finishing projects faster. And with 80% of developers saying <a href=\"https://www.salesforce.com/platform/low-code-development-platform/what-is-low-code/low-code-vs-no-code/\" rel=\"noopener\" target=\"_blank\">low-code and no-code tools</a> help scale AI, it’s clear these platforms are picking up serious momentum. Today, that looks like:</p>\n<ul class=\"wp-block-list\">\n<li>Automating boilerplate logic that clogs development timelines</li>\n<li>Generating test cases that speed up validation</li>\n<li>Suggesting components and flows to accelerate prototyping</li>\n<li>Surfacing edge cases earlier — before they reach production</li>\n</ul>\n<p>In other words: <a href=\"https://www.salesforce.com/blog/start-working-with-ai/\" rel=\"noopener\" target=\"_blank\">AI isn’t replacing your expertise</a>. It’s doing the work that took up a lot of manual time in the first place — while leaving the strategic thinking, architecture decisions, and quality controls (a challenging part of software) to your team. </p>\n<p>The role of developers is evolving, too. <a href=\"https://www.salesforce.com/form/platform/4th-state-of-it-ai-and-app-development/\" rel=\"noopener\" target=\"_blank\">31% of developers use AI</a> to assist with code generation, and another 68% expect to: they’re becoming the orchestrators, guiding and fine-tuning AI-driven solutions instead of building everything from the ground up.</p>\n<div class=\"layout-four wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>AI has entered the chat. IT’s your move.</strong></h2>\n<p class=\"wp-block-offer__description\">Dive into the full findings of the Salesforce 4th State of IT: AI + App Dev report and see how top IT teams are turning pressure into progress.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/4th-state-of-it-ai-and-app-development/\" target=\"_blank\">Download the report</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-four.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-four.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-four.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-where-ai-fits-in-agent-and-app-development-and-where-it-doesn-t\">Where AI fits in agent and app development (and where it doesn’t)</h2>\n<p>The most meaningful shift today isn’t whether to use AI in agent and app development — it’s how to use it responsibly across the build process. That’s why IT leaders are asking:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Control</strong>: How do teams stay accountable while letting AI accelerate routine tasks?</li>\n<li><strong>Security</strong>: How do we govern AI-generated logic as rigorously as hand-written code?</li>\n<li><strong>Scalability</strong>: How do we move from quick wins to enterprise-grade, maintainable apps?</li>\n</ul>\n<p>The <a href=\"https://www.salesforce.com/platform/enterprise-app-development/\" rel=\"noopener\" target=\"_blank\">Salesforce Platform</a> is built with these questions in mind. Tools like <a href=\"https://developer.salesforce.com/developer-centers/flow\" rel=\"noopener\" target=\"_blank\">Flow</a> and <a href=\"https://www.salesforce.com/agentforce/agent-builder/\" rel=\"noopener\" target=\"_blank\">Agent Builder</a> offer low-code and pro-code flexibility, while maintaining tight control over logic, data, and access. AI automation is layered in with trust and transparency, so teams can use features like <a href=\"https://www.salesforce.com/artificial-intelligence/\" rel=\"noopener\" target=\"_blank\">Einstein AI</a> for code generation or next-best-action recommendations — without sacrificing governance. </p>\n<h2 class=\"wp-block-heading\" id=\"h-ai-is-here-to-support-the-stack-not-own-it\">AI is here to support the stack – not own it</h2>\n<p>From autocomplete to agent architect, Salesforce recently introduced <a href=\"https://www.salesforce.com/news/press-releases/2025/06/23/agentforce-3-announcement/\" rel=\"noopener\" target=\"_blank\">new tools</a> that reflect this shift in mindset: AI that works with you, <a href=\"https://help.salesforce.com/s/articleView?id=release-notes.rn_development.htm&amp;release=256&amp;type=5\" rel=\"noopener\" target=\"_blank\">in the tools you already use</a>. Here’s a a few highlights:</p>\n<ul class=\"wp-block-list\">\n<li><strong>New Agentforce Command Center </strong>delivers full observability – think real-time dashboards tracking agent performance, health, error rates, and latency. </li>\n<li><strong>Model Contenxt Protocol (MCP) </strong>support enables seamless, plug-and-play interoperability with more than 30 partner tools (AWS, Google Cloud, PayPal, Notion, Stripe, and more) without custom coding. </li>\n<li>The <strong>upgraded Atlas architecture</strong> boosts enterprise readiness – offering lower latency, greater accuracy and resiliency, and support for natively hosted LLMs like Anthropic’s. </li>\n<li><strong>100+ new pre‑built industry actions</strong> speed real‑world deployment and drive immediate value — customers are seeing reduced case handling time, autonomous resolution of chat sessions, and improved retention.</li>\n</ul>\n<p>And these aren’t just shiny upgrades — they address a core enterprise challenge: teams often lack visibility into what agents are doing and can’t adapt them quickly enough. Our <a href=\"https://www.salesforce.com/products/innovation/summer-25-release/\" rel=\"noopener\" target=\"_blank\">Summer ’25 release</a> raises the bar for developers, delivering deeper prioritization and clearer paths to action.</p>\n<ul class=\"wp-block-list\">\n<li><strong>Inline autocomplete in Apex and LWC</strong> speeds up coding by suggesting context-aware snippets (while keeping developers firmly in control).</li>\n<li><strong>Dev Assistant</strong> provides tailored, in-context guidance to help you solve problems without generic or distracting suggestions.</li>\n<li><strong>Test case generation </strong>automatically creates robust validation tests, helping teams maintain compliance and confidence with less manual effort.</li>\n<li><a href=\"https://help.salesforce.com/s/articleView?id=sf.scale_test_overview.htm&amp;language=en_US&amp;type=5\" rel=\"noopener\" target=\"_blank\"><strong>Scale Test</strong></a><strong> integration with </strong><a href=\"https://www.salesforce.com/platform/devops-tools/\" rel=\"noopener\" target=\"_blank\"><strong>DevOps Testing</strong></a> supports load testing and provides deep insights via live test views, making sure your AI-powered apps perform reliably under pressure.</li>\n<li><a href=\"https://help.salesforce.com/s/articleView?id=release-notes.rn_customization_appdev.htm&amp;language=en_US&amp;release=254&amp;type=5\" rel=\"noopener\" target=\"_blank\"><strong>DX Inspector</strong></a><strong> enhancements</strong> simplify deployment by allowing commits directly to GitHub and better tracking of metadata changes, speeding up your CI/CD workflows.</li>\n<li><a href=\"https://www.salesforce.com/platform/data-masking/\" rel=\"noopener\" target=\"_blank\"><strong>Data Mask &amp; Seed</strong></a> accelerates deployment by combining Salesforce Data Mask with Own’s Accelerate capabilities to seed realistic, secure test data in any <a href=\"https://www.salesforce.com/platform/sandboxes-environments/\" rel=\"noopener\" target=\"_blank\">Sandbox</a>.</li>\n</ul>\n<p>These tools don’t replace your role as the builder. They help you write it faster with more confidence and fewer tabs open. And for teams building intelligent agents with <a href=\"https://www.salesforce.com/agentforce/\" rel=\"noopener\" target=\"_blank\">Agentforce</a>, the same applies: you control the logic, define the rules, and validate outputs (all within your <a href=\"https://www.salesforce.com/data/governance/guide/\" rel=\"noopener\" target=\"_blank\">governance model</a>).</p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>Add more IT value, not more to the dev queue</strong>.</h2>\n<p class=\"wp-block-offer__description\">Cut the code clutter and explore the latest POV on agent productivity + low-code success with The Low-Code Playbook.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/low-code-playbook/\" target=\"_blank\">Build without bottlenecks</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-why-the-human-role-matters-more-than-ever-nbsp\">Why the human role matters more than ever </h2>\n<p>Let’s be clear: AI can generate code, but it doesn’t understand context. It doesn’t know why your org structure looks the way it does. It doesn’t grasp why this Flow has to align with a compliance rule. It won’t see the unintended consequences of a seemingly simple logic change. Your team does.</p>\n<p>That’s why IT leaders are still curious with caution. They’re defining system architectures, validating quality gates, and ensuring AI integrations serve long-term goals — not short-term speed. In a world where AI helps build faster, developers are the ones who ensure what gets built is safe, scalable, and aligned to the business. AI is powerful, but only when guided by people who understand what’s at stake.</p>\n<h2 class=\"wp-block-heading\" id=\"h-ai-app-development-is-a-team-sport\">AI app development is a team sport</h2>\n<p>In short, AI is changing how we build (not who leads the build). It’s accelerating repetitive tasks, boosting productivity, and helping us ship faster. The shifts focus to higher-impact work: refining business logic, designing reusable components, improving performance, and leading with security from day one. </p>\n<p>It’s important to bring AI into the development experience in a way that complements your expertise, respects enterprise controls, and helps your team scale innovation securely.</p>\n<div class=\"layout-seven wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>The 5 stages of ALM (without the headaches</strong>).</h2>\n<p class=\"wp-block-offer__description\">Because building AI agents and apps shouldn’t require aspirin. Learn how to scale smart on the Salesforce Platform.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/form/platform/five-stages-of-agent-and-application-lifecycle-management\" target=\"_blank\">Get the guide</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-seven.png\"/>\n<!-- Small Accent Illustration -->\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-seven.png\"/>\n</div>\n</div>"
+}

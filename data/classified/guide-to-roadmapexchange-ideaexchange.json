@@ -1,0 +1,326 @@
+{
+  "url": "https://www.salesforce.com/blog/guide-to-roadmapexchange-ideaexchange/?bc=DB",
+  "slug": "guide-to-roadmapexchange-ideaexchange",
+  "title": "A Guide to RoadmapExchange: Your Feedback, Next Steps",
+  "author": "Shelly Erceg",
+  "published_date": "2025-09-30T22:37:48+00:00",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "thought_leadership",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What’s RoadmapExchange?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What’s RoadmapExchange?'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "How to get started",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "collaboration",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How to get started'. Products: sales_cloud, platform. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "form-signup-freetrial-salesforce-starter",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
+          "name": "Get Started with Omnistudio on the Salesforce Platform",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
+          "duration_minutes": 190,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at decision stage for decision-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-configure-revenue-cloud",
+          "name": "Configure Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
+          "duration_minutes": 1005,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at decision stage for decision-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "Your input, put to work",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Your input, put to work'. Products: platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-develop-for-marketing-cloud",
+          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
+          "duration_minutes": 180,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Make your contribution count",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "platform"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Make your contribution count'. Products: platform. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
+          "name": "Get Started with Omnistudio on the Salesforce Platform",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
+          "duration_minutes": 190,
+          "score": 0.65,
+          "match_rationale": "Trail targets platform at decision stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-agentforce-commerce-sell-everywhere-anytime",
+          "name": "Agentforce Commerce: Sell Everywhere, Anytime",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/agentforce-commerce-sell-everywhere-anytime",
+          "duration_minutes": 695,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.55,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Deepening your engagement",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "customer_service",
+          "collaboration",
+          "thought_leadership",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Deepening your engagement'. Products: sales_cloud, platform. Funnel: consideration."
+      },
+      "existing_cta": {
+        "heading": "Check out RoadmapExchange",
+        "body": "",
+        "button_text": "Take me there!",
+        "button_url": "https://ideas.salesforce.com/s/roadmaps",
+        "position_after_section": 5
+      },
+      "existing_cta_score": {
+        "relevance_score": 1.0,
+        "funnel_alignment": "match",
+        "persona_match": "match",
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
+      },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
+          "name": "Get Started with Omnistudio on the Salesforce Platform",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
+          "duration_minutes": 190,
+          "score": 0.65,
+          "match_rationale": "Trail targets platform at decision stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    }
+  ],
+  "overall_health_score": 0.1667,
+  "misaligned_count": 5
+}
