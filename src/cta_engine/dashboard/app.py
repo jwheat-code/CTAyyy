@@ -453,7 +453,12 @@ with tab3:
                     "Funnel": cls["funnel_stage"],
                     "Confidence": cls["confidence"],
                     "Current CTA": sa.get("existing_cta", {}).get("heading", "") if sa.get("existing_cta") else "",
-                    "Recommended CTA": cta_library.get(top["cta_id"], {}).get("headline", top["cta_id"]) if top else "None",
+                    "Recommended CTA": (
+                        trail_library.get(top.get("trail_id",""), {}).get("name", top.get("trail_id",""))
+                        if top and top.get("type") == "trail"
+                        else cta_library.get(top.get("cta_id",""), {}).get("headline", top.get("cta_id","")) if top else "None"
+                    ),
+                    "Rec Type": top.get("type", "cta") if top else "",
                     "Score": top["score"] if top else 0,
                     "Rationale": top["match_rationale"] if top else sa.get("no_cta_reason", ""),
                 })
