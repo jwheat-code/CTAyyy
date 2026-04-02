@@ -1,0 +1,194 @@
+{
+  "url": "https://www.salesforce.com/blog/3-lessons-from-using-data-cloud/?bc=DB",
+  "slug": "3-lessons-from-using-data-cloud",
+  "title": "3 Things We Learned About Using Data 360 To Unify Our Data",
+  "author": "Justin Lafferty",
+  "published_date": "2025-07-07T13:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Many enterprises today struggle withdata silosand unreliable insights, which lead to a cloudy view of the customer journey. When data lives in disparate places, it makes it hard to act on — especially in the age ofartificial intelligence(AI). A few years ago, that described Salesforce, too. As a large global organization with diverse customers and numerous acquisitions under our belt, we had a major problem with data stored across many different systems. When some data was missing from reports because it was stored separately, we weren’t really able to see the full customer journey. We were acting on ineffective data, leading to inconsistent customer experiences. So we decided to not just talk the talk when it came to unifying customer data — we had to walk the walk. Four years ago, we started usingData 360internally asCustomer Zeroto deliver aunified viewof our customer’s journey. Webuilt a unified data foundationwith Data 360, using that to power deep integration with apps (Customer 360) and agents (Agentforce). Here’s what we learned when we turned to Data 360 to break down our data silos, as well as a look at high-impact use cases. Today, Data 360 is central to our success, as it’s deeply integrated into theSalesforce platform. It unifies our customer and business data to make it actionable across our apps, in our flows and withAgentforceso we can deliver more personalized experiences at scale. This has become even more critical with the increased use of AI agents, which need clean, organized data to be effective. The results have been amazing. By using Data 360 to unify our data, we gained a complete view of our leads. This reduced the amount of custom lead-routing code by 90%, lessening the burden on our sales staff to prioritize leads manually. We found that only 40% of our leads were truly sales-ready, which allowed our sales reps to focus on the highest-potential prospects. This all led to a 62% increase in average contract value from those leads. Data 360 and Agentforce are projected to reduce support cases by 98,000 in the first half of 2025 compared to the same period last year. This enables our human service representatives to focus on more complex and empathetic interactions. We’ve identified $23 million in potential revenue from customer license renewals, and we can now automatically notify our sales teams about these opportunities using AI-powered Slack notifications. Implementing Data 360 and building the Truth Profile1. Treat data like a product2. Start small, and focus on high-impact use cases3. Prioritize data quality over quantityOur internal Data 360 use casesHow Data 360 helps us in the age of digital labor",
+      "word_count": 436,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "data silos",
+          "href": "https://www.salesforce.com/blog/what-are-data-silos/"
+        },
+        {
+          "text": "artificial intelligence",
+          "href": "https://www.salesforce.com/artificial-intelligence/what-is-ai/"
+        },
+        {
+          "text": "Data 360",
+          "href": "https://www.salesforce.com/data/"
+        },
+        {
+          "text": "Customer Zero",
+          "href": "https://www.salesforce.com/agentforce/use-cases/customer-zero/"
+        },
+        {
+          "text": "unified view",
+          "href": "https://www.salesforce.com/blog/unified-customer-profile/"
+        },
+        {
+          "text": "built a unified data foundation",
+          "href": "https://www.salesforce.com/blog/salesforce-on-salesforce-unlocking-transformative-growth-and-roi-with-data-cloud-and-agentforce/"
+        },
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "Salesforce platform",
+          "href": "https://www.salesforce.com/platform/"
+        },
+        {
+          "text": "Agentforce",
+          "href": "https://www.salesforce.com/agentforce/"
+        },
+        {
+          "text": "Implementing Data 360 and building the Truth Profile",
+          "href": "#implementing"
+        },
+        {
+          "text": "1. Treat data like a product",
+          "href": "#treat"
+        },
+        {
+          "text": "2. Start small, and focus on high-impact use cases",
+          "href": "#start"
+        },
+        {
+          "text": "3. Prioritize data quality over quantity",
+          "href": "#prioritize"
+        },
+        {
+          "text": "Our internal Data 360 use cases",
+          "href": "#our"
+        },
+        {
+          "text": "How Data 360 helps us in the age of digital labor",
+          "href": "#how"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Implementing Data 360 and building the Truth Profile",
+      "text": "Gaining a unified view of our customer journey was simpler when we started in 1999. But over the years, as we accumulated more and more data, from more and more places, getting that single source of truth became much harder. Our fragmented data wasn’t just a back-end problem. It led to unreliable insights, disconnected customer experiences, and slower internal processes for our teams. Something as fundamental as ensuring account data matched up across systems to send the correct invoices globally became complex. We faced the classic problem — the left hand wasn’t talking to the right hand because critical customer data wasn’t connected. We realized we had to address this data challenge head-on. In response, we built Data 360 so we could easily unify and activate all our data, and designed it to complement the systems we already had in place. It bridges data silos and harmonizes information from data lakes, warehouses, business applications, and supports all formats structured (like from a spreadsheet or CSV file) andunstructured(like from an email or PDF). With Data 360, we set out to do exactly what we advise our customers: build a single source of truth for understanding their entire journey with Salesforce. We call this the Truth Profile – a 360-degree view, which shows a complete story of our customer’s relationship with us. The Truth Profile includes sales team interactions, email opens, website activity, ad engagements, and crucially, how people use our products – generating trillions of data events and hundreds of petabytes daily, residing in ourdata lakeslike Amazon and Snowflake. We’re not moving that massive volume of data; we’re connecting to it, extracting the relevant pieces, and building unified views. This allows us to do things like make more intelligent predictions. We can now better predict opportunity closure, product needs, event attendance, support needs, and digital engagement. We can even anticipate our customers’ likely engagement patterns across our digital channels. Our Data 360 implementation unified a massive amount of previously siloed data – hundreds of millions of customer profiles from all our systems – into a single, comprehensive view. Now we’re able to act on that data more efficiently than ever before, and we were AI agent-ready before AI agents were common. We’ve been on our data journey for a while now and we’ve learned a lot. So I want to share three major lessons we learned from using Data 360 internally that helped us get that unified view. (Back to top)",
+      "word_count": 410,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "unstructured",
+          "href": "https://www.salesforce.com/data/what-is-unstructured-data/"
+        },
+        {
+          "text": "data lakes",
+          "href": "https://www.salesforce.com/data/what-is-a-data-lake/"
+        },
+        {
+          "text": "Back to top",
+          "href": "#TOC"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "1. Treat data like a product",
+      "text": "The first key insight is to treat your data and the processes around it like a product. We have dedicated data product managers who focus on identifying where data can create the most value, aligning that understanding with business needs, and prioritizing accordingly. For example, one of the earliest and most impactful things we did was combine website data with our customer data. This simple connection powered new alerts in Slack — the collaboration platform where our sales reps already spend most of their time — giving us invaluable real-time insights into what customers were looking at before our teams even spoke to them, and allowing for smarter follow-up. (Back to top)",
+      "word_count": 112,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Back to top",
+          "href": "#TOC"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "2. Start small, and focus on high-impact use cases",
+      "text": "Second, instead of trying to make sweeping changes overnight with Data 360, we started on specific use cases with the highest value. License renewals were the first things we used Data 360 to help with. Previously, customers had to contact a salesperson to add more licenses. That’s not a great customer experience. We started using backend system data to automate this process, and make it more seamless for our customers. The result? An automated notification sent to customers nearing their limit, allowing them to purchase more with a simple click. This small, targeted automation generated over $20 million in revenue last year alone. These early wins built momentum and helped us scale. (Back to top)",
+      "word_count": 115,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Back to top",
+          "href": "#TOC"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "3. Prioritize data quality over quantity",
+      "text": "Compiling as much data as you can sounds like a great idea at first — but if all that data lives in separate systems, it’s not going to do you much good. That’s what we call being data rich, but insights poor. Focus on quality over quantity when it comes to data. We learned that the most significant value often lies within a focused subset. Instead of trying to ingest hundreds of records and fields, we concentrated on the top 10 to 20 most valuable data points: which pages are they visiting? Where are they coming from? Who are they? What products have they viewed in demos? This focused approach delivers the most impactful insights quickly. You don’t need to include everything upfront; prioritize the most valuable data to build momentum and drive early success. (Back to top)",
+      "word_count": 138,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Back to top",
+          "href": "#TOC"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Our internal Data 360 use cases",
+      "text": "Data 360 unlocks the full value of your enterprise data and powers your Customer 360 apps and Agentforce, while also amplifying your existing data lake or warehouse investments to activate real-time insights and intelligent action. It is designed to complement your existing data lakes and warehouses by unifying siloed customer and business data to make it actionable across our apps, in our flows and with Agentforce so you can deliver more personalized experiences at scale. Here are a few ways we’ve used Data 360 to get closer to our customers: Salesforce.com website agent: We’ve added Agentforce to our homepage, allowing visitors to get quick answers to questions about our company and products. Since all of that data is unified in Data 360, it’s easy for the website agent to provide a relevant, personalized response. We’ve seen a 36% year-over-year increase in influenced lead volume, and a 40% reduction in time spent on lead qualification.Paid media activation: With the data unified in Data 360, we can activate it for paid media with partners like LinkedIn and Google. When we use Data 360 to target this data, we’re seeing twice the clickthrough rate on our ads and a 5X return on every dollar we spend. Not only that, we can match 75% of our first-party data with LinkedIn customers, helping us find more leads like our most valuable customers.Intelligent email marketing at scale: We send almost 1 billion emails per year throughMarketing Cloud, in over 200 countries around the world, selling 55 products in 12 different languages. With Data 360, we give our marketers hundreds of targeting attributes. Whether we’re connecting with a CIO in Eastern Europe, or someone in Las Vegas curious about Agentforce, Data 360 helps us power these journeys with messaging tailored to the specific customer. You can dig deeper into more Data 360 use cases in this video: (Back to top)",
+      "word_count": 313,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Marketing Cloud",
+          "href": "https://www.salesforce.com/marketing/"
+        },
+        {
+          "text": "Back to top",
+          "href": "#TOC"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "How Data 360 helps us in the age of digital labor",
+      "text": "AI agentsneed clean, unified data in order to provide effective insights. You might’ve heard the term “garbage in, garbage out” when it comes to AI. The outputs AI agents produce are only as good as the data they draw from. Having customer data in one place has only helped us as AI agents become more prominent. This unified knowledge powers Agentforce — the agentic layer of our deeply unified platform. We’ve even been able to implement Agentforce for customer-facing activities. On our Salesforce Help site, an AI agent has already powered over1 million service conversations, with a resolution rate of 85%. Our AI agents need to understand everything from our product portfolio to the meaning of customer segments and even the roles within our company. Data 360 is now unifying this internal knowledge alongside customer data, for Agentforce. Much like how Data 360 allowed us to unify our data and gain a complete view of the customer journey, it’s now helping us take on the challenge of becoming an AI leader — powering better, more impactful business outcomes. (Back to top)",
+      "word_count": 181,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "AI agents",
+          "href": "https://www.salesforce.com/blog/set-up-agent/"
+        },
+        {
+          "text": "1 million service conversations",
+          "href": "https://www.salesforce.com/blog/support-requests-agentforce/"
+        },
+        {
+          "text": "Back to top",
+          "href": "#TOC"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Become a Datablazer today",
+      "body": "Accelerate your career growth by joining the Datablazer Community, where you can gain the skills you need, connect with fellow innovators, and be the first to know about Salesforce product news.",
+      "button_text": "Take a tour",
+      "button_url": "https://trailhead.salesforce.com/trailblazer-community/groups/0F94V000000DYhhSAG?tab=discussion&sort=LAST_MODIFIED_DATE_DESC",
+      "position_after_section": 6
+    },
+    {
+      "heading": "Are you ready for Dreamforce?",
+      "body": "At Dreamforce, you’ll discover how AI agents, real-time data, and CRM create a digital labor force that scales with you. Join us October 14-16 in San Francisco, or watch on Salesforce+.",
+      "button_text": "Count me in",
+      "button_url": "https://www.salesforce.com/dreamforce/",
+      "position_after_section": 6
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Many enterprises today struggle with <a href=\"https://www.salesforce.com/blog/what-are-data-silos/\">data silos</a> and unreliable insights, which lead to a cloudy view of the customer journey. When data lives in disparate places, it makes it hard to act on — especially in the age of <a href=\"https://www.salesforce.com/artificial-intelligence/what-is-ai/\">artificial intelligence</a> (AI). A few years ago, that described Salesforce, too. </p>\n<p>As a large global organization with diverse customers and numerous acquisitions under our belt, we had a major problem with data stored across many different systems. When some data was missing from reports because it was stored separately, we weren’t really able to see the full customer journey. We were acting on ineffective data, leading to inconsistent customer experiences.</p>\n<p>So we decided to not just talk the talk when it came to unifying customer data — we had to walk the walk. </p>\n<p>Four years ago, we started using <a href=\"https://www.salesforce.com/data/\">Data 360</a> internally as <a href=\"https://www.salesforce.com/agentforce/use-cases/customer-zero/\">Customer Zero</a> to deliver a <a href=\"https://www.salesforce.com/blog/unified-customer-profile/\">unified view</a> of our customer’s journey. We <a href=\"https://www.salesforce.com/blog/salesforce-on-salesforce-unlocking-transformative-growth-and-roi-with-data-cloud-and-agentforce/\">built a unified data foundation</a> with Data 360, using that to power deep integration with apps (Customer 360) and agents (<a href=\"https://www.salesforce.com/agentforce/\">Agentforce</a>). Here’s what we learned when we turned to Data 360 to break down our data silos, as well as a look at high-impact use cases.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Become a Datablazer today</h2>\n<p class=\"wp-block-offer__description\">Accelerate your career growth by joining the Datablazer Community, where you can gain the skills you need, connect with fellow innovators, and be the first to know about Salesforce product news.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://trailhead.salesforce.com/trailblazer-community/groups/0F94V000000DYhhSAG?tab=discussion&amp;sort=LAST_MODIFIED_DATE_DESC\" target=\"_blank\">Take a tour</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<p>Today, Data 360 is central to our success, as it’s deeply integrated into the <a href=\"https://www.salesforce.com/platform/\">Salesforce platform</a>. It unifies our customer and business data to make it actionable across our apps, in our flows and with <a href=\"https://www.salesforce.com/agentforce/\">Agentforce</a> so we can deliver more personalized experiences at scale. This has become even more critical with the increased use of AI agents, which need clean, organized data to be effective.</p>\n<p>The results have been amazing. By using Data 360 to unify our data, we gained a complete view of our leads. This reduced the amount of custom lead-routing code by 90%, lessening the burden on our sales staff to prioritize leads manually. We found that only 40% of our leads were truly sales-ready, which allowed our sales reps to focus on the highest-potential prospects. This all led to a 62% increase in average contract value from those leads.</p>\n<p>Data 360 and Agentforce are projected to reduce support cases by 98,000 in the first half of 2025 compared to the same period last year. This enables our human service representatives to focus on more complex and empathetic interactions. We’ve identified $23 million in potential revenue from customer license renewals, and we can now automatically notify our sales teams about these opportunities using AI-powered Slack notifications.</p>\n<h3 class=\"wp-block-heading\" id=\"TOC\">What we’ll cover</h3>\n<ul class=\"wp-block-list\">\n<li><a href=\"#implementing\">Implementing Data 360 and building the Truth Profile</a></li>\n<li><a href=\"#treat\">1. Treat data like a product</a></li>\n<li><a href=\"#start\">2. Start small, and focus on high-impact use cases</a></li>\n<li><a href=\"#prioritize\">3. Prioritize data quality over quantity</a></li>\n<li><a href=\"#our\">Our internal Data 360 use cases</a></li>\n<li><a href=\"#how\">How Data 360 helps us in the age of digital labor</a></li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"implementing\">Implementing Data 360 and building the Truth Profile</h2>\n<p>Gaining a unified view of our customer journey was simpler when we started in 1999. But over the years, as we accumulated more and more data, from more and more places, getting that single source of truth became much harder. </p>\n<p>Our fragmented data wasn’t just a back-end problem. It led to unreliable insights, disconnected customer experiences, and slower internal processes for our teams. Something as fundamental as ensuring account data matched up across systems to send the correct invoices globally became complex. </p>\n<p>We faced the classic problem — the left hand wasn’t talking to the right hand because critical customer data wasn’t connected. We realized we had to address this data challenge head-on.</p>\n<p>In response, we built Data 360 so we could easily unify and activate all our data, and designed it to complement the systems we already had in place. It bridges data silos and harmonizes information from data lakes, warehouses, business applications, and supports all formats structured (like from a spreadsheet or CSV file) and <a href=\"https://www.salesforce.com/data/what-is-unstructured-data/\">unstructured</a> (like from an email or PDF). </p>\n<p>With Data 360, we set out to do exactly what we advise our customers: build a single source of truth for understanding their entire journey with Salesforce. We call this the Truth Profile – a 360-degree view, which shows a complete story of our customer’s relationship with us.</p>\n<p>The Truth Profile includes sales team interactions, email opens, website activity, ad engagements, and crucially, how people use our products – generating trillions of data events and hundreds of petabytes daily, residing in our <a href=\"https://www.salesforce.com/data/what-is-a-data-lake/\">data lakes</a> like Amazon and Snowflake. We’re not moving that massive volume of data; we’re connecting to it, extracting the relevant pieces, and building unified views.</p>\n<p>This allows us to do things like make more intelligent predictions. We can now better predict opportunity closure, product needs, event attendance, support needs, and digital engagement. We can even anticipate our customers’ likely engagement patterns across our digital channels.</p>\n<p>Our Data 360 implementation unified a massive amount of previously siloed data – hundreds of millions of customer profiles from all our systems – into a single, comprehensive view. Now we’re able to act on that data more efficiently than ever before, and we were AI agent-ready before AI agents were common.</p>\n<p>We’ve been on our data journey for a while now and we’ve learned a lot. So I want to share three major lessons we learned from using Data 360 internally that helped us get that unified view.</p>\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" frameborder=\"0\" height=\"281\" referrerpolicy=\"strict-origin-when-cross-origin\" src=\"https://www.youtube.com/embed/v0OqbIrC0TQ?feature=oembed\" title=\"Salesforce on Salesforce Demo: How Data Cloud and Agentforce Improve Lead Quality\" width=\"500\"></iframe>\n</div></figure>\n<p>(<a href=\"#TOC\">Back to top</a>)</p>\n<h2 class=\"wp-block-heading\" id=\"treat\">1. Treat data like a product</h2>\n<p>The first key insight is to treat your data and the processes around it like a product. We have dedicated data product managers who focus on identifying where data can create the most value, aligning that understanding with business needs, and prioritizing accordingly. </p>\n<p>For example, one of the earliest and most impactful things we did was combine website data with our customer data. This simple connection powered new alerts in Slack — the collaboration platform where our sales reps already spend most of their time — giving us invaluable real-time insights into what customers were looking at before our teams even spoke to them, and allowing for smarter follow-up.</p>\n<p>(<a href=\"#TOC\">Back to top</a>)</p>\n<h2 class=\"wp-block-heading\" id=\"start\">2. Start small, and focus on high-impact use cases</h2>\n<p>Second, instead of trying to make sweeping changes overnight with Data 360, we started on specific use cases with the highest value. </p>\n<p>License renewals were the first things we used Data 360 to help with. Previously, customers had to contact a salesperson to add more licenses. That’s not a great customer experience. We started using backend system data to automate this process, and make it more seamless for our customers. </p>\n<p>The result? An automated notification sent to customers nearing their limit, allowing them to purchase more with a simple click. This small, targeted automation generated over $20 million in revenue last year alone. These early wins built momentum and helped us scale.</p>\n<p>(<a href=\"#TOC\">Back to top</a>)</p>\n<h2 class=\"wp-block-heading\" id=\"prioritize\">3. Prioritize data quality over quantity</h2>\n<p>Compiling as much data as you can sounds like a great idea at first — but if all that data lives in separate systems, it’s not going to do you much good. That’s what we call being data rich, but insights poor.</p>\n<p>Focus on quality over quantity when it comes to data. We learned that the most significant value often lies within a focused subset. Instead of trying to ingest hundreds of records and fields, we concentrated on the top 10 to 20 most valuable data points: which pages are they visiting? Where are they coming from? Who are they? What products have they viewed in demos? </p>\n<p>This focused approach delivers the most impactful insights quickly. You don’t need to include everything upfront; prioritize the most valuable data to build momentum and drive early success.</p>\n<p>(<a href=\"#TOC\">Back to top</a>)</p>\n<h2 class=\"wp-block-heading\" id=\"our\">Our internal Data 360 use cases</h2>\n<p>Data 360 unlocks the full value of your enterprise data and powers your Customer 360 apps and Agentforce, while also amplifying your existing data lake or warehouse investments to activate real-time insights and intelligent action. </p>\n<p>It is designed to complement your existing data lakes and warehouses by unifying siloed customer and business data to make it actionable across our apps, in our flows and with Agentforce so you can deliver more personalized experiences at scale. </p>\n<p>Here are a few ways we’ve used Data 360 to get closer to our customers:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Salesforce.com website agent</strong>: We’ve added Agentforce to our homepage, allowing visitors to get quick answers to questions about our company and products. Since all of that data is unified in Data 360, it’s easy for the website agent to provide a relevant, personalized response. We’ve seen a 36% year-over-year increase in influenced lead volume, and a 40% reduction in time spent on lead qualification.</li>\n<li><strong>Paid media activation</strong>: With the data unified in Data 360, we can activate it for paid media with partners like LinkedIn and Google. When we use Data 360 to target this data, we’re seeing twice the clickthrough rate on our ads and a 5X return on every dollar we spend. Not only that, we can match 75% of our first-party data with LinkedIn customers, helping us find more leads like our most valuable customers.</li>\n<li><strong>Intelligent email marketing at scale</strong>: We send almost 1 billion emails per year through <a href=\"https://www.salesforce.com/marketing/\">Marketing Cloud</a>, in over 200 countries around the world, selling 55 products in 12 different languages. With Data 360, we give our marketers hundreds of targeting attributes. Whether we’re connecting with a CIO in Eastern Europe, or someone in Las Vegas curious about Agentforce, Data 360 helps us power these journeys with messaging tailored to the specific customer.</li>\n</ul>\n<p>You can dig deeper into more Data 360 use cases in this video:</p>\n<!-- The script tag should live in the head of your page if at all possible -->\n<script async=\"\" src=\"https://play.vidyard.com/embed/v4.js\" type=\"text/javascript\"></script>\n<!-- Put this wherever you would like your player to appear -->\n<img class=\"vidyard-player-embed\" data-type=\"inline\" data-uuid=\"1twxEs3TZE661VjwofB6W9\" data-v=\"4\" decoding=\"async\" src=\"https://salesforce.vidyard.com/watch/1twxEs3TZE661VjwofB6W9\" style=\"width: 100%; margin: auto; display: block;\">\n<p>(<a href=\"#TOC\">Back to top</a>)</p>\n<h2 class=\"wp-block-heading\" id=\"how\">How Data 360 helps us in the age of digital labor</h2>\n<p><a href=\"https://www.salesforce.com/blog/set-up-agent/\">AI agents</a> need clean, unified data in order to provide effective insights. You might’ve heard the term “garbage in, garbage out” when it comes to AI. The outputs AI agents produce are only as good as the data they draw from.</p>\n<p>Having customer data in one place has only helped us as AI agents become more prominent. This unified knowledge powers Agentforce — the agentic layer of our deeply unified platform. We’ve even been able to implement Agentforce for customer-facing activities. On our Salesforce Help site, an AI agent has already powered over <a href=\"https://www.salesforce.com/blog/support-requests-agentforce/\">1 million service conversations</a>, with a resolution rate of 85%.</p>\n<p>Our AI agents need to understand everything from our product portfolio to the meaning of customer segments and even the roles within our company. Data 360 is now unifying this internal knowledge alongside customer data, for Agentforce.</p>\n<p>Much like how Data 360 allowed us to unify our data and gain a complete view of the customer journey, it’s now helping us take on the challenge of becoming an AI leader — powering better, more impactful business outcomes. </p>\n<p>(<a href=\"#TOC\">Back to top</a>)</p>\n<div class=\"layout-five wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Are you ready for Dreamforce?</h2>\n<p class=\"wp-block-offer__description\">At Dreamforce, you’ll discover how AI agents, real-time data, and CRM create a digital labor force that scales with you. Join us October 14-16 in San Francisco, or watch on Salesforce+.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/dreamforce/\" target=\"_self\">Count me in</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-five.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-five.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-five.png\"/>\n</div>\n</img></div>"
+}

@@ -39,7 +39,7 @@
           "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.45,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
@@ -138,7 +138,7 @@
           "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.85,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         },
@@ -184,7 +184,7 @@
           "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.45,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
@@ -225,7 +225,7 @@
           "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage marketing_leader reader."
         },
         {
-          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.85,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage marketing_leader reader."
         },
@@ -270,7 +270,7 @@
           "match_rationale": "Matches general product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.45,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         }
@@ -394,7 +394,7 @@
           "match_rationale": "Matches sales_cloud product focus at awareness stage for awareness-stage small_business_owner reader."
         },
         {
-          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.85,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         },
@@ -436,18 +436,18 @@
         "position_after_section": 9
       },
       "existing_cta_score": {
-        "relevance_score": 0.85,
-        "funnel_alignment": "match",
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
         "persona_match": "match",
         "product_alignment": "partial",
         "issues": [
           "Product alignment is partial — a more targeted CTA may perform better"
         ],
-        "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
       },
       "recommendations": [
         {
-          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.85,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage small_business_owner reader."
         },
@@ -509,6 +509,6 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.15,
+  "overall_health_score": 0.1318,
   "misaligned_count": 9
 }

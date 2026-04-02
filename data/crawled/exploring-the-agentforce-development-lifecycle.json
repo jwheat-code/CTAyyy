@@ -1,0 +1,54 @@
+{
+  "url": "https://www.salesforce.com/blog/exploring-the-agentforce-development-lifecycle/?bc=DB",
+  "slug": "exploring-the-agentforce-development-lifecycle",
+  "title": "Exploring the Agentforce Development Lifecycle",
+  "author": "Prithvi Krishnan Padmanabhan, Akshata Sawant, Jan Fernando",
+  "published_date": "2025-10-13T01:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Building agents that are trusted, scalable, and impactful requires a structured approach. That’s where theAgent Development Lifecyclecomes in. Similar to traditional app development, agent app building benefits from a repeatable process to guide you from idea to production. The Agent Development Lifecycle (ADLC) provides a structured, phased methodology for building agents with Agentforce. There are five phases of the Agent Development Lifecycle: ideation and design, development, testing and validation, deployment and release, and monitoring and tuning. Agentforce supports every phase of the Agentforce Development lifecycle with tools designed for quickly building and testing robust agents.",
+      "word_count": 95,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Agent Development Lifecycle",
+          "href": "https://architect.salesforce.com/fundamentals/agent-development-lifecycle"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "The Agent Development Lifecycle Applied to Agentforce",
+      "text": "Ideation and design:Define the agent’s purpose, persona, tools and core decision-making logic. Then, use these concepts to create a detailed blueprint of the agent, mapping out the agent architecture, user flows, technical specifications, and more within the Salesforce user experience.Development:Develop actions and define the knowledge base required for the agent’s capabilities to turn the defined purpose and capabilities into an agent. Use Agent Builder or Agentforce DX to develop Agentforce agents within this phase.Testing and validation:Validate the agent’s behavior by performing unit testing, simulating conversations and gathering feedback. Follow best practices to test agents comprehensively in a layered approach using Agentforce DX or Agentforce Python SDK.Deployment and release:Package and deploy Agentforce agents using standard procedures like Change Sets or Agentforce DX for a safe, controlled rollout. Then, activate the agents and use versioning to manage and maintain agents over time.Monitoring and tuning:Track performance and optimize performance to ensure the agent’s ongoing improvement. Use Agentforce analytics to monitor and analyze agent performance.",
+      "word_count": 161,
+      "has_existing_cta": true,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "Learn More Architecture Fundamentals on theArchitecture Center",
+      "text": "Explore the core principles Salesforce Architects need to know. From Data 360 architecture, to integration patterns, to an under-the-hood at the latest Salesforce Platform innovations,architecture fundamentalswill help you understand key topics and build trusted solutions.",
+      "word_count": 35,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "architecture fundamentals",
+          "href": "https://architect.salesforce.com/fundamentals"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Learn more about the Agentforce Development Lifecycle",
+      "body": "Dive deeper into each phase, how to build a sophisticated agent with Agentforce following the ADLC, and review a sample implementation of Agentforce.",
+      "button_text": "Learn more",
+      "button_url": "https://architect.salesforce.com/fundamentals/agent-development-lifecycle",
+      "position_after_section": 1
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>Building agents that are trusted, scalable, and impactful requires a structured approach. That’s where the <a href=\"https://architect.salesforce.com/fundamentals/agent-development-lifecycle\" rel=\"noopener\" target=\"_blank\">Agent Development Lifecycle</a> comes in. Similar to traditional app development, agent app building benefits from a repeatable process to guide you from idea to production. The Agent Development Lifecycle (ADLC) provides a structured, phased methodology for building agents with Agentforce.</p>\n<p>There are five phases of the Agent Development Lifecycle: ideation and design, development, testing and validation, deployment and release, and monitoring and tuning. Agentforce supports every phase of the Agentforce Development lifecycle with tools designed for quickly building and testing robust agents.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-agent-development-lifecycle-applied-to-agentforce\">The Agent Development Lifecycle Applied to Agentforce</h2>\n<ul class=\"wp-block-list\">\n<li><strong>Ideation and design: </strong>Define the agent’s purpose, persona, tools and core decision-making logic. Then, use these concepts to create a detailed blueprint of the agent, mapping out the agent architecture, user flows, technical specifications, and more within the Salesforce user experience.</li>\n<li><strong>Development: </strong>Develop actions and define the knowledge base required for the agent’s capabilities to turn the defined purpose and capabilities into an agent. Use Agent Builder or Agentforce DX to develop Agentforce agents within this phase. </li>\n<li><strong>Testing and validation: </strong>Validate the agent’s behavior by performing unit testing, simulating conversations and gathering feedback. Follow best practices to test agents comprehensively in a layered approach using Agentforce DX or Agentforce Python SDK.</li>\n<li><strong>Deployment and release:</strong> Package and deploy Agentforce agents using standard procedures like Change Sets or Agentforce DX for a safe, controlled rollout. Then, activate the agents and use versioning to manage and maintain agents over time. </li>\n<li><strong>Monitoring and tuning: </strong>Track performance and optimize performance to ensure the agent’s ongoing improvement. Use Agentforce analytics to monitor and analyze agent performance. </li>\n</ul>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Learn more about the Agentforce Development Lifecycle</h2>\n<p class=\"wp-block-offer__description\">Dive deeper into each phase, how to build a sophisticated agent with Agentforce following the ADLC, and review a sample implementation of Agentforce.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://architect.salesforce.com/fundamentals/agent-development-lifecycle\" target=\"_blank\">Learn more</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-learn-more-architecture-fundamentals-on-the-architecture-center\">Learn More Architecture Fundamentals on the <a href=\"https://architect.salesforce.com/\" rel=\"noopener\" target=\"_blank\">Architecture Center</a></h2>\n<p>Explore the core principles Salesforce Architects need to know. From Data 360 architecture, to integration patterns, to an under-the-hood at the latest Salesforce Platform innovations, <a href=\"https://architect.salesforce.com/fundamentals\">architecture fundamentals</a> will help you understand key topics and build trusted solutions.</p>\n<p></p>\n</div>"
+}

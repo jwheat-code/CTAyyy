@@ -1,0 +1,133 @@
+{
+  "url": "https://www.salesforce.com/blog/how-agentforce-supported-the-disability-help-desk-at-dreamforce/?bc=DB",
+  "slug": "how-agentforce-supported-the-disability-help-desk-at-dreamforce",
+  "title": "How Agentforce Supported the Disability Help Desk at Dreamforce",
+  "author": "Sadie Koeppel",
+  "published_date": "2025-10-24T19:26:29+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "What you’ll learn:",
+      "text": "The Disability Help Desk origin story: Building a central hub for accessibility at DreamforceThe challenge: How to deliver support to guests quicklyThe solution: Building a channel expert agent in SlackResults and lessons learnedThe future is accessible: Expanding agentic AI for everyone The energy of Dreamforce is unmatched, but ensuring that vibrant experience reacheseveryattendee requires relentless commitment and innovation. That’s the mission of theDreamforceDisability Help Desk.",
+      "word_count": 65,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "The Disability Help Desk origin story: Building a central hub for accessibility at Dreamforce",
+          "href": "#h-origin-story"
+        },
+        {
+          "text": "The challenge: How to deliver support to guests quickly",
+          "href": "#h-the-challenge-how-to-deliver-support-to-guests-quickly"
+        },
+        {
+          "text": "The solution: Building a channel expert agent in Slack",
+          "href": "#h-the-solution-building-a-channel-expert-agent-in-slack"
+        },
+        {
+          "text": "Results and lessons learned",
+          "href": "#h-results-and-lessons-learned"
+        },
+        {
+          "text": "The future is accessible: Expanding agentic AI for everyone",
+          "href": "#h-the-future-is-accessible-expanding-agentic-ai-for-everyone"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "The Disability Help Desk origin story: Building a central hub for accessibility at Dreamforce",
+      "text": "The Disability Help Desk was not an overnight creation. It grew from a simple, crucial recognition:accessibility is non-negotiable, andit’s good for business. Attendees with disabilities or medical needs demanded a central, reliable place to get support that was free from confusion or friction. This mission is powered by a critical truth:1.3 billion people in the world have a disability– that’s 1 in every 6 Dreamforce attendees – and nearly 70% of those are invisible. The Disability Help Desk, run by Salesforce’s Office of Accessibility (OoA) and Salesforce employees, was established in 2019 to address this need by: Providing a single point of contactfor accessibility questions, needs, or accommodation requests.Ensuring real-time problem-solving, from finding accessible seating to coordinating mobility support.Creating a sense of community for staff and attendees passionate about access. This year, the OoA challenged itself to go bigger. They weren’t just thinking about thecurrentevent — they were innovating the future of event accessibility. The solution: implementingAgentforce in Slackby creating aSlack Channel Expertto augment the help desk’s human staff.",
+      "word_count": 169,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "it’s good for business",
+          "href": "https://www.salesforce.com/blog/make-events-accessible"
+        },
+        {
+          "text": "1.3 billion people in the world have a disability",
+          "href": "https://www.who.int/news-room/fact-sheets/detail/disability-and-health"
+        },
+        {
+          "text": "Slack Channel Expert",
+          "href": "https://slack.com/blog/news/channel-expert"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "The challenge: How to deliver support to guests quickly",
+      "text": "Since 2019, the Disability Help Desk team has provided personalized, real-time support for hundreds of Dreamforce attendees. Each year, they create a Slack channel for internal communication and to escalate questions that staffers can’t answer to more senior accessibility leads at the event. The OOA Disability Help Desk provides essential, high-touch services, including: Onsite Accommodations:Offering sighted guides, motorized scooters, earplugs for sensory support, accessible seating, quiet zones, parent rooms, and in-person support for inquiries.Event Guidance:Providing detailed staff training and guest information on how to access the accommodations, shuttles, and services likeAira navigation.Resources:Distributing the essentialAccessible Guide to Dreamforce –an annual landing page with detailed descriptions of the event from start to finish. But even a reasonable volume of questions requiresaround-the-clock availability from the select few experts, and simple,repetitive inquiriescan tie up valuable human time – not only for our staff, but for the guests seeking answers. With historic response times stretching from 5 minutes to 6 hours, and each inquiry taking on average 10 messages back and forth before resolving, the OoA saw an opportunity to innovate. Their goal: to provide quick and efficient support, 24/7.",
+      "word_count": 185,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Aira navigation.",
+          "href": "https://aira.io/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "The solution: Building a channel expert agent in Slack",
+      "text": "The OoA team was inspired by their own success with aninternal support agent.They realized they could bring that same efficiency to Dreamforce, allowing their staff to focus on truly high-touch, complex care while still delivering exceptional service to everyone who had an inquiry. The OoA equipped their agent to handle inquiries through: Data Curation:The team gathered and rigorously organized and updated documentation, event information, and knowledge articles from past inquiries.Knowledge Base Structure:This information became a comprehensive, easily searchable knowledge base.Automated Escalation Process:If the Channel Expert was stumped or its response was not satisfactory, the agent would quickly tag our more experienced OoA members to provide the answer within the thread, keeping everything organized and efficient.Rigorous Testing:The team spent several weeks testing the agent to ensure the responses were detailed, as well as testing its ability to interpret the same question written in different ways.",
+      "word_count": 144,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "internal support agent.",
+          "href": "https://www.salesforce.com/blog/employee-service-agent/"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "heading": "Results and lessons learned",
+      "text": "The Disability Help Desk Channel Expert’s expectation was to answer 40% of inquiries received – and it surpassed that goal. The agent instantly took on repetitive questions like:“What time does the Accessible shuttle leave for Dreamfest?”or“Where is the quiet area in Moscone South?”answering 43% of inquiries immediately and successfully. This meant human staff weren’t stuck routing messages and waiting for responses; they were able to provide accurate information to guests and help them enjoy the experience as quickly as possible. Human escalations that the agent could not address – only 15% of all inquiries – were reserved for complex, real-time coordination requests, such as:“Can we have a sighted guide help a guest to the Agentforce Keynote?”or“I just gave away the last set of earplugs – where are we storing the extras?” The key takeaway:Success is iterative, and requires human oversight and judgement. The agent wasn’t perfect at first, often giving vague or overly generic responses, largely due to a limited and loosely structured knowledge base. It also had difficulty handling different ways users phrased their questions. To address this, the team adopted an iterative refinement approach: continuously improving the agent through testing and updates to the knowledge base. Ally Green, Salesforce Senior Manager of Accessibility Innovation & Workforce Programs, shared of the process: “We strengthened the knowledge base for better accuracy and clarity, andused Google Gemini to generate and test a wide range of curated questions, helping us fine-tune responses and close knowledge gaps.”",
+      "word_count": 244,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "heading": "The future is accessible: Expanding agentic AI for everyone",
+      "text": "The success ofAgentforceat the Dreamforce Disability Help Desk is a clear indicator thatAgentic AIisn’t just about efficiency — it’s a tool that helps empower a more customized experience for all. Chief Accessibility Officer Catherine Nichols shares: The Office of Accessibility is already expanding the Agentforce integrations across the enterprise: Workforce Navigators:Implementing an agent to guide job seekers on mentorship programs and certification vouchers.BaseCamp Agent:Training aNeurodiversity Job Coachingagentto assist with employee cases while keeping sensitive information secure.Future Events:Scaling theEvent Staff Slack agentbeyond Dreamforce to ensure seamless accessibility support at all major Salesforce events. By using Agentforce, the Office of Accessibility didn’t just meet a goal — they created the foundation for a future where event support is instant, personalized, and accessible for all. That’s the power of humans with agents working together! Follow the Office of AccessibilityExplore Other Agentforce Use CasesLearn about Agentforce in Slack",
+      "word_count": 144,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Workforce Navigators",
+          "href": "https://workforcenavigators.salesforce.com/"
+        },
+        {
+          "text": "BaseCamp Agent",
+          "href": "https://slack.com/blog/productivity/slack-basecamp-agent"
+        },
+        {
+          "text": "Follow the Office of Accessibility",
+          "href": "https://www.linkedin.com/company/salesforce-accessibility/"
+        },
+        {
+          "text": "Explore Other Agentforce Use Cases",
+          "href": "https://www.salesforce.com/agentforce/use-cases/"
+        },
+        {
+          "text": "Learn about Agentforce in Slack",
+          "href": "https://slack.com/blog/news/turn-agents-into-teammates-with-slack?d=cta-body-promo-8%20attached&_ga=2.242398722.1235309582.1760974795-285809252.1759241666&_gl=1*1obvshs*_gcl_au*MTcyMDg2MTk1MS4xNzYwOTg0NDgx*_ga*Mjg1ODA5MjUyLjE3NTkyNDE2NjY.*_ga_3VHBZ2DJWP*czE3NjA5ODIxNDIkbzE0JGcxJHQxNzYwOTg1ODQwJGoxNSRsMCRoMA.."
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Creating better products — for all.",
+      "body": "We are firm in our commitment to product inclusion. Discover our product accessibility efforts and inclusive design standards.",
+      "button_text": "Learn More",
+      "button_url": "https://www.salesforce.com/company/product-accessibility-inclusive-design/",
+      "position_after_section": 1
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<h2 class=\"wp-block-heading\" id=\"h-what-you-ll-learn\"><strong>What you’ll learn:</strong></h2>\n<ul class=\"wp-block-list\">\n<li><a href=\"#h-origin-story\">The Disability Help Desk origin story: Building a central hub for accessibility at Dreamforce</a></li>\n<li><a href=\"#h-the-challenge-how-to-deliver-support-to-guests-quickly\">The challenge: How to deliver support to guests quickly</a></li>\n<li><a href=\"#h-the-solution-building-a-channel-expert-agent-in-slack\">The solution: Building a channel expert agent in Slack</a></li>\n<li><a href=\"#h-results-and-lessons-learned\">Results and lessons learned</a></li>\n<li><a href=\"#h-the-future-is-accessible-expanding-agentic-ai-for-everyone\">The future is accessible: Expanding agentic AI for everyone</a></li>\n</ul>\n<p>The energy of Dreamforce is unmatched, but ensuring that vibrant experience reaches <em>every</em> attendee requires relentless commitment and innovation. That’s the mission of the <strong>Dreamforce</strong> <strong>Disability Help Desk</strong>.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-disability-help-desk-origin-story-building-a-central-hub-for-accessibility-at-dreamforce\"><strong>The Disability Help Desk origin story: Building a central hub for accessibility at Dreamforce</strong></h2>\n<p>The Disability Help Desk was not an overnight creation. It grew from a simple, crucial recognition: <strong>accessibility is non-negotiable, and </strong><a href=\"https://www.salesforce.com/blog/make-events-accessible\"><strong>it’s good for business</strong></a>. Attendees with disabilities or medical needs demanded a central, reliable place to get support that was free from confusion or friction.</p>\n<p>This mission is powered by a critical truth: <a href=\"https://www.who.int/news-room/fact-sheets/detail/disability-and-health\"><strong>1.3 billion people in the world have a disability</strong></a><strong> – that’s 1 in every 6 Dreamforce attendees – and nearly 70% of those are invisible.</strong></p>\n<p>The Disability Help Desk, run by Salesforce’s Office of Accessibility (OoA) and Salesforce employees, was established in 2019 to address this need by:</p>\n<ul class=\"wp-block-list\">\n<li>Providing a single point of contact<strong> </strong>for accessibility questions, needs, or accommodation requests.</li>\n<li>Ensuring real-time problem-solving, from finding accessible seating to coordinating mobility support.</li>\n<li>Creating a sense of community for staff and attendees passionate about access.</li>\n</ul>\n<p>This year, the OoA challenged itself to go bigger. They weren’t just thinking about the <em>current</em> event — they were innovating the future of event accessibility. </p>\n<p>The solution: implementing <strong>Agentforce in Slack</strong> by creating a <a href=\"https://slack.com/blog/news/channel-expert\">Slack Channel Expert</a> to augment the help desk’s human staff. </p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Creating better products — for all.</h2>\n<p class=\"wp-block-offer__description\">We are firm in our commitment to product inclusion. Discover our product accessibility efforts and inclusive design standards.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/company/product-accessibility-inclusive-design/\" target=\"_self\">Learn More</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-the-challenge-how-to-deliver-support-to-guests-quickly\"><strong>The challenge: How to deliver support to guests quickly</strong></h2>\n<p>Since 2019, the Disability Help Desk team has provided personalized, real-time support for hundreds of Dreamforce attendees. Each year, they create a Slack channel for internal communication and to escalate questions that staffers can’t answer to more senior accessibility leads at the event.</p>\n<p><strong>The OOA Disability Help Desk provides essential, high-touch services, including:</strong></p>\n<ul class=\"wp-block-list\">\n<li><strong>Onsite Accommodations:</strong> Offering sighted guides, motorized scooters, earplugs for sensory support, accessible seating, quiet zones, parent rooms, and in-person support for inquiries.<br/></li>\n<li><strong>Event Guidance:</strong> Providing detailed staff training and guest information on how to access the accommodations, shuttles, and services like <a href=\"https://aira.io/\">Aira navigation.</a><br/></li>\n<li><strong>Resources:</strong> Distributing the essential <strong>Accessible Guide to Dreamforce – </strong>an annual landing page with detailed descriptions of the event from start to finish.</li>\n</ul>\n<p>But even a reasonable volume of questions requires <strong>around-the-clock availability from the select few experts</strong>, and simple, <strong>repetitive inquiries</strong> can tie up valuable human time – not only for our staff, but for the guests seeking answers. </p>\n<p>With historic response times stretching from 5 minutes to 6 hours, and each inquiry taking on average 10 messages back and forth before resolving, the OoA saw an opportunity to innovate. Their goal: to provide quick and efficient support, 24/7.</p>\n<h2 class=\"wp-block-heading\" id=\"h-the-solution-building-a-channel-expert-agent-in-slack\"><strong>The solution: Building a channel expert agent in Slack</strong></h2>\n<p>The OoA team was inspired by their own success with an <a href=\"https://www.salesforce.com/blog/employee-service-agent/\">internal support agent.</a> They realized they could bring that same efficiency to Dreamforce, allowing their staff to focus on truly high-touch, complex care while still delivering exceptional service to everyone who had an inquiry.</p>\n<p><strong>The OoA equipped their agent to handle inquiries through:</strong></p>\n<ul class=\"wp-block-list\">\n<li><strong>Data Curation:</strong> The team gathered and rigorously organized and updated documentation, event information, and knowledge articles from past inquiries.<br/></li>\n<li><strong>Knowledge Base Structure:</strong> This information became a comprehensive, easily searchable knowledge base.<br/></li>\n<li><strong>Automated Escalation Process:</strong> If the Channel Expert was stumped or its response was not satisfactory, the agent would quickly tag our more experienced OoA members to provide the answer within the thread, keeping everything organized and efficient.<br/></li>\n<li><strong>Rigorous Testing:</strong> The team spent several weeks testing the agent to ensure the responses were detailed, as well as testing its ability to interpret the same question written in different ways.</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-results-and-lessons-learned\"><strong>Results and lessons learned</strong></h2>\n<p>The Disability Help Desk Channel Expert’s expectation was to answer 40% of inquiries received – and it surpassed that goal. The agent instantly took on repetitive questions like: <em>“What time does the Accessible shuttle leave for Dreamfest?”</em> or <em>“Where is the quiet area in Moscone South?”</em> <strong>answering 43% of inquiries immediately and successfully.</strong></p>\n<p>This meant human staff weren’t stuck routing messages and waiting for responses; they were able to provide accurate information to guests and help them enjoy the experience as quickly as possible. </p>\n<p>Human escalations that the agent could not address – only 15% of all inquiries – were reserved for complex, real-time coordination requests, such as: <em>“Can we have a sighted guide help a guest to the Agentforce Keynote?” </em>or<em> “I just gave away the last set of earplugs – where are we storing the extras?”</em></p>\n<p>The key takeaway: <strong>Success is iterative, and requires human oversight and judgement. </strong></p>\n<p>The agent wasn’t perfect at first, often giving vague or overly generic responses, largely due to a limited and loosely structured knowledge base. It also had difficulty handling different ways users phrased their questions. To address this, the team adopted an iterative refinement approach: continuously improving the agent through testing and updates to the knowledge base. </p>\n<p>Ally Green, Salesforce Senior Manager of Accessibility Innovation &amp; Workforce Programs, shared of the process: “We strengthened the knowledge base for better accuracy and clarity, and<strong> </strong>used Google Gemini to generate and test a wide range of curated questions, helping us fine-tune responses and close knowledge gaps.”<br/></p>\n<h2 class=\"wp-block-heading\" id=\"h-the-future-is-accessible-expanding-agentic-ai-for-everyone\"><strong>The future is accessible: Expanding agentic AI for everyone</strong></h2>\n<p>The success of <strong>Agentforce</strong> at the Dreamforce Disability Help Desk is a clear indicator that <strong>Agentic AI</strong> isn’t just about efficiency — it’s a tool that helps empower a more customized experience for all.</p>\n<p class=\"has-text-align-left\">Chief Accessibility Officer Catherine Nichols shares:</p>\n<div class=\"wp-block-group is-layout-constrained wp-block-group-is-layout-constrained\">\n<figure class=\"wp-block-image alignleft size-large is-resized is-style-circular wp-lightbox-container\" data-wp-context='{\"imageId\":\"69ce7742659a3\"}' data-wp-interactive=\"core/image\" data-wp-key=\"69ce7742659a3\"><img alt=\"Chief Accessibility Officer at Salesforce, Catherine Nichols, wearing a blue jacket and jumpsuit, seated in front of a blue backdrop.\" class=\"wp-image-129742\" data-wp-class--hide=\"state.isContentHidden\" data-wp-class--show=\"state.isContentVisible\" data-wp-init=\"callbacks.setButtonStyles\" data-wp-on--click=\"actions.showLightbox\" data-wp-on--load=\"callbacks.setButtonStyles\" data-wp-on-window--resize=\"callbacks.setButtonStyles\" decoding=\"async\" fetchpriority=\"high\" height=\"512\" sizes=\"(max-width: 512px) 100vw, 512px\" src=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image-135.png?w=512\" srcset=\"https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image-135.png 512w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image-135.png?w=500&amp;h=500 500w, https://www.salesforce.com/blog/wp-content/uploads/sites/2/2025/10/image-135.png?w=150&amp;h=150 150w\" style=\"width:235px;height:auto\" width=\"512\"><button aria-haspopup=\"dialog\" aria-label=\"Enlarge\" class=\"lightbox-trigger\" data-wp-init=\"callbacks.initTriggerButton\" data-wp-on--click=\"actions.showLightbox\" data-wp-style--right=\"state.imageButtonRight\" data-wp-style--top=\"state.imageButtonTop\" type=\"button\">\n<svg fill=\"none\" height=\"12\" viewbox=\"0 0 12 12\" width=\"12\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M2 0a2 2 0 0 0-2 2v2h1.5V2a.5.5 0 0 1 .5-.5h2V0H2Zm2 10.5H2a.5.5 0 0 1-.5-.5V8H0v2a2 2 0 0 0 2 2h2v-1.5ZM8 12v-1.5h2a.5.5 0 0 0 .5-.5V8H12v2a2 2 0 0 1-2 2H8Zm2-12a2 2 0 0 1 2 2v2h-1.5V2a.5.5 0 0 0-.5-.5H8V0h2Z\" fill=\"#fff\"></path>\n</svg>\n</button><figcaption class=\"wp-element-caption\">[Image credit: Catherine Nichols / Salesforce]</figcaption></img></figure>\n<p></p>\n<h5 class=\"wp-block-heading\" id=\"h-agentic-ai-has-the-potential-to-transform-accessibility-service-by-proactively-anticipating-needs-and-providing-personalized-support-tools-like-agentforce-will-equip-teams-with-the-power-to-streamline-requests-adjust-digital-experiences-to-individual-preferences-and-offer-empathetic-assistance-in-real-time-we-are-truly-optimistic-about-the-integration-of-ai-into-the-workforce-as-an-opportunity-for-everyone-to-thrive\">“Agentic AI has the potential to transform accessibility service by <strong>proactively anticipating needs and providing personalized support. </strong><br/><br/>Tools like Agentforce will equip teams with the power to streamline requests, adjust digital experiences to individual preferences, and offer empathetic assistance in real time. <br/><br/>We are truly optimistic about the integration of AI into the workforce as an opportunity for everyone to thrive.”</h5>\n<p>The Office of Accessibility is already expanding the Agentforce integrations across the enterprise:</p>\n<ul class=\"wp-block-list\">\n<li><a href=\"https://workforcenavigators.salesforce.com/\"><strong>Workforce Navigators</strong></a><strong>:</strong> Implementing an agent to guide job seekers on mentorship programs and certification vouchers.<br/></li>\n<li><a href=\"https://slack.com/blog/productivity/slack-basecamp-agent\"><strong>BaseCamp Agent</strong></a><strong>:</strong> Training a <strong>Neurodiversity Job Coaching</strong> <strong>agent</strong> to assist with employee cases while keeping sensitive information secure.<br/></li>\n<li><strong>Future Events:</strong> Scaling the<strong> Event Staff Slack agent</strong> beyond Dreamforce to ensure seamless accessibility support at all major Salesforce events.</li>\n</ul>\n<p>By using Agentforce, the Office of Accessibility didn’t just meet a goal — they created the foundation for a future where event support is instant, personalized, and accessible for all. That’s the power of humans with agents working together!</p>\n<h3 class=\"wp-block-heading\"><strong>Learn More:</strong></h3>\n<ul class=\"wp-block-list\">\n<li><a href=\"https://www.linkedin.com/company/salesforce-accessibility/\">Follow the Office of Accessibility</a></li>\n<li><a href=\"https://www.salesforce.com/agentforce/use-cases/\">Explore Other Agentforce Use Cases</a></li>\n<li><a href=\"https://slack.com/blog/news/turn-agents-into-teammates-with-slack?d=cta-body-promo-8%20attached&amp;_ga=2.242398722.1235309582.1760974795-285809252.1759241666&amp;_gl=1*1obvshs*_gcl_au*MTcyMDg2MTk1MS4xNzYwOTg0NDgx*_ga*Mjg1ODA5MjUyLjE3NTkyNDE2NjY.*_ga_3VHBZ2DJWP*czE3NjA5ODIxNDIkbzE0JGcxJHQxNzYwOTg1ODQwJGoxNSRsMCRoMA..\">Learn about Agentforce in Slack</a></li>\n</ul>\n</div>\n<p></p>\n</div>"
+}

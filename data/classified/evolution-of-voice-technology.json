@@ -198,14 +198,12 @@
         "position_after_section": 4
       },
       "existing_cta_score": {
-        "relevance_score": 0.65,
+        "relevance_score": 0.8,
         "funnel_alignment": "adjacent",
         "persona_match": "match",
-        "product_alignment": "partial",
-        "issues": [
-          "Product alignment is partial — a more targeted CTA may perform better"
-        ],
-        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+        "product_alignment": "match",
+        "issues": [],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
       "recommendations": [
         {
@@ -315,7 +313,7 @@
       },
       "recommendations": [
         {
-          "cta_id": "form-platform-six-security-steps-to-prepare-for-ag",
+          "cta_id": "form-conf-small-business-smbs-implement-agentforce",
           "score": 0.85,
           "match_rationale": "Matches agentforce product focus at awareness stage for awareness-stage service_leader reader."
         },
@@ -334,6 +332,6 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.1429,
+  "overall_health_score": 0.1643,
   "misaligned_count": 6
 }

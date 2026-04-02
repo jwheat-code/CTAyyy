@@ -1,0 +1,175 @@
+{
+  "url": "https://www.salesforce.com/blog/ai-in-healthcare-dreamforce/?bc=DB",
+  "slug": "ai-in-healthcare-dreamforce",
+  "title": "5 Tips to Lead as an Agentic Enterprise in Healthcare",
+  "author": "Lizanne Kiel",
+  "published_date": "2025-10-21T17:05:57+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "For health consumers in the digital age, life is moving faster than ever with competing commitments like family, finances, and work. And healthcare often becomes a last priority. In fact, healthcare is in crisis: an estimatedone-third of patientshave skipped or postponed needed medical care in the last year either because it’s too expensive, takes too much time, or is too difficult to plan. How can providers, payers, and public health organizations lead in an era where there’s more work to do than humanly possible? In theHealth Keynoteat Dreamforce, I shared five tips to lead in theagentic revolution.",
+      "word_count": 97,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "one-third of patients",
+          "href": "https://www.kff.org/health-costs/americans-challenges-with-health-care-costs/"
+        },
+        {
+          "text": "Health Keynote",
+          "href": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/healthcare_and_life_sciences_at_dreamforce_2025/episode/episode-s1e3"
+        },
+        {
+          "text": "agentic revolution",
+          "href": "https://www.salesforce.com/resources/guides/agentforce-healthcare-life-sciences-guide/?d=pb"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "1. Use data and metadata to unlock your agentic AI use cases",
+      "text": "If AI is the vehicle to future-forward healthcare, data is the fuel.Healthcare generates about 30% of the world’s datathrough patient records, remote monitoring, claims, wearable devices, immunizations, orders, research, and beyond. But it’s often trapped in disparate systems, rendering it unusable. That’s why the data conversation has shifted from mere storage toactivationandinteroperability,allowing different parts of your business and your AI agents to collaborate with each other. By embedding this data directly into the flow of work, you allow for: Real-time agent access.WithMuleSoft DirectandAgent Fabric, AI agents can communicate across systems like EHRs to answer customer inquiries such as appointment booking, visit summaries, or new patient registration.Industry-standard interoperability.FHIR-aligned APIs allow systems to communicate in real time, reducing back and forth between payers and providers.Zero-copy technology.Unlock trapped data in your existing warehouses withData 360 for Health. Use it to answer complex questions about benefits explanations and claims without ever moving the data from those source systems.",
+      "word_count": 154,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Healthcare generates about 30% of the world’s data",
+          "href": "https://www.rbccm.com/en/gib/healthcare/episode/the_healthcare_data_explosion&sa=D&source=docs&ust=1760481606017802&usg=AOvVaw1W81Rs65nQDbsabjXoFkAg"
+        },
+        {
+          "text": "interoperability",
+          "href": "http://salesforce.com/healthcare-life-sciences/healthcare-software/healthcare-interoperability/"
+        },
+        {
+          "text": "MuleSoft Direct",
+          "href": "https://developer.salesforce.com/docs/industries/health/references/rn_health?meta=Summary"
+        },
+        {
+          "text": "Agent Fabric",
+          "href": "https://www.salesforce.com/news/stories/mulesoft-agent-fabric-announcement/"
+        },
+        {
+          "text": "Data 360 for Health",
+          "href": "https://www.salesforce.com/data/use-cases/?filters=2ab5aa0c-6342-400c-9f3a-0dd094606ef9"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "AI and Unified Data Help UChicago Medicine Scale Care",
+      "text": "See howUChicago Medicineuses Agentforce Health to deliver tailored always-on services, helping with everything from medication refills to parking directions.",
+      "word_count": 19,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "UChicago Medicine",
+          "href": "https://www.salesforce.com/customer-stories/uchicago-medicine/"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "Reduce costs and speed time to care from anywhere.",
+      "text": "Real-time eligibility verification and prior authorizationPre-call summaries and budgeting and quoting suggestionsAutofilled and voice-powered health assessmentsOffline mobile assessments",
+      "word_count": 18,
+      "has_existing_cta": true,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "2.Identify the highest-value jobs an AI agent can take in your organization today",
+      "text": "Agentic AI in healthcare isn’t just about speed and efficiency. It’s also about making patients healthier and more engaged, and the opportunity for AI to put more people on the path to health is massive. Today, the majority of healthcare resources go to less than 30% of the population. What if you could engage everyone? Agents give your teams unlimited capacity to bring better, faster, and more human care to patients and members. AI agents workwithhuman talent to unlock new productivity and accelerate time to care. They proactively encourage patients to schedule a visit, pick up their prescription sooner, or come in for preventative screenings.",
+      "word_count": 105,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "heading": "Reduce burnout and deliver personalized services for patients, members, and constituents.",
+      "text": "EHR data retrieval and patient registrationAppointment scheduling and waitlist managementProvider search and auto-matchingDisease case data extraction, deduplication, and classification",
+      "word_count": 19,
+      "has_existing_cta": true,
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "heading": "3.Find partners who advance interoperability and future-proof their organizations",
+      "text": "We believe the future of health isn’t built on just one company — it’s built on a thriving ecosystem. To truly transform patient and member care and lower costs, the healthcare industry must demand more of its technology partners. For over two decades, Salesforce has been a trusted technology partner for healthcare organizations. What sets Salesforce apart is not just the strength of our product, but the power of our ecosystem. Our open platform and commitment to interoperability gives you the tools to securely connect data from across your organization. We make sure you can adopt the very best apps and prebuilt AI agents through exchange marketplaces, such as AppExchange and AgentExchange. Our healthcare partners add scale and deep healthcare expertise, working alongside your teams to design solutions that fit your roadmap and deliver faster time to value.",
+      "word_count": 138,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 7,
+      "heading": "AI in Action: A New Era of Connected Care",
+      "text": "See howCVS Health is transforming the entire member experience with AI in the contact center to new integrated care management.",
+      "word_count": 20,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "See how",
+          "href": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/healthcare_and_life_sciences_at_dreamforce_2025/episode/episode-s1e3"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "heading": "4.Build security and governance into your AI strategy",
+      "text": "Agentic AI often requires the use of your most sensitive data, making implementation complex. Without strong guardrails, AI adoption can create vulnerabilities, compliance issues, and reputational harm. Building in security and governance from the start turns AI from a risky experiment into a scalable, trusted business asset. With built-in governance and over 40 compliance certifications, including HIPAA, Salesforce is committed to security in the age of AI in even the most regulated of industries. Our Trust Layer, combined with industry compliance standards, gives you more confidence to use AI tools without compromising privacy or security. This makes it faster for your teams to proactively reach more patients and members, create new and personalized experiences, and build loyalty through lifelong relationships.",
+      "word_count": 120,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "heading": "5.Create an agentic enterprise for healthcare by connecting digital labor and humans",
+      "text": "Agentic AI is different from any other AI that’s come before it. It can reason and converse. Patients can talk to it in natural language. Yet, the power of agents is not in erasing the need for humans, but augmenting our capabilities. When AI agents are on a connected health platform, they can extend even more value to your teams, giving them more time to spend on the parts of healthcare that truly require the human touch. In the agentic enterprise, humans and AI agents worktogetherto achieve outcomes more effectively and efficiently. This may include agents: Matching a patient or member with the best provider instantlyHelping providers retrieve and summarize health information about a patient in one clickVerifying active benefits and eligibility for payers before a procedureClassifying diseases faster to help the public sector scale community health",
+      "word_count": 137,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "heading": "The agentic platform designed for healthcare",
+      "text": "Salesforce is making it easier for health organizations to practice these five tips with investments in AI innovation throughAgentforce 360 for Health, the platform that augments your human workforce with intelligent agents to extend your capacity. This means you can: Scale always-on supportfor your patients, members, and providers that is more convenient and timely than ever.Grow your patient and member engagementto reach every corner of your population to proactively impact health.Improve efficiencyby automating routine health tasks with AI Agents that free up your teams to focus on high-impact work.Expeditepublic healthservicesto reach communities faster and curb the spread of disease.",
+      "word_count": 99,
+      "has_existing_cta": true,
+      "inline_links": [
+        {
+          "text": "Agentforce 360 for Health",
+          "href": "https://www.salesforce.com/healthcare-life-sciences/"
+        },
+        {
+          "text": "public health",
+          "href": "https://www.salesforce.com/healthcare-life-sciences/public-health-solutions/"
+        }
+      ]
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "Learn more",
+      "button_url": "https://www.salesforce.com/healthcare-life-sciences/healthcare-artificial-intelligence/",
+      "position_after_section": 3
+    },
+    {
+      "heading": "",
+      "body": "",
+      "button_text": "Learn more",
+      "button_url": "https://www.salesforce.com/agentforce/use-cases/healthcare/patient-access-services/",
+      "position_after_section": 5
+    },
+    {
+      "heading": "Promote healthcare at the speed of life",
+      "body": "Stream keynotes, customer interviews, and select breakout sessions that bring the future of AI and Agentforce 360 for Health to life.",
+      "button_text": "Watch now",
+      "button_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/healthcare_and_life_sciences_at_dreamforce_2025/episode/episode-s1e3",
+      "position_after_section": 10
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p>For health consumers in the digital age, life is moving faster than ever with competing commitments like family, finances, and work. And healthcare often becomes a last priority. In fact, healthcare is in crisis: an estimated <a href=\"https://www.kff.org/health-costs/americans-challenges-with-health-care-costs/\" rel=\"noopener\" target=\"_blank\">one-third of patients</a> have skipped or postponed needed medical care in the last year either because it’s too expensive, takes too much time, or is too difficult to plan.  </p>\n<p><strong>How can providers, payers, and public health organizations lead in an era where there’s more work to do than humanly possible? </strong></p>\n<p>In the <a href=\"https://www.salesforce.com/plus/experience/dreamforce_2025/series/healthcare_and_life_sciences_at_dreamforce_2025/episode/episode-s1e3\">Health Keynote</a> at Dreamforce, I shared five tips to lead in the <a href=\"https://www.salesforce.com/resources/guides/agentforce-healthcare-life-sciences-guide/?d=pb\">agentic revolution</a>.</p>\n<h2 class=\"wp-block-heading\" id=\"h-1-use-data-and-metadata-to-unlock-your-agentic-ai-use-cases\">1. Use data and metadata to unlock your agentic AI use cases</h2>\n<p>If AI is the vehicle to future-forward healthcare, data is the fuel. <a href=\"https://www.rbccm.com/en/gib/healthcare/episode/the_healthcare_data_explosion&amp;sa=D&amp;source=docs&amp;ust=1760481606017802&amp;usg=AOvVaw1W81Rs65nQDbsabjXoFkAg\">Healthcare generates about 30% of the world’s data</a> through patient records, remote monitoring, claims, wearable devices, immunizations, orders, research, and beyond. But it’s often trapped in disparate systems, rendering it unusable.  </p>\n<p>That’s why the data conversation has shifted from mere storage to <em>activation </em>and<em> </em><a href=\"http://salesforce.com/healthcare-life-sciences/healthcare-software/healthcare-interoperability/\"><em>interoperability</em></a><em>, </em>allowing different parts of your business and your AI agents to collaborate with each other. </p>\n<p>By embedding this data directly into the flow of work, you allow for:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Real-time agent access.</strong> With <a href=\"https://developer.salesforce.com/docs/industries/health/references/rn_health?meta=Summary\">MuleSoft Direct</a> and <a href=\"https://www.salesforce.com/news/stories/mulesoft-agent-fabric-announcement/\">Agent Fabric</a>, AI agents can communicate across systems like EHRs to answer customer inquiries such as appointment booking, visit summaries, or new patient registration. </li>\n<li><strong>Industry-standard interoperability.</strong> FHIR-aligned APIs allow systems to communicate in real time, reducing back and forth between payers and providers.</li>\n<li><strong>Zero-copy technology.</strong> Unlock trapped data in your existing warehouses with <a href=\"https://www.salesforce.com/data/use-cases/?filters=2ab5aa0c-6342-400c-9f3a-0dd094606ef9\">Data 360 for Health</a>. Use it to answer complex questions about benefits explanations and claims without ever moving the data from those source systems.</li>\n</ul>\n<aside class=\"contextual-driver has-text-align-left\">\n<header>\n<h2 class=\"tidbit-head\">\n\t\t\tAI and Unified Data Help UChicago Medicine Scale Care\t\t</h2>\n</header>\n<div class=\"tidbit-body\">\n<p>See how <a href=\"https://www.salesforce.com/customer-stories/uchicago-medicine/\">UChicago Medicine</a> uses Agentforce Health to deliver tailored always-on services, helping with everything from medication refills to parking directions. </p> </div>\n<img alt=\"Illustration of evergreen\" class=\"tidbit img-evergreen\" sizes=\"(min-width:1024px) 175px, 130px\" src=\"https://www.salesforce.com/blog/wp-content/themes/newsroom/assets/images/article-tidbit-evergreen-large@1x.png\" srcset=\"\n\t\t\thttps://www.salesforce.com/blog/wp-content/themes/newsroom/assets/images/article-tidbit-evergreen-large@0.5x.png 84w,\n\t\t\thttps://www.salesforce.com/blog/wp-content/themes/newsroom/assets/images/article-tidbit-evergreen-large@1x.png 168w,\n\t\t\thttps://www.salesforce.com/blog/wp-content/themes/newsroom/assets/images/article-tidbit-evergreen-large@2x.png 336w\n\t\t\"/>\n</aside>\n<div class=\"wp-block-salesforce-blog-section-heading\">\n<h2 class=\"wp-block-salesforce-blog-section-heading__title\">\n<svg aria-hidden=\"true\" class=\"wp-block-salesforce-blog-section-heading__icon\" fill=\"none\" height=\"13\" viewbox=\"0 0 14 13\" width=\"14\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3.43 13a1 1 0 0 1-.59-.19 1 1 0 0 1-.4-1L3 8.37.52 5.93a1 1 0 0 1 .56-1.73l3.47-.5L6.09.56a1.06 1.06 0 0 1 1.82 0L9.46 3.7l3.46.5a1 1 0 0 1 .56 1.73L11 8.37l.59 3.45a1 1 0 0 1-1.46 1.06L7 11.26l-3.1 1.62a1 1 0 0 1-.47.12M7 9.1a1 1 0 0 1 .47.12l1.75.92-.33-2a1 1 0 0 1 .29-.9l1.42-1.33-2-.28a1 1 0 0 1-.76-.56L7 3.3l-.88 1.77a1 1 0 0 1-.76.56l-2 .28 1.46 1.38a1 1 0 0 1 .29.9l-.33 2 1.75-.92A1 1 0 0 1 7 9.1\" fill=\"#032D60\"></path></svg>\n\t\t\t\tNew from Agentforce Health\t</h2>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-reduce-costs-and-speed-time-to-care-from-anywhere\"><strong><strong>Reduce costs and speed time to care from anywhere.</strong></strong></h2>\n<ul class=\"wp-block-list\">\n<li>Real-time eligibility verification and prior authorization  </li>\n<li>Pre-call summaries and budgeting and quoting suggestions</li>\n<li>Autofilled and voice-powered health assessments </li>\n<li>Offline mobile assessments</li>\n</ul>\n<div class=\"wp-block-buttons is-style-default is-vertical is-content-justification-left is-nowrap is-layout-flex wp-container-core-buttons-is-layout-5e962826 wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://www.salesforce.com/healthcare-life-sciences/healthcare-artificial-intelligence/\">Learn more</a></div>\n</div>\n<p></p>\n<p></p>\n<h2 class=\"wp-block-heading\" id=\"h-2-identify-the-highest-value-jobs-an-ai-agent-can-take-in-your-organization-today\">2. <strong>Identify the highest-value jobs an AI agent can take in your organization today</strong></h2>\n<p>Agentic AI in healthcare isn’t just about speed and efficiency. It’s also about making patients healthier and more engaged, and the opportunity for AI to put more people on the path to health is massive. Today, the majority of healthcare resources go to less than 30% of the population. What if you could engage everyone?</p>\n<p>Agents give your teams unlimited capacity to bring better, faster, and more human care to patients and members. AI agents work <em>with</em> human talent to unlock new productivity and accelerate time to care. They proactively encourage patients to schedule a visit, pick up their prescription sooner, or come in for preventative screenings.</p>\n<div class=\"wp-block-salesforce-blog-section-heading\">\n<h2 class=\"wp-block-salesforce-blog-section-heading__title\">\n<svg aria-hidden=\"true\" class=\"wp-block-salesforce-blog-section-heading__icon\" fill=\"none\" height=\"13\" viewbox=\"0 0 14 13\" width=\"14\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M3.43 13a1 1 0 0 1-.59-.19 1 1 0 0 1-.4-1L3 8.37.52 5.93a1 1 0 0 1 .56-1.73l3.47-.5L6.09.56a1.06 1.06 0 0 1 1.82 0L9.46 3.7l3.46.5a1 1 0 0 1 .56 1.73L11 8.37l.59 3.45a1 1 0 0 1-1.46 1.06L7 11.26l-3.1 1.62a1 1 0 0 1-.47.12M7 9.1a1 1 0 0 1 .47.12l1.75.92-.33-2a1 1 0 0 1 .29-.9l1.42-1.33-2-.28a1 1 0 0 1-.76-.56L7 3.3l-.88 1.77a1 1 0 0 1-.76.56l-2 .28 1.46 1.38a1 1 0 0 1 .29.9l-.33 2 1.75-.92A1 1 0 0 1 7 9.1\" fill=\"#032D60\"></path></svg>\n\t\t\t\tNew from Agentforce Health\t</h2>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-reduce-burnout-and-deliver-personalized-services-for-patients-members-and-constituents\"><strong>Reduce burnout and deliver personalized services for patients, members, and constituents.</strong></h2>\n<ul class=\"wp-block-list\">\n<li>EHR data retrieval and patient registration </li>\n<li>Appointment scheduling and waitlist management </li>\n<li>Provider search and auto-matching </li>\n<li>Disease case data extraction, deduplication, and classification</li>\n</ul>\n<div class=\"wp-block-buttons is-style-default is-vertical is-content-justification-left is-nowrap is-layout-flex wp-container-core-buttons-is-layout-5e962826 wp-block-buttons-is-layout-flex\">\n<div class=\"wp-block-button\"><a class=\"wp-block-button__link wp-element-button\" href=\"https://www.salesforce.com/agentforce/use-cases/healthcare/patient-access-services/\">Learn more</a></div>\n</div>\n<p></p>\n<p></p>\n<h2 class=\"wp-block-heading\" id=\"h-3-find-partners-who-advance-interoperability-and-future-proof-their-organizations\">3. <strong><strong>Find partners who advance interoperability and future-proof their organizations</strong></strong></h2>\n<p>We believe the future of health isn’t built on just one company — it’s built on a thriving ecosystem. To truly transform patient and member care and lower costs, the healthcare industry must demand more of its technology partners. </p>\n<p>For over two decades, Salesforce has been a trusted technology partner for healthcare organizations. What sets Salesforce apart is not just the strength of our product, but the power of our ecosystem. Our open platform and commitment to interoperability gives you the tools to securely connect data from across your organization. </p>\n<p>We make sure you can adopt the very best apps and prebuilt AI agents through exchange marketplaces, such as AppExchange and AgentExchange. Our healthcare partners add scale and deep healthcare expertise, working alongside your teams to design solutions that fit your roadmap and deliver faster time to value.</p>\n<aside class=\"contextual-driver has-text-align-left\">\n<header>\n<h2 class=\"tidbit-head\">\n\t\t\tAI in Action: A New Era of Connected Care\t\t</h2>\n</header>\n<div class=\"tidbit-body\">\n<p><a href=\"https://www.salesforce.com/plus/experience/dreamforce_2025/series/healthcare_and_life_sciences_at_dreamforce_2025/episode/episode-s1e3\">See how</a> CVS Health is transforming the entire member experience with AI in the contact center to new integrated care management. </p> </div>\n<img alt=\"Illustration of watercliff\" class=\"tidbit img-watercliff\" sizes=\"(min-width:1024px) 175px, 130px\" src=\"https://www.salesforce.com/blog/wp-content/themes/newsroom/assets/images/article-tidbit-watercliff-large@1x.png\" srcset=\"\n\t\t\thttps://www.salesforce.com/blog/wp-content/themes/newsroom/assets/images/article-tidbit-watercliff-large@0.5x.png 84w,\n\t\t\thttps://www.salesforce.com/blog/wp-content/themes/newsroom/assets/images/article-tidbit-watercliff-large@1x.png 168w,\n\t\t\thttps://www.salesforce.com/blog/wp-content/themes/newsroom/assets/images/article-tidbit-watercliff-large@2x.png 336w\n\t\t\"/>\n</aside>\n<h2 class=\"wp-block-heading\" id=\"h-4-build-security-and-governance-into-your-ai-strategy\">4. <strong><strong><strong>Build security and governance into your AI strategy</strong></strong></strong></h2>\n<p>Agentic AI often requires the use of your most sensitive data, making implementation complex. Without strong guardrails, AI adoption can create vulnerabilities, compliance issues, and reputational harm. Building in security and governance from the start turns AI from a risky experiment into a scalable, trusted business asset.</p>\n<p>With built-in governance and over 40 compliance certifications, including HIPAA, Salesforce is committed to security in the age of AI in even the most regulated of industries. Our Trust Layer, combined with industry compliance standards, gives you more confidence to use AI tools without compromising privacy or security. </p>\n<p>This makes it faster for your teams to proactively reach more patients and members, create new and personalized experiences, and build loyalty through lifelong relationships.</p>\n<h2 class=\"wp-block-heading\" id=\"h-5-create-an-agentic-enterprise-for-healthcare-by-connecting-digital-labor-and-humans\">5. <strong><strong><strong><strong>Create an agentic enterprise for healthcare by connecting digital labor and humans</strong></strong></strong></strong></h2>\n<p>Agentic AI is different from any other AI that’s come before it. It can reason and converse. Patients can talk to it in natural language. Yet, the power of agents is not in erasing the need for humans, but augmenting our capabilities.</p>\n<p>When AI agents are on a connected health platform, they can extend even more value to your teams, giving them more time to spend on the parts of healthcare that truly require the human touch.</p>\n<p>In the agentic enterprise, humans and AI agents work <em>together</em> to achieve outcomes more effectively and efficiently. This may include agents:</p>\n<ul class=\"wp-block-list\">\n<li>Matching a patient or member with the best provider instantly</li>\n<li>Helping providers retrieve and summarize health information about a patient in one click</li>\n<li>Verifying active benefits and eligibility for payers before a procedure</li>\n<li>Classifying diseases faster to help the public sector scale community health</li>\n</ul>\n<h2 class=\"wp-block-heading\" id=\"h-the-agentic-platform-designed-for-healthcare\"><strong>The agentic platform designed for healthcare</strong></h2>\n<p>Salesforce is making it easier for health organizations to practice these five tips with investments in AI innovation through <a href=\"https://www.salesforce.com/healthcare-life-sciences/\"><strong>Agentforce 360 for Health</strong></a>, the platform that augments your human workforce with intelligent agents to extend your capacity. This means you can:</p>\n<ul class=\"wp-block-list\">\n<li><strong>Scale always-on support</strong> for your patients, members, and providers that is more convenient and timely than ever.</li>\n<li><strong>Grow your patient and member engagement</strong> to reach every corner of your population to proactively impact health.</li>\n<li><strong>Improve efficiency</strong> by automating routine health tasks with AI Agents that free up your teams to focus on high-impact work.</li>\n<li><strong>Expedite </strong><a href=\"https://www.salesforce.com/healthcare-life-sciences/public-health-solutions/\"><strong>public health</strong></a><strong> services</strong> to reach communities faster and curb the spread of disease.</li>\n</ul>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\"><strong>Promote healthcare at the speed of life</strong></h2>\n<p class=\"wp-block-offer__description\">Stream keynotes, customer interviews, and select breakout sessions that bring the future of AI and Agentforce 360 for Health to life.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://www.salesforce.com/plus/experience/dreamforce_2025/series/healthcare_and_life_sciences_at_dreamforce_2025/episode/episode-s1e3\" target=\"_self\">Watch now</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n</div>"
+}

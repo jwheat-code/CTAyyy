@@ -10,7 +10,7 @@
     "content_type": "trial",
     "target_personas": [],
     "tags": [],
-    "appearances": 59
+    "appearances": 72
   },
   {
     "cta_id": "content-learn-modules-salesforce-essentials-small-",
@@ -23,7 +23,7 @@
     "content_type": "learning",
     "target_personas": [],
     "tags": [],
-    "appearances": 39
+    "appearances": 45
   },
   {
     "cta_id": "small-business-marketing",
@@ -36,7 +36,7 @@
     "content_type": "general",
     "target_personas": [],
     "tags": [],
-    "appearances": 30
+    "appearances": 34
   },
   {
     "cta_id": "small-business-collaboration",
@@ -49,7 +49,7 @@
     "content_type": "trial",
     "target_personas": [],
     "tags": [],
-    "appearances": 21
+    "appearances": 27
   },
   {
     "cta_id": "small-business-service",
@@ -62,7 +62,33 @@
     "content_type": "social_proof",
     "target_personas": [],
     "tags": [],
-    "appearances": 20
+    "appearances": 24
+  },
+  {
+    "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
+    "headline": "Grow Your Small Business With AI Agents",
+    "body": "Learn how autonomous AI can scale your small business for efficient growth in our free e-book.",
+    "button_text": "Get it now",
+    "destination_url": "https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/?d=bcta",
+    "product": "agentforce",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 21
+  },
+  {
+    "cta_id": "blog-playbook-agentic-ai",
+    "headline": "What’s your agentic AI strategy?",
+    "body": "Our playbook is your free guide to becoming an agentic enterprise. Learn about use cases, deployment, and AI skills, and download interactive worksheets for your team.",
+    "button_text": "The future starts now",
+    "destination_url": "https://www.salesforce.com/blog/playbook/agentic-ai",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 21
   },
   {
     "cta_id": "wtl",
@@ -78,14 +104,14 @@
     "appearances": 19
   },
   {
-    "cta_id": "blog-playbook-agentic-ai",
-    "headline": "What’s your agentic AI strategy?",
-    "body": "Our playbook is your free guide to becoming an agentic enterprise. Learn about use cases, deployment, and AI skills, and download interactive worksheets for your team.",
-    "button_text": "The future starts now",
-    "destination_url": "https://www.salesforce.com/blog/playbook/agentic-ai",
+    "cta_id": "form-signup-freetrial-prosuite",
+    "headline": "Ready to go Pro?",
+    "body": "Level up your CRM with the top-rated Pro Suite — the customer platform that scales with you.",
+    "button_text": "Try it for free",
+    "destination_url": "https://www.salesforce.com/form/signup/freetrial-prosuite/?d=bcta",
     "product": "sales_cloud",
-    "funnel_stage": "awareness",
-    "content_type": "guide",
+    "funnel_stage": "decision",
+    "content_type": "trial",
     "target_personas": [],
     "tags": [],
     "appearances": 17
@@ -104,12 +130,12 @@
     "appearances": 17
   },
   {
-    "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-    "headline": "Grow Your Small Business With AI Agents",
-    "body": "Learn how autonomous AI can scale your small business for efficient growth in our free e-book.",
-    "button_text": "Get it now",
-    "destination_url": "https://www.salesforce.com/form/conf/small-business/smbs-grow-with-agentforce/?d=bcta",
-    "product": "agentforce",
+    "cta_id": "joinsalesblazer%20",
+    "headline": "Join the Salesblazer movement",
+    "body": "We’re building the largest and most successful community of sales professionals, so you can learn, connect, and grow.",
+    "button_text": "Get started",
+    "destination_url": "http://salesforce.com/joinsalesblazer%20",
+    "product": "sales_cloud",
     "funnel_stage": "consideration",
     "content_type": "general",
     "target_personas": [],
@@ -117,30 +143,17 @@
     "appearances": 16
   },
   {
-    "cta_id": "form-signup-freetrial-prosuite",
-    "headline": "Ready to go Pro?",
-    "body": "Level up your CRM with the top-rated Pro Suite — the customer platform that scales with you.",
-    "button_text": "Try it for free",
-    "destination_url": "https://www.salesforce.com/form/signup/freetrial-prosuite/?d=bcta",
-    "product": "sales_cloud",
-    "funnel_stage": "decision",
-    "content_type": "trial",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 15
-  },
-  {
     "cta_id": "small-business-commerce",
-    "headline": "Build an AI-powered store that grows with your business",
-    "body": "Create an optimized storefront with built-in AI, automated marketing, and secure payment options — all designed for small businesses.",
+    "headline": "Start selling online with Starter Suite",
+    "body": "Set up your digital storefront, engage customers, and sell more using a commerce-ready platform with integrated tools for every sale.",
     "button_text": "Check it out",
-    "destination_url": "https://www.salesforce.com/small-business/commerce/",
+    "destination_url": "https://www.salesforce.com/small-business/commerce/?d=bcta",
     "product": "sales_cloud",
     "funnel_stage": "consideration",
     "content_type": "general",
     "target_personas": [],
     "tags": [],
-    "appearances": 13
+    "appearances": 15
   },
   {
     "cta_id": "small-business-sales",
@@ -151,6 +164,19 @@
     "product": "sales_cloud",
     "funnel_stage": "decision",
     "content_type": "trial",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 14
+  },
+  {
+    "cta_id": "company-be-a-trailblazer",
+    "headline": "Join millions in the growing Salesforce ecosystem",
+    "body": "Trailblazers are free to reinvent themselves, free to dream bigger.",
+    "button_text": "Be a Trailblazer",
+    "destination_url": "https://www.salesforce.com/company/be-a-trailblazer/?icid=SFBLOG:tbc-blog-mid:be-a-trailblazer",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
     "target_personas": [],
     "tags": [],
     "appearances": 13
@@ -166,24 +192,24 @@
     "content_type": "general",
     "target_personas": [],
     "tags": [],
-    "appearances": 10
+    "appearances": 12
   },
   {
-    "cta_id": "company-be-a-trailblazer",
-    "headline": "Join millions in the growing Salesforce ecosystem",
-    "body": "Trailblazers are free to reinvent themselves, free to dream bigger.",
-    "button_text": "Be a Trailblazer",
-    "destination_url": "https://www.salesforce.com/company/be-a-trailblazer/?icid=SFBLOG:tbc-blog-mid:be-a-trailblazer",
+    "cta_id": "resources-research-reports-state-of-service",
+    "headline": "Dig into our latest customer service research",
+    "body": "High-performing organizations are using data, AI, and automation to deliver faster, more personalized service. Find out how in the 7th State of Service report.",
+    "button_text": "Read the report",
+    "destination_url": "https://www.salesforce.com/resources/research-reports/state-of-service/",
     "product": "sales_cloud",
     "funnel_stage": "awareness",
-    "content_type": "learning",
+    "content_type": "guide",
     "target_personas": [],
     "tags": [],
-    "appearances": 9
+    "appearances": 11
   },
   {
     "cta_id": "launchpad",
-    "headline": "Accelerate your startup success with Salesforce Launchpad",
+    "headline": "Grow faster with Salesforce Launchpad.",
     "body": "Get tailored resources to build your GTM strategy and help your startup scale faster.",
     "button_text": "Apply now",
     "destination_url": "https://invite.salesforce.com/launchpad",
@@ -192,7 +218,33 @@
     "content_type": "general",
     "target_personas": [],
     "tags": [],
-    "appearances": 9
+    "appearances": 11
+  },
+  {
+    "cta_id": "products-sales-cloud",
+    "headline": "Drive pipe faster with a single source of truth",
+    "body": "Discover how Agentforce Sales uses data and AI to help you manage your pipeline, build relationships, and close deals fast.",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/products/sales-cloud/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 8
+  },
+  {
+    "cta_id": "plus",
+    "headline": "Behold the magic of Dreamforce 2025 virtually!",
+    "body": "Join us online for three days of learning, inspiration and fun. There’s nothing else like it.",
+    "button_text": "Watch on Salesforce+",
+    "destination_url": "https://www.salesforce.com/plus",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 7
   },
   {
     "cta_id": "blog-ai-agents",
@@ -208,14 +260,14 @@
     "appearances": 7
   },
   {
-    "cta_id": "resources-research-reports-state-of-service",
-    "headline": "Read the latest in customer service research.",
-    "body": "Top service teams are using AI and data to win every customer interaction. See how in our latest State of Service report.",
-    "button_text": "Read the report",
-    "destination_url": "https://www.salesforce.com/resources/research-reports/state-of-service/?d=pb",
-    "product": "sales_cloud",
-    "funnel_stage": "awareness",
-    "content_type": "guide",
+    "cta_id": "http:--join.serviceblazer.com",
+    "headline": "Join the award-winning Serviceblazer Community on Slack",
+    "body": "",
+    "button_text": "Claim your invite",
+    "destination_url": "http://join.serviceblazer.com",
+    "product": "service_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
     "target_personas": [],
     "tags": [],
     "appearances": 7
@@ -240,6 +292,19 @@
     "button_text": "Watch on Salesforce+",
     "destination_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/marketers_and_commerce_at_dreamforce_2025/episode/episode-s1e3",
     "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 6
+  },
+  {
+    "cta_id": "service-cloud",
+    "headline": "Unlock AI with Agentforce Service",
+    "body": "Your AI is only as strong as the data it’s built on. Agentforce Service is built on trusted, secured data to safely maximize the power of AI.",
+    "button_text": "Show me how",
+    "destination_url": "https://www.salesforce.com/service/cloud/",
+    "product": "agentforce",
     "funnel_stage": "consideration",
     "content_type": "general",
     "target_personas": [],
@@ -286,11 +351,50 @@
     "appearances": 5
   },
   {
-    "cta_id": "http:--join.serviceblazer.com",
-    "headline": "Join the award-winning Serviceblazer Community on Slack",
-    "body": "It’s an exclusive meeting place, just for service professionals. From customer service to field service, the Serviceblazer Community is where peers grow, learn, and celebrate everything service.",
-    "button_text": "Claim your invite",
-    "destination_url": "http://join.serviceblazer.com/",
+    "cta_id": "form-demo-sales-salesblazer",
+    "headline": "Onboard fast, sell faster",
+    "body": "See how Sales Cloud speeds up the sales cycle with data and AI, making you more efficient at every step.",
+    "button_text": "Watch the demo",
+    "destination_url": "https://www.salesforce.com/form/demo/sales/salesblazer/?d=7013y000000aCXIAA2&nc=7013y000002m7AMAAY",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 5
+  },
+  {
+    "cta_id": "flow-plus-df25-agendabuilder-page-agendabuilder",
+    "headline": "Plan your Dreamforce experience today",
+    "body": "With more than 1,500 sessions over three days, maximize your time by creating a schedule that suits your needs.",
+    "button_text": "Build your agenda",
+    "destination_url": "https://reg.salesforce.com/flow/plus/df25/agendabuilder/page/agendabuilder?_ga=2.205274256.1893455526.1758550633-765828898.1758301166",
+    "product": "sales_cloud",
+    "funnel_stage": "decision",
+    "content_type": "pricing",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 4
+  },
+  {
+    "cta_id": "commerce-innovations",
+    "headline": "Discover more commerce innovations and our latest releases",
+    "body": "See what’s new across our entire commerce portfolio.",
+    "button_text": "Explore innovations",
+    "destination_url": "https://www.salesforce.com/commerce/innovations/",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 4
+  },
+  {
+    "cta_id": "https:--www.youtube.com-watch",
+    "headline": "Reimagine service at every touchpoint",
+    "body": "Learn how to deliver frictionless experiences, empower human experts, and reduce costs across every service discipline.",
+    "button_text": "Watch the TSIA ENVISION Keynote",
+    "destination_url": "https://www.youtube.com/watch?v=12BDXwoYGfs",
     "product": "service_cloud",
     "funnel_stage": "consideration",
     "content_type": "general",
@@ -299,14 +403,14 @@
     "appearances": 4
   },
   {
-    "cta_id": "service-cloud",
-    "headline": "Unlock AI with Agentforce Service",
-    "body": "Your AI is only as strong as the data it’s built on. Agentforce Service is built on trusted, secured data to safely maximize the power of AI.",
-    "button_text": "Show me how",
-    "destination_url": "https://www.salesforce.com/service/cloud/",
-    "product": "agentforce",
-    "funnel_stage": "consideration",
-    "content_type": "general",
+    "cta_id": "form-conf-small-business-ai-guide-for-smbs",
+    "headline": "The Guide to AI for Small Business",
+    "body": "AI can transform your small business for the better. Get the guide below to learn how.",
+    "button_text": "Download the guide",
+    "destination_url": "https://www.salesforce.com/form/conf/small-business/ai-guide-for-smbs/?leadcreated=true&redirect=true&sfuuid=efe86c4e-cf50-494a-ba81-c17a3dac6855&tid=577f38ae-67b9-4913-b7c3-681f9917a241&chapter=&d=70130000000sUVq&player=&nc=7013y000002RVYjAAO&videoId=&playlistId=",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
     "target_personas": [],
     "tags": [],
     "appearances": 4
@@ -351,11 +455,63 @@
     "appearances": 4
   },
   {
-    "cta_id": "plus",
-    "headline": "Behold the magic of Dreamforce 2025 virtually!",
-    "body": "Join us online for three days of learning, inspiration and fun. There’s nothing else like it.",
-    "button_text": "Watch on Salesforce+",
-    "destination_url": "https://www.salesforce.com/plus",
+    "cta_id": "form-sales-revenue-lifecycle-management-demo",
+    "headline": "Every channel and revenue stream on one platform",
+    "body": "See how Agentforce Revenue Management goes from quote to cash on one platform, giving sales and finance one customer view.",
+    "button_text": "Watch the demo",
+    "destination_url": "https://www.salesforce.com/form/sales/revenue-lifecycle-management-demo/?d=pb",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 4
+  },
+  {
+    "cta_id": "products-revenue-cycle-management",
+    "headline": "Unify sales, finance, and legal on the #1 AI CRM",
+    "body": "When sales, finance, and legal are disconnected, the customer feels the pain. Learn how Agentforce Revenue Management can help.",
+    "button_text": "Connect every touchpoint",
+    "destination_url": "https://www.salesforce.com/products/revenue-cycle-management/",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 4
+  },
+  {
+    "cta_id": "form-signup-testdrive",
+    "headline": "Want to take the #1 CRM for a test drive?",
+    "body": "Go on our Guided Tour to see how Agentforce Sales boosts productivity at every stage of the sales cycle.",
+    "button_text": "Take the free tour",
+    "destination_url": "https://www.salesforce.com/form/signup/testdrive/?d=7013y000000aGAKAA2&nc=7013y000000aG7UAAU",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 4
+  },
+  {
+    "cta_id": "dreamforce",
+    "headline": "Are you ready for Dreamforce?",
+    "body": "At Dreamforce, you’ll discover how AI agents, real-time data, and CRM create a digital labor force that scales with you. Join us October 14-16 in San Francisco, or watch on Salesforce+.",
+    "button_text": "Count me in",
+    "destination_url": "https://www.salesforce.com/dreamforce/",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 3
+  },
+  {
+    "cta_id": "resources-articles-sales-productivity-pitfalls",
+    "headline": "8 sales productivity pitfalls (and how to avoid them)",
+    "body": "Get the Sales Productivity Workbook and avoid pitfalls like bloated tech stacks and approval bottlenecks.",
+    "button_text": "Get the free workbook",
+    "destination_url": "https://www.salesforce.com/resources/articles/sales-productivity-pitfalls/?d=7013y000002q3hiAAA&nc=7013y000002q3hdAAA",
     "product": "sales_cloud",
     "funnel_stage": "consideration",
     "content_type": "general",
@@ -377,27 +533,14 @@
     "appearances": 3
   },
   {
-    "cta_id": "commerce-innovations",
-    "headline": "Discover more commerce innovations and our latest releases",
-    "body": "See what’s new across our entire commerce portfolio.",
-    "button_text": "Explore innovations",
-    "destination_url": "https://www.salesforce.com/commerce/innovations/",
-    "product": "sales_cloud",
-    "funnel_stage": "consideration",
-    "content_type": "general",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 3
-  },
-  {
-    "cta_id": "form-conf-small-business-ai-guide-for-smbs",
-    "headline": "The Guide to AI for Small Business",
-    "body": "AI can transform your small business for the better. Get the guide below to learn how.",
-    "button_text": "Download the guide",
-    "destination_url": "https://www.salesforce.com/form/conf/small-business/ai-guide-for-smbs/?leadcreated=true&redirect=true&sfuuid=efe86c4e-cf50-494a-ba81-c17a3dac6855&tid=577f38ae-67b9-4913-b7c3-681f9917a241&chapter=&d=70130000000sUVq&player=&nc=7013y000002RVYjAAO&videoId=&playlistId=",
+    "cta_id": "marketing",
+    "headline": "Power two-way conversations across every channel",
+    "body": "AgentforceMarketing brings autonomous AI agents, actionable data, and full-funnel workflows together. See how it works.",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/marketing/",
     "product": "sales_cloud",
     "funnel_stage": "awareness",
-    "content_type": "guide",
+    "content_type": "learning",
     "target_personas": [],
     "tags": [],
     "appearances": 3
@@ -411,6 +554,32 @@
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 3
+  },
+  {
+    "cta_id": "form-conf-small-business-smbs-implement-agentforce",
+    "headline": "5 Steps To Implementing AI Agents For Small Business",
+    "body": "Get the free e-book and get your AI agents up and running.",
+    "button_text": "Get the free e-book",
+    "destination_url": "https://www.salesforce.com/form/conf/small-business/smbs-implement-agentforce/?d=bcta",
+    "product": "agentforce",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 3
+  },
+  {
+    "cta_id": "dreamforce-register",
+    "headline": "Dreamforce is coming.",
+    "body": "Meet your future at the next Dreamforce, the AI conference of the year.",
+    "button_text": "Save your spot today",
+    "destination_url": "https://www.salesforce.com/dreamforce/register/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "event",
     "target_personas": [],
     "tags": [],
     "appearances": 3
@@ -533,6 +702,32 @@
     "appearances": 3
   },
   {
+    "cta_id": "products-revenue-intelligence",
+    "headline": "Get a full visual of your business in an instant",
+    "body": "Get complete visibility of your pipeline, forecast, and team — with Revenue Intelligence from Agentforce Sales.",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/products/revenue-intelligence/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 3
+  },
+  {
+    "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
+    "headline": "Seriously secure, from day one",
+    "body": "With tools like encryption, activity tracking, and audit logs, Shield gives you everything you need to protect your org’s data and keep moving forward.",
+    "button_text": "Get the guide",
+    "destination_url": "https://www.salesforce.com/form/platform/10-key-reasons-to-implement-salesforce-shield-on-day-1/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 3
+  },
+  {
     "cta_id": "form-platform-the-salesforce-devsecops-guide",
     "headline": "Get the best of both worlds",
     "body": "Security and innovation go hand-in-hand. Integrate security from the start, ensuring every process, app, and agent stays protected with the DevSecOps Guide.",
@@ -546,11 +741,89 @@
     "appearances": 3
   },
   {
+    "cta_id": "trailblazer-community-groups-0F94V000000DYhhSAG",
+    "headline": "Become a Datablazer today",
+    "body": "Accelerate your career growth by joining the Datablazer Community, where you can gain the skills you need, connect with fellow innovators, and be the first to know about Salesforce product news.",
+    "button_text": "Take a tour",
+    "destination_url": "https://trailhead.salesforce.com/trailblazer-community/groups/0F94V000000DYhhSAG?tab=discussion&sort=LAST_MODIFIED_DATE_DESC",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
+    "cta_id": "plus-experience-dreamforce_2025",
+    "headline": "Dive deeper into the agentic enterprise",
+    "body": "Watch on-demand sessions from Dreamforce, and learn how becoming an agentic enterprise has helped Salesforce redefine productivity, innovate with AI, and uplevel our employees.",
+    "button_text": "Watch & learn",
+    "destination_url": "https://www.salesforce.com/plus/experience/dreamforce_2025",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
     "cta_id": "en-jobs",
     "headline": "Blaze your trail to Salesforce!",
     "body": "At Salesforce, we’re not just shaping the future. We’re turning big ideas into breakthroughs. Want to join the #1 AI CRM that’s leading the digital labor revolution? Explore our open roles today!",
     "button_text": "Apply now",
     "destination_url": "https://careers.salesforce.com/en/jobs/?search=forward+deployed&pagesize=20#results",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
+    "cta_id": "form-conf-platform-4th-state-of-it-ai-and-app-deve",
+    "headline": "The future of AI development is here",
+    "body": "Explore the key takeaways from +2,000 IT and dev leaders in the 4th State of IT report.",
+    "button_text": "Explore the insights",
+    "destination_url": "https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
+    "cta_id": "en-us-wp-content-uploads-sites-4-documents-partner",
+    "headline": "Tech Partner Guide to Agentforce",
+    "body": "Your step-by-step guide to success with Agentforce",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/partners/agentforce-partner-guidebook-technology-partners.pdf",
+    "product": "agentforce",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
+    "cta_id": "partners-appexchange-partner",
+    "headline": "Become a Salesforce Partner",
+    "body": "UnifyAI, Data, and CRMon theSalesforce Platformto build intelligent customer experiences. Become a technology partner and innovate confidently.",
+    "button_text": "Get started",
+    "destination_url": "https://www.salesforce.com/partners/appexchange-partner/",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
+    "cta_id": "content-learn-modules-privacy-center",
+    "headline": "Start learning",
+    "body": "",
+    "button_text": "Start learning",
+    "destination_url": "https://trailhead.salesforce.com/content/learn/modules/privacy-center",
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "learning",
@@ -572,32 +845,6 @@
     "appearances": 2
   },
   {
-    "cta_id": "marketing",
-    "headline": "Power two-way conversations across every channel",
-    "body": "AgentforceMarketing brings autonomous AI agents, actionable data, and full-funnel workflows together. See how it works.",
-    "button_text": "Learn more",
-    "destination_url": "https://www.salesforce.com/marketing/",
-    "product": "sales_cloud",
-    "funnel_stage": "awareness",
-    "content_type": "learning",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 2
-  },
-  {
-    "cta_id": "https:--www.youtube.com-watch",
-    "headline": "Reimagine service at every touchpoint",
-    "body": "Learn how to deliver frictionless experiences, empower human experts, and reduce costs across every service discipline.",
-    "button_text": "Watch the TSIA ENVISION Keynote",
-    "destination_url": "https://www.youtube.com/watch?v=12BDXwoYGfs",
-    "product": "service_cloud",
-    "funnel_stage": "consideration",
-    "content_type": "general",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 2
-  },
-  {
     "cta_id": "content-learn-trails-get-ready-for-agentforce",
     "headline": "Start learning",
     "body": "",
@@ -611,14 +858,14 @@
     "appearances": 2
   },
   {
-    "cta_id": "form-conf-small-business-smbs-implement-agentforce",
-    "headline": "5 Steps To Implementing AI Agents For Small Business",
-    "body": "Get the free e-book and get your AI agents up and running.",
-    "button_text": "Get the free e-book",
-    "destination_url": "https://www.salesforce.com/form/conf/small-business/smbs-implement-agentforce/?d=bcta",
-    "product": "agentforce",
+    "cta_id": "en-content-learn-trails-build-ai-assistants-with-e",
+    "headline": "Visit Trail",
+    "body": "",
+    "button_text": "Visit Trail",
+    "destination_url": "https://trailhead.salesforce.com/en/content/learn/trails/build-ai-assistants-with-einstein-copilot",
+    "product": "sales_cloud",
     "funnel_stage": "awareness",
-    "content_type": "guide",
+    "content_type": "learning",
     "target_personas": [],
     "tags": [],
     "appearances": 2
@@ -689,6 +936,19 @@
     "appearances": 2
   },
   {
+    "cta_id": "form-sales-agentforce-for-sales-demos",
+    "headline": "Scale effortlessly with Agentforce",
+    "body": "Watch Agentforce in action, and discover how to retool for growth with AI-augmented sales.",
+    "button_text": "Watch demo",
+    "destination_url": "https://www.salesforce.com/form/sales/agentforce-for-sales-demos/",
+    "product": "agentforce",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
     "cta_id": "blog-human-ai-collaboration",
     "headline": "Human-AI Collaboration: 4 Ways To Master One of Today’s Hottest Skills",
     "body": "The more you understand how AI works, and the better you communicate with it, the more you’ll get out of it.",
@@ -736,6 +996,19 @@
     "product": "agentforce",
     "funnel_stage": "awareness",
     "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
+    "cta_id": "https:--join.serviceblazer.com",
+    "headline": "Join the Serviceblazer Communityon Slack",
+    "body": "Connect, learn, and grow with Shonnah and other customer service and field service professionals.",
+    "button_text": "Here's your invite",
+    "destination_url": "https://join.serviceblazer.com",
+    "product": "service_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
     "target_personas": [],
     "tags": [],
     "appearances": 2
@@ -806,27 +1079,14 @@
     "appearances": 2
   },
   {
-    "cta_id": "form-demo-sales-salesblazer",
-    "headline": "Onboard fast, sell faster",
-    "body": "See how Sales Cloud speeds up the sales cycle with data and AI, making you more efficient at every step.",
-    "button_text": "Watch the demo",
-    "destination_url": "https://www.salesforce.com/form/demo/sales/salesblazer/?d=7013y000000aCXIAA2&nc=7013y000002m7AMAAY",
-    "product": "sales_cloud",
-    "funnel_stage": "consideration",
-    "content_type": "demo",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 2
-  },
-  {
-    "cta_id": "products-sales-cloud",
-    "headline": "Drive pipe faster with a single source of truth",
-    "body": "Discover how Agentforce Sales uses data and AI to help you manage your pipeline, build relationships, and close deals fast.",
-    "button_text": "Learn more",
-    "destination_url": "https://www.salesforce.com/products/sales-cloud/",
+    "cta_id": "form-platform-sandboxes",
+    "headline": "Scale fast with Salesforce Sandboxes",
+    "body": "Learn the three characteristics of safe, efficient change management – plus other helpful development, security, and operations practices.",
+    "button_text": "Read the guide",
+    "destination_url": "http://www.salesforce.com/form/platform/sandboxes/",
     "product": "sales_cloud",
     "funnel_stage": "awareness",
-    "content_type": "learning",
+    "content_type": "guide",
     "target_personas": [],
     "tags": [],
     "appearances": 2
@@ -871,6 +1131,32 @@
     "appearances": 2
   },
   {
+    "cta_id": "https:--1.salesforce-partners.com-agentforceinacti",
+    "headline": "Agentforce Success Starts Here",
+    "body": "Get inspiration from customers working withSalesforce Partners to transform into Agentic Enterprises.",
+    "button_text": "Get the eBook",
+    "destination_url": "https://1.salesforce-partners.com/agentforceinaction",
+    "product": "agentforce",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
+    "cta_id": "content-learn-modules-spe_admins",
+    "headline": "Start learning",
+    "body": "",
+    "button_text": "Start learning",
+    "destination_url": "https://trailhead.salesforce.com/content/learn/modules/spe_admins",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 2
+  },
+  {
     "cta_id": "news-stories-opening-agentforce-360-to-builders",
     "headline": "Agentforce 360 for Builders",
     "body": "Salesforce Opens Agentforce 360 to Power a New Generation of AI-Native Partner-Built Companies.",
@@ -910,11 +1196,11 @@
     "appearances": 2
   },
   {
-    "cta_id": "form-platform-10-key-reasons-to-implement-salesfor",
-    "headline": "Seriously secure, from day one",
-    "body": "With tools like encryption, activity tracking, and audit logs, Shield gives you everything you need to protect your org’s data and keep moving forward.",
+    "cta_id": "form-conf-social-media-marketing",
+    "headline": "Your step-by-step playbook for social media success",
+    "body": "This guide shows how to grow steadily on social media with simple tips.",
     "button_text": "Get the guide",
-    "destination_url": "https://www.salesforce.com/form/platform/10-key-reasons-to-implement-salesforce-shield-on-day-1/",
+    "destination_url": "https://www.salesforce.com/form/conf/social-media-marketing/",
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "guide",
@@ -975,19 +1261,6 @@
     "appearances": 2
   },
   {
-    "cta_id": "flow-plus-df25-agendabuilder-page-agendabuilder",
-    "headline": "Plan your Dreamforce experience today",
-    "body": "With more than 1,500 sessions over three days, maximize your time by creating a schedule that suits your needs.",
-    "button_text": "Build your agenda",
-    "destination_url": "https://reg.salesforce.com/flow/plus/df25/agendabuilder/page/agendabuilder?_ga=2.205274256.1893455526.1758550633-765828898.1758301166",
-    "product": "sales_cloud",
-    "funnel_stage": "decision",
-    "content_type": "pricing",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
     "cta_id": "en-us-wp-content-uploads-sites-4-documents-events-",
     "headline": "Start becoming an agentic enterprise today",
     "body": "In this step-by-step guide, we show you how we’re building Salesforce into a true agentic enterprise.",
@@ -1009,19 +1282,6 @@
     "product": "general",
     "funnel_stage": "awareness",
     "content_type": "event",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
-    "cta_id": "plus-experience-dreamforce_2025",
-    "headline": "Dive deeper into the agentic enterprise",
-    "body": "Watch on-demand sessions from Dreamforce, and learn how becoming an agentic enterprise has helped Salesforce redefine productivity, innovate with AI, and uplevel our employees.",
-    "button_text": "Watch & learn",
-    "destination_url": "https://www.salesforce.com/plus/experience/dreamforce_2025",
-    "product": "sales_cloud",
-    "funnel_stage": "awareness",
-    "content_type": "learning",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -1105,19 +1365,6 @@
     "appearances": 1
   },
   {
-    "cta_id": "form-conf-platform-4th-state-of-it-ai-and-app-deve",
-    "headline": "The future of AI development is here",
-    "body": "Explore the key takeaways from +2,000 IT and dev leaders in the 4th State of IT report.",
-    "button_text": "Explore the insights",
-    "destination_url": "https://www.salesforce.com/form/conf/platform/4th-state-of-it-ai-and-app-development/",
-    "product": "sales_cloud",
-    "funnel_stage": "consideration",
-    "content_type": "general",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
     "cta_id": "form-conf-platform-data-masking-and-seeding-guide",
     "headline": "Secure your sandbox",
     "body": "Accelerate AI development with realistic (not *real*), secure test data for your sandbox with Data Mask & Seed.",
@@ -1191,32 +1438,6 @@
     "product": "agentforce",
     "funnel_stage": "awareness",
     "content_type": "learning",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
-    "cta_id": "en-us-wp-content-uploads-sites-4-documents-partner",
-    "headline": "Tech Partner Guide to Agentforce",
-    "body": "Your step-by-step guide to success with Agentforce",
-    "button_text": "Learn more",
-    "destination_url": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/partners/agentforce-partner-guidebook-technology-partners.pdf",
-    "product": "agentforce",
-    "funnel_stage": "awareness",
-    "content_type": "guide",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
-    "cta_id": "partners-appexchange-partner",
-    "headline": "Become a Salesforce Partner",
-    "body": "UnifyAI, Data, and CRMon theSalesforce Platformto build intelligent customer experiences. Become a technology partner and innovate confidently.",
-    "button_text": "Get started",
-    "destination_url": "https://www.salesforce.com/partners/appexchange-partner/",
-    "product": "sales_cloud",
-    "funnel_stage": "consideration",
-    "content_type": "general",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -1313,6 +1534,32 @@
     "appearances": 1
   },
   {
+    "cta_id": "resources-guides-voice-digital-customer-service",
+    "headline": "Get started with Voice AI",
+    "body": "Discover the five ways Voice AI can deliver personalized, intelligent, 24/7 self-service by phone — customers #1 preferred channel.",
+    "button_text": "Get the playbook",
+    "destination_url": "https://www.salesforce.com/resources/guides/voice-digital-customer-service/?d=pb",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "form-white-paper-prompt-builder-guide",
+    "headline": "Build your own custom solution",
+    "body": "Learn how to create prompts for your business needs and bring them into the flow of work in this free guide.",
+    "button_text": "Read the guide",
+    "destination_url": "https://www.salesforce.com/form/white-paper/prompt-builder-guide/?d=pb",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "content-learn-trails-get-started-with-life-science",
     "headline": "Get Started with Life Sciences Cloud",
     "body": "Learn how the Life Sciences Cloud can transform engagement across commercial, clinical, and patient journeys.",
@@ -1378,6 +1625,32 @@
     "appearances": 1
   },
   {
+    "cta_id": "dreamforce-dreamforce-101",
+    "headline": "A deep dive into agentic personalization",
+    "body": "Heading to San Francisco next week? Dinasha Cellura and Blake Miller will chat about how Typeface and Salesforce execute 1:1 personalization. This session will be on Oct 14 at 12:30pm PST in the Marketing Cloud Campground.",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/dreamforce/dreamforce-101/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "customer-stories-1800-accountant",
+    "headline": "Winning with Agentforce",
+    "body": "Find out how Agentforce 360 helped1-800Accountant resolve 70% tax-related inquiries around the clock.",
+    "button_text": "See more",
+    "destination_url": "https://www.salesforce.com/customer-stories/1800-accountant/",
+    "product": "agentforce",
+    "funnel_stage": "consideration",
+    "content_type": "social_proof",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "resources-research-reports-smb-trends",
     "headline": "Get the latest AI insights from the SMB Trends Report, 6th Edition",
     "body": "Discover the strategies used by small business leaders to meet challenges and drive impact using AI, Data, and CRM.",
@@ -1412,19 +1685,6 @@
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "learning",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
-    "cta_id": "dreamforce-register",
-    "headline": "Dreamforce is coming.",
-    "body": "Meet your future at the next Dreamforce, the AI conference of the year.",
-    "button_text": "Save your spot today",
-    "destination_url": "https://www.salesforce.com/dreamforce/register/",
-    "product": "sales_cloud",
-    "funnel_stage": "awareness",
-    "content_type": "event",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -1477,6 +1737,84 @@
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "healthcare-life-sciences-healthcare-artificial-int",
+    "headline": "Learn more",
+    "body": "",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/healthcare-life-sciences/healthcare-artificial-intelligence/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "agentforce-use-cases-healthcare-patient-access-ser",
+    "headline": "Learn more",
+    "body": "",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/agentforce/use-cases/healthcare/patient-access-services/",
+    "product": "agentforce",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "plus-experience-dreamforce_2025-series-healthcare_",
+    "headline": "Promote healthcare at the speed of life",
+    "body": "Stream keynotes, customer interviews, and select breakout sessions that bring the future of AI and Agentforce 360 for Health to life.",
+    "button_text": "Watch now",
+    "destination_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/healthcare_and_life_sciences_at_dreamforce_2025/episode/episode-s1e3",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "de-blog-fresenius-kabi-trailblazer",
+    "headline": "Read the story",
+    "body": "",
+    "button_text": "Read the story",
+    "destination_url": "https://www.salesforce.com/de/blog/fresenius-kabi-trailblazer/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "https:--everycure.org-ted",
+    "headline": "Learn more",
+    "body": "",
+    "button_text": "Learn more",
+    "destination_url": "https://everycure.org/ted/",
+    "product": "general",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "plus-experience-dreamforce_2025-series-healthcare_",
+    "headline": "Stream life sciences content on Salesforce+",
+    "body": "Watch keynotes, customer interviews, and select breakout sessions that bring the future of AI and Agentforce to life.",
+    "button_text": "Watch now",
+    "destination_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/healthcare_and_life_sciences_at_dreamforce_2025/episode/episode-s1e6",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -1768,6 +2106,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "content-learn-modules-get-to-know-consultant-role",
+    "headline": "See how",
+    "body": "",
+    "button_text": "See how",
+    "destination_url": "https://trailhead.salesforce.com/content/learn/modules/get-to-know-consultant-role?&utm_source=salesforce&utm_medium=blog-360&utm_campaign=trailblazer_blog&utm_content=careers_augjuly23_sf-consultant&icid=SFBLOG:tbc-blog:7010M0000025ltGQAQ&_ga=2.59296043.726669568.1690223695-724932888.1690235190",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "contents-small-business-marketing",
     "headline": "Marketing tips to scale your SMB",
     "body": "Get the marketing tips you need to scale your small business and watch your success grow. Simple, effective strategies that deliver results.",
@@ -1828,6 +2179,19 @@
     "product": "sales_cloud",
     "funnel_stage": "decision",
     "content_type": "trial",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "small-business-marketing-content-marketing",
+    "headline": "Build your brand with better content",
+    "body": "Learn how small businesses like yours use simple content strategies to grow their audience and boost engagement.",
+    "button_text": "Get the guide",
+    "destination_url": "https://www.salesforce.com/small-business/marketing/content-marketing/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -1898,6 +2262,45 @@
     "appearances": 1
   },
   {
+    "cta_id": "products-sales-planning",
+    "headline": "Sales planning can be delightful. No, really.",
+    "body": "Our Sales Planning solution keeps sellers on track with easy-to-build and easy-to-optimize sales plans.",
+    "button_text": "Create a better plan",
+    "destination_url": "https://www.salesforce.com/products/sales-planning/",
+    "product": "sales_cloud",
+    "funnel_stage": "decision",
+    "content_type": "pricing",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "form-sales-sales-planning-demo",
+    "headline": "Deliver sales plans that perform and adapt",
+    "body": "Learn how Sales Planning helps you optimize for customer coverage, and gives you the flexibility to handle change.",
+    "button_text": "Watch the demo",
+    "destination_url": "https://www.salesforce.com/form/sales/sales-planning-demo/?d=7013y000000aF1kAAE&nc=7013y000000aF1BAAU",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "decision-guides-data-360-provisioning",
+    "headline": "Discover Decision Guide: Data 360 Provisioning",
+    "body": "Learn how to choose your Data 360 provisioning strategy.",
+    "button_text": "Learn more",
+    "destination_url": "https://architect.salesforce.com/decision-guides/data-360-provisioning",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "security-resources",
     "headline": "Explore Salesforce security resources",
     "body": "",
@@ -1919,6 +2322,19 @@
     "product": "general",
     "funnel_stage": "consideration",
     "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "retail-cloud-pos",
+    "headline": "Learn why leading retailers use Retail Cloud POS",
+    "body": "Unlock a unified commerce platform and elevate the shopping experience from check-in to check out.",
+    "button_text": "See how it works",
+    "destination_url": "https://www.salesforce.com/retail/cloud-pos/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -1958,6 +2374,32 @@
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "crm-what-is-crm",
+    "headline": "What is CRM?",
+    "body": "Our free guide gives you all the CRM basics, including what it does, its benefits, and why a CRM system is important for your business.",
+    "button_text": "See the value",
+    "destination_url": "https://www.salesforce.com/crm/what-is-crm/",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "content-learn-trails-make-crm-ai-data-your-trusted",
+    "headline": "Get started now",
+    "body": "",
+    "button_text": "Get started now",
+    "destination_url": "https://trailhead.salesforce.com/content/learn/trails/make-crm-ai-data-your-trusted-formula",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -2080,6 +2522,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "https:--login.salesforce.com",
+    "headline": "Power up Foundations with Data 360",
+    "body": "",
+    "button_text": "Activate Data 360 for Free",
+    "destination_url": "https://login.salesforce.com/?_ga=2.231949343.1247097896.1758523032-2001771844.1755552799&_gac=1.58265176.1758912384.CjwKCAjw89jGBhB0EiwA2o1On39fEAgNenTEKw7E0AVP1cdq28XTeAnkD22bsaClnHvBph7cjEjHZxoCTb4QAvD_BwE",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "content-learn-modules-data-privacy",
     "headline": "Start learning",
     "body": "",
@@ -2145,6 +2600,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "plus-experience-dreamforce_2025-series-sales_at_dr",
+    "headline": "Want to explore more Dreamforce content?",
+    "body": "Watch the top sales sessions on demand for free on Salesforce+.",
+    "button_text": "Watch now",
+    "destination_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/series/sales_at_dreamforce_2025",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "marketing-demos-distributed-marketing-demo",
     "headline": "Optimize campaigns for sellers",
     "body": "Learn how you can empower sellers with pre-approved email templates and surface leads with AI-powered alerts.",
@@ -2153,6 +2621,19 @@
     "product": "sales_cloud",
     "funnel_stage": "consideration",
     "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "plus-experience-dreamforce_2025-broadcast-day-1-ch",
+    "headline": "Stream the Marketing Keynote on Oct 16",
+    "body": "Join us for the full keynote, customer interviews and expert analysis from Dreamforce, all for free.",
+    "button_text": "Watch on Salesforce+",
+    "destination_url": "https://www.salesforce.com/plus/experience/dreamforce_2025/broadcast/day-1-channel-1/segment/a7TKX000000XZGF2A4",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -2171,27 +2652,14 @@
     "appearances": 1
   },
   {
-    "cta_id": "products-revenue-cycle-management",
-    "headline": "Unify sales, finance, and legal on the #1 AI CRM",
-    "body": "When sales, finance, and legal are disconnected, the customer feels the pain. Learn how Agentforce Revenue Management can help.",
-    "button_text": "Connect every touchpoint",
-    "destination_url": "https://www.salesforce.com/products/revenue-cycle-management/",
+    "cta_id": "products-sales-engagement-platform",
+    "headline": "A new way to go from lead to close",
+    "body": "Harness CRM data outside the CRM with Sales Engagement, and engage buyers as they move across the web.",
+    "button_text": "Engage buyers everywhere",
+    "destination_url": "https://www.salesforce.com/products/sales-engagement-platform/",
     "product": "sales_cloud",
     "funnel_stage": "consideration",
     "content_type": "general",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
-    "cta_id": "form-sales-revenue-lifecycle-management-demo",
-    "headline": "Every channel and revenue stream on one platform",
-    "body": "See how Agentforce Revenue Management goes from quote to cash on one platform, giving sales and finance one customer view.",
-    "button_text": "Watch the demo",
-    "destination_url": "https://www.salesforce.com/form/sales/revenue-lifecycle-management-demo/?d=pb",
-    "product": "sales_cloud",
-    "funnel_stage": "consideration",
-    "content_type": "demo",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -2218,6 +2686,32 @@
     "product": "general",
     "funnel_stage": "consideration",
     "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "form-conf-platform-the-salesforce-devsecops-guide",
+    "headline": "Security from the start",
+    "body": "Make sure every agent, app, process, and workflow that you build stays protected by integrating security from the very beginning.",
+    "button_text": "Download for free",
+    "destination_url": "https://www.salesforce.com/form/conf/platform/the-salesforce-devsecops-guide/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "fundamentals-agent-development-lifecycle",
+    "headline": "Learn more about the Agentforce Development Lifecycle",
+    "body": "Dive deeper into each phase, how to build a sophisticated agent with Agentforce following the ADLC, and review a sample implementation of Agentforce.",
+    "button_text": "Learn more",
+    "destination_url": "https://architect.salesforce.com/fundamentals/agent-development-lifecycle",
+    "product": "agentforce",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -2301,6 +2795,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "commerce",
+    "headline": "Step into the future of commerce",
+    "body": "Achieve goals faster, raise revenue, and drive automation with the most flexible ecommerce platform.",
+    "button_text": "Learn how",
+    "destination_url": "https://www.salesforce.com/commerce/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "service-resources-it-service-guide",
     "headline": "The future of IT service is agentic",
     "body": "Learn how AI agents deliver frictionless IT service with automation, intelligence, and security.",
@@ -2359,6 +2866,19 @@
     "button_text": "Learn more",
     "destination_url": "https://info.codepath.org/futureforce-tech-launchpad",
     "product": "general",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "company-product-accessibility-inclusive-design",
+    "headline": "Creating better products — for all.",
+    "body": "We are firm in our commitment to product inclusion. Discover our product accessibility efforts and inclusive design standards.",
+    "button_text": "Learn More",
+    "destination_url": "https://www.salesforce.com/company/product-accessibility-inclusive-design/",
+    "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "learning",
     "target_personas": [],
@@ -2509,6 +3029,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "flow-plus-df25-sessioncatalog-page-catalog-session",
+    "headline": "Learn how to prompt like a pro",
+    "body": "If you’re going to Dreamforce, check out this session led by Ji-Young Jang and Scott Robbins on how to give clear instructions to AI.",
+    "button_text": "Add to your agenda",
+    "destination_url": "https://reg.salesforce.com/flow/plus/df25/sessioncatalog/page/catalog/session/1748987016701001hjmD",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "blog-wp-content-uploads-sites-2-2025-07-Score_Esse",
     "headline": "Download our Essential Data Sources worksheet",
     "body": "For each data source your agents will need, score its readiness from 1 (needs significant improvement) to 3 (well established). Identify an action to prepare this data for implementing AI agents, and assign an accountability owner.",
@@ -2652,6 +3185,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "net-zero",
+    "headline": "Get started",
+    "body": "",
+    "button_text": "Get started",
+    "destination_url": "https://www.salesforce.com/net-zero/",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "plus-experience-agentforce_world_tour_nyc_winter_2",
     "headline": "Watch Apply an Architect Lens to Code Extension",
     "body": "Explore how to use Data 360 using Code Extensions with an architect’s lens. We’ll cover when to use pro-code, what to consider, and how to align your design with the Well-Architected Framework.",
@@ -2769,19 +3315,6 @@
     "appearances": 1
   },
   {
-    "cta_id": "content-learn-modules-privacy-center",
-    "headline": "Start learning",
-    "body": "",
-    "button_text": "Start learning",
-    "destination_url": "https://trailhead.salesforce.com/content/learn/modules/privacy-center",
-    "product": "sales_cloud",
-    "funnel_stage": "awareness",
-    "content_type": "learning",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
     "cta_id": "sales-revenue-lifecycle-management",
     "headline": "Unify sales, finance, and legal on the #1 AI CRM with Agentforce Revenue Management",
     "body": "When sales, finance, and legal are disconnected, the customer feels the pain. Learn how Agentforce Revenue Management can help.",
@@ -2821,6 +3354,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "form-sales-sales-ai-playbook",
+    "headline": "Learn 7 ways reps can use AI to speed up sales",
+    "body": "See real-life examples of using AI to sell, from automating prospecting to writing emails and getting real-time guidance.",
+    "button_text": "Get the free e-book",
+    "destination_url": "https://www.salesforce.com/form/sales/sales-ai-playbook/?d=7013y000002OsuXAAS&nc=7013y000002OsuSAAS",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "content-learn-modules-developer_console-developer_",
     "headline": "Start the module",
     "body": "",
@@ -2847,6 +3393,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "certificate-exam-revenue-cloud-consultant---Rev-Co",
+    "headline": "Schedule your exam",
+    "body": "",
+    "button_text": "Schedule your exam",
+    "destination_url": "https://trailheadacademy.salesforce.com/certificate/exam-revenue-cloud-consultant---Rev-Con-201",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "events-webinars-agentforce-sales-spring-26-pipelin",
     "headline": "Catch our latest innovations on the Spring ’26 Release webinar",
     "body": "Preview enhancements across pipeline management, account management, and more — plugs, get live demos of the latest Agentforce Sales capabilities.",
@@ -2855,6 +3414,45 @@
     "product": "agentforce",
     "funnel_stage": "awareness",
     "content_type": "event",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "small-business-sales-smb-sales-guide",
+    "headline": "Boost sales with expert guidance",
+    "body": "Learn how to build a strong sales pipeline and close more deals with expert strategies from this small business sales guide.",
+    "button_text": "Read the guide",
+    "destination_url": "https://www.salesforce.com/small-business/sales/smb-sales-guide/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "products-incentive-compensation-management",
+    "headline": "Motivate your team with transparent incentive pay",
+    "body": "Discover the power of automating commissions with Salesforce Spiff, and easily create incentive programs that scale.",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/products/incentive-compensation-management/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "form-conf-sales-demo-icm",
+    "headline": "Launch sophisticated compensation plans fast",
+    "body": "Is outdated commissions management hurting your growth? See how to quickly create automated incentive plans that motivate your reps.",
+    "button_text": "Watch the demo",
+    "destination_url": "https://www.salesforce.com/form/conf/sales/demo-icm/?leadcreated=true&redirect=true&sfuuid=b2f0c667-d126-4ba7-af00-a141b8fc5b6c&d=pb&nc=7013y000001zwMHAAY",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -2881,6 +3479,45 @@
     "product": "sales_cloud",
     "funnel_stage": "consideration",
     "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "products-sales-enablement",
+    "headline": "Make your enablement about results, not effort",
+    "body": "Close your revenue gaps and get more out of every rep — with Sales Programs delivered in your CRM.",
+    "button_text": "Learn more",
+    "destination_url": "https://www.salesforce.com/products/sales-enablement/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "form-demo-sales-sales-enablement",
+    "headline": "Tee up for success",
+    "body": "See how Sales Programs from Agentforce Sales helps reps win more — and win bigger — within the flow of work.",
+    "button_text": "Watch the demo",
+    "destination_url": "https://www.salesforce.com/form/demo/sales/sales-enablement/?d=7013y000000aG9fAAE&nc=7013y000000aG70AAE",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "form-sales-revenue-intelligence-demo",
+    "headline": "Get pipeline intel you can act on in any scenario",
+    "body": "See how Revenue Intelligence helps you model the impact of adding or removing deals to make your forecast.",
+    "button_text": "Watch the demo",
+    "destination_url": "https://www.salesforce.com/form/sales/revenue-intelligence-demo/?d=7013y000000aF1pAAE&nc=7013y000000aF1aAAE",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -2951,14 +3588,40 @@
     "appearances": 1
   },
   {
-    "cta_id": "https:--1.salesforce-partners.com-agentforceinacti",
-    "headline": "Agentforce Success Starts Here",
-    "body": "Access inspiration from customers working withSalesforce Partners to transform into Agentic Enterprises.",
-    "button_text": "Get the free eBook",
-    "destination_url": "https://1.salesforce-partners.com/agentforceinaction",
-    "product": "agentforce",
+    "cta_id": "en-categories",
+    "headline": "Learn more about compliance",
+    "body": "",
+    "button_text": "Here",
+    "destination_url": "https://compliance.salesforce.com/en/categories",
+    "product": "sales_cloud",
     "funnel_stage": "awareness",
-    "content_type": "guide",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "flow-plus-df25-sessioncatalog-page-catalog",
+    "headline": "Check out all of our sessions",
+    "body": "Want to see how we’ve used our own products to build an agentic enterprise? Look through our full catalog and book these sessions before they fill up!",
+    "button_text": "Show me everything",
+    "destination_url": "https://reg.salesforce.com/flow/plus/df25/sessioncatalog/page/catalog?search.topic=1684280550105011B7po",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "form-events-webinars-form-rss-4969847",
+    "headline": "Data 360 + automation = ROI",
+    "body": "In this behind-the-scenes webinar, you’ll learn how Salesforce used Data 360 to unlock the value of more than 264 million profiles and over 40 billion signals to personalize every touchpoint.",
+    "button_text": "Watch now",
+    "destination_url": "https://www.salesforce.com/form/events/webinars/form-rss/4969847",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "event",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -2985,19 +3648,6 @@
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "learning",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
-    "cta_id": "form-platform-sandboxes",
-    "headline": "How to Scale Fast with Salesforce Sandboxes",
-    "body": "Learn the characteristics of safe, efficient change management – plus other helpful development, security, and operations practices.",
-    "button_text": "Download for free",
-    "destination_url": "http://www.salesforce.com/form/platform/sandboxes/",
-    "product": "sales_cloud",
-    "funnel_stage": "awareness",
-    "content_type": "guide",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -3068,19 +3718,6 @@
     "appearances": 1
   },
   {
-    "cta_id": "content-learn-modules-spe_admins",
-    "headline": "Start learning",
-    "body": "",
-    "button_text": "Start learning",
-    "destination_url": "https://trailhead.salesforce.com/content/learn/modules/spe_admins",
-    "product": "sales_cloud",
-    "funnel_stage": "awareness",
-    "content_type": "learning",
-    "target_personas": [],
-    "tags": [],
-    "appearances": 1
-  },
-  {
     "cta_id": "content-learn-modules-salesforce-sandboxes-quick-l",
     "headline": "Visit Trail",
     "body": "",
@@ -3133,14 +3770,14 @@
     "appearances": 1
   },
   {
-    "cta_id": "form-conf-social-media-marketing",
-    "headline": "Your step-by-step playbook for social media success",
-    "body": "This guide shows how to grow steadily on social media with simple tips.",
-    "button_text": "Get the guide",
-    "destination_url": "https://www.salesforce.com/form/conf/social-media-marketing/",
+    "cta_id": "content-learn-modules-manage_the_sfdc_way_virtual_",
+    "headline": "Visit Trail",
+    "body": "",
+    "button_text": "Visit Trail",
+    "destination_url": "https://trailhead.salesforce.com/content/learn/modules/manage_the_sfdc_way_virtual_collaboration",
     "product": "sales_cloud",
     "funnel_stage": "awareness",
-    "content_type": "guide",
+    "content_type": "learning",
     "target_personas": [],
     "tags": [],
     "appearances": 1
@@ -3256,6 +3893,32 @@
     "button_text": "Watch the Salesforce+ Video",
     "destination_url": "https://www.salesforce.com/plus/experience/discover_agentforce/series/discover_agentforce/episode/episode-s1e10",
     "product": "agentforce",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "blog-ai-sustainability-strategy",
+    "headline": "Does your AI strategy include sustainability?",
+    "body": "Explore our 3-step guide to starting and scaling your AI sustainability strategy.",
+    "button_text": "Read now",
+    "destination_url": "https://www.salesforce.com/blog/ai-sustainability-strategy/",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "company-sustainability",
+    "headline": "Collective action is the only way forward.",
+    "body": "Learn more about sustainability and impact at Salesforce.",
+    "button_text": "Our Journey",
+    "destination_url": "https://www.salesforce.com/company/sustainability/",
+    "product": "sales_cloud",
     "funnel_stage": "consideration",
     "content_type": "general",
     "target_personas": [],
@@ -3523,6 +4186,19 @@
     "appearances": 1
   },
   {
+    "cta_id": "form-sales-sales-analytics-demos",
+    "headline": "Use AI to hit your forecast every time",
+    "body": "Spot and address pipeline gaps that threaten your forecast. Discover how with Sales Analytics from Agentforce Sales.",
+    "button_text": "Watch the demo",
+    "destination_url": "https://www.salesforce.com/form/sales/sales-analytics-demos?d=7013y000000aG9pAAE&nc=7013y000000aG76AAE",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "form-events-webinars-form-rss-4933898",
     "headline": "Give your data a safety net",
     "body": "Explore the capabilities of Backup & Recover that ensure your data remains secure and recoverable.",
@@ -3536,11 +4212,11 @@
     "appearances": 1
   },
   {
-    "cta_id": "en-content-learn-trails-build-ai-assistants-with-e",
-    "headline": "Visit Trail",
+    "cta_id": "security-video-series",
+    "headline": "Watch our new video seriesto learn more.",
     "body": "",
-    "button_text": "Visit Trail",
-    "destination_url": "https://trailhead.salesforce.com/en/content/learn/trails/build-ai-assistants-with-einstein-copilot",
+    "button_text": "Here",
+    "destination_url": "https://security.salesforce.com/security-video-series",
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "learning",
@@ -3601,6 +4277,32 @@
     "appearances": 1
   },
   {
+    "cta_id": "trailblazer-community-groups-0F94S000000kQMe",
+    "headline": "Get discovery call tips from Salesblazers",
+    "body": "Together, we’re building the largest and most successful community of sales professionals. Dive in to learn discovery best practices from sales experts across industries.",
+    "button_text": "Get started",
+    "destination_url": "https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000kQMe?tab=discussion&sort=LAST_MODIFIED_DATE_DESC",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "form-sales-sales-engagement-demos",
+    "headline": "Sell faster by connecting with buyers on their terms",
+    "body": "Your prospects want to engage with you over their preferred channels and during their preferred times. Let them. Sales Engagement helps you meet your buyers where they already are with automation and insights to speed everything up every step of the deal.",
+    "button_text": "Watch the demo",
+    "destination_url": "https://www.salesforce.com/form/sales/sales-engagement-demos/?d=7013y000000aDmKAAU&nc=7013y000000aDmFAAU",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "https:--www.salesforce.org-nonprofit",
     "headline": "Learn more about Salesforce for Nonprofits",
     "body": "",
@@ -3633,6 +4335,19 @@
     "button_text": "Read for free",
     "destination_url": "https://www.tableau.com/en-gb/learn/whitepapers/total-economic-impact-report-tableau?d=7013y000000aKEEAA2&nc=7013y000000aKE9AAM&_ga=2.242919106.1927153277.1757517329-90451283.1740749915&_gl=1*3wjrw1*_gcl_au*MzcyNTE5NDg0LjE3NTY5ODg0Mjg.*_ga*OTA0NTEyODMuMTc0MDc0OTkxNQ..*_ga_3VHBZ2DJWP*czE3NTc1OTkxMDckbzQ3JGcxJHQxNzU3NjAyMTMzJGo0MSRsMCRoMA..",
     "product": "tableau",
+    "funnel_stage": "awareness",
+    "content_type": "guide",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "resources-research-reports-state-of-sales",
+    "headline": "What trends drive sales productivity today?",
+    "body": "Get the State of Sales Report to discover AI and productivity insights from thousands of sales professionals.",
+    "button_text": "Get the free report",
+    "destination_url": "https://www.salesforce.com/resources/research-reports/state-of-sales/?d=7013y000002m7AqAAI&nc=7013y000002m7AlAAI",
+    "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "guide",
     "target_personas": [],
@@ -3679,11 +4394,50 @@
     "appearances": 1
   },
   {
+    "cta_id": "blog-agentforce-is-oem-ready",
+    "headline": "Agentforce for OEMs Blog",
+    "body": "Salesforce Agentforce for OEMunifiesAI + Data + CRM + Trustto instantly accelerate partners’ time-to-market for building and monetizing next-generation, recurring revenue AI solutions.",
+    "button_text": "Read now",
+    "destination_url": "https://www.salesforce.com/blog/agentforce-is-oem-ready/",
+    "product": "agentforce",
+    "funnel_stage": "consideration",
+    "content_type": "general",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
     "cta_id": "https:--workforcenavigators.salesforce.com",
     "headline": "Workforce Navigatorshelps you find your path.",
     "body": "The Workforce Navigators program supports and enables programs that train professionals with disabilities, ensuring they are equipped with in-demand Salesforce skills and certifications.",
     "button_text": "Learn More",
     "destination_url": "https://workforcenavigators.salesforce.com/",
+    "product": "sales_cloud",
+    "funnel_stage": "awareness",
+    "content_type": "learning",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "https:--podcasts.apple.com-us-podcast-125-how-yoga",
+    "headline": "Listen to the full interview for more details about the 6-week migration",
+    "body": "Hear the whole story and learn more about Yoga Democracy’s approach.",
+    "button_text": "Tune in",
+    "destination_url": "https://podcasts.apple.com/us/podcast/125-how-yoga-democracy-went-from-shopify-to-salesforce/id1654981816?i=1000729668553",
+    "product": "sales_cloud",
+    "funnel_stage": "consideration",
+    "content_type": "demo",
+    "target_personas": [],
+    "tags": [],
+    "appearances": 1
+  },
+  {
+    "cta_id": "en-trailblazercommunity",
+    "headline": "Join the Trailblazer Community today",
+    "body": "Want to learn more about the Trailblazer Community? Join us!",
+    "button_text": "Get started here",
+    "destination_url": "https://trailhead.salesforce.com/en/trailblazercommunity",
     "product": "sales_cloud",
     "funnel_stage": "awareness",
     "content_type": "learning",

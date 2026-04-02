@@ -1,0 +1,41 @@
+{
+  "url": "https://www.salesforce.com/blog/choosing-data-cloud-provisioning-strategy-decision-guide/?bc=DB",
+  "slug": "choosing-data-cloud-provisioning-strategy-decision-guide",
+  "title": "Choosing Your Data 360 Provisioning Strategy",
+  "author": "Kunal Goyal, Erin Wagner Tidwell, Yugandhar Bora",
+  "published_date": "2025-10-13T01:00:00+00:00",
+  "category": "",
+  "sections": [
+    {
+      "index": 0,
+      "heading": "Introduction",
+      "text": "Enterprises with Data 360 and multiple Salesforce orgs face an important architectural decision: how to bring customer data together in a way that strengthens governance, compliance, and cost efficiency. The choice of how to provision Salesforce Data 360 is a foundational decision that impacts everything from AI readiness to platform features and overall scalability. To help you navigate this complexity, we published a comprehensiveDecision Guide: Data 360 Provisioning. This guide is designed for architects and technical leaders and focuses on three core strategic choices: Choosing Your Home Org:Should you provision Data 360 in an existing major org or create a new, dedicated one?The Multi-Org Strategy:Why isData 360 Onethe recommended default for creating a single source of truth across your orgs?Collaborating Across Separate Data 360s:Strategic guidance on how and when to transition to a Data 360 One cluster versus set up Zero Copy data sharing between Data 360s.",
+      "word_count": 147,
+      "has_existing_cta": false,
+      "inline_links": [
+        {
+          "text": "Decision Guide: Data 360 Provisioning",
+          "href": "https://architect.salesforce.com/decision-guides/data-360-provisioning"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "Why Utilize the Data 360 Provisioning Decision Guide",
+      "text": "A Decision Guide is a resource designed to help architects evaluate critical choices with clarity and consistency and choose the right Salesforce tools for your solutions. Instead of a one-size-fits-all prescriptive approach, Decision Guides outline: The context of the decisionThe trade-offs of each approachBest practices informed by real-world implementations The goal is to help you make intentional, well-documented choices that align with your architectural strategy—rather than reactive decisions that create downstream complexity and technical debt down the line.",
+      "word_count": 78,
+      "has_existing_cta": true,
+      "inline_links": []
+    }
+  ],
+  "existing_ctas": [
+    {
+      "heading": "Discover Decision Guide: Data 360 Provisioning",
+      "body": "Learn how to choose your Data 360 provisioning strategy.",
+      "button_text": "Learn more",
+      "button_url": "https://architect.salesforce.com/decision-guides/data-360-provisioning",
+      "position_after_section": 1
+    }
+  ],
+  "raw_html": "<div class=\"post__content post__content-v2\">\n<p class=\"is-style-default\">Enterprises with Data 360 and multiple Salesforce orgs face an important architectural decision: how to bring customer data together in a way that strengthens governance, compliance, and cost efficiency. </p>\n<p>The choice of how to provision Salesforce Data 360 is a foundational decision that impacts everything from AI readiness to platform features and overall scalability.  To help you navigate this complexity, we published a comprehensive <strong><a href=\"https://architect.salesforce.com/decision-guides/data-360-provisioning\" rel=\"noopener\" target=\"_blank\">Decision Guide: Data 360 Provisioning</a></strong>. This guide is designed for architects and technical leaders and focuses on three core strategic choices:</p>\n<ol class=\"wp-block-list\">\n<li><strong>Choosing Your Home Org:</strong> Should you provision Data 360 in an existing major org or create a new, dedicated one?  </li>\n<li><strong>The Multi-Org Strategy:</strong> Why is <strong>Data 360 One</strong> the recommended default for creating a single source of truth across your orgs?  </li>\n<li><strong>Collaborating Across Separate Data 360s:</strong> Strategic guidance on how and when to transition to a Data 360 One cluster versus set up Zero Copy data sharing between Data 360s.</li>\n</ol>\n<h2 class=\"wp-block-heading\" id=\"h-why-utilize-the-data-360-provisioning-decision-guide\">Why Utilize the Data 360 Provisioning Decision Guide</h2>\n<p>A Decision Guide is a resource designed to help architects evaluate critical choices with clarity and consistency and choose the right Salesforce tools for your solutions. Instead of a one-size-fits-all prescriptive approach, Decision Guides outline:</p>\n<ul class=\"wp-block-list\">\n<li>The context of the decision</li>\n<li>The trade-offs of each approach</li>\n<li>Best practices informed by real-world implementations</li>\n</ul>\n<p>The goal is to help you make intentional, well-documented choices that align with your architectural strategy—rather than reactive decisions that create downstream complexity and technical debt down the line.</p>\n<div class=\"layout-one wp-block-salesforce-blog-offer\">\n<div class=\"wp-block-offer__wrapper\">\n<div class=\"wp-block-offer__content\">\n<h2 class=\"wp-block-offer__title\">Discover Decision Guide: Data 360 Provisioning</h2>\n<p class=\"wp-block-offer__description\">Learn how to choose your Data 360 provisioning strategy.</p>\n<div class=\"wp-block-button\">\n<a class=\"wp-block-button__link\" href=\"https://architect.salesforce.com/decision-guides/data-360-provisioning\" target=\"_blank\">Learn more</a>\n</div>\n</div>\n<div class=\"wp-block-offer__media\">\n</div>\n</div>\n<div class=\"wp-block-offer__graphics wp-block-offer__contour\"></div>\n<!-- Standard Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__illustration\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-illustration-layout-one.png\"/>\n<!-- Small Accent Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__accent\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-accent-layout-one.png\"/>\n<!-- Left Side Illustration -->\n<!-- Cloud Illustration -->\n<img alt=\"\" class=\"wp-block-offer__graphics wp-block-offer__cloud\" decoding=\"async\" src=\"https://www.salesforce.com/blog/wp-content/themes/salesforce-blog/dist/images/offer-block/offer-cloud-layout-one.png\"/>\n</div>\n<h2 class=\"wp-block-heading\" id=\"h-\"></h2>\n<p></p>\n</div>"
+}
