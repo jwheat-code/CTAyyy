@@ -284,13 +284,18 @@ if analyses:
     csv = health_df.to_csv(index=False)
     st.sidebar.download_button("Export Summary CSV", csv, "cta_health_summary.csv", "text/csv")
 
-# Crawl & Analyze button (local only)
+# Crawl & Analyze button (password-protected)
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Refresh Content**")
 unanalyzed = [s for s in articles if s not in analyses]
 if unanalyzed:
     st.sidebar.caption(f"{len(unanalyzed)} crawled article(s) not yet analyzed")
-if st.sidebar.button("Crawl & Analyze New (2026)", type="primary"):
+crawl_pw = st.sidebar.text_input("Admin password", type="password", key="crawl_pw")
+crawl_clicked = st.sidebar.button("Crawl & Analyze New (2026)", type="primary")
+if crawl_clicked and crawl_pw != "cta2026!":
+    st.sidebar.error("Wrong password.")
+    crawl_clicked = False
+if crawl_clicked:
     scripts_dir = PROJECT_ROOT / "scripts"
     sitemap_cmd = [sys.executable, str(scripts_dir / "fetch_sitemap_urls.py")]
     crawl_cmd = [sys.executable, str(scripts_dir / "crawl_from_sitemap.py"), "--limit", "100"]
