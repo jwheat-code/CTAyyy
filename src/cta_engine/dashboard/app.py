@@ -22,6 +22,40 @@ CRAWLED_DIR = DATA_DIR / "crawled"
 CLASSIFIED_DIR = DATA_DIR / "classified"
 CTA_LIBRARY_PATH = DATA_DIR / "cta_library.json"
 TRAIL_LIBRARY_PATH = DATA_DIR / "trail_library.json"
+COMPETITORS_DIR = DATA_DIR / "competitors"
+
+BRAND_CONFIG = {
+    "Salesforce": {"color": "#00A1E0", "icon": "☁️"},
+    "HubSpot": {"color": "#FF7A59", "icon": "🟠"},
+    "Shopify": {"color": "#96BF48", "icon": "🟢"},
+    "ServiceNow": {"color": "#81B5A1", "icon": "🔧"},
+}
+
+
+def load_competitor_summary(name: str) -> dict | None:
+    """Load a competitor audit JSON by name (e.g. 'hubspot')."""
+    path = COMPETITORS_DIR / f"{name.lower()}.json"
+    if not path.exists():
+        return None
+    with open(path) as f:
+        return json.load(f)
+
+
+def build_competitor_health_df(data: dict) -> pd.DataFrame:
+    """Build a summary DataFrame from competitor audit data."""
+    rows = []
+    for row in data.get("article_rows", []):
+        rows.append({
+            "Article": row.get("title", ""),
+            "Author": row.get("author", ""),
+            "Published": row.get("published", row.get("date", "")),
+            "Sections": row.get("sections", 0),
+            "Misaligned": row.get("misaligned", 0),
+            "Aligned": row.get("sections", 0) - row.get("misaligned", 0),
+            "Health Score": row.get("health", 0),
+            "Has Analysis": True,
+        })
+    return pd.DataFrame(rows)
 
 
 def load_cta_library() -> dict:
@@ -139,44 +173,108 @@ def build_health_df(analyses: dict, articles: dict) -> pd.DataFrame:
 
 # --- Page Config ---
 st.set_page_config(page_title="CTA Engine", page_icon="🎯", layout="wide")
-st.title("CTA Engine — Health Report")
 
-# Load data
-cta_library = load_cta_library()
-trail_library = load_trail_library()
-articles = load_crawled_articles()
-analyses = load_analyses()
+# --- Top Bar: Brand Selector + Year Picker ---
+available_brands = ["Salesforce"]
+for name in ["HubSpot", "Shopify", "ServiceNow"]:
+    if (COMPETITORS_DIR / f"{name.lower()}.json").exists():
+        available_brands.append(name)
 
+top_cols = st.columns([3] + [1] * len(available_brands) + [1])
+with top_cols[0]:
+    st.title("CTA Engine — Health Report")
 
-if not articles:
-    st.warning("No crawled articles found. Run the crawler first: `python scripts/crawl.py`")
-    st.stop()
+for i, brand in enumerate(available_brands):
+    cfg = BRAND_CONFIG.get(brand, {})
+    with top_cols[i + 1]:
+        if st.button(f"{cfg.get('icon', '')} {brand}", key=f"brand_{brand}", use_container_width=True):
+            st.session_state["selected_brand"] = brand
+
+with top_cols[-1]:
+    selected_year = st.selectbox("Year", ["2026", "2025", "All"], index=0, key="year_filter")
+
+selected_brand = st.session_state.get("selected_brand", "Salesforce")
+is_competitor = selected_brand != "Salesforce"
+
+# --- Load data based on brand ---
+if is_competitor:
+    competitor_data = load_competitor_summary(selected_brand)
+    if not competitor_data:
+        st.error(f"No data found for {selected_brand}")
+        st.stop()
+    # Filter competitor articles by year
+    if selected_year != "All" and competitor_data.get("article_rows"):
+        competitor_data["article_rows"] = [
+            r for r in competitor_data["article_rows"]
+            if (r.get("published") or r.get("date", "")).startswith(selected_year)
+        ]
+        # Recompute totals from filtered rows
+        competitor_data["total_articles"] = len(competitor_data["article_rows"])
+        competitor_data["total_sections"] = sum(r.get("sections", 0) for r in competitor_data["article_rows"])
+        competitor_data["total_cta_issues"] = sum(r.get("misaligned", 0) for r in competitor_data["article_rows"])
+        competitor_data["healthy_articles"] = sum(1 for r in competitor_data["article_rows"] if r.get("health", 0) >= 0.7)
+    cta_library = {}
+    trail_library = {}
+    articles = {}
+    analyses = {}
+else:
+    competitor_data = None
+    cta_library = load_cta_library()
+    trail_library = load_trail_library()
+    articles = load_crawled_articles()
+    analyses = load_analyses()
+
+    # Filter Salesforce data by year
+    if selected_year != "All":
+        articles = {
+            slug: a for slug, a in articles.items()
+            if (a.get("published_date") or "")[:4] == selected_year
+        }
+        analyses = {
+            slug: a for slug, a in analyses.items()
+            if slug in articles
+        }
+
+    if not articles:
+        st.warning(f"No articles found for {selected_year}. Try a different year.")
+        st.stop()
 
 # --- Sidebar ---
 st.sidebar.header("Controls")
 
-# Article selector
+if is_competitor:
+    # Competitor mode — simplified sidebar
+    cd = competitor_data
+    total_articles = cd.get("total_articles", len(cd.get("article_rows", [])))
+    avg = sum(r.get("health", 0) for r in cd.get("article_rows", [])) / total_articles if total_articles else 0
+    st.sidebar.metric("Total Articles", total_articles)
+    st.sidebar.metric("Avg Health Score", f"{avg:.0%}")
+
+# Article selector (Salesforce only)
 article_slugs = sorted(articles.keys())
 analyzed_slugs = sorted(analyses.keys())
 
-filter_mode = st.sidebar.radio("Show", ["All Articles", "Analyzed Only", "Not Analyzed"])
-if filter_mode == "Analyzed Only":
-    display_slugs = [s for s in article_slugs if s in analyses]
-elif filter_mode == "Not Analyzed":
-    display_slugs = [s for s in article_slugs if s not in analyses]
-else:
-    display_slugs = article_slugs
+selected_slug = None
+if not is_competitor and article_slugs:
+    filter_mode = st.sidebar.radio("Show", ["All Articles", "Analyzed Only", "Not Analyzed"])
+    if filter_mode == "Analyzed Only":
+        display_slugs = [s for s in article_slugs if s in analyses]
+    elif filter_mode == "Not Analyzed":
+        display_slugs = [s for s in article_slugs if s not in analyses]
+    else:
+        display_slugs = article_slugs
 
-selected_slug = st.sidebar.selectbox(
-    "Select Article",
-    display_slugs,
-    format_func=lambda s: articles[s].get("title", s)[:60],
-)
+    selected_slug = st.sidebar.selectbox(
+        "Select Article",
+        display_slugs,
+        format_func=lambda s: articles[s].get("title", s)[:60],
+    )
 
-st.sidebar.markdown("---")
-st.sidebar.metric("Total Articles Crawled", len(articles))
-st.sidebar.metric("Articles Analyzed", len(analyses))
-if analyses:
+if not is_competitor:
+    st.sidebar.markdown("---")
+    st.sidebar.metric("Total Articles Crawled", len(articles))
+    st.sidebar.metric("Articles Analyzed", len(analyses))
+if not is_competitor and analyses:
     avg_health = sum(a.get("overall_health_score", 0) for a in analyses.values()) / len(analyses)
     st.sidebar.metric("Avg Health Score", f"{avg_health:.0%}")
 
@@ -221,7 +319,10 @@ tab1, tab2, tab3 = st.tabs(["Article Overview", "Section Analysis", "Batch Summa
 
 # === Tab 1: Article Overview ===
 with tab1:
-    if selected_slug:
+    if is_competitor:
+        cfg = BRAND_CONFIG.get(selected_brand, {})
+        st.info(f"Article-level analysis is only available for Salesforce. Switch to **Batch Summary** to see {cfg.get('icon', '')} {selected_brand} data.")
+    elif selected_slug:
         article = articles[selected_slug]
         analysis = analyses.get(selected_slug)
 
@@ -263,7 +364,10 @@ with tab1:
 
 # === Tab 2: Section-by-Section Analysis ===
 with tab2:
-    if selected_slug and selected_slug in analyses:
+    if is_competitor:
+        cfg = BRAND_CONFIG.get(selected_brand, {})
+        st.info(f"Section-level analysis is only available for Salesforce. Switch to **Batch Summary** to see {cfg.get('icon', '')} {selected_brand} data.")
+    elif selected_slug and selected_slug in analyses:
         analysis = analyses[selected_slug]
         article = articles[selected_slug]
 
@@ -359,7 +463,59 @@ with tab2:
 
 # === Tab 3: Batch Summary ===
 with tab3:
-    if analyses:
+    if is_competitor and competitor_data:
+        # --- Competitor Batch Summary ---
+        cfg = BRAND_CONFIG.get(selected_brand, {})
+        st.markdown(f"### {cfg.get('icon', '')} {selected_brand} — {selected_year} Audit")
+
+        cd = competitor_data
+        total_articles = cd.get("total_articles", len(cd.get("article_rows", [])))
+        total_sections = cd.get("total_sections", sum(r.get("sections", 0) for r in cd.get("article_rows", [])))
+        total_issues = cd.get("total_cta_issues", sum(r.get("misaligned", 0) for r in cd.get("article_rows", [])))
+        healthy = cd.get("healthy_articles", sum(1 for r in cd.get("article_rows", []) if r.get("health", 0) >= 0.7))
+        avg = sum(r.get("health", 0) for r in cd.get("article_rows", [])) / total_articles if total_articles else 0
+
+        m1, m2, m3, m4, m5 = st.columns(5)
+        m1.metric("Articles", total_articles)
+        m2.metric("Sections", total_sections)
+        m3.metric("CTA Issues", total_issues)
+        m4.metric("Healthy Articles", f"{healthy}/{total_articles}")
+        m5.metric("Avg Health Score", f"{avg:.0%}")
+
+        st.markdown("---")
+
+        opp_col, dist_col = st.columns(2)
+        opp = cd.get("opportunity", {})
+        with opp_col:
+            st.markdown("#### CTA Opportunity Breakdown")
+            opp_df = pd.DataFrame([
+                {"Status": "✅ Good CTA", "Sections": opp.get("good_cta", 0)},
+                {"Status": "❌ Missing CTA", "Sections": opp.get("missing_cta", 0)},
+                {"Status": "⚠️ Wrong CTA", "Sections": opp.get("wrong_cta", 0)},
+                {"Status": "— No CTA Needed", "Sections": opp.get("no_cta_needed", 0)},
+            ])
+            st.dataframe(opp_df, use_container_width=True, hide_index=True)
+
+        funnel = cd.get("funnel_counts", {})
+        with dist_col:
+            st.markdown("#### Funnel Stage Distribution")
+            funnel_df = pd.DataFrame([
+                {"Funnel Stage": k.title(), "Sections": v}
+                for k, v in funnel.items()
+            ])
+            st.dataframe(funnel_df, use_container_width=True, hide_index=True)
+
+        st.markdown("---")
+        st.markdown("#### Article Health Scores")
+        comp_df = build_competitor_health_df(cd)
+        if not comp_df.empty:
+            show_cols = [c for c in ["Article", "Author", "Published", "Sections", "Misaligned", "Aligned", "Health Score"] if c in comp_df.columns]
+            disp = comp_df[show_cols].sort_values("Health Score", ascending=True).copy()
+            disp["Health Score"] = disp["Health Score"].map(lambda x: f"{x:.0%}")
+            st.dataframe(disp, use_container_width=True, hide_index=True)
+
+    elif analyses:
+        # --- Salesforce Batch Summary ---
         health_df = build_health_df(analyses, articles)
         analyzed_df = health_df[health_df["Has Analysis"]].copy()
 
