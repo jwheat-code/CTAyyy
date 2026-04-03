@@ -1,0 +1,112 @@
+{
+  "url": "https://blog.hubspot.com/marketing/beginner-guide-retargeting-campaigns",
+  "slug": "beginner-guide-retargeting-campaigns",
+  "title": "The Beginner's Guide to Retargeting Campaigns [Free Ebook]",
+  "author": "Kate Taylor Mighty",
+  "published_date": "",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: sales_cloud, marketing_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What Is Retargeting & Why Is It Beneficial?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "sales_cloud",
+          "marketing_cloud",
+          "commerce_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What Is Retargeting & Why Is It Beneficial?'. Products: sales_cloud, marketing_cloud, commerce_cloud. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Don't forget to share this post!",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "marketing_automation",
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Don't forget to share this post!'. Products: marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Landing Page Creator",
+        "button_url": "https://www.hubspot.com/free-business-tools/landing-page-gpt",
+        "position_after_section": 2
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    }
+  ],
+  "overall_health_score": 0.48,
+  "cta_health_score": 48,
+  "cta_health_grade": "poor",
+  "cta_health_breakdown": {
+    "quantity": 3,
+    "placement": 10,
+    "intent_match": 25,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "Too many CTAs (11). Research shows effectiveness drops after 3-4. Consider removing the weakest ones.",
+    "CTA 'The Beginner's Guide to Retarg' targets awareness readers but article is decision-stage content."
+  ],
+  "misaligned_count": 2
+}

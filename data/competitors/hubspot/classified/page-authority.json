@@ -1,0 +1,842 @@
+{
+  "url": "https://blog.hubspot.com/marketing/page-authority",
+  "slug": "page-authority",
+  "title": "Page Authority: How to Build Pages That Rank",
+  "author": "Skip to contentEnglish: Select a language日本語DeutschEnglishEspañolPortuguêsFrançaisHigh ContrastLog inMenuSearch Hubspot's blogCloseBlogsBackMarketingResources and ideas to put modern marketers ahead of the curveSalesStrategies to help you elevate your sales effortsServiceEverything you need to deliver top-notch customer serviceWebsiteTutorials and how-tos to help you build better websitesTopicsBackSmart CRMInsights and strategies for managing contacts, pipelines, and customer relationships at scaleMarketing AutomationGuidance on automations that personalize campaigns, nurture leads, and drive growthSales EnablementTactics to align marketing and sales, close deals faster, and support modern selling teamsCustomer ServiceIdeas and best practices for delivering seamless support and memorable customer experiencesWebsite & ContentTips for building high-performing websites and content that attract, convert, and educateData & AnalyticsResources for measuring performance, reporting results, and turning data into actionAI & AutomationPractical perspectives on using AI to streamline work and scale smarter marketing effortsE-commerce & PaymentsStrategies for selling online, managing payments, and optimizing the digital buying experienceInsightsBackLoop PlaybookOur signature methodology for modern growth strategiesCase StudiesSuccess stories and testimonials from HubSpot customersNewslettersSubscribe to our best-in-class industry newslettersCompany NewsLatest updates and announcements from HubSpotResources & TemplatesFree tools, templates, and educational resourcesProductsBackThe HubSpot Customer PlatformAll of HubSpot's marketing, sales, customer service, CMS, operations, and commerce software on one platform.See pricingOverview of all productsMarketing HubMarketing automation software.Free and premium plansSales HubSales software.Free and premium plansService HubCustomer service software.Free and premium plansContent HubContent marketing software.Free and premium plansData HubData management software.Free and premium plansCommerce HubCPQ, billing, and payments software.Free and premium plansSmart CRMAI-powered, flexible CRM softwareLearn moreBreezeHubSpot's AI that powers the entire customer platformSee all AI featuresSearch Hubspot's blogGet started freeLog inEnglish: Select a languageBack日本語DeutschEnglishEspañolPortuguêsFrançaisHigh ContrastLog inHomeMarketingPage Authority: How to Build Pages That RankPage Authority: How to Build Pages That RankHubSpot StaffHUBSPOT'S FREE AEO GUIDENavigate the AI revolution and with proven strategies to optimize your content for AI-powered discovery.Download for FreeUpdated:03/31/26When I first started working in content and weaving SEO into my strategy, I treated Page Authority like a report card: the higher the score, the better I was doing. It took a few humbling ranking losses to a competitor with a lower PA score to make me reconsider.Turns out, Page Authority is more of a compass than a finish line. In this post, I‘m breaking down what it actually is, how it’s calculated, what a good score looks like, and what you can do to improve it — so you can use it to guide your strategy, not just grade it.Table of ContentsWhat Is Page Authority?Is Page Authority a Google Ranking Factor?Page Authority vs Domain Authority vs PageRankWhat Is a Good Page Authority Score?How to Check Page AuthorityHow to Increase Page Authority Without Gaming the SystemFrequently Asked Questions About Page AuthorityFree AEO Guide: HubSpot's Guide to Answer Engine OptimizationNavigate the AI revolution with proven strategies to optimize your content for AI-powered discovery.How answer engines rank and choose contentPractical templates and checklistsAEO strategies that convert 27% of AI traffic to leadsReal examples from HubSpot's AEO implementationDownload for FreeLearn moreDownload for FreeDownload FreeAll fields are required.You're all set!Click this link to access this resource at any time.Download NowWhat Is Page Authority?Page Authority (PA) is a third-party metric created byMozthat estimates the relative ranking potential of a specific webpage on a 0-100 scale. A higher score suggests the page is more likely to rank competitively in search engine results pages (SERPs).SourcePA is scored on a 0-100 logarithmic scale, which means improvements become progressively harder to achieve the higher the score climbs. Moving a page from a PA of 20 to 30 takes far less effort than moving it from 70 to 80.Moz calculates Page Authority using a machine learning model trained on thousands of search result data points. The primary input is the quality and quantity of inbound links pointing to a given page. Other signals, including linking root domains and MozRank, also factor in.Pro Tip:Because PA is logarithmic, focus your energy on winning relevant backlinks rather than obsessing over moving the score a few points. The links drive the movement, not the other way around.One important clarification: PA measures a single page, not an entire website. If you want a domain-level signal, that is what Domain Authority (DA) is for. I'll cover the distinction in detail in the comparison section below.Is Page Authority a Google Ranking Factor?No. Page Authority is not a Google ranking factor. Google doesn‘t publish a Page Authority score, and it doesn’t use Moz's PA metric in its algorithm.Google has its own internalPageRank algorithm, which is historically associated with link analysis. PageRank is a different system entirely, and Google stopped publishing public PageRank scores in 2016. The name similarity between “PageRank” and “Page Authority” causes ongoing confusion in the industry, but they are unrelated.So why does Page Authority still matter? Because it correlates with rankings. Pages with strong PA scores tend to have strong backlink profiles — something Google does care about. PA is a proxy, not a cause. When a page has a high PA score, it typically signals that the page has earned credible links, which is a signal Google respects.What We Like:Using PA as a comparative benchmarking tool rather than an absolute target. If your competitor‘s ranking page has a PA of 55 and yours is 30, that gap tells you something actionable about your link-building opportunity. It’s the delta that matters, not the raw number.My experience has taught me that the most dangerous thing a team can do is set a PA target as a KPI. When PA becomes a goal rather than a diagnostic, teams start chasing score improvements through shortcuts, like acquiring low-quality links, that can harm long-term performance. Treat PA as context, not a scoreboard.Page Authority vs Domain Authority vs PageRankThese three terms are frequently conflated. Here is a clear breakdown of each, when to use them, and what distinguishes them.Page Authority (PA):Created by Moz. Estimates the ranking potential of a specific page. Scored 0-100. Updated regularly based on Moz's link index.Domain Authority (DA):Also created by Moz. Measures the relative strength of an entire domain rather than a single page. A site's DA score is influenced by the combined link equity across all of its pages.Learn more about Domain Authority here.PageRank:A Google algorithm historically associated with link analysis. Google uses PageRank internally, but it has not published public PageRank scores since 2016. PageRank is not a tool for practitioners to use; it is an internal Google signal.Here is a side-by-side comparison to make the distinctions clearer:Page Authority vs Domain Authority vs PageRankPage Authority (PA)Domain Authority (DA)PageRankCreated byMozMozGoogleWhat it measuresSingle page ranking potentialEntire domain strengthLink-based page importanceScale0-100 (logarithmic)0-100 (logarithmic)Not publicly disclosedIs it a Google ranking factor?NoNoHistorically yes (now internal)Best used forPage-level link comparisonDomain-level benchmarkingUnderstanding Google's link philosophyUpdatedRegularly via Moz's indexRegularly via Moz's indexInternal; not shared publiclyView all rowsView fewer rowsWhen to use page vs domain metrics:Use Page Authority when you are analyzing a specific URL, such as a blog post, landing page, or product page.Use Domain Authority when you are evaluating a site-level link-building strategy or comparing your overall domain strength against a competitor.Neither metric is superior; they answer different questions.Pro Tip:When evaluating link-building targets, check both PA and DA. A page with low PA on a high-DA domain is often a great acquisition target because the domain has strong equity but the specific page has room to grow.What Is a Good Page Authority Score?There is no universal answer, because Page Authority is a relative metric. A PA of 40 might be excellent for a niche B2B service page and completely insufficient for a highly competitive keyword in the finance or health space. Context determines what counts as a good score.That said, here is a general reference guide for interpreting PA scores:Page Authority vs Domain Authority vs PageRankPage Authority (PA)Domain Authority (DA)PageRankCreated byMozMozGoogleWhat it measuresSingle page ranking potentialEntire domain strengthLink-based page importanceScale0-100 (logarithmic)0-100 (logarithmic)Not publicly disclosedIs it a Google ranking factor?NoNoHistorically yes (now internal)Best used forPage-level link comparisonDomain-level benchmarkingUnderstanding Google's link philosophyUpdatedRegularly via Moz's indexRegularly via Moz's indexInternal; not shared publiclyView all rowsView fewer rowsI have seen pages with PA scores in the 20s outrank pages with PA scores in the 50s because the lower-authority page was a significantly better match for search intent. This is why PA is a signal, not a guarantee. A well-targeted, technically sound page with strong on-page optimization can punch above its PA weight.The most important benchmark is competitive, not absolute. Use tools like Moz's Link Explorer, Ahrefs, or Semrush to analyze the PA scores of pages currently ranking in the top three for your target keyword. That range becomes your practical target. You can also useHubSpot's Website AEO Graderto assess your overall site performance and surface gaps that could be affecting your pages' authority.Free AEO Guide: HubSpot's Guide to Answer Engine OptimizationNavigate the AI revolution with proven strategies to optimize your content for AI-powered discovery.How answer engines rank and choose contentPractical templates and checklistsAEO strategies that convert 27% of AI traffic to leadsReal examples from HubSpot's AEO implementationDownload for FreeLearn moreDownload for FreeDownload FreeAll fields are required.You're all set!Click this link to access this resource at any time.Download NowHow to Check Page AuthorityChecking Page Authority doesn't require any single tool. The goal is to assess ranking potential and link profile strength at the page level, and several platforms offer this data. Here is a tool-agnostic process:Identify the specific URL you want to evaluate.Copy the exact URL, not just the domain. PA is page-specific.Open a link analysis tool.Options include Moz Link Explorer, Ahrefs Site Explorer, Semrush Backlink Analytics, or Majestic. Most offer free limited queries or trial access.Enter the URL.Paste the full page URL into the tool's search bar and run the analysis.Record the PA score and note the number of linking root domains.The linking root domains count is often more useful than PA alone because it shows how diverse the link profile is.Repeat for competitor pages ranking for the same keyword.Run the same analysis on the top three results for your target keyword and note their PA and linking domain counts.Calculate the gap.If your page has a PA of 28 and the top-ranking pages average PA 48, you now have a directional link-building goal.Document and track over time.PA fluctuates as Moz refreshes its index. Track month-over-month rather than reacting to day-to-day changes.For ongoing SEO performance tracking,HubSpot's Marketing Hub SEO toolslet you monitor on-page optimization, keyword rankings, and content performance in one place, giving you the context to pair PA data with real ranking outcomes.Best For:Teams doing competitive content analysis should build a simple tracking spreadsheet that logs the PA, DA, and linking root domains of the top three ranking pages for every target keyword. Run this audit quarterly to identify which content gaps have grown and which pages are gaining ground.How to Increase Page Authority Without Gaming the SystemChasing shortcuts is the fastest way to undermine a page‘s long-term authority. Buying links, joining link schemes, or overloading pages with exact-match anchor text might bump your PA in the short term, but they’re also the kind of tactics that tend to attract algorithmic flags or manual penalties. Here is what actually works, based onSEO best practicesand durable signal improvement:1. Earnhigh-qualitybacklinks fromrelevantsources.PA is primarily a link-based metric. The single most effective way to increase it's to earn links from pages and domains that are themselves authoritative and topically relevant to your content.Tactics that work include original research (data studies, surveys, proprietary reports), creating genuinely useful reference content, building tools or calculators your industry will cite, and proactive outreach to sites that link to similar content from competitors.What We Like:Original data that makes your page a primary source. When a piece of content becomes the reference that others cite, the links compound over time without additional outreach effort.2. Strengthenyourinternallinkingstructure.Internal links distribute link equity across your site. A page buried without internal links receives none of the authority flowing through your higher-PA pages. Conduct areview of your ranking metricsalongside a crawl of your internal link structure to identify pages that deserve links but are not receiving them.The ideal internal linking strategy connects your highest-equity pages to the pages you most want to rank. If your homepage or cornerstone content has strong PA, make sure it links to your target pages with descriptive, keyword-relevant anchor text.Pro Tip:Run a site crawl using tools likeScreaming FrogorAhrefsand filter for pages with strong organic traffic but few internal links pointing to them. These are your quick wins for internal link equity transfer.3. Producecontentthatmatchessearchintent.A page that earns clicks, reads, and return visits signals quality to Google even if its PA is modest. Content that genuinely matches what searchers want tends to attract more organic links over time, which then drives PA upward.Before optimizing for authority, confirm the page is doing the basic job: satisfying the query. A page with excellent intent alignment and a PA of 35 will often outperform a page with mediocre relevance and a PA of 55.4. Keeptechnicalhealth inorder.Page Authority cannot do its job if the page has technical problems. Crawl errors, slow page speed, broken links, and poor mobile performance all suppress a page's ability to rank, regardless of its PA score. Audit pages for technical issues before investing in link building.Check for crawl errors and redirect chainsEnsure the page passes Core Web Vitals thresholdsConfirm the page is indexable (not accidentally blocked by robots.txt or noindex)Fix broken internal and external links on the page5. Update andimproveexistingpages.Refreshing content signals freshness and often earns new links as updated statistics or insights get cited. I've discovered that some of the fastest PA gains come not from new pages, but from significantly upgrading existing pages that already have some link equity. Adding new data, deeper analysis, or better multimedia can prompt existing linkers to update their references and new linkers to discover the page.6. Buildtopicalauthorityaround the page.Pages rarely rank in isolation. A single page on “email marketing” will rank more effectively if it's part of a cluster of related, well-interlinked content on email marketing broadly. Building a content cluster around a core topic distributes authority from supporting pages to the pillar page and signals to Google that your site has deep expertise in the area.Best For:Content Hub by HubSpot is built for this approach, enabling teams to create interconnected content clusters with clear pillar pages, topic coverage, and internal linking at scale.7. Prioritizelinkdiversity,notjustvolume.Ten links from ten different relevant domains are more valuable to PA than ten links from the same domain. Moz's model rewards linking root domain diversity. When building links, prioritize reaching new domains over accumulating additional links from sites that already link to you.Frequently Asked Questions About Page AuthorityHow often should you check page authority?Monthly tracking is a reasonable cadence for most teams. PA fluctuates as Moz refreshes its link index, which happens regularly. Checking daily or weekly creates noise and can lead to reactive decisions based on index crawl variations rather than actual link profile changes. For competitive tracking, a quarterly deep-dive audit is usually sufficient.Does internal linking increase page authority?Internal linking can help page authority, but not directly. When you link from one page to another, some link equity transfers to the linked page, which can raise its PA slightly. With that said, external backlinks are what actually drive PA in a meaningful way. Internal linking helps you get more out of the authority your site has already earned — it doesn't create new authority on its own.Can a page with low page authority still rank?Yes, frequently. PA is one signal among many. Pages with low PA regularly outrank higher-PA pages when they are a better match for search intent, have stronger on-page optimization, or face low competition. In niche topics with few authoritative pages, a PA of 15 or 20 can be more than sufficient to rank on page one.Should I compare page authority across industries?Comparing PA across industries is not particularly useful. A PA of 50 in the technology space may be competitive, while the same score would be below average in the news or finance sectors where major publishers dominate. Always benchmark PA within the actual SERP you are trying to compete in, not against some abstract industry average.Why is my new page's page authority so low?New pages start with a PA near 1 because they have not yet earned any backlinks, and PA is primarily a link-based metric. This is expected and normal. A new page won't improve its PA through on-page optimization alone. Earning the first few relevant backlinks, building internal links from established pages, and giving the page time to be indexed and crawled will all contribute to gradual PA growth over weeks and months.Ready to Build Pages That Rank?Knowing your Page Authority score is just the beginning — the real work is matching content to intent, building links with purpose, and keeping your technical foundation solid. HubSpot's Content Hub and Marketing Hub SEO tools give you the infrastructure to do all three at scale.Start improving your pages today:Download the AEO Guideto learn how to build content that answers questions, earns authority, and ranks.Free AEO Guide: HubSpot's Guide to Answer Engine OptimizationNavigate the AI revolution with proven strategies to optimize your content for AI-powered discovery.How answer engines rank and choose contentPractical templates and checklistsAEO strategies that convert 27% of AI traffic to leadsReal examples from HubSpot's AEO implementationDownload for FreeLearn moreDownload for FreeDownload FreeAll fields are required.You're all set!Click this link to access this resource at any time.Download NowDon't forget to share this post!Practical. Tactical. ActionableThanks for Subscribing!CloseUp your marketing game with advice, tips, and stories from the experts three days a week. Subscribe to Marketing Against the Grain below.Email address*SubscribeMust enter a valid emailWe're committed to your privacy. HubSpot uses the information you provide to us to contact you about our relevant content, products, and services. You may unsubscribe from these communications at any time. For more information, check out ourPrivacy Policy.Want to learn how to build a blog like this?We started with one post.Download freeebookCloseNot usingHubSpotyet?",
+  "published_date": "",
+  "section_analyses": [
+    {
+      "section_index": 0,
+      "section_heading": "Introduction",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Introduction'. Products: marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Free AEO Guide: HubSpot's Guide to Answer Engine Optimization",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Free AEO Guide: HubSpot's Guide to Answer Engine Optimization'. Products: sales_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 2,
+      "section_heading": "You're all set!",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'You're all set!'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
+    },
+    {
+      "section_index": 3,
+      "section_heading": "What Is Page Authority?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "einstein_ai"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What Is Page Authority?'. Products: einstein_ai. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Is Page Authority a Google Ranking Factor?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Is Page Authority a Google Ranking Factor?'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 5,
+      "section_heading": "Page Authority vs Domain Authority vs PageRank",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Page Authority vs Domain Authority vs PageRank'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "Page Authority vs Domain Authority vs PageRank",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Page Authority vs Domain Authority vs PageRank'. Products: general. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 7,
+      "section_heading": "What Is a Good Page Authority Score?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What Is a Good Page Authority Score?'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    },
+    {
+      "section_index": 8,
+      "section_heading": "Page Authority vs Domain Authority vs PageRank",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Page Authority vs Domain Authority vs PageRank'. Products: marketing_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 9,
+      "section_heading": "Free AEO Guide: HubSpot's Guide to Answer Engine Optimization",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Free AEO Guide: HubSpot's Guide to Answer Engine Optimization'. Products: sales_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 10,
+      "section_heading": "You're all set!",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'You're all set!'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
+    },
+    {
+      "section_index": 11,
+      "section_heading": "How to Check Page Authority",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "data_analytics",
+          "collaboration",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'How to Check Page Authority'. Products: marketing_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 12,
+      "section_heading": "How to Increase Page Authority Without Gaming the System",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'How to Increase Page Authority Without Gaming the System'. Products: marketing_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
+          "duration_minutes": 741,
+          "score": 0.85,
+          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage marketing_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage marketing_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 13,
+      "section_heading": "1. Earnhigh-qualitybacklinks fromrelevantsources.",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '1. Earnhigh-qualitybacklinks fromrelevantsources.'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    },
+    {
+      "section_index": 14,
+      "section_heading": "2. Strengthenyourinternallinkingstructure.",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in '2. Strengthenyourinternallinkingstructure.'. Products: sales_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 15,
+      "section_heading": "3. Producecontentthatmatchessearchintent.",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '3. Producecontentthatmatchessearchintent.'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    },
+    {
+      "section_index": 16,
+      "section_heading": "4. Keeptechnicalhealth inorder.",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in '4. Keeptechnicalhealth inorder.'. Products: general. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 17,
+      "section_heading": "5. Update andimproveexistingpages.",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "data_analytics"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '5. Update andimproveexistingpages.'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    },
+    {
+      "section_index": 18,
+      "section_heading": "6. Buildtopicalauthorityaround the page.",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "marketing_automation",
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '6. Buildtopicalauthorityaround the page.'. Products: marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    },
+    {
+      "section_index": 19,
+      "section_heading": "7. Prioritizelinkdiversity,notjustvolume.",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in '7. Prioritizelinkdiversity,notjustvolume.'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short numbered list item."
+    },
+    {
+      "section_index": 20,
+      "section_heading": "How often should you check page authority?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How often should you check page authority?'. Products: sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    },
+    {
+      "section_index": 21,
+      "section_heading": "Does internal linking increase page authority?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Does internal linking increase page authority?'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    },
+    {
+      "section_index": 22,
+      "section_heading": "Can a page with low page authority still rank?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Can a page with low page authority still rank?'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
+    },
+    {
+      "section_index": 23,
+      "section_heading": "Should I compare page authority across industries?",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Should I compare page authority across industries?'. Products: general. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.85,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.45,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 24,
+      "section_heading": "Why is my new page's page authority so low?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Why is my new page's page authority so low?'. Products: general. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 25,
+      "section_heading": "Ready to Build Pages That Rank?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "marketing_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "marketing_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Ready to Build Pages That Rank?'. Products: marketing_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 26,
+      "section_heading": "Free AEO Guide: HubSpot's Guide to Answer Engine Optimization",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Free AEO Guide: HubSpot's Guide to Answer Engine Optimization'. Products: sales_cloud. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+    },
+    {
+      "section_index": 27,
+      "section_heading": "You're all set!",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "general"
+        ],
+        "topic_tags": [
+          "general"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'You're all set!'. Products: general. Funnel: awareness."
+      },
+      "existing_cta": {
+        "heading": "",
+        "body": "",
+        "button_text": "Landing Page Creator",
+        "button_url": "https://www.hubspot.com/free-business-tools/landing-page-gpt",
+        "position_after_section": 27
+      },
+      "existing_cta_score": {
+        "relevance_score": 0.65,
+        "funnel_alignment": "adjacent",
+        "persona_match": "match",
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
+      },
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Section too short for a CTA."
+    }
+  ],
+  "overall_health_score": 0.48,
+  "cta_health_score": 48,
+  "cta_health_grade": "poor",
+  "cta_health_breakdown": {
+    "quantity": 3,
+    "placement": 10,
+    "intent_match": 25,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "Too many CTAs (12). Research shows effectiveness drops after 3-4. Consider removing the weakest ones.",
+    "CTA 'See pricing' targets decision readers but article is awareness-stage content."
+  ],
+  "misaligned_count": 2
+}
