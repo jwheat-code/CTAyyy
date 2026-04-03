@@ -1,4 +1,5 @@
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -230,8 +231,33 @@ if is_competitor:
         st.stop()
     cta_library = {}
     trail_library = {}
-    articles = {}
-    analyses = {}
+    # Load competitor classified data if available (for article-level analysis)
+    comp_classified_dir = COMPETITORS_DIR / selected_brand.lower() / "classified"
+    if comp_classified_dir.exists():
+        articles = {}
+        analyses = {}
+        for p in sorted(comp_classified_dir.glob("*.json")):
+            d = json.loads(p.read_text())
+            slug = d.get("slug", p.stem)
+            # Build a minimal article dict for the dashboard
+            articles[slug] = {
+                "url": d.get("url", ""),
+                "slug": slug,
+                "title": d.get("title", ""),
+                "author": d.get("author", ""),
+                "published_date": d.get("published_date", ""),
+                "category": "",
+                "sections": d.get("section_analyses", []),
+                "existing_ctas": [],
+            }
+            analyses[slug] = d
+        # Apply year filter
+        if selected_year != "All":
+            articles = {s: a for s, a in articles.items() if (a.get("published_date") or "")[:4] == selected_year}
+            analyses = {s: a for s, a in analyses.items() if s in articles}
+    else:
+        articles = {}
+        analyses = {}
 else:
     competitor_data = None
     cta_library = load_cta_library()
@@ -337,9 +363,9 @@ tab1, tab2, tab3, tab4 = st.tabs(["Article Overview", "Section Analysis", "Score
 
 # === Tab 1: Article Overview ===
 with tab1:
-    if is_competitor:
+    if is_competitor and not analyses:
         cfg = BRAND_CONFIG.get(selected_brand, {})
-        st.info(f"Article-level analysis is only available for Salesforce. Switch to **Scorecard** to see {cfg.get('icon', '')} {selected_brand} data.")
+        st.info(f"Article-level analysis is not yet available for {cfg.get('icon', '')} {selected_brand}. Switch to **Scorecard** for summary data.")
     elif selected_slug:
         article = articles[selected_slug]
         analysis = analyses.get(selected_slug)
@@ -347,12 +373,27 @@ with tab1:
         col1, col2 = st.columns([2, 1])
         with col1:
             st.subheader(article.get("title", ""))
-            st.markdown(f"[View on Salesforce Blog]({article.get('url', '')})")
-            st.caption(
-                f"Author: {article.get('author', 'Unknown')} | "
-                f"Category: {article.get('category', 'Unknown')} | "
-                f"Published: {article.get('published_date', 'Unknown')[:10]}"
-            )
+            url = article.get("url", "")
+            if url:
+                label = "View Article" if is_competitor else "View on Salesforce Blog"
+                st.markdown(f"[{label}]({url})")
+            pub_date = (article.get("published_date") or "")[:10]
+            st.caption(f"Published: {pub_date}" if pub_date else "")
+
+            # Author badges — clean up and display as labels
+            raw_author = article.get("author", "") or ""
+            # Strip common garbage prefixes
+            for prefix in ["More by ", "Read More", "Written by:", "Written by"]:
+                raw_author = raw_author.replace(prefix, "").strip()
+            # Split multiple authors (comma or "and")
+            authors = [a.strip() for a in re.split(r",| and ", raw_author) if a.strip() and len(a.strip()) > 2]
+            if authors:
+                author_html = " ".join(
+                    f'<span style="background:#30363D;color:#E6EDF3;padding:3px 10px;border-radius:12px;'
+                    f'font-size:13px;margin-right:6px;">👤 {a}</span>'
+                    for a in authors
+                )
+                st.markdown(author_html, unsafe_allow_html=True)
 
         with col2:
             if analysis:
@@ -394,9 +435,9 @@ with tab1:
 
 # === Tab 2: Section-by-Section Analysis ===
 with tab2:
-    if is_competitor:
+    if is_competitor and not analyses:
         cfg = BRAND_CONFIG.get(selected_brand, {})
-        st.info(f"Section-level analysis is only available for Salesforce. Switch to **Scorecard** to see {cfg.get('icon', '')} {selected_brand} data.")
+        st.info(f"Section-level analysis is not yet available for {cfg.get('icon', '')} {selected_brand}. Switch to **Scorecard** for summary data.")
     elif selected_slug and selected_slug in analyses:
         analysis = analyses[selected_slug]
         article = articles[selected_slug]
