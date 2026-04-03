@@ -200,7 +200,8 @@ for i, brand in enumerate(available_brands):
                 st.rerun()
 
 with brand_cols[-1]:
-    selected_year = st.selectbox("Year", ["2026", "2025", "All"], index=0, key="year_filter")
+    selected_year = st.selectbox("", ["Year: 2026", "Year: 2025", "Year: All"], index=0, key="year_filter", label_visibility="collapsed")
+    selected_year = selected_year.replace("Year: ", "")
 
 st.title("CTA Engine — Health Report")
 
