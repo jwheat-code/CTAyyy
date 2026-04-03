@@ -348,7 +348,7 @@ def main():
         summary["article_rows"].append({
             "title": d.get("title", "")[:70],
             "author": d.get("author", ""),
-            "published": (d.get("published_date") or "")[:10],
+            "published": d.get("published_date") or "",
             "sections": sections,
             "misaligned": issues,
             "health": round(score / 100, 2),
