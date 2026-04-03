@@ -395,9 +395,8 @@ Not ad-heavy or repetitive.
 🟡 55-69 Needs Work
 🔴 Below 55 Poor
 
----
-### 👉 [Full Methodology & Sources →](/Methodology)
 """)
+    st.page_link("pages/Methodology.py", label="👉 Full Methodology & Sources →", icon="📖")
 
 # --- Main Content ---
 tab1, tab2, tab3 = st.tabs(["Article Overview", "Section Analysis", "Scorecard"])
@@ -463,10 +462,37 @@ with tab1:
         for section in sections:
             idx = section["index"]
             has_cta = idx in cta_positions
-            icon = "✅" if has_cta else "—"
+            # Get section analysis data if available
+            sa = None
+            if analysis:
+                for _sa in analysis.get("section_analyses", []):
+                    if _sa["section_index"] == idx:
+                        sa = _sa
+                        break
+            no_cta_needed = sa.get("recommend_no_cta", False) if sa else False
+            if has_cta:
+                icon = "✅"
+            elif no_cta_needed:
+                icon = "💤"
+            else:
+                icon = "⚠️"
             with st.expander(f"{icon} Section {idx}: {section['heading'][:80]}", expanded=False):
                 st.write(section["text"][:500] + ("..." if len(section["text"]) > 500 else ""))
-                st.caption(f"Words: {section['word_count']}")
+                col_a, col_b = st.columns([2, 1])
+                with col_a:
+                    st.caption(f"Words: {section['word_count']}")
+                    if sa:
+                        cls = sa.get("classification", {})
+                        st.caption(f"Intent: {cls.get('reader_intent', '')} · Funnel: {cls.get('funnel_stage', '')} · Persona: {cls.get('primary_persona', '')}")
+                with col_b:
+                    if has_cta:
+                        cta = next((c for c in existing_ctas if c.get("position_after_section") == idx), None)
+                        if cta:
+                            st.caption(f"CTA: {cta.get('button_text', '')[:40]}")
+                    elif no_cta_needed:
+                        st.caption("No CTA needed here")
+                    elif sa and sa.get("recommendations"):
+                        st.caption("⚠️ Missing CTA — see Section Analysis")
                 if has_cta:
                     cta = next(c for c in existing_ctas if c.get("position_after_section") == idx)
                     st.info(
