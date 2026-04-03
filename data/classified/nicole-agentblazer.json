@@ -10,13 +10,11 @@
       "section_heading": "Introduction",
       "classification": {
         "reader_intent": "learning",
-        "primary_persona": "business_leader",
-        "secondary_persona": "developer",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
           "agentforce",
-          "einstein_ai",
-          "sales_cloud",
           "slack"
         ],
         "topic_tags": [
@@ -24,7 +22,7 @@
           "collaboration"
         ],
         "confidence": 0.75,
-        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, einstein_ai, sales_cloud, slack. Funnel: awareness."
+        "rationale": "Rule-based: learning intent detected in 'Introduction'. Products: agentforce, slack. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "Want to meet more Agentblazers like Nicole?",
@@ -34,13 +32,159 @@
         "position_after_section": 0
       },
       "existing_cta_score": {
-        "relevance_score": 0.8,
+        "relevance_score": 0.65,
         "funnel_alignment": "adjacent",
         "persona_match": "match",
-        "product_alignment": "match",
-        "issues": [],
-        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
+        "product_alignment": "partial",
+        "issues": [
+          "Product alignment is partial — a more targeted CTA may perform better"
+        ],
+        "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
       },
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "What’s a typical day like for you at SaltClick?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'What’s a typical day like for you at SaltClick?'. Products: agentforce, sales_cloud, slack. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
+          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
+          "duration_minutes": 285,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "wtl",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "How does using Salesforce and Slack products help you succeed at SaltClick and what are some common blockers you’ve encountered?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How does using Salesforce and Slack products help you succeed at SaltClick and what are some common blockers you’ve encountered?'. Products: agentforce, slack. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-become-a-selling-specialist",
+          "name": "Agentforce Sales: Become a Selling Specialist",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/become-a-selling-specialist",
+          "duration_minutes": 820,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 3,
+      "section_heading": "How has AI helped you overcome some of these hurdles?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "einstein_ai",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How has AI helped you overcome some of these hurdles?'. Products: agentforce, einstein_ai, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
       "recommendations": [
         {
           "type": "trail",
@@ -53,21 +197,558 @@
         },
         {
           "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get_smart_einstein",
+          "name": "Get Smart with Salesforce Einstein",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get_smart_einstein",
+          "duration_minutes": 75,
+          "score": 0.85,
+          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 4,
+      "section_heading": "Over 13 years working in the Salesforce ecosystem, how have you approached learning and staying current with new products like Agentforce and features rolled out on Slack?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Over 13 years working in the Salesforce ecosystem, how have you approached learning and staying current with new products like Agentforce and features rolled out on Slack?'. Products: agentforce, slack. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-become-a-selling-specialist",
+          "name": "Agentforce Sales: Become a Selling Specialist",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/become-a-selling-specialist",
+          "duration_minutes": 820,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 5,
+      "section_heading": "What’s your biggest piece of advice for someone looking to get started with Agentforce?",
+      "classification": {
+        "reader_intent": "implementing",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "decision",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: implementing intent detected in 'What’s your biggest piece of advice for someone looking to get started with Agentforce?'. Products: agentforce, slack. Funnel: decision."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-configure-revenue-cloud",
+          "name": "Configure Agentforce Revenue Management",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
+          "duration_minutes": 1005,
+          "score": 0.85,
+          "match_rationale": "Trail targets agentforce at decision stage for decision-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-be-more-productive-with-slack",
+          "name": "Slack: Get Started with the Operating System For Work",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/be-more-productive-with-slack",
+          "duration_minutes": 200,
+          "score": 0.85,
+          "match_rationale": "Trail targets slack at decision stage for decision-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-get-started-with-incident-response",
+          "name": "Get Started with Incident Response",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
+          "duration_minutes": 55,
+          "score": 0.5,
+          "match_rationale": "Trail targets general at decision stage for decision-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 6,
+      "section_heading": "What has surprised you most about working with Agentforce inside of Slack?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "developer",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What has surprised you most about working with Agentforce inside of Slack?'. Products: agentforce, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 7,
+      "section_heading": "How do you see Agentforce and Slack working together to help people?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How do you see Agentforce and Slack working together to help people?'. Products: agentforce, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
         },
         {
           "type": "cta",
           "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
           "score": 0.85,
           "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 8,
+      "section_heading": "How do you talk about the impact of AI agents working alongside humans?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "productivity",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'How do you talk about the impact of AI agents working alongside humans?'. Products: agentforce, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 9,
+      "section_heading": "What’s your approach to change management with Agentforce in Slack?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What’s your approach to change management with Agentforce in Slack?'. Products: agentforce, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 10,
+      "section_heading": "As you continue to iterate with AI and Agentforce, what are some of the things you’re most excited to try in the future?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration",
+          "thought_leadership"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'As you continue to iterate with AI and Agentforce, what are some of the things you’re most excited to try in the future?'. Products: agentforce, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 11,
+      "section_heading": "What made you choose the Salesforce ecosystem as a career path?",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'What made you choose the Salesforce ecosystem as a career path?'. Products: agentforce, slack. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-become-a-selling-specialist",
+          "name": "Agentforce Sales: Become a Selling Specialist",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/become-a-selling-specialist",
+          "duration_minutes": 820,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at consideration stage for consideration-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 12,
+      "section_heading": "What has it meant to you to be on the inaugural Salesforce Community Advisory Board a 2025 MVP?",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "consideration",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "customer_service",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'What has it meant to you to be on the inaugural Salesforce Community Advisory Board a 2025 MVP?'. Products: agentforce, slack. Funnel: consideration."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-become-a-selling-specialist",
+          "name": "Agentforce Sales: Become a Selling Specialist",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/become-a-selling-specialist",
+          "duration_minutes": 820,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at consideration stage for consideration-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "http:--agentblazer.com",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at consideration stage for consideration-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 13,
+      "section_heading": "What do you enjoy in your free time? Hobbies?",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": null,
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "collaboration"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'What do you enjoy in your free time? Hobbies?'. Products: agentforce, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 14,
+      "section_heading": "Nicole’s top 3 Agentforce learnings",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "slack"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "collaboration",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'Nicole’s top 3 Agentforce learnings'. Products: agentforce, slack. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "name": "Empower Your Employees with Specialized Agents in Slack",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
+          "duration_minutes": 135,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
+          "score": 0.85,
+          "match_rationale": "CTA targets slack at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.8,
-  "misaligned_count": 0
+  "overall_health_score": 0.0433,
+  "misaligned_count": 14
 }

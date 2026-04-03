@@ -9,23 +9,169 @@
     {
       "index": 0,
       "heading": "Introduction",
-      "text": "Forget everything you think you know about clunky AI tools.Jonathan Fox, Golden Hoodie recipient and former soldier turned Salesforce architect, has cracked the code on AI that people actually want to use. “It makes work feel less like work,” he says about Agentforce—and he’s got the results to prove it. While most organizations struggle with AI adoption, Jonathan is busy transforming entire workflows with conversational interfaces that let users ditch the endless clicking and just… talk naturally to an agent. His secret? Treating AI like any other mission-critical system: “You can’t just build an agent; you have to architect it.” Ready to see how he is revolutionizing the way humans and AI work together? My days are quite dynamic. I’m the head of Salesforce architecture for an implementation partner, so a significant portion of my time is spent talking with stakeholders from various organizations. I work to understand their future vision and help them build a concrete roadmap for their Salesforce implementation. The rest of my time is dedicated to my team of architects and solution consultants—mentoring, coaching, and guiding them. I also get to stay hands-on by designing some of our more high-profile, custom-built features and solutions, ensuring they’re always scalable and robust. Our bread and butter are Salesforce Financial Services Cloud and Experience Cloud. We also do a lot with Service Cloud features and use Mobile Publisher quite a bit for creating custom-branded mobile applications for our clients. Financial Services Cloud and Experience Cloud are fantastic because they provide such comprehensive capabilities right out of the box, especially for building external-facing applications and providing mobile access. The main challenge we consistently have to navigate is the limits that come with Salesforce’s multi-tenancy architecture. We often have to get creative with off-platform processing and integration tools to manage that. However, this is also where AI has become a game-changer for us. AI has been transformative in a few key ways. For our developers, tools like Agentforce have massively sped up the process of writing Apex classes and components. On the actual Salesforce implementation side, we’ve used AI through Agentforce to streamline processes, reducing the number of clicks and the amount of manual data entry required. The big win has been Agentforce’s conversational interface. It allows users to interact with Salesforce in a much more natural way, which has been a huge boost for efficiency and user adoption. You also cannot forget Slack. Slack with its enterprise search with natural language, its suite of apps, and of course, its Agentforce integration has made collaboration and productivity incredibly seamless. My approach is all about structure and consistency. When a new product comes out, I don’t try to learn everything at once. I break it down into manageable, bite-sized chunks and create a plan to tackle a little bit each day. For me, hands-on practice is non-negotiable, so I spend a lot of time inTrailheadand my own Developer Orgs. I also focus my learning on areas that are directly relevant to my clients’ needs. My primary advice is to just dive in and try it. Spin up a free Developer Org and go through the Trailhead modules—they are an incredible resource. I recommend completing the Agentblazer trails, especially theChampion to Legend path, for conceptual understanding and hands-on experience. Additionally, to make the learning stick, I always recommend building a fictional concept or project that aligns with a personal interest, like a hobby. For example, building an agent for booking Formula 1 tickets or an Experience Cloud site to display driver statistics, as this keeps you focused, excited, and intrigued to keep learning. Honestly, I’ve been most surprised by the ease with which AI, specifically Agentforce, can be integrated into not just enterprise but also SMB organizations to truly transform workflows. I expected more resistance, but Agentforce is incredibly adaptable to different business models and industries. The positive impact of the conversational element on the user experience and employee satisfaction has also been a pleasant surprise. It makes work feel less like work. For example, going from concept to build was really easy. Yes, the time to ensure the design was well-architected is still an absolute must, but the actual implementation time was a lot quicker than I’d imagined. Building prompt templates is very easy and intuitive, instructions for agents are natural because you use the language you’d use with your development teams in order to explain the feature anyway and the agent actions—well you already have a lot of those built out in Flow and Apex today! Having a Well-Architected background is absolutely crucial. When you’re designing an agent, you’re not just solving for today’s problem; you have to think about future use cases to avoid technical debt. It informs how you design for scalability and security from the ground up, ensuring agents have the right permissions and that data is handled securely. You can’t just build an agent; you have to architect it. As an implementation partner, Agentforce for developers is a big benefit for building and deploying our projects and features. This is especially true for Experience Cloud projects that often require custom-built Lightning Web Components and Apex to achieve pixel-perfect branding. Beyond Salesforce, AI in general assists with information retrieval, research, and generating proof of concepts or UI mockups like Figma designs. We strongly advocate for completing the Agentblazer statuses, as they provide a structured learning path from foundational to advanced skills, including achieving Legend status and the superbadges. Getting hands-on is key, and we also involve developers in high-level architectural conversations with clients. This helps them understand how AI and agents can fit into real-world business processes, enabling them to build proof of concepts for actual scenarios. This approach prepares them for complex client requirements beyond typical superbadges. I’m looking to experiment with video content. Personally, I find visual learning highly effective, so I plan to create a video series starting with basic concepts and progressing from there to share with the team. I believe a video series will help people visualize and comprehend the material better than traditional documentation or articles, especially for developers who are constantly working with code. Agentforce has fundamentally shifted perspectives within my organization, revealing how deeply AI can be embedded to augment human work and enhance efficiency. It enables individuals to allocate more time to complex manual tasks by automating or accelerating other processes. Salesforce, traditionally seen as a CRM requiring field edits and button clicks, now allows for conversational interaction, streamlining the user experience and enabling users to think and work more naturally. This conversational capability, including back-and-forth dialogue, allows users to express needs in plain language without technical jargon, and the agent translates these into underlying technical processes. When discussing impact, I frame Agentforce as an augmentation that boosts efficiency and potentially increases employee satisfaction, by making mundane tasks more enjoyable. Initially, it’s often more effective to explain the vision without specific metrics to address concerns about AI’s impact on roles, focusing instead on how it simplifies work. Quantitative metrics, like “case to close time,” are reserved for business decision-makers. For change management, particularly with reluctant individuals, I advise building trust by demonstrating the agent through proofs of concept or demos. Agentforce’s inherent flexibility facilitates rapid pivoting on requirements due to its integration with existing Salesforce components. The process involves allowing users to adopt Agentforce incrementally, enabling them to experience its benefits, such as time saved on tasks like email generation, which fosters comfort and further adoption. I’m excited to experiment with Lightning Web Components within Agentforce responses to create more visual and impactful interactions. I also anticipate integrating Tableau with Agentforce to embed graphs and metrics, further enhancing the visual and conversational data experience. I chose the Salesforce ecosystem because I found it to be a very inviting environment. The Trailblazer community is incredibly welcoming and supportive, offering coaching and mentoring, which is unique. The Salesforce platform itself is highly accessible with Developer Orgs and Trailhead Playgrounds, providing a rich, user-friendly interface that is relatively straightforward. I also value the Salesforce team’s openness to the Trailblazer community’s input on product innovations. The Golden Hoodie was the first one and I received that during the pandemic. It meant an incredible amount to me to receive that kind of appreciation for what I’ve done in the ecosystem, especially for my work with Salesforce Military. I found it really hard to land my first role because I was just seen as a soldier. So helping coach veterans and military spouses into the ecosystem and navigate some of the challenges that I first faced meant a lot and I really just wanted to give back and help others. My selection for the Community Advisory Board is another proud moment, because, to me, that means Salesforce is interested in my insights to help shape the future of the Trailblazer community for both new and existing members. Outside of my tech interests, which include participating in hackathons like the Agentforce hackathon, I enjoy spending time with my daughter, just doing fun activities and getting outdoors. Start with Use Cases, Not features – Before diving into the technical bits, explore what Agentforce is best used for.Understand the Agentforce toolset and when or where to use each part.Example: When to use templates vs. when to build an agent.Treat Agentforce like any other software, including Salesforce. Building with purpose, build with governance, test thoroughly and deploy often. Example: When to use templates vs. when to build an agent.",
-      "word_count": 1580,
+      "text": "Forget everything you think you know about clunky AI tools.Jonathan Fox, Golden Hoodie recipient and former soldier turned Salesforce architect, has cracked the code on AI that people actually want to use. “It makes work feel less like work,” he says about Agentforce—and he’s got the results to prove it. While most organizations struggle with AI adoption, Jonathan is busy transforming entire workflows with conversational interfaces that let users ditch the endless clicking and just… talk naturally to an agent. His secret? Treating AI like any other mission-critical system: “You can’t just build an agent; you have to architect it.” Ready to see how he is revolutionizing the way humans and AI work together?",
+      "word_count": 114,
       "has_existing_cta": true,
       "inline_links": [
         {
           "text": "Jonathan Fox",
           "href": "https://www.linkedin.com/in/jfoxuk/"
-        },
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "To start, could you tell us a bit about your role and what a typical day looks like for you?",
+      "text": "My days are quite dynamic. I’m the head of Salesforce architecture for an implementation partner, so a significant portion of my time is spent talking with stakeholders from various organizations. I work to understand their future vision and help them build a concrete roadmap for their Salesforce implementation. The rest of my time is dedicated to my team of architects and solution consultants—mentoring, coaching, and guiding them. I also get to stay hands-on by designing some of our more high-profile, custom-built features and solutions, ensuring they’re always scalable and robust.",
+      "word_count": 90,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "What Salesforce products do you and your team primarily focus on?",
+      "text": "Our bread and butter are Salesforce Financial Services Cloud and Experience Cloud. We also do a lot with Service Cloud features and use Mobile Publisher quite a bit for creating custom-branded mobile applications for our clients.",
+      "word_count": 36,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "How have those products contributed to your success, and on the flip side, what are some common challenges you encounter?",
+      "text": "Financial Services Cloud and Experience Cloud are fantastic because they provide such comprehensive capabilities right out of the box, especially for building external-facing applications and providing mobile access. The main challenge we consistently have to navigate is the limits that come with Salesforce’s multi-tenancy architecture. We often have to get creative with off-platform processing and integration tools to manage that. However, this is also where AI has become a game-changer for us.",
+      "word_count": 72,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "That’s a perfect seque. How has AI, and Agentforce specifically, helped you overcome some of those challenges?",
+      "text": "AI has been transformative in a few key ways. For our developers, tools like Agentforce have massively sped up the process of writing Apex classes and components. On the actual Salesforce implementation side, we’ve used AI through Agentforce to streamline processes, reducing the number of clicks and the amount of manual data entry required. The big win has been Agentforce’s conversational interface. It allows users to interact with Salesforce in a much more natural way, which has been a huge boost for efficiency and user adoption. You also cannot forget Slack. Slack with its enterprise search with natural language, its suite of apps, and of course, its Agentforce integration has made collaboration and productivity incredibly seamless.",
+      "word_count": 116,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 5,
+      "heading": "Technology is obviously changing fast. Over the last 5 years, how have you approached learning and staying current with new products like Agentforce?",
+      "text": "My approach is all about structure and consistency. When a new product comes out, I don’t try to learn everything at once. I break it down into manageable, bite-sized chunks and create a plan to tackle a little bit each day. For me, hands-on practice is non-negotiable, so I spend a lot of time inTrailheadand my own Developer Orgs. I also focus my learning on areas that are directly relevant to my clients’ needs.",
+      "word_count": 74,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "Trailhead",
           "href": "https://trailhead.salesforce.com/"
-        },
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "heading": "What is your biggest piece of advice for someone looking to get started with Agentforce?",
+      "text": "My primary advice is to just dive in and try it. Spin up a free Developer Org and go through the Trailhead modules—they are an incredible resource. I recommend completing the Agentblazer trails, especially theChampion to Legend path, for conceptual understanding and hands-on experience. Additionally, to make the learning stick, I always recommend building a fictional concept or project that aligns with a personal interest, like a hobby. For example, building an agent for booking Formula 1 tickets or an Experience Cloud site to display driver statistics, as this keeps you focused, excited, and intrigued to keep learning.",
+      "word_count": 98,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "Champion to Legend path",
           "href": "https://trailhead.salesforce.com/agentblazer"
         }
       ]
+    },
+    {
+      "index": 7,
+      "heading": "What has surprised you most about working with Agentforce so far?",
+      "text": "Honestly, I’ve been most surprised by the ease with which AI, specifically Agentforce, can be integrated into not just enterprise but also SMB organizations to truly transform workflows. I expected more resistance, but Agentforce is incredibly adaptable to different business models and industries. The positive impact of the conversational element on the user experience and employee satisfaction has also been a pleasant surprise. It makes work feel less like work. For example, going from concept to build was really easy. Yes, the time to ensure the design was well-architected is still an absolute must, but the actual implementation time was a lot quicker than I’d imagined. Building prompt templates is very easy and intuitive, instructions for agents are natural because you use the language you’d use with your development teams in order to explain the feature anyway and the agent actions—well you already have a lot of those built out in Flow and Apex today!",
+      "word_count": 155,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "heading": "How does having a strong architectural background inform the way you deploy Agentforce?",
+      "text": "Having a Well-Architected background is absolutely crucial. When you’re designing an agent, you’re not just solving for today’s problem; you have to think about future use cases to avoid technical debt. It informs how you design for scalability and security from the ground up, ensuring agents have the right permissions and that data is handled securely. You can’t just build an agent; you have to architect it.",
+      "word_count": 67,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "heading": "How does Agentforce help you and your organization work better as an implementation partner?",
+      "text": "As an implementation partner, Agentforce for developers is a big benefit for building and deploying our projects and features. This is especially true for Experience Cloud projects that often require custom-built Lightning Web Components and Apex to achieve pixel-perfect branding. Beyond Salesforce, AI in general assists with information retrieval, research, and generating proof of concepts or UI mockups like Figma designs.",
+      "word_count": 61,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "heading": "What internal learning opportunities have you provided for your team on Agentforce, and what has been most successful for upskilling team members?",
+      "text": "We strongly advocate for completing the Agentblazer statuses, as they provide a structured learning path from foundational to advanced skills, including achieving Legend status and the superbadges. Getting hands-on is key, and we also involve developers in high-level architectural conversations with clients. This helps them understand how AI and agents can fit into real-world business processes, enabling them to build proof of concepts for actual scenarios. This approach prepares them for complex client requirements beyond typical superbadges.",
+      "word_count": 77,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "heading": "What new approach are you looking to experiment with to help educate your peers internally on Agentforce?",
+      "text": "I’m looking to experiment with video content. Personally, I find visual learning highly effective, so I plan to create a video series starting with basic concepts and progressing from there to share with the team. I believe a video series will help people visualize and comprehend the material better than traditional documentation or articles, especially for developers who are constantly working with code.",
+      "word_count": 63,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "heading": "How has Agentforce changed the way people and AI work together within your organization?",
+      "text": "Agentforce has fundamentally shifted perspectives within my organization, revealing how deeply AI can be embedded to augment human work and enhance efficiency. It enables individuals to allocate more time to complex manual tasks by automating or accelerating other processes. Salesforce, traditionally seen as a CRM requiring field edits and button clicks, now allows for conversational interaction, streamlining the user experience and enabling users to think and work more naturally. This conversational capability, including back-and-forth dialogue, allows users to express needs in plain language without technical jargon, and the agent translates these into underlying technical processes.",
+      "word_count": 95,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 13,
+      "heading": "How do you discuss the impact of agents working alongside humans, especially regarding change management?",
+      "text": "When discussing impact, I frame Agentforce as an augmentation that boosts efficiency and potentially increases employee satisfaction, by making mundane tasks more enjoyable. Initially, it’s often more effective to explain the vision without specific metrics to address concerns about AI’s impact on roles, focusing instead on how it simplifies work. Quantitative metrics, like “case to close time,” are reserved for business decision-makers. For change management, particularly with reluctant individuals, I advise building trust by demonstrating the agent through proofs of concept or demos. Agentforce’s inherent flexibility facilitates rapid pivoting on requirements due to its integration with existing Salesforce components. The process involves allowing users to adopt Agentforce incrementally, enabling them to experience its benefits, such as time saved on tasks like email generation, which fosters comfort and further adoption.",
+      "word_count": 129,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "heading": "What are you most excited to experiment with in the future regarding AI and Agentforce?",
+      "text": "I’m excited to experiment with Lightning Web Components within Agentforce responses to create more visual and impactful interactions. I also anticipate integrating Tableau with Agentforce to embed graphs and metrics, further enhancing the visual and conversational data experience.",
+      "word_count": 38,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 15,
+      "heading": "What made you choose the Salesforce ecosystem as a career path?",
+      "text": "I chose the Salesforce ecosystem because I found it to be a very inviting environment. The Trailblazer community is incredibly welcoming and supportive, offering coaching and mentoring, which is unique. The Salesforce platform itself is highly accessible with Developer Orgs and Trailhead Playgrounds, providing a rich, user-friendly interface that is relatively straightforward. I also value the Salesforce team’s openness to the Trailblazer community’s input on product innovations.",
+      "word_count": 67,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 16,
+      "heading": "What has receiving the Golden Hoodie and being selected for the Community Advisory Board meant to you?",
+      "text": "The Golden Hoodie was the first one and I received that during the pandemic. It meant an incredible amount to me to receive that kind of appreciation for what I’ve done in the ecosystem, especially for my work with Salesforce Military. I found it really hard to land my first role because I was just seen as a soldier. So helping coach veterans and military spouses into the ecosystem and navigate some of the challenges that I first faced meant a lot and I really just wanted to give back and help others. My selection for the Community Advisory Board is another proud moment, because, to me, that means Salesforce is interested in my insights to help shape the future of the Trailblazer community for both new and existing members.",
+      "word_count": 130,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 17,
+      "heading": "What do you enjoy doing in your free time, and do you have any final advice?",
+      "text": "Outside of my tech interests, which include participating in hackathons like the Agentforce hackathon, I enjoy spending time with my daughter, just doing fun activities and getting outdoors.",
+      "word_count": 28,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 18,
+      "heading": "Jonathan’s top 3 Agentforce learnings",
+      "text": "Start with Use Cases, Not features – Before diving into the technical bits, explore what Agentforce is best used for.Understand the Agentforce toolset and when or where to use each part.Example: When to use templates vs. when to build an agent.Treat Agentforce like any other software, including Salesforce. Building with purpose, build with governance, test thoroughly and deploy often. Example: When to use templates vs. when to build an agent.",
+      "word_count": 70,
+      "has_existing_cta": false,
+      "inline_links": []
     }
   ],
   "existing_ctas": [

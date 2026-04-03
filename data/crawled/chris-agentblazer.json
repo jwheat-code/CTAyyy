@@ -9,27 +9,142 @@
     {
       "index": 0,
       "heading": "Introduction",
-      "text": "Chris Emmett, a Solution Architect at Capgemini, with nearly a decade of experience in the Salesforce ecosystem, approaches the evolution of AI by getting in on the ground floor. He builds against the technical limits of the platform to find what is truly possible. As a dedicated Agentblazer and technical lead, Chris believes that Agentforce is about much more than just the technology; it is a productivity booster designed to take the bore out of the day by letting AI handle the mundane tasks. He encourages teams to look past the technical complexity and instead ask, “If I could hire ten more people, what would I ask them to do?” because that specific job description becomes the foundation for the AI solution. Read on to learn how Chris translates business problems into agentic workflows, his strategy for reducing manual tasks by 95 percent, and how his passion for community-led initiatives like Shirtforce continues to drive his work forward. As a Solution Architect, my responsibility is to work with customers to understand their business requirements and technical landscape, then translate those into a technical solution. Every day is vastly different. Some days I’m researching industry trends; other days I’m diving into a customer’s existing tech stack—whether they use SAP, Dynamics, or other systems. I then take that knowledge and combine it with Salesforce, sometimes replacing old systems entirely. This variety is perfect for me because I have a very short attention span! I work for Capgemini, and we implement the entire Salesforce suite. If it has the word “Salesforce” on it, we do it. Personally, my experience leans toward core products like Agentforce Sales (fka Sales Cloud), Agentforce Service (fka Service Cloud), and Service Portal. The great thing about Agentforce is that it layers across every single product. It’s not necessarily a brand-new product you have to learn from scratch; you just have to understand how it plugs into those core products. For me, AI is about navigating massive volumes of information. If a customer submits a 200-page Request for Proposal (RFP) detailing their landscape, no human can perfectly retain every bit of it. AI allows me to ask, “Give me a summary,” or “Where does it mention the financial process?,” and it points me straight to page 85. It removes the barrier of volume. Also, I used it for a “reverse demo” where a customer recorded a two-hour meeting showing their current system. Ordinarily, I might spend eight hours re-watching, rewinding, and taking notes. Instead, I transcribed the video and used AI to distill it down to the 30 minutes of content that actually mattered. It turns a task that would take days into an hour. To be honest, it started with imposter syndrome. When I joined the ecosystem in 2016, everyone seemed so knowledgeable that I felt like I didn’t know what I was talking about. That drove me to hit Trailhead and get certifications to prove my abilities and knowledge. When Agentforce came out, that feeling returned, so I joined theAgentblazer Community on Slack. I found that answering other people’s questions is the best way for me to learn. If someone has a problem and I don’t know how to fix it, I go figure it out. It proves to me, and everyone else, that I know what I’m talking about. I was initially skeptical of ChatGPT; I thought it was just a fancy auto-complete. But, I built an iPhone game in ten days using ChatGPT with zero prior development experience. That changed my mind about LLMs. When Salesforce rebranded Einstein Copilot to Agentforce, it felt like they were doubling down. The potential of having LLM functionality directly tied to Salesforce data blew me away. I wanted to get in on the ground level, so I could help dictate how the product evolves. If technology is making a huge impact on the world, I want to help push it forward. To build my skills on Agentforce, I used a demo org and simply tried to break it. If you find the limits, you can build against them. I also realized that you can’t tackle Agentforce technology first, it doesn’t work. You have to find a business problem. For one of my customers, they needed to double sales revenue but lacked the manpower. They were losing low-value orders because the team could only focus on high-value ones. I built an Agentforce solution that identified opportunities about to expire, understood the context, and drafted a chase email in 30 seconds. A task that would normally take 30 minutes for a human was reduced by 95 percent. We focused on the business process. For colleagues, I’m a huge fan of theAgentblazer Statusesbecause it covers everything from AI basics to complex agents. For customers, I tell them to ignore the technology for a moment. I ask, “If you could hire ten more people, what would I ask them to do?” That job description becomes the AI solution. Helping people has been my ethos since my first IT help desk internship in 1996. I’m a nerd for it, nothing gives me a bigger buzz than someone saying thank you because I helped them solve a problem. For the End-User: Always ask, “What is the business problem I’m trying to fix?” Don’t just put AI in because it’s cool. For the Techie: Understand how the technology works and focus on safeguarding data. AI eats up data, and companies are rightly concerned about residency and privacy. You need to know exactly who is processing that data and where it’s going. Start with the problem and don’t try to make it perfect; just make it work. When you move toward production, data quality is everything. You don’t need to clean 10 million records. If your AI only needs to look at the next two months of opportunities, filter it down to those 2,000 records and only the relevant fields. Narrowing the scope dictates the quality of your results. The narrative that AI will replace humans has calmed down. I focus on the concept of human-in-the-loop. You let the AI do the boring stuff no one wants to do, and then a human checks it. It’s a productivity booster! We’re taking the bore out of the day and making lives easier. My advice is to take people on a journey. Don’t just dump a product on their desk. Work with a champion to design the solution, get their feedback, and release it quickly. If it only takes an hour to build the core agent, use the rest of your time to refine it based on user feedback. It makes the end-users feel valued and ensures the tool actually supports their work effectively. It was the flexibility. I was a Project Manager at the time, and our existing CRM only allowed us to add three fields. Then I saw Salesforce, where I could create those three fields in 15 seconds, or 300 fields in a day. It blew my mind! The company I was with chose not to go with Salesforce, so I decided to move on and find a company that did. The reason I joined and became active in the Agentblazer Community is I wanted to be part of the ground floor of a brand-new technology. We are all Agentblazers trying to push businesses forward and make the world a better place. Shirtforcestarted in 2017 to raise money for charity by selling community-inspired t-shirt designs. Then two years ago, we pivoted. Now, we use the funds to help the community grow. We buy event tickets and cover travel costs for people who are brand new to the ecosystem. We’re putting that money back into fueling new talent and growing the ecosystem. I have far too many Legos! I’m also a former wedding photographer and still enjoy photography as a hobby. Currently, I’m obsessed with home automation. I’ve connected my lights, heating, Robo-vacuum, and TV. I’m also digitizing about a thousand Blu-rays to build my own private cloud. It’s a massive time-waster project, but I love it. Don’t treat Agentforce as a tool in search of a problem. Instead, think of it as an extra pair of hands for your team. Ask yourself, “What mundane or awkward tasks are slowing people down? What repetitive work could be offloaded?” By focusing on real friction points rather than looking for ways to shoehorn AI into your processes, you’ll identify use cases that deliver immediate, tangible value and natural adoption.AI relies on data, but attempting to cleanse every record in your system will delay your project by years. Instead, concentrate on the precise use cases, the precise records, and the precise fields that need to be high quality. In the case of a service agent, that could mean focusing on open Cases, SLA data, and knowledge articles for a specific product line rather than your entire database. Targeted data quality efforts get you to production faster while still ensuring reliable AI performance.Iterate your deployments frequently and leverage Agentforce’s speed advantage. Unlike traditional development cycles, the build phase for an Agentforce agent can be completed in less than an hour. Use that velocity to deploy quickly, gather real user feedback, iterate, and improve their experience. This rapid cycle not only accelerates your learning but also gains user buy-in and adoption when people see their input directly shaping the solution.",
-      "word_count": 1558,
+      "text": "Chris Emmett, a Solution Architect at Capgemini, with nearly a decade of experience in the Salesforce ecosystem, approaches the evolution of AI by getting in on the ground floor. He builds against the technical limits of the platform to find what is truly possible. As a dedicated Agentblazer and technical lead, Chris believes that Agentforce is about much more than just the technology; it is a productivity booster designed to take the bore out of the day by letting AI handle the mundane tasks. He encourages teams to look past the technical complexity and instead ask, “If I could hire ten more people, what would I ask them to do?” because that specific job description becomes the foundation for the AI solution. Read on to learn how Chris translates business problems into agentic workflows, his strategy for reducing manual tasks by 95 percent, and how his passion for community-led initiatives like Shirtforce continues to drive his work forward.",
+      "word_count": 158,
       "has_existing_cta": true,
       "inline_links": [
         {
           "text": "Chris Emmett",
           "href": "https://www.linkedin.com/in/chrisemmett82/"
-        },
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "What does a typical day at work look like for you?",
+      "text": "As a Solution Architect, my responsibility is to work with customers to understand their business requirements and technical landscape, then translate those into a technical solution. Every day is vastly different. Some days I’m researching industry trends; other days I’m diving into a customer’s existing tech stack—whether they use SAP, Dynamics, or other systems. I then take that knowledge and combine it with Salesforce, sometimes replacing old systems entirely. This variety is perfect for me because I have a very short attention span!",
+      "word_count": 83,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 2,
+      "heading": "What Salesforce products do you primarily implement for your clients?",
+      "text": "I work for Capgemini, and we implement the entire Salesforce suite. If it has the word “Salesforce” on it, we do it. Personally, my experience leans toward core products like Agentforce Sales (fka Sales Cloud), Agentforce Service (fka Service Cloud), and Service Portal. The great thing about Agentforce is that it layers across every single product. It’s not necessarily a brand-new product you have to learn from scratch; you just have to understand how it plugs into those core products.",
+      "word_count": 80,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 3,
+      "heading": "What are some common challenges at work that you face that AI has helped to remove for you?",
+      "text": "For me, AI is about navigating massive volumes of information. If a customer submits a 200-page Request for Proposal (RFP) detailing their landscape, no human can perfectly retain every bit of it. AI allows me to ask, “Give me a summary,” or “Where does it mention the financial process?,” and it points me straight to page 85. It removes the barrier of volume. Also, I used it for a “reverse demo” where a customer recorded a two-hour meeting showing their current system. Ordinarily, I might spend eight hours re-watching, rewinding, and taking notes. Instead, I transcribed the video and used AI to distill it down to the 30 minutes of content that actually mattered. It turns a task that would take days into an hour.",
+      "word_count": 125,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "How have you approached learning and staying up-to-date with new products like Agentforce?",
+      "text": "To be honest, it started with imposter syndrome. When I joined the ecosystem in 2016, everyone seemed so knowledgeable that I felt like I didn’t know what I was talking about. That drove me to hit Trailhead and get certifications to prove my abilities and knowledge. When Agentforce came out, that feeling returned, so I joined theAgentblazer Community on Slack. I found that answering other people’s questions is the best way for me to learn. If someone has a problem and I don’t know how to fix it, I go figure it out. It proves to me, and everyone else, that I know what I’m talking about.",
+      "word_count": 107,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "Agentblazer Community on Slack",
           "href": "http://sfdc.co/agentblazer"
-        },
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Why did you want to lean into learning Agentforce? Additionally, how did you build your Agentforce knowledge?",
+      "text": "I was initially skeptical of ChatGPT; I thought it was just a fancy auto-complete. But, I built an iPhone game in ten days using ChatGPT with zero prior development experience. That changed my mind about LLMs. When Salesforce rebranded Einstein Copilot to Agentforce, it felt like they were doubling down. The potential of having LLM functionality directly tied to Salesforce data blew me away. I wanted to get in on the ground level, so I could help dictate how the product evolves. If technology is making a huge impact on the world, I want to help push it forward. To build my skills on Agentforce, I used a demo org and simply tried to break it. If you find the limits, you can build against them. I also realized that you can’t tackle Agentforce technology first, it doesn’t work. You have to find a business problem. For one of my customers, they needed to double sales revenue but lacked the manpower. They were losing low-value orders because the team could only focus on high-value ones. I built an Agentforce solution that identified opportunities about to expire, understood the context, and drafted a chase email in 30 seconds. A task that would normally take 30 minutes for a human was reduced by 95 percent. We focused on the business process.",
+      "word_count": 219,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "heading": "What has it been like to take that knowledge that you’ve learned and help others within and outside of your organization develop their skills?",
+      "text": "For colleagues, I’m a huge fan of theAgentblazer Statusesbecause it covers everything from AI basics to complex agents. For customers, I tell them to ignore the technology for a moment. I ask, “If you could hire ten more people, what would I ask them to do?” That job description becomes the AI solution. Helping people has been my ethos since my first IT help desk internship in 1996. I’m a nerd for it, nothing gives me a bigger buzz than someone saying thank you because I helped them solve a problem.",
+      "word_count": 91,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "Agentblazer Statuses",
           "href": "https://trailhead.salesforce.com/agentblazer"
-        },
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "What is your biggest piece of advice for someone who’s just getting started with Agentforce?",
+      "text": "For the End-User: Always ask, “What is the business problem I’m trying to fix?” Don’t just put AI in because it’s cool. For the Techie: Understand how the technology works and focus on safeguarding data. AI eats up data, and companies are rightly concerned about residency and privacy. You need to know exactly who is processing that data and where it’s going.",
+      "word_count": 62,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "heading": "Do you have any tips for building an impactful Agentforce Proof of Concept (POC)?",
+      "text": "Start with the problem and don’t try to make it perfect; just make it work. When you move toward production, data quality is everything. You don’t need to clean 10 million records. If your AI only needs to look at the next two months of opportunities, filter it down to those 2,000 records and only the relevant fields. Narrowing the scope dictates the quality of your results.",
+      "word_count": 67,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 9,
+      "heading": "How do you talk about the impact of humans and AI agents working together?",
+      "text": "The narrative that AI will replace humans has calmed down. I focus on the concept of human-in-the-loop. You let the AI do the boring stuff no one wants to do, and then a human checks it. It’s a productivity booster! We’re taking the bore out of the day and making lives easier.",
+      "word_count": 52,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 10,
+      "heading": "Change management is a key piece to driving adoption of a deployed agent, what’re your best practices for helping people use it?",
+      "text": "My advice is to take people on a journey. Don’t just dump a product on their desk. Work with a champion to design the solution, get their feedback, and release it quickly. If it only takes an hour to build the core agent, use the rest of your time to refine it based on user feedback. It makes the end-users feel valued and ensures the tool actually supports their work effectively.",
+      "word_count": 71,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 11,
+      "heading": "What made you choose the Salesforce ecosystem as a career path?",
+      "text": "It was the flexibility. I was a Project Manager at the time, and our existing CRM only allowed us to add three fields. Then I saw Salesforce, where I could create those three fields in 15 seconds, or 300 fields in a day. It blew my mind! The company I was with chose not to go with Salesforce, so I decided to move on and find a company that did. The reason I joined and became active in the Agentblazer Community is I wanted to be part of the ground floor of a brand-new technology. We are all Agentblazers trying to push businesses forward and make the world a better place.",
+      "word_count": 111,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 12,
+      "heading": "What is Shirtforce and what is the goal of it in the ecosystem?",
+      "text": "Shirtforcestarted in 2017 to raise money for charity by selling community-inspired t-shirt designs. Then two years ago, we pivoted. Now, we use the funds to help the community grow. We buy event tickets and cover travel costs for people who are brand new to the ecosystem. We’re putting that money back into fueling new talent and growing the ecosystem.",
+      "word_count": 59,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "Shirtforce",
           "href": "https://shirtforce.org/"
         }
       ]
+    },
+    {
+      "index": 13,
+      "heading": "Outside of work, what do you enjoy doing?",
+      "text": "I have far too many Legos! I’m also a former wedding photographer and still enjoy photography as a hobby. Currently, I’m obsessed with home automation. I’ve connected my lights, heating, Robo-vacuum, and TV. I’m also digitizing about a thousand Blu-rays to build my own private cloud. It’s a massive time-waster project, but I love it.",
+      "word_count": 55,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 14,
+      "heading": "Chris’ top 3 Agentforce learnings",
+      "text": "Don’t treat Agentforce as a tool in search of a problem. Instead, think of it as an extra pair of hands for your team. Ask yourself, “What mundane or awkward tasks are slowing people down? What repetitive work could be offloaded?” By focusing on real friction points rather than looking for ways to shoehorn AI into your processes, you’ll identify use cases that deliver immediate, tangible value and natural adoption.AI relies on data, but attempting to cleanse every record in your system will delay your project by years. Instead, concentrate on the precise use cases, the precise records, and the precise fields that need to be high quality. In the case of a service agent, that could mean focusing on open Cases, SLA data, and knowledge articles for a specific product line rather than your entire database. Targeted data quality efforts get you to production faster while still ensuring reliable AI performance.Iterate your deployments frequently and leverage Agentforce’s speed advantage. Unlike traditional development cycles, the build phase for an Agentforce agent can be completed in less than an hour. Use that velocity to deploy quickly, gather real user feedback, iterate, and improve their experience. This rapid cycle not only accelerates your learning but also gains user buy-in and adoption when people see their input directly shaping the solution.",
+      "word_count": 218,
+      "has_existing_cta": false,
+      "inline_links": []
     }
   ],
   "existing_ctas": [

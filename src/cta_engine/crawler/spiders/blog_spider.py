@@ -165,7 +165,8 @@ class SalesforceBlogSpider(scrapy.Spider):
     def _extract_sections(self, article_el):
         """Split article content into sections based on h2 headings.
 
-        Uses a flat traversal of all block-level elements and h2s in document
+        Falls back to h3 splitting when no editorial h2s are found.
+        Uses a flat traversal of all block-level elements in document
         order, regardless of nesting depth.
         """
         # CTA / chrome class fragments to skip
@@ -174,13 +175,22 @@ class SalesforceBlogSpider(scrapy.Spider):
             "related-trail", "post__social", "post__tags", "post__author",
             "newsletter", "sidebar",
         }
+        SKIP_HEADINGS = {"share article", "share", "related articles",
+                         "explore related content by topic"}
 
         def should_skip(el):
             classes = " ".join(el.get("class", []))
             return any(skip in classes for skip in SKIP_CLASSES)
 
-        # Collect all h2s and paragraph-level elements in document order
-        tags_of_interest = article_el.find_all(["h2", "p", "ul", "ol", "blockquote"])
+        # Determine which heading level to split on
+        # If no editorial h2s exist, fall back to h3
+        h2s = [h for h in article_el.find_all("h2")
+               if h.get_text(strip=True).lower() not in SKIP_HEADINGS
+               and not any(should_skip(a) for a in h.parents if hasattr(a, "get"))]
+        split_tag = "h2" if h2s else "h3"
+
+        # Collect headings and paragraph-level elements in document order
+        tags_of_interest = article_el.find_all([split_tag, "p", "ul", "ol", "blockquote"])
 
         sections = []
         current_heading = "Introduction"
@@ -193,11 +203,10 @@ class SalesforceBlogSpider(scrapy.Spider):
             if any(should_skip(ancestor) for ancestor in el.parents if hasattr(ancestor, "get")):
                 continue
 
-            if el.name == "h2":
+            if el.name == split_tag:
                 heading_text = el.get_text(strip=True)
-                # Skip non-editorial h2s (social share, "Related articles", etc.)
-                if heading_text.lower() in {"share article", "share", "related articles",
-                                             "explore related content by topic"}:
+                # Skip non-editorial headings
+                if heading_text.lower() in SKIP_HEADINGS:
                     continue
 
                 if current_text_parts:

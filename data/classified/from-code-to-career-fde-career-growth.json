@@ -14,8 +14,7 @@
         "secondary_persona": "business_leader",
         "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
-          "platform"
+          "agentforce"
         ],
         "topic_tags": [
           "ai_agents",
@@ -23,7 +22,7 @@
           "platform"
         ],
         "confidence": 0.75,
-        "rationale": "Rule-based: inspiring intent detected in 'Introduction'. Products: agentforce, platform. Funnel: awareness."
+        "rationale": "Rule-based: inspiring intent detected in 'Introduction'. Products: agentforce. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "We can’t wait to meet you!",
@@ -50,13 +49,60 @@
           "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage developer reader."
         },
         {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "The FDE Mission: Where Impact Meets Innovation",
+      "classification": {
+        "reader_intent": "problem_solving",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: problem_solving intent detected in 'The FDE Mission: Where Impact Meets Innovation'. Products: agentforce, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
           "type": "trail",
           "trail_id": "trail-isv_business_beginner",
           "name": "Grow Your Business as an AppExchange Partner",
           "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
           "duration_minutes": 285,
           "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
         },
         {
           "type": "trail",
@@ -65,13 +111,67 @@
           "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
           "duration_minutes": 180,
           "score": 0.55,
-          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
+          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "Agentforce & Career Growth",
+      "classification": {
+        "reader_intent": "evaluating",
+        "primary_persona": "developer",
+        "secondary_persona": "business_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud",
+          "platform"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "data_analytics",
+          "thought_leadership",
+          "platform",
+          "trailhead"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: evaluating intent detected in 'Agentforce & Career Growth'. Products: agentforce, sales_cloud, platform. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.95,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.85,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
         }
       ],
       "recommend_no_cta": false,
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.65,
-  "misaligned_count": 0
+  "overall_health_score": 0.2167,
+  "misaligned_count": 2
 }

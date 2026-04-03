@@ -9,18 +9,36 @@
     {
       "index": 0,
       "heading": "Introduction",
-      "text": "When MrBeastannounceda $1 million puzzle during last month’s football game, more than 275,000 people registered to play. Behind that puzzle was something unprecedented: Salesforce building on Salesforce, pressure-testing our platform at scale, and proving that our architecture can rapidly deliver reliable AI applications. This collaboration was a clear proof point that our prompt templates can power high-scale experiences, even under the extreme pressure of a nationally televised launch. The groundbreaking project pushed us to new heights, and showed us what’s possible when humans and agents work together. Whilebrand marketing was running its own two-minute drilltoward the Big Game, the technical team had a simple brief: Support millions of concurrent users playing an AI-powered puzzle. The execution, however, was anything but simple. We had six weeks to create a gaming platform on Salesforce that would handle up to 10 million registrations across North America while maintaining a very high content safety score. Applying a ‘Customer Zero’ approach, Salesforce used the same core technology available to every one of our enterprise customers to build a platform for MrBeast. The significance of this project goes beyond massive scale. We demonstrated that customers can build faster and better on Salesforce than from the ground up with raw AI models. In an era where some question if standalone AI models will replace specialized software, we proved that the platform is the fastest way to turn raw intelligence into secure, scalable business outcomes. We didn’t need to cobble together disparate services or build one-off infrastructure. We used Experience Cloud, Prompt Builder, MuleSoft,Sandboxes, and core platform capabilities. These are the same tools available to any enterprise customer, but we pushed them to levels they’d never reached before. The results of combining these tools with an AI-augmented team speak for themselves: 78 production orgs were deployed and configured in under a week.The system was built in one two-week sprint and hardened in another two weeks.A team of 14 people delivered a project in six weeks that typically would have required six to nine months.The launch experienced zero downtime and successfully withstood multiple DDoS attacks.The event supported over 275,000 registered players, 750,000 unique conversations, and 4.5 billion tokens processed.Performance bottlenecks were identified and resolved in real-time usingScale Test, reducing self-registration errors from 50% to 0% before launch. To handle the surge of players, we moved away from a patchwork of disconnected tools and leaned into a high-performance architectural strategy. We protected the platform from traffic spikes by using a global edge network as an intelligent buffer. This managed the entry queue while dedicated routing logic assigned players to one of 78 orgs based on real-time capacity. Building for such a public launch requires rigorous infrastructure pressure-testing. Our Engineering and Availability teams worked alongside our Professional Services team to optimize every layer of the stack for extreme scale. We conducted exhaustive load testing to ensure the system could handle up to 1.5 million concurrent users and 10 million registered users without latency. This involved simulating burst traffic patterns and stress-testing our routing logic to guarantee that as one Salesforce instance reached capacity, the next was ready to receive players instantly. This level of engineering rigor is a core advantage of our platform. When you build on Salesforce, you inherit an infrastructure designed for the world’s most demanding workloads. The same scalability best practices that protected the MrBeast launch are an optional add-on for every enterprise customer through our Professional Services and expert support teams to help with their own go-lives and scale testing. To prepare for the puzzle launch, the team first deployed 14 full-copy Sandboxes that precisely mimicked production load-balancing behavior, including a simulation of the Akamai ‘waiting room’ strategy. Rather than relying on guesswork, the team then utilized SalesforceScale Testto generate realistic, high-volume registration traffic patterns. This testing increased the system’s processing capacity by 5.5x to handle a giant wave of sign-ups. While the puzzle ran on Experience Cloud, players interacted through a custom chat interface built to mirror the look and feel of Slack. This maintained a consistent brand experience at scale while helping players navigate the puzzle. This engagement layer used a customized version of Slackbot to act as a conversational guide. Slackbot matched player queries to puzzle data without knowing the actual answers, ensuring the “Aha!” moment remained with the human participant. To support up to 200,000 requests per minute, we used a custom version of Slackbot that leveraged prompt templates. To keep interactions more accurate and personalized, the Agentforce Runtime grounded every interaction in real-time player data. We used analytics to aggregate player activity from across all these instances into a unified view, providing the real-time context necessary to track progress. Our security model used real-time scoring through the Toxicity Detection capability of the Trust Layer to identify and block toxic content. Per ourAcceptable Use Policy, if a user triggered a toxicity or policy violation, the system immediately suspended them from the puzzle. This combination of automated gateway controls and human oversight achieved a near-perfect success rate during testing, proving we can deliver the safest enterprise AI in the industry. This project gave us an invaluable perspective. We experienced our platform as our customers do, working under pressure and at scale with real consequences. We also saw the impact of having the full power of Salesforce behind us, including the people and practices that make the technology work. I’m especially proud of our core team. A group of 14 developers worked day and night on this puzzle in the days leading up to the Big Game. AI-augmented delivery methods allowed us to move at a speed I have never seen before, completing in six weeks a project that typically requires nine months. This project brought together many parts of Salesforce: Professional Services:Led the architecture, implementation, and delivery across 78 separate orgs.Engineering Teams:Worked alongside Professional Services to pressure-test infrastructure and optimize for scale.Availability and Scale Testing Teams:Conducted rigorous load testing using Full Copy Sandboxes and Scale Test to ensure the system could handle 1.5 million concurrent users.Security and Trust Teams:Extended the trust layer defense in response to nuances identified during the hardening phase.Product Teams:Provided rapid support and workarounds for features that needed to adapt to this large scale.Digital Marketing Teams:Drove social engagement and multi-channel campaigns that resulted in 275,815 registered players.Marketing, Legal, and Operations:Coordinated the launch logistics, compliance, and communications across all channels. Through this launch, we proved that the platform can handle massive scale with the right architecture and that multi-org sharding is a viable strategy for extreme volume. By combining Prompt Builder with custom logic, we delivered both flexibility and control while helping to ensure that trust remained the foundation of the deployment. We learned that AI-augmented teams move at unprecedented speed when supported by the right people and enterprise-grade infrastructure. We also identified limits and gaps that are now feeding directly back into our product development. Being our own customer at this scale taught us exactly where the platform excels and where we may need to invest next. You’re probably not building a million-dollar scavenger hunt. But you might be launching customer-facing AI experiences at scale, navigating complex regulatory requirements, or trying to move faster without sacrificing reliability. Integrating LLMs into mission-critical workflows is a challenge every business now faces. This project serves as a direct response to the idea that standalone AI models will replace specialized software. Frontier models provide raw intelligence, but Salesforce provides the framework to help turn that intelligence into secure, scalable business outcomes. We proved that the future of AI is not about replacing the platform. It is about the platform becoming the fastest and most efficient way to bring AI to life. Choosing a unified platform allows you to avoid the complexity of connecting disparate APIs and one-off infrastructure. Modern AI must be more than just smart; it needs to work reliably at scale and stay grounded in your specific data. Our team demonstrated that Salesforce is ready to help you move from an idea to a secure, enterprise-grade AI implementation today.Check out our Agentforce customer stories tosee how other enterprises are using Salesforceto scale their own AI-powered experiences. 6 weeksfrom concept to launch78Salesforce orgs deployed in days10 millionplayer capacity1.3 million messagesand4.5 billion tokensprocessed in week 1Zerodowntime during launch14core team members10+teams collaborated internally",
-      "word_count": 1377,
+      "text": "When MrBeastannounceda $1 million puzzle during last month’s football game, more than 275,000 people registered to play. Behind that puzzle was something unprecedented: Salesforce building on Salesforce, pressure-testing our platform at scale, and proving that our architecture can rapidly deliver reliable AI applications. This collaboration was a clear proof point that our prompt templates can power high-scale experiences, even under the extreme pressure of a nationally televised launch. The groundbreaking project pushed us to new heights, and showed us what’s possible when humans and agents work together.",
+      "word_count": 87,
       "has_existing_cta": false,
       "inline_links": [
         {
           "text": "announced",
           "href": "https://www.youtube.com/watch?v=Lp9OEfkWfLI"
-        },
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "heading": "The Challenge: Enormous Scale, Enterprise Trust",
+      "text": "Whilebrand marketing was running its own two-minute drilltoward the Big Game, the technical team had a simple brief: Support millions of concurrent users playing an AI-powered puzzle. The execution, however, was anything but simple. We had six weeks to create a gaming platform on Salesforce that would handle up to 10 million registrations across North America while maintaining a very high content safety score. Applying a ‘Customer Zero’ approach, Salesforce used the same core technology available to every one of our enterprise customers to build a platform for MrBeast.",
+      "word_count": 89,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "brand marketing was running its own two-minute drill",
           "href": "https://www.salesforce.com/news/stories/slackbot-powers-superbowl-commercial/"
-        },
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "heading": "Platform Over Patchwork: Scaling Human Productivity",
+      "text": "The significance of this project goes beyond massive scale. We demonstrated that customers can build faster and better on Salesforce than from the ground up with raw AI models. In an era where some question if standalone AI models will replace specialized software, we proved that the platform is the fastest way to turn raw intelligence into secure, scalable business outcomes. We didn’t need to cobble together disparate services or build one-off infrastructure. We used Experience Cloud, Prompt Builder, MuleSoft,Sandboxes, and core platform capabilities. These are the same tools available to any enterprise customer, but we pushed them to levels they’d never reached before. The results of combining these tools with an AI-augmented team speak for themselves: 78 production orgs were deployed and configured in under a week.The system was built in one two-week sprint and hardened in another two weeks.A team of 14 people delivered a project in six weeks that typically would have required six to nine months.The launch experienced zero downtime and successfully withstood multiple DDoS attacks.The event supported over 275,000 registered players, 750,000 unique conversations, and 4.5 billion tokens processed.Performance bottlenecks were identified and resolved in real-time usingScale Test, reducing self-registration errors from 50% to 0% before launch.",
+      "word_count": 202,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "Sandboxes",
           "href": "https://www.salesforce.com/platform/sandboxes-environments/"
@@ -28,20 +46,79 @@
         {
           "text": "Scale Test",
           "href": "https://www.salesforce.com/platform/application-scaling-performance-testing/"
-        },
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "heading": "The Architecture of Speed: Engineering for 1.5 Million Concurrent Users",
+      "text": "To handle the surge of players, we moved away from a patchwork of disconnected tools and leaned into a high-performance architectural strategy. We protected the platform from traffic spikes by using a global edge network as an intelligent buffer. This managed the entry queue while dedicated routing logic assigned players to one of 78 orgs based on real-time capacity.",
+      "word_count": 59,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 4,
+      "heading": "Infrastructure and Load-Testing for 1.5 Million Concurrent Users",
+      "text": "Building for such a public launch requires rigorous infrastructure pressure-testing. Our Engineering and Availability teams worked alongside our Professional Services team to optimize every layer of the stack for extreme scale. We conducted exhaustive load testing to ensure the system could handle up to 1.5 million concurrent users and 10 million registered users without latency. This involved simulating burst traffic patterns and stress-testing our routing logic to guarantee that as one Salesforce instance reached capacity, the next was ready to receive players instantly. This level of engineering rigor is a core advantage of our platform. When you build on Salesforce, you inherit an infrastructure designed for the world’s most demanding workloads. The same scalability best practices that protected the MrBeast launch are an optional add-on for every enterprise customer through our Professional Services and expert support teams to help with their own go-lives and scale testing. To prepare for the puzzle launch, the team first deployed 14 full-copy Sandboxes that precisely mimicked production load-balancing behavior, including a simulation of the Akamai ‘waiting room’ strategy. Rather than relying on guesswork, the team then utilized SalesforceScale Testto generate realistic, high-volume registration traffic patterns. This testing increased the system’s processing capacity by 5.5x to handle a giant wave of sign-ups.",
+      "word_count": 207,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "Scale Test",
           "href": "https://www.salesforce.com/platform/application-scaling-performance-testing/"
-        },
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "heading": "Using Agentic Logic and Analytics to Guide the Player Journey",
+      "text": "While the puzzle ran on Experience Cloud, players interacted through a custom chat interface built to mirror the look and feel of Slack. This maintained a consistent brand experience at scale while helping players navigate the puzzle. This engagement layer used a customized version of Slackbot to act as a conversational guide. Slackbot matched player queries to puzzle data without knowing the actual answers, ensuring the “Aha!” moment remained with the human participant. To support up to 200,000 requests per minute, we used a custom version of Slackbot that leveraged prompt templates. To keep interactions more accurate and personalized, the Agentforce Runtime grounded every interaction in real-time player data. We used analytics to aggregate player activity from across all these instances into a unified view, providing the real-time context necessary to track progress.",
+      "word_count": 133,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 6,
+      "heading": "The Trust Layer: Safety at the Edge",
+      "text": "Our security model used real-time scoring through the Toxicity Detection capability of the Trust Layer to identify and block toxic content. Per ourAcceptable Use Policy, if a user triggered a toxicity or policy violation, the system immediately suspended them from the puzzle. This combination of automated gateway controls and human oversight achieved a near-perfect success rate during testing, proving we can deliver the safest enterprise AI in the industry.",
+      "word_count": 69,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "Acceptable Use Policy",
           "href": "https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/legal/Agreements/policies/ai-acceptable-use-policy.pdf"
-        },
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "heading": "Salesforce on Salesforce: Lessons from the Front Line",
+      "text": "This project gave us an invaluable perspective. We experienced our platform as our customers do, working under pressure and at scale with real consequences. We also saw the impact of having the full power of Salesforce behind us, including the people and practices that make the technology work. I’m especially proud of our core team. A group of 14 developers worked day and night on this puzzle in the days leading up to the Big Game. AI-augmented delivery methods allowed us to move at a speed I have never seen before, completing in six weeks a project that typically requires nine months. This project brought together many parts of Salesforce: Professional Services:Led the architecture, implementation, and delivery across 78 separate orgs.Engineering Teams:Worked alongside Professional Services to pressure-test infrastructure and optimize for scale.Availability and Scale Testing Teams:Conducted rigorous load testing using Full Copy Sandboxes and Scale Test to ensure the system could handle 1.5 million concurrent users.Security and Trust Teams:Extended the trust layer defense in response to nuances identified during the hardening phase.Product Teams:Provided rapid support and workarounds for features that needed to adapt to this large scale.Digital Marketing Teams:Drove social engagement and multi-channel campaigns that resulted in 275,815 registered players.Marketing, Legal, and Operations:Coordinated the launch logistics, compliance, and communications across all channels. Through this launch, we proved that the platform can handle massive scale with the right architecture and that multi-org sharding is a viable strategy for extreme volume. By combining Prompt Builder with custom logic, we delivered both flexibility and control while helping to ensure that trust remained the foundation of the deployment. We learned that AI-augmented teams move at unprecedented speed when supported by the right people and enterprise-grade infrastructure. We also identified limits and gaps that are now feeding directly back into our product development. Being our own customer at this scale taught us exactly where the platform excels and where we may need to invest next.",
+      "word_count": 320,
+      "has_existing_cta": false,
+      "inline_links": []
+    },
+    {
+      "index": 8,
+      "heading": "Why This Matters for Your Business",
+      "text": "You’re probably not building a million-dollar scavenger hunt. But you might be launching customer-facing AI experiences at scale, navigating complex regulatory requirements, or trying to move faster without sacrificing reliability. Integrating LLMs into mission-critical workflows is a challenge every business now faces. This project serves as a direct response to the idea that standalone AI models will replace specialized software. Frontier models provide raw intelligence, but Salesforce provides the framework to help turn that intelligence into secure, scalable business outcomes. We proved that the future of AI is not about replacing the platform. It is about the platform becoming the fastest and most efficient way to bring AI to life. Choosing a unified platform allows you to avoid the complexity of connecting disparate APIs and one-off infrastructure. Modern AI must be more than just smart; it needs to work reliably at scale and stay grounded in your specific data. Our team demonstrated that Salesforce is ready to help you move from an idea to a secure, enterprise-grade AI implementation today.Check out our Agentforce customer stories tosee how other enterprises are using Salesforceto scale their own AI-powered experiences.",
+      "word_count": 187,
+      "has_existing_cta": false,
+      "inline_links": [
         {
           "text": "see how other enterprises are using Salesforce",
           "href": "https://www.salesforce.com/agentforce/metrics/"
         }
       ]
+    },
+    {
+      "index": 9,
+      "heading": "MrBeast Collab by The Numbers",
+      "text": "6 weeksfrom concept to launch78Salesforce orgs deployed in days10 millionplayer capacity1.3 million messagesand4.5 billion tokensprocessed in week 1Zerodowntime during launch14core team members10+teams collaborated internally",
+      "word_count": 24,
+      "has_existing_cta": false,
+      "inline_links": []
     }
   ],
   "existing_ctas": [],

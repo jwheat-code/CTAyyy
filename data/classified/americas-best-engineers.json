@@ -9,23 +9,19 @@
       "section_index": 0,
       "section_heading": "Introduction",
       "classification": {
-        "reader_intent": "evaluating",
+        "reader_intent": "inspiring",
         "primary_persona": "business_leader",
-        "secondary_persona": "developer",
+        "secondary_persona": null,
         "funnel_stage": "awareness",
         "product_alignment": [
-          "agentforce",
           "sales_cloud"
         ],
         "topic_tags": [
-          "ai_agents",
-          "productivity",
           "collaboration",
-          "thought_leadership",
-          "platform"
+          "thought_leadership"
         ],
         "confidence": 0.75,
-        "rationale": "Rule-based: evaluating intent detected in 'Introduction'. Products: agentforce, sales_cloud. Funnel: awareness."
+        "rationale": "Rule-based: inspiring intent detected in 'Introduction'. Products: sales_cloud. Funnel: awareness."
       },
       "existing_cta": {
         "heading": "We can’t wait to meet you!",
@@ -42,6 +38,103 @@
         "issues": [],
         "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
+          "score": 0.85,
+          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-learn-sales-cloud-fundamentals",
+          "name": "Agentforce Sales: Run Your Entire Sales Operation",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
+          "duration_minutes": 425,
+          "score": 0.55,
+          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 1,
+      "section_heading": "Defining the Agentic Enterprise: How Our Teams are Building the Future",
+      "classification": {
+        "reader_intent": "learning",
+        "primary_persona": "business_leader",
+        "secondary_persona": "it_leader",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce"
+        ],
+        "topic_tags": [
+          "ai_agents",
+          "productivity",
+          "collaboration",
+          "thought_leadership",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: learning intent detected in 'Defining the Agentic Enterprise: How Our Teams are Building the Future'. Products: agentforce. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
+      "recommendations": [
+        {
+          "type": "cta",
+          "cta_id": "agentforce-agentic-enterprise-index",
+          "score": 0.85,
+          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "cta",
+          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
+          "score": 0.5,
+          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
+        },
+        {
+          "type": "trail",
+          "trail_id": "trail-isv_business_beginner",
+          "name": "Grow Your Business as an AppExchange Partner",
+          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
+          "duration_minutes": 285,
+          "score": 0.45,
+          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
+        }
+      ],
+      "recommend_no_cta": false,
+      "no_cta_reason": ""
+    },
+    {
+      "section_index": 2,
+      "section_heading": "The Ultimate Mission: Forward Deployed Engineers",
+      "classification": {
+        "reader_intent": "inspiring",
+        "primary_persona": "business_leader",
+        "secondary_persona": "developer",
+        "funnel_stage": "awareness",
+        "product_alignment": [
+          "agentforce",
+          "sales_cloud"
+        ],
+        "topic_tags": [
+          "collaboration",
+          "thought_leadership",
+          "platform"
+        ],
+        "confidence": 0.75,
+        "rationale": "Rule-based: inspiring intent detected in 'The Ultimate Mission: Forward Deployed Engineers'. Products: agentforce, sales_cloud. Funnel: awareness."
+      },
+      "existing_cta": null,
+      "existing_cta_score": null,
       "recommendations": [
         {
           "type": "trail",
@@ -69,6 +162,6 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.8,
-  "misaligned_count": 0
+  "overall_health_score": 0.2667,
+  "misaligned_count": 2
 }
