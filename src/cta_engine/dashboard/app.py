@@ -358,6 +358,46 @@ if crawl_clicked:
     except Exception as e:
         st.sidebar.error(f"Error: {e}")
 
+# Methodology popover in sidebar (always accessible)
+st.sidebar.markdown("---")
+with st.sidebar.popover("📖 Scoring Methodology", use_container_width=True):
+    st.markdown("""
+**CTA Health Score (0-100)**
+
+Articles are scored across 4 dimensions:
+
+**Quantity & Density (25 pts)**
+Right number of CTAs for article length.
+1,000-1,500 words → 2 CTAs ideal.
+1,500-3,000 words → 3 CTAs ideal.
+
+**Placement Quality (35 pts)**
+CTAs in the right zones:
+• Early (first 20%) → +10
+• Mid (35-65%) → +15
+• End (final 15%) → +10
+
+**Intent Match (30 pts)**
+CTA type matches content intent.
+Thought leadership → soft CTAs.
+Decision content → hard CTAs.
+
+**UX Risk (10 pts)**
+Not ad-heavy or repetitive.
+
+**Penalties**
+• >50% sections with CTAs: -5 to -10
+• 3+ identical CTAs: -4
+
+**Grades**
+🟢 85-100 Excellent
+🔵 70-84 Solid
+🟡 55-69 Needs Work
+🔴 Below 55 Poor
+
+*Full details in the Methodology tab.*
+""")
+
 # --- Main Content ---
 tab1, tab2, tab3, tab4 = st.tabs(["Article Overview", "Section Analysis", "Scorecard", "Methodology"])
 
