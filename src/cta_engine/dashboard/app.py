@@ -621,14 +621,7 @@ with tab3:
             display_df,
             use_container_width=True,
             hide_index=True,
-            column_config={
-                "Article": st.column_config.TextColumn("Article", width="large"),
-                "Author": st.column_config.TextColumn("Author", width="medium"),
-                "Published": st.column_config.TextColumn("Published", width="small"),
-                "Sections": st.column_config.NumberColumn("Sections", width="small"),
-                "CTA Health": st.column_config.NumberColumn("CTA Health", width="small", help="0-100 score. See Methodology tab."),
-                "Grade": st.column_config.TextColumn("Grade", width="medium"),
-            },
+            height=35 * len(display_df) + 38,
         )
 
         # Detailed export
