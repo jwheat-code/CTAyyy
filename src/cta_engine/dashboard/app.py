@@ -395,7 +395,8 @@ Not ad-heavy or repetitive.
 🟡 55-69 Needs Work
 🔴 Below 55 Poor
 
-*Full details in the Methodology tab.*
+---
+### 👉 See the Methodology tab for full details, sources, and scoring breakdowns.
 """)
 
 # --- Main Content ---
