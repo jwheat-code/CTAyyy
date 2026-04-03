@@ -421,7 +421,7 @@ Not ad-heavy or repetitive.
 🔴 Below 55 Poor
 
 """)
-    st.page_link("pages/Methodology.py", label="👉 Full Methodology & Sources →", icon="📖")
+    st.markdown("### 👉 [Full Methodology & Sources →](./Methodology)")
 
 # --- Main Content ---
 tab1, tab2, tab3 = st.tabs(["Article Overview", "Section Analysis", "Scorecard"])
