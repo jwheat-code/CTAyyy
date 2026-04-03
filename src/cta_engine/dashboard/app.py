@@ -174,26 +174,36 @@ def build_health_df(analyses: dict, articles: dict) -> pd.DataFrame:
 # --- Page Config ---
 st.set_page_config(page_title="CTA Engine", page_icon="🎯", layout="wide")
 
-# --- Top Bar: Brand Selector + Year Picker ---
+# --- Brand Selector (prominent, top of page) ---
 available_brands = ["Salesforce"]
 for name in ["HubSpot", "Shopify", "ServiceNow"]:
     if (COMPETITORS_DIR / f"{name.lower()}.json").exists():
         available_brands.append(name)
 
-top_cols = st.columns([3] + [1] * len(available_brands) + [1])
-with top_cols[0]:
-    st.title("CTA Engine — Health Report")
+selected_brand = st.session_state.get("selected_brand", "Salesforce")
 
+brand_cols = st.columns([1] * len(available_brands) + [1])
 for i, brand in enumerate(available_brands):
     cfg = BRAND_CONFIG.get(brand, {})
-    with top_cols[i + 1]:
-        if st.button(f"{cfg.get('icon', '')} {brand}", key=f"brand_{brand}", use_container_width=True):
-            st.session_state["selected_brand"] = brand
+    is_active = brand == selected_brand
+    with brand_cols[i]:
+        if is_active:
+            st.markdown(
+                f"<div style='background:{cfg.get('color','#00A1E0')};color:white;padding:10px 16px;"
+                f"border-radius:8px;text-align:center;font-weight:700;font-size:15px;cursor:default;'>"
+                f"{cfg.get('icon','')} {brand}</div>",
+                unsafe_allow_html=True,
+            )
+        else:
+            if st.button(f"{cfg.get('icon', '')} {brand}", key=f"brand_{brand}", use_container_width=True):
+                st.session_state["selected_brand"] = brand
+                st.rerun()
 
-with top_cols[-1]:
+with brand_cols[-1]:
     selected_year = st.selectbox("Year", ["2026", "2025", "All"], index=0, key="year_filter")
 
-selected_brand = st.session_state.get("selected_brand", "Salesforce")
+st.title("CTA Engine — Health Report")
+
 is_competitor = selected_brand != "Salesforce"
 
 # --- Load data based on brand ---
