@@ -223,7 +223,7 @@ def get_hubspot_urls(min_year="2026"):
             continue
         if "/topic-learning-path/" in url:
             continue
-        urls.append(url)
+        urls.append({"url": url, "date": date[:10]})
     print(f"Found {len(urls)} {min_year} articles")
     return urls
 
@@ -271,7 +271,15 @@ def main():
 
     done = 0
     skipped = 0
-    for i, url in enumerate(urls):
+    for i, entry in enumerate(urls):
+        # Handle both dict entries (hubspot with date) and plain URL strings (shopify)
+        if isinstance(entry, dict):
+            url = entry["url"]
+            sitemap_date = entry.get("date", "")
+        else:
+            url = entry
+            sitemap_date = ""
+
         slug = url.rstrip("/").split("/")[-1]
         classified_path = classified_dir / f"{slug}.json"
         if classified_path.exists():
@@ -282,6 +290,10 @@ def main():
             article = parse_fn(url)
             if not article or not article.get("sections"):
                 continue
+
+            # Use sitemap date as fallback if parser didn't find one
+            if not article.get("published_date") and sitemap_date:
+                article["published_date"] = sitemap_date
 
             # Filter by year for Shopify (HubSpot already filtered by sitemap)
             if brand == "shopify":
