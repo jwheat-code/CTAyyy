@@ -271,10 +271,16 @@ analyzed_slugs = sorted(analyses.keys())
 
 selected_slug = None
 if not is_competitor and article_slugs:
+    # Sort by published date descending (newest first)
+    sorted_slugs = sorted(
+        article_slugs,
+        key=lambda s: articles[s].get("published_date", "") or "",
+        reverse=True,
+    )
     selected_slug = st.sidebar.selectbox(
         "Select Article",
-        article_slugs,
-        format_func=lambda s: articles[s].get("title", s)[:60],
+        sorted_slugs,
+        format_func=lambda s: f"{(articles[s].get('published_date','') or '')[:10]}  {articles[s].get('title', s)[:50]}",
     )
 
 if not is_competitor:
