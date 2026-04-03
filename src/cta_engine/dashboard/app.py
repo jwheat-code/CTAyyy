@@ -2,6 +2,7 @@ import json
 import re
 import subprocess
 import sys
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
@@ -49,7 +50,7 @@ def build_competitor_health_df(data: dict) -> pd.DataFrame:
         rows.append({
             "Article": row.get("title", ""),
             "Author": row.get("author", ""),
-            "Published": row.get("published", row.get("date", "")),
+            "Published": normalize_date(row.get("published", row.get("date", ""))),
             "Sections": row.get("sections", 0),
             "Misaligned": row.get("misaligned", 0),
             "Aligned": row.get("sections", 0) - row.get("misaligned", 0),
@@ -57,6 +58,30 @@ def build_competitor_health_df(data: dict) -> pd.DataFrame:
             "Has Analysis": True,
         })
     return pd.DataFrame(rows)
+
+
+def normalize_date(raw: str) -> str:
+    """Convert any date format to YYYY-MM-DD. Returns '' on failure."""
+    if not raw:
+        return ""
+    raw = raw.strip()
+    # Already ISO format
+    if re.match(r"^\d{4}-\d{2}-\d{2}", raw):
+        return raw[:10]
+    # ISO with T: 2026-02-13T14:41:07+00:00
+    if "T" in raw and raw[:4].isdigit():
+        return raw[:10]
+    # "Mar 28, 2026" or "March 28, 2026"
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%b %d %Y", "%B %d %Y", "%m/%d/%Y", "%d %b %Y"):
+        try:
+            return datetime.strptime(raw, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    # Last resort: extract year from anywhere in string
+    m = re.search(r"\b(20\d{2})\b", raw)
+    if m:
+        return m.group(1) + "-01-01"
+    return ""
 
 
 def load_cta_library() -> dict:
@@ -143,7 +168,7 @@ def build_health_df(analyses: dict, articles: dict) -> pd.DataFrame:
         rows.append({
             "Article": analysis.get("title", slug),
             "Author": analysis.get("author", article.get("author", "")),
-            "Published": (analysis.get("published_date", article.get("published_date", "")) or "")[:10],
+            "Published": normalize_date(analysis.get("published_date", article.get("published_date", ""))),
             "URL": analysis.get("url", ""),
             "Slug": slug,
             "Sections": total,
@@ -159,7 +184,7 @@ def build_health_df(analyses: dict, articles: dict) -> pd.DataFrame:
             rows.append({
                 "Article": article.get("title", slug),
                 "Author": article.get("author", ""),
-                "Published": (article.get("published_date", "") or "")[:10],
+                "Published": normalize_date(article.get("published_date", "")),
                 "URL": article.get("url", ""),
                 "Slug": slug,
                 "Sections": len(article.get("sections", [])),
@@ -218,7 +243,7 @@ if is_competitor:
     if selected_year != "All" and competitor_data.get("article_rows"):
         competitor_data["article_rows"] = [
             r for r in competitor_data["article_rows"]
-            if (r.get("published") or r.get("date", "")).startswith(selected_year)
+            if normalize_date(r.get("published") or r.get("date", "")).startswith(selected_year)
         ]
         # Recompute totals from filtered rows
         competitor_data["total_articles"] = len(competitor_data["article_rows"])
@@ -253,7 +278,7 @@ if is_competitor:
             analyses[slug] = d
         # Apply year filter
         if selected_year != "All":
-            articles = {s: a for s, a in articles.items() if (a.get("published_date") or "")[:4] == selected_year}
+            articles = {s: a for s, a in articles.items() if normalize_date(a.get("published_date", "")).startswith(selected_year)}
             analyses = {s: a for s, a in analyses.items() if s in articles}
     else:
         articles = {}
@@ -269,7 +294,7 @@ else:
     if selected_year != "All":
         articles = {
             slug: a for slug, a in articles.items()
-            if (a.get("published_date") or "")[:4] == selected_year
+            if normalize_date(a.get("published_date", "")).startswith(selected_year)
         }
         analyses = {
             slug: a for slug, a in analyses.items()
@@ -306,7 +331,7 @@ if not is_competitor and article_slugs:
     selected_slug = st.sidebar.selectbox(
         "Select Article",
         sorted_slugs,
-        format_func=lambda s: f"{(articles[s].get('published_date','') or '')[:10]}  {articles[s].get('title', s)[:50]}",
+        format_func=lambda s: f"{normalize_date(articles[s].get('published_date',''))}  {articles[s].get('title', s)[:50]}",
     )
 
 if not is_competitor:
@@ -417,7 +442,7 @@ with tab1:
             if url:
                 label = "View Article" if is_competitor else "View on Salesforce Blog"
                 st.markdown(f"[{label}]({url})")
-            pub_date = (article.get("published_date") or "")[:10]
+            pub_date = normalize_date(article.get("published_date", ""))
             st.caption(f"Published: {pub_date}" if pub_date else "")
 
             # Author badges — clean up and display as labels
