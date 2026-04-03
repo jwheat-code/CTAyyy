@@ -571,7 +571,7 @@ with tab1:
         cta_positions = {c.get("position_after_section", -1) for c in existing_ctas}
 
         for section in sections:
-            idx = section["index"]
+            idx = section.get("index", section.get("section_index", 0))
             has_cta = idx in cta_positions
             # Get section analysis data if available
             sa = None
@@ -587,11 +587,16 @@ with tab1:
                 icon = "💤"
             else:
                 icon = "⚠️"
-            with st.expander(f"{icon} Section {idx}: {section['heading'][:80]}", expanded=False):
-                st.write(section["text"][:500] + ("..." if len(section["text"]) > 500 else ""))
+            heading = section.get("heading", section.get("section_heading", ""))
+            text = section.get("text", "")
+            word_count = section.get("word_count", 0)
+            with st.expander(f"{icon} Section {idx}: {heading[:80]}", expanded=False):
+                if text:
+                    st.write(text[:500] + ("..." if len(text) > 500 else ""))
                 col_a, col_b = st.columns([2, 1])
                 with col_a:
-                    st.caption(f"Words: {section['word_count']}")
+                    if word_count:
+                        st.caption(f"Words: {word_count}")
                     if sa:
                         cls = sa.get("classification", {})
                         st.caption(f"Intent: {cls.get('reader_intent', '')} · Funnel: {cls.get('funnel_stage', '')} · Persona: {cls.get('primary_persona', '')}")
