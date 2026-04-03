@@ -316,16 +316,16 @@ if is_competitor:
     st.sidebar.metric("Total Articles", total_articles)
     st.sidebar.metric("Avg CTA Health", f"{int(avg * 100)}/100", help="See Methodology tab")
 
-# Article selector (Salesforce only)
+# Article selector
 article_slugs = sorted(articles.keys())
 analyzed_slugs = sorted(analyses.keys())
 
 selected_slug = None
-if not is_competitor and article_slugs:
+if article_slugs:
     # Sort by published date descending (newest first)
     sorted_slugs = sorted(
         article_slugs,
-        key=lambda s: articles[s].get("published_date", "") or "",
+        key=lambda s: normalize_date(articles[s].get("published_date", "")),
         reverse=True,
     )
     selected_slug = st.sidebar.selectbox(
