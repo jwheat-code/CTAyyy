@@ -26,34 +26,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-incident-response",
-          "name": "Get Started with Incident Response",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
-          "duration_minutes": 55,
-          "score": 0.5,
-          "match_rationale": "Trail targets general at decision stage for decision-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -97,34 +72,9 @@
         ],
         "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
       },
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-meet-agentforce-contact-center",
-          "name": "Meet Agentforce Contact Center",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
-          "duration_minutes": 65,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-service-cloud-achieve-operational-excellence-",
-          "score": 0.85,
-          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
-          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
-          "duration_minutes": 100,
-          "score": 0.85,
-          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -145,34 +95,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-incident-response",
-          "name": "Get Started with Incident Response",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
-          "duration_minutes": 55,
-          "score": 0.5,
-          "match_rationale": "Trail targets general at decision stage for decision-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "duration_minutes": 741,
-          "score": 0.5,
-          "match_rationale": "Trail targets marketing_cloud at consideration stage for decision-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.45,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 3,
@@ -211,31 +136,9 @@
         ],
         "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: partial."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "form-conf-small-business-smbs-grow-with-agentforce",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at consideration stage for consideration-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-data-clean-rooms-demo",
-          "score": 0.85,
-          "match_rationale": "CTA targets data_cloud at consideration stage for consideration-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "duration_minutes": 741,
-          "score": 0.85,
-          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 4,
@@ -272,36 +175,23 @@
         ],
         "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
-          "name": "Create Engaging Content to Achieve Your Marketing Goals",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
-          "duration_minutes": 729,
-          "score": 0.85,
-          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-use-einstein-features-in-marketing-cloud",
-          "name": "Use Einstein Features in Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/use-einstein-features-in-marketing-cloud",
-          "duration_minutes": 90,
-          "score": 0.55,
-          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     }
   ],
-  "overall_health_score": 0.47,
-  "misaligned_count": 2
+  "overall_health_score": 0.7,
+  "cta_health_score": 70,
+  "cta_health_grade": "solid",
+  "cta_health_breakdown": {
+    "quantity": 25,
+    "placement": 10,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": -5
+  },
+  "cta_health_issues": [
+    "CTAs in 60% of sections. Consider reducing to 1 per 3-4 sections."
+  ],
+  "misaligned_count": 1
 }

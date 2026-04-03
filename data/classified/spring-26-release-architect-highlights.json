@@ -28,34 +28,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-develop-for-marketing-cloud",
-          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
-          "duration_minutes": 180,
-          "score": 0.55,
-          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -76,31 +51,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-get_smart_einstein",
-          "name": "Get Smart with Salesforce Einstein",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get_smart_einstein",
-          "duration_minutes": 75,
-          "score": 0.85,
-          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.45,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 2,
@@ -140,34 +93,9 @@
         "issues": [],
         "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-learn-sales-cloud-fundamentals",
-          "name": "Agentforce Sales: Run Your Entire Sales Operation",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
-          "duration_minutes": 425,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 3,
@@ -190,37 +118,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
-          "name": "Get Started with Omnistudio on the Salesforce Platform",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
-          "duration_minutes": 190,
-          "score": 0.65,
-          "match_rationale": "Trail targets platform at decision stage for consideration-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-agentforce-commerce-sell-everywhere-anytime",
-          "name": "Agentforce Commerce: Sell Everywhere, Anytime",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/agentforce-commerce-sell-everywhere-anytime",
-          "duration_minutes": 695,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "duration_minutes": 741,
-          "score": 0.55,
-          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 4,
@@ -261,34 +161,9 @@
         ],
         "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-drive-success-with-mulesoft-anypoint-platform",
-          "name": "Drive Success with MuleSoft Anypoint Platform",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/drive-success-with-mulesoft-anypoint-platform",
-          "duration_minutes": 218,
-          "score": 0.85,
-          "match_rationale": "Trail targets mulesoft at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 5,
@@ -310,34 +185,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-develop-for-marketing-cloud",
-          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
-          "duration_minutes": 180,
-          "score": 0.55,
-          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 6,
@@ -361,31 +211,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.85,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.45,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.45,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage it_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 7,
@@ -408,37 +236,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
-          "name": "Get Started with Omnistudio on the Salesforce Platform",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
-          "duration_minutes": 190,
-          "score": 0.65,
-          "match_rationale": "Trail targets platform at decision stage for consideration-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-agentforce-commerce-sell-everywhere-anytime",
-          "name": "Agentforce Commerce: Sell Everywhere, Anytime",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/agentforce-commerce-sell-everywhere-anytime",
-          "duration_minutes": 695,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "duration_minutes": 741,
-          "score": 0.55,
-          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 8,
@@ -466,6 +266,18 @@
       "no_cta_reason": "Section too short for a CTA."
     }
   ],
-  "overall_health_score": 0.2944,
-  "misaligned_count": 6
+  "overall_health_score": 0.85,
+  "cta_health_score": 85,
+  "cta_health_grade": "excellent",
+  "cta_health_breakdown": {
+    "quantity": 25,
+    "placement": 20,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "No CTA at the end of the article. Readers who finish are your highest-intent audience."
+  ],
+  "misaligned_count": 1
 }

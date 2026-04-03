@@ -24,34 +24,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-grow-your-business-with-salesforce-foundations",
-          "name": "Grow Your Business with Salesforce Foundations",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/grow-your-business-with-salesforce-foundations",
-          "duration_minutes": 750,
-          "score": 0.85,
-          "match_rationale": "Trail targets starter at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-prepare-for-your-salesforce-platform-foundations-certification",
-          "name": "Prepare for your Salesforce Platform Foundations Certification",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-platform-foundations-certification",
-          "duration_minutes": 1705,
-          "score": 0.55,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -89,31 +64,9 @@
         ],
         "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.85,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.45,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.45,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -135,31 +88,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "name": "Empower Your Employees with Specialized Agents in Slack",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "duration_minutes": 135,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 3,
@@ -180,31 +111,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "name": "Empower Your Employees with Specialized Agents in Slack",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "duration_minutes": 135,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 4,
@@ -240,31 +149,9 @@
         ],
         "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: partial."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.85,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.45,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.45,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 5,
@@ -328,6 +215,16 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.325,
-  "misaligned_count": 3
+  "overall_health_score": 0.85,
+  "cta_health_score": 85,
+  "cta_health_grade": "excellent",
+  "cta_health_breakdown": {
+    "quantity": 25,
+    "placement": 20,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [],
+  "misaligned_count": 0
 }

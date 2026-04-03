@@ -28,31 +28,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "form-service-cloud-achieve-operational-excellence-",
-          "score": 0.85,
-          "match_rationale": "CTA targets service_cloud at awareness stage for awareness-stage service_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-meet-agentforce-contact-center",
-          "name": "Meet Agentforce Contact Center",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/meet-agentforce-contact-center",
-          "duration_minutes": 65,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage service_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage service_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -91,34 +69,9 @@
         "issues": [],
         "rationale": "CTA targets consideration-stage readers; section is decision-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage service_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage service_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-service_cloud_move",
-          "name": "Get Started with Service Cloud for Lightning Experience",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/service_cloud_move",
-          "duration_minutes": 420,
-          "score": 0.85,
-          "match_rationale": "Trail targets service_cloud at decision stage for decision-stage service_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -302,6 +255,19 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.5,
+  "overall_health_score": 0.78,
+  "cta_health_score": 78,
+  "cta_health_grade": "solid",
+  "cta_health_breakdown": {
+    "quantity": 22,
+    "placement": 25,
+    "intent_match": 26,
+    "ux": 10,
+    "penalties": -5
+  },
+  "cta_health_issues": [
+    "Evaluation content with no product-focused CTA. Readers comparing solutions expect demos, comparisons, or trials.",
+    "CTAs in 60% of sections. Consider reducing to 1 per 3-4 sections."
+  ],
   "misaligned_count": 2
 }

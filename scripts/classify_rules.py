@@ -239,19 +239,317 @@ def detect_persona(text: str, title: str, products: list[str]) -> tuple[str, str
     return primary, secondary
 
 
-def should_skip_cta(heading: str, text: str, word_count: int) -> tuple[bool, str]:
+def should_skip_cta(heading: str, text: str, word_count: int,
+                     section_index: int = 0, total_sections: int = 1,
+                     intent: str = "learning") -> tuple[bool, str]:
+    """Determine whether a CTA is appropriate for this section.
+
+    Based on evidence: 2-4 CTAs per article, placed at intro/mid/end zones.
+    Most sections should NOT have a CTA — that's the correct answer.
+    """
     h = heading.lower()
-    t = text[:200].lower()
+
+    # Always skip very short sections
     if word_count < 30:
         return True, "Section too short for a CTA."
-    if any(x in h for x in ["table of contents", "frequently asked", "faq", "key takeaway"]):
-        return False, ""  # These are fine to have CTAs
-    if h in ("introduction", "summary", "conclusion", "overview"):
-        return False, ""
-    # Navigation/listing sections
     if re.match(r"^\d+\.", heading.strip()) and word_count < 50:
-        return True, "Short numbered intro section."
-    return False, ""
+        return True, "Short numbered list item."
+
+    # First section — reader just arrived, let them engage
+    if section_index == 0:
+        return True, "Introduction — let the reader engage with the content before presenting a CTA."
+
+    # Short narrative sections (under 150 words) — not enough context
+    if word_count < 150 and intent in ("learning", "inspiring"):
+        return True, "Short narrative section — CTA would interrupt the reading flow."
+
+    # Last section — always a good place for a CTA
+    if section_index == total_sections - 1:
+        return False, ""
+
+    # Mid-article sections with evaluation/decision intent — CTA appropriate
+    if intent in ("evaluating", "implementing"):
+        return False, ""
+
+    # Decision-stage content — CTA appropriate
+    if any(x in h for x in ["pricing", "demo", "get started", "try", "free trial", "contact"]):
+        return False, ""
+
+    # FAQ / key takeaway sections — CTA appropriate
+    if any(x in h for x in ["frequently asked", "faq", "key takeaway", "summary", "conclusion"]):
+        return False, ""
+
+    # Mid-zone sections (35-65% through the article) with problem-solving intent
+    if total_sections > 3:
+        position_pct = section_index / total_sections
+        if 0.35 <= position_pct <= 0.65 and intent == "problem_solving":
+            return False, ""
+
+    # Everything else — narrative/learning sections don't need CTAs
+    return True, "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
+
+
+# ---------------------------------------------------------------------------
+# Hard vs Soft CTA classification
+# ---------------------------------------------------------------------------
+HARD_CTA_PATTERNS = [
+    "demo", "trial", "free trial", "contact sales", "pricing", "book a call",
+    "get started", "start free", "sign up", "request demo", "talk to sales",
+    "buy now", "purchase", "subscribe", "start now",
+]
+SOFT_CTA_PATTERNS = [
+    "learn more", "read more", "read report", "download", "visit trail",
+    "explore", "newsletter", "webinar", "template", "guide", "ebook",
+    "related", "see how", "watch", "report",
+]
+
+
+def classify_cta_hardness(button_text: str, button_url: str) -> str:
+    """Classify a CTA as 'hard' (commercial) or 'soft' (educational/nurture)."""
+    t = button_text.lower()
+    u = button_url.lower()
+    if any(p in t or p in u for p in HARD_CTA_PATTERNS):
+        return "hard"
+    return "soft"
+
+
+# ---------------------------------------------------------------------------
+# Article-level CTA Health Score (100-point rubric)
+# ---------------------------------------------------------------------------
+def score_article_cta_health(sections: list, existing_ctas: list,
+                              section_analyses: list) -> dict:
+    """Score an article's CTA health on a 100-point scale.
+
+    Based on evidence from HubSpot 330K CTA study, Chartbeat scroll data,
+    and NN/g banner-blindness research. Optimizes for relevance, timing,
+    and restraint — not quantity.
+
+    Dimensions:
+      1. Quantity & Density (25 pts) — right number of CTAs for article length
+      2. Placement Quality (35 pts) — CTAs in early/mid/end zones
+      3. Intent Match (30 pts) — CTA type matches article intent
+      4. UX/Intrusiveness (10 pts) — not ad-heavy or repetitive
+    """
+    total_words = sum(s.get("word_count", 0) for s in sections)
+    total_sections = len(sections)
+    if total_sections == 0:
+        return {"score": 0, "grade": "poor", "breakdown": {}, "issues": ["No sections found."]}
+
+    # Collect all CTAs with position and hardness
+    ctas_with_position = []
+    cta_texts_seen = []
+    for cta in existing_ctas:
+        btn = cta.get("button_text", "")
+        url = cta.get("button_url", "")
+        pos = cta.get("position_after_section", 0)
+        hardness = classify_cta_hardness(btn, url)
+        ctas_with_position.append({"text": btn, "url": url, "position": pos, "hardness": hardness})
+        cta_texts_seen.append(btn.lower().strip())
+
+    num_hard = sum(1 for c in ctas_with_position if c["hardness"] == "hard")
+    num_soft = sum(1 for c in ctas_with_position if c["hardness"] == "soft")
+    effective_cta_count = num_hard + (num_soft * 0.5)  # Soft CTAs count as 0.5
+    total_ctas = len(ctas_with_position)
+
+    issues = []
+
+    # === Dimension 1: Quantity & Density (25 pts) ===
+    if total_words < 1000:
+        ideal = 1.5
+        qty_map = {0: 5, 1: 22, 2: 25, 3: 14, 4: 5}
+    elif total_words < 1500:
+        ideal = 2
+        qty_map = {0: 0, 1: 14, 2: 25, 3: 22, 4: 14, 5: 5}
+    else:
+        ideal = 3
+        qty_map = {0: 0, 1: 10, 2: 21, 3: 25, 4: 20, 5: 10, 6: 3}
+
+    qty_score = qty_map.get(total_ctas, 3 if total_ctas > 6 else 5)
+
+    if total_ctas == 0 and total_words >= 1000:
+        issues.append("No CTAs found in a 1,000+ word article. Consider adding 2-3 CTAs at key points.")
+    elif total_ctas >= 5:
+        issues.append(f"Too many CTAs ({total_ctas}). Research shows effectiveness drops after 3-4. Consider removing the weakest ones.")
+
+    # === Dimension 2: Placement Quality (35 pts) ===
+    placement_score = 0
+    early_zone = False  # first 20% of sections
+    mid_zone = False    # 35-65% of sections
+    end_zone = False    # final 15% of sections
+    mid_contextual_bonus = False
+
+    for cta in ctas_with_position:
+        pos = cta["position"]
+        if total_sections <= 1:
+            pct = 0.5
+        else:
+            pct = pos / (total_sections - 1) if total_sections > 1 else 0
+
+        if pct <= 0.20:
+            early_zone = True
+        elif 0.35 <= pct <= 0.65:
+            mid_zone = True
+            # Check if mid CTA matches section products
+            for sa in section_analyses:
+                if sa["section_index"] == pos:
+                    sa_products = sa.get("classification", {}).get("product_alignment", [])
+                    # Check if CTA URL relates to any detected product
+                    cta_products = detect_products(f"{cta['text']} {cta['url']}", "")
+                    if set(cta_products) & set(sa_products):
+                        mid_contextual_bonus = True
+                    break
+        elif pct >= 0.85:
+            end_zone = True
+
+    if early_zone:
+        placement_score += 10
+    if mid_zone:
+        placement_score += 15
+    if end_zone:
+        placement_score += 10
+    if mid_contextual_bonus:
+        placement_score += 5  # Bonus for contextually relevant mid CTA
+
+    if total_ctas > 0 and not mid_zone and not end_zone:
+        issues.append("CTAs are only at the top. Move at least one to mid-article or conclusion where readers are most engaged.")
+    if total_ctas > 0 and not end_zone:
+        issues.append("No CTA at the end of the article. Readers who finish are your highest-intent audience.")
+    if total_ctas == 0:
+        placement_score = 0  # Can't score placement with no CTAs
+
+    # === Dimension 3: Intent/Relevance Match (30 pts) ===
+    intent_score = 30
+
+    # Determine article's dominant intent
+    intent_counts = {}
+    for sa in section_analyses:
+        i = sa.get("classification", {}).get("reader_intent", "learning")
+        intent_counts[i] = intent_counts.get(i, 0) + 1
+    dominant_intent = max(intent_counts, key=intent_counts.get) if intent_counts else "learning"
+
+    # Determine article's dominant funnel stage
+    funnel_counts = {}
+    for sa in section_analyses:
+        f = sa.get("classification", {}).get("funnel_stage", "awareness")
+        funnel_counts[f] = funnel_counts.get(f, 0) + 1
+    dominant_funnel = max(funnel_counts, key=funnel_counts.get) if funnel_counts else "awareness"
+
+    is_thought_leadership = dominant_intent in ("learning", "inspiring")
+    is_evaluation = dominant_intent in ("evaluating", "problem_solving")
+    is_decision = dominant_funnel == "decision"
+
+    if is_thought_leadership:
+        # Hard commercial CTA in first section = bad
+        for cta in ctas_with_position:
+            if cta["position"] == 0 and cta["hardness"] == "hard":
+                intent_score -= 8
+                issues.append("Hard commercial CTA at the top of a thought leadership article. Use a softer CTA (newsletter, related content) or move it later.")
+                break
+        if num_hard > 2:
+            intent_score -= 10
+            issues.append(f"Thought leadership article with {num_hard} hard commercial CTAs. This makes editorial content feel like a sales page.")
+    elif is_evaluation:
+        # Generic newsletter as primary CTA on evaluation content = weak
+        if total_ctas > 0 and num_hard == 0:
+            intent_score -= 4
+            issues.append("Evaluation content with no product-focused CTA. Readers comparing solutions expect demos, comparisons, or trials.")
+    elif is_decision:
+        if num_hard < 2 and total_ctas > 0:
+            intent_score -= 6
+            issues.append("Decision-stage content with too few commercial CTAs. Readers are ready to act — give them a clear path.")
+        if total_ctas > 4:
+            intent_score -= 6
+            issues.append("Decision content overloaded with CTAs. Even high-intent readers suffer from choice overload.")
+
+    # Check for funnel mismatches
+    for cta in ctas_with_position:
+        cta_url = cta["url"].lower()
+        if any(k in cta_url for k in ["trial", "signup", "freetrial", "pricing"]):
+            cta_funnel = "decision"
+        elif any(k in cta_url for k in ["trailhead", "report", "guide", "ebook"]):
+            cta_funnel = "awareness"
+        else:
+            cta_funnel = "consideration"
+
+        funnel_order = ["awareness", "consideration", "decision"]
+        try:
+            diff = abs(funnel_order.index(cta_funnel) - funnel_order.index(dominant_funnel))
+        except ValueError:
+            diff = 0
+        if diff >= 2:
+            intent_score -= 5
+            issues.append(f"CTA '{cta['text'][:30]}' targets {cta_funnel} readers but article is {dominant_funnel}-stage content.")
+            break  # Only penalize worst mismatch
+
+    intent_score = max(0, intent_score)
+
+    # === Dimension 4: UX/Intrusiveness (10 pts) ===
+    ux_score = 10
+
+    # CTA before any body content
+    if ctas_with_position and ctas_with_position[0]["position"] == 0:
+        # Check if there's a CTA in the very first section
+        first_section_ctas = [c for c in ctas_with_position if c["position"] == 0]
+        if len(first_section_ctas) > 1:
+            ux_score -= 3
+            issues.append("Multiple CTAs crowding the top of the article.")
+
+    # Same CTA repeated 3+ times
+    from collections import Counter
+    text_counts = Counter(cta_texts_seen)
+    for text, count in text_counts.items():
+        if count >= 3 and text:
+            ux_score -= 3
+            issues.append(f"CTA '{text[:30]}' appears {count} times. Repeated identical CTAs create banner blindness.")
+            break
+
+    ux_score = max(0, ux_score)
+
+    # === Penalties ===
+    penalty = 0
+
+    # Section saturation: what % of sections have CTAs?
+    sections_with_cta = len(set(c["position"] for c in ctas_with_position))
+    if total_sections > 0:
+        saturation = sections_with_cta / total_sections
+        if saturation > 0.7:
+            penalty += 10
+            issues.append(f"CTAs in {saturation:.0%} of sections. This is CTA spam — research shows it reduces engagement 15-20%.")
+        elif saturation > 0.5:
+            penalty += 5
+            issues.append(f"CTAs in {saturation:.0%} of sections. Consider reducing to 1 per 3-4 sections.")
+
+    # Duplicate fatigue
+    for text, count in text_counts.items():
+        if count >= 3 and text:
+            penalty += 4
+            break
+
+    # === Final Score ===
+    raw_score = qty_score + placement_score + intent_score + ux_score - penalty
+    score = max(0, min(100, raw_score))
+
+    if score >= 85:
+        grade = "excellent"
+    elif score >= 70:
+        grade = "solid"
+    elif score >= 55:
+        grade = "needs_work"
+    else:
+        grade = "poor"
+
+    return {
+        "score": score,
+        "grade": grade,
+        "breakdown": {
+            "quantity": qty_score,
+            "placement": placement_score,
+            "intent_match": intent_score,
+            "ux": ux_score,
+            "penalties": -penalty,
+        },
+        "issues": issues,
+    }
 
 
 def get_topic_tags(text: str, title: str, products: list[str]) -> list[str]:
@@ -462,8 +760,6 @@ def classify_article(article: dict, cta_lib: list, trail_lib: list = None) -> di
     cta_by_section = {c.get("position_after_section", -1): c for c in existing_ctas}
 
     section_analyses = []
-    section_scores = []
-    misaligned = 0
 
     for section in sections:
         idx = section["index"]
@@ -477,7 +773,10 @@ def classify_article(article: dict, cta_lib: list, trail_lib: list = None) -> di
         primary_persona, secondary_persona = detect_persona(text, title, products)
         tags = get_topic_tags(text, title, products)
 
-        skip_cta, skip_reason = should_skip_cta(heading, text, word_count)
+        skip_cta, skip_reason = should_skip_cta(
+            heading, text, word_count,
+            section_index=idx, total_sections=len(sections), intent=intent,
+        )
 
         existing_cta_raw = cta_by_section.get(idx)
         existing_cta_obj = None
@@ -503,22 +802,6 @@ def classify_article(article: dict, cta_lib: list, trail_lib: list = None) -> di
             recommendations = get_recommendations(products, funnel, primary_persona, cta_lib, trail_lib)
             recommend_no_cta = False
             no_cta_reason = ""
-
-        # Health scoring
-        has_cta = existing_cta_obj is not None
-        if not has_cta and not recommend_no_cta and recommendations:
-            section_scores.append(0.0)
-            misaligned += 1
-        elif has_cta and recommend_no_cta:
-            section_scores.append(0.0)
-            misaligned += 1
-        elif has_cta and existing_cta_score_obj:
-            s = existing_cta_score_obj["relevance_score"]
-            section_scores.append(s)
-            if s < 0.5:
-                misaligned += 1
-        else:
-            section_scores.append(1.0)
 
         confidence = 0.75  # rule-based confidence
         rationale = (
@@ -546,7 +829,8 @@ def classify_article(article: dict, cta_lib: list, trail_lib: list = None) -> di
             "no_cta_reason": no_cta_reason,
         })
 
-    health = sum(section_scores) / len(section_scores) if section_scores else 1.0
+    # Article-level CTA health scoring (100-point rubric)
+    cta_health = score_article_cta_health(sections, existing_ctas, section_analyses)
 
     return {
         "url": article["url"],
@@ -555,8 +839,12 @@ def classify_article(article: dict, cta_lib: list, trail_lib: list = None) -> di
         "author": author,
         "published_date": published_date,
         "section_analyses": section_analyses,
-        "overall_health_score": round(health, 4),
-        "misaligned_count": misaligned,
+        "overall_health_score": round(cta_health["score"] / 100, 4),  # backward compat 0.0-1.0
+        "cta_health_score": cta_health["score"],
+        "cta_health_grade": cta_health["grade"],
+        "cta_health_breakdown": cta_health["breakdown"],
+        "cta_health_issues": cta_health["issues"],
+        "misaligned_count": len(cta_health["issues"]),  # backward compat — issues count
     }
 
 

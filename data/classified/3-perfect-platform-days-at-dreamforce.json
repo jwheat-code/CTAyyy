@@ -27,31 +27,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-learn-sales-cloud-fundamentals",
-          "name": "Agentforce Sales: Run Your Entire Sales Operation",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
-          "duration_minutes": 425,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage it_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -148,31 +126,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "name": "Empower Your Employees with Specialized Agents in Slack",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "duration_minutes": 135,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage it_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 3,
@@ -227,6 +183,19 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.125,
-  "misaligned_count": 3
+  "overall_health_score": 0.5,
+  "cta_health_score": 50,
+  "cta_health_grade": "poor",
+  "cta_health_breakdown": {
+    "quantity": 10,
+    "placement": 0,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "CTAs are only at the top. Move at least one to mid-article or conclusion where readers are most engaged.",
+    "No CTA at the end of the article. Readers who finish are your highest-intent audience."
+  ],
+  "misaligned_count": 2
 }

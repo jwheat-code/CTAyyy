@@ -26,34 +26,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
-          "name": "Prepare for Your Agentforce Life Sciences Consultant Certification",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
-          "duration_minutes": 1240,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage it_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-discover-the-healthcare-and-life-sciences-industry",
-          "name": "Discover the Healthcare and Life Sciences Industry",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/discover-the-healthcare-and-life-sciences-industry",
-          "duration_minutes": 120,
-          "score": 0.85,
-          "match_rationale": "Trail targets industry_clouds at awareness stage for awareness-stage it_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -78,31 +53,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
-          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
-          "duration_minutes": 285,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage business_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "wtl",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage business_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at consideration stage for consideration-stage business_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -128,34 +81,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
-          "name": "Prepare for Your Agentforce Life Sciences Consultant Certification",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
-          "duration_minutes": 1240,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-discover-the-healthcare-and-life-sciences-industry",
-          "name": "Discover the Healthcare and Life Sciences Industry",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/discover-the-healthcare-and-life-sciences-industry",
-          "duration_minutes": 120,
-          "score": 0.85,
-          "match_rationale": "Trail targets industry_clouds at awareness stage for awareness-stage business_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 3,
@@ -181,34 +109,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
-          "name": "Prepare for Your Agentforce Life Sciences Consultant Certification",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-agentforce-life-sciences-consultant-exam",
-          "duration_minutes": 1240,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-discover-the-healthcare-and-life-sciences-industry",
-          "name": "Discover the Healthcare and Life Sciences Industry",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/discover-the-healthcare-and-life-sciences-industry",
-          "duration_minutes": 120,
-          "score": 0.85,
-          "match_rationale": "Trail targets industry_clouds at awareness stage for awareness-stage business_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 4,
@@ -265,6 +168,16 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.0,
-  "misaligned_count": 5
+  "overall_health_score": 0.45,
+  "cta_health_score": 45,
+  "cta_health_grade": "poor",
+  "cta_health_breakdown": {
+    "quantity": 5,
+    "placement": 0,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [],
+  "misaligned_count": 0
 }

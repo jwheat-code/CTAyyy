@@ -43,33 +43,25 @@
         "issues": [],
         "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-learn-sales-cloud-fundamentals",
-          "name": "Agentforce Sales: Run Your Entire Sales Operation",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
-          "duration_minutes": 425,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     }
   ],
-  "overall_health_score": 0.8,
-  "misaligned_count": 0
+  "overall_health_score": 0.67,
+  "cta_health_score": 67,
+  "cta_health_grade": "needs_work",
+  "cta_health_breakdown": {
+    "quantity": 25,
+    "placement": 15,
+    "intent_match": 30,
+    "ux": 7,
+    "penalties": -10
+  },
+  "cta_health_issues": [
+    "No CTA at the end of the article. Readers who finish are your highest-intent audience.",
+    "Multiple CTAs crowding the top of the article.",
+    "CTAs in 100% of sections. This is CTA spam — research shows it reduces engagement 15-20%."
+  ],
+  "misaligned_count": 3
 }

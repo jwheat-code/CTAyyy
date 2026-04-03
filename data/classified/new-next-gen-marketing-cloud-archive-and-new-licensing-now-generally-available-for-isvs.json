@@ -42,33 +42,26 @@
         "issues": [],
         "rationale": "CTA targets consideration-stage readers; section is consideration-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
-          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
-          "duration_minutes": 285,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "wtl",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-data-clean-rooms-demo",
-          "score": 0.85,
-          "match_rationale": "CTA targets data_cloud at consideration stage for consideration-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     }
   ],
-  "overall_health_score": 1.0,
-  "misaligned_count": 0
+  "overall_health_score": 0.61,
+  "cta_health_score": 61,
+  "cta_health_grade": "needs_work",
+  "cta_health_breakdown": {
+    "quantity": 22,
+    "placement": 20,
+    "intent_match": 22,
+    "ux": 7,
+    "penalties": -10
+  },
+  "cta_health_issues": [
+    "No CTA at the end of the article. Readers who finish are your highest-intent audience.",
+    "Hard commercial CTA at the top of a thought leadership article. Use a softer CTA (newsletter, related content) or move it later.",
+    "Multiple CTAs crowding the top of the article.",
+    "CTAs in 100% of sections. This is CTA spam — research shows it reduces engagement 15-20%."
+  ],
+  "misaligned_count": 4
 }

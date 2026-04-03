@@ -31,34 +31,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage sales_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage sales_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-be-more-productive-with-slack",
-          "name": "Slack: Get Started with the Operating System For Work",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/be-more-productive-with-slack",
-          "duration_minutes": 200,
-          "score": 0.85,
-          "match_rationale": "Trail targets slack at decision stage for decision-stage sales_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -84,34 +59,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage sales_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-be-more-productive-with-slack",
-          "name": "Slack: Get Started with the Operating System For Work",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/be-more-productive-with-slack",
-          "duration_minutes": 200,
-          "score": 0.85,
-          "match_rationale": "Trail targets slack at decision stage for decision-stage sales_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-tableau-server",
-          "name": "Get Started with Tableau Server",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-tableau-server",
-          "duration_minutes": 35,
-          "score": 0.85,
-          "match_rationale": "Trail targets tableau at decision stage for decision-stage sales_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -266,6 +216,18 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.0,
-  "misaligned_count": 5
+  "overall_health_score": 0.4,
+  "cta_health_score": 40,
+  "cta_health_grade": "poor",
+  "cta_health_breakdown": {
+    "quantity": 0,
+    "placement": 0,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "No CTAs found in a 1,000+ word article. Consider adding 2-3 CTAs at key points."
+  ],
+  "misaligned_count": 1
 }

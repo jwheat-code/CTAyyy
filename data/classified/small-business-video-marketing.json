@@ -26,34 +26,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "wtl",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "duration_minutes": 741,
-          "score": 0.85,
-          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
-          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
-          "duration_minutes": 285,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -74,34 +49,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-incident-response",
-          "name": "Get Started with Incident Response",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
-          "duration_minutes": 55,
-          "score": 0.5,
-          "match_rationale": "Trail targets general at decision stage for decision-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -139,31 +89,9 @@
         ],
         "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: partial."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.85,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.45,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.45,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 3,
@@ -319,34 +247,9 @@
         ],
         "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-prepare-for-your-salesforce-platform-foundations-certification",
-          "name": "Prepare for your Salesforce Platform Foundations Certification",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/prepare-for-your-salesforce-platform-foundations-certification",
-          "duration_minutes": 1705,
-          "score": 0.95,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-build-your-b2c-commerce-consulting-practice",
-          "name": "Build Your Salesforce B2C Commerce Consulting Practice",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/build-your-b2c-commerce-consulting-practice",
-          "duration_minutes": 100,
-          "score": 0.85,
-          "match_rationale": "Trail targets commerce_cloud at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 6,
@@ -374,34 +277,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
-          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
-          "duration_minutes": 285,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "wtl",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
-          "name": "Get Started with Omnistudio on the Salesforce Platform",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
-          "duration_minutes": 190,
-          "score": 0.65,
-          "match_rationale": "Trail targets platform at decision stage for consideration-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 7,
@@ -455,6 +333,18 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.2938,
-  "misaligned_count": 5
+  "overall_health_score": 0.8,
+  "cta_health_score": 80,
+  "cta_health_grade": "solid",
+  "cta_health_breakdown": {
+    "quantity": 25,
+    "placement": 15,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "No CTA at the end of the article. Readers who finish are your highest-intent audience."
+  ],
+  "misaligned_count": 1
 }

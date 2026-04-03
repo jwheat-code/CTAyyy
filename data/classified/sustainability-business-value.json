@@ -28,34 +28,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage business_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage business_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-incident-response",
-          "name": "Get Started with Incident Response",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
-          "duration_minutes": 55,
-          "score": 0.5,
-          "match_rationale": "Trail targets general at decision stage for decision-stage business_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -78,34 +53,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage business_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage business_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-incident-response",
-          "name": "Get Started with Incident Response",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-incident-response",
-          "duration_minutes": 55,
-          "score": 0.5,
-          "match_rationale": "Trail targets general at decision stage for decision-stage business_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -285,6 +235,16 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.36,
-  "misaligned_count": 3
+  "overall_health_score": 0.79,
+  "cta_health_score": 79,
+  "cta_health_grade": "solid",
+  "cta_health_breakdown": {
+    "quantity": 14,
+    "placement": 25,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [],
+  "misaligned_count": 0
 }

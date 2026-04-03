@@ -29,34 +29,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-deploy-commerce-cloud-einstein",
-          "name": "Deploy Commerce Cloud Einstein",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
-          "duration_minutes": 250,
-          "score": 0.95,
-          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -138,34 +113,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-develop-for-marketing-cloud",
-          "name": "Learn Developer Fundamentals in Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/develop-for-marketing-cloud",
-          "duration_minutes": 180,
-          "score": 0.95,
-          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 3,
@@ -193,34 +143,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-deploy-commerce-cloud-einstein",
-          "name": "Deploy Commerce Cloud Einstein",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/deploy-commerce-cloud-einstein",
-          "duration_minutes": 250,
-          "score": 0.95,
-          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 4,
@@ -248,34 +173,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-industries-order-management",
-          "name": "Get Started with Industries Order Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-industries-order-management",
-          "duration_minutes": 70,
-          "score": 0.85,
-          "match_rationale": "Trail targets commerce_cloud at decision stage for decision-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 5,
@@ -361,37 +261,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.85,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-omnistudio-on-the-salesforce-platform",
-          "name": "Get Started with Omnistudio on the Salesforce Platform",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-omnistudio-on-the-salesforce-platform",
-          "duration_minutes": 190,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at decision stage for decision-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get-started-with-industries-order-management",
-          "name": "Get Started with Industries Order Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get-started-with-industries-order-management",
-          "duration_minutes": 70,
-          "score": 0.85,
-          "match_rationale": "Trail targets commerce_cloud at decision stage for decision-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 7,
@@ -431,36 +303,23 @@
         "issues": [],
         "rationale": "CTA targets consideration-stage readers; section is awareness-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-learn-sales-cloud-fundamentals",
-          "name": "Agentforce Sales: Run Your Entire Sales Operation",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
-          "duration_minutes": 425,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     }
   ],
-  "overall_health_score": 0.1,
-  "misaligned_count": 7
+  "overall_health_score": 0.6,
+  "cta_health_score": 60,
+  "cta_health_grade": "needs_work",
+  "cta_health_breakdown": {
+    "quantity": 14,
+    "placement": 10,
+    "intent_match": 26,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "Evaluation content with no product-focused CTA. Readers comparing solutions expect demos, comparisons, or trials."
+  ],
+  "misaligned_count": 1
 }

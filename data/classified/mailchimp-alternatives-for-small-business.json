@@ -28,31 +28,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "duration_minutes": 741,
-          "score": 0.85,
-          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "wtl",
-          "score": 0.45,
-          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -79,31 +57,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "http:--join.serviceblazer.com",
-          "score": 0.85,
-          "match_rationale": "CTA targets service_cloud at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "name": "Optimize and Grow Your Use of Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/optimize-and-grow-your-use-of-marketing-cloud-engagement",
-          "duration_minutes": 741,
-          "score": 0.85,
-          "match_rationale": "Trail targets marketing_cloud at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "http:--agentblazer.com",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at consideration stage for consideration-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -315,34 +271,9 @@
         "issues": [],
         "rationale": "CTA targets awareness-stage readers; section is awareness-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
-          "name": "Create Engaging Content to Achieve Your Marketing Goals",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
-          "duration_minutes": 729,
-          "score": 0.85,
-          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-learn-sales-cloud-fundamentals",
-          "name": "Agentforce Sales: Run Your Entire Sales Operation",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
-          "duration_minutes": 425,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 6,
@@ -451,6 +382,18 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.25,
-  "misaligned_count": 6
+  "overall_health_score": 0.8,
+  "cta_health_score": 80,
+  "cta_health_grade": "solid",
+  "cta_health_breakdown": {
+    "quantity": 25,
+    "placement": 15,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "No CTA at the end of the article. Readers who finish are your highest-intent audience."
+  ],
+  "misaligned_count": 1
 }

@@ -30,31 +30,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-use-einstein-features-in-marketing-cloud",
-          "name": "Use Einstein Features in Marketing Cloud Engagement",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/use-einstein-features-in-marketing-cloud",
-          "duration_minutes": 90,
-          "score": 0.95,
-          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.informatica.com-departments-data-archi",
-          "score": 0.85,
-          "match_rationale": "CTA targets data_cloud at awareness stage for awareness-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -81,31 +59,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "trail",
-          "trail_id": "trail-learn-sales-cloud-fundamentals",
-          "name": "Agentforce Sales: Run Your Entire Sales Operation",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/learn-sales-cloud-fundamentals",
-          "duration_minutes": 425,
-          "score": 0.95,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.informatica.com-departments-data-archi",
-          "score": 0.85,
-          "match_rationale": "CTA targets data_cloud at awareness stage for awareness-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 2,
@@ -225,6 +181,16 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.2,
-  "misaligned_count": 3
+  "overall_health_score": 0.72,
+  "cta_health_score": 72,
+  "cta_health_grade": "solid",
+  "cta_health_breakdown": {
+    "quantity": 22,
+    "placement": 10,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [],
+  "misaligned_count": 0
 }

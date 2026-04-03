@@ -31,31 +31,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "wtl",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--join.slack.com-t-agentblazercommunity-shar",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at consideration stage for consideration-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-boost-sales-efficiency-with-revenue-cloud",
-          "name": "Boost Sales Efficiency with Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/boost-sales-efficiency-with-revenue-cloud",
-          "duration_minutes": 285,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at consideration stage for consideration-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -97,31 +75,9 @@
         ],
         "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-grow-your-business-with-salesforce-foundations",
-          "name": "Grow Your Business with Salesforce Foundations",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/grow-your-business-with-salesforce-foundations",
-          "duration_minutes": 750,
-          "score": 0.85,
-          "match_rationale": "Trail targets starter at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 2,
@@ -147,31 +103,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage marketing_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-create-engaging-content-to-achieve-your-marketing-goals",
-          "name": "Create Engaging Content to Achieve Your Marketing Goals",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/create-engaging-content-to-achieve-your-marketing-goals",
-          "duration_minutes": 729,
-          "score": 0.85,
-          "match_rationale": "Trail targets marketing_cloud at awareness stage for awareness-stage marketing_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 3,
@@ -212,31 +146,9 @@
         ],
         "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "name": "Empower Your Employees with Specialized Agents in Slack",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "duration_minutes": 135,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 4,
@@ -260,31 +172,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "name": "Empower Your Employees with Specialized Agents in Slack",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "duration_minutes": 135,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 5,
@@ -324,31 +214,9 @@
         ],
         "rationale": "CTA targets decision-stage readers; section is awareness-stage. Product alignment: match."
       },
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "name": "Empower Your Employees with Specialized Agents in Slack",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/build-and-deploy-specialized-agents-in-slack-to-empower-your-employees",
-          "duration_minutes": 135,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 6,
@@ -372,34 +240,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "form-signup-freetrial-salesforce-starter",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at decision stage for decision-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-be-more-productive-with-slack",
-          "name": "Slack: Get Started with the Operating System For Work",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/be-more-productive-with-slack",
-          "duration_minutes": 200,
-          "score": 0.85,
-          "match_rationale": "Trail targets slack at decision stage for decision-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-configure-revenue-cloud",
-          "name": "Configure Agentforce Revenue Management",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/configure-revenue-cloud",
-          "duration_minutes": 1005,
-          "score": 0.55,
-          "match_rationale": "Trail targets agentforce at decision stage for decision-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 7,
@@ -479,31 +322,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--slack.com-resources-using-slack-16-tips-to",
-          "score": 0.85,
-          "match_rationale": "CTA targets slack at awareness stage for awareness-stage small_business_owner reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-grow-your-business-with-salesforce-foundations",
-          "name": "Grow Your Business with Salesforce Foundations",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/grow-your-business-with-salesforce-foundations",
-          "duration_minutes": 750,
-          "score": 0.85,
-          "match_rationale": "Trail targets starter at awareness stage for awareness-stage small_business_owner reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Short narrative section — CTA would interrupt the reading flow."
     },
     {
       "section_index": 9,
@@ -614,6 +435,19 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.1364,
-  "misaligned_count": 8
+  "overall_health_score": 0.82,
+  "cta_health_score": 82,
+  "cta_health_grade": "solid",
+  "cta_health_breakdown": {
+    "quantity": 22,
+    "placement": 25,
+    "intent_match": 25,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "No CTA at the end of the article. Readers who finish are your highest-intent audience.",
+    "CTA 'Try it for free' targets decision readers but article is awareness-stage content."
+  ],
+  "misaligned_count": 2
 }

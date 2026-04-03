@@ -29,31 +29,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "https:--salesforce.wd12.myworkdayjobs.com-External",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.informatica.com-departments-data-archi",
-          "score": 0.85,
-          "match_rationale": "CTA targets data_cloud at awareness stage for awareness-stage business_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-isv_business_beginner",
-          "name": "Grow Your Business as an AppExchange Partner",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/isv_business_beginner",
-          "duration_minutes": 285,
-          "score": 0.85,
-          "match_rationale": "Trail targets platform at awareness stage for awareness-stage business_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -80,31 +58,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "wtl",
-          "score": 0.85,
-          "match_rationale": "CTA targets sales_cloud at consideration stage for consideration-stage business_leader reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "form-data-clean-rooms-demo",
-          "score": 0.85,
-          "match_rationale": "CTA targets data_cloud at consideration stage for consideration-stage business_leader reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-set-up-merchandising-for-your-storefront",
-          "name": "Set Up Merchandising for Your Storefront",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/set-up-merchandising-for-your-storefront",
-          "duration_minutes": 1010,
-          "score": 0.85,
-          "match_rationale": "Trail targets einstein_ai at consideration stage for consideration-stage business_leader reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Narrative section — CTA not needed here. Effective CTAs are placed after value delivery, not during."
     },
     {
       "section_index": 2,
@@ -172,6 +128,18 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.2667,
-  "misaligned_count": 2
+  "overall_health_score": 0.71,
+  "cta_health_score": 71,
+  "cta_health_grade": "solid",
+  "cta_health_breakdown": {
+    "quantity": 25,
+    "placement": 10,
+    "intent_match": 26,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "Evaluation content with no product-focused CTA. Readers comparing solutions expect demos, comparisons, or trials."
+  ],
+  "misaligned_count": 1
 }

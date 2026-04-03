@@ -26,31 +26,9 @@
       },
       "existing_cta": null,
       "existing_cta_score": null,
-      "recommendations": [
-        {
-          "type": "cta",
-          "cta_id": "agentforce-agentic-enterprise-index",
-          "score": 0.85,
-          "match_rationale": "CTA targets agentforce at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "trail",
-          "trail_id": "trail-get_smart_einstein",
-          "name": "Get Smart with Salesforce Einstein",
-          "url": "https://trailhead.salesforce.com/content/learn/trails/get_smart_einstein",
-          "duration_minutes": 75,
-          "score": 0.85,
-          "match_rationale": "Trail targets einstein_ai at awareness stage for awareness-stage developer reader."
-        },
-        {
-          "type": "cta",
-          "cta_id": "https:--www.linkedin.com-events-savethedate-thinkl",
-          "score": 0.5,
-          "match_rationale": "CTA targets general at awareness stage for awareness-stage developer reader."
-        }
-      ],
-      "recommend_no_cta": false,
-      "no_cta_reason": ""
+      "recommendations": [],
+      "recommend_no_cta": true,
+      "no_cta_reason": "Introduction — let the reader engage with the content before presenting a CTA."
     },
     {
       "section_index": 1,
@@ -98,6 +76,18 @@
       "no_cta_reason": ""
     }
   ],
-  "overall_health_score": 0.0,
-  "misaligned_count": 2
+  "overall_health_score": 0.4,
+  "cta_health_score": 40,
+  "cta_health_grade": "poor",
+  "cta_health_breakdown": {
+    "quantity": 0,
+    "placement": 0,
+    "intent_match": 30,
+    "ux": 10,
+    "penalties": 0
+  },
+  "cta_health_issues": [
+    "No CTAs found in a 1,000+ word article. Consider adding 2-3 CTAs at key points."
+  ],
+  "misaligned_count": 1
 }
