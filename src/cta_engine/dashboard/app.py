@@ -182,7 +182,7 @@ for name in ["HubSpot", "Shopify", "ServiceNow"]:
 
 selected_brand = st.session_state.get("selected_brand", "Salesforce")
 
-brand_cols = st.columns([1] * len(available_brands) + [1])
+brand_cols = st.columns(len(available_brands) + 1)
 for i, brand in enumerate(available_brands):
     cfg = BRAND_CONFIG.get(brand, {})
     is_active = brand == selected_brand
