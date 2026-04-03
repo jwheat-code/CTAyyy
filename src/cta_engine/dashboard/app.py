@@ -777,12 +777,13 @@ Soft CTAs count as 0.5 for quantity scoring — they're less intrusive and appro
 
 ### Sources
 
-- HubSpot CTA Analysis: 330,000+ CTAs, personalized CTAs convert 202% better (2024)
-- Chartbeat: Scroll depth and click distribution data — 70% of conversions past 50% depth
-- Nielsen Norman Group: Banner blindness — users ignore elements that look like ads
-- ContentSquare: CTA best practices benchmarks (2025)
-- Stratabeat: Long-form B2B blog analysis — 3+ CTAs = 3x traffic but diminishing returns
-- BlissDrive: Ideal CTA count analysis for blog posts
+- [HubSpot: Personalized CTAs convert 202% better (330K+ CTA analysis)](https://blog.hubspot.com/marketing/personalized-calls-to-action-convert-better-data)
+- [ContentSquare: 8 CTA Best Practices to Increase Conversions](https://contentsquare.com/blog/cta-best-practices/)
+- [Nielsen Norman Group: Banner Blindness Revisited](https://www.nngroup.com/articles/banner-blindness-old-and-new-findings/)
+- [Stratabeat: The Ultimate Guide to B2B Blogging](https://stratabeat.com/b2b-blogging/)
+- [BlissDrive: Ideal Number of CTAs in a Long-Form Blog Post](https://www.blissdrive.com/people-also-asked/whats-the-ideal-number-of-ctas-in-a-long-form-blog-post/)
+- [WSI: Blog Conversion Optimization Tips](https://wsi.leapdigital.ca/optimize-your-blog-for-conversions-cro-tactics-for-content-that-performs/)
+- [Semrush: Crawlability & Indexability](https://www.semrush.com/blog/what-are-crawlability-and-indexability-of-a-website/)
 """)
 
     st.markdown("---")
