@@ -333,13 +333,13 @@ if crawl_clicked:
         st.sidebar.error(f"Error: {e}")
 
 # --- Main Content ---
-tab1, tab2, tab3, tab4 = st.tabs(["Article Overview", "Section Analysis", "Batch Summary", "Methodology"])
+tab1, tab2, tab3, tab4 = st.tabs(["Article Overview", "Section Analysis", "Scorecard", "Methodology"])
 
 # === Tab 1: Article Overview ===
 with tab1:
     if is_competitor:
         cfg = BRAND_CONFIG.get(selected_brand, {})
-        st.info(f"Article-level analysis is only available for Salesforce. Switch to **Batch Summary** to see {cfg.get('icon', '')} {selected_brand} data.")
+        st.info(f"Article-level analysis is only available for Salesforce. Switch to **Scorecard** to see {cfg.get('icon', '')} {selected_brand} data.")
     elif selected_slug:
         article = articles[selected_slug]
         analysis = analyses.get(selected_slug)
@@ -396,7 +396,7 @@ with tab1:
 with tab2:
     if is_competitor:
         cfg = BRAND_CONFIG.get(selected_brand, {})
-        st.info(f"Section-level analysis is only available for Salesforce. Switch to **Batch Summary** to see {cfg.get('icon', '')} {selected_brand} data.")
+        st.info(f"Section-level analysis is only available for Salesforce. Switch to **Scorecard** to see {cfg.get('icon', '')} {selected_brand} data.")
     elif selected_slug and selected_slug in analyses:
         analysis = analyses[selected_slug]
         article = articles[selected_slug]
@@ -491,10 +491,10 @@ with tab2:
     elif selected_slug:
         st.info(f"No analysis for **{articles[selected_slug].get('title', selected_slug)}** yet.")
 
-# === Tab 3: Batch Summary ===
+# === Tab 3: Scorecard ===
 with tab3:
     if is_competitor and competitor_data:
-        # --- Competitor Batch Summary ---
+        # --- Competitor Scorecard ---
         cfg = BRAND_CONFIG.get(selected_brand, {})
         st.markdown(f"### {cfg.get('icon', '')} {selected_brand} — {selected_year} Audit")
 
@@ -560,7 +560,7 @@ with tab3:
             )
 
     elif analyses:
-        # --- Salesforce Batch Summary ---
+        # --- Salesforce Scorecard ---
         health_df = build_health_df(analyses, articles)
         analyzed_df = health_df[health_df["Has Analysis"]].copy()
 
