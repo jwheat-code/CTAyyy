@@ -256,17 +256,9 @@ analyzed_slugs = sorted(analyses.keys())
 
 selected_slug = None
 if not is_competitor and article_slugs:
-    filter_mode = st.sidebar.radio("Show", ["All Articles", "Analyzed Only", "Not Analyzed"])
-    if filter_mode == "Analyzed Only":
-        display_slugs = [s for s in article_slugs if s in analyses]
-    elif filter_mode == "Not Analyzed":
-        display_slugs = [s for s in article_slugs if s not in analyses]
-    else:
-        display_slugs = article_slugs
-
     selected_slug = st.sidebar.selectbox(
         "Select Article",
-        display_slugs,
+        article_slugs,
         format_func=lambda s: articles[s].get("title", s)[:60],
     )
 
