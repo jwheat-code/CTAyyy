@@ -224,6 +224,10 @@ if is_competitor:
         competitor_data["total_sections"] = sum(r.get("sections", 0) for r in competitor_data["article_rows"])
         competitor_data["total_cta_issues"] = sum(r.get("misaligned", 0) for r in competitor_data["article_rows"])
         competitor_data["healthy_articles"] = sum(1 for r in competitor_data["article_rows"] if r.get("health", 0) >= 0.7)
+    # Warn if no data for selected year
+    if competitor_data["total_articles"] == 0 and selected_year != "All":
+        st.error(f"No {selected_year} data exists for {selected_brand} at this time. Competitor audits currently cover 2026 only.")
+        st.stop()
     cta_library = {}
     trail_library = {}
     articles = {}
@@ -529,10 +533,25 @@ with tab3:
         st.markdown("#### Article Health Scores")
         comp_df = build_competitor_health_df(cd)
         if not comp_df.empty:
-            show_cols = [c for c in ["Article", "Author", "Published", "Sections", "Misaligned", "Aligned", "Health Score"] if c in comp_df.columns]
-            disp = comp_df[show_cols].sort_values("Health Score", ascending=True).copy()
-            disp["Health Score"] = disp["Health Score"].map(lambda x: f"{x:.0%}")
-            st.dataframe(disp, use_container_width=True, hide_index=True)
+            comp_df["CTA Health"] = comp_df["Health Score"].map(lambda x: int(x * 100))
+            comp_df["Grade"] = comp_df["Health Score"].map(
+                lambda x: "🟢 Excellent" if x >= 0.85 else "🔵 Solid" if x >= 0.70 else "🟡 Needs Work" if x >= 0.55 else "🔴 Poor"
+            )
+            show_cols = [c for c in ["Article", "Author", "Published", "Sections", "CTA Health", "Grade"] if c in comp_df.columns]
+            disp = comp_df[show_cols].sort_values("CTA Health", ascending=True).copy()
+            st.dataframe(
+                disp,
+                use_container_width=True,
+                hide_index=True,
+                column_config={
+                    "Article": st.column_config.TextColumn("Article", width="large"),
+                    "Author": st.column_config.TextColumn("Author", width="medium"),
+                    "Published": st.column_config.TextColumn("Published", width="small"),
+                    "Sections": st.column_config.NumberColumn("Sections", width="small"),
+                    "CTA Health": st.column_config.NumberColumn("CTA Health", width="small"),
+                    "Grade": st.column_config.TextColumn("Grade", width="medium"),
+                },
+            )
 
     elif analyses:
         # --- Salesforce Batch Summary ---
@@ -598,7 +617,19 @@ with tab3:
             .sort_values("CTA Health", ascending=True)
             .copy()
         )
-        st.dataframe(display_df, use_container_width=True, hide_index=True)
+        st.dataframe(
+            display_df,
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                "Article": st.column_config.TextColumn("Article", width="large"),
+                "Author": st.column_config.TextColumn("Author", width="medium"),
+                "Published": st.column_config.TextColumn("Published", width="small"),
+                "Sections": st.column_config.NumberColumn("Sections", width="small"),
+                "CTA Health": st.column_config.NumberColumn("CTA Health", width="small", help="0-100 score. See Methodology tab."),
+                "Grade": st.column_config.TextColumn("Grade", width="medium"),
+            },
+        )
 
         # Detailed export
         detail_rows = []
