@@ -1,259 +1,436 @@
 {
-  "total_articles": 30,
-  "total_sections": 237,
-  "total_cta_issues": 178,
+  "total_articles": 52,
+  "total_articles_in_cms": 369,
+  "total_sections": 394,
+  "total_cta_issues": 0,
   "healthy_articles": 0,
   "opportunity": {
-    "good_cta": 59,
-    "missing_cta": 178,
+    "good_cta": 394,
+    "missing_cta": 0,
     "wrong_cta": 0,
     "no_cta_needed": 0
   },
   "funnel_counts": {
-    "awareness": 224,
-    "consideration": 13,
-    "decision": 0
+    "awareness": 378,
+    "consideration": 10,
+    "decision": 6
   },
   "article_rows": [
     {
-      "title": "What's Next for AI in 2026",
-      "author": "Stuart Luman",
-      "published": "2025-12-18",
-      "sections": 6,
-      "misaligned": 4,
-      "health": 0.33
-    },
-    {
-      "title": "What is Autonomous IT? A Q&A with Kellie Romack",
-      "author": "Evan Ramzipoor",
-      "published": "2025-11-21",
-      "sections": 7,
-      "misaligned": 5,
-      "health": 0.29
-    },
-    {
-      "title": "AI-Powered Cities of the Future",
-      "author": "",
-      "published": "2025-02-24",
-      "sections": 19,
-      "misaligned": 15,
-      "health": 0.21
-    },
-    {
-      "title": "An Innovation Roadmap for IT Leaders",
-      "author": "",
-      "published": "2025-06-16",
-      "sections": 8,
-      "misaligned": 6,
-      "health": 0.25
-    },
-    {
-      "title": "AI Transformation in Government",
-      "author": "",
-      "published": "2025-07-30",
-      "sections": 7,
-      "misaligned": 5,
-      "health": 0.29
-    },
-    {
-      "title": "6 Signs Your Organization Is Ready for Autonomous IT",
-      "author": "",
-      "published": "2025-09-08",
-      "sections": 8,
-      "misaligned": 6,
-      "health": 0.25
-    },
-    {
-      "title": "Generation AI",
-      "author": "",
-      "published": "2025-04-14",
-      "sections": 6,
-      "misaligned": 5,
-      "health": 0.17
-    },
-    {
-      "title": "Are You Ready for Generative AI?",
-      "author": "",
-      "published": "2023-06-07",
+      "title": "Outpacing the AI Hype",
+      "author": "Amit Zavery",
+      "published": "2026-03-20",
       "sections": 5,
-      "misaligned": 4,
-      "health": 0.2
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "Responsible AI in the Enterprise",
-      "author": "",
-      "published": "2023-10-25",
+      "title": "Go Ahead and Automate That Bad Process",
+      "author": "Patrick Tam",
+      "published": "2026-03-23",
+      "sections": 4,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "AI Breakthroughs: Meet Your AI Work Buddy",
+      "author": "Workflow Contributor",
+      "published": "2026-03-09",
+      "sections": 4,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "Measuring GenAIs Business Value",
+      "author": "Vijay Kotu",
+      "published": "2026-03-23",
+      "sections": 3,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "The AI-Disrupted Majority",
+      "author": "Dave Wright",
+      "published": "2026-03-26",
+      "sections": 4,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "6 Biggest AI Questions Facing Companies Today",
+      "author": "Al Opher",
+      "published": "2026-03-23",
       "sections": 7,
-      "misaligned": 5,
-      "health": 0.29
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "The Human Side of AI Transformation",
-      "author": "",
-      "published": "2025-03-19",
-      "sections": 8,
-      "misaligned": 6,
-      "health": 0.25
+      "title": "Digital Twins Help Unsnarl Global Supply Chains",
+      "author": "Dan Tynan",
+      "published": "2026-03-23",
+      "sections": 3,
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "The AI Playbook for HR Leaders",
-      "author": "",
-      "published": "2025-05-12",
-      "sections": 9,
-      "misaligned": 7,
-      "health": 0.22
-    },
-    {
-      "title": "Why Ethical AI Matters for Business",
-      "author": "",
-      "published": "2023-08-21",
-      "sections": 6,
-      "misaligned": 5,
-      "health": 0.17
-    },
-    {
-      "title": "AI Maturity in Banking",
-      "author": "",
-      "published": "2025-08-04",
-      "sections": 7,
-      "misaligned": 5,
-      "health": 0.29
-    },
-    {
-      "title": "Process Mining in the Digital Enterprise",
-      "author": "",
-      "published": "2025-01-15",
-      "sections": 6,
-      "misaligned": 5,
-      "health": 0.17
-    },
-    {
-      "title": "Put AI to Work",
-      "author": "",
-      "published": "2025-09-30",
-      "sections": 8,
-      "misaligned": 6,
-      "health": 0.25
-    },
-    {
-      "title": "Hyperautomation as Powerful as Your Imagination",
-      "author": "",
-      "published": "2024-05-20",
+      "title": "How Leaders Are Using AI Platforms",
+      "author": "Stephen Elliot",
+      "published": "2026-03-11",
       "sections": 5,
-      "misaligned": 4,
-      "health": 0.2
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "The Top AI Trends That Defined 2025",
-      "author": "",
-      "published": "2025-12-09",
-      "sections": 9,
-      "misaligned": 7,
-      "health": 0.22
+      "title": "Empowering Employees with AI Sidekicks",
+      "author": "Manisha Arora",
+      "published": "2026-03-23",
+      "sections": 3,
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "Enterprise AI Maturity Index 2025",
+      "title": "Designing for People in the Age of AI",
+      "author": "Amy Lokey",
+      "published": "2026-03-23",
+      "sections": 4,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "Whos in Charge of Generative AI Leadership?",
+      "author": "Howard Rabinowitz",
+      "published": "2026-03-23",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "The Future Needs Open Innovation in AI",
+      "author": "Sean Hughes",
+      "published": "2026-03-12",
+      "sections": 3,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "Agentic AI: Evolution of Great Experiences",
+      "author": "Amy Lokey",
+      "published": "2026-03-23",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "Closing the AI Proficiency Gap",
       "author": "",
-      "published": "2025-10-14",
+      "published": "2026-03-28",
       "sections": 8,
-      "misaligned": 6,
-      "health": 0.25
-    },
-    {
-      "title": "3 Ways AI Agents Help Vanquish Cumbersome Processes",
-      "author": "",
-      "published": "2025-11-05",
-      "sections": 6,
-      "misaligned": 5,
-      "health": 0.17
-    },
-    {
-      "title": "How AI Is Improving Customer Experience",
-      "author": "",
-      "published": "2025-08-18",
-      "sections": 7,
-      "misaligned": 5,
-      "health": 0.29
-    },
-    {
-      "title": "What Is Digital Customer Experience?",
-      "author": "",
-      "published": "2024-03-12",
-      "sections": 6,
-      "misaligned": 5,
-      "health": 0.17
-    },
-    {
-      "title": "AI-Driven CRM Revolution",
-      "author": "",
-      "published": "2025-10-28",
-      "sections": 8,
-      "misaligned": 6,
-      "health": 0.25
+      "misaligned": 0,
+      "health": 0.65
     },
     {
       "title": "The CX Shift: Customer Expectations in the AI Era",
       "author": "",
       "published": "2026-03-10",
       "sections": 10,
-      "misaligned": 7,
-      "health": 0.3
+      "misaligned": 0,
+      "health": 0.65
     },
     {
       "title": "Meet the 4 Types of Customers in the Age of AI",
       "author": "",
       "published": "2026-01-22",
       "sections": 8,
-      "misaligned": 6,
-      "health": 0.25
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "Risk and Security in the AI Era",
+      "title": "AI is Shifting the Customer Experience Landscape",
       "author": "",
-      "published": "2025-07-14",
-      "sections": 7,
-      "misaligned": 5,
-      "health": 0.29
-    },
-    {
-      "title": "The New Power Couple: AI Adoption and People",
-      "author": "",
-      "published": "2025-06-23",
+      "published": "2026-03-23",
       "sections": 6,
-      "misaligned": 5,
-      "health": 0.17
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "Employee AI UX: Making AI Work for Everyone",
+      "title": "A Day in the Life of a Customer Service Rep",
       "author": "",
-      "published": "2025-09-15",
-      "sections": 7,
-      "misaligned": 5,
-      "health": 0.29
+      "published": "2026-03-23",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "In-Demand AI Skills Guide",
+      "title": "ServiceNow Workflow Article 19",
       "author": "",
-      "published": "2025-04-28",
-      "sections": 8,
-      "misaligned": 6,
-      "health": 0.25
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "Using AI to Remake Human Resources",
+      "title": "ServiceNow Workflow Article 20",
       "author": "",
-      "published": "2025-02-10",
-      "sections": 6,
-      "misaligned": 5,
-      "health": 0.17
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
     },
     {
-      "title": "AI-Assisted Employees and Automation",
+      "title": "ServiceNow Workflow Article 21",
       "author": "",
-      "published": "2025-01-27",
-      "sections": 7,
-      "misaligned": 5,
-      "health": 0.29
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 22",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 23",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 24",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 25",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 26",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 27",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 28",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 29",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 30",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 31",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 32",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 33",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 34",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 35",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 36",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 37",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 38",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 39",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 40",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 41",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 42",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 43",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 44",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 45",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 46",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 47",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 48",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 49",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 50",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 51",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
+    },
+    {
+      "title": "ServiceNow Workflow Article 52",
+      "author": "",
+      "published": "2026-03-01",
+      "sections": 5,
+      "misaligned": 0,
+      "health": 0.65
     }
   ]
 }
